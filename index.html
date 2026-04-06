@@ -911,6 +911,168 @@
   .modal th:first-child { text-align: left; }
   .modal td { padding: 10px 12px; border-bottom: 1px solid #F0F0F2; text-align: center; color: #4A4759; }
   .modal td:first-child { text-align: left; font-weight: 600; color: #0F0E1A; }
+
+  /* DATA CARD — mimics actual GeoRank24 crawl result */
+  .data-card {
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .data-card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #F0F0F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .data-query {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0F0E1A;
+    line-height: 1.3;
+  }
+  .data-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    font-size: 11px;
+    color: #8B8799;
+  }
+  .data-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .data-badge.chatgpt { background: #E8F5E9; color: #2E7D32; }
+  .data-badge.gemini { background: #E3F2FD; color: #1565C0; }
+  .data-badge.perplexity { background: #F3E5F5; color: #7B1FA2; }
+  .data-badge.aio { background: #FFF8E1; color: #F57F17; }
+  .data-badge.aimode { background: #FCE4EC; color: #C62828; }
+  .data-badge.country { background: #F5F5F5; color: #424242; font-weight: 700; }
+  .data-badge.success { background: #E8F5E9; color: #2E7D32; }
+
+  .data-response {
+    padding: 16px 20px;
+    border-bottom: 1px solid #F0F0F2;
+  }
+  .data-response-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #8B8799;
+    margin-bottom: 8px;
+  }
+  .data-response-text {
+    font-size: 13px;
+    color: #4A4759;
+    line-height: 1.65;
+    max-height: 80px;
+    overflow: hidden;
+    position: relative;
+    background: #FAFAFA;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #F0F0F2;
+  }
+  .data-response-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(transparent, #FAFAFA);
+  }
+
+  .data-citations {
+    padding: 16px 20px;
+  }
+  .data-citations-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0F0E1A;
+    margin-bottom: 12px;
+  }
+  .citation-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #F0F0F2;
+  }
+  .citation-item:last-child { border-bottom: none; }
+  .citation-rank {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    flex-shrink: 0;
+  }
+  .citation-rank.r1 { background: #14B8A6; }
+  .citation-rank.r2 { background: #0D9488; }
+  .citation-rank.r3 { background: #4A4759; }
+  .citation-rank.r4 { background: #8B8799; }
+  .citation-rank.r5 { background: #D4D1DE; color: #4A4759; }
+  .citation-info { flex: 1; }
+  .citation-url {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0F0E1A;
+    text-decoration: none;
+  }
+  .citation-domain {
+    font-size: 11px;
+    color: #8B8799;
+    margin-top: 1px;
+  }
+  .citation-link-icon {
+    font-size: 11px;
+    color: #14B8A6;
+    margin-left: 4px;
+  }
+
+  .data-screenshot {
+    padding: 12px 20px 16px;
+    border-top: 1px solid #F0F0F2;
+  }
+  .data-screenshot-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #8B8799;
+    margin-bottom: 8px;
+  }
+  .screenshot-placeholder {
+    background: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #8B8799;
+  }
+
+  .data-cards-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8B8799;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
   .modal-insight {
     background: #0F0E1A;
     color: white;
@@ -1120,23 +1282,123 @@
     <div class="modal">
       <div class="modal-header"><h2>💄 Beauty / Skincare — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
       <div class="modal-body">
-        <div class="modal-pain"><strong>Why Beauty Brands Need This:</strong> A single parent company (Amorepacific, L'Oréal) manages 10+ sub-brands. Tracking each brand × 12 countries × 7 AI platforms creates hundreds of combinations. K-beauty vs. Western brand competition plays out differently in every market — impossible to monitor manually.</div>
-        <div class="modal-subtitle">Query: "best Korean skincare routine for dry skin"</div>
-        <table>
-          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
-          <tr><td>#1</td><td>Laneige Water Bank</td><td>Sulwhasoo Essential</td><td>COSRX Snail Mucin</td><td>Laneige Water Bank</td></tr>
-          <tr><td>#2</td><td>COSRX Snail Mucin</td><td>Laneige Water Bank</td><td>Laneige Water Bank</td><td>COSRX Advanced Snail</td></tr>
-          <tr><td>#3</td><td>Sulwhasoo Essential</td><td>Innisfree Green Tea</td><td>The Ordinary HA+B5</td><td>Innisfree Green Tea</td></tr>
-        </table>
-        <div class="modal-subtitle">Same Query — Different Countries</div>
-        <table>
-          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇯🇵 Japan</th></tr>
-          <tr><td>#1</td><td>Laneige</td><td>Sulwhasoo</td><td>Laneige</td></tr>
-          <tr><td>#2</td><td>COSRX</td><td>Laneige</td><td>COSRX</td></tr>
-          <tr><td>#3</td><td>The Ordinary</td><td>Innisfree</td><td>Innisfree</td></tr>
-        </table>
-        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Sulwhasoo ranks #1 in Korea but doesn't even make the Top 5 in US ChatGPT.</strong> Meanwhile, The Ordinary ($10 serum) is beating premium brands in "best anti-aging" across 3 platforms. Your CMO needs this data — by country, by platform, in real-time.</div>
-        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+
+        <div class="modal-pain"><strong>Why Beauty Brands Need This:</strong> A single parent company (Amorepacific, L'Oréal) manages 10+ sub-brands. Tracking each brand × 12 countries × 7 AI platforms = hundreds of combinations. K-beauty vs. Western brand competition plays out differently in every market.</div>
+        <div class="data-cards-label">Sample Crawl Results — Same Query, Different Platform & Country</div>
+        
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best Korean skincare routine for dry skin</div>
+            <div class="data-meta">
+              <span class="data-badge chatgpt">CHATGPT</span>
+              <span class="data-badge country">US</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">For a Korean skincare routine targeting dry skin, the Laneige Water Bank Blue Hyaluronic line is a top recommendation, known for deep hydration with hyaluronic acid. COSRX Advanced Snail 96 Mucin Power Essence is another essential — its snail mucin provides intense moisture repair. For a premium option, Sulwhasoo's Essential Comfort Moisturizing Cream combines traditional Korean herbal ingredients with modern hydration technology. Key steps: double cleanse → toner (Klairs Supple Preparation) → essence (COSRX Snail 96) → serum → moisturizer (Laneige Water Bank)...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (5)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.allure.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">allure.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.byrdie.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">byrdie.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.reddit.com/r/AsianBeauty <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">reddit.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.yesstyle.com/blog <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">yesstyle.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">www.paulaschoice.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">paulaschoice.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best Korean skincare routine for dry skin</div>
+            <div class="data-meta">
+              <span class="data-badge aio">AI_OVERVIEW</span>
+              <span class="data-badge country">KR</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">건성 피부를 위한 한국 스킨케어 루틴에서는 설화수 자음생크림이 가장 많이 추천됩니다. 전통 한방 성분인 인삼과 작약 추출물이 깊은 보습을 제공합니다. 라네즈 워터뱅크 블루 히알루로닉 크림은 히알루로닉산 기반의 가벼운 보습을 원하는 분께 추천됩니다. 이니스프리 그린티 씨드 세럼은 항산화 + 보습 효과를 동시에 제공합니다...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (4)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.oliveyoung.co.kr <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">oliveyoung.co.kr</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.sulwhasoo.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">sulwhasoo.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.laneige.com/kr <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">laneige.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">blog.naver.com/beauty_review <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">blog.naver.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Sulwhasoo ranks #1 in Korea's AI Overview but doesn't even make the Top 5 in US ChatGPT.</strong> Meanwhile, The Ordinary ($10 serum) beats premium brands in "best anti-aging" across 3 platforms. Notice how the citation sources are completely different — US cites Allure/Byrdie, Korea cites OliveYoung/Naver.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
       </div>
     </div>
   </div>
@@ -1145,23 +1407,71 @@
     <div class="modal">
       <div class="modal-header"><h2>👜 Fashion / Luxury — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
       <div class="modal-body">
-        <div class="modal-pain"><strong>Why Fashion Brands Need This:</strong> In luxury, <strong>brand image IS revenue</strong>. If AI doesn't recommend your brand when users ask "best luxury handbag," it's direct brand value erosion. Counterfeit-related content in AI training data can contaminate brand-keyword associations — tracking this across 4 platforms × 12 countries is impossible with traditional media monitoring.</div>
-        <div class="modal-subtitle">Query: "best luxury handbag worth the investment"</div>
-        <table>
-          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
-          <tr><td>#1</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td></tr>
-          <tr><td>#2</td><td>Chanel Classic Flap</td><td>Louis Vuitton</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td></tr>
-          <tr><td>#3</td><td>Louis Vuitton</td><td>Hermès Birkin</td><td>LV Capucines</td><td>Louis Vuitton</td></tr>
-        </table>
-        <div class="modal-subtitle">Same Query — Different Countries</div>
-        <table>
-          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇩🇪 Germany</th></tr>
-          <tr><td>#1</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td></tr>
-          <tr><td>#2</td><td>Chanel</td><td>Hermès Birkin</td><td>Louis Vuitton</td></tr>
-          <tr><td>#3</td><td>Louis Vuitton</td><td>Dior Lady Dior</td><td>Chanel</td></tr>
-        </table>
-        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Gucci doesn't appear in the Top 3 across ANY of the 4 AI platforms for "best luxury handbag."</strong> After the creative director change, the brand repositioning hasn't been reflected in AI recommendations yet — a "Perception Lag" phenomenon that Kering Group needs to monitor in real-time.</div>
-        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+
+        <div class="modal-pain"><strong>Why Fashion Brands Need This:</strong> In luxury, <strong>brand image IS revenue</strong>. If AI doesn't recommend your brand for "best luxury," it's direct brand value erosion. Counterfeit content in AI training data can contaminate brand associations — monitoring across platforms is critical.</div>
+        <div class="data-cards-label">Sample Crawl Result — Perplexity AI</div>
+        
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best luxury handbag worth the investment</div>
+            <div class="data-meta">
+              <span class="data-badge perplexity">PERPLEXITY</span>
+              <span class="data-badge country">US</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">When considering luxury handbags as investments, the Hermès Birkin leads with 14.2% annual appreciation — outperforming the S&P 500 over the past decade. The Chanel Classic Flap has seen 70% price increases since 2019, making it the second-best investment piece. Louis Vuitton Neverfull offers the best entry-level luxury with strong resale value (typically 80-90% of retail). Notably absent from investment discussions: Gucci, whose resale values have dropped 15% following the creative director transition...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (5)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.fashionphile.com/resale-report <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">fashionphile.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.rebag.com/clair-report <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">rebag.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.purseblog.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">purseblog.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.bbc.com/culture/luxury <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">bbc.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">www.vogue.com/bags <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">vogue.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Gucci is explicitly mentioned as a declining investment in Perplexity's response</strong> — citing resale value drops. This negative sentiment in AI answers directly impacts consumer purchase decisions. For Kering Group, monitoring how AI frames each brand's investment value is now as critical as traditional press monitoring. Note: the citation sources (Fashionphile, Rebag) are resale platforms, not fashion media.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
       </div>
     </div>
   </div>
@@ -1170,23 +1480,137 @@
     <div class="modal">
       <div class="modal-header"><h2>📱 Smartphones — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
       <div class="modal-body">
-        <div class="modal-pain"><strong>Why Smartphone Brands Need This:</strong> New models launch every 6 months, but AI training data lags by weeks to months. Tracking how competitor launches shift AI recommendations <strong>in real-time</strong> is essential. Monitoring 4 AI platforms × 12 countries × hundreds of comparison keywords manually is engineering waste.</div>
-        <div class="modal-subtitle">Query: "best smartphone 2026"</div>
-        <table>
-          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
-          <tr><td>#1</td><td>iPhone 17 Pro</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro Max</td><td>Galaxy S26 Ultra</td></tr>
-          <tr><td>#2</td><td>Galaxy S26 Ultra</td><td>Google Pixel 10 Pro</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro</td></tr>
-          <tr><td>#3</td><td>Google Pixel 10</td><td>iPhone 17 Pro</td><td>Pixel 10 Pro</td><td>Pixel 10 Pro</td></tr>
-        </table>
-        <div class="modal-subtitle">Same Query — Different Countries</div>
-        <table>
-          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇮🇳 India</th><th>🇩🇪 Germany</th></tr>
-          <tr><td>#1</td><td>iPhone 17 Pro</td><td>Galaxy S26 Ultra</td><td>Galaxy S26 Ultra</td><td>Galaxy S26 Ultra</td></tr>
-          <tr><td>#2</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro</td><td>iPhone 17 Pro</td><td>iPhone 17 Pro</td></tr>
-          <tr><td>#3</td><td>Pixel 10 Pro</td><td>Pixel 10 Pro</td><td>Xiaomi 16 Pro</td><td>Pixel 10 Pro</td></tr>
-        </table>
-        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>On Google Gemini, Google Pixel ranks #2 for "best smartphone" — potential self-preferencing by Google's own AI platform.</strong> Samsung needs to quantitatively track per-platform bias. Also, Xiaomi enters Top 3 in India but is invisible in US/EU — a regional gap HQ can't detect without localized monitoring.</div>
-        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+
+        <div class="modal-pain"><strong>Why Smartphone Brands Need This:</strong> New models launch every 6 months, but AI training data lags. Tracking how competitor launches shift AI recommendations <strong>in real-time</strong> across 7 platforms × 12 countries is impossible manually. Note: each platform may show different model recommendations and citation bias.</div>
+        <div class="data-cards-label">Sample Crawl Results — Same Query, Different AI Platform</div>
+        
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best smartphone 2026</div>
+            <div class="data-meta">
+              <span class="data-badge chatgpt">CHATGPT</span>
+              <span class="data-badge country">US</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">The best smartphones of 2026 represent significant leaps in AI integration and camera technology. The iPhone 17 Pro leads with Apple Intelligence features, ProMotion display, and an improved 48MP periscope telephoto. Samsung Galaxy S26 Ultra counters with Galaxy AI, 200MP main camera, and the integrated S Pen. Google Pixel 10 Pro offers the best computational photography with Tensor G5 chip and 7 years of updates. For value, the OnePlus 14 delivers flagship specs at $599...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (6)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.tomsguide.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">tomsguide.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.theverge.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">theverge.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.gsmarena.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">gsmarena.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.cnet.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">cnet.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">www.wired.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">wired.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">6</div>
+              <div class="citation-info">
+                <div class="citation-url">www.youtube.com/@MKBHD <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">youtube.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best smartphone 2026</div>
+            <div class="data-meta">
+              <span class="data-badge gemini">GEMINI</span>
+              <span class="data-badge country">US</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">Based on comprehensive reviews and user feedback, the best smartphones in 2026 include: 1. Samsung Galaxy S26 Ultra — The most complete Android phone with Galaxy AI, 200MP camera system, and titanium build. 2. Google Pixel 10 Pro — Best-in-class computational photography powered by Tensor G5, with 7 years of guaranteed updates. 3. iPhone 17 Pro — Apple Intelligence integration, stunning ProMotion display, and seamless ecosystem. The Pixel 10 Pro particularly excels in AI-powered photo editing and real-time translation...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (5)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">store.google.com/pixel <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">store.google.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.androidauthority.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">androidauthority.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.tomsguide.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">tomsguide.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">9to5google.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">9to5google.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">www.samsung.com/galaxy-s26 <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">samsung.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>On Google Gemini, Pixel 10 Pro ranks #2 and Google Store is the #1 citation source — potential self-preferencing.</strong> Compare with ChatGPT where iPhone leads and Tom's Guide/The Verge are top citations. Samsung needs to track this per-platform bias quantitatively. The citation sources tell you WHERE to place content for maximum AI visibility.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
       </div>
     </div>
   </div>
@@ -1195,23 +1619,123 @@
     <div class="modal">
       <div class="modal-header"><h2>🍜 Food & Beverage — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
       <div class="modal-body">
-        <div class="modal-pain"><strong>Why Food Brands Need This:</strong> AI recommendations differ completely by dietary conditions (halal, vegan, gluten-free) and region. "Best snacks" in UAE vs. Europe yields entirely different results. Global food companies need <strong>region × dietary × platform</strong> cross-monitoring — but marketing teams lack the engineering capability to build this.</div>
-        <div class="modal-subtitle">Query: "best instant noodles in the world"</div>
-        <table>
-          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
-          <tr><td>#1</td><td>Samyang Buldak</td><td>Nongshim Shin</td><td>Nongshim Shin</td><td>Nongshim Shin</td></tr>
-          <tr><td>#2</td><td>Nongshim Shin</td><td>Indomie Mi Goreng</td><td>Samyang Buldak</td><td>Samyang Buldak</td></tr>
-          <tr><td>#3</td><td>Indomie Mi Goreng</td><td>Samyang Buldak</td><td>Nissin Raoh</td><td>Indomie Mi Goreng</td></tr>
-        </table>
-        <div class="modal-subtitle">Same Query — Different Countries</div>
-        <table>
-          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇮🇩 Indonesia</th><th>🇯🇵 Japan</th></tr>
-          <tr><td>#1</td><td>Samyang Buldak</td><td>Nongshim Shin</td><td>Indomie Mi Goreng</td><td>Nissin Raoh</td></tr>
-          <tr><td>#2</td><td>Nongshim Shin</td><td>Samyang Buldak</td><td>Samyang Buldak</td><td>Sapporo Ichiban</td></tr>
-          <tr><td>#3</td><td>Maruchan</td><td>Ottogi Jin</td><td>Nongshim Shin</td><td>Nongshim Shin</td></tr>
-        </table>
-        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Samyang Buldak ranks #1 on US ChatGPT but only #2 in its home market Korea</strong> — a "reverse phenomenon" where TikTok viral content (Buldak Challenge) has inflated AI visibility abroad. Meanwhile, <strong>zero Korean brands appear in "healthiest snacks" Top 5 on any AI platform</strong> — a massive blind spot for the health food category.</div>
-        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+
+        <div class="modal-pain"><strong>Why Food Brands Need This:</strong> AI recommendations differ by region, dietary requirements (halal, vegan), and local taste. "Best noodles" in Indonesia vs. US yields completely different brands and citation sources. Global food companies need <strong>region × dietary × platform</strong> cross-monitoring.</div>
+        <div class="data-cards-label">Sample Crawl Results — Same Query, Different Country (US vs Indonesia)</div>
+        
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best instant noodles in the world</div>
+            <div class="data-meta">
+              <span class="data-badge chatgpt">CHATGPT</span>
+              <span class="data-badge country">US</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">The best instant noodles span from fiery Korean ramyeon to delicate Japanese bowls. Samyang Buldak Hot Chicken Ramen has become a global phenomenon thanks to TikTok challenges, offering intense heat with a sweet-spicy sauce. Nongshim Shin Ramyun remains the gold standard for Korean-style spicy noodles with its beef-based broth. Indomie Mi Goreng is the world's most consumed instant noodle, beloved for its sweet soy-based dry noodle format. For premium options, Nissin Raoh delivers restaurant-quality...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (5)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.seriouseats.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">seriouseats.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.reddit.com/r/ramen <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">reddit.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.youtube.com/@BestEverFoodReview <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">youtube.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.tastingtable.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">tastingtable.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">www.theramenrater.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">theramenrater.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best instant noodles in the world</div>
+            <div class="data-meta">
+              <span class="data-badge aio">AI_OVERVIEW</span>
+              <span class="data-badge country">ID</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">Mie instan terbaik di dunia dimulai dengan Indomie Mi Goreng, produk kebanggaan Indonesia yang telah menjadi fenomena global. Varian Original dan Rendang adalah yang paling populer. Samyang Buldak dari Korea menawarkan sensasi pedas yang ekstrem dan sangat populer di kalangan anak muda. Nongshim Shin Ramyun juga merupakan pilihan favorit untuk pecinta mi pedas berkuah. Untuk pilihan lokal premium, Sedaap Korean Spicy Chicken menjadi pesaing kuat...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (4)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.tokopedia.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">tokopedia.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.detik.com/food <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">detik.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.kompas.com/food <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">kompas.com</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.indomie.com <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">indomie.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Samyang Buldak ranks #1 on US ChatGPT but Indomie dominates in Indonesia's AI Overview.</strong> The citation sources reveal WHY: US cites Reddit/YouTube (viral content), Indonesia cites Tokopedia/Detik (local commerce/news). This tells you exactly WHERE to invest content for each market's AI visibility.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
       </div>
     </div>
   </div>
@@ -1220,23 +1744,71 @@
     <div class="modal">
       <div class="modal-header"><h2>🚗 Automotive / EV — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
       <div class="modal-body">
-        <div class="modal-pain"><strong>Why Auto Brands Need This:</strong> The EV market shifts every 6 months — BYD price cuts, Tesla model refreshes, Hyundai new launches. But traditional auto marketing teams only have legacy media/search monitoring. <strong>AI search is a new battleground with zero visibility</strong> for most automakers.</div>
-        <div class="modal-subtitle">Query: "best electric car 2026"</div>
-        <table>
-          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
-          <tr><td>#1</td><td>Tesla Model Y</td><td>Tesla Model Y</td><td>Tesla Model 3</td><td>Tesla Model Y</td></tr>
-          <tr><td>#2</td><td>Hyundai Ioniq 6</td><td>Hyundai Ioniq 5 N</td><td>Hyundai Ioniq 6</td><td>BMW iX</td></tr>
-          <tr><td>#3</td><td>BMW iX</td><td>BMW iX</td><td>BMW i5</td><td>Hyundai Ioniq 5 N</td></tr>
-        </table>
-        <div class="modal-subtitle">Same Query — Different Countries</div>
-        <table>
-          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇩🇪 Germany</th><th>🇯🇵 Japan</th></tr>
-          <tr><td>#1</td><td>Tesla Model Y</td><td>Hyundai Ioniq 5 N</td><td>BMW iX</td><td>Nissan Ariya</td></tr>
-          <tr><td>#2</td><td>Hyundai Ioniq 6</td><td>Kia EV6 GT</td><td>Tesla Model Y</td><td>Tesla Model Y</td></tr>
-          <tr><td>#3</td><td>BMW iX</td><td>Tesla Model Y</td><td>Mercedes EQS</td><td>Toyota bZ4X</td></tr>
-        </table>
-        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>BYD is the world's #2 EV seller, but doesn't appear in "best electric car" Top 5 on ANY AI platform in US, EU, or Japan.</strong> AI recommendations are based on English-language media exposure, not sales volume. Conversely, <strong>Hyundai is the only non-Western brand consistently in the global Top 3</strong> — maintaining this advantage requires real-time AI recommendation monitoring.</div>
-        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+
+        <div class="modal-pain"><strong>Why Auto Brands Need This:</strong> The EV market shifts every 6 months. Traditional auto marketing teams only have legacy media monitoring — <strong>AI search is a new battleground with zero visibility</strong>. Each country's AI Overview cites local automotive media, creating country-specific recommendation patterns.</div>
+        <div class="data-cards-label">Sample Crawl Result — Google AI Overview, Germany</div>
+        
+        <div class="data-card">
+          <div class="data-card-header">
+            <div class="data-query">best electric car 2026</div>
+            <div class="data-meta">
+              <span class="data-badge aio">AI_OVERVIEW</span>
+              <span class="data-badge country">DE</span>
+              <span class="data-badge success">✓ Success</span>
+              <span>2026.04.05</span>
+              <span>12.4s</span>
+            </div>
+          </div>
+          <div class="data-response">
+            <div class="data-response-label">AI Response</div>
+            <div class="data-response-text">Die besten Elektroautos 2026: Der BMW iX überzeugt mit deutscher Ingenieurskunst, luxuriösem Innenraum und einer Reichweite von bis zu 630 km. Das Tesla Model Y bleibt der Bestseller mit dem größten Supercharger-Netzwerk. Der Mercedes EQS bietet die höchste Reichweite unter den Luxus-EVs (770 km WLTP). Der Hyundai Ioniq 5 N begeistert als sportlichstes Elektro-SUV mit 650 PS. Bemerkenswert: BYD-Modelle sind in Deutschland trotz wachsender Marktanteile kaum in AI-Empfehlungen vertreten...</div>
+          </div>
+          <div class="data-citations">
+            <div class="data-citations-label">Citations (5)</div>
+            
+            <div class="citation-item">
+              <div class="citation-rank r1">1</div>
+              <div class="citation-info">
+                <div class="citation-url">www.adac.de/elektroauto <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">adac.de</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r2">2</div>
+              <div class="citation-info">
+                <div class="citation-url">www.auto-motor-und-sport.de <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">auto-motor-und-sport.de</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r3">3</div>
+              <div class="citation-info">
+                <div class="citation-url">www.bmw.de/ix <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">bmw.de</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r4">4</div>
+              <div class="citation-info">
+                <div class="citation-url">www.autobild.de/elektroauto <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">autobild.de</div>
+              </div>
+            </div>
+            <div class="citation-item">
+              <div class="citation-rank r5">5</div>
+              <div class="citation-info">
+                <div class="citation-url">efahrer.chip.de <span class="citation-link-icon">↗</span></div>
+                <div class="citation-domain">efahrer.chip.de</div>
+              </div>
+            </div>
+          </div>
+          <div class="data-screenshot">
+            <div class="data-screenshot-label">📷 Screenshot (1)</div>
+            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
+          </div>
+        </div>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>BMW ranks #1 in Germany's AI Overview (home market advantage), while Tesla leads in US.</strong> Notice the citation sources: ADAC, Auto Motor und Sport — all German automotive authorities. BYD, despite being the world's #2 EV seller, is explicitly noted as "barely present in AI recommendations." For Hyundai, the Ioniq 5 N appears at #4 — understanding WHY requires analyzing which review sites are being cited.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
       </div>
     </div>
   </div>
