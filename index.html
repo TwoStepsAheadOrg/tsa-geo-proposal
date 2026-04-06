@@ -1219,5 +1219,95 @@
   </div>
 
 </div>
+
+<script>
+// i18n: ?lang=en switches to English version
+// All replacements use static hardcoded strings (no user input)
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('lang') !== 'en') return;
+
+  document.documentElement.lang = 'en';
+  document.title = 'GeoRank24 | AI Search Brand Visibility Data Service';
+
+  // Static text replacement pairs [Korean, English]
+  var pairs = [
+    ['국내 <strong>Top 1 데이터 마케팅 에이전시</strong>를 통해 <strong>글로벌 S사 · L사</strong>에 데이터 공급 중 ·\n      12개 업체 GEO 최적화 콘텐츠 <strong>192건 published</strong> · BigQuery <strong>400만+ 데이터 포인트</strong> 누적',
+     'Supplying data to <strong>Global S-Corp &amp; L-Corp</strong> via Korea\'s <strong>#1 data marketing agency</strong> · <strong>192 GEO articles</strong> published · <strong>4M+ data points</strong> in BigQuery'],
+    ['이 시장에서 <strong>누가 트래픽을 가져가고 있는가?</strong>', 'In this market, <strong>who is capturing the traffic?</strong>'],
+    ['AI 검색 시대의 브랜드 점유율,<br>이제 데이터로 측정하세요', 'Measure Your Brand\'s AI Search<br>Share of Voice — With Data'],
+    ['ChatGPT · Gemini · Perplexity · AI Overview 등 <strong>7개 AI 플랫폼 × 12개국</strong>에서', 'Across <strong>7 AI platforms × 12 countries</strong> including ChatGPT, Gemini, Perplexity, AI Overview —'],
+    ['귀사 브랜드가 어떻게 노출되는지, 경쟁사는 어떤 키워드를 선점하는지', 'we track how your brand appears and which keywords competitors are capturing,'],
+    ['<strong>실제 브라우저 기반</strong>으로 수집·분석해 공급합니다.', 'collected and analyzed via <strong>real Chrome browsers</strong>, not APIs.'],
+    ['API가 아닌 실제 브라우저 크롤링', 'Real browser crawling, not API'],
+    ['12개국 ISP 고정 IP 현지 결과', '12-country ISP static IP local results'],
+    ['전체 페이지 스크린샷 증거', 'Full-page screenshot evidence'],
+    ['GEO 최적화 콘텐츠 생성까지', 'GEO-optimized content generation'],
+    ['답해야 하지만, 아직 답할 수 없는 질문들', 'Questions You Must Answer — But Can\'t Yet'],
+    ['마케팅 · 제품 · 전략 · 리서치팀, 그리고 광고 에이전시 — <strong>브랜드 성장을 책임지는 모든 조직의 공통 과제입니다.</strong>', 'Marketing, Product, Strategy, Research teams, and agencies — <strong>a shared challenge for every team responsible for brand growth.</strong>'],
+    ['AI 검색으로 소비자가 움직이고 있지만, 대부분의 브랜드는 아직 이 채널에서의 노출 데이터가 없습니다.', 'Consumers are shifting to AI search, but most brands have zero visibility data for this channel.'],
+    ['ChatGPT에서 우리 브랜드를 물으면 <strong>누가 먼저 나오는가?</strong>', 'When ChatGPT is asked about our brand, <strong>who appears first?</strong>'],
+    ['12개국에서 <strong>어떤 경쟁사가 AI에게 추천받고 있는가?</strong>', 'Across 12 countries, <strong>which competitors are AI recommending?</strong>'],
+    ['어떤 키워드에 집중해야 <strong>AI 인용 점유율을 높일 수 있는가?</strong>', 'Which keywords to focus on to <strong>increase AI citation share?</strong>'],
+    ['우리의 GEO 최적화가 <strong>실제로 효과가 있었는가?</strong>', 'Did our GEO optimization <strong>actually work?</strong>'],
+    ['GeoRank24 도입 전과 후, 당신의 업무가 이렇게 바뀝니다', 'How Your Workflow Changes With GeoRank24'],
+    ['도입 전 — 현재', 'BEFORE'],
+    ['도입 후 — GeoRank24', 'AFTER — GEORANK24'],
+    ['ChatGPT에 하나씩 수동 검색, <strong>주 1회가 한계</strong>', 'Manual ChatGPT searches, <strong>weekly at best</strong>'],
+    ['경쟁사가 AI에서 어떻게 나오는지 <strong>감으로 추측</strong>', 'Guessing competitor AI visibility <strong>by gut feel</strong>'],
+    ['보고서에 "AI 검색 데이터" 항목 = <strong>공란</strong>', '"AI Search Data" in reports = <strong>blank</strong>'],
+    ['GEO 콘텐츠 효과 측정 <strong>불가</strong>', 'GEO content measurement <strong>impossible</strong>'],
+    ['12개국 현지 결과 확인 = <strong>VPN 돌려가며 수작업</strong>', '12-country local results = <strong>manual VPN switching</strong>'],
+    ['<strong>7개 플랫폼 × 12개국</strong> 자동 수집, 매일 갱신', '<strong>7 platforms × 12 countries</strong> auto-collected daily'],
+    ['경쟁사 SOV <strong>수치로 추적</strong>, 주간 트렌드 파악', 'Competitor SOV <strong>tracked numerically</strong>, weekly trends'],
+    ['보고서에 <strong>AI 검색 점유율 데이터</strong> + 스크린샷 증거 포함', 'Reports with <strong>AI search share data</strong> + screenshots'],
+    ['최적화 Before/After <strong>정량 측정</strong> (월간 비교)', 'Before/After <strong>quantitatively measured</strong> monthly'],
+    ['12개국 현지 IP로 <strong>로컬 결과 자동 수집</strong>', '<strong>Local results auto-collected</strong> via 12-country IPs'],
+    ['이런 상황에서 바로 사용하세요', 'Use It in These Scenarios'],
+    ['GeoRank24는 마케팅팀의 일상 업무에 즉시 적용됩니다.', 'GeoRank24 applies to your daily marketing workflow immediately.'],
+    ['신제품 글로벌 런칭', 'Global Product Launch'],
+    ['분기 리뷰 · 경영진 보고', 'Quarterly Review · Exec Report'],
+    ['캠페인 효과 측정', 'Campaign Measurement'],
+    ['자체 구축하기엔', 'Building in-house is'],
+    ['비용과 시간', 'too costly and slow'],
+    ['이 너무 큽니다', ''],
+    ['자체 구축에 필요한 것', 'What In-House Requires'],
+    ['초기 개발 기간', 'Dev Timeline'],
+    ['연간 운영 비용', 'Annual Cost'],
+    ['전담 엔지니어 + DevOps', 'Engineers + DevOps'],
+    ['키워드 하나로 이어지는 5단계 데이터', '5-Step Data From a Single Keyword'],
+    ['현황 파악부터 성과 측정까지, 의사결정 전주기에 필요한 데이터를 하나의 대시보드에서 제공합니다.', 'All decision-cycle data in one dashboard — from status to performance.'],
+    ['현황', 'Status'],
+    ['경쟁', 'Competition'],
+    ['전략', 'Strategy'],
+    ['실행', 'Execution'],
+    ['성과', 'Performance'],
+    ['경쟁사가 따라할 수 없는 4가지 차별점', '4 Differentiators Competitors Can\'t Replicate'],
+    ['Real Browser 크롤링', 'Real Browser Crawling'],
+    ['12개국 ISP 고정 IP', '12-Country ISP Static IP'],
+    ['스크린샷 증거 보관', 'Screenshot Evidence Archive'],
+    ['분석 → 콘텐츠 통합', 'Analysis → Content Integration'],
+    ['계약 후 4주 만에, 이 모든 것을 받으실 수 있습니다', 'Get All of This Within 4 Weeks'],
+    ['킥오프부터 첫 리포트까지 4주. 이후 매월 자동으로 데이터가 갱신됩니다.', '4 weeks from kickoff to first report. Data auto-refreshes monthly.'],
+    ['스케일에 맞춘 3가지 플랜', '3 Plans Scaled to Your Needs'],
+    ['이미 검증된 데이터 공급 레퍼런스', 'Proven Data Supply References'],
+    ['글로벌 S사', 'Global S-Corp'],
+    ['상담 받기', 'Get in Touch'],
+    ['간단한 정보만 남겨주시면 담당자가 <strong>24시간 내 연락</strong>드립니다.', 'Leave your info and we\'ll <strong>respond within 24 hours</strong>.'],
+    ['상담받기', 'Contact Us'],
+  ];
+
+  // Safe static replacement — no user input involved
+  var page = document.querySelector('.page');
+  if (!page) return;
+  var h = page.innerHTML;
+  for (var i = 0; i < pairs.length; i++) {
+    h = h.split(pairs[i][0]).join(pairs[i][1]);
+  }
+  page.innerHTML = h;
+})();
+</script>
+
+</div>
 </body>
 </html>
