@@ -777,35 +777,71 @@
     .trust-banner-label { border-right: none; padding-right: 0; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.2); width: 100%; }
   }
 
-  /* LANGUAGE SWITCHER */
-  .lang-switcher {
-    position: fixed;
-    top: 20px;
-    right: 24px;
-    display: flex;
-    gap: 4px;
-    z-index: 999;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(8px);
-    border: 1px solid #E0E0E0;
-    border-radius: 8px;
-    padding: 4px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  }
-  .lang-btn {
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 6px 14px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #8B8799;
-    transition: all 0.15s;
-  }
-  .lang-btn:hover { background: #F0F0F2; color: #0F0E1A; }
-  .lang-btn.active { background: #0F0E1A; color: white; }
-  @media print { .lang-switcher { display: none; } }
 
+
+  /* FLOATING LANGUAGE SWITCHER — bottom right */
+  .lang-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+  .lang-fab-toggle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #0F0E1A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .lang-fab-toggle:hover { transform: scale(1.08); box-shadow: 0 6px 24px rgba(0,0,0,0.25); }
+  .lang-fab-menu {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 6px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    min-width: 120px;
+  }
+  .lang-fab-menu.open { display: flex; }
+  .lang-fab-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4A4759;
+    transition: all 0.15s;
+    font-family: 'Noto Sans KR', 'Inter', sans-serif;
+  }
+  .lang-fab-item:hover { background: #F0F0F2; color: #0F0E1A; }
+  .lang-fab-item.active { background: #0F0E1A; color: white; }
+  .lang-fab-flag { font-size: 18px; line-height: 1; }
+  @media print { .lang-fab { display: none; } }
+  @media (max-width: 768px) {
+    .lang-fab { bottom: 16px; right: 16px; }
+    .lang-fab-toggle { width: 44px; height: 44px; font-size: 16px; }
+  }
 </style>
 </head>
 <body>
@@ -1273,6 +1309,15 @@
 
 
 
+</div>
+
+<div class="lang-fab" id="langFab">
+  <div class="lang-fab-menu" id="langMenu">
+    <a href="index.html" class="lang-fab-item "><span class="lang-fab-flag">🇺🇸</span> English</a>
+    <a href="ko.html" class="lang-fab-item active"><span class="lang-fab-flag">🇰🇷</span> 한국어</a>
+    <a href="ja.html" class="lang-fab-item "><span class="lang-fab-flag">🇯🇵</span> 日本語</a>
+  </div>
+  <button class="lang-fab-toggle" onclick="document.getElementById('langMenu').classList.toggle('open')" title="Language">🇰🇷</button>
 </div>
 </body>
 </html>
