@@ -806,6 +806,140 @@
   .lang-btn.active { background: #0F0E1A; color: white; }
   @media print { .lang-switcher { display: none; } }
 
+
+  /* INDUSTRY DEMO */
+  .demo-section { text-align: center; }
+  .demo-grid {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  .demo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 28px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 160px;
+    text-decoration: none;
+    color: #0F0E1A;
+  }
+  .demo-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-color: #14B8A6; }
+  .demo-btn-icon { font-size: 32px; line-height: 1; }
+  .demo-btn-label { font-size: 14px; font-weight: 700; }
+  .demo-btn-sub { font-size: 11px; color: #8B8799; font-weight: 500; }
+
+  /* MODAL */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    backdrop-filter: blur(4px);
+  }
+  .modal-overlay.active { display: flex; }
+  .modal {
+    background: white;
+    border-radius: 16px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+  }
+  .modal-header {
+    position: sticky;
+    top: 0;
+    background: #0F0E1A;
+    color: white;
+    padding: 24px 32px;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+  .modal-header h2 { font-size: 22px; font-weight: 800; }
+  .modal-close {
+    background: none; border: none; color: white; font-size: 28px;
+    cursor: pointer; padding: 0; line-height: 1; opacity: 0.7;
+  }
+  .modal-close:hover { opacity: 1; }
+  .modal-body { padding: 28px 32px; }
+  .modal-pain {
+    background: #F0FDFA;
+    border-left: 4px solid #14B8A6;
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #4A4759;
+    line-height: 1.65;
+  }
+  .modal-pain strong { color: #0F0E1A; }
+  .modal-subtitle {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0F0E1A;
+    margin: 24px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .modal-subtitle::before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    background: #14B8A6;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .modal table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px; }
+  .modal th { background: #F0F0F2; padding: 10px 12px; font-size: 11px; font-weight: 700; text-align: center; border-bottom: 2px solid #D4D1DE; }
+  .modal th:first-child { text-align: left; }
+  .modal td { padding: 10px 12px; border-bottom: 1px solid #F0F0F2; text-align: center; color: #4A4759; }
+  .modal td:first-child { text-align: left; font-weight: 600; color: #0F0E1A; }
+  .modal-insight {
+    background: #0F0E1A;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .modal-insight strong { color: #14B8A6; }
+  .modal-insight-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #14B8A6;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .modal-cta {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #F0F0F2;
+    font-size: 13px;
+    color: #8B8799;
+  }
+  .modal-cta strong { color: #0F0E1A; }
+
 </style>
 </head>
 <body>
@@ -943,6 +1077,170 @@
       </div>
     </div>
   </section>
+
+  
+  <!-- INDUSTRY DEMO -->
+  <section class="section demo-section">
+    <div class="section-label">LIVE DEMO DATA</div>
+    <h2 class="section-title">See What GeoRank24 Reveals for Your Industry</h2>
+    <p class="section-lead" style="text-align:center;margin:0 auto;">
+      Click any category to see sample AI search data — the same type of insights your brand would receive.
+    </p>
+    <div class="demo-grid">
+      <button class="demo-btn" onclick="openDemo('beauty')">
+        <span class="demo-btn-icon">💄</span>
+        <span class="demo-btn-label">Beauty</span>
+        <span class="demo-btn-sub">Skincare · Cosmetics</span>
+      </button>
+      <button class="demo-btn" onclick="openDemo('fashion')">
+        <span class="demo-btn-icon">👜</span>
+        <span class="demo-btn-label">Fashion</span>
+        <span class="demo-btn-sub">Luxury · Streetwear</span>
+      </button>
+      <button class="demo-btn" onclick="openDemo('phones')">
+        <span class="demo-btn-icon">📱</span>
+        <span class="demo-btn-label">Smartphones</span>
+        <span class="demo-btn-sub">Electronics · Mobile</span>
+      </button>
+      <button class="demo-btn" onclick="openDemo('food')">
+        <span class="demo-btn-icon">🍜</span>
+        <span class="demo-btn-label">Food & Beverage</span>
+        <span class="demo-btn-sub">FMCG · Snacks</span>
+      </button>
+      <button class="demo-btn" onclick="openDemo('auto')">
+        <span class="demo-btn-icon">🚗</span>
+        <span class="demo-btn-label">Automotive</span>
+        <span class="demo-btn-sub">EV · SUV</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- MODALS -->
+  <div class="modal-overlay" id="modal-beauty" onclick="if(event.target===this)closeDemo()">
+    <div class="modal">
+      <div class="modal-header"><h2>💄 Beauty / Skincare — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
+      <div class="modal-body">
+        <div class="modal-pain"><strong>Why Beauty Brands Need This:</strong> A single parent company (Amorepacific, L'Oréal) manages 10+ sub-brands. Tracking each brand × 12 countries × 7 AI platforms creates hundreds of combinations. K-beauty vs. Western brand competition plays out differently in every market — impossible to monitor manually.</div>
+        <div class="modal-subtitle">Query: "best Korean skincare routine for dry skin"</div>
+        <table>
+          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
+          <tr><td>#1</td><td>Laneige Water Bank</td><td>Sulwhasoo Essential</td><td>COSRX Snail Mucin</td><td>Laneige Water Bank</td></tr>
+          <tr><td>#2</td><td>COSRX Snail Mucin</td><td>Laneige Water Bank</td><td>Laneige Water Bank</td><td>COSRX Advanced Snail</td></tr>
+          <tr><td>#3</td><td>Sulwhasoo Essential</td><td>Innisfree Green Tea</td><td>The Ordinary HA+B5</td><td>Innisfree Green Tea</td></tr>
+        </table>
+        <div class="modal-subtitle">Same Query — Different Countries</div>
+        <table>
+          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇯🇵 Japan</th></tr>
+          <tr><td>#1</td><td>Laneige</td><td>Sulwhasoo</td><td>Laneige</td></tr>
+          <tr><td>#2</td><td>COSRX</td><td>Laneige</td><td>COSRX</td></tr>
+          <tr><td>#3</td><td>The Ordinary</td><td>Innisfree</td><td>Innisfree</td></tr>
+        </table>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Sulwhasoo ranks #1 in Korea but doesn't even make the Top 5 in US ChatGPT.</strong> Meanwhile, The Ordinary ($10 serum) is beating premium brands in "best anti-aging" across 3 platforms. Your CMO needs this data — by country, by platform, in real-time.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-fashion" onclick="if(event.target===this)closeDemo()">
+    <div class="modal">
+      <div class="modal-header"><h2>👜 Fashion / Luxury — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
+      <div class="modal-body">
+        <div class="modal-pain"><strong>Why Fashion Brands Need This:</strong> In luxury, <strong>brand image IS revenue</strong>. If AI doesn't recommend your brand when users ask "best luxury handbag," it's direct brand value erosion. Counterfeit-related content in AI training data can contaminate brand-keyword associations — tracking this across 4 platforms × 12 countries is impossible with traditional media monitoring.</div>
+        <div class="modal-subtitle">Query: "best luxury handbag worth the investment"</div>
+        <table>
+          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
+          <tr><td>#1</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td></tr>
+          <tr><td>#2</td><td>Chanel Classic Flap</td><td>Louis Vuitton</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td></tr>
+          <tr><td>#3</td><td>Louis Vuitton</td><td>Hermès Birkin</td><td>LV Capucines</td><td>Louis Vuitton</td></tr>
+        </table>
+        <div class="modal-subtitle">Same Query — Different Countries</div>
+        <table>
+          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇩🇪 Germany</th></tr>
+          <tr><td>#1</td><td>Hermès Birkin</td><td>Chanel Classic Flap</td><td>Hermès Birkin</td></tr>
+          <tr><td>#2</td><td>Chanel</td><td>Hermès Birkin</td><td>Louis Vuitton</td></tr>
+          <tr><td>#3</td><td>Louis Vuitton</td><td>Dior Lady Dior</td><td>Chanel</td></tr>
+        </table>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Gucci doesn't appear in the Top 3 across ANY of the 4 AI platforms for "best luxury handbag."</strong> After the creative director change, the brand repositioning hasn't been reflected in AI recommendations yet — a "Perception Lag" phenomenon that Kering Group needs to monitor in real-time.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-phones" onclick="if(event.target===this)closeDemo()">
+    <div class="modal">
+      <div class="modal-header"><h2>📱 Smartphones — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
+      <div class="modal-body">
+        <div class="modal-pain"><strong>Why Smartphone Brands Need This:</strong> New models launch every 6 months, but AI training data lags by weeks to months. Tracking how competitor launches shift AI recommendations <strong>in real-time</strong> is essential. Monitoring 4 AI platforms × 12 countries × hundreds of comparison keywords manually is engineering waste.</div>
+        <div class="modal-subtitle">Query: "best smartphone 2026"</div>
+        <table>
+          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
+          <tr><td>#1</td><td>iPhone 17 Pro</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro Max</td><td>Galaxy S26 Ultra</td></tr>
+          <tr><td>#2</td><td>Galaxy S26 Ultra</td><td>Google Pixel 10 Pro</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro</td></tr>
+          <tr><td>#3</td><td>Google Pixel 10</td><td>iPhone 17 Pro</td><td>Pixel 10 Pro</td><td>Pixel 10 Pro</td></tr>
+        </table>
+        <div class="modal-subtitle">Same Query — Different Countries</div>
+        <table>
+          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇮🇳 India</th><th>🇩🇪 Germany</th></tr>
+          <tr><td>#1</td><td>iPhone 17 Pro</td><td>Galaxy S26 Ultra</td><td>Galaxy S26 Ultra</td><td>Galaxy S26 Ultra</td></tr>
+          <tr><td>#2</td><td>Galaxy S26 Ultra</td><td>iPhone 17 Pro</td><td>iPhone 17 Pro</td><td>iPhone 17 Pro</td></tr>
+          <tr><td>#3</td><td>Pixel 10 Pro</td><td>Pixel 10 Pro</td><td>Xiaomi 16 Pro</td><td>Pixel 10 Pro</td></tr>
+        </table>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>On Google Gemini, Google Pixel ranks #2 for "best smartphone" — potential self-preferencing by Google's own AI platform.</strong> Samsung needs to quantitatively track per-platform bias. Also, Xiaomi enters Top 3 in India but is invisible in US/EU — a regional gap HQ can't detect without localized monitoring.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-food" onclick="if(event.target===this)closeDemo()">
+    <div class="modal">
+      <div class="modal-header"><h2>🍜 Food & Beverage — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
+      <div class="modal-body">
+        <div class="modal-pain"><strong>Why Food Brands Need This:</strong> AI recommendations differ completely by dietary conditions (halal, vegan, gluten-free) and region. "Best snacks" in UAE vs. Europe yields entirely different results. Global food companies need <strong>region × dietary × platform</strong> cross-monitoring — but marketing teams lack the engineering capability to build this.</div>
+        <div class="modal-subtitle">Query: "best instant noodles in the world"</div>
+        <table>
+          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
+          <tr><td>#1</td><td>Samyang Buldak</td><td>Nongshim Shin</td><td>Nongshim Shin</td><td>Nongshim Shin</td></tr>
+          <tr><td>#2</td><td>Nongshim Shin</td><td>Indomie Mi Goreng</td><td>Samyang Buldak</td><td>Samyang Buldak</td></tr>
+          <tr><td>#3</td><td>Indomie Mi Goreng</td><td>Samyang Buldak</td><td>Nissin Raoh</td><td>Indomie Mi Goreng</td></tr>
+        </table>
+        <div class="modal-subtitle">Same Query — Different Countries</div>
+        <table>
+          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇮🇩 Indonesia</th><th>🇯🇵 Japan</th></tr>
+          <tr><td>#1</td><td>Samyang Buldak</td><td>Nongshim Shin</td><td>Indomie Mi Goreng</td><td>Nissin Raoh</td></tr>
+          <tr><td>#2</td><td>Nongshim Shin</td><td>Samyang Buldak</td><td>Samyang Buldak</td><td>Sapporo Ichiban</td></tr>
+          <tr><td>#3</td><td>Maruchan</td><td>Ottogi Jin</td><td>Nongshim Shin</td><td>Nongshim Shin</td></tr>
+        </table>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>Samyang Buldak ranks #1 on US ChatGPT but only #2 in its home market Korea</strong> — a "reverse phenomenon" where TikTok viral content (Buldak Challenge) has inflated AI visibility abroad. Meanwhile, <strong>zero Korean brands appear in "healthiest snacks" Top 5 on any AI platform</strong> — a massive blind spot for the health food category.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-auto" onclick="if(event.target===this)closeDemo()">
+    <div class="modal">
+      <div class="modal-header"><h2>🚗 Automotive / EV — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
+      <div class="modal-body">
+        <div class="modal-pain"><strong>Why Auto Brands Need This:</strong> The EV market shifts every 6 months — BYD price cuts, Tesla model refreshes, Hyundai new launches. But traditional auto marketing teams only have legacy media/search monitoring. <strong>AI search is a new battleground with zero visibility</strong> for most automakers.</div>
+        <div class="modal-subtitle">Query: "best electric car 2026"</div>
+        <table>
+          <tr><th>Rank</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>AI Overview</th></tr>
+          <tr><td>#1</td><td>Tesla Model Y</td><td>Tesla Model Y</td><td>Tesla Model 3</td><td>Tesla Model Y</td></tr>
+          <tr><td>#2</td><td>Hyundai Ioniq 6</td><td>Hyundai Ioniq 5 N</td><td>Hyundai Ioniq 6</td><td>BMW iX</td></tr>
+          <tr><td>#3</td><td>BMW iX</td><td>BMW iX</td><td>BMW i5</td><td>Hyundai Ioniq 5 N</td></tr>
+        </table>
+        <div class="modal-subtitle">Same Query — Different Countries</div>
+        <table>
+          <tr><th>Rank</th><th>🇺🇸 US</th><th>🇰🇷 Korea</th><th>🇩🇪 Germany</th><th>🇯🇵 Japan</th></tr>
+          <tr><td>#1</td><td>Tesla Model Y</td><td>Hyundai Ioniq 5 N</td><td>BMW iX</td><td>Nissan Ariya</td></tr>
+          <tr><td>#2</td><td>Hyundai Ioniq 6</td><td>Kia EV6 GT</td><td>Tesla Model Y</td><td>Tesla Model Y</td></tr>
+          <tr><td>#3</td><td>BMW iX</td><td>Tesla Model Y</td><td>Mercedes EQS</td><td>Toyota bZ4X</td></tr>
+        </table>
+        <div class="modal-insight"><span class="modal-insight-label">Killer Insight</span><strong>BYD is the world's #2 EV seller, but doesn't appear in "best electric car" Top 5 on ANY AI platform in US, EU, or Japan.</strong> AI recommendations are based on English-language media exposure, not sales volume. Conversely, <strong>Hyundai is the only non-Western brand consistently in the global Top 3</strong> — maintaining this advantage requires real-time AI recommendation monitoring.</div>
+        <div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- DIY REALITY -->
   <section class="section">
@@ -1274,5 +1572,17 @@
 
 
 </div>
+
+<script>
+function openDemo(id) {
+  document.getElementById('modal-' + id).classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeDemo() {
+  document.querySelectorAll('.modal-overlay').forEach(function(m) { m.classList.remove('active'); });
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeDemo(); });
+</script>
 </body>
 </html>
