@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GeoRank24 | AI 검색 시대, 브랜드 가시성 데이터 공급 서비스</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>GeoRank24 | AI Search Brand Visibility Data Service</title>
+
+    <meta name="description" content="GeoRank24 — AI Search Visibility Data Service for Global Brands. Monitor brand presence across ChatGPT, Gemini, Perplexity, AI Overview in 12 countries using real Chrome browsers.">
+    <meta name="keywords" content="GEO, AI search, brand visibility, ChatGPT monitoring, Gemini, Perplexity, AI Overview, share of voice, GEO optimization">
+    <meta name="author" content="TwoStepsAhead Inc.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://georank24.com/">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GeoRank24 — AI Search Visibility Data Service">
+    <meta property="og:description" content="Measure your brand's AI search share of voice across 7 AI platforms × 12 countries. Real browser data, not API.">
+    <meta property="og:url" content="https://georank24.com/">
+    <meta property="og:image" content="https://georank24.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="GeoRank24">
+    <meta property="og:locale" content="en_US">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GeoRank24 — AI Search Visibility Data Service">
+    <meta name="twitter:description" content="Measure your brand's AI search share of voice across 7 platforms × 12 countries.">
+    <meta name="twitter:image" content="https://georank24.com/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -755,6 +776,36 @@
     .trust-banner { flex-direction: column; align-items: flex-start; }
     .trust-banner-label { border-right: none; padding-right: 0; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.2); width: 100%; }
   }
+
+  /* LANGUAGE SWITCHER */
+  .lang-switcher {
+    position: fixed;
+    top: 20px;
+    right: 24px;
+    display: flex;
+    gap: 4px;
+    z-index: 999;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(8px);
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .lang-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #8B8799;
+    transition: all 0.15s;
+  }
+  .lang-btn:hover { background: #F0F0F2; color: #0F0E1A; }
+  .lang-btn.active { background: #0F0E1A; color: white; }
+  @media print { .lang-switcher { display: none; } }
+
 </style>
 </head>
 <body>
@@ -770,57 +821,57 @@
   <div class="trust-banner">
     <div class="trust-banner-label">Trusted By</div>
     <div class="trust-banner-text">
-      국내 <strong>Top 1 데이터 마케팅 에이전시</strong>를 통해 <strong>글로벌 S사 · L사</strong>에 데이터 공급 중 ·
-      12개 업체 GEO 최적화 콘텐츠 <strong>192건 published</strong> · BigQuery <strong>400만+ 데이터 포인트</strong> 누적
+      Supplying data to <strong>Global S-Corp &amp; L-Corp</strong> via Korea's <strong>#1 data marketing agency</strong> ·
+      <strong>192 GEO articles</strong> published across 12 companies · BigQuery <strong>4M+ data points</strong> accumulated
     </div>
   </div>
 
   <!-- ATTENTION QUESTION -->
   <div class="attention-question">
-    이 시장에서 <strong>누가 트래픽을 가져가고 있는가?</strong>
+    In this market, <strong>who is capturing the traffic?</strong>
   </div>
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-label">Service Proposal for Enterprise Brands &amp; Agencies</div>
-    <h1 class="hero-title">AI 검색 시대의 브랜드 점유율,<br>이제 데이터로 측정하세요</h1>
+    <h1 class="hero-title">Measure Your Brand's AI Search<br>Share of Voice — With Data</h1>
     <p class="hero-sub">
-      ChatGPT · Gemini · Perplexity · AI Overview 등 <strong>7개 AI 플랫폼 × 12개국</strong>에서
-      귀사 브랜드가 어떻게 노출되는지, 경쟁사는 어떤 키워드를 선점하는지
-      <strong>실제 브라우저 기반</strong>으로 수집·분석해 공급합니다.
+      Across <strong>7 AI platforms × 12 countries</strong> including ChatGPT, Gemini, Perplexity, and AI Overview,
+      we track how your brand appears and which keywords competitors are capturing —
+      collected and analyzed via <strong>real Chrome browsers</strong>, not APIs.
     </p>
     <div class="hero-bullets">
-      <div class="hero-bullet">API가 아닌 실제 브라우저 크롤링</div>
-      <div class="hero-bullet">12개국 ISP 고정 IP 현지 결과</div>
-      <div class="hero-bullet">전체 페이지 스크린샷 증거</div>
-      <div class="hero-bullet">GEO 최적화 콘텐츠 생성까지</div>
+      <div class="hero-bullet">Real browser crawling, not API</div>
+      <div class="hero-bullet">12-country ISP static IP, local results</div>
+      <div class="hero-bullet">Full-page screenshot evidence</div>
+      <div class="hero-bullet">GEO-optimized content generation</div>
     </div>
   </section>
 
   <!-- PROBLEM -->
   <section class="section">
     <div class="section-label">The Problem</div>
-    <h2 class="section-title">답해야 하지만, 아직 답할 수 없는 질문들</h2>
+    <h2 class="section-title">Questions You Must Answer — But Can't Yet</h2>
     <p class="section-lead">
-      마케팅 · 제품 · 전략 · 리서치팀, 그리고 광고 에이전시 — <strong>브랜드 성장을 책임지는 모든 조직의 공통 과제입니다.</strong>
-      AI 검색으로 소비자가 움직이고 있지만, 대부분의 브랜드는 아직 이 채널에서의 노출 데이터가 없습니다.
+      Marketing, Product, Strategy, Research teams, and agencies — <strong>a shared challenge for every team driving brand growth.</strong>
+      Consumers are shifting to AI search, but most brands have zero visibility data for this channel.
     </p>
     <div class="problem-grid">
       <div class="problem-card">
         <div class="problem-q">Q.</div>
-        <div class="problem-text">ChatGPT에서 우리 브랜드를 물어보면 <strong>누가 먼저 나오는가?</strong></div>
+        <div class="problem-text">When ChatGPT is asked about our brand, <strong>who appears first?</strong></div>
       </div>
       <div class="problem-card">
         <div class="problem-q">Q.</div>
-        <div class="problem-text">12개국에서 어떤 경쟁사가 <strong>AI에게 추천받고 있는가?</strong></div>
+        <div class="problem-text">Across 12 countries, <strong>which competitors are being recommended by AI?</strong></div>
       </div>
       <div class="problem-card">
         <div class="problem-q">Q.</div>
-        <div class="problem-text">어떤 키워드에 집중해야 <strong>AI 인용 점유율이 올라가는가?</strong></div>
+        <div class="problem-text">Which keywords to focus on to <strong>increase AI citation share?</strong></div>
       </div>
       <div class="problem-card">
         <div class="problem-q">Q.</div>
-        <div class="problem-text">우리의 GEO 최적화가 <strong>실제로 효과가 있었는가?</strong></div>
+        <div class="problem-text">Did our GEO optimization <strong>actually work?</strong></div>
       </div>
     </div>
   </section>
@@ -828,27 +879,27 @@
   <!-- BEFORE / AFTER -->
   <section class="section">
     <div class="section-label">Before → After</div>
-    <h2 class="section-title">GeoRank24 도입 전과 후, 당신의 업무가 이렇게 바뀝니다</h2>
+    <h2 class="section-title">How Your Workflow Changes With GeoRank24</h2>
     <div class="ba-grid">
       <div class="ba-col ba-before">
-        <div class="ba-label">도입 전 — 현재</div>
+        <div class="ba-label">BEFORE — CURRENT</div>
         <ul class="ba-list">
-          <li>ChatGPT에 하나씩 수동 검색, <strong>주 1회가 한계</strong></li>
-          <li>경쟁사가 AI에서 어떻게 나오는지 <strong>감으로 추측</strong></li>
-          <li>보고서에 "AI 검색 데이터" 항목 = <strong>공란</strong></li>
-          <li>GEO 콘텐츠 효과 측정 <strong>불가</strong></li>
-          <li>12개국 현지 결과 확인 = <strong>VPN 돌려가며 수작업</strong></li>
+          <li>Manual ChatGPT searches one by one, <strong>weekly at best</strong></li>
+          <li>Guessing competitor AI visibility <strong>by gut feel</strong></li>
+          <li>"AI Search Data" in reports = <strong>blank</strong></li>
+          <li>GEO content measurement <strong>impossible</strong></li>
+          <li>12-country local results = <strong>manual VPN switching</strong></li>
         </ul>
       </div>
       <div class="ba-arrow">→</div>
       <div class="ba-col ba-after">
-        <div class="ba-label">도입 후 — GeoRank24</div>
+        <div class="ba-label">AFTER — GEORANK24</div>
         <ul class="ba-list">
-          <li><strong>7개 플랫폼 × 12개국</strong> 자동 수집, 매일 갱신</li>
-          <li>경쟁사 SOV <strong>수치로 추적</strong>, 주간 트렌드 파악</li>
-          <li>보고서에 <strong>AI 검색 점유율 데이터</strong> + 스크린샷 증거 포함</li>
-          <li>최적화 Before/After <strong>정량 측정</strong> (월간 비교)</li>
-          <li>12개국 현지 IP로 <strong>로컬 결과 자동 수집</strong></li>
+          <li><strong>7 platforms × 12 countries</strong> auto-collected, updated daily</li>
+          <li>Competitor SOV <strong>tracked numerically</strong>, weekly trends</li>
+          <li>Reports include <strong>AI search share data</strong> + screenshot evidence</li>
+          <li>Before/After <strong>quantitatively measured</strong> (monthly)</li>
+          <li><strong>Local results auto-collected</strong> via 12-country ISP IPs</li>
         </ul>
       </div>
     </div>
@@ -857,37 +908,37 @@
   <!-- USE CASES -->
   <section class="section">
     <div class="section-label">Use Cases</div>
-    <h2 class="section-title">이런 상황에서 바로 사용하세요</h2>
-    <p class="section-lead">GeoRank24는 마케팅팀의 일상 업무에 즉시 적용됩니다.</p>
+    <h2 class="section-title">Use It in These Scenarios</h2>
+    <p class="section-lead">GeoRank24 applies to your team's daily marketing workflow immediately.</p>
     <div class="usecase-grid">
       <div class="usecase-card">
         <div class="usecase-icon">🚀</div>
-        <div class="usecase-title">신제품 글로벌 런칭</div>
+        <div class="usecase-title">Global Product Launch</div>
         <div class="usecase-desc">
-          런칭 키워드 500개를 등록하면, <strong>12개국에서 경쟁사 대비 우리 제품이 어떻게 노출되는지</strong> 매일 데이터로 받아볼 수 있습니다.
+          Register 500 launch keywords and <strong>receive daily data on how your product appears vs. competitors across 12 countries</strong>.
         </div>
         <div class="usecase-result">
-          → S사 런칭 시 적용: 1,000 키워드 × 12국 × 7 플랫폼 = 주 18,000건 수집
+          → Applied for S-Corp launch: 1,000 keywords × 12 countries × 7 platforms = 18,000 data points/week
         </div>
       </div>
       <div class="usecase-card">
         <div class="usecase-icon">📊</div>
-        <div class="usecase-title">분기 리뷰 · 경영진 보고</div>
+        <div class="usecase-title">Quarterly Review · Executive Report</div>
         <div class="usecase-desc">
-          "AI 검색에서 우리 점유율이 얼마인가?"라는 CMO의 질문에, <strong>SOV 수치 + 스크린샷 증거</strong>를 담은 리포트로 즉시 답할 수 있습니다.
+          Answer the CMO's question "What's our AI search share?" with a report containing <strong>SOV data + screenshot evidence</strong>.
         </div>
         <div class="usecase-result">
-          → 주간 자동 리포트 + 월간 전략 리뷰 세션 포함
+          → Weekly auto-reports + monthly strategy review sessions included
         </div>
       </div>
       <div class="usecase-card">
         <div class="usecase-icon">🎯</div>
-        <div class="usecase-title">캠페인 효과 측정</div>
+        <div class="usecase-title">Campaign Effectiveness Measurement</div>
         <div class="usecase-desc">
-          GEO 최적화 콘텐츠를 발행한 후, <strong>"실제로 AI에 인용되기 시작했는가?"</strong>를 Before/After 데이터로 정량 측정합니다.
+          After publishing GEO-optimized content, measure <strong>"Is AI actually starting to cite us?"</strong> quantitatively with Before/After data.
         </div>
         <div class="usecase-result">
-          → 최적화 전후 인용률 변화를 월간 대시보드에서 추적
+          → Track citation rate changes in the monthly dashboard
         </div>
       </div>
     </div>
@@ -896,30 +947,30 @@
   <!-- DIY REALITY -->
   <section class="section">
     <div class="section-label">Why Not DIY</div>
-    <h2 class="section-title">자체 구축하기엔 <span style="color:var(--accent-dark)">비용과 시간</span>이 너무 큽니다</h2>
+    <h2 class="section-title">Building in-house <span style="color:var(--accent-dark)">costs too much time and money</span></h2>
     <div class="diy-reality">
-      <div class="diy-reality-title">자체 구축에 필요한 것</div>
+      <div class="diy-reality-title">What In-House Build Requires</div>
       <div class="diy-reality-grid">
         <div class="diy-item">
-          <div class="diy-item-value">6-12개월</div>
-          <div class="diy-item-label">초기 개발 기간</div>
+          <div class="diy-item-value">6-12 months</div>
+          <div class="diy-item-label">Development timeline</div>
         </div>
         <div class="diy-item">
-          <div class="diy-item-value">연 3-5억원</div>
-          <div class="diy-item-label">연간 운영 비용</div>
+          <div class="diy-item-value">₩300-500M/yr (~$200-330K)</div>
+          <div class="diy-item-label">Annual operating cost</div>
         </div>
         <div class="diy-item">
-          <div class="diy-item-value">2-3명</div>
-          <div class="diy-item-label">전담 엔지니어 + DevOps</div>
+          <div class="diy-item-value">2-3 people</div>
+          <div class="diy-item-label">Dedicated engineers + DevOps</div>
         </div>
         <div class="diy-item">
-          <div class="diy-item-value">매월</div>
-          <div class="diy-item-label">AI 플랫폼 UI 변경 대응</div>
+          <div class="diy-item-value">Monthly</div>
+          <div class="diy-item-label">Respond to AI platform UI changes</div>
         </div>
       </div>
       <div class="diy-solution">
-        <strong>→ GeoRank24는 이미 완성된 인프라 위에서 즉시 시작합니다.</strong>
-        브랜드·에이전시는 키워드만 전달하면, 마케팅 의사결정에 필요한 데이터를 받습니다.
+        <strong>→ GeoRank24 starts immediately on already-built infrastructure.</strong>
+        Brands and agencies just provide keywords — and receive decision-ready marketing data.
       </div>
     </div>
   </section>
@@ -927,35 +978,35 @@
   <!-- DELIVERABLES -->
   <section class="section">
     <div class="section-label">What You Get</div>
-    <h2 class="section-title">키워드 하나로 이어지는 5단계 데이터</h2>
+    <h2 class="section-title">5-Step Decision Data From a Single Keyword</h2>
     <p class="section-lead">
-      현황 파악부터 성과 측정까지, 의사결정 전주기에 필요한 데이터를 하나의 대시보드에서 제공합니다.
+      All decision-cycle data in one dashboard — from status assessment to performance measurement.
     </p>
     <div class="deliverable-grid">
       <div class="deliverable">
         <div class="deliverable-num">01</div>
-        <div class="deliverable-title">현황</div>
-        <div class="deliverable-desc">7 플랫폼 × 12개국에서 누가 인용되고 있는가 (스크린샷 증거 포함)</div>
+        <div class="deliverable-title">Status</div>
+        <div class="deliverable-desc">Who is cited across 7 platforms × 12 countries (with screenshot evidence)</div>
       </div>
       <div class="deliverable">
         <div class="deliverable-num">02</div>
-        <div class="deliverable-title">경쟁</div>
-        <div class="deliverable-desc">키워드별 경쟁사 점유율(SOV) 변화 추이 및 벤치마킹</div>
+        <div class="deliverable-title">Competition</div>
+        <div class="deliverable-desc">Competitor SOV trends per keyword with benchmarking</div>
       </div>
       <div class="deliverable">
         <div class="deliverable-num">03</div>
-        <div class="deliverable-title">전략</div>
-        <div class="deliverable-desc">집중해야 할 키워드 · 플랫폼 · 국가 우선순위 도출</div>
+        <div class="deliverable-title">Strategy</div>
+        <div class="deliverable-desc">Priority keywords, platforms, and countries to focus on</div>
       </div>
       <div class="deliverable">
         <div class="deliverable-num">04</div>
-        <div class="deliverable-title">실행</div>
-        <div class="deliverable-desc">GEO 최적화 콘텐츠 제작 가이드 (36룰 스코어링)</div>
+        <div class="deliverable-title">Execution</div>
+        <div class="deliverable-desc">GEO content creation guide (36-rule scoring)</div>
       </div>
       <div class="deliverable">
         <div class="deliverable-num">05</div>
-        <div class="deliverable-title">성과</div>
-        <div class="deliverable-desc">최적화 전후 가시성 Before/After 월간 측정</div>
+        <div class="deliverable-title">Performance</div>
+        <div class="deliverable-desc">Monthly Before/After visibility measurement</div>
       </div>
     </div>
   </section>
@@ -963,38 +1014,38 @@
   <!-- WHY US -->
   <section class="section">
     <div class="section-label">Why GeoRank24</div>
-    <h2 class="section-title">경쟁사가 따라할 수 없는 4가지 차별점</h2>
+    <h2 class="section-title">4 Differentiators Competitors Can't Replicate</h2>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-num">01</div>
-        <div class="why-title">Real Browser 크롤링</div>
+        <div class="why-title">Real Browser Crawling</div>
         <div class="why-desc">
-          API 답변은 <strong>웹서치 OFF 상태의 순수 LLM 응답</strong>입니다. GeoRank24는 48대의 실제 Chrome 브라우저로
-          사용자가 <strong>ChatGPT 화면에서 실제로 보는 결과</strong>를 수집합니다. 인용 URL·출처 순위·개인화까지 정확히 반영.
+          API responses are <strong>pure LLM answers with web search OFF</strong>. GeoRank24 uses 48 real Chrome browsers to
+          capture exactly <strong>what users see on the ChatGPT screen</strong>. Citation URLs, source rankings, and personalization — all accurately captured.
         </div>
       </div>
       <div class="why-card">
         <div class="why-num">02</div>
-        <div class="why-title">12개국 ISP 고정 IP</div>
+        <div class="why-title">12-Country ISP Static IP</div>
         <div class="why-desc">
-          미국·일본·독일·프랑스·스페인·이탈리아·브라질·인도·UAE·인도네시아·영국·한국 — 각 국가의
-          <strong>현지 ISP 고정 IP</strong>로 크롤링하여 <strong>해당 국가 사용자가 실제 보는 결과</strong>와 동일한 데이터를 공급.
+          US, JP, DE, FR, ES, IT, BR, IN, UAE, ID, UK, KR — each country's
+          <strong>local ISP static IP</strong> delivers data identical to <strong>what local users actually see</strong>.
         </div>
       </div>
       <div class="why-card">
         <div class="why-num">03</div>
-        <div class="why-title">스크린샷 증거 보관</div>
+        <div class="why-title">Screenshot Evidence Archive</div>
         <div class="why-desc">
-          모든 크롤링 결과를 <strong>전체 페이지 스크린샷</strong>으로 S3에 영구 저장. 내부 보고·감사·컴플라이언스 용도로
-          바로 활용 가능. 텍스트만 주는 경쟁사와 근본적으로 다른 데이터 신뢰성.
+          All crawl results stored as <strong>full-page screenshots</strong> in S3 permanently. For internal reporting, audits, and compliance —
+          immediately usable. Fundamentally different data reliability from text-only competitors.
         </div>
       </div>
       <div class="why-card">
         <div class="why-num">04</div>
-        <div class="why-title">분석 → 콘텐츠 통합</div>
+        <div class="why-title">Analysis → Content Integration</div>
         <div class="why-desc">
-          단순 모니터링에서 끝나지 않습니다. <strong>GEO 최적화 콘텐츠 36룰 스코어링</strong>을 기반으로
-          실제 AI에 인용될 확률이 높은 콘텐츠 제작 방향까지 가이드. 수집 → 분석 → 실행을 하나의 서비스로.
+          We don't stop at monitoring. Based on <strong>GEO content 36-rule scoring</strong>,
+          we guide content creation for high AI citation probability. Collection → Analysis → Execution in one service.
         </div>
       </div>
     </div>
@@ -1003,96 +1054,96 @@
   <!-- PRICING -->
   <section class="section">
     <div class="section-label">Pricing</div>
-    <h2 class="section-title">스케일에 맞춘 3가지 플랜</h2>
+    <h2 class="section-title">3 Plans Scaled to Your Needs</h2>
     <p class="section-lead">
-      베이스 키워드 수 · 국가 · 플랫폼 수에 따라 티어를 선택하실 수 있습니다. 초기 구축비 + 월 정기 과금 모델.
+      Choose your tier by keywords, countries, and platforms. Setup fee + monthly subscription.
     </p>
     <div class="pricing-grid">
       <div class="tier">
         <div class="tier-name">Growth</div>
-        <div class="tier-price">월 500-800만원</div>
-        <div class="tier-unit">100-500 키워드 / 3-6개국 / 5 플랫폼</div>
+        <div class="tier-price">₩5-8M/mo (~$3.3-5.3K)</div>
+        <div class="tier-unit">100-500 keywords / 3-6 countries / 5 platforms</div>
         <ul class="tier-features">
-          <li>Growth 대시보드 + API 제공</li>
-          <li>주간 리포트 + 월간 전략회의</li>
-          <li>경쟁사 SOV 분석 포함</li>
-          <li>전담 담당자 배정</li>
+          <li>Growth dashboard + API access</li>
+          <li>Weekly report + monthly strategy meeting</li>
+          <li>Competitor SOV analysis included</li>
+          <li>Dedicated account manager</li>
         </ul>
       </div>
       <div class="tier featured">
         <div class="tier-name">Enterprise</div>
-        <div class="tier-price">월 1,000-2,000만원</div>
-        <div class="tier-unit">1,000+ 키워드 / 12개국 / 7 플랫폼</div>
+        <div class="tier-price">₩10-20M/mo (~$6.6-13.2K)</div>
+        <div class="tier-unit">1,000+ keywords / 12 countries / 7 platforms</div>
         <ul class="tier-features">
-          <li>Enterprise 커스텀 대시보드</li>
-          <li>주간 리포트 + 전략 컨설팅</li>
-          <li>GEO 콘텐츠 가이드 포함</li>
-          <li>SLA 보장 · 전담 팀 배정</li>
-          <li>BigQuery 데이터 직접 연동</li>
+          <li>Enterprise custom dashboard</li>
+          <li>Weekly report + strategy consulting</li>
+          <li>GEO content guide included</li>
+          <li>SLA guaranteed · Dedicated team</li>
+          <li>Direct BigQuery data integration</li>
         </ul>
       </div>
       <div class="tier">
         <div class="tier-name">Custom</div>
-        <div class="tier-price">협의</div>
-        <div class="tier-unit">5,000+ 키워드 / 글로벌 / 풀 커버리지</div>
+        <div class="tier-price">Custom pricing</div>
+        <div class="tier-unit">5,000+ keywords / Global / Full coverage</div>
         <ul class="tier-features">
-          <li>완전 맞춤 설계</li>
-          <li>GEO 콘텐츠 제작 대행 포함</li>
-          <li>월간 경영진 리뷰</li>
-          <li>글로벌 다국어 대응</li>
+          <li>Fully custom design</li>
+          <li>GEO content production included</li>
+          <li>Monthly executive review</li>
+          <li>Global multi-language support</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- FIRST MONTH — 첫 달에 받으시는 것 -->
+  <!-- FIRST MONTH -->
   <section class="section">
     <div class="section-label">What You Get in Month 1</div>
-    <h2 class="section-title">계약 후 4주 만에, 이 모든 것을 받으실 수 있습니다</h2>
-    <p class="section-lead">킥오프부터 첫 리포트까지 4주. 이후 매월 자동으로 데이터가 갱신됩니다.</p>
+    <h2 class="section-title">Get All of This Within 4 Weeks of Contract</h2>
+    <p class="section-lead">4 weeks from kickoff to first report. Data auto-refreshes monthly.</p>
     <div class="firstmonth-timeline">
       <div class="fm-step">
         <div class="fm-week">Week 1</div>
-        <div class="fm-title">킥오프 미팅</div>
-        <div class="fm-desc">브랜드 키워드 선정, 타겟 국가·플랫폼 확정, 경쟁사 리스트 정리</div>
-        <div class="fm-output">산출물: 키워드 스코프 문서</div>
+        <div class="fm-title">Kickoff Meeting</div>
+        <div class="fm-desc">Select brand keywords, confirm target countries/platforms, compile competitor list</div>
+        <div class="fm-output">Output: Keyword scope document</div>
       </div>
       <div class="fm-step">
         <div class="fm-week">Week 2-3</div>
-        <div class="fm-title">크롤링 세팅 + 초기 수집</div>
-        <div class="fm-desc">파생 쿼리 자동 확장, 크롤링 인프라 구성, 12개국 초기 데이터 수집 시작</div>
-        <div class="fm-output">산출물: 초기 데이터 샘플</div>
+        <div class="fm-title">Setup + Initial Collection</div>
+        <div class="fm-desc">Auto-expand derivative queries, configure crawling infra, begin 12-country data collection</div>
+        <div class="fm-output">Output: Initial data sample</div>
       </div>
       <div class="fm-step active">
         <div class="fm-week">Week 4</div>
-        <div class="fm-title">첫 리포트 제공</div>
-        <div class="fm-desc">대시보드 오픈, AI 검색 현황 분석 리포트, 경쟁사 SOV 벤치마크, 전략 방향 논의</div>
-        <div class="fm-output">산출물: 분석 리포트 (PDF + 대시보드)</div>
+        <div class="fm-title">First Report Delivery</div>
+        <div class="fm-desc">Dashboard open, AI search analysis report, competitor SOV benchmark, strategy direction discussion</div>
+        <div class="fm-output">Output: Analysis report (PDF + Dashboard)</div>
       </div>
       <div class="fm-step">
         <div class="fm-week">Ongoing</div>
-        <div class="fm-title">정기 운영</div>
-        <div class="fm-desc">주간 데이터 갱신, 월간 전략 리뷰, GEO 콘텐츠 가이드, Before/After 성과 측정</div>
-        <div class="fm-output">산출물: 주간·월간 리포트</div>
+        <div class="fm-title">Ongoing Operations</div>
+        <div class="fm-desc">Weekly data refresh, monthly strategy review, GEO content guide, Before/After performance measurement</div>
+        <div class="fm-output">Output: Weekly & monthly reports</div>
       </div>
     </div>
     <div style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:10px;padding:18px 24px;display:flex;gap:28px;flex-wrap:wrap;">
       <div style="flex:1;min-width:200px;">
-        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">첫 달 산출물 요약</div>
+        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">MONTH 1 DELIVERABLES</div>
         <div style="font-size:14px;color:var(--gray-800);line-height:1.7;">
-          <strong>1.</strong> 실시간 대시보드 접근권 (Web)<br>
-          <strong>2.</strong> AI 검색 현황 분석 리포트 (PDF)<br>
-          <strong>3.</strong> 경쟁사 SOV 벤치마크<br>
-          <strong>4.</strong> 전체 수집 데이터 (CSV / BigQuery)
+          <strong>1.</strong> Real-time dashboard access (Web)<br>
+          <strong>2.</strong> AI search status analysis report (PDF)<br>
+          <strong>3.</strong> Competitor SOV benchmark<br>
+          <strong>4.</strong> Full collected data (CSV / BigQuery)
         </div>
       </div>
       <div style="flex:1;min-width:200px;">
-        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">월간 정기 산출물</div>
+        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">MONTHLY DELIVERABLES</div>
         <div style="font-size:14px;color:var(--gray-800);line-height:1.7;">
-          <strong>5.</strong> 스크린샷 아카이브 (S3)<br>
-          <strong>6.</strong> GEO 최적화 콘텐츠 가이드<br>
-          <strong>7.</strong> Before/After 성과 비교 리포트<br>
-          <strong>8.</strong> 월간 전략 리뷰 미팅 (1h)
+          <strong>5.</strong> Screenshot archive (S3)<br>
+          <strong>6.</strong> GEO content optimization guide<br>
+          <strong>7.</strong> Before/After performance comparison report<br>
+          <strong>8.</strong> Monthly strategy review meeting (1h)
         </div>
       </div>
     </div>
@@ -1101,20 +1152,20 @@
   <!-- PROOF -->
   <section class="section">
     <div class="section-label">Proof</div>
-    <h2 class="section-title">이미 검증된 데이터 공급 레퍼런스</h2>
+    <h2 class="section-title">Proven Data Supply References</h2>
     <div class="proof-box">
       <div class="proof-items">
         <div class="proof-item">
-          <div class="proof-number">글로벌 S사</div>
-          <div class="proof-label">신규 제품 런칭 <strong>12개국 × 6 플랫폼</strong> GEO 데이터 공급 (국내 Top1 데이터 마케팅 에이전시 경유)</div>
+          <div class="proof-number">Global S-Corp</div>
+          <div class="proof-label">New product launch <strong>12 countries × 6 platforms</strong> GEO data supply (via Korea's #1 data marketing agency)</div>
         </div>
         <div class="proof-item">
-          <div class="proof-number">400만+</div>
-          <div class="proof-label">누적 데이터 포인트 (BigQuery 적재, 2026.04 기준)</div>
+          <div class="proof-number">4M+</div>
+          <div class="proof-label">Cumulative data points (BigQuery, as of Apr 2026)</div>
         </div>
         <div class="proof-item">
           <div class="proof-number">GEO 97.1/100</div>
-          <div class="proof-label">12개 업체 GEO 최적화 콘텐츠 <strong>192건 published</strong> 평균 스코어</div>
+          <div class="proof-label">12-company GEO content <strong>192 articles published</strong> average score</div>
         </div>
       </div>
     </div>
@@ -1124,23 +1175,23 @@
   <section class="section">
     <div class="contact-box">
       <div class="contact-header">
-        <h2 class="contact-title">상담 받기</h2>
-        <p class="contact-sub">간단한 정보만 남겨주시면 담당자가 <strong>24시간 내 연락</strong>드립니다.</p>
+        <h2 class="contact-title">Get in Touch</h2>
+        <p class="contact-sub">Leave your details and we'll <strong>respond within 24 hours</strong>.</p>
       </div>
       <form id="contactForm" class="contact-form">
         <div class="form-row">
-          <input type="text" name="name" placeholder="이름" required>
-          <input type="text" name="company" placeholder="회사명" required>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="company" placeholder="Company" required>
         </div>
         <div class="form-row">
-          <input type="email" name="email" placeholder="이메일" required>
-          <input type="tel" name="phone" placeholder="연락처 (선택)">
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="tel" name="phone" placeholder="Phone (optional)">
         </div>
-        <textarea name="message" placeholder="문의 내용 (선택) — 어떤 브랜드/산업이신지, 관심 있는 국가·플랫폼 등" rows="3"></textarea>
+        <textarea name="message" placeholder="Message (optional) — your brand/industry, countries or platforms of interest" rows="3"></textarea>
         <div class="form-footer">
           <div class="form-status" id="formStatus"></div>
           <button type="submit" class="contact-submit" id="submitBtn">
-            <span>상담받기</span>
+            <span>Contact Us</span>
             <span class="submit-arrow">→</span>
           </button>
         </div>
@@ -1167,27 +1218,27 @@
         };
 
         btn.disabled = true;
-        btn.querySelector('span').textContent = '전송 중...';
+        btn.querySelector('span').textContent = 'Sending...';
         status.textContent = '';
         status.className = 'form-status';
 
         const payload = {
           channel: '#geo-business',
-          username: 'GeoRank24 상담 봇',
+          username: 'GeoRank24 Inquiry Bot',
           icon_emoji: ':envelope_with_arrow:',
-          text: '📩 GeoRank24 상담 요청',
+          text: '📩 GeoRank24 Inquiry',
           blocks: [
-            { type: 'header', text: { type: 'plain_text', text: '📩 GeoRank24 상담 요청', emoji: true } },
+            { type: 'header', text: { type: 'plain_text', text: '📩 GeoRank24 Inquiry', emoji: true } },
             {
               type: 'section',
               fields: [
-                { type: 'mrkdwn', text: '*이름*\n' + data.name },
-                { type: 'mrkdwn', text: '*회사*\n' + data.company },
-                { type: 'mrkdwn', text: '*이메일*\n' + data.email },
-                { type: 'mrkdwn', text: '*연락처*\n' + data.phone }
+                { type: 'mrkdwn', text: '*Name*\n' + data.name },
+                { type: 'mrkdwn', text: '*Company*\n' + data.company },
+                { type: 'mrkdwn', text: '*Email*\n' + data.email },
+                { type: 'mrkdwn', text: '*Phone*\n' + data.phone }
               ]
             },
-            { type: 'section', text: { type: 'mrkdwn', text: '*문의 내용*\n' + data.message } },
+            { type: 'section', text: { type: 'mrkdwn', text: '*Message*\n' + data.message } },
             { type: 'context', elements: [{ type: 'mrkdwn', text: '🕐 ' + data.at + ' · GeoRank24 Sales Proposal Page' }] }
           ]
         };
@@ -1198,15 +1249,15 @@
             mode: 'no-cors',
             body: JSON.stringify(payload)
           });
-          status.textContent = '✓ 상담 요청이 전달되었습니다. 24시간 내 담당자가 연락드리겠습니다.';
+          status.textContent = '✓ Your inquiry has been submitted. We'll reach out within 24 hours.';
           status.className = 'form-status success';
           form.reset();
         } catch (err) {
-          status.textContent = '전송에 실패했습니다. contact@twostepsahead.co.kr 로 이메일 부탁드립니다.';
+          status.textContent = 'Failed to send. Please email contact@twostepsahead.co.kr directly.';
           status.className = 'form-status error';
         } finally {
           btn.disabled = false;
-          btn.querySelector('span').textContent = '상담받기';
+          btn.querySelector('span').textContent = 'Contact Us';
         }
       });
     })();
@@ -1220,14 +1271,7 @@
 
 </div>
 
-<script>
-// i18n: ?lang=en → redirect to en.html
-(function(){
-  if(new URLSearchParams(window.location.search).get("lang")==="en"){
-    window.location.replace("en.html");
-  }
-})();
-</script>
+
 
 </div>
 </body>
