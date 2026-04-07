@@ -222,6 +222,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 14px;
   }
+  .problem-grid .problem-card:nth-child(5),
+  .problem-grid .problem-card:nth-child(6) {
+    border-left: 3px solid var(--accent);
+  }
   .problem-card {
     background: var(--gray-50);
     border: 1px solid var(--gray-100);
@@ -433,6 +437,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
+  }
+  .usecase-grid:has(.usecase-card:nth-child(5)) {
+    grid-template-columns: repeat(3, 1fr);
   }
   .usecase-card {
     background: white;
@@ -768,9 +775,10 @@
     .section-title { font-size: 28px; }
     .why-grid { grid-template-columns: 1fr 1fr; }
     .comp-grid { grid-template-columns: 1fr 1fr; }
-    .deliverable-grid { grid-template-columns: repeat(3, 1fr); }
+    .deliverable-grid { grid-template-columns: repeat(2, 1fr) !important; }
     .firstmonth-timeline { grid-template-columns: 1fr 1fr; }
     .modal { max-width: 95vw; }
+    .usecase-grid { grid-template-columns: repeat(2, 1fr); }
   }
 
   /* ===== MOBILE (max-width: 768px) ===== */
@@ -824,6 +832,84 @@
 
     /* Problem grid */
     .problem-grid { grid-template-columns: 1fr; gap: 10px; }
+
+    /* Core Positioning dark box */
+    .core-pos-box {
+      padding: 28px 20px !important;
+      border-radius: 14px !important;
+    }
+    .core-pos-box h2 {
+      font-size: 20px !important;
+      line-height: 1.4 !important;
+    }
+    .core-pos-box h2 br { display: none; }
+    .core-pos-box p { font-size: 14px !important; }
+    .core-pos-grid {
+      grid-template-columns: 1fr !important;
+      gap: 12px !important;
+    }
+    .core-pos-card {
+      padding: 20px !important;
+    }
+    .core-pos-card div:first-child { font-size: 28px !important; margin-bottom: 8px !important; }
+    .core-pos-card div:nth-child(2) { font-size: 15px !important; }
+    .core-pos-card p { font-size: 13px !important; }
+    .core-pos-footer {
+      font-size: 14px !important;
+      text-align: left !important;
+    }
+    .core-pos-footer br { display: none; }
+
+    /* AI Query Intelligence */
+    .qi-example {
+      padding: 20px !important;
+    }
+    .qi-example > div:first-child { font-size: 13px !important; }
+    .qi-chips {
+      gap: 6px !important;
+    }
+    .qi-chips > span {
+      font-size: 12px !important;
+      padding: 6px 10px !important;
+    }
+    .qi-pipeline {
+      grid-template-columns: 1fr !important;
+      border-radius: 12px !important;
+    }
+    .qi-pipeline > div {
+      border-right: none !important;
+      border-bottom: 1px solid var(--gray-100) !important;
+      padding: 20px !important;
+    }
+    .qi-pipeline > div:last-child {
+      border-bottom: none !important;
+    }
+    .qi-pipeline > div > div:nth-child(2) { font-size: 15px !important; }
+    .qi-pipeline > div > div:nth-child(3) { font-size: 12px !important; }
+    .qi-closing {
+      padding: 20px 22px !important;
+      border-radius: 10px !important;
+    }
+    .qi-closing p:first-child { font-size: 14px !important; }
+    .qi-closing p:last-child { font-size: 12px !important; }
+
+    /* GEO Full-Loop pipeline */
+    .fl-pipeline {
+      grid-template-columns: 1fr 1fr 1fr !important;
+    }
+    .fl-pipeline > div {
+      padding: 16px 12px !important;
+    }
+    .fl-pipeline > div > div:nth-child(2) { font-size: 18px !important; }
+    .fl-pipeline > div > div:nth-child(3) { font-size: 12px !important; }
+    .fl-pipeline > div > div:nth-child(4) { font-size: 10px !important; }
+    .fl-hint {
+      flex-direction: column !important;
+      gap: 12px !important;
+      padding: 18px 20px !important;
+    }
+    .fl-hint > div:first-child { font-size: 24px !important; }
+    .fl-hint > div:last-child { font-size: 13px !important; }
     .problem-card { padding: 16px 18px; }
     .problem-text { font-size: 14px; }
 
@@ -945,6 +1031,24 @@
     .sov-bar-fill { font-size: 8px; min-width: 30px; }
     .comp-card-label { font-size: 9px; }
     .data-badge { font-size: 9px; padding: 2px 6px; }
+    .deliverable-grid { grid-template-columns: 1fr !important; }
+
+    /* Core Positioning — tighter on small screens */
+    .core-pos-box { padding: 22px 16px !important; }
+    .core-pos-box h2 { font-size: 18px !important; }
+    .core-pos-card { padding: 16px !important; }
+    .core-pos-footer { font-size: 13px !important; }
+
+    /* AI Query Intelligence */
+    .qi-example { padding: 16px !important; }
+    .qi-chips > span { font-size: 11px !important; padding: 5px 8px !important; }
+
+    /* GEO Full-Loop — single col on small */
+    .fl-pipeline { grid-template-columns: 1fr !important; }
+    .fl-pipeline > div { border-right: none !important; border-bottom: 1px solid var(--gray-100) !important; }
+    .fl-pipeline > div:last-child { border-bottom: none !important; }
+    .qi-closing p:first-child br { display: none; }
+    .qi-pipeline > div > div:nth-child(2) br { display: none; }
   }
 
 
@@ -1460,7 +1564,7 @@
 
   <!-- ATTENTION QUESTION -->
   <div class="attention-question">
-    In this market, <strong>who is capturing the traffic?</strong>
+    When AI recommends a brand in your category — <strong>is it yours, or your competitor's?</strong>
   </div>
 
   <!-- HERO -->
@@ -1471,12 +1575,120 @@
       Across <strong>7 AI platforms × 12 countries</strong> including ChatGPT, Gemini, Perplexity, and AI Overview,
       we track how your brand appears and which keywords competitors are capturing —
       collected and analyzed via <strong>real Chrome browsers</strong>, not APIs.
+      From demand context discovery to GEO optimization with <strong>Before/After proof</strong>.
     </p>
     <div class="hero-bullets">
       <div class="hero-bullet">Real browser crawling, not API</div>
       <div class="hero-bullet">12-country ISP static IP, local results</div>
       <div class="hero-bullet">Full-page screenshot evidence</div>
-      <div class="hero-bullet">GEO-optimized content generation</div>
+      <div class="hero-bullet">GEO Full-Loop: Strategy → Content → Proof</div>
+      <div class="hero-bullet">Demand context & agentic commerce ready</div>
+    </div>
+  </section>
+
+  <!-- CORE POSITIONING -->
+  <section class="section">
+    <div class="core-pos-box" style="background:var(--dark);border-radius:20px;padding:44px 48px;color:white;">
+      <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:16px;">What Makes Us Different</div>
+      <h2 style="font-size:28px;font-weight:900;color:white;line-height:1.35;margin-bottom:16px;letter-spacing:-0.5px;">
+        The only company that collects<br>real AI answers from actual browser screens —<br>not API estimates.
+      </h2>
+      <p style="font-size:15px;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:32px;max-width:860px;">
+        We crawl ChatGPT, Perplexity, Gemini, AI Overview, and AI Mode using <strong style="color:white;">real Chrome browsers</strong> — capturing exactly what users see,
+        complete with full-page screenshots, citation URLs, source domains, and country-specific differences.<br><br>Not API guesses. Not manual checks. <strong style="color:white;">Actual evidence.</strong>
+      </p>
+      <div class="core-pos-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
+          <div style="font-size:36px;margin-bottom:12px;">📍</div>
+          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">Know Where to Invest</div>
+          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
+            We analyze <strong style="color:var(--accent);">which media and channels AI actually cites</strong> — so you invest in PR, content, and social where it matters.<br><br>
+            Not gut feel — data-driven decisions:<br>"Invest here, and AI will cite you."
+          </p>
+        </div>
+        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
+          <div style="font-size:36px;margin-bottom:12px;">📸</div>
+          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">Prove Results With Evidence</div>
+          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
+            Show Before/After <strong style="color:var(--accent);">SOV changes with screenshot proof</strong>.<br><br>
+            Not "search ranking improved" — but <strong style="color:white;">"AI now recommends our brand"</strong> with the actual screen capture.
+          </p>
+        </div>
+        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
+          <div style="font-size:36px;margin-bottom:12px;">🔔</div>
+          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">Track Competitors in Real-Time</div>
+          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
+            Weekly auto-collection detects <strong style="color:var(--accent);">competitor SOV surges, new brand entries, and country-level shifts</strong>.<br><br>
+            Citation source reverse-engineering to understand their strategy.
+          </p>
+        </div>
+      </div>
+      <div class="core-pos-footer" style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.12);font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;text-align:center;">
+        What we deliver isn't just data — it's <strong style="color:var(--accent);">the decision-making infrastructure for the AI search era.</strong><br>
+        Not guesswork. Not estimates. Real evidence that drives real marketing decisions.
+      </div>
+    </div>
+  </section>
+
+  <!-- AI QUERY INTELLIGENCE -->
+  <section class="section">
+    <div class="section-label">AI Query Intelligence</div>
+    <h2 class="section-title">We Don't Just Monitor Keywords. <span style="color:var(--accent-dark)">We Dominate Every Question AI Answers.</span></h2>
+    <p class="section-lead">
+      Traditional SEO revolves around a handful of keywords. In the AI era, a single keyword expands into <strong>hundreds of natural-language questions</strong>.
+      We generate, test, and conquer them all.
+    </p>
+
+    <div class="qi-example" style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:16px;padding:28px 32px;margin-bottom:24px;">
+      <div style="font-size:14px;font-weight:800;color:var(--dark);margin-bottom:16px;">Example: "acne skincare" → How AI Expands It</div>
+      <div class="qi-chips" style="display:flex;gap:10px;flex-wrap:wrap;">
+        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"best acne cream for sensitive skin"</span>
+        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"dermatologist recommended acne treatment"</span>
+        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"skincare routine for 20s male acne"</span>
+        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"affordable Korean acne products"</span>
+        <span style="background:var(--accent-light);border:1px solid var(--accent);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--accent-dark);font-weight:700;">+ hundreds more per country</span>
+      </div>
+    </div>
+
+    <div class="qi-pipeline" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;">
+      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 1</div>
+        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">Mass Query<br>Generation</div>
+        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
+          From core keywords, generate <strong>tens of thousands of real user questions</strong> —
+          clustered by purchase stage and localized per country.
+        </div>
+      </div>
+      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 2</div>
+        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">5-Platform<br>Verification</div>
+        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
+          Every query tested across <strong>ChatGPT, Perplexity, Gemini, AI Overview, AI Mode</strong> via real browsers.
+        </div>
+      </div>
+      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 3</div>
+        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">Winning Queries<br>Identified</div>
+        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
+          Classify every query: <strong>"your brand" vs "competitor" vs "nobody yet"</strong> — unclaimed queries are your biggest opportunities.
+        </div>
+      </div>
+      <div style="padding:24px 20px;background:var(--dark);color:white;">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">Step 4</div>
+        <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;line-height:1.3;">Execute &<br>Re-Verify</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.75);line-height:1.6;">
+          Reverse-engineer what drives AI citations — then <strong style="color:var(--accent);">re-crawl to confirm your brand now appears</strong>.
+        </div>
+      </div>
+    </div>
+
+    <div class="qi-closing" style="background:var(--dark);border-radius:12px;padding:22px 28px;margin-top:20px;text-align:center;">
+      <p style="font-size:16px;color:white;font-weight:700;line-height:1.5;margin:0;">
+        We're not a keyword research company.<br>We <strong style="color:var(--accent);">engineer your brand into every question AI answers.</strong>
+      </p>
+      <p style="font-size:13px;color:rgba(255,255,255,0.6);margin-top:8px;margin-bottom:0;">
+        If SEO was "search result optimization," we do AI Answer Optimization — with real data and real proof.
+      </p>
     </div>
   </section>
 
@@ -2276,7 +2488,7 @@
     <h2 class="section-title">Questions You Must Answer — But Can't Yet</h2>
     <p class="section-lead">
       Marketing, Product, Strategy, Research teams, and agencies — <strong>a shared challenge for every team driving brand growth.</strong>
-      Consumers are shifting to AI search, but most brands have zero visibility data for this channel.
+      Consumers are shifting to AI search, and AI agents are beginning to make purchase decisions. Most brands have zero visibility data for this channel.
     </p>
     <div class="problem-grid">
       <div class="problem-card">
@@ -2295,6 +2507,14 @@
         <div class="problem-q">Q.</div>
         <div class="problem-text">Did our GEO optimization <strong>actually work?</strong></div>
       </div>
+      <div class="problem-card">
+        <div class="problem-q">Q.</div>
+        <div class="problem-text">In what <strong>purchase contexts</strong> does AI recommend our competitors instead of us?</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-q">Q.</div>
+        <div class="problem-text">When AI agents start <strong>making purchase decisions</strong>, will our brand be in the recommendation set?</div>
+      </div>
     </div>
   </section>
 
@@ -2311,6 +2531,7 @@
           <li>"AI Search Data" in reports = <strong>blank</strong></li>
           <li>GEO content measurement <strong>impossible</strong></li>
           <li>12-country local results = <strong>manual VPN switching</strong></li>
+          <li>No idea <strong>in which purchase contexts</strong> competitors win</li>
         </ul>
       </div>
       <div class="ba-arrow">→</div>
@@ -2322,6 +2543,7 @@
           <li>Reports include <strong>AI search share data</strong> + screenshot evidence</li>
           <li>Before/After <strong>quantitatively measured</strong> (monthly)</li>
           <li><strong>Local results auto-collected</strong> via 12-country ISP IPs</li>
+          <li>Demand context mapping: <strong>know exactly where you lose</strong></li>
         </ul>
       </div>
     </div>
@@ -2363,6 +2585,26 @@
           → Track citation rate changes in the monthly dashboard
         </div>
       </div>
+      <div class="usecase-card">
+        <div class="usecase-icon">🔍</div>
+        <div class="usecase-title">Demand Context Discovery</div>
+        <div class="usecase-desc">
+          Beyond simple keywords — analyze <strong>in what situations (why, when, for whom) AI recommends your competitors but not you</strong>. Uncover blind spots.
+        </div>
+        <div class="usecase-result">
+          → "Gift for mom" vs "daily skincare" — same category, completely different AI recommendations
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="usecase-icon">🤖</div>
+        <div class="usecase-title">Agentic Commerce Readiness</div>
+        <div class="usecase-desc">
+          AI agents are starting to make purchase decisions. <strong>Monitor whether your brand is in the AI recommendation set</strong> before it's too late.
+        </div>
+        <div class="usecase-result">
+          → Track your brand's "AI recommendation coordinates" across 7 agent platforms
+        </div>
+      </div>
     </div>
   </section>
 
@@ -2398,38 +2640,106 @@
     </div>
   </section>
 
+  <!-- GEO FULL-LOOP -->
+  <section class="section">
+    <div class="section-label">GEO Full-Loop</div>
+    <h2 class="section-title">From Discovery to Proof — <span style="color:var(--accent-dark)">A Closed Loop Others Can't Close</span></h2>
+    <p class="section-lead">
+      Most competitors stop at monitoring or content advice. GeoRank24 connects <strong>every step from demand context discovery to measurable results</strong> — with screenshot evidence at each stage.
+    </p>
+    <div class="fl-pipeline" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;margin-bottom:12px;">
+      <div style="padding:22px 18px;background:var(--dark);color:white;text-align:center;border-right:1px solid rgba(255,255,255,0.1);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">Step 1</div>
+        <div style="font-size:22px;margin-bottom:8px;">🔍</div>
+        <div style="font-size:13px;font-weight:800;margin-bottom:6px;">Discover</div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.65);line-height:1.5;">Demand context analysis —<br>why, when, for whom</div>
+      </div>
+      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 2</div>
+        <div style="font-size:22px;margin-bottom:8px;">📡</div>
+        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">Monitor</div>
+        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">7 platforms × 12 countries<br>real browser crawl</div>
+      </div>
+      <div style="padding:22px 18px;background:white;text-align:center;">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 3</div>
+        <div style="font-size:22px;margin-bottom:8px;">📊</div>
+        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">Analyze</div>
+        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">SOV, citation gaps,<br>competitor benchmarks</div>
+      </div>
+    </div>
+    <div class="fl-pipeline" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;margin-bottom:20px;">
+      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 4</div>
+        <div style="font-size:22px;margin-bottom:8px;">✍️</div>
+        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">Optimize</div>
+        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">GEO content + Entity SEO +<br>structured data</div>
+      </div>
+      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 5</div>
+        <div style="font-size:22px;margin-bottom:8px;">🔄</div>
+        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">Measure</div>
+        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">Before/After SOV with<br>screenshot proof</div>
+      </div>
+      <div style="padding:22px 18px;background:var(--accent-light);text-align:center;">
+        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Repeat</div>
+        <div style="font-size:22px;margin-bottom:8px;">♻️</div>
+        <div style="font-size:13px;font-weight:800;color:var(--accent-dark);margin-bottom:6px;">Iterate</div>
+        <div style="font-size:11px;color:var(--accent-dark);line-height:1.5;">Continuous<br>optimization loop</div>
+      </div>
+    </div>
+    <div class="fl-hint" style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:10px;padding:18px 24px;display:flex;gap:20px;align-items:center;">
+      <div style="font-size:28px;flex-shrink:0;">💡</div>
+      <div style="font-size:14px;color:var(--gray-700);line-height:1.65;">
+        <strong style="color:var(--dark);">Why this matters:</strong> Search data platforms tell you <em>what consumers searched in the past</em>.
+        GeoRank24 shows you <strong>what AI is telling consumers right now</strong> — and proves whether your optimization actually changed the answer.
+      </div>
+    </div>
+  </section>
+
   <!-- DELIVERABLES -->
   <section class="section">
     <div class="section-label">What You Get</div>
-    <h2 class="section-title">5-Step Decision Data From a Single Keyword</h2>
+    <h2 class="section-title">7-Step Decision Data From a Single Keyword</h2>
     <p class="section-lead">
-      All decision-cycle data in one dashboard — from status assessment to performance measurement.
+      All decision-cycle data in one dashboard — from demand context discovery to performance measurement.
     </p>
-    <div class="deliverable-grid">
+    <div class="deliverable-grid" style="grid-template-columns:repeat(4,1fr);">
       <div class="deliverable">
         <div class="deliverable-num">01</div>
+        <div class="deliverable-title">Context</div>
+        <div class="deliverable-desc">Demand context mapping — what situations trigger AI to recommend your category</div>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-num">02</div>
         <div class="deliverable-title">Status</div>
         <div class="deliverable-desc">Who is cited across 7 platforms × 12 countries (with screenshot evidence)</div>
       </div>
       <div class="deliverable">
-        <div class="deliverable-num">02</div>
+        <div class="deliverable-num">03</div>
         <div class="deliverable-title">Competition</div>
         <div class="deliverable-desc">Competitor SOV trends per keyword with benchmarking</div>
       </div>
       <div class="deliverable">
-        <div class="deliverable-num">03</div>
-        <div class="deliverable-title">Strategy</div>
-        <div class="deliverable-desc">Priority keywords, platforms, and countries to focus on</div>
-      </div>
-      <div class="deliverable">
         <div class="deliverable-num">04</div>
-        <div class="deliverable-title">Execution</div>
-        <div class="deliverable-desc">GEO content creation guide (36-rule scoring)</div>
+        <div class="deliverable-title">Strategy</div>
+        <div class="deliverable-desc">Priority keywords, platforms, countries, and <strong>untapped demand contexts</strong> to capture</div>
       </div>
+    </div>
+    <div class="deliverable-grid" style="grid-template-columns:repeat(3,1fr);margin-top:12px;">
       <div class="deliverable">
         <div class="deliverable-num">05</div>
+        <div class="deliverable-title">Execution</div>
+        <div class="deliverable-desc">GEO content creation (36-rule scoring) + Entity SEO + structured data markup</div>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-num">06</div>
         <div class="deliverable-title">Performance</div>
-        <div class="deliverable-desc">Monthly Before/After visibility measurement</div>
+        <div class="deliverable-desc">Monthly Before/After visibility measurement with screenshot proof</div>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-num">07</div>
+        <div class="deliverable-title">AI Readiness</div>
+        <div class="deliverable-desc">Agentic commerce readiness score — is your brand in the AI recommendation set?</div>
       </div>
     </div>
   </section>
@@ -2437,7 +2747,7 @@
   <!-- WHY US -->
   <section class="section">
     <div class="section-label">Why GeoRank24</div>
-    <h2 class="section-title">4 Differentiators Competitors Can't Replicate</h2>
+    <h2 class="section-title">6 Differentiators Competitors Can't Replicate</h2>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-num">01</div>
@@ -2469,6 +2779,22 @@
         <div class="why-desc">
           We don't stop at monitoring. Based on <strong>GEO content 36-rule scoring</strong>,
           we guide content creation for high AI citation probability. Collection → Analysis → Execution in one service.
+        </div>
+      </div>
+      <div class="why-card">
+        <div class="why-num">05</div>
+        <div class="why-title">Demand Context Analysis</div>
+        <div class="why-desc">
+          Not just "best smartphone" — we analyze <strong>why, when, and for whom</strong> consumers ask AI.
+          "Gift for mom" and "daily driver" produce completely different AI recommendations. We map your brand's position <strong>across every purchase context</strong>.
+        </div>
+      </div>
+      <div class="why-card">
+        <div class="why-num">06</div>
+        <div class="why-title">GEO Full-Loop with Proof</div>
+        <div class="why-desc">
+          Others say "optimize your content for AI." We prove it worked.
+          <strong>Strategy → Content → Entity SEO → AI Crawl → Before/After measurement</strong> — a closed loop with screenshot evidence at every step.
         </div>
       </div>
     </div>
