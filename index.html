@@ -1573,19 +1573,37 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-label">Service Proposal for Enterprise Brands &amp; Agencies</div>
-    <h1 class="hero-title">Measure Your Brand's AI Search<br>Share of Voice — With Data</h1>
+    <h1 class="hero-title">We Measure &amp; Analyze<br>How AI Sees Your Brand — Every Week.</h1>
     <p class="hero-sub">
-      Across <strong>7 AI platforms × 12 countries</strong> including ChatGPT, Gemini, Perplexity, and AI Overview,
-      we track how your brand appears and which keywords competitors are capturing —
-      collected and analyzed via <strong>real Chrome browsers</strong>, not APIs.
-      From demand context discovery to GEO optimization with <strong>Before/After proof</strong>.
+      ChatGPT · Gemini · Perplexity · AI Overview — across <strong>5 major AI platforms in 12 countries</strong>,
+      we measure how your brand appears, analyze which competitors are taking your share,
+      and deliver insights with <strong>full-screen evidence</strong> — every week.
     </p>
     <div class="hero-bullets">
-      <div class="hero-bullet">Real browser crawling, not API</div>
-      <div class="hero-bullet">12-country ISP static IP, local results</div>
-      <div class="hero-bullet">Full-page screenshot evidence</div>
-      <div class="hero-bullet">GEO Full-Loop: Strategy → Content → Proof</div>
-      <div class="hero-bullet">Demand context & agentic commerce ready</div>
+      <div class="hero-bullet">Weekly measurement · Same screen as your customers</div>
+      <div class="hero-bullet">Local results from 12 countries</div>
+      <div class="hero-bullet">Competitive analysis with screen evidence</div>
+      <div class="hero-bullet">Source citation tracking · Where AI quotes from</div>
+      <div class="hero-bullet">Before/After proof of optimization impact</div>
+    </div>
+  </section>
+
+  <!-- FOMO ALERT — 위기감 섹션 -->
+  <section class="section" style="margin-top:-20px;">
+    <div style="background:linear-gradient(135deg,#0F0E1A 0%,#1A1826 100%);border-radius:20px;padding:44px 48px;color:white;border:1px solid rgba(220,38,38,0.3);">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
+        <div style="font-size:36px;">⚠️</div>
+        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:#FCA5A5;text-transform:uppercase;">Right Now, While You're Reading This</div>
+      </div>
+      <h2 style="font-size:30px;font-weight:900;color:white;line-height:1.35;margin-bottom:16px;letter-spacing:-0.5px;">
+        Your competitors are taking your share<br>in AI search — and you can't see it.
+      </h2>
+      <p style="font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;margin-bottom:0;max-width:920px;">
+        When customers ask ChatGPT <em>"recommend a good [your category]"</em> — <strong style="color:white;">who appears first?</strong>
+        Is it your brand, or your competitor? The honest answer for most brands: <strong style="color:#FCA5A5;">we don't know.</strong>
+        AI search traffic is exploding, but most brands have <strong style="color:white;">zero measurement of this channel</strong>.
+        That's the gap we close.
+      </p>
     </div>
   </section>
 
@@ -2878,27 +2896,32 @@
     </div>
   </section>
 
-  <!-- CONTACT FORM -->
+  <!-- CONTACT FORM — FREE DIAGNOSTIC REPORT -->
   <section class="section">
     <div class="contact-box">
       <div class="contact-header">
-        <h2 class="contact-title">Get in Touch</h2>
-        <p class="contact-sub">Leave your details and we'll <strong>respond within 24 hours</strong>.</p>
+        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">🎁 Free Diagnostic Report</div>
+        <h2 class="contact-title">See How AI Sees Your Brand — For Free.</h2>
+        <p class="contact-sub">
+          Tell us your brand, category, and target country. We'll send you a <strong>free 5-page diagnostic report</strong> within 3 business days —
+          showing how your brand currently appears in AI search, who your top competitors are, and where you're losing share.<br><br>
+          <strong>No commitment. No sales call required.</strong> Just real measurement of your brand in AI.
+        </p>
       </div>
       <form id="contactForm" class="contact-form">
         <div class="form-row">
-          <input type="text" name="name" placeholder="Name" required>
-          <input type="text" name="company" placeholder="Company" required>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="text" name="company" placeholder="Brand / Company" required>
         </div>
         <div class="form-row">
-          <input type="email" name="email" placeholder="Email" required>
-          <input type="tel" name="phone" placeholder="Phone (optional)">
+          <input type="email" name="email" placeholder="Email (we'll send the report here)" required>
+          <input type="text" name="category" placeholder="Category (e.g. skincare, EV)" required>
         </div>
-        <textarea name="message" placeholder="Message (optional) — your brand/industry, countries or platforms of interest" rows="3"></textarea>
+        <textarea name="message" placeholder="Target country or competitors of interest (optional)" rows="2"></textarea>
         <div class="form-footer">
           <div class="form-status" id="formStatus"></div>
           <button type="submit" class="contact-submit" id="submitBtn">
-            <span>Contact Us</span>
+            <span>Get My Free Diagnostic Report</span>
             <span class="submit-arrow">→</span>
           </button>
         </div>
@@ -2925,7 +2948,7 @@
         };
 
         btn.disabled = true;
-        btn.querySelector('span').textContent = 'Sending...';
+        btn.querySelector('span').textContent = 'Submitting...';
         status.textContent = '';
         status.className = 'form-status';
 
@@ -2956,7 +2979,7 @@
             mode: 'no-cors',
             body: JSON.stringify(payload)
           });
-          status.textContent = '✓ Your inquiry has been submitted. We'll reach out within 24 hours.';
+          status.textContent = '✓ Request received. Your free diagnostic report will arrive within 3 business days.';
           status.className = 'form-status success';
           form.reset();
         } catch (err) {
@@ -2964,7 +2987,7 @@
           status.className = 'form-status error';
         } finally {
           btn.disabled = false;
-          btn.querySelector('span').textContent = 'Contact Us';
+          btn.querySelector('span').textContent = 'Get My Free Diagnostic Report';
         }
       });
     })();

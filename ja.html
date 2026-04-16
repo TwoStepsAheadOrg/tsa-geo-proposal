@@ -1573,19 +1573,37 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-label">エンタープライズブランド・エージェンシー向けサービス提案</div>
-    <h1 class="hero-title">AI検索でのブランドシェアを<br>データで測定する</h1>
+    <h1 class="hero-title">毎週、AIがあなたのブランドを<br>どう見ているかを測定・分析します。</h1>
     <p class="hero-sub">
-      ChatGPT、Gemini、Perplexity、AI Overviewなど<strong>7つのAIプラットフォーム × 12カ国</strong>で、
-      ブランドの表示状況と競合のキーワード占有状況を追跡 —
-      APIではなく<strong>実際のChromeブラウザ</strong>で収集・分析。
-      需要コンテキスト発見からGEO最適化、<strong>Before/After証拠</strong>まで。
+      ChatGPT · Gemini · Perplexity · AI Overview — <strong>主要5つのAIプラットフォーム × 12カ国</strong>で
+      ブランドの表示状況を測定し、どの競合がシェアを奪っているかを分析、
+      <strong>実画面の証拠とともに</strong>毎週インサイトをお届けします。
     </p>
     <div class="hero-bullets">
-      <div class="hero-bullet">APIではなく実ブラウザクロール</div>
-      <div class="hero-bullet">12カ国ISP固定IP、ローカル結果</div>
-      <div class="hero-bullet">フルページスクリーンショット証拠</div>
-      <div class="hero-bullet">GEOフルループ：戦略→コンテンツ→証明</div>
-      <div class="hero-bullet">需要コンテキスト＆エージェンティックコマース対応</div>
+      <div class="hero-bullet">顧客が見る画面そのまま · 週次測定</div>
+      <div class="hero-bullet">12カ国のローカル結果そのまま</div>
+      <div class="hero-bullet">画面証拠と共に競合分析</div>
+      <div class="hero-bullet">引用ソース追跡 · AIがどこから引用しているか</div>
+      <div class="hero-bullet">最適化前後の効果証明</div>
+    </div>
+  </section>
+
+  <!-- FOMO ALERT -->
+  <section class="section" style="margin-top:-20px;">
+    <div style="background:linear-gradient(135deg,#0F0E1A 0%,#1A1826 100%);border-radius:20px;padding:44px 48px;color:white;border:1px solid rgba(220,38,38,0.3);">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
+        <div style="font-size:36px;">⚠️</div>
+        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:#FCA5A5;text-transform:uppercase;">今この瞬間にも</div>
+      </div>
+      <h2 style="font-size:30px;font-weight:900;color:white;line-height:1.35;margin-bottom:16px;letter-spacing:-0.5px;">
+        競合がAI検索で<br>あなたのシェアを奪っています。
+      </h2>
+      <p style="font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;margin-bottom:0;max-width:920px;">
+        顧客がChatGPTに<em>「おすすめの[あなたのカテゴリー]」</em>と聞いた時、<strong style="color:white;">誰が最初に表示されますか？</strong>
+        あなたのブランドか、競合か — 正直に答えると、ほとんどのブランドの答えは<strong style="color:#FCA5A5;">「分からない」</strong>です。
+        AI検索量は爆発的に増えているのに、ほとんどのブランドは<strong style="color:white;">このチャネルの測定値がゼロ</strong>。
+        その隙間を私たちが埋めます。
+      </p>
     </div>
   </section>
 
@@ -2878,27 +2896,32 @@
     </div>
   </section>
 
-  <!-- CONTACT FORM -->
+  <!-- CONTACT FORM — 無料診断レポート -->
   <section class="section">
     <div class="contact-box">
       <div class="contact-header">
-        <h2 class="contact-title">お問い合わせ</h2>
-        <p class="contact-sub">ご連絡先をお知らせください。<strong>24時間以内にご返答</strong>いたします。</p>
+        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">🎁 無料診断レポート</div>
+        <h2 class="contact-title">あなたのブランドがAIにどう見られているか — 無料でご確認ください。</h2>
+        <p class="contact-sub">
+          ブランド名・カテゴリー・対象国を教えていただくだけで、<strong>3営業日以内に5ページの無料診断レポート</strong>をお送りします —
+          現在AI検索でブランドがどう表示されているか、主要な競合は誰か、どこでシェアを失っているかをお見せします。<br><br>
+          <strong>約束なし、営業電話なし。</strong>ただあなたのブランドのAI測定値です。
+        </p>
       </div>
       <form id="contactForm" class="contact-form">
         <div class="form-row">
           <input type="text" name="name" placeholder="お名前" required>
-          <input type="text" name="company" placeholder="会社名" required>
+          <input type="text" name="company" placeholder="ブランド / 会社" required>
         </div>
         <div class="form-row">
-          <input type="email" name="email" placeholder="メール" required>
-          <input type="tel" name="phone" placeholder="電話番号（任意）">
+          <input type="email" name="email" placeholder="メール（このアドレスにレポート送付）" required>
+          <input type="text" name="category" placeholder="カテゴリー（例：スキンケア、EV）" required>
         </div>
-        <textarea name="message" placeholder="メッセージ（任意）— ブランド/業種、関心のある国やプラットフォーム" rows="3"></textarea>
+        <textarea name="message" placeholder="対象国または関心のある競合（任意）" rows="2"></textarea>
         <div class="form-footer">
           <div class="form-status" id="formStatus"></div>
           <button type="submit" class="contact-submit" id="submitBtn">
-            <span>お問い合わせ</span>
+            <span>無料診断レポートを受け取る</span>
             <span class="submit-arrow">→</span>
           </button>
         </div>
@@ -2925,7 +2948,7 @@
         };
 
         btn.disabled = true;
-        btn.querySelector('span').textContent = 'Sending...';
+        btn.querySelector('span').textContent = '送信中...';
         status.textContent = '';
         status.className = 'form-status';
 
@@ -2956,7 +2979,7 @@
             mode: 'no-cors',
             body: JSON.stringify(payload)
           });
-          status.textContent = '✓ Your inquiry has been submitted. We'll reach out within 24 hours.';
+          status.textContent = '✓ ご依頼を受け付けました。無料診断レポートは3営業日以内にお届けします。';
           status.className = 'form-status success';
           form.reset();
         } catch (err) {
@@ -2964,7 +2987,7 @@
           status.className = 'form-status error';
         } finally {
           btn.disabled = false;
-          btn.querySelector('span').textContent = 'Contact Us';
+          btn.querySelector('span').textContent = '無料診断レポートを受け取る';
         }
       });
     })();
