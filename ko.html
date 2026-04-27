@@ -1786,7 +1786,7 @@ body {
         <span class="h1-line">AI는 모든 콘텐츠를</span>
         <span class="h1-line">인용하지 않습니다.</span>
         <span class="h1-line">그 차이를,</span>
-        <span class="h1-line gradient-text"><span class="kinetic-word" id="kinetic-word">우리가 예측합니다.</span></span>
+        <span class="h1-line gradient-text">우리가 학습합니다.</span>
       </h1>
       <p class="hero-sub">
         우리는 매일 12개국 5 AI 플랫폼을 캡처하고,
@@ -2798,24 +2798,7 @@ body {
     });
   }
 
-  // Kinetic word rotation
-  const KINETIC_WORDS = ['우리가 예측합니다.', '우리가 학습합니다.', '우리가 분석합니다.', '우리가 발견합니다.'];
-  const kEl = document.getElementById('kinetic-word');
-  let kIdx = 0;
-  setInterval(() => {
-    kIdx = (kIdx + 1) % KINETIC_WORDS.length;
-    kEl.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-    kEl.style.opacity = '0';
-    kEl.style.transform = 'translateY(-8px)';
-    setTimeout(() => {
-      kEl.textContent = KINETIC_WORDS[kIdx];
-      kEl.style.transform = 'translateY(8px)';
-      requestAnimationFrame(() => {
-        kEl.style.opacity = '1';
-        kEl.style.transform = 'translateY(0)';
-      });
-    }, 400);
-  }, 3500);
+  // (kinetic rotation removed — final line is now static)
 })();
 </script>
 
