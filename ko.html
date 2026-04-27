@@ -713,29 +713,16 @@ body {
 .gauge-wrap {
   position: relative;
   text-align: center;
-  margin: 8px 0 16px;
+  margin: 8px 0 4px;
   padding: 0 12px;
 }
 .gauge { width: 100%; max-width: 280px; height: auto; display: block; margin: 0 auto; }
-.gauge-value {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--f-mono);
-  font-size: 44px;
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: -2px;
-  line-height: 1;
-}
-.gauge-pct { font-size: 22px; color: var(--text-soft); font-weight: 600; }
 .gauge-trend {
   font-family: var(--f-mono);
   font-size: 12px;
   color: var(--teal-light);
   font-weight: 600;
-  margin-top: 6px;
+  margin-top: 4px;
   letter-spacing: 0.3px;
 }
 
@@ -1938,19 +1925,19 @@ body {
           <span class="card-tag">콘텐츠 인용 확률</span>
         </div>
         <div class="gauge-wrap">
-          <svg class="gauge" viewBox="0 0 200 130" preserveAspectRatio="xMidYMid meet">
-            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.07)" stroke-width="14" fill="none" stroke-linecap="round"/>
-            <path id="gauge-prog" d="M 20 110 A 80 80 0 0 1 180 110" stroke="url(#gaugeGrad)" stroke-width="14" fill="none" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+          <svg class="gauge" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid meet">
             <defs>
               <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" stop-color="#14B8A6"/>
                 <stop offset="100%" stop-color="#A78BFA"/>
               </linearGradient>
             </defs>
+            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.07)" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path id="gauge-prog" d="M 20 110 A 80 80 0 0 1 180 110" stroke="url(#gaugeGrad)" stroke-width="14" fill="none" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+            <text id="gauge-num" x="100" y="92" text-anchor="middle"
+                  fill="#F5F5F7" font-family="JetBrains Mono, monospace"
+                  font-size="34" font-weight="800" letter-spacing="-1.2">0.0<tspan fill="#B4B4C0" font-size="20" dx="2">%</tspan></text>
           </svg>
-          <div class="gauge-value">
-            <span class="gauge-num" id="gauge-num">0.0</span><span class="gauge-pct">%</span>
-          </div>
           <div class="gauge-trend">발행 후 7일 내 인용 확률</div>
         </div>
         <div class="sparkline-wrap">
@@ -2610,7 +2597,7 @@ body {
     requestAnimationFrame(step);
   }
 
-  // Gauge animation
+  // Gauge animation (SVG text + arc)
   const gaugeProg = document.getElementById('gauge-prog');
   const gaugeNum = document.getElementById('gauge-num');
   const sparkPath = document.getElementById('spark-path');
@@ -2621,7 +2608,18 @@ body {
         const TARGET = 73.4;
         gaugeProg.style.transition = 'stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1)';
         gaugeProg.style.strokeDashoffset = (100 - TARGET).toString();
-        animateNumber(gaugeNum, 0, TARGET, 1600, (v) => v.toFixed(1));
+
+        // animate the SVG text node
+        const start = performance.now();
+        const ease = (t) => 1 - Math.pow(1 - t, 3);
+        const tick = (now) => {
+          const t = Math.min((now - start) / 1600, 1);
+          const v = (TARGET * ease(t)).toFixed(1);
+          gaugeNum.firstChild.nodeValue = v;
+          if (t < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+
         if (sparkPath) {
           sparkPath.style.transition = 'stroke-dashoffset 1.4s ease-out 0.3s';
           sparkPath.style.strokeDashoffset = '0';
