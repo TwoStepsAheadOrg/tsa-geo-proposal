@@ -53,6 +53,122 @@ body {
 }
 ::selection { background: var(--teal); color: var(--bg); }
 
+/* ===== COSMIC BACKGROUND (fixed, parallax) ===== */
+.cosmic-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at top, #14141C 0%, var(--bg) 60%),
+    var(--bg);
+  overflow: hidden;
+}
+.cosmic-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.62;
+  filter: saturate(1.15) contrast(1.05) hue-rotate(-8deg);
+  mix-blend-mode: screen;
+}
+.cosmic-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(10,10,15,0) 0%, rgba(10,10,15,0.65) 100%),
+    linear-gradient(180deg, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.7) 100%);
+  pointer-events: none;
+}
+.cosmic-nebula {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.32;
+  will-change: transform;
+  mix-blend-mode: screen;
+}
+.nebula-1 {
+  width: 50vw; height: 50vw;
+  top: -8%; left: -8%;
+  background: radial-gradient(circle, rgba(20,184,166,0.45) 0%, transparent 65%);
+  animation: nebulaFloat1 38s ease-in-out infinite alternate;
+}
+.nebula-2 {
+  width: 45vw; height: 45vw;
+  bottom: -12%; right: -8%;
+  background: radial-gradient(circle, rgba(167,139,250,0.4) 0%, transparent 65%);
+  animation: nebulaFloat2 42s ease-in-out infinite alternate;
+}
+@keyframes nebulaFloat1 {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(8%, 6%, 0) scale(1.15); }
+}
+@keyframes nebulaFloat2 {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-10%, -8%, 0) scale(1.18); }
+}
+#cosmic-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.cosmic-stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 23%, rgba(255,255,255,0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 28% 8%, rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1.2px 1.2px at 45% 60%, rgba(45,212,191,0.9) 0%, transparent 100%),
+    radial-gradient(0.8px 0.8px at 67% 18%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1.4px 1.4px at 80% 73%, rgba(196,181,253,0.85) 0%, transparent 100%),
+    radial-gradient(1px 1px at 92% 38%, rgba(255,255,255,0.55) 0%, transparent 100%),
+    radial-gradient(1.6px 1.6px at 7% 78%, rgba(45,212,191,0.7) 0%, transparent 100%),
+    radial-gradient(0.9px 0.9px at 35% 90%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1.1px 1.1px at 55% 38%, rgba(255,255,255,0.6) 0%, transparent 100%);
+  background-size: 100% 100%;
+  animation: starsTwinkle 6s ease-in-out infinite alternate;
+}
+@keyframes starsTwinkle {
+  0%   { opacity: 0.6; }
+  50%  { opacity: 1.0; }
+  100% { opacity: 0.7; }
+}
+.cosmic-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
+  background-size: 70px 70px;
+  mask-image: radial-gradient(ellipse at center, black 25%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 25%, transparent 80%);
+  opacity: 0.5;
+}
+.cosmic-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(10,10,15,0.7) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(10,10,15,0.5) 0%, transparent 60%);
+}
+.cosmic-noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+/* ensure all sections render above cosmic */
+.nav, section, footer { position: relative; z-index: 1; }
+
 /* ===== NAV ===== */
 .nav {
   position: fixed;
@@ -129,43 +245,6 @@ body {
   overflow: hidden;
   display: flex;
   align-items: center;
-}
-.hero-bg {
-  position: absolute;
-  inset: -10%;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 60% 50% at 18% 28%, rgba(20,184,166,0.25) 0%, transparent 60%),
-    radial-gradient(ellipse 55% 45% at 82% 70%, rgba(167,139,250,0.22) 0%, transparent 60%),
-    radial-gradient(ellipse 80% 40% at 50% 110%, rgba(20,184,166,0.10) 0%, transparent 60%);
-  animation: bgFloat 22s ease-in-out infinite alternate;
-  filter: blur(20px);
-}
-@keyframes bgFloat {
-  0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-2%, 2%) scale(1.08); }
-  100% { transform: translate(2%, -2%) scale(1); }
-}
-.hero-grid {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.5;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
-  background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
-  -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
-}
-.hero-noise {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.05;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
 }
 .hero-inner {
   position: relative;
@@ -513,27 +592,1134 @@ body {
   .hero-trust { font-size: 11.5px; gap: 16px; }
 }
 
-/* ===== Coming-soon (placeholder for next phases) ===== */
-.coming-soon {
+/* ===== COMMON SECTION ===== */
+.section {
   position: relative;
-  padding: 140px 28px;
-  text-align: center;
+  padding: 130px 28px;
   border-top: 1px solid var(--border-soft);
-  background: var(--bg);
+  background: rgba(10,10,15,0.92);
+  backdrop-filter: blur(20px) saturate(120%);
+  -webkit-backdrop-filter: blur(20px) saturate(120%);
 }
-.coming-soon-eyebrow {
+/* The first section after hero gets a smooth gradient transition */
+.section.section-demo {
+  background: linear-gradient(180deg, rgba(10,10,15,0.7) 0%, rgba(10,10,15,0.95) 60%);
+}
+.section-inner { max-width: var(--max); margin: 0 auto; position: relative; z-index: 1; }
+.section-head { text-align: center; margin-bottom: 60px; }
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--teal-light);
+  margin-bottom: 18px;
+  padding: 6px 14px;
+  background: rgba(20,184,166,0.08);
+  border: 1px solid rgba(20,184,166,0.25);
+  border-radius: 999px;
+}
+.section-title {
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: -1.6px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.section-sub {
+  font-size: 17px;
+  color: var(--text-soft);
+  max-width: 660px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* ===== CARDS ===== */
+.card {
+  position: relative;
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 26px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.card-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(20,184,166,0.55) 0%, rgba(167,139,250,0.4) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.card-wide { grid-column: 1 / -1; }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--border);
+}
+.card-label {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--text-mute);
+  text-transform: uppercase;
+}
+.card-tag {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--teal-light);
+  font-weight: 600;
+  padding: 4px 10px;
+  background: rgba(20,184,166,0.1);
+  border: 1px solid rgba(20,184,166,0.25);
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Demo Grid (Phase 2A) ===== */
+.demo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+/* Gauge */
+.gauge-wrap {
+  position: relative;
+  text-align: center;
+  margin: 8px 0 16px;
+  padding: 0 12px;
+}
+.gauge { width: 100%; max-width: 280px; height: auto; display: block; margin: 0 auto; }
+.gauge-value {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--f-mono);
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+.gauge-pct { font-size: 22px; color: var(--text-soft); font-weight: 600; }
+.gauge-trend {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--teal-light);
+  font-weight: 600;
+  margin-top: 6px;
+  letter-spacing: 0.3px;
+}
+
+/* Sparkline */
+.sparkline-wrap {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--border);
+}
+.sparkline-label {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--text-mute);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+.sparkline { width: 100%; height: 50px; display: block; }
+
+/* Neural / Model card */
+.neural { width: 100%; height: 220px; display: block; }
+.model-tagline {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  line-height: 1.6;
+  text-align: center;
+  padding: 14px 12px 4px;
+  font-family: var(--f-sans);
+}
+.model-tagline strong {
+  color: var(--text);
+  font-weight: 600;
+  background: linear-gradient(180deg, transparent 70%, rgba(20,184,166,0.2) 70%);
+  padding: 0 2px;
+}
+.neural-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border);
+}
+.neural-meta div { text-align: center; }
+.neural-meta span {
+  display: block;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--text-mute);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.neural-meta strong { font-size: 17px; color: var(--teal-light); font-weight: 800; font-family: var(--f-mono); }
+
+/* Metrics */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+.metric { text-align: center; }
+.metric-num {
+  font-family: var(--f-mono);
+  font-size: 50px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--teal-light), var(--purple-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2.5px;
+  margin-bottom: 6px;
+  line-height: 1;
+}
+.metric-label {
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+/* ===== Why ===== */
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+}
+.why-card {
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px 28px;
+  transition: transform 0.25s, border-color 0.25s, background 0.25s;
+}
+.why-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(20,184,166,0.4);
+  background: rgba(26,26,36,0.85);
+}
+.why-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(20,184,166,0.18), rgba(167,139,250,0.12));
+  border: 1px solid rgba(20,184,166,0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.why-card h3 {
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+.why-card p {
+  font-size: 14.5px;
+  color: var(--text-soft);
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+.why-card p strong { color: var(--text); font-weight: 600; }
+.why-meta {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  color: var(--teal-light);
+  letter-spacing: 0.5px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+}
+
+/* ===== Engine Flow ===== */
+.engine-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  gap: 14px;
+  align-items: stretch;
+}
+.engine-step {
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 26px 22px;
+  position: relative;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.engine-step:hover { transform: translateY(-4px); border-color: rgba(20,184,166,0.4); }
+.engine-step-last {
+  background: linear-gradient(135deg, rgba(20,184,166,0.14), rgba(167,139,250,0.08));
+  border-color: rgba(20,184,166,0.5);
+  box-shadow: 0 12px 32px rgba(20,184,166,0.18);
+}
+.engine-step-num {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  color: var(--teal-light);
+  font-weight: 600;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: block;
+}
+.engine-step h3 {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+.engine-step p {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+.engine-step-meta {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--text-mute);
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  letter-spacing: 0.3px;
+}
+.engine-step-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--teal);
+  font-size: 20px;
+  font-family: var(--f-mono);
+  font-weight: 700;
+}
+
+/* ===== Trust ===== */
+.trust-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18px;
+}
+.trust-card {
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.trust-card:hover { transform: translateY(-3px); }
+.trust-card-feature {
+  background: linear-gradient(135deg, rgba(20,184,166,0.12), rgba(167,139,250,0.06));
+  border-color: rgba(20,184,166,0.4);
+  box-shadow: 0 16px 40px rgba(20,184,166,0.18);
+}
+.trust-num {
+  font-family: var(--f-mono);
+  font-size: 52px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--teal-light), var(--purple-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2.5px;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+.trust-label {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.trust-desc {
+  font-size: 12.5px;
+  color: var(--text-mute);
+  line-height: 1.55;
+}
+
+/* ===== MISSION (Who We Are) ===== */
+.section-mission { padding: 110px 28px; }
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+  align-items: start;
+}
+.mission-tag {
   display: inline-block;
   font-family: var(--f-mono);
   font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--text-mute);
-  margin-bottom: 12px;
-}
-.coming-soon h2 {
-  color: var(--text-soft);
+  letter-spacing: 2.5px;
+  color: var(--teal-light);
   font-weight: 700;
-  font-size: 22px;
-  letter-spacing: -0.5px;
+  margin-bottom: 22px;
+}
+.mission-title {
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: -1.8px;
+  line-height: 1.1;
+}
+.mission-body p {
+  font-size: 16.5px;
+  color: var(--text-soft);
+  line-height: 1.85;
+  margin-bottom: 22px;
+}
+.mission-body p strong {
+  color: var(--text);
+  font-weight: 600;
+  background: linear-gradient(180deg, transparent 65%, rgba(20,184,166,0.18) 65%);
+  padding: 0 2px;
+}
+.mission-pillars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+  margin-top: 36px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+.mission-pillar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: start;
+}
+.mission-pillar-num {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--teal-light);
+  letter-spacing: 1.5px;
+  padding-top: 3px;
+}
+.mission-pillar-body h4 {
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+.mission-pillar-body p {
+  font-size: 12.5px;
+  color: var(--text-mute);
+  margin: 0;
+  line-height: 1.5;
+  font-family: var(--f-mono);
+}
+
+/* ===== DELIVERABLES (alternating zigzag rows) ===== */
+.deliverable-row {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.deliverable-row:last-child { margin-bottom: 0; }
+.deliverable-row-reverse .deliverable-text { order: 2; }
+.deliverable-row-reverse .deliverable-visual { order: 1; }
+
+.deliverable-text { padding: 0 8px; }
+.deliverable-num {
+  font-family: var(--f-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--teal-light);
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(20,184,166,0.08);
+  border: 1px solid rgba(20,184,166,0.25);
+  border-radius: 999px;
+}
+.deliverable-text h3 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.deliverable-text p {
+  font-size: 15.5px;
+  color: var(--text-soft);
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+.deliverable-text p strong {
+  color: var(--text);
+  font-weight: 600;
+  background: linear-gradient(180deg, transparent 65%, rgba(20,184,166,0.18) 65%);
+  padding: 0 2px;
+}
+.deliverable-bullets {
+  list-style: none;
+}
+.deliverable-bullets li {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  padding: 7px 0 7px 22px;
+  position: relative;
+  border-bottom: 1px dashed var(--border-soft);
+}
+.deliverable-bullets li:last-child { border-bottom: 0; }
+.deliverable-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 14px;
+  width: 12px; height: 1px;
+  background: var(--teal);
+}
+
+/* Mock cards (Stripe-style product UI mock) */
+.mock-card {
+  position: relative;
+  background: rgba(18,18,26,0.85);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 24px 56px rgba(0,0,0,0.4);
+}
+.mock-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(20,184,166,0.4) 0%, rgba(167,139,250,0.3) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.mock-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--border);
+}
+.mock-pill {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+  color: var(--text-mute);
+  border: 1px solid var(--border);
+}
+.mock-pill-good { background: rgba(20,184,166,0.15); color: var(--teal-light); border-color: rgba(20,184,166,0.3); }
+.mock-pill-purple { background: rgba(167,139,250,0.15); color: var(--purple-light); border-color: rgba(167,139,250,0.3); }
+.mock-foot {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-mute);
+  font-family: var(--f-mono);
+}
+.mock-foot strong { color: var(--teal-light); font-size: 14px; font-weight: 800; }
+.mock-foot-list {
+  display: block;
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+.ftag {
+  font-family: var(--f-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  padding: 2px 7px;
+  background: rgba(245,158,11,0.15);
+  color: var(--amber);
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+/* 01 — platforms */
+.mock-platforms { display: flex; flex-direction: column; gap: 9px; }
+.mock-platform {
+  display: grid;
+  grid-template-columns: 110px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  font-size: 11.5px;
+}
+.mock-plat-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--text);
+  font-weight: 600;
+}
+.mock-plat-name .dot {
+  width: 8px; height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.mock-plat-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 1.2s ease-out;
+}
+.mock-plat-val {
+  font-family: var(--f-mono);
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+.mock-plat-val small { color: var(--text-mute); font-weight: 500; font-size: 10.5px; }
+
+/* 02 — chart */
+.mock-chart {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 4px 0 10px;
+}
+
+/* 03 — actions */
+.mock-actions { display: flex; flex-direction: column; gap: 8px; }
+.mock-action {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  background: rgba(10,10,15,0.4);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+}
+.prio {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.prio-high { background: rgba(244,63,94,0.15); color: #FB7185; border: 1px solid rgba(244,63,94,0.3); }
+.prio-med  { background: rgba(245,158,11,0.15); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
+.prio-low  { background: rgba(255,255,255,0.04); color: var(--text-mute); border: 1px solid var(--border); }
+.mock-action-body strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.mock-action-body span {
+  display: block;
+  font-size: 11.5px;
+  color: var(--text-mute);
+  line-height: 1.4;
+}
+.mock-action-impact {
+  text-align: right;
+  font-family: var(--f-mono);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.mock-action-impact b {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--teal-light);
+}
+.mock-action-impact small {
+  font-size: 10px;
+  color: var(--text-mute);
+}
+
+/* 04 — screenshot */
+.mock-card-screenshot { padding: 0; overflow: hidden; }
+.mock-card-screenshot::before { display: none; }
+.mock-screenshot-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid var(--border);
+}
+.mock-dots { display: flex; gap: 6px; }
+.mock-dots span {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.18);
+}
+.mock-dots span:first-child { background: #FB7185; }
+.mock-dots span:nth-child(2) { background: #F59E0B; }
+.mock-dots span:nth-child(3) { background: #14B8A6; }
+.mock-url {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--text-mute);
+  letter-spacing: 0.3px;
+}
+.mock-screenshot-body { padding: 18px 20px 20px; }
+.mock-msg-prompt {
+  font-size: 13px;
+  color: var(--text);
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px 12px 12px 0;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  display: inline-block;
+  max-width: 80%;
+  border: 1px solid var(--border);
+}
+.mock-msg-answer {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+.mock-msg-answer mark {
+  background: rgba(20,184,166,0.22);
+  color: var(--text);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.mock-citations {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+}
+.cit {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  padding: 4px 9px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-mute);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.cit b {
+  width: 14px; height: 14px;
+  background: var(--text-mute);
+  color: var(--bg);
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.cit-brand { background: rgba(20,184,166,0.12); border-color: rgba(20,184,166,0.4); color: var(--teal-light); }
+.cit-brand b { background: var(--teal); color: var(--bg); }
+
+/* (Roadmap Timeline kept below in case re-used) */
+/* ===== Roadmap Timeline (horizontal) ===== */
+.timeline { position: relative; padding: 0 12px; }
+.timeline-track {
+  position: relative;
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  margin: 0 0 50px;
+  border-radius: 2px;
+}
+.timeline-progress {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 18%;
+  background: linear-gradient(90deg, var(--text-soft) 0%, var(--purple) 100%);
+  border-radius: 2px;
+}
+.timeline-dot {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--text-soft);
+  transform: translate(-50%, -50%);
+}
+.timeline-dot-1 { left: 16.66%; border-color: var(--text-soft); }
+.timeline-dot-1::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: var(--text-soft);
+  opacity: 0.25;
+  animation: dotPulse 2s ease-in-out infinite;
+}
+.timeline-dot-1 span {
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--amber);
+  background: rgba(245,158,11,0.12);
+  border: 1px solid rgba(245,158,11,0.4);
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.timeline-dot-2 { left: 50%; border-color: var(--purple); }
+.timeline-dot-3 { left: 83.33%; border-color: var(--teal); }
+
+.timeline-stages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.timeline-stage {
+  position: relative;
+  padding: 22px 0 0;
+}
+.timeline-when {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: var(--text-mute);
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.timeline-stage h3 {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+.timeline-stage p {
+  font-size: 14px;
+  color: var(--text-soft);
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+.timeline-stage p em {
+  font-style: italic;
+  color: var(--text-mute);
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  border-left: 2px solid var(--border);
+  padding-left: 10px;
+}
+.timeline-kpi {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--text-mute);
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.timeline-kpi b { color: var(--teal-light); font-weight: 700; }
+.timeline-stage-mid h3 { color: var(--purple-light); }
+.timeline-stage-future h3 { color: var(--teal-light); }
+.timeline-stage-mid .timeline-when { color: var(--purple); }
+.timeline-stage-future .timeline-when { color: var(--teal); }
+
+/* ===== Pricing ===== */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+  align-items: stretch;
+}
+.pricing-card {
+  position: relative;
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.pricing-card:hover { transform: translateY(-4px); }
+.pricing-card-feature {
+  background: linear-gradient(180deg, rgba(20,184,166,0.14), rgba(26,26,36,0.7) 50%);
+  border-color: rgba(20,184,166,0.45);
+  transform: scale(1.04);
+  box-shadow: 0 24px 60px rgba(20,184,166,0.25);
+  z-index: 2;
+}
+.pricing-card-feature:hover { transform: scale(1.04) translateY(-4px); }
+.pricing-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--teal), var(--purple));
+  color: white;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(20,184,166,0.3);
+}
+.pricing-tag {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--teal-light);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pricing-card h3 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  margin-bottom: 4px;
+}
+.pricing-desc {
+  font-size: 13px;
+  color: var(--text-mute);
+  margin-bottom: 22px;
+}
+.pricing-price {
+  font-family: var(--f-mono);
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 24px;
+  color: var(--text);
+}
+.pricing-price span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-mute);
+  margin-left: 4px;
+}
+.pricing-features {
+  list-style: none;
+  margin-bottom: 28px;
+  flex: 1;
+}
+.pricing-features li {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border-soft);
+  position: relative;
+  padding-left: 22px;
+}
+.pricing-features li::before {
+  content: '✓';
+  color: var(--teal);
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  font-family: var(--f-mono);
+}
+.pricing-cta {
+  display: block;
+  text-align: center;
+  padding: 13px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background 0.18s, transform 0.18s, border-color 0.18s;
+}
+.pricing-cta:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+}
+.pricing-cta-feature {
+  background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+  border-color: transparent;
+  color: white;
+}
+.pricing-cta-feature:hover {
+  box-shadow: 0 12px 28px rgba(20,184,166,0.45);
+  background: linear-gradient(135deg, var(--teal-light), var(--teal));
+}
+
+/* ===== CTA ===== */
+.section-cta { padding: 100px 28px 160px; }
+.cta-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(20,184,166,0.14) 0%, rgba(167,139,250,0.1) 100%);
+  border: 1px solid rgba(20,184,166,0.4);
+  border-radius: 24px;
+  padding: 60px 50px;
+  text-align: center;
+  overflow: hidden;
+}
+.cta-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center top, rgba(20,184,166,0.25), transparent 60%);
+  pointer-events: none;
+}
+.cta-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--teal-light);
+  font-weight: 700;
+  margin-bottom: 18px;
+  position: relative;
+}
+.cta-card h2 {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -1.2px;
+  line-height: 1.2;
+  margin-bottom: 18px;
+  position: relative;
+}
+.cta-card p {
+  font-size: 16px;
+  color: var(--text-soft);
+  margin-bottom: 36px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  position: relative;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 10px;
+  max-width: 880px;
+  margin: 0 auto;
+  position: relative;
+}
+.cta-form input {
+  padding: 14px 16px;
+  background: rgba(10,10,15,0.7);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: var(--f-sans);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.18s, background 0.18s;
+}
+.cta-form input::placeholder { color: var(--text-mute); }
+.cta-form input:focus { border-color: var(--teal); background: rgba(10,10,15,0.9); }
+
+/* ===== Sticky bottom bar ===== */
+.sticky-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 90;
+  padding: 14px 28px;
+  background: rgba(10,10,15,0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 13.5px;
+  color: var(--text-soft);
+  transform: translateY(110%);
+  transition: transform 0.4s ease;
+}
+.sticky-bar.show { transform: translateY(0); }
+.sticky-bar strong { color: var(--teal-light); font-weight: 700; }
+.sticky-cta {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.sticky-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(20,184,166,0.4);
+}
+
+@media (max-width: 1024px) {
+  .demo-grid, .why-grid, .mission-grid { grid-template-columns: 1fr; gap: 40px; }
+  .mission-pillars { grid-template-columns: 1fr; gap: 16px; }
+  .mission-title { font-size: 34px; }
+  .deliverable-row { grid-template-columns: 1fr; gap: 32px; margin-bottom: 60px; }
+  .deliverable-row-reverse .deliverable-text { order: 1; }
+  .deliverable-row-reverse .deliverable-visual { order: 2; }
+  .deliverable-text h3 { font-size: 24px; }
+  .trust-grid { grid-template-columns: 1fr 1fr; }
+  .metrics-grid { grid-template-columns: 1fr 1fr; }
+  .engine-flow { grid-template-columns: 1fr; }
+  .engine-step-arrow { transform: rotate(90deg); padding: 4px; }
+  .section-title { font-size: 34px; letter-spacing: -1px; }
+  .cta-form { grid-template-columns: 1fr; }
+  .pricing-card-feature { transform: none; }
+  .pricing-card-feature:hover { transform: translateY(-4px); }
+  .cta-card { padding: 44px 26px; }
+  .cta-card h2 { font-size: 28px; }
+}
+@media (max-width: 640px) {
+  .section { padding: 90px 20px; }
+  .trust-grid, .metrics-grid { grid-template-columns: 1fr; }
+  .section-head { margin-bottom: 40px; }
 }
 
 /* ===== Footer ===== */
@@ -544,12 +1730,28 @@ body {
   color: var(--text-mute);
   font-size: 12.5px;
   font-family: var(--f-mono);
+  background: rgba(10,10,15,0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 .footer a { color: var(--text-soft); text-decoration: none; }
 .footer a:hover { color: var(--teal-light); }
 </style>
 </head>
 <body>
+
+<div class="cosmic-bg" aria-hidden="true">
+  <video class="cosmic-video" autoplay muted loop playsinline preload="auto" poster="">
+    <source src="/assets/hero-cosmic.mp4" type="video/mp4">
+  </video>
+  <div class="cosmic-overlay"></div>
+  <div class="cosmic-nebula nebula-1"></div>
+  <div class="cosmic-nebula nebula-2"></div>
+  <canvas id="cosmic-canvas"></canvas>
+  <div class="cosmic-grid"></div>
+  <div class="cosmic-vignette"></div>
+  <div class="cosmic-noise"></div>
+</div>
 
 <nav class="nav">
   <div class="nav-inner">
@@ -558,20 +1760,16 @@ body {
       GeoRank24
     </a>
     <div class="nav-links">
-      <a href="#engine">엔진</a>
+      <a href="#mission">소개</a>
       <a href="#how">작동 원리</a>
-      <a href="#roadmap">로드맵</a>
-      <a href="#pricing">요금제</a>
+      <a href="#why">차별점</a>
+      <a href="#trust">데이터</a>
       <a href="#contact" class="nav-cta">무료 진단 →</a>
     </div>
   </div>
 </nav>
 
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
-  <div class="hero-noise"></div>
-
   <div class="hero-inner">
     <div>
       <div class="hero-eyebrow">
@@ -579,13 +1777,14 @@ body {
         AI MARKETING PREDICTION ENGINE
       </div>
       <h1>
-        AI가 다음에<br>
-        누구를 추천할지,<br>
-        <span class="gradient-text"><span class="kinetic-word" id="kinetic-word">예측합니다.</span></span>
+        AI 답변에<br>
+        당신 콘텐츠가 들어갈 확률을,<br>
+        <span class="gradient-text"><span class="kinetic-word" id="kinetic-word">발행 전에 예측합니다.</span></span>
       </h1>
       <p class="hero-sub">
-        ChatGPT · Perplexity · Gemini · Claude · AI Overview — <strong>5대 AI 검색 엔진을 12개국 실제 브라우저로 매주 측정</strong>하고,
-        축적된 데이터로 <strong>브랜드의 다음 순위를 예측</strong>하는 마케팅 AI 모델입니다.
+        4백만 건의 <strong>"어떤 콘텐츠가 어떤 AI에 인용되었는가"</strong> 데이터로 학습된
+        GEO Score Engine이, 당신의 콘텐츠가 ChatGPT·Perplexity·Gemini에 인용될 확률을
+        <strong>발행 전에</strong> 예측합니다. — AI 검색 시대의 Surfer SEO.
       </p>
       <div class="hero-cta-row">
         <a href="#contact" class="btn-primary">
@@ -603,8 +1802,8 @@ body {
 
     <div class="ai-stream">
       <div class="ai-stream-header">
-        <span class="ai-stream-title">LIVE PREDICTION DEMO</span>
-        <span class="ai-stream-status">STREAMING</span>
+        <span class="ai-stream-title">CITATION PROBABILITY · LIVE</span>
+        <span class="ai-stream-status">ANALYZING</span>
       </div>
 
       <div class="ai-stream-prompt">
@@ -618,64 +1817,717 @@ body {
           <div class="ai-platform-logo" style="background:#10A37F;">C</div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">ChatGPT</div>
-            <div class="ai-platform-answer" data-text="브랜드 X의 검색 점유율 28% — 1위 사업자로 분석"></div>
+            <div class="ai-platform-answer" data-text="공식 비교 데이터 + 스펙 표 — 인용 가능성 높음"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="#1">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="82%">…</div>
         </div>
         <div class="ai-platform" data-platform="perplexity">
           <div class="ai-platform-logo" style="background:#1FB8CD;">P</div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Perplexity</div>
-            <div class="ai-platform-answer" data-text="공식 도큐먼트 + 리뷰 출처 17건 인용"></div>
+            <div class="ai-platform-answer" data-text="권위 도메인 + 출처 명확 — 우선 인용 대상"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="#2">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
         </div>
         <div class="ai-platform" data-platform="gemini">
           <div class="ai-platform-logo" style="background:#4285F4;">G</div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Gemini</div>
-            <div class="ai-platform-answer" data-text="Search Grounding 기반 — 경쟁사 Y가 우선 노출됨"></div>
+            <div class="ai-platform-answer" data-text="Schema markup 부재 — Reddit/포럼 우선 노출"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="#4">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="38%">…</div>
         </div>
         <div class="ai-platform" data-platform="claude">
           <div class="ai-platform-logo" style="background:#D97757;">A</div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Claude</div>
-            <div class="ai-platform-answer" data-text="Web Search v2 — 비교 분석에서 균형 인용"></div>
+            <div class="ai-platform-answer" data-text="실증 자료·코드 인용 패턴 — 적합도 양호"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="#3">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
         </div>
         <div class="ai-platform" data-platform="aio">
           <div class="ai-platform-logo" style="background:#FBBC04; color:#0A0A0F;">o</div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">AI Overview</div>
-            <div class="ai-platform-answer" data-text="검색 1순위 도메인 우선 — 브랜드 X 미노출"></div>
+            <div class="ai-platform-answer" data-text="검색 1순위 도메인 우선 — FAQ 보강 권장"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="#5">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="42%">…</div>
         </div>
       </div>
 
       <div class="ai-stream-footer">
-        <span>다음 주 예측 가시성</span>
-        <span><strong id="prob-value">0.0%</strong> ↑ +5.2pt</span>
+        <span>평균 인용 확률</span>
+        <span><strong id="prob-value">0.0%</strong> ↑ 발행 후 7일 내</span>
       </div>
     </div>
   </div>
 </section>
 
-<section class="coming-soon" id="engine">
-  <span class="coming-soon-eyebrow">PHASE 2 — 4 · COMING NEXT</span>
-  <h2>Live Prediction Demo · Why GeoRank24 · Prediction Engine · Roadmap · Pricing</h2>
+<!-- ===== MISSION / WHO WE ARE ===== -->
+<section class="section section-mission" id="mission">
+  <div class="section-inner">
+    <div class="mission-grid">
+      <div class="mission-text reveal">
+        <span class="mission-tag">WHO WE ARE</span>
+        <h2 class="mission-title">
+          글로벌 최초의 <span class="gradient-text">GEO 최적화</span><br>
+          AI 모델 회사
+        </h2>
+      </div>
+      <div class="mission-body reveal">
+        <p>
+          <strong>GEO(Generative Engine Optimization)</strong>는 AI 검색 시대의 SEO입니다.
+          SEO가 "내가 만든 콘텐츠가 검색 1페이지에 노출될 확률"이었다면,
+          GEO는 <strong>"내가 만든 콘텐츠가 ChatGPT·Perplexity의 답변에 인용될 확률"</strong>입니다.
+        </p>
+        <p>
+          GeoRank24는 매주 12개국 5 AI 플랫폼에서 캡처한
+          <strong>4백만 건+ "발행↔인용" 데이터</strong>로 자체 예측 모델을 학습시킵니다.
+          이 모델이 당신의 콘텐츠가 <strong>AI에 인용될 확률을 발행 전에 알려드립니다</strong> —
+          AI 검색 시대의 Surfer SEO를 만듭니다.
+        </p>
+        <div class="mission-pillars">
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">01</div>
+            <div class="mission-pillar-body">
+              <h4>측정 · MEASURE</h4>
+              <p>5 AI × 12국 인용 추적</p>
+            </div>
+          </div>
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">02</div>
+            <div class="mission-pillar-body">
+              <h4>학습 · LEARN</h4>
+              <p>발행↔인용 4M+ 데이터</p>
+            </div>
+          </div>
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">03</div>
+            <div class="mission-pillar-body">
+              <h4>예측 · PREDICT</h4>
+              <p>콘텐츠별 인용 확률 출력</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ===== LIVE PREDICTION DEMO ===== -->
+<section class="section section-demo" id="how">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">GEO SCORE ENGINE</span>
+      <h2 class="section-title">콘텐츠가 인용될 확률을 <span class="gradient-text">예측하는 모델</span></h2>
+      <p class="section-sub">192건 발행↔인용 실증 데이터로 학습된 GEO Score Engine이 — 콘텐츠 URL 한 줄로 5 AI 플랫폼별 인용 확률을 출력합니다.</p>
+    </div>
+
+    <div class="demo-grid">
+      <!-- Probability Gauge Card -->
+      <div class="card card-glow reveal">
+        <div class="card-header">
+          <span class="card-label">CITATION PROBABILITY</span>
+          <span class="card-tag">콘텐츠 인용 확률</span>
+        </div>
+        <div class="gauge-wrap">
+          <svg class="gauge" viewBox="0 0 200 130" preserveAspectRatio="xMidYMid meet">
+            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.07)" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path id="gauge-prog" d="M 20 110 A 80 80 0 0 1 180 110" stroke="url(#gaugeGrad)" stroke-width="14" fill="none" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+            <defs>
+              <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#14B8A6"/>
+                <stop offset="100%" stop-color="#A78BFA"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="gauge-value">
+            <span class="gauge-num" id="gauge-num">0.0</span><span class="gauge-pct">%</span>
+          </div>
+          <div class="gauge-trend">발행 후 7일 내 인용 확률</div>
+        </div>
+        <div class="sparkline-wrap">
+          <span class="sparkline-label">최근 발행 콘텐츠 인용 확률 추이</span>
+          <svg class="sparkline" viewBox="0 0 200 50" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="sparkFill" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.4"/>
+                <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <path d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8 L 200 50 L 0 50 Z" fill="url(#sparkFill)"/>
+            <path id="spark-path" d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8" stroke="#2DD4BF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+            <circle cx="200" cy="8" r="4" fill="#A78BFA" opacity="0" id="spark-dot">
+              <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2s" fill="freeze"/>
+            </circle>
+          </svg>
+        </div>
+      </div>
+
+      <!-- GEO Score Engine Card -->
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-label">GEO Score Engine</span>
+          <span class="card-tag">v0.4</span>
+        </div>
+        <svg class="neural" id="neural-svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid meet">
+          <g id="nn-connections" stroke-width="0.7" fill="none"></g>
+          <g id="nn-nodes"></g>
+        </svg>
+        <div class="model-tagline">
+          GeoRank24의 자체 <strong>예측 모델</strong> — 콘텐츠 URL → 5 AI 플랫폼 인용 확률 출력
+        </div>
+        <div class="neural-meta">
+          <div><span>예측 지평</span><strong>7일</strong></div>
+          <div><span>학습 주기</span><strong>주 1회</strong></div>
+          <div><span>MAPE</span><strong>8.6%</strong></div>
+        </div>
+      </div>
+
+      <!-- Metrics Wide Card -->
+      <div class="card card-wide reveal">
+        <div class="card-header">
+          <span class="card-label">REAL-TIME DATA FOUNDATION</span>
+          <span class="card-tag">12개국 · 5 플랫폼</span>
+        </div>
+        <div class="metrics-grid">
+          <div class="metric"><div class="metric-num" data-count="192">0</div><div class="metric-label">발행↔인용 실증</div></div>
+          <div class="metric"><div class="metric-num" data-count="4" data-suffix="M+">0</div><div class="metric-label">BigQuery 학습 데이터</div></div>
+          <div class="metric"><div class="metric-num" data-count="12">0</div><div class="metric-label">국가 (실제 ISP IP)</div></div>
+          <div class="metric"><div class="metric-num" data-count="97" data-decimal="1">0</div><div class="metric-label">평균 GEO 점수</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY GEORANK24 ===== -->
+<section class="section section-why" id="why">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2 class="section-title">왜 우리가 <span class="gradient-text">예측</span>까지 가능한가</h2>
+      <p class="section-sub">실제 브라우저 데이터, 12개국 ISP IP, 4M+ 학습 데이터 — 셋 다 가진 회사는 전 세계에서 우리뿐입니다.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>실제 브라우저 데이터</h3>
+        <p>API 추정값이나 스크래핑이 아닌 <strong>12개국 ISP IP에서 진짜 사람이 보는 화면</strong>을 캡처합니다.</p>
+        <div class="why-meta">스크린샷 인증 · 192건 발행↔인용 실증</div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>5 플랫폼 × 12 국가</h3>
+        <p>ChatGPT · Perplexity · Gemini · Claude · AI Overview를 <strong>5개 워커 세트, 60대 EC2로 동시 측정</strong>.</p>
+        <div class="why-meta">주 1회 정기 + 트렌드 일일 측정</div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--purple-light);"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M5.6 18.4l4.2-4.2M14.2 9.8l4.2-4.2"/></svg>
+        </div>
+        <h3>발행 전 인용 확률 예측</h3>
+        <p>4M+ 발행↔인용 데이터로 학습된 모델이 <strong>당신의 콘텐츠가 AI에 인용될 확률</strong>을 발행 전에 예측합니다.</p>
+        <div class="why-meta">AI 검색 시대의 Surfer SEO · MAPE 8.6%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PREDICTION ENGINE FLOW ===== -->
+<section class="section section-engine" id="engine">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">HOW IT WORKS</span>
+      <h2 class="section-title">데이터에서 <span class="gradient-text">예측</span>까지, 4단계 엔진</h2>
+      <p class="section-sub">매주 자동으로 데이터를 수집하고, 모델로 학습하며, 다음 주 가시성을 예측합니다.</p>
+    </div>
+
+    <div class="engine-flow">
+      <div class="engine-step reveal">
+        <div class="engine-step-num">01 · COLLECT</div>
+        <h3>실제 브라우저 캡처</h3>
+        <p>12개국 ISP IP에서 5 AI 플랫폼 답변을 실제 브라우저로 캡처. 매주 60대 워커 EC2로 자동화.</p>
+        <div class="engine-step-meta">매주 화요일 03:00 KST</div>
+      </div>
+      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+      <div class="engine-step reveal">
+        <div class="engine-step-num">02 · LABEL</div>
+        <h3>스크린샷 + 인용 추출</h3>
+        <p>스크린샷·출처 URL·순위·텍스트 토큰을 BigQuery에 적재. 248개 피처로 정규화.</p>
+        <div class="engine-step-meta">학습 데이터 4M+ 누적</div>
+      </div>
+      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+      <div class="engine-step reveal">
+        <div class="engine-step-num">03 · TRAIN</div>
+        <h3>예측 모델 재학습</h3>
+        <p>5-Layer Neural이 발행↔인용 패턴 학습. 매주 1회 가중치 업데이트, 정확도 91.4%.</p>
+        <div class="engine-step-meta">v1 출시 예정 · 2026 H2</div>
+      </div>
+      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+      <div class="engine-step engine-step-last reveal">
+        <div class="engine-step-num">04 · PREDICT</div>
+        <h3>인용 확률 + 최적화 가이드</h3>
+        <p>콘텐츠 URL을 입력하면 5 AI별 인용 확률 출력. 점수가 낮으면 어떤 부분을 보강해야 인용률이 오를지 자동 제안.</p>
+        <div class="engine-step-meta">실시간 + 매주 월 09:00 리포트</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST / DATA FOUNDATION ===== -->
+<section class="section section-trust" id="trust">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2 class="section-title"><span class="gradient-text">학습 데이터</span>가 곧 모트입니다</h2>
+      <p class="section-sub">매주 화요일 새벽, 12개국 60대 워커 EC2가 5 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다. 이 데이터는 그대로 다음 모델의 연료가 됩니다.</p>
+    </div>
+
+    <div class="trust-grid">
+      <div class="trust-card reveal">
+        <div class="trust-num" data-count="192">192</div>
+        <div class="trust-label">발행↔AI 인용 실증</div>
+        <div class="trust-desc">12업체 블로그 → AI 검색 인용까지 추적한 케이스</div>
+      </div>
+      <div class="trust-card trust-card-feature reveal">
+        <div class="trust-num">4M+</div>
+        <div class="trust-label">BigQuery 학습 데이터</div>
+        <div class="trust-desc">스크린샷 · 출처 · 순위 · 텍스트 토큰 · 메타데이터</div>
+      </div>
+      <div class="trust-card reveal">
+        <div class="trust-num">12</div>
+        <div class="trust-label">국가 (실제 IP)</div>
+        <div class="trust-desc">US · UK · JP · KR · DE · FR · ES · IT · IN · BR · ID · AE</div>
+      </div>
+      <div class="trust-card reveal">
+        <div class="trust-num">97.1</div>
+        <div class="trust-label">평균 GEO 점수</div>
+        <div class="trust-desc">12개 카테고리 192건 발행 콘텐츠</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHAT YOU GET ===== -->
+<section class="section section-deliverables" id="deliverables">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2 class="section-title">고객이 받는 것 — <span class="gradient-text">매주 월요일</span></h2>
+      <p class="section-sub">측정만이 아닌 예측. 발행 전 인용 확률 + 발행 후 모니터링 + 다음 액션 가이드까지 한 번에.</p>
+    </div>
+
+    <!-- 01 · Weekly Visibility Report -->
+    <div class="deliverable-row reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">01</div>
+        <h3>주간 가시성 리포트</h3>
+        <p>5 AI 플랫폼 × 12개국에서 당신 브랜드의 <strong>인용·순위·점유율</strong>을 매주 자동 산출합니다. 경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.</p>
+        <ul class="deliverable-bullets">
+          <li>플랫폼별 평균 순위 + 인용 횟수</li>
+          <li>국가별 점유율 히트맵</li>
+          <li>경쟁사 5사 SOV 비교</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">WEEK 17 · 2026-04-21</span>
+            <span class="mock-pill mock-pill-good">+5.2pt</span>
+          </div>
+          <div class="mock-platforms">
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#10A37F"></span>ChatGPT</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:82%;background:#10A37F"></div></div>
+              <div class="mock-plat-val">82% <small>· #1</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
+              <div class="mock-plat-val">68% <small>· #2</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:45%;background:#4285F4"></div></div>
+              <div class="mock-plat-val">45% <small>· #4</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:71%;background:#D97757"></div></div>
+              <div class="mock-plat-val">71% <small>· #2</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:38%;background:#FBBC04"></div></div>
+              <div class="mock-plat-val">38% <small>· #5</small></div>
+            </div>
+          </div>
+          <div class="mock-foot">
+            <span>전체 평균 점유율</span><strong>60.8%</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 · Citation Probability + Simulator (reversed) -->
+    <div class="deliverable-row deliverable-row-reverse reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">02</div>
+        <h3>콘텐츠 인용 확률 + 개선 시뮬레이터</h3>
+        <p>발행 예정 콘텐츠 URL이나 초안을 입력하면 GEO Score Engine이 <strong>5 AI 플랫폼별 인용 확률</strong>을 출력합니다. 점수가 낮으면 어떤 부분(스키마·출처·구조)을 보강해야 확률이 오를지 시뮬레이터로 미리 확인할 수 있습니다.</p>
+        <ul class="deliverable-bullets">
+          <li>5 AI 플랫폼별 인용 확률 (0-100%)</li>
+          <li>"무엇을 고치면 +N pt" 개선 시뮬레이션</li>
+          <li>MAPE 8.6% (예측 정확도 표준 메트릭)</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">CONTENT · /blog/post-2026-04</span>
+            <span class="mock-pill mock-pill-purple">+ SIMULATOR</span>
+          </div>
+          <svg class="mock-chart" viewBox="0 0 360 180" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="ciFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
+                <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="histLine" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#14B8A6"/>
+                <stop offset="100%" stop-color="#2DD4BF"/>
+              </linearGradient>
+            </defs>
+            <!-- grid -->
+            <line x1="30" y1="40" x2="340" y2="40" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+            <line x1="30" y1="90" x2="340" y2="90" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+            <line x1="30" y1="140" x2="340" y2="140" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+            <!-- y labels -->
+            <text x="22" y="44" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">90</text>
+            <text x="22" y="94" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">60</text>
+            <text x="22" y="144" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">30</text>
+            <!-- forecast division line -->
+            <line x1="240" y1="20" x2="240" y2="155" stroke="rgba(167,139,250,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="240" y="14" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono" font-weight="700">현재 콘텐츠</text>
+            <!-- confidence band -->
+            <path d="M 240 80 L 280 65 L 320 50 L 340 45 L 340 85 L 320 75 L 280 90 L 240 95 Z"
+                  fill="url(#ciFill)"/>
+            <!-- history line -->
+            <polyline points="30,120 70,115 110,108 150,98 190,88 230,82" fill="none"
+                      stroke="url(#histLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- forecast line (dashed) -->
+            <polyline points="230,82 270,72 310,62 340,55" fill="none"
+                      stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,3"/>
+            <!-- history dots -->
+            <circle cx="30" cy="120" r="3" fill="#14B8A6"/>
+            <circle cx="70" cy="115" r="3" fill="#14B8A6"/>
+            <circle cx="110" cy="108" r="3" fill="#14B8A6"/>
+            <circle cx="150" cy="98" r="3" fill="#14B8A6"/>
+            <circle cx="190" cy="88" r="3" fill="#14B8A6"/>
+            <circle cx="230" cy="82" r="3.5" fill="#2DD4BF" stroke="#0A0A0F" stroke-width="1.5"/>
+            <!-- forecast point -->
+            <circle cx="340" cy="55" r="5" fill="#A78BFA" stroke="#0A0A0F" stroke-width="2"/>
+            <text x="340" y="42" text-anchor="end" fill="#A78BFA" font-size="11" font-family="Inter" font-weight="800">78.2</text>
+            <!-- x labels -->
+            <text x="30" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">초기</text>
+            <text x="110" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">+ 출처</text>
+            <text x="190" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">+ FAQ</text>
+            <text x="270" y="170" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono">+ 비교표</text>
+            <text x="340" y="170" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono">+ 스키마</text>
+          </svg>
+          <div class="mock-foot mock-foot-list">
+            <div><span class="ftag">SUGGEST</span> 비교표 + Schema markup 추가 시 인용 확률 +18pt 예상</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 · Action Priorities -->
+    <div class="deliverable-row reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">03</div>
+        <h3>실행 우선순위</h3>
+        <p>"어떤 콘텐츠를 어디에 발행해야 인용되는가" — 모델이 직접 생성한 <strong>액션 가이드</strong>를 우선순위 매겨 제공합니다. 각 액션엔 예상 임팩트(점수 변동)와 난이도가 함께 표시됩니다.</p>
+        <ul class="deliverable-bullets">
+          <li>플랫폼별 우선 액션 자동 생성</li>
+          <li>예상 임팩트 (포인트 단위)</li>
+          <li>난이도 · 소요 시간 추정</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">PRIORITY ACTIONS · 4건</span>
+            <span class="mock-pill mock-pill-good">실행 시 +8.4pt 예상</span>
+          </div>
+          <div class="mock-actions">
+            <div class="mock-action">
+              <span class="prio prio-high">P1</span>
+              <div class="mock-action-body">
+                <strong>공식 비교 페이지 발행</strong>
+                <span>Perplexity가 비교 콘텐츠 우선 인용 — 경쟁사 K 대비 우위 공개</span>
+              </div>
+              <div class="mock-action-impact"><b>+3.2pt</b><small>2일</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-high">P1</span>
+              <div class="mock-action-body">
+                <strong>FAQ 스키마 마크업 추가</strong>
+                <span>AI Overview 인용률 38% → 60% 예상 (Reddit 의존도 감소)</span>
+              </div>
+              <div class="mock-action-impact"><b>+2.8pt</b><small>4시간</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-med">P2</span>
+              <div class="mock-action-body">
+                <strong>케이스 스터디 3건 GitHub 공개</strong>
+                <span>Claude의 인용 패턴 — 코드/실증 자료 우선</span>
+              </div>
+              <div class="mock-action-impact"><b>+1.6pt</b><small>1주</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-low">P3</span>
+              <div class="mock-action-body">
+                <strong>자체 도큐먼트 hreflang 보강</strong>
+                <span>JP/DE 시장 가시성 +12% 예상</span>
+              </div>
+              <div class="mock-action-impact"><b>+0.8pt</b><small>1일</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 · Screenshot Evidence (reversed) -->
+    <div class="deliverable-row deliverable-row-reverse reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">04</div>
+        <h3>스크린샷 증거</h3>
+        <p>실제 AI가 답변한 화면을 <strong>그대로 캡처</strong>해 첨부합니다. 인용된 출처가 highlight 되어, 보고서·임원 회의용 시각 자료로 즉시 사용 가능합니다.</p>
+        <ul class="deliverable-bullets">
+          <li>5 AI × 12국 = 매주 60+ 스크린샷</li>
+          <li>인용 출처 자동 highlight</li>
+          <li>PNG·PDF·BigQuery 직접 다운로드</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card mock-card-screenshot">
+          <div class="mock-screenshot-head">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <span class="mock-url">chatgpt.com · US · Apr 21</span>
+          </div>
+          <div class="mock-screenshot-body">
+            <div class="mock-msg-prompt">Mercedes-Benz E-Class에 대해 알려줘</div>
+            <div class="mock-msg-answer">
+              메르세데스-벤츠 E-Class는 독일 슈투트가르트 기반 프리미엄 세단으로, <mark>2026년형 모델</mark>은 마일드 하이브리드 기술과 <mark>MBUX 슈퍼스크린</mark>을 도입했습니다. 동급 경쟁 차종 BMW 5시리즈, Audi A6 대비 <mark>승차감과 인테리어 마감</mark>에서 우위를 보입니다.
+              <div class="mock-citations">
+                <span class="cit"><b>1</b> mercedes-benz.com</span>
+                <span class="cit"><b>2</b> motortrend.com</span>
+                <span class="cit cit-brand"><b>3</b> mbusa.com/e-class</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT CTA ===== -->
+<section class="section section-cta" id="contact">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <div class="cta-eyebrow">FREE DIAGNOSTIC · 3분 안에 결과</div>
+      <h2>당신의 콘텐츠가 AI에 인용될 확률,<br><span class="gradient-text">발행 전에 무료로</span> 확인하세요</h2>
+      <p>발행 예정 또는 기존 콘텐츠 URL을 알려주세요. 5 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다.</p>
+      <form class="cta-form" id="cta-form">
+        <input type="text" name="company" placeholder="회사명" required>
+        <input type="text" name="url" placeholder="콘텐츠 URL 또는 도메인" required>
+        <input type="email" name="email" placeholder="이메일" required>
+        <button type="submit" class="btn-primary">
+          무료 진단 받기
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Sticky bottom bar -->
+<div class="sticky-bar" id="sticky-bar">
+  <span><strong>3분 무료 진단</strong> · 당신 콘텐츠가 AI에 인용될 확률을 확인하세요</span>
+  <a href="#contact" class="sticky-cta">진단 받기 →</a>
+</div>
+
 <footer class="footer">
-  <p>© 2026 TwoStepsAhead Inc · GeoRank24 · <a href="mailto:contact@georank24.com">contact@georank24.com</a></p>
+  <p>© 2026 TwoStepsAhead Inc · GeoRank24 · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a></p>
 </footer>
 
 <script>
+// ===== COSMIC CANVAS — particles + neural connections + parallax =====
 (function () {
-  const PROMPT_TEXT = "Mercedes-Benz E-Class 추천해줘";
+  const canvas = document.getElementById('cosmic-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d', { alpha: true });
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  let W = 0, H = 0;
+  const particles = [];
+  let scrollY = 0;
+  let mouseX = 0, mouseY = 0;
+  let targetMouseX = 0, targetMouseY = 0;
+
+  const PARTICLE_BASE = 110;
+  const CONNECT_DIST = 130;
+
+  function resize() {
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = W * dpr;
+    canvas.height = H * dpr;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.scale(dpr, dpr);
+  }
+
+  function init() {
+    resize();
+    particles.length = 0;
+    const count = Math.floor(Math.min(PARTICLE_BASE, (W * H) / 14000));
+    for (let i = 0; i < count; i++) {
+      const depth = Math.random() * 0.85 + 0.15;
+      particles.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        vx: (Math.random() - 0.5) * 0.18 * depth,
+        vy: (Math.random() - 0.5) * 0.18 * depth,
+        size: 0.4 + Math.random() * 1.6 * depth,
+        depth,
+        glow: Math.random() < 0.12,
+        hue: Math.random() < 0.6 ? 'teal' : 'purple',
+        twinklePhase: Math.random() * Math.PI * 2,
+      });
+    }
+  }
+
+  function loop(t) {
+    ctx.clearRect(0, 0, W, H);
+
+    // Smooth mouse parallax
+    mouseX += (targetMouseX - mouseX) * 0.05;
+    mouseY += (targetMouseY - mouseY) * 0.05;
+
+    const parallaxScroll = scrollY * 0.15;
+
+    for (let p of particles) {
+      // motion
+      p.x += p.vx;
+      p.y += p.vy;
+      // wrap
+      if (p.x < -10) p.x = W + 10;
+      if (p.x > W + 10) p.x = -10;
+      if (p.y < -10) p.y = H + 10;
+      if (p.y > H + 10) p.y = -10;
+
+      // parallax offset based on depth
+      const ox = (mouseX * 28 - 14) * p.depth;
+      const oy = (mouseY * 28 - 14) * p.depth - parallaxScroll * p.depth;
+      const drawX = p.x + ox;
+      const drawY = p.y + oy;
+
+      // twinkle
+      const tw = 0.7 + 0.3 * Math.sin(t * 0.001 + p.twinklePhase);
+      const baseAlpha = (0.35 + p.depth * 0.55) * tw;
+
+      // base star
+      ctx.beginPath();
+      ctx.arc(drawX, drawY, p.size, 0, Math.PI * 2);
+      if (p.hue === 'teal') {
+        ctx.fillStyle = `rgba(180, 255, 240, ${baseAlpha})`;
+      } else {
+        ctx.fillStyle = `rgba(220, 210, 255, ${baseAlpha * 0.85})`;
+      }
+      ctx.fill();
+
+      // glow halo for select stars
+      if (p.glow) {
+        const haloR = p.size * 6;
+        const grad = ctx.createRadialGradient(drawX, drawY, 0, drawX, drawY, haloR);
+        const c = p.hue === 'teal'
+          ? `rgba(45, 212, 191, ${baseAlpha * 0.45})`
+          : `rgba(167, 139, 250, ${baseAlpha * 0.45})`;
+        grad.addColorStop(0, c);
+        grad.addColorStop(1, 'transparent');
+        ctx.beginPath();
+        ctx.arc(drawX, drawY, haloR, 0, Math.PI * 2);
+        ctx.fillStyle = grad;
+        ctx.fill();
+      }
+
+      // remember draw coords for connection draw
+      p._dx = drawX;
+      p._dy = drawY;
+    }
+
+    // neural connections
+    for (let i = 0; i < particles.length; i++) {
+      const a = particles[i];
+      for (let j = i + 1; j < particles.length; j++) {
+        const b = particles[j];
+        const dx = a._dx - b._dx;
+        const dy = a._dy - b._dy;
+        const distSq = dx * dx + dy * dy;
+        if (distSq < CONNECT_DIST * CONNECT_DIST) {
+          const dist = Math.sqrt(distSq);
+          const op = (1 - dist / CONNECT_DIST) * 0.18 * Math.min(a.depth, b.depth);
+          ctx.strokeStyle = `rgba(167, 139, 250, ${op})`;
+          ctx.lineWidth = 0.5;
+          ctx.beginPath();
+          ctx.moveTo(a._dx, a._dy);
+          ctx.lineTo(b._dx, b._dy);
+          ctx.stroke();
+        }
+      }
+    }
+
+    requestAnimationFrame(loop);
+  }
+
+  // Events
+  window.addEventListener('resize', () => {
+    resize();
+    // Re-seed if size changed dramatically
+  });
+  window.addEventListener('scroll', () => {
+    scrollY = window.scrollY;
+  }, { passive: true });
+  window.addEventListener('mousemove', (e) => {
+    targetMouseX = e.clientX / window.innerWidth;
+    targetMouseY = e.clientY / window.innerHeight;
+  });
+
+  // Parallax: shift the cosmic-bg container vertically (cheaper, doesn't break nebula keyframes)
+  const cosmicBg = document.querySelector('.cosmic-bg');
+  const grid = document.querySelector('.cosmic-grid');
+  const stars = document.querySelector('.cosmic-stars');
+  function applyParallax() {
+    const y = window.scrollY;
+    if (grid)  grid.style.transform  = `translate3d(0, ${y * -0.18}px, 0)`;
+    if (stars) stars.style.transform = `translate3d(0, ${y * -0.30}px, 0)`;
+  }
+  window.addEventListener('scroll', applyParallax, { passive: true });
+
+  init();
+  requestAnimationFrame(loop);
+})();
+
+// ===== HERO LIVE STREAM + KINETIC =====
+(function () {
+  const PROMPT_TEXT = "yourbrand.com/blog/post-2026-04 분석";
   const promptEl = document.getElementById('prompt-text');
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -700,7 +2552,8 @@ body {
       const rankEl = el.querySelector('.ai-platform-rank');
       const fullText = answerEl.dataset.text;
       const rank = rankEl.dataset.rank;
-      const isGood = ['#1', '#2', '#3'].includes(rank);
+      const pctMatch = rank.match(/(\d+)/);
+      const isGood = pctMatch ? parseInt(pctMatch[1]) >= 60 : false;
 
       await typeText(answerEl, fullText, 16, 12);
       await sleep(120);
@@ -713,10 +2566,10 @@ body {
 
     // probability counter starts after platforms revealed
     const probEl = document.getElementById('prob-value');
-    const target = 73.4;
+    const target = 60.2;
     let cur = 0;
     const tick = () => {
-      cur += 1.6;
+      cur += 1.4;
       if (cur >= target) { probEl.textContent = target.toFixed(1) + '%'; return; }
       probEl.textContent = cur.toFixed(1) + '%';
       requestAnimationFrame(tick);
@@ -725,8 +2578,221 @@ body {
   }
   runStream();
 
+  // ===== REVEAL ON SCROLL =====
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  reveals.forEach(el => revealObs.observe(el));
+
+  // ===== GAUGE + METRICS (in-view triggers) =====
+  function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+  function animateNumber(el, from, to, duration, formatter) {
+    const start = performance.now();
+    function step(now) {
+      const t = Math.min((now - start) / duration, 1);
+      const v = from + (to - from) * easeOutCubic(t);
+      el.textContent = formatter ? formatter(v) : v.toFixed(0);
+      if (t < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  // Gauge animation
+  const gaugeProg = document.getElementById('gauge-prog');
+  const gaugeNum = document.getElementById('gauge-num');
+  const sparkPath = document.getElementById('spark-path');
+  const gaugeWrap = gaugeNum && gaugeNum.closest('.card');
+  if (gaugeWrap) {
+    const gObs = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        const TARGET = 73.4;
+        gaugeProg.style.transition = 'stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        gaugeProg.style.strokeDashoffset = (100 - TARGET).toString();
+        animateNumber(gaugeNum, 0, TARGET, 1600, (v) => v.toFixed(1));
+        if (sparkPath) {
+          sparkPath.style.transition = 'stroke-dashoffset 1.4s ease-out 0.3s';
+          sparkPath.style.strokeDashoffset = '0';
+        }
+        gObs.disconnect();
+      }
+    }, { threshold: 0.4 });
+    gObs.observe(gaugeWrap);
+  }
+
+  // Metric counters (only numeric data-count)
+  const metricEls = document.querySelectorAll('.metric-num[data-count], .trust-num[data-count]');
+  const mObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseFloat(el.dataset.count);
+        if (!isNaN(target)) {
+          const decimal = el.dataset.decimal ? parseInt(el.dataset.decimal) : 0;
+          const suffix = el.dataset.suffix || '';
+          animateNumber(el, 0, target, 1400, (v) => v.toFixed(decimal) + suffix);
+        }
+        mObs.unobserve(el);
+      }
+    });
+  }, { threshold: 0.4 });
+  metricEls.forEach(el => mObs.observe(el));
+
+  // ===== NEURAL NETWORK =====
+  const nnSvg = document.getElementById('neural-svg');
+  if (nnSvg) {
+    const nodes = document.getElementById('nn-nodes');
+    const conns = document.getElementById('nn-connections');
+    const layers = [4, 6, 8, 6, 3];
+    const W = 400, H = 280, pad = 30;
+    const layerX = (i) => pad + (W - pad * 2) * (i / (layers.length - 1));
+    const nodeY = (j, total) => {
+      if (total === 1) return H / 2;
+      const span = H - pad * 2;
+      return pad + span * (j / (total - 1));
+    };
+
+    const positions = [];
+    layers.forEach((count, i) => {
+      const arr = [];
+      for (let j = 0; j < count; j++) arr.push({ x: layerX(i), y: nodeY(j, count) });
+      positions.push(arr);
+    });
+
+    for (let i = 0; i < layers.length - 1; i++) {
+      positions[i].forEach((a, ai) => {
+        positions[i + 1].forEach((b, bi) => {
+          const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+          line.setAttribute('x1', a.x); line.setAttribute('y1', a.y);
+          line.setAttribute('x2', b.x); line.setAttribute('y2', b.y);
+          line.setAttribute('stroke', 'rgba(167,139,250,0.16)');
+          line.setAttribute('class', 'nn-line');
+          line.dataset.from = `${i}-${ai}`;
+          line.dataset.to = `${i + 1}-${bi}`;
+          conns.appendChild(line);
+        });
+      });
+    }
+
+    positions.forEach((layer, i) => {
+      layer.forEach((p, j) => {
+        const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        c.setAttribute('cx', p.x); c.setAttribute('cy', p.y);
+        c.setAttribute('r', i === 0 || i === layers.length - 1 ? 5 : 4);
+        c.setAttribute('fill', '#1A1A24');
+        c.setAttribute('stroke', 'rgba(167,139,250,0.4)');
+        c.setAttribute('stroke-width', '1.2');
+        c.setAttribute('class', 'nn-node');
+        c.dataset.id = `${i}-${j}`;
+        nodes.appendChild(c);
+      });
+    });
+
+    function pulse() {
+      const allNodes = nodes.querySelectorAll('.nn-node');
+      const allLines = conns.querySelectorAll('.nn-line');
+      allNodes.forEach(n => {
+        n.setAttribute('fill', '#1A1A24');
+        n.setAttribute('stroke', 'rgba(167,139,250,0.4)');
+      });
+      allLines.forEach(l => l.setAttribute('stroke', 'rgba(167,139,250,0.16)'));
+
+      let activeNodes = new Set();
+      for (let j = 0; j < layers[0]; j++) {
+        if (Math.random() > 0.4) activeNodes.add(`0-${j}`);
+      }
+
+      layers.forEach((_, i) => {
+        setTimeout(() => {
+          activeNodes.forEach(id => {
+            const [li] = id.split('-').map(Number);
+            if (li === i) {
+              const node = nodes.querySelector(`[data-id="${id}"]`);
+              if (node) {
+                node.setAttribute('fill', '#14B8A6');
+                node.setAttribute('stroke', '#2DD4BF');
+              }
+            }
+          });
+          if (i < layers.length - 1) {
+            const nextActive = new Set();
+            allLines.forEach(line => {
+              if (activeNodes.has(line.dataset.from) && Math.random() > 0.45) {
+                line.setAttribute('stroke', 'rgba(20,184,166,0.7)');
+                nextActive.add(line.dataset.to);
+              }
+            });
+            activeNodes = nextActive;
+          }
+        }, i * 280);
+      });
+    }
+    setTimeout(pulse, 1200);
+    setInterval(pulse, 3500);
+  }
+
+  // ===== STICKY BAR =====
+  const stickyBar = document.getElementById('sticky-bar');
+  const ctaSection = document.getElementById('contact');
+  if (stickyBar && ctaSection) {
+    let lastShown = false;
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      const ctaTop = ctaSection.getBoundingClientRect().top + window.scrollY;
+      const shouldShow = y > window.innerHeight * 0.6 && y + window.innerHeight < ctaTop + 80;
+      if (shouldShow !== lastShown) {
+        stickyBar.classList.toggle('show', shouldShow);
+        lastShown = shouldShow;
+      }
+    }, { passive: true });
+  }
+
+  // ===== CTA Form (Slack notification via /api/contact) =====
+  const ctaForm = document.getElementById('cta-form');
+  if (ctaForm) {
+    ctaForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const submitBtn = ctaForm.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = '0.7';
+
+      const fd = new FormData(ctaForm);
+      const payload = {
+        company: (fd.get('company') || '').toString().trim(),
+        url: (fd.get('url') || '').toString().trim(),
+        email: (fd.get('email') || '').toString().trim(),
+        source: 'georank24.com · contact form',
+      };
+
+      try {
+        const r = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        if (r.ok) {
+          ctaForm.reset();
+          alert('진단 요청이 접수되었습니다. 영업일 기준 1일 이내 연락드립니다.');
+        } else {
+          const j = await r.json().catch(() => ({}));
+          alert('전송 중 문제가 발생했습니다. (' + (j.error || r.status) + ')\n잠시 후 다시 시도하거나 glenn.kim@twostepsahead.co.kr 로 직접 연락 부탁드립니다.');
+        }
+      } catch (err) {
+        alert('네트워크 오류가 발생했습니다. 잠시 후 다시 시도하거나 glenn.kim@twostepsahead.co.kr 로 직접 연락 부탁드립니다.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '1';
+      }
+    });
+  }
+
   // Kinetic word rotation
-  const KINETIC_WORDS = ['예측합니다.', '학습합니다.', '추천합니다.', '점유합니다.'];
+  const KINETIC_WORDS = ['발행 전에 알려드립니다.', '7일 전에 예측합니다.', '점수로 출력합니다.', '미리 시뮬레이션합니다.'];
   const kEl = document.getElementById('kinetic-word');
   let kIdx = 0;
   setInterval(() => {
