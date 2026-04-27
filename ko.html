@@ -3,3027 +3,748 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GeoRank24 | AI 검색 시대, 브랜드 가시성 데이터 서비스</title>
+<title>GeoRank24 — AI 검색 시대의 마케팅 예측 엔진</title>
+<meta name="description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델. 5대 AI 검색 · 12개국 · 실제 브라우저 데이터.">
+<meta property="og:title" content="GeoRank24 — AI 검색 시대의 마케팅 예측 엔진">
+<meta property="og:description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델.">
+<meta property="og:image" content="/og-image.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314B8A6'/%3E%3Cstop offset='1' stop-color='%23A78BFA'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='50' y='66' text-anchor='middle' fill='white' font-family='Inter,sans-serif' font-weight='900' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
 
-    <meta name="description" content="GeoRank24 — 글로벌 브랜드를 위한 AI 검색 가시성 데이터 서비스. 7개 AI 플랫폼 × 12개국에서 실제 브라우저로 브랜드 노출을 모니터링합니다.">
-    <meta name="keywords" content="GEO, AI search, brand visibility, ChatGPT monitoring, Gemini, Perplexity, AI Overview, share of voice, GEO optimization">
-    <meta name="author" content="TwoStepsAhead Inc.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://georank24.com/ko.html">
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="GeoRank24 — AI Search Visibility Data Service">
-    <meta property="og:description" content="Measure your brand's AI search share of voice across 7 AI platforms × 12 countries. Real browser data, not API.">
-    <meta property="og:url" content="https://georank24.com/">
-    <meta property="og:image" content="https://georank24.com/og-image.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="GeoRank24">
-    <meta property="og:locale" content="ko_KR">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GeoRank24 — AI Search Visibility Data Service">
-    <meta name="twitter:description" content="Measure your brand's AI search share of voice across 7 platforms × 12 countries.">
-    <meta name="twitter:image" content="https://georank24.com/og-image.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-  :root {
-    --dark: #0F0E1A;
-    --gray-900: #1A1826;
-    --gray-700: #4A4759;
-    --gray-500: #8B8799;
-    --gray-300: #D4D1DE;
-    --gray-100: #F0F0F2;
-    --gray-50: #FAFAFA;
-    --accent: #14B8A6;
-    --accent-dark: #0D9488;
-    --accent-light: #F0FDFA;
-  }
-  * {
-    margin: 0; padding: 0; box-sizing: border-box;
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-  html, body {
-    font-family: 'Noto Sans KR', 'Inter', -apple-system, sans-serif;
-    background: #FFFFFF;
-    color: var(--dark);
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.6;
-    word-break: keep-all;
-    overflow-wrap: break-word;
-    -ms-word-break: keep-all;
-  }
-  .page {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 48px 64px 80px;
-  }
-
-  /* HEADER */
-  .brand-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 16px;
-    border-bottom: 2px solid var(--dark);
-    margin-bottom: 32px;
-  }
-  .brand-logo {
-    font-size: 28px;
-    font-weight: 900;
-    letter-spacing: -1px;
-    color: var(--dark);
-  }
-  .brand-tag {
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--gray-500);
-    text-transform: uppercase;
-  }
-
-  /* TRUST BANNER */
-  .trust-banner {
-    background: var(--dark);
-    color: white;
-    border-radius: 16px;
-    padding: 32px 40px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-  }
-  .trust-banner-label {
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color: var(--accent);
-    text-transform: uppercase;
-    flex-shrink: 0;
-    padding-right: 28px;
-    border-right: 1px solid rgba(255,255,255,0.25);
-  }
-  .trust-banner-text {
-    font-size: 17px;
-    color: rgba(255,255,255,0.92);
-    line-height: 1.65;
-    font-weight: 500;
-  }
-  .trust-banner-text strong { color: white; font-weight: 800; }
-
-  /* ATTENTION QUESTION */
-  .attention-question {
-    background: var(--gray-50);
-    border: 1px solid var(--gray-100);
-    border-radius: 16px;
-    padding: 28px 36px;
-    margin-bottom: 40px;
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--dark);
-    line-height: 1.4;
-    letter-spacing: -0.5px;
-    text-align: center;
-  }
-  .attention-question strong {
-    color: var(--accent-dark);
-    font-weight: 900;
-    border-bottom: 3px solid var(--accent);
-    padding-bottom: 2px;
-  }
-
-  /* HERO */
-  .hero {
-    padding: 24px 0 56px;
-    border-bottom: 1px solid var(--gray-100);
-    margin-bottom: 56px;
-  }
-  .hero-label {
-    display: inline-block;
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--dark);
-    border-bottom: 2px solid var(--accent);
-    padding: 4px 0;
-    margin-bottom: 24px;
-    text-transform: uppercase;
-  }
-  h1.hero-title {
-    font-size: 52px;
-    font-weight: 900;
-    letter-spacing: -1.5px;
-    color: var(--dark);
-    line-height: 1.2;
-    margin-bottom: 24px;
-  }
-  .hero-sub {
-    font-size: 19px;
-    font-weight: 500;
-    color: var(--gray-700);
-    line-height: 1.65;
-    margin-bottom: 28px;
-    max-width: 820px;
-  }
-  .hero-bullets {
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-  }
-  .hero-bullet {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 15px;
-    color: var(--dark);
-    font-weight: 700;
-  }
-  .hero-bullet::before {
-    content: '';
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-
-  /* SECTIONS */
-  .section { margin-bottom: 72px; }
-  .section-label {
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 2.5px;
-    color: var(--accent-dark);
-    text-transform: uppercase;
-    margin-bottom: 12px;
-  }
-  .section-title {
-    font-size: 34px;
-    font-weight: 900;
-    color: var(--dark);
-    letter-spacing: -0.8px;
-    margin-bottom: 14px;
-    line-height: 1.25;
-  }
-  .section-lead {
-    font-size: 16px;
-    color: var(--gray-700);
-    line-height: 1.7;
-    margin-bottom: 28px;
-    max-width: 860px;
-  }
-
-  /* PROBLEM QUESTIONS */
-  .problem-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-  }
-  .problem-grid .problem-card:nth-child(5),
-  .problem-grid .problem-card:nth-child(6) {
-    border-left: 3px solid var(--accent);
-  }
-  .problem-card {
-    background: var(--gray-50);
-    border: 1px solid var(--gray-100);
-    border-radius: 14px;
-    padding: 24px 26px;
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .problem-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
-  .problem-q {
-    font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    font-weight: 900;
-    color: var(--accent);
-    line-height: 1;
-    flex-shrink: 0;
-  }
-  .problem-text {
-    font-size: 16px;
-    color: var(--dark);
-    font-weight: 600;
-    line-height: 1.55;
-  }
-
-  /* DIY REALITY */
-  .diy-reality {
-    background: var(--dark);
-    color: white;
-    border-radius: 16px;
-    padding: 36px 40px;
-  }
-  .diy-reality-title {
-    font-size: 22px;
-    font-weight: 800;
-    margin-bottom: 24px;
-    color: white;
-  }
-  .diy-reality-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    margin-bottom: 24px;
-  }
-  .diy-item {
-    padding-left: 14px;
-    border-left: 2px solid var(--accent);
-  }
-  .diy-item-value {
-    font-size: 26px;
-    font-weight: 900;
-    color: white;
-    line-height: 1.1;
-    margin-bottom: 6px;
-    letter-spacing: -0.3px;
-  }
-  .diy-item-label {
-    font-size: 13px;
-    color: rgba(255,255,255,0.7);
-    font-weight: 500;
-    line-height: 1.4;
-  }
-  .diy-solution {
-    padding-top: 24px;
-    border-top: 1px solid rgba(255,255,255,0.15);
-    font-size: 16px;
-    color: rgba(255,255,255,0.9);
-    line-height: 1.6;
-  }
-  .diy-solution strong { color: var(--accent); font-weight: 700; }
-
-  /* DELIVERABLES */
-  .deliverable-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 12px;
-  }
-  .deliverable {
-    background: white;
-    border: 1px solid var(--gray-100);
-    border-radius: 14px;
-    padding: 22px 18px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .deliverable:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
-  .deliverable-num {
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 800;
-    color: var(--accent);
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
-  }
-  .deliverable-title {
-    font-size: 18px;
-    font-weight: 800;
-    color: var(--dark);
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--gray-100);
-    line-height: 1.3;
-  }
-  .deliverable-desc {
-    font-size: 13px;
-    color: var(--gray-700);
-    line-height: 1.6;
-  }
-
-  /* WHY US - 4 differentiators */
-  .why-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-  }
-  .why-card {
-    background: white;
-    border: 1px solid var(--gray-100);
-    border-radius: 16px;
-    padding: 28px 28px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .why-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.06); }
-  .why-num {
-    font-family: 'Inter', sans-serif;
-    font-size: 40px;
-    font-weight: 900;
-    color: var(--accent);
-    line-height: 1;
-    letter-spacing: -1px;
-    margin-bottom: 14px;
-  }
-  .why-title {
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--dark);
-    margin-bottom: 8px;
-    line-height: 1.3;
-  }
-  .why-desc {
-    font-size: 14px;
-    color: var(--gray-700);
-    line-height: 1.65;
-  }
-  .why-desc strong { color: var(--dark); font-weight: 700; }
-
-  /* BEFORE AFTER */
-  .ba-grid {
-    display: grid;
-    grid-template-columns: 1fr 48px 1fr;
-    gap: 0;
-    align-items: stretch;
-    margin-bottom: 24px;
-  }
-  .ba-col {
-    border-radius: 16px;
-    padding: 28px 32px;
-  }
-  .ba-before {
-    background: var(--gray-50);
-    border: 1px solid var(--gray-100);
-  }
-  .ba-after {
-    background: var(--dark);
-    color: white;
-  }
-  .ba-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    font-weight: 900;
-    color: var(--accent);
-  }
-  .ba-label {
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: var(--gray-400);
-    text-transform: uppercase;
-    margin-bottom: 14px;
-  }
-  .ba-after .ba-label { color: var(--accent); }
-  .ba-list { list-style: none; padding: 0; }
-  .ba-list li {
-    padding: 10px 0 10px 22px;
-    position: relative;
-    font-size: 15px;
-    color: var(--gray-700);
-    line-height: 1.55;
-    border-bottom: 1px solid var(--gray-100);
-  }
-  .ba-after .ba-list li { color: rgba(255,255,255,0.85); border-bottom-color: rgba(255,255,255,0.1); }
-  .ba-list li:last-child { border-bottom: none; }
-  .ba-list li::before {
-    position: absolute;
-    left: 0;
-    font-weight: 800;
-    font-size: 14px;
-  }
-  .ba-before .ba-list li::before { content: '×'; color: #DC2626; }
-  .ba-after .ba-list li::before { content: '✓'; color: var(--accent); }
-  .ba-list li strong { font-weight: 700; }
-  .ba-after .ba-list li strong { color: white; }
-
-  /* USE CASES */
-  .usecase-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-  }
-  .usecase-grid:has(.usecase-card:nth-child(5)) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .usecase-card {
-    background: white;
-    border: 1px solid var(--gray-100);
-    border-radius: 16px;
-    padding: 28px 26px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .usecase-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.06); }
-  .usecase-icon {
-    font-size: 36px;
-    margin-bottom: 16px;
-    line-height: 1;
-  }
-  .usecase-title {
-    font-size: 19px;
-    font-weight: 800;
-    color: var(--dark);
-    margin-bottom: 10px;
-    line-height: 1.3;
-  }
-  .usecase-desc {
-    font-size: 14px;
-    color: var(--gray-700);
-    line-height: 1.7;
-    margin-bottom: 16px;
-  }
-  .usecase-result {
-    background: var(--accent-light);
-    padding: 12px 16px;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--accent-dark);
-    line-height: 1.55;
-  }
-
-  /* FIRST MONTH */
-  .firstmonth-timeline {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-    border: 1px solid var(--gray-100);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  .fm-step {
-    padding: 22px 20px;
-    border-right: 1px solid var(--gray-100);
-    background: white;
-    position: relative;
-  }
-  .fm-step:last-child { border-right: none; }
-  .fm-step.active { background: var(--dark); color: white; }
-  .fm-week {
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    color: var(--accent-dark);
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .fm-step.active .fm-week { color: var(--accent); }
-  .fm-title {
-    font-size: 16px;
-    font-weight: 800;
-    color: var(--dark);
-    margin-bottom: 8px;
-    line-height: 1.3;
-  }
-  .fm-step.active .fm-title { color: white; }
-  .fm-desc {
-    font-size: 12px;
-    color: var(--gray-600);
-    line-height: 1.6;
-  }
-  .fm-step.active .fm-desc { color: rgba(255,255,255,0.75); }
-  .fm-output {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--accent-dark);
-    background: var(--accent-light);
-    padding: 4px 10px;
-    border-radius: 4px;
-  }
-  .fm-step.active .fm-output { background: rgba(20,184,166,0.2); color: var(--accent); }
-
-  /* PRICING */
-  .pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-  }
-  .tier {
-    background: white;
-    border: 1px solid var(--gray-100);
-    border-radius: 16px;
-    padding: 28px 24px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .tier:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.06); }
-  .tier.featured { background: var(--dark); color: white; border-color: var(--dark); box-shadow: 0 16px 40px rgba(0,0,0,0.15); }
-  .tier-name {
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: var(--gray-500);
-    margin-bottom: 12px;
-    text-transform: uppercase;
-  }
-  .tier.featured .tier-name { color: var(--accent); }
-  .tier-price {
-    font-size: 24px;
-    font-weight: 900;
-    color: var(--dark);
-    margin-bottom: 4px;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
-  }
-  .tier.featured .tier-price { color: white; }
-  .tier-unit {
-    font-size: 11px;
-    color: var(--gray-500);
-    margin-bottom: 16px;
-    font-weight: 500;
-  }
-  .tier.featured .tier-unit { color: rgba(255,255,255,0.5); }
-  .tier-features {
-    list-style: none;
-    padding: 14px 0 0;
-    border-top: 1px solid var(--gray-100);
-    flex: 1;
-  }
-  .tier.featured .tier-features { border-top-color: rgba(255,255,255,0.15); }
-  .tier-features li {
-    font-size: 12px;
-    color: var(--gray-700);
-    line-height: 1.5;
-    padding: 5px 0 5px 16px;
-    position: relative;
-  }
-  .tier.featured .tier-features li { color: rgba(255,255,255,0.8); }
-  .tier-features li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    font-weight: 800;
-    font-size: 11px;
-  }
-
-  /* PROCESS */
-  .process-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0;
-    border: 1px solid var(--gray-100);
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .process-step {
-    padding: 20px;
-    border-right: 1px solid var(--gray-100);
-    background: white;
-  }
-  .process-step:last-child { border-right: none; }
-  .process-week {
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    color: var(--accent-dark);
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .process-title {
-    font-size: 15px;
-    font-weight: 800;
-    color: var(--dark);
-    margin-bottom: 6px;
-    line-height: 1.3;
-  }
-  .process-desc {
-    font-size: 12px;
-    color: var(--gray-700);
-    line-height: 1.5;
-  }
-
-  /* PROOF */
-  .proof-box {
-    background: var(--gray-50);
-    border: 1px solid var(--gray-100);
-    border-radius: 16px;
-    padding: 36px 40px;
-  }
-  .proof-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-  }
-  .proof-item {
-    padding-left: 14px;
-    border-left: 2px solid var(--accent);
-  }
-  .proof-number {
-    font-size: 28px;
-    font-weight: 900;
-    color: var(--dark);
-    line-height: 1.1;
-    margin-bottom: 6px;
-    letter-spacing: -0.5px;
-  }
-  .proof-label {
-    font-size: 14px;
-    color: var(--gray-700);
-    line-height: 1.55;
-    font-weight: 500;
-  }
-  .proof-label strong { color: var(--dark); font-weight: 700; }
-
-  /* CONTACT FORM */
-  .contact-box {
-    background: var(--dark);
-    border-radius: 20px;
-    padding: 40px 48px 36px;
-    color: white;
-  }
-  .contact-header { margin-bottom: 28px; }
-  .contact-title {
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-    letter-spacing: -0.6px;
-    margin-bottom: 10px;
-    line-height: 1.2;
-  }
-  .contact-sub {
-    font-size: 14px;
-    color: rgba(255,255,255,0.75);
-    line-height: 1.6;
-  }
-  .contact-sub strong { color: var(--accent); font-weight: 700; }
-  .contact-form { display: flex; flex-direction: column; gap: 10px; }
-  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .contact-form input,
-  .contact-form textarea {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 8px;
-    padding: 12px 14px;
-    color: white;
-    font-size: 14px;
-    font-family: inherit;
-    transition: all 0.15s;
-    width: 100%;
-  }
-  .contact-form input::placeholder,
-  .contact-form textarea::placeholder {
-    color: rgba(255,255,255,0.4);
-  }
-  .contact-form input:focus,
-  .contact-form textarea:focus {
-    outline: none;
-    border-color: var(--accent);
-    background: rgba(255,255,255,0.1);
-  }
-  .contact-form textarea { resize: vertical; min-height: 72px; line-height: 1.5; }
-  .form-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 6px;
-    gap: 16px;
-  }
-  .form-status {
-    font-size: 13px;
-    color: rgba(255,255,255,0.7);
-    line-height: 1.5;
-  }
-  .form-status.success { color: var(--accent); font-weight: 600; }
-  .form-status.error { color: #FCA5A5; font-weight: 600; }
-  .contact-submit {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--accent);
-    color: white;
-    padding: 13px 28px;
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 800;
-    letter-spacing: -0.2px;
-    white-space: nowrap;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    transition: all 0.15s;
-  }
-  .contact-submit:hover:not(:disabled) { background: var(--accent-dark); transform: translateY(-1px); }
-  .contact-submit:disabled { opacity: 0.6; cursor: not-allowed; }
-  .submit-arrow { font-size: 18px; font-weight: 900; }
-
-  /* FOOTER */
-  .footer {
-    margin-top: 48px;
-    padding-top: 24px;
-    border-top: 1px solid var(--gray-100);
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    color: var(--gray-500);
-  }
-  .footer strong { color: var(--dark); font-weight: 700; }
-
-  @media print {
-    .page { padding: 40px 40px; }
-    .section { margin-bottom: 36px; page-break-inside: avoid; }
-    .contact-box { page-break-inside: avoid; }
-    @page { margin: 0; }
-  }
-
-  /* ===== TABLET (max-width: 1024px) ===== */
-  @media (max-width: 1024px) {
-    .page { max-width: 100%; padding: 40px 36px 60px; }
-    h1.hero-title { font-size: 42px; }
-    .section-title { font-size: 28px; }
-    .why-grid { grid-template-columns: 1fr 1fr; }
-    .comp-grid { grid-template-columns: 1fr 1fr; }
-    .deliverable-grid { grid-template-columns: repeat(2, 1fr) !important; }
-    .firstmonth-timeline { grid-template-columns: 1fr 1fr; }
-    .modal { max-width: 95vw; }
-    .usecase-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-
-  /* ===== MOBILE (max-width: 768px) ===== */
-  @media (max-width: 768px) {
-    /* Page container */
-    .page { padding: 24px 18px 48px; }
-
-    /* Header */
-    .brand-row { margin-bottom: 20px; padding-bottom: 12px; }
-    .brand-logo { font-size: 22px; }
-
-    /* Trust banner */
-    .trust-banner {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px 22px;
-      gap: 12px;
-      border-radius: 12px;
-      margin-bottom: 14px;
-    }
-    .trust-banner-label {
-      border-right: none;
-      padding-right: 0;
-      padding-bottom: 8px;
-      border-bottom: 1px solid rgba(255,255,255,0.2);
-      width: 100%;
-    }
-    .trust-banner-text { font-size: 14px; }
-
-    /* Attention question */
-    .attention-question { font-size: 20px; padding: 20px 22px; margin-bottom: 28px; }
-
-    /* Hero */
-    .hero { padding: 16px 0 32px; margin-bottom: 36px; }
-    h1.hero-title { font-size: 30px; letter-spacing: -0.8px; margin-bottom: 16px; }
-    .hero-sub { font-size: 15px; margin-bottom: 20px; }
-    .hero-bullets { flex-direction: column; gap: 10px; }
-    .hero-bullet { font-size: 13px; }
-
-    /* Section defaults */
-    .section { margin-bottom: 48px; }
-    .section-title { font-size: 24px; }
-    .section-lead { font-size: 14px; }
-
-    /* Demo grid */
-    .demo-grid { gap: 8px; }
-    .demo-btn { min-width: 0; padding: 14px 16px; flex: 1 1 calc(50% - 4px); }
-    .demo-btn-icon { font-size: 26px; }
-    .demo-btn-label { font-size: 12px; }
-    .demo-btn-sub { font-size: 10px; }
-
-    /* Problem grid */
-    .problem-grid { grid-template-columns: 1fr; gap: 10px; }
-
-    /* Core Positioning dark box */
-    .core-pos-box {
-      padding: 28px 20px !important;
-      border-radius: 14px !important;
-    }
-    .core-pos-box h2 {
-      font-size: 20px !important;
-      line-height: 1.4 !important;
-    }
-    .core-pos-box h2 br { display: none; }
-    .core-pos-box p { font-size: 14px !important; }
-    .core-pos-grid {
-      grid-template-columns: 1fr !important;
-      gap: 12px !important;
-    }
-    .core-pos-card {
-      padding: 20px !important;
-    }
-    .core-pos-card div:first-child { font-size: 28px !important; margin-bottom: 8px !important; }
-    .core-pos-card div:nth-child(2) { font-size: 15px !important; }
-    .core-pos-card p { font-size: 13px !important; }
-    .core-pos-footer {
-      font-size: 14px !important;
-      text-align: left !important;
-    }
-    .core-pos-footer br { display: none; }
-
-    /* AI Query Intelligence */
-    .qi-example {
-      padding: 20px !important;
-    }
-    .qi-example > div:first-child { font-size: 13px !important; }
-    .qi-chips {
-      gap: 6px !important;
-    }
-    .qi-chips > span {
-      font-size: 12px !important;
-      padding: 6px 10px !important;
-    }
-    .qi-pipeline {
-      grid-template-columns: 1fr !important;
-      border-radius: 12px !important;
-    }
-    .qi-pipeline > div {
-      border-right: none !important;
-      border-bottom: 1px solid var(--gray-100) !important;
-      padding: 20px !important;
-    }
-    .qi-pipeline > div:last-child {
-      border-bottom: none !important;
-    }
-    .qi-pipeline > div > div:nth-child(2) { font-size: 15px !important; }
-    .qi-pipeline > div > div:nth-child(3) { font-size: 12px !important; }
-    .qi-closing {
-      padding: 20px 22px !important;
-      border-radius: 10px !important;
-    }
-    .qi-closing p:first-child { font-size: 14px !important; }
-    .qi-closing p:last-child { font-size: 12px !important; }
-
-    /* GEO Full-Loop pipeline */
-    .fl-pipeline {
-      grid-template-columns: 1fr 1fr 1fr !important;
-    }
-    .fl-pipeline > div {
-      padding: 16px 12px !important;
-    }
-    .fl-pipeline > div > div:nth-child(2) { font-size: 18px !important; }
-    .fl-pipeline > div > div:nth-child(3) { font-size: 12px !important; }
-    .fl-pipeline > div > div:nth-child(4) { font-size: 10px !important; }
-    .fl-hint {
-      flex-direction: column !important;
-      gap: 12px !important;
-      padding: 18px 20px !important;
-    }
-    .fl-hint > div:first-child { font-size: 24px !important; }
-    .fl-hint > div:last-child { font-size: 13px !important; }
-    .problem-card { padding: 16px 18px; }
-    .problem-text { font-size: 14px; }
-
-    /* Before/After */
-    .ba-grid { grid-template-columns: 1fr; gap: 0; }
-    .ba-arrow { transform: rotate(90deg); padding: 8px 0; justify-content: center; }
-    .ba-col { border-radius: 0; padding: 20px 22px; }
-    .ba-before { border-radius: 12px 12px 0 0; }
-    .ba-after { border-radius: 0 0 12px 12px; }
-    .ba-list li { font-size: 13px; padding: 8px 0 8px 18px; }
-
-    /* Use Cases */
-    .usecase-grid { grid-template-columns: 1fr; gap: 12px; }
-    .usecase-card { padding: 20px; }
-    .usecase-title { font-size: 17px; }
-    .usecase-desc { font-size: 13px; }
-
-    /* DIY Reality */
-    .diy-reality { padding: 24px 22px; border-radius: 12px; }
-    .diy-reality-title { font-size: 18px; }
-    .diy-reality-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
-    .diy-item-value { font-size: 22px; }
-    .diy-solution { font-size: 14px; }
-
-    /* Deliverables */
-    .deliverable-grid { grid-template-columns: 1fr; gap: 10px; }
-    .deliverable { padding: 18px 16px; display: flex; flex-direction: row; align-items: flex-start; gap: 12px; }
-    .deliverable-num { margin-bottom: 0; flex-shrink: 0; }
-    .deliverable-title { font-size: 16px; margin-bottom: 4px; padding-bottom: 0; border-bottom: none; }
-
-    /* Why grid */
-    .why-grid { grid-template-columns: 1fr; gap: 12px; }
-    .why-card { padding: 22px 20px; }
-    .why-num { font-size: 32px; margin-bottom: 10px; }
-    .why-title { font-size: 17px; }
-    .why-desc { font-size: 13px; }
-
-    /* First Month */
-    .firstmonth-timeline { grid-template-columns: 1fr; gap: 0; border-radius: 12px; }
-    .fm-step { border-right: none; border-bottom: 1px solid #F0F0F2; padding: 18px; }
-    .fm-step:last-child { border-bottom: none; }
-    .fm-title { font-size: 15px; }
-
-    /* Pricing */
-    .pricing-grid { grid-template-columns: 1fr; gap: 12px; }
-    .tier { padding: 22px 20px; }
-    .tier-price { font-size: 22px; }
-
-    /* Proof */
-    .proof-box { padding: 24px 22px; }
-    .proof-items { grid-template-columns: 1fr; gap: 20px; }
-    .proof-number { font-size: 24px; }
-
-    /* Contact form */
-    .contact-box { padding: 28px 22px 24px; border-radius: 14px; }
-    .contact-title { font-size: 24px; }
-    .form-row { grid-template-columns: 1fr; }
-    .form-footer { flex-direction: column; align-items: stretch; gap: 12px; }
-    .contact-submit { justify-content: center; width: 100%; }
-    .form-status { text-align: center; }
-
-    /* Footer */
-    .footer { flex-direction: column; gap: 8px; text-align: center; }
-
-    /* Modal — full screen on mobile */
-    .modal-overlay { padding: 0; align-items: flex-end; }
-    .modal {
-      max-height: 92vh;
-      border-radius: 16px 16px 0 0;
-      max-width: 100%;
-    }
-    .modal-header { padding: 18px 20px; border-radius: 16px 16px 0 0; }
-    .modal-header h2 { font-size: 17px; }
-    .modal-body { padding: 20px; }
-    .modal-pain { font-size: 13px; padding: 14px 16px; }
-    .modal-subtitle { font-size: 14px; }
-    .modal-insight { font-size: 13px; padding: 16px 18px; }
-    .modal-insight-top { padding: 16px 18px; font-size: 13px; }
-    .modal-cta { font-size: 12px; }
-
-    /* Modal SOV bars */
-    .sov-row { flex-direction: column; gap: 4px; }
-    .sov-platform { width: auto; text-align: left; font-size: 10px; }
-    .sov-bar-bg { height: 24px; }
-    .sov-bar-fill { font-size: 9px; padding: 0 4px; }
-    .sov-legend { flex-wrap: wrap; gap: 8px; }
-
-    /* Modal comp grid */
-    .comp-grid { grid-template-columns: 1fr; gap: 10px; }
-    .comp-card { padding: 14px 16px; }
-    .comp-card-title { font-size: 14px; }
-    .comp-card-desc { font-size: 11px; }
-
-    /* Data cards */
-    .data-card-header { flex-direction: column; gap: 8px; }
-    .data-query { font-size: 15px; }
-    .data-meta { flex-wrap: wrap; }
-    .data-response-text { font-size: 12px; max-height: 60px; }
-    .data-citations { padding: 14px 16px; }
-    .citation-url { font-size: 12px; }
-
-    /* Language switcher */
-    .lang-switcher { top: 12px; right: 12px; padding: 3px; }
-    .lang-btn { font-size: 11px; padding: 5px 10px; }
-  }
-
-  /* ===== SMALL MOBILE (max-width: 480px) ===== */
-  @media (max-width: 480px) {
-    .page { padding: 18px 14px 40px; }
-    h1.hero-title { font-size: 26px; }
-    .section-title { font-size: 21px; }
-    .attention-question { font-size: 17px; padding: 16px 18px; }
-    .trust-banner { padding: 16px 18px; }
-    .trust-banner-text { font-size: 13px; }
-    .demo-btn { flex: 1 1 100%; }
-    .diy-reality-grid { grid-template-columns: 1fr; }
-    .ba-list li { font-size: 12px; }
-    .modal-header h2 { font-size: 15px; }
-    .sov-bar-fill { font-size: 8px; min-width: 30px; }
-    .comp-card-label { font-size: 9px; }
-    .data-badge { font-size: 9px; padding: 2px 6px; }
-    .deliverable-grid { grid-template-columns: 1fr !important; }
-
-    /* Core Positioning — tighter on small screens */
-    .core-pos-box { padding: 22px 16px !important; }
-    .core-pos-box h2 { font-size: 18px !important; }
-    .core-pos-card { padding: 16px !important; }
-    .core-pos-footer { font-size: 13px !important; }
-
-    /* AI Query Intelligence */
-    .qi-example { padding: 16px !important; }
-    .qi-chips > span { font-size: 11px !important; padding: 5px 8px !important; }
-
-    /* GEO Full-Loop — single col on small */
-    .fl-pipeline { grid-template-columns: 1fr !important; }
-    .fl-pipeline > div { border-right: none !important; border-bottom: 1px solid var(--gray-100) !important; }
-    .fl-pipeline > div:last-child { border-bottom: none !important; }
-    .qi-closing p:first-child br { display: none; }
-    .qi-pipeline > div > div:nth-child(2) br { display: none; }
-  }
-
-
-
-
-  /* INDUSTRY DEMO */
-  .demo-section { text-align: center; }
-  .demo-grid {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 24px;
-  }
-  .demo-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 20px 28px;
-    background: white;
-    border: 1px solid #E0E0E0;
-    border-radius: 14px;
-    cursor: pointer;
-    transition: all 0.2s;
-    min-width: 160px;
-    text-decoration: none;
-    color: #0F0E1A;
-  }
-  .demo-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-color: #14B8A6; }
-  .demo-btn-icon { font-size: 32px; line-height: 1; }
-  .demo-btn-label { font-size: 14px; font-weight: 700; }
-  .demo-btn-sub { font-size: 11px; color: #8B8799; font-weight: 500; }
-
-  /* MODAL */
-  .modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.6);
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    backdrop-filter: blur(4px);
-  }
-  .modal-overlay.active { display: flex; }
-  .modal {
-    background: white;
-    border-radius: 16px;
-    max-width: 900px;
-    width: 100%;
-    max-height: 85vh;
-    overflow-y: auto;
-    position: relative;
-    box-shadow: 0 24px 64px rgba(0,0,0,0.2);
-  }
-  .modal-header {
-    position: sticky;
-    top: 0;
-    background: #0F0E1A;
-    color: white;
-    padding: 24px 32px;
-    border-radius: 16px 16px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-  }
-  .modal-header h2 { font-size: 22px; font-weight: 800; }
-  .modal-close {
-    background: none; border: none; color: white; font-size: 28px;
-    cursor: pointer; padding: 0; line-height: 1; opacity: 0.7;
-  }
-  .modal-close:hover { opacity: 1; }
-  .modal-body { padding: 28px 32px; }
-  .modal-pain {
-    background: #F0FDFA;
-    border-left: 4px solid #14B8A6;
-    border-radius: 0 10px 10px 0;
-    padding: 16px 20px;
-    margin-bottom: 24px;
-    font-size: 14px;
-    color: #4A4759;
-    line-height: 1.65;
-  }
-  .modal-pain strong { color: #0F0E1A; }
-  .modal-subtitle {
-    font-size: 16px;
-    font-weight: 800;
-    color: #0F0E1A;
-    margin: 24px 0 12px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .modal-subtitle::before {
-    content: '';
-    width: 4px;
-    height: 20px;
-    background: #14B8A6;
-    border-radius: 2px;
-    flex-shrink: 0;
-  }
-  .modal table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px; }
-  .modal th { background: #F0F0F2; padding: 10px 12px; font-size: 11px; font-weight: 700; text-align: center; border-bottom: 2px solid #D4D1DE; }
-  .modal th:first-child { text-align: left; }
-  .modal td { padding: 10px 12px; border-bottom: 1px solid #F0F0F2; text-align: center; color: #4A4759; }
-  .modal td:first-child { text-align: left; font-weight: 600; color: #0F0E1A; }
-
-
-  /* COMPETITIVE ANALYSIS CARDS */
-  .comp-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin: 16px 0;
-  }
-  .comp-card {
-    background: #FAFAFA;
-    border: 1px solid #E0E0E0;
-    border-radius: 10px;
-    padding: 16px 18px;
-  }
-  .comp-card.warning { border-left: 4px solid #F59E0B; }
-  .comp-card.danger { border-left: 4px solid #DC2626; }
-  .comp-card.success { border-left: 4px solid #14B8A6; }
-  .comp-card.info { border-left: 4px solid #3B82F6; }
-  .comp-card-label {
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-  }
-  .comp-card.warning .comp-card-label { color: #F59E0B; }
-  .comp-card.danger .comp-card-label { color: #DC2626; }
-  .comp-card.success .comp-card-label { color: #14B8A6; }
-  .comp-card.info .comp-card-label { color: #3B82F6; }
-  .comp-card-title {
-    font-size: 15px;
-    font-weight: 800;
-    color: #0F0E1A;
-    margin-bottom: 6px;
-    line-height: 1.3;
-  }
-  .comp-card-desc {
-    font-size: 12px;
-    color: #4A4759;
-    line-height: 1.6;
-  }
-  .comp-card-desc strong { color: #0F0E1A; }
-
-  /* PLATFORM SOV BAR */
-  .sov-section { margin: 16px 0; }
-  .sov-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 8px;
-  }
-  .sov-platform {
-    width: 100px;
-    font-size: 11px;
-    font-weight: 700;
-    color: #4A4759;
-    text-align: right;
-    flex-shrink: 0;
-  }
-  .sov-bar-bg {
-    flex: 1;
-    height: 28px;
-    background: #F0F0F2;
-    border-radius: 6px;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-  }
-  .sov-bar-fill {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 8px;
-    font-size: 10px;
-    font-weight: 700;
-    color: white;
-    white-space: nowrap;
-    min-width: 40px;
-  }
-  .sov-bar-fill.brand-a { background: #0F0E1A; }
-  .sov-bar-fill.brand-b { background: #4A4759; }
-  .sov-bar-fill.brand-c { background: #14B8A6; }
-  .sov-bar-fill.brand-d { background: #D4D1DE; color: #4A4759; }
-  .sov-legend {
-    display: flex;
-    gap: 16px;
-    margin-top: 12px;
-    font-size: 11px;
-    color: #4A4759;
-  }
-  .sov-legend-item {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .sov-legend-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 2px;
-  }
-
-  /* INSIGHT TOP BANNER */
-  .modal-insight-top {
-    background: linear-gradient(135deg, #0F0E1A 0%, #1a2744 100%);
-    color: white;
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.65;
-    border: 1px solid rgba(20,184,166,0.3);
-  }
-  .modal-insight-top strong { color: #14B8A6; }
-  .modal-insight-top .insight-label-top {
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #14B8A6;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .modal-insight-top .insight-label-top::before {
-    content: '⚡';
-    font-size: 14px;
-  }
-
-  /* DATA CARD — mimics actual GeoRank24 crawl result */
-  .data-card {
-    background: white;
-    border: 1px solid #E0E0E0;
-    border-radius: 12px;
-    margin-bottom: 16px;
-    overflow: hidden;
-  }
-  .data-card-header {
-    padding: 16px 20px;
-    border-bottom: 1px solid #F0F0F2;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-  }
-  .data-query {
-    font-size: 17px;
-    font-weight: 800;
-    color: #0F0E1A;
-    line-height: 1.3;
-  }
-  .data-meta {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
-    font-size: 11px;
-    color: #8B8799;
-  }
-  .data-badge {
-    display: inline-block;
-    font-size: 10px;
-    font-weight: 800;
-    padding: 3px 8px;
-    border-radius: 4px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  }
-  .data-badge.chatgpt { background: #E8F5E9; color: #2E7D32; }
-  .data-badge.gemini { background: #E3F2FD; color: #1565C0; }
-  .data-badge.perplexity { background: #F3E5F5; color: #7B1FA2; }
-  .data-badge.aio { background: #FFF8E1; color: #F57F17; }
-  .data-badge.aimode { background: #FCE4EC; color: #C62828; }
-  .data-badge.country { background: #F5F5F5; color: #424242; font-weight: 700; }
-  .data-badge.success { background: #E8F5E9; color: #2E7D32; }
-
-  .data-response {
-    padding: 16px 20px;
-    border-bottom: 1px solid #F0F0F2;
-  }
-  .data-response-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: #8B8799;
-    margin-bottom: 8px;
-  }
-  .data-response-text {
-    font-size: 13px;
-    color: #4A4759;
-    line-height: 1.65;
-    max-height: 80px;
-    overflow: hidden;
-    position: relative;
-    background: #FAFAFA;
-    padding: 12px 14px;
-    border-radius: 8px;
-    border: 1px solid #F0F0F2;
-  }
-  .data-response-text::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 30px;
-    background: linear-gradient(transparent, #FAFAFA);
-  }
-
-  .data-citations {
-    padding: 16px 20px;
-  }
-  .data-citations-label {
-    font-size: 13px;
-    font-weight: 700;
-    color: #0F0E1A;
-    margin-bottom: 12px;
-  }
-  .citation-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid #F0F0F2;
-  }
-  .citation-item:last-child { border-bottom: none; }
-  .citation-rank {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 800;
-    color: white;
-    flex-shrink: 0;
-  }
-  .citation-rank.r1 { background: #14B8A6; }
-  .citation-rank.r2 { background: #0D9488; }
-  .citation-rank.r3 { background: #4A4759; }
-  .citation-rank.r4 { background: #8B8799; }
-  .citation-rank.r5 { background: #D4D1DE; color: #4A4759; }
-  .citation-info { flex: 1; }
-  .citation-url {
-    font-size: 13px;
-    font-weight: 700;
-    color: #0F0E1A;
-    text-decoration: none;
-  }
-  .citation-domain {
-    font-size: 11px;
-    color: #8B8799;
-    margin-top: 1px;
-  }
-  .citation-link-icon {
-    font-size: 11px;
-    color: #14B8A6;
-    margin-left: 4px;
-  }
-
-  .data-screenshot {
-    padding: 12px 20px 16px;
-    border-top: 1px solid #F0F0F2;
-  }
-  .data-screenshot-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: #8B8799;
-    margin-bottom: 8px;
-  }
-  .screenshot-placeholder {
-    background: #F5F5F5;
-    border: 1px solid #E0E0E0;
-    border-radius: 8px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
-    color: #8B8799;
-  }
-
-  .data-cards-label {
-    font-size: 12px;
-    font-weight: 700;
-    color: #8B8799;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  .modal-insight {
-    background: #0F0E1A;
-    color: white;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 1.65;
-  }
-  .modal-insight strong { color: #14B8A6; }
-  .modal-insight-label {
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #14B8A6;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-    display: block;
-  }
-  .modal-cta {
-    text-align: center;
-    padding: 20px;
-    border-top: 1px solid #F0F0F2;
-    font-size: 13px;
-    color: #8B8799;
-  }
-  .modal-cta strong { color: #0F0E1A; }
-
-  /* FLOATING LANGUAGE SWITCHER — bottom right */
-  .lang-fab {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 999;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0;
-  }
-  .lang-fab-toggle {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: #0F0E1A;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-    transition: all 0.2s;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-  }
-  .lang-fab-toggle:hover { transform: scale(1.08); box-shadow: 0 6px 24px rgba(0,0,0,0.25); }
-  .lang-fab-menu {
-    display: none;
-    flex-direction: column;
-    gap: 4px;
-    margin-bottom: 8px;
-    background: white;
-    border: 1px solid #E0E0E0;
-    border-radius: 12px;
-    padding: 6px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-    min-width: 120px;
-  }
-  .lang-fab-menu.open { display: flex; }
-  .lang-fab-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 14px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 600;
-    color: #4A4759;
-    transition: all 0.15s;
-    font-family: 'Noto Sans KR', 'Inter', sans-serif;
-  }
-  .lang-fab-item:hover { background: #F0F0F2; color: #0F0E1A; }
-  .lang-fab-item.active { background: #0F0E1A; color: white; }
-  .lang-fab-flag { font-size: 18px; line-height: 1; }
-  @media print { .lang-fab { display: none; } }
-  @media (max-width: 768px) {
-    .lang-fab { bottom: 16px; right: 16px; }
-    .lang-fab-toggle { width: 44px; height: 44px; font-size: 16px; }
-  }
+:root {
+  --bg: #0A0A0F;
+  --bg-soft: #12121A;
+  --surface: #1A1A24;
+  --surface-2: #22222E;
+  --border: rgba(255,255,255,0.08);
+  --border-soft: rgba(255,255,255,0.04);
+  --border-strong: rgba(255,255,255,0.14);
+  --text: #F5F5F7;
+  --text-soft: #B4B4C0;
+  --text-mute: #6B6B7A;
+  --teal: #14B8A6;
+  --teal-light: #2DD4BF;
+  --teal-dark: #0D9488;
+  --purple: #A78BFA;
+  --purple-light: #C4B5FD;
+  --purple-dark: #7C3AED;
+  --amber: #F59E0B;
+  --rose: #F43F5E;
+  --f-sans: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+  --max: 1280px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--f-sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+::selection { background: var(--teal); color: var(--bg); }
+
+/* ===== NAV ===== */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 14px 28px;
+  background: rgba(10,10,15,0.65);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border-bottom: 1px solid var(--border-soft);
+}
+.nav-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  color: var(--text);
+  text-decoration: none;
+}
+.nav-brand-mark {
+  width: 24px; height: 24px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, var(--teal) 0%, var(--purple) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 900;
+  font-size: 13px;
+  font-family: var(--f-mono);
+  box-shadow: 0 4px 14px rgba(20,184,166,0.3);
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.nav-links a {
+  color: var(--text-soft);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+.nav-links a:hover { color: var(--text); }
+.nav-cta {
+  padding: 9px 18px;
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+  border-radius: 8px;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.nav-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgba(20,184,166,0.45);
+}
+
+/* ===== HERO ===== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 130px 28px 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.hero-bg {
+  position: absolute;
+  inset: -10%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 50% at 18% 28%, rgba(20,184,166,0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 55% 45% at 82% 70%, rgba(167,139,250,0.22) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 40% at 50% 110%, rgba(20,184,166,0.10) 0%, transparent 60%);
+  animation: bgFloat 22s ease-in-out infinite alternate;
+  filter: blur(20px);
+}
+@keyframes bgFloat {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-2%, 2%) scale(1.08); }
+  100% { transform: translate(2%, -2%) scale(1); }
+}
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.5;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+.hero-noise {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.05;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max);
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(20,184,166,0.08);
+  border: 1px solid rgba(20,184,166,0.25);
+  border-radius: 999px;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--teal-light);
+  margin-bottom: 26px;
+  animation: fadeUp 0.8s ease-out 0.1s both;
+}
+.hero-eyebrow-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 10px var(--teal);
+  animation: dotPulse 2s ease-in-out infinite;
+}
+@keyframes dotPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.5); }
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: -2.5px;
+  margin-bottom: 24px;
+  animation: fadeUp 0.9s ease-out 0.2s both;
+}
+.hero h1 .gradient-text {
+  background: linear-gradient(110deg, var(--teal-light) 0%, var(--purple-light) 60%, var(--teal-light) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 4s linear infinite;
+}
+@keyframes gradientShift {
+  to { background-position: 200% center; }
+}
+.kinetic-word {
+  position: relative;
+  display: inline-block;
+  min-width: 4ch;
+}
+
+.hero-sub {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-soft);
+  line-height: 1.6;
+  margin-bottom: 36px;
+  max-width: 560px;
+  animation: fadeUp 1s ease-out 0.35s both;
+}
+.hero-sub strong { color: var(--text); font-weight: 600; }
+
+.hero-cta-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 38px;
+  animation: fadeUp 1s ease-out 0.5s both;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  padding: 14px 26px;
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.18s, box-shadow 0.18s;
+  font-family: var(--f-sans);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(20,184,166,0.5);
+}
+.btn-primary svg { transition: transform 0.18s; }
+.btn-primary:hover svg { transform: translateX(3px); }
+
+.btn-secondary {
+  padding: 14px 26px;
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 14.5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.18s, transform 0.18s, border-color 0.18s;
+  font-family: var(--f-sans);
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+}
+
+.hero-trust {
+  display: flex;
+  gap: 28px;
+  font-size: 12.5px;
+  color: var(--text-mute);
+  font-family: var(--f-mono);
+  flex-wrap: wrap;
+  animation: fadeUp 1s ease-out 0.65s both;
+}
+.hero-trust strong { color: var(--text-soft); font-weight: 600; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== AI STREAM (Hero Right) ===== */
+.ai-stream {
+  position: relative;
+  background: rgba(26,26,36,0.7);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+  animation: fadeUp 1.2s ease-out 0.4s both;
+}
+.ai-stream::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(20,184,166,0.55) 0%, rgba(167,139,250,0.4) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.ai-stream-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--border);
+}
+.ai-stream-title {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--text-mute);
+  text-transform: uppercase;
+}
+.ai-stream-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--teal-light);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.ai-stream-status::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 8px var(--teal);
+  animation: dotPulse 1.5s ease-in-out infinite;
+}
+
+.ai-stream-prompt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  background: var(--bg);
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  margin-bottom: 14px;
+  font-family: var(--f-mono);
+  font-size: 13px;
+  color: var(--text);
+}
+.ai-stream-prompt-icon {
+  width: 18px; height: 18px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, var(--teal), var(--purple));
+  flex-shrink: 0;
+  box-shadow: 0 0 12px rgba(20,184,166,0.4);
+}
+.ai-stream-prompt-text { flex: 1; min-height: 14px; }
+.ai-stream-prompt-cursor {
+  width: 2px;
+  height: 14px;
+  background: var(--teal);
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.ai-platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ai-platform {
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 11px 14px;
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  transition: border-color 0.4s, background 0.4s, transform 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.ai-platform.active {
+  border-color: rgba(20,184,166,0.35);
+  background: rgba(20,184,166,0.04);
+}
+.ai-platform.done {
+  border-color: var(--border);
+  background: var(--bg-soft);
+}
+.ai-platform::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--teal);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s;
+}
+.ai-platform.active::after { transform: scaleY(1); }
+
+.ai-platform-logo {
+  width: 24px; height: 24px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--f-mono);
+  font-weight: 800;
+  font-size: 12px;
+  color: white;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.ai-platform-body { min-width: 0; }
+.ai-platform-name {
+  font-size: 10.5px;
+  color: var(--text-mute);
+  font-family: var(--f-mono);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.ai-platform-answer {
+  font-size: 12.5px;
+  color: var(--text-soft);
+  line-height: 1.45;
+  min-height: 18px;
+}
+.ai-platform-rank {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  letter-spacing: 0.3px;
+  transition: background 0.4s, color 0.4s;
+}
+.rank-good   { background: rgba(20,184,166,0.18); color: var(--teal-light); }
+.rank-bad    { background: rgba(245,158,11,0.18); color: var(--amber); }
+.rank-pending{ background: rgba(255,255,255,0.04); color: var(--text-mute); }
+
+.ai-stream-footer {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  color: var(--text-mute);
+}
+.ai-stream-footer strong {
+  color: var(--teal-light);
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 56px; }
+  .hero h1 { font-size: 46px; letter-spacing: -1.8px; }
+  .nav-links a:not(.nav-cta) { display: none; }
+}
+@media (max-width: 640px) {
+  .hero { padding: 110px 20px 60px; }
+  .hero h1 { font-size: 34px; letter-spacing: -1.4px; }
+  .hero-sub { font-size: 15.5px; }
+  .ai-stream { padding: 18px; }
+  .hero-trust { font-size: 11.5px; gap: 16px; }
+}
+
+/* ===== Coming-soon (placeholder for next phases) ===== */
+.coming-soon {
+  position: relative;
+  padding: 140px 28px;
+  text-align: center;
+  border-top: 1px solid var(--border-soft);
+  background: var(--bg);
+}
+.coming-soon-eyebrow {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--text-mute);
+  margin-bottom: 12px;
+}
+.coming-soon h2 {
+  color: var(--text-soft);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+}
+
+/* ===== Footer ===== */
+.footer {
+  padding: 42px 28px 32px;
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+  color: var(--text-mute);
+  font-size: 12.5px;
+  font-family: var(--f-mono);
+}
+.footer a { color: var(--text-soft); text-decoration: none; }
+.footer a:hover { color: var(--teal-light); }
 </style>
 </head>
 <body>
-<div class="page">
 
-  <!-- HEADER -->
-  <div class="brand-row">
-    <div class="brand-logo">GeoRank24</div>
-    <div class="brand-tag">TSA · TwoStepsAhead</div>
-  </div>
-
-  <!-- TRUST BANNER -->
-  <div class="trust-banner">
-    <div class="trust-banner-label">신뢰 기반</div>
-    <div class="trust-banner-text">
-      국내 <strong>1위 데이터 마케팅 에이전시</strong>를 통해 <strong>글로벌 S사·L사</strong>에 데이터 공급 ·
-      12개 기업 <strong>192건 GEO 콘텐츠</strong> 발행 · BigQuery <strong>400만+ 데이터 포인트</strong> 축적
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <div class="nav-brand-mark">G</div>
+      GeoRank24
+    </a>
+    <div class="nav-links">
+      <a href="#engine">엔진</a>
+      <a href="#how">작동 원리</a>
+      <a href="#roadmap">로드맵</a>
+      <a href="#pricing">요금제</a>
+      <a href="#contact" class="nav-cta">무료 진단 →</a>
     </div>
   </div>
+</nav>
 
-  <!-- ATTENTION QUESTION -->
-  <div class="attention-question">
-    AI가 당신의 카테고리에서 브랜드를 추천할 때 —<br><strong>그게 당신의 브랜드인가요, 경쟁사인가요?</strong>
-  </div>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-noise"></div>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-label">엔터프라이즈 브랜드 및 에이전시 대상 서비스 제안</div>
-    <h1 class="hero-title">매주, AI가 당신의 브랜드를<br>어떻게 보는지 측정하고 분석합니다.</h1>
-    <p class="hero-sub">
-      ChatGPT · Gemini · Perplexity · AI Overview — <strong>5개 주요 AI 플랫폼 × 12개국</strong>에서
-      브랜드가 어떻게 노출되는지 측정하고, 어떤 경쟁사가 점유율을 가져가는지 분석해
-      <strong>실제 화면 증거와 함께</strong> 매주 인사이트를 드립니다.
-    </p>
-    <div class="hero-bullets">
-      <div class="hero-bullet">고객이 보는 화면 그대로 · 매주 측정</div>
-      <div class="hero-bullet">12개국 현지 결과 그대로</div>
-      <div class="hero-bullet">화면 증거와 함께 경쟁사 분석</div>
-      <div class="hero-bullet">출처 인용 추적 · AI가 어디서 인용하는지</div>
-      <div class="hero-bullet">최적화 전후 효과 증명</div>
-    </div>
-  </section>
-
-  <!-- FOMO ALERT — 위기감 섹션 -->
-  <section class="section" style="margin-top:-20px;">
-    <div style="background:linear-gradient(135deg,#0F0E1A 0%,#1A1826 100%);border-radius:20px;padding:44px 48px;color:white;border:1px solid rgba(220,38,38,0.3);">
-      <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
-        <div style="font-size:36px;">⚠️</div>
-        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:#FCA5A5;text-transform:uppercase;">지금 이 순간에도</div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        AI MARKETING PREDICTION ENGINE
       </div>
-      <h2 style="font-size:30px;font-weight:900;color:white;line-height:1.35;margin-bottom:16px;letter-spacing:-0.5px;">
-        경쟁사가 AI 검색에서<br>당신의 점유율을 가져가고 있습니다.
-      </h2>
-      <p style="font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;margin-bottom:0;max-width:920px;">
-        고객이 ChatGPT에 <em>"좋은 [당신 카테고리] 추천해줘"</em>라고 물었을 때 — <strong style="color:white;">누가 먼저 나오나요?</strong>
-        당신 브랜드인지, 경쟁사인지 — 솔직히 대답하면 대부분의 브랜드가 <strong style="color:#FCA5A5;">"모릅니다"</strong>입니다.
-        AI 검색량은 폭발적으로 늘고 있는데, 대부분 브랜드는 <strong style="color:white;">이 채널의 측정값이 0</strong>입니다.
-        그 공백을 우리가 채웁니다.
+      <h1>
+        AI가 다음에<br>
+        누구를 추천할지,<br>
+        <span class="gradient-text"><span class="kinetic-word" id="kinetic-word">예측합니다.</span></span>
+      </h1>
+      <p class="hero-sub">
+        ChatGPT · Perplexity · Gemini · Claude · AI Overview — <strong>5대 AI 검색 엔진을 12개국 실제 브라우저로 매주 측정</strong>하고,
+        축적된 데이터로 <strong>브랜드의 다음 순위를 예측</strong>하는 마케팅 AI 모델입니다.
       </p>
-    </div>
-  </section>
-
-  <!-- CORE POSITIONING -->
-  <section class="section">
-    <div class="core-pos-box" style="background:var(--dark);border-radius:20px;padding:44px 48px;color:white;">
-      <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:16px;">우리가 다른 이유</div>
-      <h2 style="font-size:28px;font-weight:900;color:white;line-height:1.35;margin-bottom:16px;letter-spacing:-0.5px;">
-        API 추정값이 아닌, 실제 브라우저 화면의<br>AI 답변 데이터를 수집하는 유일한 회사.
-      </h2>
-      <p style="font-size:15px;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:32px;max-width:860px;">
-        ChatGPT, Perplexity, Gemini, AI Overview, AI Mode를 <strong style="color:white;">실제 Chrome 브라우저</strong>로 크롤링 — 사용자가 보는 화면 그대로를 수집합니다.
-        풀페이지 스크린샷, 인용 URL, 출처 도메인, 국가별 차이까지 완벽 포착.<br><br>API 추측이 아닙니다. 수동 확인이 아닙니다. <strong style="color:white;">실제 증거입니다.</strong>
-      </p>
-      <div class="core-pos-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
-        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
-          <div style="font-size:36px;margin-bottom:12px;">📍</div>
-          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">어디에 투자해야 하는지 명확히</div>
-          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
-            AI가 <strong style="color:var(--accent);">실제로 인용하는 매체와 채널</strong>을 분석 — PR, 콘텐츠, 소셜 투자 우선순위를 데이터로 도출합니다.<br><br>
-            감이 아닌 데이터 기반 의사결정:<br>"여기에 투자하면 AI가 인용합니다."
-          </p>
-        </div>
-        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
-          <div style="font-size:36px;margin-bottom:12px;">📸</div>
-          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">마케팅 성과를 증거로 증명</div>
-          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
-            Before/After <strong style="color:var(--accent);">SOV 변화를 스크린샷으로 증명</strong>합니다.<br><br>
-            "검색 순위 상승"이 아니라 <strong style="color:white;">"AI가 우리 브랜드를 추천하기 시작했다"</strong>를 실제 화면으로 보여줍니다.
-          </p>
-        </div>
-        <div class="core-pos-card" style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;">
-          <div style="font-size:36px;margin-bottom:12px;">🔔</div>
-          <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;">경쟁 상황을 실시간 추적</div>
-          <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;margin:0;">
-            주간 자동 수집으로 <strong style="color:var(--accent);">경쟁사 SOV 급등, 신규 브랜드 등장, 국가별 트렌드 변화</strong>를 빠르게 감지합니다.<br><br>
-            인용 출처 역추적으로 경쟁사 전략까지 파악.
-          </p>
-        </div>
+      <div class="hero-cta-row">
+        <a href="#contact" class="btn-primary">
+          무료 진단 받기
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#how" class="btn-secondary">엔진 작동 원리 보기</a>
       </div>
-      <div class="core-pos-footer" style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.12);font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;text-align:center;">
-        우리가 제공하는 것은 단순 데이터가 아닙니다 — <strong style="color:var(--accent);">AI 검색 시대의 의사결정 인프라</strong>입니다.<br>
-        감이 아닌 데이터로, 추정이 아닌 실제 증거로 마케팅을 운영합니다.
-      </div>
-    </div>
-  </section>
-
-  <!-- AI QUERY INTELLIGENCE -->
-  <section class="section">
-    <div class="section-label">AI 질의 인텔리전스</div>
-    <h2 class="section-title">단순 키워드 모니터링이 아닙니다. <span style="color:var(--accent-dark)">AI가 답하는 모든 질문을 장악합니다.</span></h2>
-    <p class="section-lead">
-      기존 SEO는 몇 개 키워드 중심이었습니다. AI 시대에는 하나의 키워드가 <strong>수백 개의 자연어 질문</strong>으로 확장됩니다.
-      우리는 이 모든 질문을 생성하고, 검증하고, 장악합니다.
-    </p>
-
-    <div class="qi-example" style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:16px;padding:28px 32px;margin-bottom:24px;">
-      <div style="font-size:14px;font-weight:800;color:var(--dark);margin-bottom:16px;">예시: "여드름 화장품" → AI가 확장하는 방식</div>
-      <div class="qi-chips" style="display:flex;gap:10px;flex-wrap:wrap;">
-        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"민감성 피부에 여드름 제품 추천해줘"</span>
-        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"피부과에서 추천하는 여드름 크림 뭐야?"</span>
-        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"20대 남자 여드름에 좋은 스킨케어"</span>
-        <span style="background:white;border:1px solid var(--gray-100);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--gray-700);">"가성비 좋은 한국 여드름 제품"</span>
-        <span style="background:var(--accent-light);border:1px solid var(--accent);border-radius:8px;padding:8px 14px;font-size:13px;color:var(--accent-dark);font-weight:700;">+ 국가별 수백 개 질문 추가</span>
+      <div class="hero-trust">
+        <span><strong>192건</strong> 발행↔인용 실증</span>
+        <span><strong>BigQuery 4M+</strong> 학습 데이터</span>
+        <span><strong>12개국 ISP</strong> 실제 브라우저</span>
       </div>
     </div>
 
-    <div class="qi-pipeline" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;">
-      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 1</div>
-        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">대량 질의<br>생성</div>
-        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
-          핵심 키워드로부터 <strong>수만~수십만 개의 실제 사용자 질문</strong>을 생성 —
-          구매 단계별 클러스터링, 국가·언어별 현지화.
+    <div class="ai-stream">
+      <div class="ai-stream-header">
+        <span class="ai-stream-title">LIVE PREDICTION DEMO</span>
+        <span class="ai-stream-status">STREAMING</span>
+      </div>
+
+      <div class="ai-stream-prompt">
+        <div class="ai-stream-prompt-icon"></div>
+        <div class="ai-stream-prompt-text" id="prompt-text"></div>
+        <div class="ai-stream-prompt-cursor"></div>
+      </div>
+
+      <div class="ai-platforms" id="platforms">
+        <div class="ai-platform" data-platform="chatgpt">
+          <div class="ai-platform-logo" style="background:#10A37F;">C</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">ChatGPT</div>
+            <div class="ai-platform-answer" data-text="브랜드 X의 검색 점유율 28% — 1위 사업자로 분석"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="#1">…</div>
+        </div>
+        <div class="ai-platform" data-platform="perplexity">
+          <div class="ai-platform-logo" style="background:#1FB8CD;">P</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Perplexity</div>
+            <div class="ai-platform-answer" data-text="공식 도큐먼트 + 리뷰 출처 17건 인용"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="#2">…</div>
+        </div>
+        <div class="ai-platform" data-platform="gemini">
+          <div class="ai-platform-logo" style="background:#4285F4;">G</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Gemini</div>
+            <div class="ai-platform-answer" data-text="Search Grounding 기반 — 경쟁사 Y가 우선 노출됨"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="#4">…</div>
+        </div>
+        <div class="ai-platform" data-platform="claude">
+          <div class="ai-platform-logo" style="background:#D97757;">A</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Claude</div>
+            <div class="ai-platform-answer" data-text="Web Search v2 — 비교 분석에서 균형 인용"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="#3">…</div>
+        </div>
+        <div class="ai-platform" data-platform="aio">
+          <div class="ai-platform-logo" style="background:#FBBC04; color:#0A0A0F;">o</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">AI Overview</div>
+            <div class="ai-platform-answer" data-text="검색 1순위 도메인 우선 — 브랜드 X 미노출"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="#5">…</div>
         </div>
       </div>
-      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 2</div>
-        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">5개 플랫폼<br>동시 검증</div>
-        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
-          모든 질의를 <strong>ChatGPT, Perplexity, Gemini, AI Overview, AI Mode</strong>에서 실제 브라우저로 검증.
-        </div>
-      </div>
-      <div style="padding:24px 20px;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 3</div>
-        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:8px;line-height:1.3;">승리 질의<br>도출</div>
-        <div style="font-size:12px;color:var(--gray-700);line-height:1.6;">
-          모든 질의를 분류: <strong>"우리 브랜드 노출" vs "경쟁사" vs "아직 무주공산"</strong> — 미점유 질의가 최대 기회.
-        </div>
-      </div>
-      <div style="padding:24px 20px;background:var(--dark);color:white;">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">Step 4</div>
-        <div style="font-size:16px;font-weight:800;color:white;margin-bottom:8px;line-height:1.3;">실행 &<br>재검증</div>
-        <div style="font-size:12px;color:rgba(255,255,255,0.75);line-height:1.6;">
-          AI 인용을 이끄는 콘텐츠 패턴을 역설계 — 이후 <strong style="color:var(--accent);">재크롤링으로 브랜드 노출 여부를 확인</strong>.
-        </div>
-      </div>
-    </div>
 
-    <div class="qi-closing" style="background:var(--dark);border-radius:12px;padding:22px 28px;margin-top:20px;text-align:center;">
-      <p style="font-size:16px;color:white;font-weight:700;line-height:1.5;margin:0;">
-        키워드를 찾는 회사가 아닙니다.<br><strong style="color:var(--accent);">AI가 답변하는 모든 질문에 브랜드를 설계하는 회사</strong>입니다.
-      </p>
-      <p style="font-size:13px;color:rgba(255,255,255,0.6);margin-top:8px;margin-bottom:0;">
-        SEO가 "검색 결과 최적화"였다면, 우리는 AI 답변 최적화를 실제 데이터와 실제 증거로 실행합니다.
-      </p>
-    </div>
-  </section>
-
-<!-- INDUSTRY DEMO -->
-  <section class="section demo-section">
-    <div class="section-label">데모 데이터</div>
-    <h2 class="section-title">업종별 GeoRank24 데이터를 직접 확인하세요</h2>
-    <p class="section-lead" style="text-align:center;margin:0 auto;">
-      카테고리를 클릭하면 실제 AI 검색 데이터 샘플을 볼 수 있습니다 — 귀사가 받게 될 인사이트와 동일한 형태입니다.
-    </p>
-    <div class="demo-grid">
-      <button class="demo-btn" onclick="openDemo('beauty')">
-        <span class="demo-btn-icon">💄</span>
-        <span class="demo-btn-label">뷰티</span>
-        <span class="demo-btn-sub">스킨케어 · 화장품</span>
-      </button>
-      <button class="demo-btn" onclick="openDemo('fashion')">
-        <span class="demo-btn-icon">👜</span>
-        <span class="demo-btn-label">패션</span>
-        <span class="demo-btn-sub">럭셔리 · 스트리트</span>
-      </button>
-      <button class="demo-btn" onclick="openDemo('phones')">
-        <span class="demo-btn-icon">📱</span>
-        <span class="demo-btn-label">스마트폰</span>
-        <span class="demo-btn-sub">전자제품 · 모바일</span>
-      </button>
-      <button class="demo-btn" onclick="openDemo('food')">
-        <span class="demo-btn-icon">🍜</span>
-        <span class="demo-btn-label">식품 · 음료</span>
-        <span class="demo-btn-sub">FMCG · 간식</span>
-      </button>
-      <button class="demo-btn" onclick="openDemo('auto')">
-        <span class="demo-btn-icon">🚗</span>
-        <span class="demo-btn-label">자동차</span>
-        <span class="demo-btn-sub">전기차 · SUV</span>
-      </button>
-    </div>
-  </section>
-
-  <!-- MODALS -->
-  <div class="modal-overlay" id="modal-beauty" onclick="if(event.target===this)closeDemo()">
-    <div class="modal">
-      <div class="modal-header"><h2>💄 Beauty / Skincare — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
-      <div class="modal-body">
-
-        <div class="modal-insight-top">
-          <div class="insight-label-top">Killer Insight</div>
-          <strong>Sulwhasoo ranks #1 in Korea but doesn't make the Top 5 in US ChatGPT.</strong> Meanwhile, The Ordinary ($10 serum) is beating premium brands for "best anti-aging" across 3 platforms. <strong>The citation sources reveal the gap: US cites Allure/Byrdie, Korea cites OliveYoung/Naver — completely different content ecosystems.</strong>
-        </div>
-
-        <div class="modal-subtitle">Competitor Share of Voice — "best Korean skincare" by Platform</div>
-        <div class="sov-section">
-          <div class="sov-row">
-            <div class="sov-platform">ChatGPT</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-c" style="width:35%">Laneige 35%</div>
-              <div class="sov-bar-fill brand-b" style="width:25%">COSRX 25%</div>
-              <div class="sov-bar-fill brand-a" style="width:18%">Sulwhasoo 18%</div>
-              <div class="sov-bar-fill brand-d" style="width:22%">Others 22%</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">AI Overview (KR)</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:40%">Sulwhasoo 40%</div>
-              <div class="sov-bar-fill brand-c" style="width:28%">Laneige 28%</div>
-              <div class="sov-bar-fill brand-b" style="width:18%">Innisfree 18%</div>
-              <div class="sov-bar-fill brand-d" style="width:14%">Others 14%</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">Perplexity</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-b" style="width:30%">COSRX 30%</div>
-              <div class="sov-bar-fill brand-c" style="width:28%">Laneige 28%</div>
-              <div class="sov-bar-fill brand-a" style="width:15%">The Ordinary 15%</div>
-              <div class="sov-bar-fill brand-d" style="width:27%">Others 27%</div>
-            </div>
-          </div>
-          <div class="sov-legend">
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#14B8A6"></div> Laneige</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#4A4759"></div> COSRX</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#0F0E1A"></div> Sulwhasoo</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#D4D1DE"></div> Others</div>
-          </div>
-        </div>
-
-        <div class="modal-subtitle">What Your Brand Is Missing — Per Platform</div>
-        <div class="comp-grid">
-          <div class="comp-card danger">
-            <div class="comp-card-label">🔴 US ChatGPT — Sulwhasoo Invisible</div>
-            <div class="comp-card-title">Sulwhasoo only 18% SOV in the US</div>
-            <div class="comp-card-desc">Premium positioning doesn't translate to AI visibility. <strong>COSRX and Laneige dominate because US beauty media (Allure, Byrdie) covers them more.</strong> Action: Invest in English-language PR for Sulwhasoo.</div>
-          </div>
-          <div class="comp-card warning">
-            <div class="comp-card-label">⚠️ Perplexity — The Ordinary Disrupting</div>
-            <div class="comp-card-title">$10 brand beats $300 brands in "best anti-aging"</div>
-            <div class="comp-card-desc"><strong>The Ordinary (Deciem/L'Oréal) captures 15% SOV</strong> for anti-aging on Perplexity — more than Sulwhasoo. Reddit and budget beauty blogs are the top citation sources.</div>
-          </div>
-          <div class="comp-card success">
-            <div class="comp-card-label">✅ Korea AI Overview — Home Advantage</div>
-            <div class="comp-card-title">Sulwhasoo leads with 40% SOV domestically</div>
-            <div class="comp-card-desc">Strong home market presence via OliveYoung and Naver. <strong>Strategy: Replicate this citation pattern in Japanese and SEA markets.</strong></div>
-          </div>
-          <div class="comp-card info">
-            <div class="comp-card-label">📊 Global Gap — Innisfree Rising in SEA</div>
-            <div class="comp-card-title">Innisfree's AI visibility growing 3x in Indonesia/Thailand</div>
-            <div class="comp-card-desc"><strong>Innisfree is outpacing Laneige in SEA AI search</strong> — driven by local beauty influencer content being cited by AI platforms. CRM teams should align targeting.</div>
-          </div>
-        </div>
-
-        <div class="modal-pain"><strong>Why outsource:</strong> Amorepacific manages 10+ sub-brands, each competing differently in 12 countries across 7 AI platforms. That's 840+ brand-country-platform combinations to track weekly. No internal marketing team has the engineering capacity for this.</div>
-
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Actual AI responses and citation sources from our crawlers</div>
-        
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Actual AI responses and citation sources from our crawlers</div>
-        
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best Korean skincare routine for dry skin</div>
-            <div class="data-meta">
-              <span class="data-badge chatgpt">CHATGPT</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">For a Korean skincare routine targeting dry skin, the Laneige Water Bank Blue Hyaluronic line is a top recommendation, known for deep hydration with hyaluronic acid. COSRX Advanced Snail 96 Mucin Power Essence is another essential — its snail mucin provides intense moisture repair. For a premium option, Sulwhasoo's Essential Comfort Moisturizing Cream combines traditional Korean herbal ingredients...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.allure.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">allure.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.byrdie.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">byrdie.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.reddit.com/r/AsianBeauty <span class="citation-link-icon">↗</span></div><div class="citation-domain">reddit.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.yesstyle.com/blog <span class="citation-link-icon">↗</span></div><div class="citation-domain">yesstyle.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r5">5</div><div class="citation-info"><div class="citation-url">www.paulaschoice.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">paulaschoice.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best Korean skincare routine for dry skin</div>
-            <div class="data-meta">
-              <span class="data-badge aio">AI_OVERVIEW</span>
-              <span class="data-badge country">KR</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">건성 피부를 위한 한국 스킨케어 루틴에서는 설화수 자음생크림이 가장 많이 추천됩니다. 전통 한방 성분인 인삼과 작약 추출물이 깊은 보습을 제공합니다. 라네즈 워터뱅크 블루 히알루로닉 크림은 히알루로닉산 기반의 가벼운 보습을 원하는 분께 추천됩니다...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (4)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.oliveyoung.co.kr <span class="citation-link-icon">↗</span></div><div class="citation-domain">oliveyoung.co.kr</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.sulwhasoo.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">sulwhasoo.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.laneige.com/kr <span class="citation-link-icon">↗</span></div><div class="citation-domain">laneige.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">blog.naver.com/beauty_review <span class="citation-link-icon">↗</span></div><div class="citation-domain">blog.naver.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-<div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
+      <div class="ai-stream-footer">
+        <span>다음 주 예측 가시성</span>
+        <span><strong id="prob-value">0.0%</strong> ↑ +5.2pt</span>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="modal-overlay" id="modal-fashion" onclick="if(event.target===this)closeDemo()">
-    <div class="modal">
-      <div class="modal-header"><h2>👜 Fashion / Luxury — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
-      <div class="modal-body">
+<section class="coming-soon" id="engine">
+  <span class="coming-soon-eyebrow">PHASE 2 — 4 · COMING NEXT</span>
+  <h2>Live Prediction Demo · Why GeoRank24 · Prediction Engine · Roadmap · Pricing</h2>
+</section>
 
-        <div class="modal-insight-top">
-          <div class="insight-label-top">Killer Insight</div>
-          <strong>Gucci is explicitly mentioned as a declining investment in Perplexity's response</strong> — citing resale value drops post creative director change. This "Perception Lag" in AI means <strong>billions in brand repositioning haven't been reflected yet.</strong> The citation sources are resale platforms (Fashionphile, Rebag), not traditional fashion media.
-        </div>
-
-        <div class="modal-subtitle">Competitor Share of Voice — "best luxury handbag" by Platform</div>
-        <div class="sov-section">
-          <div class="sov-row">
-            <div class="sov-platform">ChatGPT</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:38%">Hermès 38%</div>
-              <div class="sov-bar-fill brand-c" style="width:30%">Chanel 30%</div>
-              <div class="sov-bar-fill brand-b" style="width:22%">LV 22%</div>
-              <div class="sov-bar-fill brand-d" style="width:10%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">Perplexity</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:42%">Hermès 42%</div>
-              <div class="sov-bar-fill brand-c" style="width:28%">Chanel 28%</div>
-              <div class="sov-bar-fill brand-b" style="width:18%">LV 18%</div>
-              <div class="sov-bar-fill brand-d" style="width:12%">Others</div>
-            </div>
-          </div>
-          <div class="sov-legend">
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#0F0E1A"></div> Hermès</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#14B8A6"></div> Chanel</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#4A4759"></div> Louis Vuitton</div>
-          </div>
-        </div>
-
-        <div class="modal-subtitle">What Your Brand Is Missing</div>
-        <div class="comp-grid">
-          <div class="comp-card danger">
-            <div class="comp-card-label">🔴 Gucci — Not in Top 3 Anywhere</div>
-            <div class="comp-card-title">0% visibility across all 4 platforms for "best luxury handbag"</div>
-            <div class="comp-card-desc"><strong>Post-creative director change, Gucci's brand repositioning hasn't been reflected in AI.</strong> Kering Group needs to monitor this "Perception Lag" and invest in content that updates AI's understanding.</div>
-          </div>
-          <div class="comp-card warning">
-            <div class="comp-card-label">⚠️ Korea — Dior Outranks Hermès</div>
-            <div class="comp-card-title">Dior Lady Dior ranks #3 in Korea, not in US Top 5</div>
-            <div class="comp-card-desc">Korean AI cites local fashion media (Naver, W Korea) that heavily feature Dior. <strong>Regional brand perception gaps are invisible without per-country monitoring.</strong></div>
-          </div>
-        </div>
-
-        <div class="modal-pain"><strong>Why outsource:</strong> Luxury fashion brand image is worth billions. One negative AI recommendation ("declining resale value") can influence thousands of purchase decisions daily. Monitoring brand sentiment across 7 AI platforms × 12 countries requires infrastructure no fashion marketing team has.</div>
-
-        
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Actual AI responses and citation sources from our crawlers</div>
-        
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best luxury handbag worth the investment</div>
-            <div class="data-meta">
-              <span class="data-badge perplexity">PERPLEXITY</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">When considering luxury handbags as investments, the Hermès Birkin leads with 14.2% annual appreciation — outperforming the S&P 500 over the past decade. The Chanel Classic Flap has seen 70% price increases since 2019. Louis Vuitton Neverfull offers the best entry-level luxury with strong resale value. Notably absent: Gucci, whose resale values dropped 15% following the creative director transition...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.fashionphile.com/resale-report <span class="citation-link-icon">↗</span></div><div class="citation-domain">fashionphile.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.rebag.com/clair-report <span class="citation-link-icon">↗</span></div><div class="citation-domain">rebag.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.purseblog.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">purseblog.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.bbc.com/culture/luxury <span class="citation-link-icon">↗</span></div><div class="citation-domain">bbc.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r5">5</div><div class="citation-info"><div class="citation-url">www.vogue.com/bags <span class="citation-link-icon">↗</span></div><div class="citation-domain">vogue.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best luxury handbag worth the investment</div>
-            <div class="data-meta">
-              <span class="data-badge chatgpt">CHATGPT</span>
-              <span class="data-badge country">KR</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">투자 가치가 있는 럭셔리 핸드백으로는 샤넬 클래식 플랩이 한국 시장에서 가장 높은 리세일 밸류를 보여줍니다. 2019년 대비 70% 이상 가격이 상승했으며, 매장 구매 대기 리스트가 6개월 이상입니다. 에르메스 버킨은 글로벌 1위 투자 가방이지만 한국에서는 구매 난이도가 매우 높습니다. 디올 레이디 디올은 한국에서 특히 인기가 높아...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (4)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.musinsa.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">musinsa.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">m.blog.naver.com/luxury_daily <span class="citation-link-icon">↗</span></div><div class="citation-domain">blog.naver.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.wkorea.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">wkorea.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.chanel.com/kr <span class="citation-link-icon">↗</span></div><div class="citation-domain">chanel.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-<div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 tracks how AI perceives your luxury brand — across 7 platforms × 12 countries, with screenshot evidence for every response.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal-overlay" id="modal-phones" onclick="if(event.target===this)closeDemo()">
-    <div class="modal">
-      <div class="modal-header"><h2>📱 Smartphones — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
-      <div class="modal-body">
-
-        <div class="modal-insight-top">
-          <div class="insight-label-top">Killer Insight</div>
-          <strong>On Google Gemini, Pixel 10 Pro ranks #2 and Google Store is the #1 citation source — potential self-preferencing.</strong> Compare with ChatGPT where iPhone leads and Tom's Guide/The Verge are top citations. Samsung needs to track this per-platform bias quantitatively. <strong>The citation sources tell you WHERE to place content for maximum AI visibility.</strong>
-        </div>
-
-        <div class="modal-subtitle">Competitor Share of Voice — "best smartphone 2026" by Platform</div>
-        <div class="sov-section">
-          <div class="sov-row">
-            <div class="sov-platform">ChatGPT</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:42%">Apple 42%</div>
-              <div class="sov-bar-fill brand-c" style="width:31%">Samsung 31%</div>
-              <div class="sov-bar-fill brand-b" style="width:18%">Google 18%</div>
-              <div class="sov-bar-fill brand-d" style="width:9%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">Gemini</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-c" style="width:35%">Samsung 35%</div>
-              <div class="sov-bar-fill brand-b" style="width:30%">Google 30%</div>
-              <div class="sov-bar-fill brand-a" style="width:25%">Apple 25%</div>
-              <div class="sov-bar-fill brand-d" style="width:10%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">Perplexity</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:38%">Apple 38%</div>
-              <div class="sov-bar-fill brand-c" style="width:33%">Samsung 33%</div>
-              <div class="sov-bar-fill brand-b" style="width:20%">Google 20%</div>
-              <div class="sov-bar-fill brand-d" style="width:9%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">AI Overview</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-c" style="width:37%">Samsung 37%</div>
-              <div class="sov-bar-fill brand-a" style="width:30%">Apple 30%</div>
-              <div class="sov-bar-fill brand-b" style="width:22%">Google 22%</div>
-              <div class="sov-bar-fill brand-d" style="width:11%">Others</div>
-            </div>
-          </div>
-          <div class="sov-legend">
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#0F0E1A"></div> Apple</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#14B8A6"></div> Samsung</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#4A4759"></div> Google</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#D4D1DE"></div> Others</div>
-          </div>
-        </div>
-
-        <div class="modal-subtitle">What Your Brand Is Missing — Per Platform</div>
-        <div class="comp-grid">
-          <div class="comp-card danger">
-            <div class="comp-card-label">🔴 ChatGPT — Apple Leads</div>
-            <div class="comp-card-title">Samsung cited 11% less than Apple</div>
-            <div class="comp-card-desc">Apple dominates ChatGPT with <strong>42% SOV</strong>. Top citation sources (Tom's Guide, The Verge) tend to favor Apple ecosystem narrative. <strong>Action: Create Samsung-focused content on these high-citation publications.</strong></div>
-          </div>
-          <div class="comp-card warning">
-            <div class="comp-card-label">⚠️ Gemini — Google Self-Preference Risk</div>
-            <div class="comp-card-title">Google Pixel gets 30% SOV on its own platform</div>
-            <div class="comp-card-desc">Google Store is Gemini's #1 citation source. Pixel gets disproportionate visibility on Google's own AI. <strong>Samsung should monitor this bias and consider regulatory/PR strategy.</strong></div>
-          </div>
-          <div class="comp-card success">
-            <div class="comp-card-label">✅ AI Overview — Samsung Leads</div>
-            <div class="comp-card-title">Samsung holds 37% SOV — strongest position</div>
-            <div class="comp-card-desc">Google AI Overview (integrated in Search) cites Samsung most frequently. <strong>Strategy: Protect this lead by maintaining strong SEO + review site presence.</strong></div>
-          </div>
-          <div class="comp-card info">
-            <div class="comp-card-label">📊 Perplexity — Close Race</div>
-            <div class="comp-card-title">Apple 38% vs Samsung 33% — 5% gap</div>
-            <div class="comp-card-desc">Perplexity cites diverse sources (CNET, GSMArena, YouTube). <strong>This is the most "winnable" platform for Samsung — targeted content can close the 5% gap.</strong></div>
-          </div>
-        </div>
-
-        <div class="modal-pain"><strong>Why this matters:</strong> Samsung's marketing team currently has NO visibility into these per-platform differences. They invest millions in content and PR but can't measure where it's actually being cited by AI. GeoRank24 provides this data — weekly, across 7 platforms, in 12 countries.</div>
-
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Sample results showing the actual AI responses and citation sources</div>
-<div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best smartphone 2026</div>
-            <div class="data-meta">
-              <span class="data-badge chatgpt">CHATGPT</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓ Success</span>
-              <span>2026.04.05</span>
-              <span>12.4s</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">The best smartphones of 2026 represent significant leaps in AI integration and camera technology. The iPhone 17 Pro leads with Apple Intelligence features, ProMotion display, and an improved 48MP periscope telephoto. Samsung Galaxy S26 Ultra counters with Galaxy AI, 200MP main camera, and the integrated S Pen. Google Pixel 10 Pro offers the best computational photography with Tensor G5 chip and 7 years of updates. For value, the OnePlus 14 delivers flagship specs at $599...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (6)</div>
-            
-            <div class="citation-item">
-              <div class="citation-rank r1">1</div>
-              <div class="citation-info">
-                <div class="citation-url">www.tomsguide.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">tomsguide.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r2">2</div>
-              <div class="citation-info">
-                <div class="citation-url">www.theverge.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">theverge.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r3">3</div>
-              <div class="citation-info">
-                <div class="citation-url">www.gsmarena.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">gsmarena.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r4">4</div>
-              <div class="citation-info">
-                <div class="citation-url">www.cnet.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">cnet.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r5">5</div>
-              <div class="citation-info">
-                <div class="citation-url">www.wired.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">wired.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r5">6</div>
-              <div class="citation-info">
-                <div class="citation-url">www.youtube.com/@MKBHD <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">youtube.com</div>
-              </div>
-            </div>
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best smartphone 2026</div>
-            <div class="data-meta">
-              <span class="data-badge gemini">GEMINI</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓ Success</span>
-              <span>2026.04.05</span>
-              <span>12.4s</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">Based on comprehensive reviews and user feedback, the best smartphones in 2026 include: 1. Samsung Galaxy S26 Ultra — The most complete Android phone with Galaxy AI, 200MP camera system, and titanium build. 2. Google Pixel 10 Pro — Best-in-class computational photography powered by Tensor G5, with 7 years of guaranteed updates. 3. iPhone 17 Pro — Apple Intelligence integration, stunning ProMotion display, and seamless ecosystem. The Pixel 10 Pro particularly excels in AI-powered photo editing and real-time translation...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            
-            <div class="citation-item">
-              <div class="citation-rank r1">1</div>
-              <div class="citation-info">
-                <div class="citation-url">store.google.com/pixel <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">store.google.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r2">2</div>
-              <div class="citation-info">
-                <div class="citation-url">www.androidauthority.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">androidauthority.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r3">3</div>
-              <div class="citation-info">
-                <div class="citation-url">www.tomsguide.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">tomsguide.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r4">4</div>
-              <div class="citation-info">
-                <div class="citation-url">9to5google.com <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">9to5google.com</div>
-              </div>
-            </div>
-            <div class="citation-item">
-              <div class="citation-rank r5">5</div>
-              <div class="citation-info">
-                <div class="citation-url">www.samsung.com/galaxy-s26 <span class="citation-link-icon">↗</span></div>
-                <div class="citation-domain">samsung.com</div>
-              </div>
-            </div>
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-
-<div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly, with full-page screenshots.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal-overlay" id="modal-food" onclick="if(event.target===this)closeDemo()">
-    <div class="modal">
-      <div class="modal-header"><h2>🍜 Food & Beverage — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
-      <div class="modal-body">
-
-        <div class="modal-insight-top">
-          <div class="insight-label-top">Killer Insight</div>
-          <strong>Samyang Buldak ranks #1 on US ChatGPT but only #2 in its home market Korea</strong> — a "reverse phenomenon" where TikTok viral content inflated overseas AI visibility. Meanwhile, <strong>zero Korean brands appear in "healthiest snacks" Top 5 on any AI platform</strong> — a massive blind spot for the health food category.
-        </div>
-
-        <div class="modal-subtitle">Competitor Share of Voice — "best instant noodles" by Country</div>
-        <div class="sov-section">
-          <div class="sov-row">
-            <div class="sov-platform">🇺🇸 US</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-c" style="width:38%">Samyang 38%</div>
-              <div class="sov-bar-fill brand-a" style="width:28%">Nongshim 28%</div>
-              <div class="sov-bar-fill brand-b" style="width:20%">Indomie 20%</div>
-              <div class="sov-bar-fill brand-d" style="width:14%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">🇰🇷 Korea</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:42%">Nongshim 42%</div>
-              <div class="sov-bar-fill brand-c" style="width:30%">Samyang 30%</div>
-              <div class="sov-bar-fill brand-b" style="width:15%">Ottogi 15%</div>
-              <div class="sov-bar-fill brand-d" style="width:13%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">🇮🇩 Indonesia</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-b" style="width:50%">Indomie 50%</div>
-              <div class="sov-bar-fill brand-c" style="width:25%">Samyang 25%</div>
-              <div class="sov-bar-fill brand-a" style="width:15%">Nongshim 15%</div>
-              <div class="sov-bar-fill brand-d" style="width:10%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">🇯🇵 Japan</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:45%">Nissin 45%</div>
-              <div class="sov-bar-fill brand-b" style="width:25%">Sapporo 25%</div>
-              <div class="sov-bar-fill brand-c" style="width:15%">Nongshim 15%</div>
-              <div class="sov-bar-fill brand-d" style="width:15%">Others</div>
-            </div>
-          </div>
-          <div class="sov-legend">
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#14B8A6"></div> Samyang</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#0F0E1A"></div> Nongshim/Nissin</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#4A4759"></div> Indomie/Sapporo</div>
-          </div>
-        </div>
-
-        <div class="modal-subtitle">What Your Brand Is Missing</div>
-        <div class="comp-grid">
-          <div class="comp-card success">
-            <div class="comp-card-label">✅ US — Samyang Leads (TikTok Effect)</div>
-            <div class="comp-card-title">Viral content drives 38% SOV in the US</div>
-            <div class="comp-card-desc">Buldak Challenge on TikTok/YouTube drove AI citation dominance. <strong>Citation sources: Reddit, YouTube, TastingTable — social-first content wins.</strong></div>
-          </div>
-          <div class="comp-card danger">
-            <div class="comp-card-label">🔴 Japan — Korean Brands Barely Visible</div>
-            <div class="comp-card-title">Nissin + Sapporo hold 70% SOV in Japan</div>
-            <div class="comp-card-desc">Japanese local brands dominate. <strong>Samyang isn't even in Japan's Top 5.</strong> AI cites Japanese food media exclusively. Need Japan-specific content strategy.</div>
-          </div>
-          <div class="comp-card warning">
-            <div class="comp-card-label">⚠️ Health Category — Zero Presence</div>
-            <div class="comp-card-title">No Korean brand in "healthiest snacks" on any platform</div>
-            <div class="comp-card-desc"><strong>RXBAR, Kind Bars dominate health category globally.</strong> Korean food companies have zero AI visibility in health-conscious segments — a strategic gap.</div>
-          </div>
-          <div class="comp-card info">
-            <div class="comp-card-label">📊 Indonesia — Indomie Home Advantage</div>
-            <div class="comp-card-title">Indomie holds 50% SOV — but Samyang is growing</div>
-            <div class="comp-card-desc">Samyang's spicy challenge content is cited frequently. <strong>AI cites Tokopedia (e-commerce) as top source — product availability drives AI recommendations.</strong></div>
-          </div>
-        </div>
-
-        <div class="modal-pain"><strong>Why outsource:</strong> Food brands face halal/vegan/regional taste differences that completely change AI recommendations per country. Monitoring "best noodles" across 12 countries × 7 platforms × dietary filters is hundreds of combinations — far beyond any marketing team's manual capacity.</div>
-
-        
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Actual AI responses and citation sources from our crawlers</div>
-        
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best instant noodles in the world</div>
-            <div class="data-meta">
-              <span class="data-badge chatgpt">CHATGPT</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">The best instant noodles span from fiery Korean ramyeon to delicate Japanese bowls. Samyang Buldak Hot Chicken Ramen has become a global phenomenon thanks to TikTok challenges, offering intense heat with a sweet-spicy sauce. Nongshim Shin Ramyun remains the gold standard for Korean-style spicy noodles. Indomie Mi Goreng is the world's most consumed instant noodle, beloved for its sweet soy-based dry noodle format...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.seriouseats.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">seriouseats.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.reddit.com/r/ramen <span class="citation-link-icon">↗</span></div><div class="citation-domain">reddit.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.youtube.com/@BestEverFoodReview <span class="citation-link-icon">↗</span></div><div class="citation-domain">youtube.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.tastingtable.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">tastingtable.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r5">5</div><div class="citation-info"><div class="citation-url">www.theramenrater.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">theramenrater.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best instant noodles in the world</div>
-            <div class="data-meta">
-              <span class="data-badge aio">AI_OVERVIEW</span>
-              <span class="data-badge country">ID</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">Mie instan terbaik di dunia dimulai dengan Indomie Mi Goreng, produk kebanggaan Indonesia yang telah menjadi fenomena global. Varian Original dan Rendang adalah yang paling populer. Samyang Buldak dari Korea menawarkan sensasi pedas yang ekstrem. Nongshim Shin Ramyun juga merupakan pilihan favorit untuk pecinta mi pedas berkuah...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (4)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.tokopedia.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">tokopedia.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.detik.com/food <span class="citation-link-icon">↗</span></div><div class="citation-domain">detik.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.kompas.com/food <span class="citation-link-icon">↗</span></div><div class="citation-domain">kompas.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.indomie.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">indomie.com</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-<div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal-overlay" id="modal-auto" onclick="if(event.target===this)closeDemo()">
-    <div class="modal">
-      <div class="modal-header"><h2>🚗 Automotive / EV — Demo Data</h2><button class="modal-close" onclick="closeDemo()">×</button></div>
-      <div class="modal-body">
-
-        <div class="modal-insight-top">
-          <div class="insight-label-top">Killer Insight</div>
-          <strong>BYD is the world's #2 EV seller but doesn't appear in "best electric car" Top 5 on ANY AI platform in US, EU, or Japan.</strong> AI recommendations are based on English-language media exposure, not sales volume. Conversely, <strong>Hyundai is the only non-Western brand consistently in the global Top 3</strong> — but this advantage is fragile without real-time monitoring.
-        </div>
-
-        <div class="modal-subtitle">Competitor Share of Voice — "best electric car 2026" by Country</div>
-        <div class="sov-section">
-          <div class="sov-row">
-            <div class="sov-platform">🇺🇸 US</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-a" style="width:45%">Tesla 45%</div>
-              <div class="sov-bar-fill brand-c" style="width:25%">Hyundai 25%</div>
-              <div class="sov-bar-fill brand-b" style="width:18%">BMW 18%</div>
-              <div class="sov-bar-fill brand-d" style="width:12%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">🇰🇷 Korea</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-c" style="width:45%">Hyundai/Kia 45%</div>
-              <div class="sov-bar-fill brand-a" style="width:25%">Tesla 25%</div>
-              <div class="sov-bar-fill brand-b" style="width:15%">BMW 15%</div>
-              <div class="sov-bar-fill brand-d" style="width:15%">Others</div>
-            </div>
-          </div>
-          <div class="sov-row">
-            <div class="sov-platform">🇩🇪 Germany</div>
-            <div class="sov-bar-bg">
-              <div class="sov-bar-fill brand-b" style="width:35%">BMW/Merc 35%</div>
-              <div class="sov-bar-fill brand-a" style="width:30%">Tesla 30%</div>
-              <div class="sov-bar-fill brand-c" style="width:20%">Hyundai 20%</div>
-              <div class="sov-bar-fill brand-d" style="width:15%">Others</div>
-            </div>
-          </div>
-          <div class="sov-legend">
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#0F0E1A"></div> Tesla</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#14B8A6"></div> Hyundai/Kia</div>
-            <div class="sov-legend-item"><div class="sov-legend-dot" style="background:#4A4759"></div> BMW/Mercedes</div>
-          </div>
-        </div>
-
-        <div class="modal-subtitle">What Your Brand Is Missing</div>
-        <div class="comp-grid">
-          <div class="comp-card danger">
-            <div class="comp-card-label">🔴 BYD — Invisible Despite #2 Sales</div>
-            <div class="comp-card-title">0% SOV in US/EU/Japan AI search</div>
-            <div class="comp-card-desc">World's #2 EV seller by volume, but <strong>English-language media coverage is minimal.</strong> AI can't recommend what it hasn't learned about. Massive gap between market share and AI visibility.</div>
-          </div>
-          <div class="comp-card success">
-            <div class="comp-card-label">✅ Hyundai — Global Top 3</div>
-            <div class="comp-card-title">Only non-Western brand in Top 3 across all markets</div>
-            <div class="comp-card-desc">Ioniq 5 N and Ioniq 6 consistently cited. <strong>But Gemini cites Ioniq 5 N while ChatGPT cites Ioniq 6 — platform-specific model confusion needs monitoring.</strong></div>
-          </div>
-          <div class="comp-card warning">
-            <div class="comp-card-label">⚠️ Germany — Home Brands Dominate</div>
-            <div class="comp-card-title">BMW + Mercedes hold 35% SOV on German AI</div>
-            <div class="comp-card-desc">AI Overview cites ADAC, Auto Motor und Sport — <strong>German auto media exclusively.</strong> For Hyundai to compete in Germany, German-language review content is critical.</div>
-          </div>
-          <div class="comp-card info">
-            <div class="comp-card-label">📊 Tesla — Still Dominant but Declining</div>
-            <div class="comp-card-title">45% US SOV, but down from 60% last year</div>
-            <div class="comp-card-desc"><strong>Hyundai and BMW are closing the gap.</strong> Tesla's AI dominance is eroding as competitors get more media coverage. The trend matters as much as the snapshot.</div>
-          </div>
-        </div>
-
-        <div class="modal-pain"><strong>Why outsource:</strong> The EV market shifts every 6 months. BYD price cuts, Tesla model refreshes, Hyundai new launches — each affects AI recommendations differently across countries. Auto marketing teams have legacy SEO tools but zero AI search visibility.</div>
-
-        
-        <div class="modal-subtitle">Raw Crawl Data — See Exactly What Users See</div>
-        <div class="data-cards-label">Actual AI responses and citation sources from our crawlers</div>
-        
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best electric car 2026</div>
-            <div class="data-meta">
-              <span class="data-badge aio">AI_OVERVIEW</span>
-              <span class="data-badge country">DE</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">Die besten Elektroautos 2026: Der BMW iX überzeugt mit deutscher Ingenieurskunst, luxuriösem Innenraum und einer Reichweite von bis zu 630 km. Das Tesla Model Y bleibt der Bestseller mit dem größten Supercharger-Netzwerk. Der Mercedes EQS bietet die höchste Reichweite (770 km WLTP). Der Hyundai Ioniq 5 N begeistert als sportlichstes Elektro-SUV mit 650 PS...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.adac.de/elektroauto <span class="citation-link-icon">↗</span></div><div class="citation-domain">adac.de</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.auto-motor-und-sport.de <span class="citation-link-icon">↗</span></div><div class="citation-domain">auto-motor-und-sport.de</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.bmw.de/ix <span class="citation-link-icon">↗</span></div><div class="citation-domain">bmw.de</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.autobild.de/elektroauto <span class="citation-link-icon">↗</span></div><div class="citation-domain">autobild.de</div></div></div>
-<div class="citation-item"><div class="citation-rank r5">5</div><div class="citation-info"><div class="citation-url">efahrer.chip.de <span class="citation-link-icon">↗</span></div><div class="citation-domain">efahrer.chip.de</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-        <div class="data-card">
-          <div class="data-card-header">
-            <div class="data-query">best electric car 2026</div>
-            <div class="data-meta">
-              <span class="data-badge chatgpt">CHATGPT</span>
-              <span class="data-badge country">US</span>
-              <span class="data-badge success">✓</span>
-              <span>2026.04.05</span>
-            </div>
-          </div>
-          <div class="data-response">
-            <div class="data-response-label">AI Response</div>
-            <div class="data-response-text">The best electric cars of 2026 are led by the Tesla Model Y, which remains the world's best-selling EV with its extensive Supercharger network and improved range. The Hyundai Ioniq 6 offers the best aerodynamic design with 360-mile range. BMW iX brings luxury German engineering to the EV space. Google Pixel Car (rumored) could disrupt...</div>
-          </div>
-          <div class="data-citations">
-            <div class="data-citations-label">Citations (5)</div>
-            <div class="citation-item"><div class="citation-rank r1">1</div><div class="citation-info"><div class="citation-url">www.caranddriver.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">caranddriver.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r2">2</div><div class="citation-info"><div class="citation-url">www.edmunds.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">edmunds.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r3">3</div><div class="citation-info"><div class="citation-url">www.motortrend.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">motortrend.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r4">4</div><div class="citation-info"><div class="citation-url">www.kbb.com <span class="citation-link-icon">↗</span></div><div class="citation-domain">kbb.com</div></div></div>
-<div class="citation-item"><div class="citation-rank r5">5</div><div class="citation-info"><div class="citation-url">electrek.co <span class="citation-link-icon">↗</span></div><div class="citation-domain">electrek.co</div></div></div>
-
-          </div>
-          <div class="data-screenshot">
-            <div class="data-screenshot-label">📷 Screenshot (1)</div>
-            <div class="screenshot-placeholder">Full-page screenshot captured — available in dashboard</div>
-          </div>
-        </div>
-<div class="modal-cta"><strong>This is sample data.</strong> GeoRank24 provides this level of analysis for your actual brand keywords — across 7 AI platforms × 12 countries, updated weekly.</div>
-      </div>
-    </div>
-  </div>
-
-    <!-- PROBLEM -->
-  <section class="section">
-    <div class="section-label">문제</div>
-    <h2 class="section-title">반드시 답해야 하지만, 아직 답할 수 없는 질문들</h2>
-    <p class="section-lead">
-      마케팅, 제품, 전략, 리서치팀, 에이전시 — <strong>브랜드 성장을 이끄는 모든 팀의 공통 과제.</strong>
-      소비자는 AI 검색으로 이동하고, AI 에이전트가 구매 결정을 내리기 시작했습니다. 대부분의 브랜드는 이 채널의 데이터가 전무합니다.
-    </p>
-    <div class="problem-grid">
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">ChatGPT에 우리 브랜드를 물어보면 <strong>누가 먼저 나올까?</strong></div>
-      </div>
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">12개국에서 <strong>AI가 어떤 경쟁사를 추천하고 있을까?</strong></div>
-      </div>
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">어떤 키워드에 집중해야 <strong>AI 인용 점유율이 올라갈까?</strong></div>
-      </div>
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">GEO 최적화가 <strong>실제로 효과가 있었을까?</strong></div>
-      </div>
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">어떤 <strong>구매 맥락</strong>에서 AI가 우리 대신 경쟁사를 추천할까?</div>
-      </div>
-      <div class="problem-card">
-        <div class="problem-q">Q.</div>
-        <div class="problem-text">AI 에이전트가 <strong>구매 결정을 내리기 시작</strong>할 때, 우리 브랜드가 추천 목록에 있을까?</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BEFORE / AFTER -->
-  <section class="section">
-    <div class="section-label">Before → After</div>
-    <h2 class="section-title">GeoRank24 도입 후 업무가 이렇게 바뀝니다</h2>
-    <div class="ba-grid">
-      <div class="ba-col ba-before">
-        <div class="ba-label">도입 전 — 현재</div>
-        <ul class="ba-list">
-          <li>ChatGPT 수동 검색, <strong>잘해야 주 1회</strong></li>
-          <li>경쟁사 AI 노출을 <strong>감으로 추측</strong></li>
-          <li>보고서의 "AI 검색 데이터" 항목 = <strong>공란</strong></li>
-          <li>GEO 콘텐츠 효과 측정 <strong>불가능</strong></li>
-          <li>12개국 현지 결과 = <strong>수동 VPN 전환</strong></li>
-          <li>어떤 <strong>구매 맥락</strong>에서 경쟁사가 이기는지 전혀 모름</li>
-        </ul>
-      </div>
-      <div class="ba-arrow">→</div>
-      <div class="ba-col ba-after">
-        <div class="ba-label">도입 후 — GEORANK24</div>
-        <ul class="ba-list">
-          <li><strong>7개 플랫폼 × 12개국</strong> 자동 수집, 매일 갱신</li>
-          <li>경쟁사 SOV <strong>수치로 추적</strong>, 주간 트렌드</li>
-          <li>보고서에 <strong>AI 검색 점유율 데이터</strong> + 스크린샷 증거 포함</li>
-          <li>Before/After <strong>정량 측정</strong> (월간)</li>
-          <li><strong>현지 결과 자동 수집</strong> — 12개국 ISP IP</li>
-          <li>수요 맥락 매핑: <strong>어디에서 지고 있는지 정확히 파악</strong></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- USE CASES -->
-  <section class="section">
-    <div class="section-label">활용 사례</div>
-    <h2 class="section-title">이런 상황에서 활용하세요</h2>
-    <p class="section-lead">GeoRank24는 팀의 일상 마케팅 업무에 즉시 적용됩니다.</p>
-    <div class="usecase-grid">
-      <div class="usecase-card">
-        <div class="usecase-icon">🚀</div>
-        <div class="usecase-title">글로벌 제품 런칭</div>
-        <div class="usecase-desc">
-          500개 런칭 키워드를 등록하면 <strong>12개국에서 제품이 경쟁사 대비 어떻게 노출되는지 매일 데이터를 받습니다</strong>.
-        </div>
-        <div class="usecase-result">
-          → S사 런칭 적용: 1,000 키워드 × 12개국 × 7 플랫폼 = 주간 18,000 데이터 포인트
-        </div>
-      </div>
-      <div class="usecase-card">
-        <div class="usecase-icon">📊</div>
-        <div class="usecase-title">분기 리뷰 · 임원 보고</div>
-        <div class="usecase-desc">
-          CMO의 "AI 검색 점유율이 얼마야?" 질문에 <strong>SOV 데이터 + 스크린샷 증거</strong>가 담긴 보고서로 답합니다.
-        </div>
-        <div class="usecase-result">
-          → 주간 자동 리포트 + 월간 전략 리뷰 미팅 포함
-        </div>
-      </div>
-      <div class="usecase-card">
-        <div class="usecase-icon">🎯</div>
-        <div class="usecase-title">캠페인 효과 측정</div>
-        <div class="usecase-desc">
-          GEO 최적화 콘텐츠 발행 후, <strong>"AI가 실제로 우리를 인용하기 시작했는가?"</strong>를 Before/After 데이터로 정량 측정.
-        </div>
-        <div class="usecase-result">
-          → 월간 대시보드에서 인용률 변화 추적
-        </div>
-      </div>
-      <div class="usecase-card">
-        <div class="usecase-icon">🔍</div>
-        <div class="usecase-title">수요 맥락 발굴</div>
-        <div class="usecase-desc">
-          단순 키워드를 넘어 — <strong>어떤 상황(왜, 언제, 누구를 위해)에서 AI가 경쟁사를 추천하고 우리를 추천하지 않는지</strong> 분석. 블라인드 스팟 발견.
-        </div>
-        <div class="usecase-result">
-          → "엄마 선물" vs "데일리 스킨케어" — 같은 카테고리, 완전히 다른 AI 추천
-        </div>
-      </div>
-      <div class="usecase-card">
-        <div class="usecase-icon">🤖</div>
-        <div class="usecase-title">에이전틱 커머스 대비</div>
-        <div class="usecase-desc">
-          AI 에이전트가 구매 결정을 내리기 시작했습니다. <strong>우리 브랜드가 AI 추천 목록에 있는지 모니터링</strong>하세요 — 늦기 전에.
-        </div>
-        <div class="usecase-result">
-          → 7개 AI 플랫폼에서 브랜드의 "AI 추천 좌표" 추적
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <!-- DIY REALITY -->
-  <section class="section">
-    <div class="section-label">왜 내부 구축이 안 되는가</div>
-    <h2 class="section-title">내부 구축은 <span style="color:var(--accent-dark)">시간과 비용이 너무 많이 듭니다</span></h2>
-    <div class="diy-reality">
-      <div class="diy-reality-title">내부 구축에 필요한 것</div>
-      <div class="diy-reality-grid">
-        <div class="diy-item">
-          <div class="diy-item-value">6-12개월</div>
-          <div class="diy-item-label">개발 기간</div>
-        </div>
-        <div class="diy-item">
-          <div class="diy-item-value">연 3-5억원</div>
-          <div class="diy-item-label">연간 운영 비용</div>
-        </div>
-        <div class="diy-item">
-          <div class="diy-item-value">2-3명</div>
-          <div class="diy-item-label">전담 엔지니어 + DevOps</div>
-        </div>
-        <div class="diy-item">
-          <div class="diy-item-value">매월</div>
-          <div class="diy-item-label">AI 플랫폼 UI 변경 대응</div>
-        </div>
-      </div>
-      <div class="diy-solution">
-        <strong>→ GeoRank24는 이미 구축된 인프라에서 즉시 시작합니다.</strong>
-        브랜드와 에이전시는 키워드만 제공하면 — 의사결정에 바로 쓸 수 있는 마케팅 데이터를 받습니다.
-      </div>
-    </div>
-  </section>
-
-  <!-- GEO FULL-LOOP -->
-  <section class="section">
-    <div class="section-label">GEO 풀루프</div>
-    <h2 class="section-title">발굴부터 증명까지 — <span style="color:var(--accent-dark)">경쟁사가 닫을 수 없는 폐루프</span></h2>
-    <p class="section-lead">
-      대부분의 경쟁사는 모니터링이나 콘텐츠 조언에서 멈춥니다. GeoRank24는 <strong>수요 맥락 발굴부터 측정 가능한 결과까지 모든 단계</strong>를 연결합니다 — 각 단계마다 스크린샷 증거와 함께.
-    </p>
-    <div class="fl-pipeline" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;margin-bottom:12px;">
-      <div style="padding:22px 18px;background:var(--dark);color:white;text-align:center;border-right:1px solid rgba(255,255,255,0.1);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">Step 1</div>
-        <div style="font-size:22px;margin-bottom:8px;">🔍</div>
-        <div style="font-size:13px;font-weight:800;margin-bottom:6px;">발굴</div>
-        <div style="font-size:11px;color:rgba(255,255,255,0.65);line-height:1.5;">수요 맥락 분석 —<br>왜, 언제, 누구를 위해</div>
-      </div>
-      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 2</div>
-        <div style="font-size:22px;margin-bottom:8px;">📡</div>
-        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">모니터링</div>
-        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">7개 플랫폼 × 12개국<br>실제 브라우저 크롤링</div>
-      </div>
-      <div style="padding:22px 18px;background:white;text-align:center;">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 3</div>
-        <div style="font-size:22px;margin-bottom:8px;">📊</div>
-        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">분석</div>
-        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">SOV, 인용 격차,<br>경쟁사 벤치마크</div>
-      </div>
-    </div>
-    <div class="fl-pipeline" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--gray-100);border-radius:14px;overflow:hidden;margin-bottom:20px;">
-      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 4</div>
-        <div style="font-size:22px;margin-bottom:8px;">✍️</div>
-        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">최적화</div>
-        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">GEO 콘텐츠 + Entity SEO +<br>구조화 데이터</div>
-      </div>
-      <div style="padding:22px 18px;background:white;text-align:center;border-right:1px solid var(--gray-100);">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Step 5</div>
-        <div style="font-size:22px;margin-bottom:8px;">🔄</div>
-        <div style="font-size:13px;font-weight:800;color:var(--dark);margin-bottom:6px;">측정</div>
-        <div style="font-size:11px;color:var(--gray-700);line-height:1.5;">Before/After SOV<br>스크린샷 증거</div>
-      </div>
-      <div style="padding:22px 18px;background:var(--accent-light);text-align:center;">
-        <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;color:var(--accent-dark);text-transform:uppercase;margin-bottom:10px;">Repeat</div>
-        <div style="font-size:22px;margin-bottom:8px;">♻️</div>
-        <div style="font-size:13px;font-weight:800;color:var(--accent-dark);margin-bottom:6px;">반복</div>
-        <div style="font-size:11px;color:var(--accent-dark);line-height:1.5;">지속적<br>최적화 순환</div>
-      </div>
-    </div>
-    <div class="fl-hint" style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:10px;padding:18px 24px;display:flex;gap:20px;align-items:center;">
-      <div style="font-size:28px;flex-shrink:0;">💡</div>
-      <div style="font-size:14px;color:var(--gray-700);line-height:1.65;">
-        <strong style="color:var(--dark);">왜 중요한가:</strong> 검색 데이터 플랫폼은 <em>소비자가 과거에 무엇을 검색했는지</em> 알려줍니다.
-        GeoRank24는 <strong>AI가 지금 소비자에게 뭐라고 말하는지</strong> 보여주고 — 최적화가 실제로 답변을 바꿨는지 증명합니다.
-      </div>
-    </div>
-  </section>
-
-  <!-- DELIVERABLES -->
-  <section class="section">
-    <div class="section-label">제공 산출물</div>
-    <h2 class="section-title">하나의 키워드에서 7단계 의사결정 데이터</h2>
-    <p class="section-lead">
-      수요 맥락 발굴부터 성과 측정까지 — 하나의 대시보드에서 전체 의사결정 사이클 데이터.
-    </p>
-    <div class="deliverable-grid" style="grid-template-columns:repeat(4,1fr);">
-      <div class="deliverable">
-        <div class="deliverable-num">01</div>
-        <div class="deliverable-title">맥락</div>
-        <div class="deliverable-desc">수요 맥락 매핑 — 어떤 상황이 AI의 카테고리 추천을 트리거하는지</div>
-      </div>
-      <div class="deliverable">
-        <div class="deliverable-num">02</div>
-        <div class="deliverable-title">현황</div>
-        <div class="deliverable-desc">7개 플랫폼 × 12개국에서 누가 인용되는지 (스크린샷 증거)</div>
-      </div>
-      <div class="deliverable">
-        <div class="deliverable-num">03</div>
-        <div class="deliverable-title">경쟁</div>
-        <div class="deliverable-desc">키워드별 경쟁사 SOV 트렌드 + 벤치마킹</div>
-      </div>
-      <div class="deliverable">
-        <div class="deliverable-num">04</div>
-        <div class="deliverable-title">전략</div>
-        <div class="deliverable-desc">우선순위 키워드, 플랫폼, 국가, <strong>미개척 수요 맥락</strong> 포착</div>
-      </div>
-    </div>
-    <div class="deliverable-grid" style="grid-template-columns:repeat(3,1fr);margin-top:12px;">
-      <div class="deliverable">
-        <div class="deliverable-num">05</div>
-        <div class="deliverable-title">실행</div>
-        <div class="deliverable-desc">GEO 콘텐츠 제작 (36-rule 스코어링) + Entity SEO + 구조화 데이터</div>
-      </div>
-      <div class="deliverable">
-        <div class="deliverable-num">06</div>
-        <div class="deliverable-title">성과</div>
-        <div class="deliverable-desc">월간 Before/After 가시성 측정 + 스크린샷 증거</div>
-      </div>
-      <div class="deliverable">
-        <div class="deliverable-num">07</div>
-        <div class="deliverable-title">AI 대비</div>
-        <div class="deliverable-desc">에이전틱 커머스 준비도 — 브랜드가 AI 추천 목록에 있는가?</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY US -->
-  <section class="section">
-    <div class="section-label">왜 GeoRank24인가</div>
-    <h2 class="section-title">경쟁사가 복제할 수 없는 6가지 차별점</h2>
-    <div class="why-grid">
-      <div class="why-card">
-        <div class="why-num">01</div>
-        <div class="why-title">실제 브라우저 크롤링</div>
-        <div class="why-desc">
-          API 응답은 <strong>웹서치 OFF 상태의 순수 LLM 답변</strong>입니다. GeoRank24는 48개 실제 Chrome 브라우저로
-          <strong>사용자가 ChatGPT 화면에서 보는 것 그대로</strong>를 캡처합니다. 인용 URL, 출처 순위, 개인화 — 모두 정확하게.
-        </div>
-      </div>
-      <div class="why-card">
-        <div class="why-num">02</div>
-        <div class="why-title">12개국 ISP 고정 IP</div>
-        <div class="why-desc">
-          US, JP, DE, FR, ES, IT, BR, IN, UAE, ID, UK, KR — 각 국가의
-          <strong>현지 ISP 고정 IP</strong>로 <strong>현지 사용자가 실제로 보는 것과 동일한 데이터</strong> 제공.
-        </div>
-      </div>
-      <div class="why-card">
-        <div class="why-num">03</div>
-        <div class="why-title">스크린샷 증거 아카이브</div>
-        <div class="why-desc">
-          모든 크롤링 결과를 <strong>풀페이지 스크린샷</strong>으로 S3에 영구 저장. 내부 보고, 감사, 컴플라이언스에
-          즉시 활용 가능. 텍스트만 제공하는 경쟁사와 근본적으로 다른 데이터 신뢰성.
-        </div>
-      </div>
-      <div class="why-card">
-        <div class="why-num">04</div>
-        <div class="why-title">분석 → 콘텐츠 통합</div>
-        <div class="why-desc">
-          모니터링에 그치지 않습니다. <strong>GEO 콘텐츠 36-rule 스코어링</strong>을 기반으로
-          AI 인용 확률이 높은 콘텐츠 제작을 가이드합니다. 수집 → 분석 → 실행을 원스톱으로.
-        </div>
-      </div>
-      <div class="why-card">
-        <div class="why-num">05</div>
-        <div class="why-title">수요 맥락 분석</div>
-        <div class="why-desc">
-          "best smartphone" 같은 단순 키워드가 아닌 — <strong>왜, 언제, 누구를 위해</strong> AI에 묻는지를 분석합니다.
-          "엄마 선물"과 "데일리 사용"은 완전히 다른 AI 추천을 만듭니다. <strong>모든 구매 맥락에서</strong> 브랜드 포지션을 매핑합니다.
-        </div>
-      </div>
-      <div class="why-card">
-        <div class="why-num">06</div>
-        <div class="why-title">증거 기반 GEO 풀루프</div>
-        <div class="why-desc">
-          다른 곳은 "AI에 맞게 콘텐츠를 최적화하세요"라고 말합니다. 우리는 효과가 있었다는 걸 증명합니다.
-          <strong>전략 → 콘텐츠 → Entity SEO → AI 크롤링 → Before/After 측정</strong> — 매 단계 스크린샷 증거가 있는 폐루프.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FIRST MONTH -->
-  <section class="section">
-    <div class="section-label">첫 달에 받는 것</div>
-    <h2 class="section-title">계약 후 4주 이내에 이 모든 것을 받습니다</h2>
-    <p class="section-lead">킥오프부터 첫 리포트까지 4주. 데이터는 매월 자동 갱신됩니다.</p>
-    <div class="firstmonth-timeline">
-      <div class="fm-step">
-        <div class="fm-week">Week 1</div>
-        <div class="fm-title">킥오프 미팅</div>
-        <div class="fm-desc">브랜드 키워드 선정, 타겟 국가/플랫폼 확정, 경쟁사 리스트 구성</div>
-        <div class="fm-output">산출물: 키워드 범위 문서</div>
-      </div>
-      <div class="fm-step">
-        <div class="fm-week">Week 2-3</div>
-        <div class="fm-title">셋업 + 초기 수집</div>
-        <div class="fm-desc">파생 질의 자동 확장, 크롤링 인프라 설정, 12개국 데이터 수집 시작</div>
-        <div class="fm-output">산출물: 초기 데이터 샘플</div>
-      </div>
-      <div class="fm-step active">
-        <div class="fm-week">Week 4</div>
-        <div class="fm-title">첫 리포트 납품</div>
-        <div class="fm-desc">대시보드 오픈, AI 검색 분석 리포트, 경쟁사 SOV 벤치마크, 전략 방향 논의</div>
-        <div class="fm-output">산출물: 분석 리포트 (PDF + 대시보드)</div>
-      </div>
-      <div class="fm-step">
-        <div class="fm-week">Ongoing</div>
-        <div class="fm-title">지속 운영</div>
-        <div class="fm-desc">주간 데이터 갱신, 월간 전략 리뷰, GEO 콘텐츠 가이드, Before/After 성과 측정</div>
-        <div class="fm-output">산출물: 주간 & 월간 리포트</div>
-      </div>
-    </div>
-    <div style="background:var(--gray-50);border:1px solid var(--gray-100);border-radius:10px;padding:18px 24px;display:flex;gap:28px;flex-wrap:wrap;">
-      <div style="flex:1;min-width:200px;">
-        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">첫 달 산출물</div>
-        <div style="font-size:14px;color:var(--gray-800);line-height:1.7;">
-          <strong>1.</strong> 실시간 대시보드 접근 (Web)<br>
-          <strong>2.</strong> AI 검색 현황 분석 리포트 (PDF)<br>
-          <strong>3.</strong> 경쟁사 SOV 벤치마크<br>
-          <strong>4.</strong> 전체 수집 데이터 (CSV / BigQuery)
-        </div>
-      </div>
-      <div style="flex:1;min-width:200px;">
-        <div style="font-size:11px;font-weight:800;color:var(--accent-dark);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">월간 산출물</div>
-        <div style="font-size:14px;color:var(--gray-800);line-height:1.7;">
-          <strong>5.</strong> 스크린샷 아카이브 (S3)<br>
-          <strong>6.</strong> GEO 콘텐츠 최적화 가이드<br>
-          <strong>7.</strong> Before/After 성과 비교 리포트<br>
-          <strong>8.</strong> 월간 전략 리뷰 미팅 (1시간)
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROOF -->
-  <section class="section">
-    <div class="section-label">실적</div>
-    <h2 class="section-title">검증된 데이터 공급 레퍼런스</h2>
-    <div class="proof-box">
-      <div class="proof-items">
-        <div class="proof-item">
-          <div class="proof-number">글로벌 S사</div>
-          <div class="proof-label">신제품 런칭 <strong>12개국 × 6개 플랫폼</strong> GEO 데이터 공급 (국내 1위 데이터 마케팅 에이전시 경유)</div>
-        </div>
-        <div class="proof-item">
-          <div class="proof-number">4M+</div>
-          <div class="proof-label">누적 데이터 포인트 (BigQuery, 2026년 4월 기준)</div>
-        </div>
-        <div class="proof-item">
-          <div class="proof-number">GEO 97.1/100</div>
-          <div class="proof-label">12개 기업 GEO 콘텐츠 <strong>192건 발행</strong> 평균 점수</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT FORM — 무료 진단 리포트 -->
-  <section class="section">
-    <div class="contact-box">
-      <div class="contact-header">
-        <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:10px;">🎁 무료 진단 리포트</div>
-        <h2 class="contact-title">우리 브랜드가 AI에서 어떻게 보이는지 — 무료로 확인하세요.</h2>
-        <p class="contact-sub">
-          브랜드명·카테고리·관심 국가만 알려주시면, <strong>3영업일 내 5페이지 무료 진단 리포트</strong>를 보내드립니다 —
-          현재 AI 검색에서 브랜드가 어떻게 노출되는지, 주요 경쟁사가 누구인지, 어디서 점유율을 잃고 있는지 보여드립니다.<br><br>
-          <strong>약속 없음. 영업 전화 없음.</strong> 그저 우리 브랜드의 AI 측정값입니다.
-        </p>
-      </div>
-      <form id="contactForm" class="contact-form">
-        <div class="form-row">
-          <input type="text" name="name" placeholder="담당자 이름" required>
-          <input type="text" name="company" placeholder="브랜드 / 회사" required>
-        </div>
-        <div class="form-row">
-          <input type="email" name="email" placeholder="이메일 (이 주소로 리포트 발송)" required>
-          <input type="text" name="category" placeholder="카테고리 (예: 스킨케어, 전기차)" required>
-        </div>
-        <textarea name="message" placeholder="관심 국가 또는 경쟁사 (선택)" rows="2"></textarea>
-        <div class="form-footer">
-          <div class="form-status" id="formStatus"></div>
-          <button type="submit" class="contact-submit" id="submitBtn">
-            <span>무료 진단 리포트 받기</span>
-            <span class="submit-arrow">→</span>
-          </button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <script>
-    (function() {
-      const SLACK_WEBHOOK = 'SLACK_WEBHOOK_PLACEHOLDER';
-      const form = document.getElementById('contactForm');
-      const status = document.getElementById('formStatus');
-      const btn = document.getElementById('submitBtn');
-
-      form.addEventListener('submit', async function(e) {
-        e.preventDefault();
-        const data = {
-          name: form.name.value.trim(),
-          company: form.company.value.trim(),
-          email: form.email.value.trim(),
-          phone: form.phone.value.trim() || '—',
-          message: form.message.value.trim() || '—',
-          at: new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })
-        };
-
-        btn.disabled = true;
-        btn.querySelector('span').textContent = '제출 중...';
-        status.textContent = '';
-        status.className = 'form-status';
-
-        const payload = {
-          channel: '#geo-business',
-          username: 'GeoRank24 Inquiry Bot',
-          icon_emoji: ':envelope_with_arrow:',
-          text: '📩 GeoRank24 Inquiry',
-          blocks: [
-            { type: 'header', text: { type: 'plain_text', text: '📩 GeoRank24 Inquiry', emoji: true } },
-            {
-              type: 'section',
-              fields: [
-                { type: 'mrkdwn', text: '*Name*\n' + data.name },
-                { type: 'mrkdwn', text: '*Company*\n' + data.company },
-                { type: 'mrkdwn', text: '*Email*\n' + data.email },
-                { type: 'mrkdwn', text: '*Phone*\n' + data.phone }
-              ]
-            },
-            { type: 'section', text: { type: 'mrkdwn', text: '*Message*\n' + data.message } },
-            { type: 'context', elements: [{ type: 'mrkdwn', text: '🕐 ' + data.at + ' · GeoRank24 Sales Proposal Page' }] }
-          ]
-        };
-
-        try {
-          await fetch(SLACK_WEBHOOK, {
-            method: 'POST',
-            mode: 'no-cors',
-            body: JSON.stringify(payload)
-          });
-          status.textContent = '✓ Your inquiry has been submitted. We'll reach out within 24 hours.';
-          status.className = 'form-status success';
-          form.reset();
-        } catch (err) {
-          status.textContent = '전송 실패. contact@twostepsahead.co.kr로 직접 이메일 부탁드립니다.';
-          status.className = 'form-status error';
-        } finally {
-          btn.disabled = false;
-          btn.querySelector('span').textContent = '무료 진단 리포트 받기';
-        }
-      });
-    })();
-  </script>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    <div><strong>TSA · TwoStepsAhead Inc.</strong> · contact@twostepsahead.co.kr</div>
-    <div>GeoRank24 · 2026.04</div>
-  </div>
-
-</div>
-
-
-
-</div>
+<footer class="footer">
+  <p>© 2026 TwoStepsAhead Inc · GeoRank24 · <a href="mailto:contact@georank24.com">contact@georank24.com</a></p>
+</footer>
 
 <script>
-function openDemo(id) {
-  document.getElementById('modal-' + id).classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
-function closeDemo() {
-  document.querySelectorAll('.modal-overlay').forEach(function(m) { m.classList.remove('active'); });
-  document.body.style.overflow = '';
-}
-document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeDemo(); });
+(function () {
+  const PROMPT_TEXT = "Mercedes-Benz E-Class 추천해줘";
+  const promptEl = document.getElementById('prompt-text');
+  const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+  async function typeText(el, text, speed = 22, jitter = 18) {
+    el.textContent = '';
+    for (let i = 0; i < text.length; i++) {
+      el.textContent += text[i];
+      await sleep(speed + Math.random() * jitter);
+    }
+  }
+
+  async function runStream() {
+    await sleep(500);
+    await typeText(promptEl, PROMPT_TEXT, 50, 35);
+    await sleep(450);
+
+    const platforms = document.querySelectorAll('.ai-platform');
+    for (let i = 0; i < platforms.length; i++) {
+      const el = platforms[i];
+      el.classList.add('active');
+      const answerEl = el.querySelector('.ai-platform-answer');
+      const rankEl = el.querySelector('.ai-platform-rank');
+      const fullText = answerEl.dataset.text;
+      const rank = rankEl.dataset.rank;
+      const isGood = ['#1', '#2', '#3'].includes(rank);
+
+      await typeText(answerEl, fullText, 16, 12);
+      await sleep(120);
+      rankEl.classList.remove('rank-pending');
+      rankEl.classList.add(isGood ? 'rank-good' : 'rank-bad');
+      rankEl.textContent = rank;
+      el.classList.add('done');
+      await sleep(220);
+    }
+
+    // probability counter starts after platforms revealed
+    const probEl = document.getElementById('prob-value');
+    const target = 73.4;
+    let cur = 0;
+    const tick = () => {
+      cur += 1.6;
+      if (cur >= target) { probEl.textContent = target.toFixed(1) + '%'; return; }
+      probEl.textContent = cur.toFixed(1) + '%';
+      requestAnimationFrame(tick);
+    };
+    tick();
+  }
+  runStream();
+
+  // Kinetic word rotation
+  const KINETIC_WORDS = ['예측합니다.', '학습합니다.', '추천합니다.', '점유합니다.'];
+  const kEl = document.getElementById('kinetic-word');
+  let kIdx = 0;
+  setInterval(() => {
+    kIdx = (kIdx + 1) % KINETIC_WORDS.length;
+    kEl.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    kEl.style.opacity = '0';
+    kEl.style.transform = 'translateY(-8px)';
+    setTimeout(() => {
+      kEl.textContent = KINETIC_WORDS[kIdx];
+      kEl.style.transform = 'translateY(8px)';
+      requestAnimationFrame(() => {
+        kEl.style.opacity = '1';
+        kEl.style.transform = 'translateY(0)';
+      });
+    }, 400);
+  }, 3500);
+})();
 </script>
 
-<div class="lang-fab" id="langFab">
-  <div class="lang-fab-menu" id="langMenu">
-    <a href="index.html" class="lang-fab-item"><span class="lang-fab-flag">🇺🇸</span> English</a>
-    <a href="ko.html" class="lang-fab-item active"><span class="lang-fab-flag">🇰🇷</span> 한국어</a>
-    <a href="ja.html" class="lang-fab-item "><span class="lang-fab-flag">🇯🇵</span> 日本語</a>
-  </div>
-  <button class="lang-fab-toggle" onclick="document.getElementById('langMenu').classList.toggle('open')" title="Language">🇰🇷</button>
-</div>
 </body>
 </html>
