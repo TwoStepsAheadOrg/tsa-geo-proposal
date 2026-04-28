@@ -9,6 +9,10 @@
 <meta property="og:description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델.">
 <meta property="og:image" content="/og-image.png">
 <meta property="og:type" content="website">
+<link rel="alternate" hreflang="ko" href="https://www.georank24.com/ko.html">
+<link rel="alternate" hreflang="en" href="https://www.georank24.com/en.html">
+<link rel="alternate" hreflang="ja" href="https://www.georank24.com/ja.html">
+<link rel="alternate" hreflang="x-default" href="https://www.georank24.com/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314B8A6'/%3E%3Cstop offset='1' stop-color='%23A78BFA'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='50' y='66' text-anchor='middle' fill='white' font-family='Inter,sans-serif' font-weight='900' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
 
 <!-- Vercel Web Analytics -->
@@ -241,6 +245,26 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 10px 28px rgba(20,184,166,0.45);
 }
+.nav-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border);
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.nav-lang a {
+  padding: 4px 7px;
+  border-radius: 5px;
+  color: var(--text-mute) !important;
+  font-weight: 600 !important;
+  font-size: 11px !important;
+}
+.nav-lang a:hover { color: var(--text-soft) !important; background: rgba(255,255,255,0.04); }
+.nav-lang a.active { color: var(--teal-light) !important; background: rgba(20,184,166,0.1); }
 
 /* ===== HERO ===== */
 .hero {
@@ -1763,6 +1787,11 @@ body {
       <a href="#why">차별점</a>
       <a href="#trust">데이터</a>
       <a href="#contact" class="nav-cta">무료 진단 →</a>
+      <span class="nav-lang">
+        <a href="/ko.html" class="active">KO</a>
+        <a href="/en.html">EN</a>
+        <a href="/ja.html">JA</a>
+      </span>
     </div>
   </div>
 </nav>
