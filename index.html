@@ -1061,6 +1061,70 @@ body {
   font-family: var(--f-mono);
 }
 
+/* ===== INSIGHTS (How we think) ===== */
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.insight-card {
+  position: relative;
+  background: rgba(20,20,30,0.6);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  padding: 28px 26px;
+  transition: transform 0.25s, border-color 0.25s, background 0.25s;
+}
+.insight-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(20,184,166,0.3);
+  background: rgba(26,26,36,0.85);
+}
+.insight-card-feature {
+  background: linear-gradient(140deg, rgba(20,184,166,0.1), rgba(167,139,250,0.06));
+  border-color: rgba(20,184,166,0.4);
+  box-shadow: 0 16px 40px rgba(20,184,166,0.12);
+}
+.insight-num {
+  font-family: var(--f-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--teal-light);
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: block;
+}
+.insight-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+.insight-card p {
+  font-size: 13.5px;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.insight-card p strong {
+  color: var(--text);
+  font-weight: 600;
+  background: linear-gradient(180deg, transparent 70%, rgba(20,184,166,0.15) 70%);
+  padding: 0 2px;
+}
+.insight-tag {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  color: var(--teal-light);
+  line-height: 1.55;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+  letter-spacing: 0.2px;
+}
+
 /* ===== DELIVERABLES (alternating zigzag rows) ===== */
 .deliverable-row {
   display: grid;
@@ -1720,7 +1784,8 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .demo-grid, .why-grid, .mission-grid { grid-template-columns: 1fr; gap: 40px; }
+  .demo-grid, .why-grid, .mission-grid, .insights-grid { grid-template-columns: 1fr; gap: 40px; }
+  .insights-grid { gap: 14px; }
   .mission-pillars { grid-template-columns: 1fr; gap: 16px; }
   .mission-title { font-size: 34px; }
   .deliverable-row { grid-template-columns: 1fr; gap: 32px; margin-bottom: 60px; }
@@ -1784,7 +1849,7 @@ body {
     <div class="nav-links">
       <a href="#mission">소개</a>
       <a href="#how">작동 원리</a>
-      <a href="#why">차별점</a>
+      <a href="#insights">인사이트</a>
       <a href="#trust">데이터</a>
       <a href="#contact" class="nav-cta">무료 진단 →</a>
       <span class="nav-lang">
@@ -2136,6 +2201,68 @@ body {
         <div class="trust-label">평균 GEO 점수</div>
         <div class="trust-desc">12개 카테고리 192건 발행 콘텐츠</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSIGHTS — How we think about GEO ===== -->
+<section class="section section-insights" id="insights">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">HOW WE THINK ABOUT GEO</span>
+      <h2 class="section-title">데이터로 발견한 <span class="gradient-text">7가지 사실</span></h2>
+      <p class="section-sub">매주 4M+ 발행↔인용 데이터를 보면서 우리가 발견한, GEO를 진지하게 다루려면 반드시 알아야 할 것들.</p>
+    </div>
+
+    <div class="insights-grid">
+      <article class="insight-card reveal">
+        <div class="insight-num">01</div>
+        <h3>AI는 답을 합성합니다, 리스트가 아닙니다</h3>
+        <p>AI 검색은 결과 목록을 보여주지 않고, 여러 출처를 합쳐 하나의 답변을 만듭니다. 그래서 <strong>인용된 출처가 곧 가시성</strong>입니다.</p>
+        <div class="insight-tag">→ 5 AI × 12국에서 어떤 출처가 어떤 답변에 들어갔는지 매주 추적</div>
+      </article>
+
+      <article class="insight-card reveal">
+        <div class="insight-num">02</div>
+        <h3>인용 위치가 결과를 가릅니다</h3>
+        <p>한 번 언급되는 것보다 답변의 <strong>핵심 근거로 인용되는 게 5배 효과적</strong>입니다. 각주냐 본문이냐가 가시성을 결정합니다.</p>
+        <div class="insight-tag">→ GEO Score는 인용 횟수만이 아니라 위치·컨텍스트·정확성을 가중치로 반영</div>
+      </article>
+
+      <article class="insight-card reveal">
+        <div class="insight-num">03</div>
+        <h3>키워드가 아닌 '질문'에 답하세요</h3>
+        <p>SEO는 "Mercedes E-Class 가격" 같은 키워드. GEO는 <strong>"내 가족 4명을 위한 프리미엄 세단"</strong> 같은 진짜 질문이 들어옵니다.</p>
+        <div class="insight-tag">→ 사용자 의도(intent) 클러스터별로 인용 패턴을 분리해 학습</div>
+      </article>
+
+      <article class="insight-card reveal">
+        <div class="insight-num">04</div>
+        <h3>페르소나마다 퍼널이 다릅니다</h3>
+        <p>같은 제품도 <strong>창업자·PM·디자이너가 묻는 질문이 완전히 다릅니다</strong>. 한 가지 콘텐츠로 모두를 잡을 수 없습니다.</p>
+        <div class="insight-tag">→ 페르소나별 prompt 클러스터를 자동 분류해 인용 패턴 따로 분석</div>
+      </article>
+
+      <article class="insight-card reveal">
+        <div class="insight-num">05</div>
+        <h3>Offsite 신호가 핵심입니다</h3>
+        <p>AI는 당신 사이트 하나만 보지 않습니다. <strong>리뷰·커뮤니티·언론 인용</strong>까지 함께 평가합니다.</p>
+        <div class="insight-tag">→ 80+ 매체 + 5대 커뮤니티(Reddit·HN·Quora·G2·Trustpilot) mention 주간 트래킹</div>
+      </article>
+
+      <article class="insight-card reveal">
+        <div class="insight-num">06</div>
+        <h3>'더 많이'가 아니라 '더 잘'</h3>
+        <p>양보다 구조. <strong>AI가 바로 꺼내 쓸 수 있는 형식</strong>(스키마·FAQ·출처)이 핵심입니다.</p>
+        <div class="insight-tag">→ 시뮬레이터가 어떤 부분 보강 시 +N pt 상승할지 정확히 출력</div>
+      </article>
+
+      <article class="insight-card insight-card-feature reveal">
+        <div class="insight-num">07</div>
+        <h3>Agentic Commerce가 시작됐습니다</h3>
+        <p>추천을 넘어 <strong>비교·구매 실행까지 AI가 관여</strong>하는 시대. 노출의 의미가 행동(action)으로 옮겨갑니다.</p>
+        <div class="insight-tag">→ ChatGPT Operator·Perplexity Shopping을 측정 대상에 이미 포함</div>
+      </article>
     </div>
   </div>
 </section>
