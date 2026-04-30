@@ -1820,6 +1820,175 @@ body {
 }
 .footer a { color: var(--text-soft); text-decoration: none; }
 .footer a:hover { color: var(--teal-light); }
+
+/* ===== CITORA TRIGGER + MODAL ===== */
+.citora-trigger {
+  cursor: pointer;
+  border-bottom: 1px dashed rgba(20,184,166,0.5);
+  transition: color 0.18s, border-color 0.18s, background 0.18s;
+  padding: 0 1px;
+}
+.citora-trigger:hover {
+  color: var(--teal-light);
+  border-bottom-color: var(--teal-light);
+  background: rgba(20,184,166,0.06);
+}
+.citora-trigger:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.citora-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.28s ease, visibility 0.28s;
+}
+.citora-modal.open { opacity: 1; visibility: visible; }
+.citora-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5,5,10,0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.citora-modal-card {
+  position: relative;
+  max-width: 540px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(28,28,40,0.96), rgba(18,18,28,0.96));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 38px 36px 32px;
+  box-shadow: 0 40px 100px rgba(0,0,0,0.6);
+  transform: translateY(20px) scale(0.97);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.citora-modal.open .citora-modal-card { transform: translateY(0) scale(1); }
+.citora-modal-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(20,184,166,0.6) 0%, rgba(167,139,250,0.5) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.citora-modal-close {
+  position: absolute;
+  top: 14px; right: 14px;
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s, color 0.18s, transform 0.18s;
+}
+.citora-modal-close:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--text);
+  transform: rotate(90deg);
+}
+.citora-modal-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  color: var(--teal-light);
+  margin-bottom: 14px;
+}
+.citora-modal-card h3 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: 22px;
+  background: linear-gradient(110deg, var(--teal-light), var(--purple-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.citora-modal-sub {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-mute);
+  margin-top: 4px;
+  letter-spacing: -0.2px;
+  -webkit-text-fill-color: var(--text-mute);
+}
+.citora-modal-card p {
+  font-size: 14.5px;
+  color: var(--text-soft);
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+.citora-modal-card p strong {
+  color: var(--text);
+  font-weight: 700;
+}
+.citora-modal-card p em {
+  font-style: italic;
+  color: var(--teal-light);
+  font-weight: 600;
+}
+.citora-modal-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin: 22px 0 22px;
+  padding: 16px 0;
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+}
+.citora-modal-meta div { text-align: center; }
+.citora-modal-meta span {
+  display: block;
+  font-family: var(--f-mono);
+  font-size: 9.5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  margin-bottom: 5px;
+}
+.citora-modal-meta strong {
+  font-family: var(--f-mono);
+  font-size: 18px;
+  color: var(--teal-light);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.citora-modal-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--teal-light);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13.5px;
+  letter-spacing: 0.2px;
+  transition: color 0.15s, transform 0.15s;
+}
+.citora-modal-link:hover { color: var(--teal); transform: translateX(2px); }
+
+@media (max-width: 540px) {
+  .citora-modal-card { padding: 30px 24px 26px; }
+  .citora-modal-card h3 { font-size: 24px; }
+}
 </style>
 </head>
 <body>
@@ -2542,6 +2711,31 @@ body {
   </div>
 </section>
 
+<!-- ===== CITORA MODAL ===== -->
+<div class="citora-modal" id="citora-modal" aria-hidden="true" role="dialog" aria-labelledby="citora-modal-title">
+  <div class="citora-modal-backdrop" data-close></div>
+  <div class="citora-modal-card">
+    <button class="citora-modal-close" data-close aria-label="닫기">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="citora-modal-eyebrow">PREDICTION MODEL</div>
+    <h3 id="citora-modal-title">Citora<span class="citora-modal-sub">— 인용의 신탁(oracle)</span></h3>
+    <p>
+      <strong>Citora</strong>는 <strong>Cite</strong>(인용) + <strong>ora</strong>(라틴어 "말하다 · 예언하다")의 합성어입니다.
+      <em>ora</em>는 영어 <em>oracle</em>(신탁)의 어원이기도 합니다 — 즉 "<strong>인용을 예언하는 자</strong>".
+    </p>
+    <p>
+      매주 4백만 건+ 인용 데이터로 학습된 GeoRank24 자체 AI 모델로, 어떤 콘텐츠가 어떤 AI에 인용될지를 <strong>발행 전에 예측</strong>합니다.
+    </p>
+    <div class="citora-modal-meta">
+      <div><span>버전</span><strong>v0.4</strong></div>
+      <div><span>학습 데이터</span><strong>4M+</strong></div>
+      <div><span>MAPE</span><strong>8.6%</strong></div>
+    </div>
+    <a href="#how" class="citora-modal-link" data-close>작동 원리 보기 →</a>
+  </div>
+</div>
+
 <!-- Sticky bottom bar -->
 <div class="sticky-bar" id="sticky-bar">
   <span><strong>3분 무료 진단</strong> · 당신 콘텐츠가 AI에 인용될 확률을 확인하세요</span>
@@ -2948,6 +3142,67 @@ body {
       }
     }, { passive: true });
   }
+
+  // ===== CITORA MODAL =====
+  (function () {
+    const modal = document.getElementById('citora-modal');
+    if (!modal) return;
+    const open = () => {
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    };
+    const close = () => {
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    };
+
+    // Auto-wrap "Citora" in body text into clickable triggers
+    const SELECTORS = [
+      '.hero-sub strong', '.mission-body strong', '.section-sub strong',
+      '.why-card p strong', '.engine-step p', '.deliverable-text p strong',
+      '.engine-step h3', '.why-card h3', '.model-tagline strong',
+      '.card-label', '.h1-line.gradient-text'
+    ];
+    document.querySelectorAll(SELECTORS.join(',')).forEach(el => {
+      // Walk text nodes and wrap "Citora" with span
+      el.childNodes.forEach(node => {
+        if (node.nodeType !== Node.TEXT_NODE) return;
+        if (!/Citora/.test(node.nodeValue)) return;
+        const frag = document.createDocumentFragment();
+        const parts = node.nodeValue.split(/(Citora)/);
+        parts.forEach(part => {
+          if (part === 'Citora') {
+            const span = document.createElement('span');
+            span.className = 'citora-trigger';
+            span.tabIndex = 0;
+            span.setAttribute('role', 'button');
+            span.setAttribute('aria-label', 'Citora 모델 설명 보기');
+            span.textContent = 'Citora';
+            frag.appendChild(span);
+          } else if (part) {
+            frag.appendChild(document.createTextNode(part));
+          }
+        });
+        node.parentNode.replaceChild(frag, node);
+      });
+    });
+
+    // Bind triggers (event delegation for any future)
+    document.addEventListener('click', (e) => {
+      const t = e.target.closest('.citora-trigger');
+      if (t) { e.preventDefault(); open(); }
+      if (e.target.closest('[data-close]')) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) close();
+      if ((e.key === 'Enter' || e.key === ' ') && document.activeElement && document.activeElement.classList.contains('citora-trigger')) {
+        e.preventDefault();
+        open();
+      }
+    });
+  })();
 
   // ===== CTA Form (Slack notification via /api/contact) =====
   const ctaForm = document.getElementById('cta-form');
