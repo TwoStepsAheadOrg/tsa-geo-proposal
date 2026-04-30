@@ -525,10 +525,10 @@ body {
   background: var(--bg-soft);
   border: 1px solid var(--border-soft);
   border-radius: 10px;
-  padding: 11px 14px;
+  padding: 9px 12px;
   display: grid;
   grid-template-columns: 24px 1fr auto;
-  gap: 12px;
+  gap: 11px;
   align-items: start;
   transition: border-color 0.4s, background 0.4s, transform 0.3s;
   position: relative;
@@ -560,13 +560,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--f-mono);
-  font-weight: 800;
-  font-size: 12px;
-  color: white;
   flex-shrink: 0;
   margin-top: 1px;
 }
+.ai-platform-logo svg { width: 14px; height: 14px; display: block; }
 .ai-platform-body { min-width: 0; }
 .ai-platform-name {
   font-size: 10.5px;
@@ -1876,7 +1873,7 @@ body {
       </h1>
       <p class="hero-sub">
         <strong>Citora</strong> is GeoRank24's proprietary citation-prediction AI model.
-        Every day it ingests <strong>4M+ "publish ↔ citation" records</strong> from 5 AI platforms across 12 countries —
+        Every day it ingests <strong>4M+ "publish ↔ citation" records</strong> from 7 AI platforms across 12 countries —
         and outputs your content's citation probability as a score, <strong>before you publish</strong>.
       </p>
       <div class="hero-cta-row">
@@ -1908,15 +1905,29 @@ body {
 
       <div class="ai-platforms" id="platforms">
         <div class="ai-platform" data-platform="chatgpt">
-          <div class="ai-platform-logo" style="background:#10A37F;">C</div>
+          <div class="ai-platform-logo" style="background:#10A37F;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2L20 7v10l-8 5-8-5V7l8-5zm0 3.5l-5 3v7l5 3 5-3v-7l-5-3z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">ChatGPT</div>
             <div class="ai-platform-answer" data-text="Official comparison + spec table — strong citation signal"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="82%">…</div>
         </div>
+        <div class="ai-platform" data-platform="claude">
+          <div class="ai-platform-logo" style="background:#D97757;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l1.5 6.5L20 10l-6.5 1.5L12 22l-1.5-10.5L4 10l6.5-1.5L12 2z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Claude</div>
+            <div class="ai-platform-answer" data-text="Evidence + code citation pattern — strong relevance"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+        </div>
         <div class="ai-platform" data-platform="perplexity">
-          <div class="ai-platform-logo" style="background:#1FB8CD;">P</div>
+          <div class="ai-platform-logo" style="background:#1FB8CD;">
+            <svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="4" r="2.2"/><circle cx="20" cy="12" r="2.2"/><circle cx="12" cy="20" r="2.2"/><circle cx="4" cy="12" r="2.2"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Perplexity</div>
             <div class="ai-platform-answer" data-text="High-authority domain + clear sources — priority cite"></div>
@@ -1924,28 +1935,44 @@ body {
           <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
         </div>
         <div class="ai-platform" data-platform="gemini">
-          <div class="ai-platform-logo" style="background:#4285F4;">G</div>
+          <div class="ai-platform-logo" style="background:#4285F4;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Gemini</div>
-            <div class="ai-platform-answer" data-text="No schema markup — Reddit/forum content surfaces first"></div>
+            <div class="ai-platform-answer" data-text="Search Grounding — needs more source diversity"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="38%">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="54%">…</div>
         </div>
-        <div class="ai-platform" data-platform="claude">
-          <div class="ai-platform-logo" style="background:#D97757;">A</div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Claude</div>
-            <div class="ai-platform-answer" data-text="Evidence + code patterns — strong relevance match"></div>
+        <div class="ai-platform" data-platform="aimode">
+          <div class="ai-platform-logo" style="background:#EA4335;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"><path d="M12 3l1.6 6.4L20 11l-6.4 1.6L12 19l-1.6-6.4L4 11l6.4-1.6L12 3z"/></svg>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">AI Mode</div>
+            <div class="ai-platform-answer" data-text="Deep comparison answers — case studies weighted ↑"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="63%">…</div>
         </div>
         <div class="ai-platform" data-platform="aio">
-          <div class="ai-platform-logo" style="background:#FBBC04; color:#0A0A0F;">o</div>
+          <div class="ai-platform-logo" style="background:#FBBC04;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><path d="M12 12 L19 12"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">AI Overview</div>
-            <div class="ai-platform-answer" data-text="Top-ranked domain priority — recommend FAQ schema"></div>
+            <div class="ai-platform-answer" data-text="Top-ranked domain priority — add FAQ schema"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="42%">…</div>
+        </div>
+        <div class="ai-platform" data-platform="deepseek">
+          <div class="ai-platform-logo" style="background:#4D6BFE;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M3 13c0-3 3-5 6-5 4 0 6 2.5 7 5.5 1 0 3-1 5-3v5c-2 2-5 3-9 3-3 0-6-1-8-2.5-1-1-1-2-1-3z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">DeepSeek</div>
+            <div class="ai-platform-answer" data-text="OSS-friendly — code/paper citations dominate"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="58%">…</div>
         </div>
       </div>
 
@@ -1972,10 +1999,10 @@ body {
         <p>
           <strong>GEO (Generative Engine Optimization)</strong> is the SEO of the AI-search era.
           If SEO measured "the probability your content shows on page 1 of Google,"
-          GEO measures <strong>"the probability your content gets cited in ChatGPT, Perplexity, and Gemini answers."</strong>
+          GEO measures <strong>"the probability your content gets cited across ChatGPT, Claude, Perplexity, Gemini and beyond."</strong>
         </p>
         <p>
-          Every week, GeoRank24 captures 5 AI platforms across 12 countries and trains
+          Every week, GeoRank24 captures 7 AI platforms across 12 countries and trains
           <strong>Citora</strong>, our proprietary citation-prediction model, on
           <strong>4M+ "publish ↔ citation" records</strong>.
           Citora tells you <strong>your content's citation probability as a score — before you publish</strong> —
@@ -1986,7 +2013,7 @@ body {
             <div class="mission-pillar-num">01</div>
             <div class="mission-pillar-body">
               <h4>MEASURE</h4>
-              <p>5 AI × 12 countries, weekly</p>
+              <p>7 AI × 12 countries, weekly</p>
             </div>
           </div>
           <div class="mission-pillar">
@@ -2015,7 +2042,7 @@ body {
     <div class="section-head reveal">
       <span class="section-eyebrow">MEET CITORA</span>
       <h2 class="section-title">The AI model that <span class="gradient-text">predicts citations</span></h2>
-      <p class="section-sub">Trained on 192 verified publish ↔ citation cases — drop a URL and <strong>Citora</strong> returns the per-platform citation probability (GEO Score) across all 5 AI engines.</p>
+      <p class="section-sub">Trained on 192 verified publish ↔ citation cases — drop a URL and <strong>Citora</strong> returns the per-platform citation probability (GEO Score) across all 7 AI engines.</p>
     </div>
 
     <div class="demo-grid">
@@ -2070,7 +2097,7 @@ body {
           <g id="nn-nodes"></g>
         </svg>
         <div class="model-tagline">
-          <strong>Citora</strong> — GeoRank24's proprietary citation-prediction AI. URL → 5-platform citation probability.
+          <strong>Citora</strong> — GeoRank24's proprietary citation-prediction AI. URL → 7-platform citation probability.
         </div>
         <div class="neural-meta">
           <div><span>HORIZON</span><strong>7 days</strong></div>
@@ -2083,7 +2110,7 @@ body {
       <div class="card card-wide reveal">
         <div class="card-header">
           <span class="card-label">REAL-TIME DATA FOUNDATION</span>
-          <span class="card-tag">12 countries · 5 platforms</span>
+          <span class="card-tag">12 countries · 7 platforms</span>
         </div>
         <div class="metrics-grid">
           <div class="metric"><div class="metric-num" data-count="192">0</div><div class="metric-label">Verified publish ↔ citation</div></div>
@@ -2117,8 +2144,8 @@ body {
         <div class="why-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         </div>
-        <h3>5 platforms × 12 countries</h3>
-        <p>ChatGPT · Perplexity · Gemini · Claude · AI Overview, captured simultaneously across <strong>5 worker sets and 60 EC2 instances</strong>.</p>
+        <h3>7 platforms × 12 countries</h3>
+        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>, captured simultaneously across 5 worker sets and 60 EC2 instances.</p>
         <div class="why-meta">Weekly baseline + daily trend probes</div>
       </div>
       <div class="why-card reveal">
@@ -2146,7 +2173,7 @@ body {
       <div class="engine-step reveal">
         <div class="engine-step-num">01 · COLLECT</div>
         <h3>Real-browser capture</h3>
-        <p>5 AI platforms across 12-country ISP IPs, captured through real browsers — automated on 60 EC2 worker instances.</p>
+        <p>7 AI platforms across 12-country ISP IPs, captured through real browsers — automated on 60 EC2 worker instances.</p>
         <div class="engine-step-meta">Every Tue 03:00 KST</div>
       </div>
       <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
@@ -2179,7 +2206,7 @@ body {
   <div class="section-inner">
     <div class="section-head reveal">
       <h2 class="section-title"><span class="gradient-text">Training data</span> is the moat</h2>
-      <p class="section-sub">Every Tuesday at dawn, 60 worker instances across 12 countries capture 5 AI platforms simultaneously and load them into BigQuery — fuel for the next model.</p>
+      <p class="section-sub">Every Tuesday at dawn, 60 worker instances across 12 countries capture 7 AI platforms simultaneously and load them into BigQuery — fuel for the next model.</p>
     </div>
 
     <div class="trust-grid">
@@ -2221,7 +2248,7 @@ body {
         <div class="insight-num">01</div>
         <h3>AI doesn't search — it writes the answer</h3>
         <p>AI search doesn't return a list. It composes a single answer from many sources — so <strong>the cited source IS the visibility</strong>.</p>
-        <div class="insight-tag">→ We track which source ends up in which answer, weekly across 5 AIs × 12 countries</div>
+        <div class="insight-tag">→ We track which source ends up in which answer, weekly across 7 AIs × 12 countries</div>
       </article>
 
       <article class="insight-card reveal">
@@ -2275,7 +2302,7 @@ body {
       <div class="deliverable-text">
         <div class="deliverable-num">01</div>
         <h3>Weekly visibility report</h3>
-        <p>Auto-generated each week — your brand's <strong>citation, rank, and share of voice</strong> across 5 AI platforms × 12 countries. Includes 5-competitor comparison and per-category SOV in one view.</p>
+        <p>Auto-generated each week — your brand's <strong>citation, rank, and share of voice</strong> across 7 AI platforms × 12 countries. Includes 5-competitor comparison and per-category SOV in one view.</p>
         <ul class="deliverable-bullets">
           <li>Per-platform avg rank + citation count</li>
           <li>Country-level share heatmap</li>
@@ -2295,28 +2322,38 @@ body {
               <div class="mock-plat-val">82% <small>· #1</small></div>
             </div>
             <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
-              <div class="mock-plat-val">68% <small>· #2</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:45%;background:#4285F4"></div></div>
-              <div class="mock-plat-val">45% <small>· #4</small></div>
-            </div>
-            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div>
               <div class="mock-plat-bar"><div class="bar-fill" style="width:71%;background:#D97757"></div></div>
               <div class="mock-plat-val">71% <small>· #2</small></div>
             </div>
             <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
+              <div class="mock-plat-val">68% <small>· #3</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:63%;background:#EA4335"></div></div>
+              <div class="mock-plat-val">63% <small>· #4</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:58%;background:#4D6BFE"></div></div>
+              <div class="mock-plat-val">58% <small>· #5</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:54%;background:#4285F4"></div></div>
+              <div class="mock-plat-val">54% <small>· #6</small></div>
+            </div>
+            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:38%;background:#FBBC04"></div></div>
-              <div class="mock-plat-val">38% <small>· #5</small></div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:42%;background:#FBBC04"></div></div>
+              <div class="mock-plat-val">42% <small>· #7</small></div>
             </div>
           </div>
           <div class="mock-foot">
-            <span>Overall avg share</span><strong>60.8%</strong>
+            <span>Overall avg share</span><strong>62.6%</strong>
           </div>
         </div>
       </div>
@@ -2458,7 +2495,7 @@ body {
         <h3>Screenshot evidence</h3>
         <p>Every AI answer <strong>captured as-is</strong>. Cited sources are highlighted in the screenshot — ready to drop into reports or executive presentations.</p>
         <ul class="deliverable-bullets">
-          <li>5 AI × 12 countries = 60+ screenshots/week</li>
+          <li>7 AI × 12 countries = 84+ screenshots/week</li>
           <li>Auto-highlight on cited sources</li>
           <li>PNG · PDF · BigQuery export</li>
         </ul>
@@ -2492,7 +2529,7 @@ body {
     <div class="cta-card reveal">
       <div class="cta-eyebrow">FREE DIAGNOSTIC · 3-MINUTE TURNAROUND</div>
       <h2>See your content's AI citation probability —<br><span class="gradient-text">free, before you publish</span></h2>
-      <p>Drop a draft or existing URL. We'll return per-platform citation probability across all 5 AI engines + a score-improvement guide.</p>
+      <p>Drop a draft or existing URL. We'll return per-platform citation probability across all 7 AI engines + a score-improvement guide.</p>
       <form class="cta-form" id="cta-form">
         <input type="text" name="company" placeholder="Company" required>
         <input type="text" name="url" placeholder="Content URL or domain" required>
@@ -2716,7 +2753,7 @@ body {
 
     // probability counter starts after platforms revealed
     const probEl = document.getElementById('prob-value');
-    const target = 60.2;
+    const target = 62.6;
     let cur = 0;
     const tick = () => {
       cur += 1.4;

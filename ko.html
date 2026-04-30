@@ -519,16 +519,16 @@ body {
 .ai-platforms {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 .ai-platform {
   background: var(--bg-soft);
   border: 1px solid var(--border-soft);
   border-radius: 10px;
-  padding: 11px 14px;
+  padding: 9px 12px;
   display: grid;
   grid-template-columns: 24px 1fr auto;
-  gap: 12px;
+  gap: 11px;
   align-items: start;
   transition: border-color 0.4s, background 0.4s, transform 0.3s;
   position: relative;
@@ -560,13 +560,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--f-mono);
-  font-weight: 800;
-  font-size: 12px;
-  color: white;
   flex-shrink: 0;
   margin-top: 1px;
 }
+.ai-platform-logo svg { width: 14px; height: 14px; display: block; }
 .ai-platform-body { min-width: 0; }
 .ai-platform-name {
   font-size: 10.5px;
@@ -1876,7 +1873,7 @@ body {
       </h1>
       <p class="hero-sub">
         <strong>Citora</strong>는 GeoRank24가 직접 만든 인용 예측 AI 모델입니다.
-        매일 12개국 5 AI 플랫폼에서 <strong>4백만 건+ "발행↔인용" 데이터</strong>를 학습해,
+        매일 12개국 7 AI 플랫폼에서 <strong>4백만 건+ "발행↔인용" 데이터</strong>를 학습해,
         당신의 콘텐츠가 AI에 인용될 확률을 <strong>발행 전에</strong> 점수로 출력합니다.
       </p>
       <div class="hero-cta-row">
@@ -1907,15 +1904,29 @@ body {
 
       <div class="ai-platforms" id="platforms">
         <div class="ai-platform" data-platform="chatgpt">
-          <div class="ai-platform-logo" style="background:#10A37F;">C</div>
+          <div class="ai-platform-logo" style="background:#10A37F;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2L20 7v10l-8 5-8-5V7l8-5zm0 3.5l-5 3v7l5 3 5-3v-7l-5-3z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">ChatGPT</div>
-            <div class="ai-platform-answer" data-text="공식 비교 데이터 + 스펙 표 — 인용 가능성 높음"></div>
+            <div class="ai-platform-answer" data-text="공식 비교 + 스펙 표 — 인용 가능성 높음"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="82%">…</div>
         </div>
+        <div class="ai-platform" data-platform="claude">
+          <div class="ai-platform-logo" style="background:#D97757;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l1.5 6.5L20 10l-6.5 1.5L12 22l-1.5-10.5L4 10l6.5-1.5L12 2z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Claude</div>
+            <div class="ai-platform-answer" data-text="실증 자료·코드 인용 패턴 — 적합도 양호"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+        </div>
         <div class="ai-platform" data-platform="perplexity">
-          <div class="ai-platform-logo" style="background:#1FB8CD;">P</div>
+          <div class="ai-platform-logo" style="background:#1FB8CD;">
+            <svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="4" r="2.2"/><circle cx="20" cy="12" r="2.2"/><circle cx="12" cy="20" r="2.2"/><circle cx="4" cy="12" r="2.2"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Perplexity</div>
             <div class="ai-platform-answer" data-text="권위 도메인 + 출처 명확 — 우선 인용 대상"></div>
@@ -1923,28 +1934,44 @@ body {
           <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
         </div>
         <div class="ai-platform" data-platform="gemini">
-          <div class="ai-platform-logo" style="background:#4285F4;">G</div>
+          <div class="ai-platform-logo" style="background:#4285F4;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Gemini</div>
-            <div class="ai-platform-answer" data-text="Schema markup 부재 — Reddit/포럼 우선 노출"></div>
+            <div class="ai-platform-answer" data-text="Search Grounding 기반 — 출처 다양성 보강 필요"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="38%">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="54%">…</div>
         </div>
-        <div class="ai-platform" data-platform="claude">
-          <div class="ai-platform-logo" style="background:#D97757;">A</div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Claude</div>
-            <div class="ai-platform-answer" data-text="실증 자료·코드 인용 패턴 — 적합도 양호"></div>
+        <div class="ai-platform" data-platform="aimode">
+          <div class="ai-platform-logo" style="background:#EA4335;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"><path d="M12 3l1.6 6.4L20 11l-6.4 1.6L12 19l-1.6-6.4L4 11l6.4-1.6L12 3z"/></svg>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">AI Mode</div>
+            <div class="ai-platform-answer" data-text="심층 비교 답변 — 케이스 스터디 가중치 ↑"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="63%">…</div>
         </div>
         <div class="ai-platform" data-platform="aio">
-          <div class="ai-platform-logo" style="background:#FBBC04; color:#0A0A0F;">o</div>
+          <div class="ai-platform-logo" style="background:#FBBC04;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><path d="M12 12 L19 12"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">AI Overview</div>
             <div class="ai-platform-answer" data-text="검색 1순위 도메인 우선 — FAQ 보강 권장"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="42%">…</div>
+        </div>
+        <div class="ai-platform" data-platform="deepseek">
+          <div class="ai-platform-logo" style="background:#4D6BFE;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M3 13c0-3 3-5 6-5 4 0 6 2.5 7 5.5 1 0 3-1 5-3v5c-2 2-5 3-9 3-3 0-6-1-8-2.5-1-1-1-2-1-3z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">DeepSeek</div>
+            <div class="ai-platform-answer" data-text="OSS 친화 — 코드·논문 출처 강세"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="58%">…</div>
         </div>
       </div>
 
@@ -1971,10 +1998,10 @@ body {
         <p>
           <strong>GEO(Generative Engine Optimization)</strong>는 AI 검색 시대의 SEO입니다.
           SEO가 "내가 만든 콘텐츠가 검색 1페이지에 노출될 확률"이었다면,
-          GEO는 <strong>"내가 만든 콘텐츠가 ChatGPT·Perplexity의 답변에 인용될 확률"</strong>입니다.
+          GEO는 <strong>"내가 만든 콘텐츠가 ChatGPT·Claude·Perplexity·Gemini의 답변에 인용될 확률"</strong>입니다.
         </p>
         <p>
-          GeoRank24는 매주 12개국 5 AI 플랫폼에서 캡처한
+          GeoRank24는 매주 12개국 7 AI 플랫폼에서 캡처한
           <strong>4백만 건+ "발행↔인용" 데이터</strong>로 자체 인용 예측 모델
           <strong>Citora</strong>를 학습시킵니다.
           Citora가 당신의 콘텐츠가 <strong>AI에 인용될 확률을 발행 전에 점수로 출력합니다</strong> —
@@ -1985,7 +2012,7 @@ body {
             <div class="mission-pillar-num">01</div>
             <div class="mission-pillar-body">
               <h4>측정 · MEASURE</h4>
-              <p>5 AI × 12국 인용 추적</p>
+              <p>7 AI × 12국 인용 추적</p>
             </div>
           </div>
           <div class="mission-pillar">
@@ -2014,7 +2041,7 @@ body {
     <div class="section-head reveal">
       <span class="section-eyebrow">MEET CITORA</span>
       <h2 class="section-title">콘텐츠 인용 확률을 <span class="gradient-text">예측하는 AI 모델</span></h2>
-      <p class="section-sub">192건의 "발행↔인용" 실증 데이터로 학습된 <strong>Citora</strong>가 — 콘텐츠 URL 한 줄로 5 AI 플랫폼별 인용 확률(GEO Score)을 출력합니다.</p>
+      <p class="section-sub">192건의 "발행↔인용" 실증 데이터로 학습된 <strong>Citora</strong>가 — 콘텐츠 URL 한 줄로 7 AI 플랫폼별 인용 확률(GEO Score)을 출력합니다.</p>
     </div>
 
     <div class="demo-grid">
@@ -2069,7 +2096,7 @@ body {
           <g id="nn-nodes"></g>
         </svg>
         <div class="model-tagline">
-          <strong>Citora</strong> — GeoRank24의 자체 인용 예측 AI 모델. URL 입력 → 5 AI 플랫폼 인용 확률 출력.
+          <strong>Citora</strong> — GeoRank24의 자체 인용 예측 AI 모델. URL 입력 → 7 AI 플랫폼 인용 확률 출력.
         </div>
         <div class="neural-meta">
           <div><span>예측 지평</span><strong>7일</strong></div>
@@ -2082,7 +2109,7 @@ body {
       <div class="card card-wide reveal">
         <div class="card-header">
           <span class="card-label">REAL-TIME DATA FOUNDATION</span>
-          <span class="card-tag">12개국 · 5 플랫폼</span>
+          <span class="card-tag">12개국 · 7 플랫폼</span>
         </div>
         <div class="metrics-grid">
           <div class="metric"><div class="metric-num" data-count="192">0</div><div class="metric-label">발행↔인용 실증</div></div>
@@ -2116,8 +2143,8 @@ body {
         <div class="why-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         </div>
-        <h3>5 플랫폼 × 12 국가</h3>
-        <p>ChatGPT · Perplexity · Gemini · Claude · AI Overview를 <strong>5개 워커 세트, 60대 EC2로 동시 측정</strong>.</p>
+        <h3>7 플랫폼 × 12 국가</h3>
+        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>를 5개 워커 세트, 60대 EC2로 동시 측정.</p>
         <div class="why-meta">주 1회 정기 + 트렌드 일일 측정</div>
       </div>
       <div class="why-card reveal">
@@ -2145,7 +2172,7 @@ body {
       <div class="engine-step reveal">
         <div class="engine-step-num">01 · COLLECT</div>
         <h3>실제 브라우저 캡처</h3>
-        <p>12개국 ISP IP에서 5 AI 플랫폼 답변을 실제 브라우저로 캡처. 매주 60대 워커 EC2로 자동화.</p>
+        <p>12개국 ISP IP에서 7 AI 플랫폼 답변을 실제 브라우저로 캡처. 매주 60대 워커 EC2로 자동화.</p>
         <div class="engine-step-meta">매주 화요일 03:00 KST</div>
       </div>
       <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
@@ -2166,7 +2193,7 @@ body {
       <div class="engine-step engine-step-last reveal">
         <div class="engine-step-num">04 · PREDICT</div>
         <h3>인용 확률 + 최적화 가이드</h3>
-        <p>URL을 입력하면 Citora가 5 AI별 인용 확률(GEO Score)을 출력. 점수가 낮으면 어떤 부분을 보강해야 오를지 자동 제안.</p>
+        <p>URL을 입력하면 Citora가 7 AI별 인용 확률(GEO Score)을 출력. 점수가 낮으면 어떤 부분을 보강해야 오를지 자동 제안.</p>
         <div class="engine-step-meta">실시간 + 매주 월 09:00 리포트</div>
       </div>
     </div>
@@ -2178,7 +2205,7 @@ body {
   <div class="section-inner">
     <div class="section-head reveal">
       <h2 class="section-title"><span class="gradient-text">학습 데이터</span>가 곧 모트입니다</h2>
-      <p class="section-sub">매주 화요일 새벽, 12개국 60대 워커 EC2가 5 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다. 이 데이터는 그대로 다음 모델의 연료가 됩니다.</p>
+      <p class="section-sub">매주 화요일 새벽, 12개국 60대 워커 EC2가 7 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다. 이 데이터는 그대로 다음 모델의 연료가 됩니다.</p>
     </div>
 
     <div class="trust-grid">
@@ -2220,7 +2247,7 @@ body {
         <div class="insight-num">01</div>
         <h3>AI는 검색하지 않고, 답을 '짓는다'</h3>
         <p>AI 검색은 결과 목록을 보여주지 않습니다. 여러 출처를 합쳐 하나의 답변을 작성하죠. 그래서 <strong>인용된 출처가 곧 가시성</strong>입니다.</p>
-        <div class="insight-tag">→ 5 AI × 12국에서 어떤 출처가 어떤 답변에 들어갔는지 매주 추적</div>
+        <div class="insight-tag">→ 7 AI × 12국에서 어떤 출처가 어떤 답변에 들어갔는지 매주 추적</div>
       </article>
 
       <article class="insight-card reveal">
@@ -2274,7 +2301,7 @@ body {
       <div class="deliverable-text">
         <div class="deliverable-num">01</div>
         <h3>주간 가시성 리포트</h3>
-        <p>5 AI 플랫폼 × 12개국에서 당신 브랜드의 <strong>인용·순위·점유율</strong>을 매주 자동 산출합니다. 경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.</p>
+        <p>7 AI 플랫폼 × 12개국에서 당신 브랜드의 <strong>인용·순위·점유율</strong>을 매주 자동 산출합니다. 경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.</p>
         <ul class="deliverable-bullets">
           <li>플랫폼별 평균 순위 + 인용 횟수</li>
           <li>국가별 점유율 히트맵</li>
@@ -2294,28 +2321,38 @@ body {
               <div class="mock-plat-val">82% <small>· #1</small></div>
             </div>
             <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
-              <div class="mock-plat-val">68% <small>· #2</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:45%;background:#4285F4"></div></div>
-              <div class="mock-plat-val">45% <small>· #4</small></div>
-            </div>
-            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div>
               <div class="mock-plat-bar"><div class="bar-fill" style="width:71%;background:#D97757"></div></div>
               <div class="mock-plat-val">71% <small>· #2</small></div>
             </div>
             <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
+              <div class="mock-plat-val">68% <small>· #3</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:63%;background:#EA4335"></div></div>
+              <div class="mock-plat-val">63% <small>· #4</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:58%;background:#4D6BFE"></div></div>
+              <div class="mock-plat-val">58% <small>· #5</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:54%;background:#4285F4"></div></div>
+              <div class="mock-plat-val">54% <small>· #6</small></div>
+            </div>
+            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:38%;background:#FBBC04"></div></div>
-              <div class="mock-plat-val">38% <small>· #5</small></div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:42%;background:#FBBC04"></div></div>
+              <div class="mock-plat-val">42% <small>· #7</small></div>
             </div>
           </div>
           <div class="mock-foot">
-            <span>전체 평균 점유율</span><strong>60.8%</strong>
+            <span>전체 평균 점유율</span><strong>62.6%</strong>
           </div>
         </div>
       </div>
@@ -2326,9 +2363,9 @@ body {
       <div class="deliverable-text">
         <div class="deliverable-num">02</div>
         <h3>콘텐츠 인용 확률 + 개선 시뮬레이터</h3>
-        <p>발행 예정 콘텐츠 URL이나 초안을 입력하면 <strong>Citora</strong>가 <strong>5 AI 플랫폼별 인용 확률</strong>을 출력합니다. 점수가 낮으면 어떤 부분(스키마·출처·구조)을 보강해야 확률이 오를지 시뮬레이터로 미리 확인할 수 있습니다.</p>
+        <p>발행 예정 콘텐츠 URL이나 초안을 입력하면 <strong>Citora</strong>가 <strong>7 AI 플랫폼별 인용 확률</strong>을 출력합니다. 점수가 낮으면 어떤 부분(스키마·출처·구조)을 보강해야 확률이 오를지 시뮬레이터로 미리 확인할 수 있습니다.</p>
         <ul class="deliverable-bullets">
-          <li>5 AI 플랫폼별 인용 확률 (0-100%)</li>
+          <li>7 AI 플랫폼별 인용 확률 (0-100%)</li>
           <li>"무엇을 고치면 +N pt" 개선 시뮬레이션</li>
           <li>MAPE 8.6% (예측 정확도 표준 메트릭)</li>
         </ul>
@@ -2457,7 +2494,7 @@ body {
         <h3>스크린샷 증거</h3>
         <p>실제 AI가 답변한 화면을 <strong>그대로 캡처</strong>해 첨부합니다. 인용된 출처가 highlight 되어, 보고서·임원 회의용 시각 자료로 즉시 사용 가능합니다.</p>
         <ul class="deliverable-bullets">
-          <li>5 AI × 12국 = 매주 60+ 스크린샷</li>
+          <li>7 AI × 12국 = 매주 84+ 스크린샷</li>
           <li>인용 출처 자동 highlight</li>
           <li>PNG·PDF·BigQuery 직접 다운로드</li>
         </ul>
@@ -2491,7 +2528,7 @@ body {
     <div class="cta-card reveal">
       <div class="cta-eyebrow">FREE DIAGNOSTIC · 3분 안에 결과</div>
       <h2>당신의 콘텐츠가 AI에 인용될 확률,<br><span class="gradient-text">발행 전에 무료로</span> 확인하세요</h2>
-      <p>발행 예정 또는 기존 콘텐츠 URL을 알려주세요. 5 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다.</p>
+      <p>발행 예정 또는 기존 콘텐츠 URL을 알려주세요. 7 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다.</p>
       <form class="cta-form" id="cta-form">
         <input type="text" name="company" placeholder="회사명" required>
         <input type="text" name="url" placeholder="콘텐츠 URL 또는 도메인" required>
@@ -2715,7 +2752,7 @@ body {
 
     // probability counter starts after platforms revealed
     const probEl = document.getElementById('prob-value');
-    const target = 60.2;
+    const target = 62.6;
     let cur = 0;
     const tick = () => {
       cur += 1.4;

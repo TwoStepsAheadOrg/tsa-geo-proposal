@@ -525,10 +525,10 @@ body {
   background: var(--bg-soft);
   border: 1px solid var(--border-soft);
   border-radius: 10px;
-  padding: 11px 14px;
+  padding: 9px 12px;
   display: grid;
   grid-template-columns: 24px 1fr auto;
-  gap: 12px;
+  gap: 11px;
   align-items: start;
   transition: border-color 0.4s, background 0.4s, transform 0.3s;
   position: relative;
@@ -560,13 +560,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--f-mono);
-  font-weight: 800;
-  font-size: 12px;
-  color: white;
   flex-shrink: 0;
   margin-top: 1px;
 }
+.ai-platform-logo svg { width: 14px; height: 14px; display: block; }
 .ai-platform-body { min-width: 0; }
 .ai-platform-name {
   font-size: 10.5px;
@@ -1876,7 +1873,7 @@ body {
       </h1>
       <p class="hero-sub">
         <strong>Citora</strong>はGeoRank24が独自開発した引用予測AIモデルです。
-        毎日12カ国5つのAIプラットフォームから<strong>400万件+の「公開↔引用」データ</strong>を学習し、
+        毎日12カ国7つのAIプラットフォームから<strong>400万件+の「公開↔引用」データ</strong>を学習し、
         あなたのコンテンツがAIに引用される確率を<strong>公開前に</strong>スコアで出力します。
       </p>
       <div class="hero-cta-row">
@@ -1907,15 +1904,29 @@ body {
 
       <div class="ai-platforms" id="platforms">
         <div class="ai-platform" data-platform="chatgpt">
-          <div class="ai-platform-logo" style="background:#10A37F;">C</div>
+          <div class="ai-platform-logo" style="background:#10A37F;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2L20 7v10l-8 5-8-5V7l8-5zm0 3.5l-5 3v7l5 3 5-3v-7l-5-3z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">ChatGPT</div>
             <div class="ai-platform-answer" data-text="公式比較+スペック表 — 引用可能性 高"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="82%">…</div>
         </div>
+        <div class="ai-platform" data-platform="claude">
+          <div class="ai-platform-logo" style="background:#D97757;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l1.5 6.5L20 10l-6.5 1.5L12 22l-1.5-10.5L4 10l6.5-1.5L12 2z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">Claude</div>
+            <div class="ai-platform-answer" data-text="実証資料・コード引用パターン — 適合度 良"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+        </div>
         <div class="ai-platform" data-platform="perplexity">
-          <div class="ai-platform-logo" style="background:#1FB8CD;">P</div>
+          <div class="ai-platform-logo" style="background:#1FB8CD;">
+            <svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="4" r="2.2"/><circle cx="20" cy="12" r="2.2"/><circle cx="12" cy="20" r="2.2"/><circle cx="4" cy="12" r="2.2"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Perplexity</div>
             <div class="ai-platform-answer" data-text="権威ドメイン+明確な出典 — 優先引用対象"></div>
@@ -1923,28 +1934,44 @@ body {
           <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
         </div>
         <div class="ai-platform" data-platform="gemini">
-          <div class="ai-platform-logo" style="background:#4285F4;">G</div>
+          <div class="ai-platform-logo" style="background:#4285F4;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">Gemini</div>
-            <div class="ai-platform-answer" data-text="スキーマ未設定 — Reddit/フォーラムが優先表示"></div>
+            <div class="ai-platform-answer" data-text="Search Grounding — 出典の多様性が必要"></div>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="38%">…</div>
+          <div class="ai-platform-rank rank-pending" data-rank="54%">…</div>
         </div>
-        <div class="ai-platform" data-platform="claude">
-          <div class="ai-platform-logo" style="background:#D97757;">A</div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Claude</div>
-            <div class="ai-platform-answer" data-text="実証資料・コード引用パターン — 適合度 良"></div>
+        <div class="ai-platform" data-platform="aimode">
+          <div class="ai-platform-logo" style="background:#EA4335;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"><path d="M12 3l1.6 6.4L20 11l-6.4 1.6L12 19l-1.6-6.4L4 11l6.4-1.6L12 3z"/></svg>
           </div>
-          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">AI Mode</div>
+            <div class="ai-platform-answer" data-text="深掘り比較回答 — ケーススタディ重み ↑"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="63%">…</div>
         </div>
         <div class="ai-platform" data-platform="aio">
-          <div class="ai-platform-logo" style="background:#FBBC04; color:#0A0A0F;">o</div>
+          <div class="ai-platform-logo" style="background:#FBBC04;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><path d="M12 12 L19 12"/></svg>
+          </div>
           <div class="ai-platform-body">
             <div class="ai-platform-name">AI Overview</div>
             <div class="ai-platform-answer" data-text="検索1位ドメイン優先 — FAQ追加を推奨"></div>
           </div>
           <div class="ai-platform-rank rank-pending" data-rank="42%">…</div>
+        </div>
+        <div class="ai-platform" data-platform="deepseek">
+          <div class="ai-platform-logo" style="background:#4D6BFE;">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M3 13c0-3 3-5 6-5 4 0 6 2.5 7 5.5 1 0 3-1 5-3v5c-2 2-5 3-9 3-3 0-6-1-8-2.5-1-1-1-2-1-3z"/></svg>
+          </div>
+          <div class="ai-platform-body">
+            <div class="ai-platform-name">DeepSeek</div>
+            <div class="ai-platform-answer" data-text="OSS親和 — コード・論文の出典強い"></div>
+          </div>
+          <div class="ai-platform-rank rank-pending" data-rank="58%">…</div>
         </div>
       </div>
 
@@ -1971,10 +1998,10 @@ body {
         <p>
           <strong>GEO(Generative Engine Optimization)</strong>は、AI検索時代のSEOです。
           SEOが「自分のコンテンツが検索1ページ目に表示される確率」だとすれば、
-          GEOは<strong>「自分のコンテンツがChatGPT・Perplexityの回答に引用される確率」</strong>です。
+          GEOは<strong>「自分のコンテンツがChatGPT・Claude・Perplexity・Geminiなどの回答に引用される確率」</strong>です。
         </p>
         <p>
-          GeoRank24は毎週12カ国5つのAIプラットフォームでキャプチャした
+          GeoRank24は毎週12カ国7つのAIプラットフォームでキャプチャした
           <strong>400万件+の「公開↔引用」データ</strong>で独自の引用予測モデル
           <strong>Citora</strong>を学習させています。
           Citoraがあなたのコンテンツの<strong>AI引用確率を公開前にスコアで出力します</strong> —
@@ -1985,7 +2012,7 @@ body {
             <div class="mission-pillar-num">01</div>
             <div class="mission-pillar-body">
               <h4>測定 · MEASURE</h4>
-              <p>5 AI × 12カ国 引用追跡</p>
+              <p>7 AI × 12カ国 引用追跡</p>
             </div>
           </div>
           <div class="mission-pillar">
@@ -2014,7 +2041,7 @@ body {
     <div class="section-head reveal">
       <span class="section-eyebrow">MEET CITORA</span>
       <h2 class="section-title">引用確率を<span class="gradient-text">予測するAIモデル</span></h2>
-      <p class="section-sub">192件の「公開↔引用」実証データで学習した<strong>Citora</strong>が、URL一行で5つのAIプラットフォーム別引用確率(GEO Score)を出力します。</p>
+      <p class="section-sub">192件の「公開↔引用」実証データで学習した<strong>Citora</strong>が、URL一行で7つのAIプラットフォーム別引用確率(GEO Score)を出力します。</p>
     </div>
 
     <div class="demo-grid">
@@ -2069,7 +2096,7 @@ body {
           <g id="nn-nodes"></g>
         </svg>
         <div class="model-tagline">
-          <strong>Citora</strong> — GeoRank24独自の引用予測AI。URL入力 → 5プラットフォーム別引用確率出力。
+          <strong>Citora</strong> — GeoRank24独自の引用予測AI。URL入力 → 7プラットフォーム別引用確率出力。
         </div>
         <div class="neural-meta">
           <div><span>予測期間</span><strong>7日</strong></div>
@@ -2082,7 +2109,7 @@ body {
       <div class="card card-wide reveal">
         <div class="card-header">
           <span class="card-label">REAL-TIME DATA FOUNDATION</span>
-          <span class="card-tag">12カ国 · 5プラットフォーム</span>
+          <span class="card-tag">12カ国 · 7プラットフォーム</span>
         </div>
         <div class="metrics-grid">
           <div class="metric"><div class="metric-num" data-count="192">0</div><div class="metric-label">公開↔引用 実証</div></div>
@@ -2116,8 +2143,8 @@ body {
         <div class="why-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         </div>
-        <h3>5プラットフォーム × 12カ国</h3>
-        <p>ChatGPT · Perplexity · Gemini · Claude · AI Overviewを <strong>5ワーカーセット、60台のEC2で同時計測</strong>。</p>
+        <h3>7プラットフォーム × 12カ国</h3>
+        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>を5ワーカーセット、60台のEC2で同時計測。</p>
         <div class="why-meta">週1ベースライン + 日次トレンド計測</div>
       </div>
       <div class="why-card reveal">
@@ -2145,7 +2172,7 @@ body {
       <div class="engine-step reveal">
         <div class="engine-step-num">01 · COLLECT</div>
         <h3>リアルブラウザでキャプチャ</h3>
-        <p>12カ国のISP IPから5つのAIプラットフォームを実ブラウザでキャプチャ。60台のワーカーEC2で自動化。</p>
+        <p>12カ国のISP IPから7つのAIプラットフォームを実ブラウザでキャプチャ。60台のワーカーEC2で自動化。</p>
         <div class="engine-step-meta">毎週火曜 03:00 KST</div>
       </div>
       <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
@@ -2166,7 +2193,7 @@ body {
       <div class="engine-step engine-step-last reveal">
         <div class="engine-step-num">04 · PREDICT</div>
         <h3>引用確率+最適化ガイド</h3>
-        <p>URLを入力するとCitoraが5プラットフォーム別引用確率(GEO Score)を出力。スコアが低い場合、どこを補強すれば上がるかを自動提案。</p>
+        <p>URLを入力するとCitoraが7プラットフォーム別引用確率(GEO Score)を出力。スコアが低い場合、どこを補強すれば上がるかを自動提案。</p>
         <div class="engine-step-meta">リアルタイム+週次月曜 09:00 レポート</div>
       </div>
     </div>
@@ -2178,7 +2205,7 @@ body {
   <div class="section-inner">
     <div class="section-head reveal">
       <h2 class="section-title"><span class="gradient-text">学習データ</span>こそが堀(モート)です</h2>
-      <p class="section-sub">毎週火曜の早朝、12カ国60台のワーカーEC2が5つのAIプラットフォームを同時にキャプチャしBigQueryに格納します。このデータがそのまま次のモデルの燃料となります。</p>
+      <p class="section-sub">毎週火曜の早朝、12カ国60台のワーカーEC2が7つのAIプラットフォームを同時にキャプチャしBigQueryに格納します。このデータがそのまま次のモデルの燃料となります。</p>
     </div>
 
     <div class="trust-grid">
@@ -2220,7 +2247,7 @@ body {
         <div class="insight-num">01</div>
         <h3>AIは「検索」せず、答えを「書く」</h3>
         <p>AI検索は結果一覧を返しません。複数の出典を合成して一つの回答を書き上げます。だから<strong>引用された出典こそが可視性</strong>です。</p>
-        <div class="insight-tag">→ 5 AI × 12カ国で、どの出典がどの回答に入ったかを毎週追跡</div>
+        <div class="insight-tag">→ 7 AI × 12カ国で、どの出典がどの回答に入ったかを毎週追跡</div>
       </article>
 
       <article class="insight-card reveal">
@@ -2274,7 +2301,7 @@ body {
       <div class="deliverable-text">
         <div class="deliverable-num">01</div>
         <h3>週次可視性レポート</h3>
-        <p>5つのAIプラットフォーム × 12カ国で、ブランドの<strong>引用・順位・シェア</strong>を毎週自動算出。競合5社比較を標準搭載、カテゴリ別SOV(Share of Voice)まで一画面に整理されます。</p>
+        <p>7つのAIプラットフォーム × 12カ国で、ブランドの<strong>引用・順位・シェア</strong>を毎週自動算出。競合5社比較を標準搭載、カテゴリ別SOV(Share of Voice)まで一画面に整理されます。</p>
         <ul class="deliverable-bullets">
           <li>プラットフォーム別 平均順位+引用回数</li>
           <li>国別シェアヒートマップ</li>
@@ -2294,28 +2321,38 @@ body {
               <div class="mock-plat-val">82% <small>· #1</small></div>
             </div>
             <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
-              <div class="mock-plat-val">68% <small>· #2</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:45%;background:#4285F4"></div></div>
-              <div class="mock-plat-val">45% <small>· #4</small></div>
-            </div>
-            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div>
               <div class="mock-plat-bar"><div class="bar-fill" style="width:71%;background:#D97757"></div></div>
               <div class="mock-plat-val">71% <small>· #2</small></div>
             </div>
             <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
+              <div class="mock-plat-val">68% <small>· #3</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:63%;background:#EA4335"></div></div>
+              <div class="mock-plat-val">63% <small>· #4</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:58%;background:#4D6BFE"></div></div>
+              <div class="mock-plat-val">58% <small>· #5</small></div>
+            </div>
+            <div class="mock-platform">
+              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:54%;background:#4285F4"></div></div>
+              <div class="mock-plat-val">54% <small>· #6</small></div>
+            </div>
+            <div class="mock-platform">
               <div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:38%;background:#FBBC04"></div></div>
-              <div class="mock-plat-val">38% <small>· #5</small></div>
+              <div class="mock-plat-bar"><div class="bar-fill" style="width:42%;background:#FBBC04"></div></div>
+              <div class="mock-plat-val">42% <small>· #7</small></div>
             </div>
           </div>
           <div class="mock-foot">
-            <span>全体平均シェア</span><strong>60.8%</strong>
+            <span>全体平均シェア</span><strong>62.6%</strong>
           </div>
         </div>
       </div>
@@ -2326,7 +2363,7 @@ body {
       <div class="deliverable-text">
         <div class="deliverable-num">02</div>
         <h3>コンテンツ引用確率+改善シミュレーター</h3>
-        <p>公開予定のコンテンツURLやドラフトを入力すると、<strong>Citora</strong>が<strong>5プラットフォーム別の引用確率</strong>を出力。スコアが低い場合、どこ(スキーマ・出典・構成)を補強すれば確率が上がるかをシミュレーターで事前に確認できます。</p>
+        <p>公開予定のコンテンツURLやドラフトを入力すると、<strong>Citora</strong>が<strong>7プラットフォーム別の引用確率</strong>を出力。スコアが低い場合、どこ(スキーマ・出典・構成)を補強すれば確率が上がるかをシミュレーターで事前に確認できます。</p>
         <ul class="deliverable-bullets">
           <li>5 AIプラットフォーム別 引用確率(0-100%)</li>
           <li>「これを直せば +N pt」シミュレーション</li>
@@ -2457,7 +2494,7 @@ body {
         <h3>スクリーンショット証跡</h3>
         <p>実際にAIが回答した画面を<strong>そのままキャプチャ</strong>して添付。引用された出典がハイライトされ、レポート・経営会議資料としてすぐに使えます。</p>
         <ul class="deliverable-bullets">
-          <li>5 AI × 12カ国 = 毎週60+のスクリーンショット</li>
+          <li>7 AI × 12カ国 = 毎週84+のスクリーンショット</li>
           <li>引用元を自動ハイライト</li>
           <li>PNG · PDF · BigQuery エクスポート</li>
         </ul>
@@ -2491,7 +2528,7 @@ body {
     <div class="cta-card reveal">
       <div class="cta-eyebrow">FREE DIAGNOSTIC · 3分で結果</div>
       <h2>あなたのコンテンツがAIに引用される確率を、<br><span class="gradient-text">公開前に無料で</span>確認してください</h2>
-      <p>公開予定または既存コンテンツのURLをお知らせください。5プラットフォーム別引用確率+スコア改善ガイドを無料でお届けします。</p>
+      <p>公開予定または既存コンテンツのURLをお知らせください。7プラットフォーム別引用確率+スコア改善ガイドを無料でお届けします。</p>
       <form class="cta-form" id="cta-form">
         <input type="text" name="company" placeholder="会社名" required>
         <input type="text" name="url" placeholder="コンテンツURLまたはドメイン" required>
@@ -2715,7 +2752,7 @@ body {
 
     // probability counter starts after platforms revealed
     const probEl = document.getElementById('prob-value');
-    const target = 60.2;
+    const target = 62.6;
     let cur = 0;
     const tick = () => {
       cur += 1.4;
