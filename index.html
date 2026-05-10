@@ -34,6 +34,49 @@
 <!-- Citora Lead Pixel -->
 <script async src="https://api.lead.georank24.com/api/pixel?site_key=cl_pk_d6Tj-rUtfPR1fTrHD6QMpYyB"></script>
 
+<!-- Structured Data: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Plurank",
+  "url": "https://www.georank24.com",
+  "logo": "https://www.georank24.com/og-image.png",
+  "description": "12개국 7 AI + 5 SNS 신호를 통합 학습한 마케팅 AI 모델 Pluora. 콘텐츠가 어디서 인용·추천될지 발행 전에 추론합니다.",
+  "founder": {"@type":"Person","name":"Glenn Kim"},
+  "sameAs": ["https://twostepsahead.co.kr","https://georank24-ir.twostepsahead.co.kr"]
+}
+</script>
+
+<!-- Structured Data: Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Generative Engine Optimization (GEO)",
+  "provider": {"@type":"Organization","name":"Plurank"},
+  "name": "Plurank — AI 인용 예측 마케팅 인텔리전스",
+  "description": "콘텐츠를 발행하기 전에 7개 AI 답변에 인용될 확률을 점수로 알려드리고, 12개국 12채널의 노출 격차를 시각화합니다.",
+  "areaServed": [{"@type":"Country","name":"KR"},{"@type":"Country","name":"US"},{"@type":"Country","name":"JP"},{"@type":"Country","name":"GB"},{"@type":"Country","name":"DE"},{"@type":"Country","name":"FR"},{"@type":"Country","name":"ES"},{"@type":"Country","name":"IT"},{"@type":"Country","name":"IN"},{"@type":"Country","name":"BR"},{"@type":"Country","name":"ID"},{"@type":"Country","name":"AE"}]
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"GEO가 SEO와 어떻게 다른가요?","acceptedAnswer":{"@type":"Answer","text":"SEO는 검색 1페이지에 노출될 확률을 다뤘다면, GEO는 ChatGPT·Claude·Perplexity 같은 AI 답변에 인용될 확률을 다룹니다."}},
+    {"@type":"Question","name":"Pluora 모델의 정확도는 어느 정도인가요?","acceptedAnswer":{"@type":"Answer","text":"매주 12개국에서 7개 AI 플랫폼 답변을 캡처한 30M+ 실증 데이터를 학습합니다. 평균 예측 오차(MAPE) 8.6% 수준."}},
+    {"@type":"Question","name":"왜 12개국을 동시에 측정하나요?","acceptedAnswer":{"@type":"Answer","text":"같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌 브랜드라면 12국 답변을 동시에 봐야 정확한 액션을 잡을 수 있습니다."}},
+    {"@type":"Question","name":"경쟁사와 무엇이 다른가요?","acceptedAnswer":{"@type":"Answer","text":"Brandwatch는 소셜만, Profound는 AI 검색만, 어센트는 검색 키워드만 봅니다. Plurank는 이 셋을 통합해 12국 12채널을 동시에, 발행 전 인용 확률까지 예측합니다."}},
+    {"@type":"Question","name":"도입까지 얼마나 걸리나요?","acceptedAnswer":{"@type":"Answer","text":"컨설팅 계약 후 다음 주부터 첫 5 Lens 리포트를 받으실 수 있습니다. SaaS는 2026 하반기 출시 예정."}},
+    {"@type":"Question","name":"무료 진단은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"콘텐츠 URL을 보내주시면 7개 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다. 약 3분 안에 결과 도착."}}
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -549,6 +592,70 @@ body::before {
   .gauge-arc-anim { stroke-dashoffset: 0 !important; }
 }
 
+/* ========== NEW SECTIONS — Fan-out / Build vs / 5 Lens / Partners / 4 Layer / FAQ ========== */
+.fanout-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.fanout-card { background: var(--bg); padding: 28px 24px; transition: background 0.2s ease; }
+.fanout-card:hover { background: var(--bg-soft); }
+.fanout-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.fanout-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--highlight); }
+.fanout-count { font-family: var(--f-display); font-weight: 300; font-size: 32px; letter-spacing: -0.025em; line-height: 1; font-variation-settings: "opsz" 96; }
+.fanout-card p { font-size: 13px; line-height: 1.55; color: var(--text-soft); }
+
+.compare-table { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.compare-row { display: grid; grid-template-columns: 1.2fr 1fr 1fr; align-items: center; padding: 18px 28px; border-bottom: 1px solid var(--border); font-size: 14px; gap: 16px; }
+.compare-row:last-child { border-bottom: none; }
+.compare-head { background: var(--bg-soft); font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.compare-row > div:first-child { color: var(--text-soft); }
+.compare-row > div:nth-child(2) { color: var(--text-mute); }
+.compare-us { color: var(--text); font-weight: 500; }
+.compare-us strong { color: var(--highlight); font-weight: 500; font-family: var(--f-display); font-style: italic; font-size: 16px; }
+
+.lens-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.lens-card { background: var(--bg); padding: 32px 22px; display: flex; flex-direction: column; gap: 10px; transition: background 0.2s ease; }
+.lens-card:hover { background: var(--bg-soft); }
+.lens-feature { background: var(--bg-soft); }
+.lens-num { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 4px; }
+.lens-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 20px; line-height: 1.2; letter-spacing: -0.015em; }
+.lens-tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.04em; color: var(--highlight); margin-bottom: 4px; }
+.lens-card p:not(.lens-tag) { font-size: 13px; line-height: 1.6; color: var(--text-soft); flex: 1; }
+.lens-badge { font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--highlight); padding: 2px 7px; border: 1px solid var(--highlight); border-radius: 999px; margin-left: 4px; vertical-align: 2px; display: inline-block; }
+
+.layer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.layer-card { background: var(--bg); padding: 32px 26px; display: flex; flex-direction: column; gap: 10px; }
+.layer-live { background: var(--bg-soft); }
+.layer-status { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--highlight); margin-bottom: 6px; }
+.layer-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 21px; line-height: 1.2; letter-spacing: -0.015em; }
+.layer-fit { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.04em; color: var(--text-mute); }
+.layer-card p:not(.layer-fit) { font-size: 13px; line-height: 1.6; color: var(--text-soft); flex: 1; }
+.layer-price { font-family: var(--f-mono); font-size: 11px; color: var(--text); padding-top: 14px; border-top: 1px solid var(--border); margin-top: auto; letter-spacing: 0.02em; }
+
+.partner-strip { margin-top: 56px; padding-top: 36px; border-top: 1px solid var(--border); }
+.partner-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 24px; }
+.partner-list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.partner-item { display: flex; gap: 14px; align-items: flex-start; }
+.partner-flag { font-size: 26px; line-height: 1; }
+.partner-info { display: flex; flex-direction: column; gap: 3px; }
+.partner-info strong { color: var(--text); font-family: var(--f-display); font-weight: 400; font-size: 16px; letter-spacing: -0.012em; }
+.partner-info span { font-size: 12px; color: var(--text-mute); line-height: 1.4; }
+
+.faq-list { display: flex; flex-direction: column; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.faq-item { background: var(--bg); transition: background 0.2s ease; }
+.faq-item summary { padding: 22px 28px; cursor: pointer; font-family: var(--f-display); font-weight: 400; font-size: 17px; letter-spacing: -0.012em; list-style: none; position: relative; padding-right: 60px; color: var(--text); }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; position: absolute; right: 28px; top: 50%; transform: translateY(-50%); font-size: 22px; font-family: var(--f-mono); color: var(--text-mute); }
+.faq-item[open] summary::after { content: "−"; }
+.faq-item[open] { background: var(--bg-soft); }
+.faq-item p { padding: 0 28px 22px; font-size: 14px; line-height: 1.7; color: var(--text-soft); }
+
+@media (max-width: 1100px) {
+  .fanout-grid, .layer-grid, .partner-list { grid-template-columns: repeat(2, 1fr); }
+  .lens-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 700px) {
+  .fanout-grid, .layer-grid, .partner-list, .lens-grid { grid-template-columns: 1fr; }
+  .compare-row { grid-template-columns: 1fr; gap: 6px; padding: 18px 20px; }
+}
+
 @media (max-width: 1100px) {
   .thesis-kpis { grid-template-columns: repeat(3, 1fr); }
   .insights-grid, .why-grid { grid-template-columns: repeat(2, 1fr); }
@@ -578,11 +685,11 @@ body::before {
   <div class="nav-inner">
     <div class="nav-brand">Plu<em>rank</em></div>
     <div class="nav-links">
-      <a href="#mission">Mission</a>
-      <a href="#thesis">Thesis</a>
+      <a href="#fan-out">Why</a>
+      <a href="#lens">5 Lens</a>
       <a href="#how">Pluora</a>
-      <a href="#insights">Insights</a>
-      <a href="#deliverables">Deliverables</a>
+      <a href="#engage">함께하기</a>
+      <a href="#faq">FAQ</a>
     </div>
     <div class="nav-meta">
       <a href="/ko.html" style="color:var(--text)">KO</a>
@@ -717,6 +824,53 @@ body::before {
   </div>
 </section>
 
+<!-- ===== FAN-OUT · 노출 분산 12+ ===== -->
+<section class="section" id="fan-out">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">왜 추적이 어려워졌는가</div>
+        <h2>옛날엔 <em>검색 1순위</em> 한 자리 — 지금은 <em>12+ 채널</em>이 동시에 답합니다.</h2>
+      </div>
+      <p class="section-lede">
+        한 사용자의 카테고리 질문에 ChatGPT 답변 · TikTok 추천 · Reddit 토론 · 매체 인용이 동시에 노출됩니다.
+        어디서 어떻게 보이는지 한 번에 추적하지 않으면 — <strong>마케팅 의사결정의 절반이 보이지 않게 됩니다.</strong>
+      </p>
+    </div>
+
+    <div class="fanout-grid">
+      <div class="fanout-card reveal">
+        <div class="fanout-head">
+          <span class="fanout-label">AI Search</span>
+          <span class="fanout-count">7</span>
+        </div>
+        <p>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</p>
+      </div>
+      <div class="fanout-card reveal reveal-d1">
+        <div class="fanout-head">
+          <span class="fanout-label">Social</span>
+          <span class="fanout-count">5</span>
+        </div>
+        <p>TikTok · YouTube · Instagram · X · Threads</p>
+      </div>
+      <div class="fanout-card reveal reveal-d2">
+        <div class="fanout-head">
+          <span class="fanout-label">Community</span>
+          <span class="fanout-count">5+</span>
+        </div>
+        <p>Reddit · Hacker News · Quora · G2 · Trustpilot</p>
+      </div>
+      <div class="fanout-card reveal reveal-d3">
+        <div class="fanout-head">
+          <span class="fanout-label">Media</span>
+          <span class="fanout-count">80+</span>
+        </div>
+        <p>Allure · TechCrunch · Mashable · IT조선 외 글로벌 80+ 매체</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== THESIS ===== -->
 <section class="section" id="thesis">
   <div class="container">
@@ -790,6 +944,104 @@ body::before {
         AI 검색 + 소셜 + 곧 도래할 Agentic Commerce — 모든 <strong>AI-mediated 채널의 노출·인용·추천</strong>을
         통합 예측하는 모델이 마케팅 인프라의 표준이 됩니다. 그래서 <strong>Pluora</strong>는
         단일 채널이 아닌 <strong>멀티시그널 통합 학습</strong>으로 만들어집니다.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BUILD vs PLURANK ===== -->
+<section class="section" id="build-vs">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Build vs Plurank · 비용·시간 비교</div>
+        <h2>직접 만들면 <em>1년</em>, Plurank를 쓰면 <em>다음 주</em>부터.</h2>
+      </div>
+      <p class="section-lede">
+        12국 12채널을 자체 추적하려면 워커 인프라 · 12국 ISP · 248개 피처 정규화 · 재학습 파이프라인까지 필요합니다.
+        ML 팀이 6~12개월 풀타임 투입해야 하는 인프라를 — <strong>Plurank는 구독으로 대체합니다.</strong>
+      </p>
+    </div>
+
+    <div class="compare-table reveal">
+      <div class="compare-row compare-head">
+        <div></div>
+        <div>직접 구축</div>
+        <div class="compare-us">Plurank</div>
+      </div>
+      <div class="compare-row">
+        <div>준비 기간</div>
+        <div>6~12개월</div>
+        <div class="compare-us"><strong>다음 주</strong>부터</div>
+      </div>
+      <div class="compare-row">
+        <div>연간 비용</div>
+        <div>3~5억원</div>
+        <div class="compare-us">구독료 (키워드 단위)</div>
+      </div>
+      <div class="compare-row">
+        <div>전담 인원</div>
+        <div>2~3명 (ML 엔지니어 포함)</div>
+        <div class="compare-us"><strong>0명</strong></div>
+      </div>
+      <div class="compare-row">
+        <div>12국 ISP IP 인프라</div>
+        <div>별도 구축</div>
+        <div class="compare-us">기본 포함</div>
+      </div>
+      <div class="compare-row">
+        <div>주간 자동 갱신 · 재학습</div>
+        <div>별도 파이프라인</div>
+        <div class="compare-us">기본 포함</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5 LENS ===== -->
+<section class="section" id="lens">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">5 Lens · 우리가 보여드리는 것</div>
+        <h2>당신 브랜드가 <em>어디서 어떻게</em> 보이는지<br>5가지 시점으로 봅니다.</h2>
+      </div>
+      <p class="section-lede">
+        검색·SNS·커뮤니티·매체에 흩어진 신호를 5가지 분석 도구로 모아,
+        <strong>지금 무엇이 효과적인지</strong> · <strong>무엇을 보강해야 점수가 오를지</strong>를 데이터로 알려드립니다.
+      </p>
+    </div>
+
+    <div class="lens-grid">
+      <div class="lens-card reveal">
+        <div class="lens-num">01</div>
+        <h3>CitationLens</h3>
+        <div class="lens-tag">7가지 AI 답변 안에서</div>
+        <p>당신 브랜드가 어떤 단어로, 어디 위치에 인용되는지 매주 캡처합니다.</p>
+      </div>
+      <div class="lens-card lens-feature reveal reveal-d1">
+        <div class="lens-num">02</div>
+        <h3>PlatformLens<span class="lens-badge">Only Plurank</span></h3>
+        <div class="lens-tag">12채널 중 가장 효과적인 곳</div>
+        <p>같은 키워드에 대해 ChatGPT가 잘 인용하는지, TikTok이 더 잘 노출되는지 — 트래픽이 모이는 채널을 알려드립니다.</p>
+      </div>
+      <div class="lens-card lens-feature reveal reveal-d2">
+        <div class="lens-num">03</div>
+        <h3>GeoLens<span class="lens-badge">Only Plurank</span></h3>
+        <div class="lens-tag">12개국별 격차</div>
+        <p>한국에서 잘 보이는데 일본에선 안 보이는 이유, 미국에서 경쟁사가 앞서는 지점을 한눈에 보여드립니다.</p>
+      </div>
+      <div class="lens-card reveal reveal-d3">
+        <div class="lens-num">04</div>
+        <h3>SourceLens</h3>
+        <div class="lens-tag">AI가 인용한 매체·커뮤</div>
+        <p>Reddit · Hacker News · Allure 등 AI가 어디서 답을 가져오는지 — PR · 기고 우선순위를 잡아드립니다.</p>
+      </div>
+      <div class="lens-card reveal reveal-d4">
+        <div class="lens-num">05</div>
+        <h3>BoostLens</h3>
+        <div class="lens-tag">"이 부분 보강 시 +N pt"</div>
+        <p>발행 전 콘텐츠를 입력하면 어떤 부분(스키마 · 출처 · 구조)을 보강해야 점수가 얼마나 오를지 미리 시뮬레이션합니다.</p>
       </div>
     </div>
   </div>
@@ -999,6 +1251,29 @@ body::before {
         <div class="trust-num" data-count="97.1" data-decimals="1">97.1</div>
         <div class="trust-label">평균 GEO 점수</div>
         <div class="trust-desc">12개 카테고리 · 192건 발행 콘텐츠</div>
+      </div>
+    </div>
+
+    <!-- 글로벌 파트너 -->
+    <div class="partner-strip reveal">
+      <div class="partner-label">Global · 함께하는 파트너</div>
+      <div class="partner-list">
+        <div class="partner-item">
+          <span class="partner-flag">🇰🇷</span>
+          <div class="partner-info"><strong>한국 15+ 파트너</strong><span>어센트 AI · Samsung 계열 · 의료기관 외</span></div>
+        </div>
+        <div class="partner-item">
+          <span class="partner-flag">🇯🇵</span>
+          <div class="partner-info"><strong>토쿠야마 상사</strong><span>일본 소비재 유통 거점</span></div>
+        </div>
+        <div class="partner-item">
+          <span class="partner-flag">🇫🇷</span>
+          <div class="partner-info"><strong>Kozy.care</strong><span>유럽 웰니스 시장</span></div>
+        </div>
+        <div class="partner-item">
+          <span class="partner-flag">🇺🇸</span>
+          <div class="partner-info"><strong>BridgeLeaf</strong><span>미국 GTM 파트너</span></div>
+        </div>
       </div>
     </div>
   </div>
@@ -1230,6 +1505,91 @@ body::before {
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW WE WORK · 4 LAYER ===== -->
+<section class="section" id="engage">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">How We Work · 함께하는 4가지 방법</div>
+        <h2>지금 바로 시작할 수도, <em>전사 시스템</em>에 연결할 수도 있습니다.</h2>
+      </div>
+      <p class="section-lede">
+        팀 규모와 목표에 맞춰 <strong>컨설팅 · SaaS · API · AI 에이전트</strong> 4개 진입점을 단계별로 제공합니다.
+      </p>
+    </div>
+
+    <div class="layer-grid">
+      <div class="layer-card layer-live reveal">
+        <div class="layer-status">Live · 지금 시작</div>
+        <h3>Consulting</h3>
+        <p class="layer-fit">엔터프라이즈 · 글로벌 브랜드</p>
+        <p>저희 팀이 직접 <strong style="color:var(--text);">5 Lens 분석 + 액션 가이드</strong>를 매주 전달합니다. 가장 빠르게 결과를 보고 싶을 때.</p>
+        <div class="layer-price">초기 6,000만 + 월 700~800만</div>
+      </div>
+      <div class="layer-card reveal reveal-d1">
+        <div class="layer-status">2026 H2</div>
+        <h3>Plurank.app · SaaS</h3>
+        <p class="layer-fit">중견 · 중소 / 마케팅 팀</p>
+        <p>5 Lens를 셀프서비스로 사용. 키워드를 입력하면 점수와 가이드가 자동 출력됩니다.</p>
+        <div class="layer-price">월 구독 (Entry · Growth · Enterprise)</div>
+      </div>
+      <div class="layer-card reveal reveal-d2">
+        <div class="layer-status">2027</div>
+        <h3>Plurank API + MCP · DaaS</h3>
+        <p class="layer-fit">대기업 / AI 엔지니어링 팀</p>
+        <p>인용·추천 데이터를 사내 AI 시스템에 직접 공급합니다. 전사 인텔리전스 인프라.</p>
+        <div class="layer-price">별도 견적</div>
+      </div>
+      <div class="layer-card reveal reveal-d3">
+        <div class="layer-status">2028</div>
+        <h3>Plurank.AI / .TEAM · Agent</h3>
+        <p class="layer-fit">모든 기업</p>
+        <p>분석·시뮬·콘텐츠 생성을 자율 에이전트가 수행. CMO Agent가 팀을 리드합니다.</p>
+        <div class="layer-price">사전 등록</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head reveal" style="grid-template-columns:1fr;margin-bottom:48px;">
+      <div>
+        <div class="eyebrow">FAQ · 자주 묻는 질문</div>
+        <h2><em>Plurank</em>에 대해 가장 많이 묻는 6가지.</h2>
+      </div>
+    </div>
+
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>GEO가 SEO와 어떻게 다른가요?</summary>
+        <p>SEO는 "검색 1페이지에 노출될 확률"을 다뤘다면, GEO는 <strong>"ChatGPT · Claude · Perplexity 같은 AI 답변에 인용될 확률"</strong>을 다룹니다. AI가 검색 결과를 요약해 답변을 생성하는 시대에는, 검색 순위보다 인용되는 출처가 되는 것이 더 중요합니다.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Pluora 모델의 정확도는 어느 정도인가요?</summary>
+        <p>매주 12개국에서 60대 워커가 7개 AI 플랫폼 답변을 캡처한 <strong>30M+ "발행↔인용" 실증 데이터</strong>를 학습합니다. 평균 예측 오차(MAPE) 8.6%로 업계 표준 정확도 수준입니다.</p>
+      </details>
+      <details class="faq-item">
+        <summary>왜 12개국을 동시에 측정하나요?</summary>
+        <p>같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌로 콘텐츠를 발행하는 브랜드라면 <strong>12국 답변을 동시에 봐야</strong> 정확한 액션을 잡을 수 있습니다.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Brandwatch · Profound · 어센트와 무엇이 다른가요?</summary>
+        <p>Brandwatch는 소셜만, Profound는 AI 검색만, 어센트는 검색 키워드만 봅니다. Plurank는 <strong>이 셋을 통합해 12국 12채널을 동시에</strong> 보고, 발행 전 인용 확률까지 예측하는 단일 모델을 운영합니다.</p>
+      </details>
+      <details class="faq-item">
+        <summary>도입까지 얼마나 걸리나요?</summary>
+        <p>컨설팅 계약 후 <strong>다음 주부터</strong> 첫 5 Lens 리포트를 받으실 수 있습니다. SaaS는 2026 하반기 출시 예정이며, 그 이후엔 키워드 입력만으로 즉시 사용 가능합니다.</p>
+      </details>
+      <details class="faq-item">
+        <summary>무료 진단은 무엇인가요?</summary>
+        <p>발행 예정 또는 기존 콘텐츠 URL을 보내주시면 <strong>7개 AI 플랫폼별 인용 확률 + 점수 개선 가이드</strong>를 무료로 보내드립니다. 약 3분 안에 결과 도착.</p>
+      </details>
     </div>
   </div>
 </section>
