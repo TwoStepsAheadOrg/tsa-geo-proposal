@@ -3,17 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GeoRank24 — AI引用予測エンジン</title>
-<meta name="description" content="AIはすべてのコンテンツを引用しません。その差を、私たちが学習します。世界初のGEO最適化AIモデル企業。">
-<meta property="og:title" content="GeoRank24 — AI引用予測エンジン">
-<meta property="og:description" content="AIはすべてのコンテンツを引用しません。その差を、私たちが学習します。">
-<meta property="og:image" content="/og-image.png">
-<meta property="og:type" content="website">
+<title>Plurank — AI検索時代のマーケティング予測エンジン</title>
+<meta name="description" content="AIが次に誰を推薦するかを予測するマーケティングAIモデル。7つのAI検索 + 5つのSNS × 12カ国、実ブラウザデータで学習。">
+<meta name="keywords" content="GEO, GEO最適化, AI検索最適化, マーケティングインテリジェンス, ChatGPT引用, Perplexity, Pluora, Plurank, AIマーケティング予測">
+<meta name="author" content="TwoStepsAhead">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="canonical" href="https://www.georank24.com/ja.html">
 <link rel="alternate" hreflang="ko" href="https://www.georank24.com/ko.html">
 <link rel="alternate" hreflang="en" href="https://www.georank24.com/en.html">
 <link rel="alternate" hreflang="ja" href="https://www.georank24.com/ja.html">
 <link rel="alternate" hreflang="x-default" href="https://www.georank24.com/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314B8A6'/%3E%3Cstop offset='1' stop-color='%23A78BFA'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='50' y='66' text-anchor='middle' fill='white' font-family='Inter,sans-serif' font-weight='900' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Plurank — AI検索時代のマーケティング予測エンジン">
+<meta property="og:description" content="AIが次に誰を推薦するかを予測するマーケティングAIモデル。7つのAI検索 + 5つのSNS × 12カ国。">
+<meta property="og:url" content="https://www.georank24.com/ja.html">
+<meta property="og:site_name" content="Plurank">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://www.georank24.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Plurank — AI検索時代のマーケティング予測エンジン">
+<meta name="twitter:description" content="AIが次に誰を推薦するかを予測するマーケティングAIモデル。">
+<meta name="twitter:image" content="https://www.georank24.com/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23f5f5f5'/%3E%3Ctext x='50' y='66' text-anchor='middle' fill='%230a0a0a' font-family='Fraunces,Georgia,serif' font-style='italic' font-weight='400' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
 
 <!-- Vercel Web Analytics -->
 <script defer src="/_vercel/insights/script.js"></script>
@@ -24,2345 +36,679 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
 
 <style>
 :root {
-  --bg: #0A0A0F;
-  --bg-soft: #12121A;
-  --surface: #1A1A24;
-  --surface-2: #22222E;
+  --bg: #0a0a0a;
+  --bg-soft: #101010;
+  --bg-soft-2: #131313;
+  --surface: #161616;
+  --surface-2: #1c1c1c;
   --border: rgba(255,255,255,0.08);
-  --border-soft: rgba(255,255,255,0.04);
-  --border-strong: rgba(255,255,255,0.14);
-  --text: #F5F5F7;
-  --text-soft: #B4B4C0;
-  --text-mute: #6B6B7A;
-  --teal: #14B8A6;
-  --teal-light: #2DD4BF;
-  --teal-dark: #0D9488;
-  --purple: #A78BFA;
-  --purple-light: #C4B5FD;
-  --purple-dark: #7C3AED;
-  --amber: #F59E0B;
-  --rose: #F43F5E;
-  --f-sans: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
-  --f-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
-  --max: 1280px;
+  --border-strong: rgba(255,255,255,0.16);
+  --text: #f5f5f5;
+  --text-soft: rgba(255,255,255,0.72);
+  --text-mute: rgba(255,255,255,0.46);
+  --text-faint: rgba(255,255,255,0.28);
+  --warm: #d6d3c7;
+  --warm-soft: #b8b3a3;
+  --highlight: #f59e0b;
+  --max: 1200px;
+  --max-narrow: 880px;
+  --f-display: 'Fraunces', 'Noto Serif KR', Georgia, serif;
+  --f-sans: 'Geist', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-mono: 'Geist Mono', 'SF Mono', monospace;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--f-sans);
   background: var(--bg);
   color: var(--text);
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  font-feature-settings: "ss01", "cv11";
 }
-::selection { background: var(--teal); color: var(--bg); }
+::selection { background: var(--text); color: var(--bg); }
+a { color: inherit; text-decoration: none; }
+img, svg { display: block; max-width: 100%; }
 
-/* ===== COSMIC BACKGROUND (fixed, parallax) ===== */
-.cosmic-bg {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse at top, #14141C 0%, var(--bg) 60%),
-    var(--bg);
-  overflow: hidden;
-}
-.cosmic-video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.62;
-  filter: saturate(1.15) contrast(1.05) hue-rotate(-8deg);
-  mix-blend-mode: screen;
-}
-.cosmic-overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(10,10,15,0) 0%, rgba(10,10,15,0.65) 100%),
-    linear-gradient(180deg, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.7) 100%);
-  pointer-events: none;
-}
-.cosmic-nebula {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.32;
-  will-change: transform;
-  mix-blend-mode: screen;
-}
-.nebula-1 {
-  width: 50vw; height: 50vw;
-  top: -8%; left: -8%;
-  background: radial-gradient(circle, rgba(20,184,166,0.45) 0%, transparent 65%);
-  animation: nebulaFloat1 38s ease-in-out infinite alternate;
-}
-.nebula-2 {
-  width: 45vw; height: 45vw;
-  bottom: -12%; right: -8%;
-  background: radial-gradient(circle, rgba(167,139,250,0.4) 0%, transparent 65%);
-  animation: nebulaFloat2 42s ease-in-out infinite alternate;
-}
-@keyframes nebulaFloat1 {
-  0%   { transform: translate3d(0, 0, 0) scale(1); }
-  100% { transform: translate3d(8%, 6%, 0) scale(1.15); }
-}
-@keyframes nebulaFloat2 {
-  0%   { transform: translate3d(0, 0, 0) scale(1); }
-  100% { transform: translate3d(-10%, -8%, 0) scale(1.18); }
-}
-#cosmic-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.cosmic-stars {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
+body::before {
+  content: "";
+  position: fixed; inset: 0;
   background-image:
-    radial-gradient(1.5px 1.5px at 12% 23%, rgba(255,255,255,0.85) 0%, transparent 100%),
-    radial-gradient(1px 1px at 28% 8%, rgba(255,255,255,0.7) 0%, transparent 100%),
-    radial-gradient(1.2px 1.2px at 45% 60%, rgba(45,212,191,0.9) 0%, transparent 100%),
-    radial-gradient(0.8px 0.8px at 67% 18%, rgba(255,255,255,0.6) 0%, transparent 100%),
-    radial-gradient(1.4px 1.4px at 80% 73%, rgba(196,181,253,0.85) 0%, transparent 100%),
-    radial-gradient(1px 1px at 92% 38%, rgba(255,255,255,0.55) 0%, transparent 100%),
-    radial-gradient(1.6px 1.6px at 7% 78%, rgba(45,212,191,0.7) 0%, transparent 100%),
-    radial-gradient(0.9px 0.9px at 35% 90%, rgba(255,255,255,0.5) 0%, transparent 100%),
-    radial-gradient(1.1px 1.1px at 55% 38%, rgba(255,255,255,0.6) 0%, transparent 100%);
-  background-size: 100% 100%;
-  animation: starsTwinkle 6s ease-in-out infinite alternate;
-}
-@keyframes starsTwinkle {
-  0%   { opacity: 0.6; }
-  50%  { opacity: 1.0; }
-  100% { opacity: 0.7; }
-}
-.cosmic-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
-  background-size: 70px 70px;
-  mask-image: radial-gradient(ellipse at center, black 25%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse at center, black 25%, transparent 80%);
-  opacity: 0.5;
-}
-.cosmic-vignette {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(10,10,15,0.7) 0%, transparent 60%),
-    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(10,10,15,0.5) 0%, transparent 60%);
-}
-.cosmic-noise {
-  position: absolute;
-  inset: 0;
-  opacity: 0.04;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
-  mix-blend-mode: overlay;
+    radial-gradient(circle at 25% 18%, rgba(255,255,255,0.022) 0%, transparent 45%),
+    radial-gradient(circle at 78% 72%, rgba(255,255,255,0.018) 0%, transparent 50%);
+  pointer-events: none; z-index: 0;
 }
 
-/* ensure all sections render above cosmic */
-.nav, section, footer { position: relative; z-index: 1; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
+.container-narrow { max-width: var(--max-narrow); margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
 
-/* ===== NAV ===== */
-.nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  padding: 14px 28px;
-  background: rgba(10,10,15,0.65);
-  backdrop-filter: blur(24px) saturate(160%);
-  -webkit-backdrop-filter: blur(24px) saturate(160%);
-  border-bottom: 1px solid var(--border-soft);
-}
-.nav-inner {
-  max-width: var(--max);
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-brand {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  font-weight: 800;
-  font-size: 17px;
-  letter-spacing: -0.5px;
-  color: var(--text);
-  text-decoration: none;
-}
-.nav-brand-mark {
-  width: 24px; height: 24px;
-  border-radius: 7px;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--purple) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 900;
-  font-size: 13px;
+/* ========== EYEBROW / SECTION HEAD ========== */
+.eyebrow {
   font-family: var(--f-mono);
-  box-shadow: 0 4px 14px rgba(20,184,166,0.3);
-}
-.nav-links {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-.nav-links a {
-  color: var(--text-soft);
-  text-decoration: none;
-  font-size: 13.5px;
+  font-size: 11px;
   font-weight: 500;
-  transition: color 0.15s;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  display: inline-flex; align-items: center; gap: 12px;
 }
-.nav-links a:hover { color: var(--text); }
-.nav-cta {
-  padding: 9px 18px;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
-  border-radius: 8px;
-  color: white !important;
-  font-weight: 700 !important;
-  font-size: 13px !important;
-  transition: transform 0.18s, box-shadow 0.18s;
-}
-.nav-cta:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 28px rgba(20,184,166,0.45);
-}
-.nav-lang {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-left: 6px;
-  padding-left: 14px;
-  border-left: 1px solid var(--border);
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 1px;
-}
-.nav-lang a {
-  padding: 4px 7px;
-  border-radius: 5px;
-  color: var(--text-mute) !important;
-  font-weight: 600 !important;
-  font-size: 11px !important;
-}
-.nav-lang a:hover { color: var(--text-soft) !important; background: rgba(255,255,255,0.04); }
-.nav-lang a.active { color: var(--teal-light) !important; background: rgba(20,184,166,0.1); }
+.eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; }
 
-/* ===== HERO ===== */
-.hero {
-  position: relative;
-  min-height: 100vh;
-  padding: 130px 28px 80px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-.hero-inner {
-  position: relative;
-  z-index: 2;
-  max-width: var(--max);
-  margin: 0 auto;
-  width: 100%;
+.section-head {
   display: grid;
-  grid-template-columns: 1.05fr 1fr;
+  grid-template-columns: 1fr 1.4fr;
   gap: 80px;
-  align-items: center;
+  margin-bottom: 80px;
+  align-items: end;
 }
-
-.hero-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 14px;
-  background: rgba(20,184,166,0.08);
-  border: 1px solid rgba(20,184,166,0.25);
-  border-radius: 999px;
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  color: var(--teal-light);
-  margin-bottom: 26px;
-  animation: fadeUp 0.8s ease-out 0.1s both;
-}
-.hero-eyebrow-dot {
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--teal);
-  box-shadow: 0 0 10px var(--teal);
-  animation: dotPulse 2s ease-in-out infinite;
-}
-@keyframes dotPulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(1.5); }
-}
-
-.hero h1 {
-  font-size: 58px;
-  font-weight: 900;
-  line-height: 1.08;
-  letter-spacing: -2.2px;
-  margin-bottom: 24px;
-  animation: fadeUp 0.9s ease-out 0.2s both;
-}
-.hero h1 .h1-line {
-  display: block;
-  white-space: normal;
-  overflow: visible;
-  min-height: 1em;
-}
-.hero h1 .gradient-text {
-  background: linear-gradient(110deg, var(--teal-light) 0%, var(--purple-light) 60%, var(--teal-light) 100%);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientShift 4s linear infinite;
-}
-@keyframes gradientShift {
-  to { background-position: 200% center; }
-}
-.kinetic-word {
-  position: relative;
-  display: inline-block;
-  min-width: 4ch;
-}
-
-.hero-sub {
-  font-size: 18px;
-  font-weight: 400;
-  color: var(--text-soft);
-  line-height: 1.6;
-  margin-bottom: 36px;
-  max-width: 560px;
-  animation: fadeUp 1s ease-out 0.35s both;
-}
-.hero-sub strong { color: var(--text); font-weight: 600; }
-
-.hero-cta-row {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 38px;
-  animation: fadeUp 1s ease-out 0.5s both;
-  flex-wrap: wrap;
-}
-.btn-primary {
-  padding: 14px 26px;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 14.5px;
-  font-weight: 700;
-  letter-spacing: -0.2px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: transform 0.18s, box-shadow 0.18s;
-  font-family: var(--f-sans);
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(20,184,166,0.5);
-}
-.btn-primary svg { transition: transform 0.18s; }
-.btn-primary:hover svg { transform: translateX(3px); }
-
-.btn-secondary {
-  padding: 14px 26px;
-  background: rgba(255,255,255,0.04);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  font-size: 14.5px;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: background 0.18s, transform 0.18s, border-color 0.18s;
-  font-family: var(--f-sans);
-}
-.btn-secondary:hover {
-  background: rgba(255,255,255,0.08);
-  border-color: var(--border-strong);
-  transform: translateY(-2px);
-}
-
-.hero-trust {
-  display: flex;
-  gap: 28px;
-  font-size: 12.5px;
-  color: var(--text-mute);
-  font-family: var(--f-mono);
-  flex-wrap: wrap;
-  animation: fadeUp 1s ease-out 0.65s both;
-}
-.hero-trust strong { color: var(--text-soft); font-weight: 600; }
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* ===== AI STREAM (Hero Right) ===== */
-.ai-stream {
-  position: relative;
-  background: rgba(26,26,36,0.7);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 22px;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
-  animation: fadeUp 1.2s ease-out 0.4s both;
-}
-.ai-stream::before {
-  content: '';
-  position: absolute;
-  inset: -1px;
-  border-radius: 18px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(20,184,166,0.55) 0%, rgba(167,139,250,0.4) 50%, transparent 100%);
-  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  -webkit-mask-composite: xor;
-  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  mask-composite: exclude;
-  pointer-events: none;
-}
-
-.ai-stream-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
-  padding-bottom: 12px;
-  border-bottom: 1px dashed var(--border);
-}
-.ai-stream-title {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: var(--text-mute);
-  text-transform: uppercase;
-}
-.ai-stream-status {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--f-mono);
-  font-size: 10px;
-  color: var(--teal-light);
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-.ai-stream-status::before {
-  content: '';
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--teal);
-  box-shadow: 0 0 8px var(--teal);
-  animation: dotPulse 1.5s ease-in-out infinite;
-}
-
-.ai-stream-prompt {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 13px 16px;
-  background: var(--bg);
-  border-radius: 10px;
-  border: 1px solid var(--border-soft);
-  margin-bottom: 14px;
-  font-family: var(--f-mono);
-  font-size: 13px;
-  color: var(--text);
-}
-.ai-stream-prompt-icon {
-  width: 18px; height: 18px;
-  border-radius: 5px;
-  background: linear-gradient(135deg, var(--teal), var(--purple));
-  flex-shrink: 0;
-  box-shadow: 0 0 12px rgba(20,184,166,0.4);
-}
-.ai-stream-prompt-text { flex: 1; min-height: 14px; }
-.ai-stream-prompt-cursor {
-  width: 2px;
-  height: 14px;
-  background: var(--teal);
-  animation: blink 1s step-end infinite;
-}
-@keyframes blink { 50% { opacity: 0; } }
-
-.ai-platforms {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.ai-platform {
-  background: var(--bg-soft);
-  border: 1px solid var(--border-soft);
-  border-radius: 10px;
-  padding: 9px 12px;
-  display: grid;
-  grid-template-columns: 24px 1fr auto;
-  gap: 11px;
-  align-items: start;
-  transition: border-color 0.4s, background 0.4s, transform 0.3s;
-  position: relative;
-  overflow: hidden;
-}
-.ai-platform.active {
-  border-color: rgba(20,184,166,0.35);
-  background: rgba(20,184,166,0.04);
-}
-.ai-platform.done {
-  border-color: var(--border);
-  background: var(--bg-soft);
-}
-.ai-platform::after {
-  content: '';
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 2px;
-  background: var(--teal);
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 0.3s;
-}
-.ai-platform.active::after { transform: scaleY(1); }
-
-.ai-platform-logo {
-  width: 24px; height: 24px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-.ai-platform-logo svg { width: 14px; height: 14px; display: block; }
-.ai-platform-divider {
-  font-family: var(--f-mono);
-  font-size: 9.5px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: var(--text-mute);
-  padding: 8px 4px 4px;
-  margin-top: 4px;
-  border-top: 1px dashed var(--border);
-  text-transform: uppercase;
-}
-.ai-platform-body { min-width: 0; }
-.ai-platform-name {
-  font-size: 10.5px;
-  color: var(--text-mute);
-  font-family: var(--f-mono);
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 3px;
-}
-.ai-platform-answer {
-  font-size: 12.5px;
-  color: var(--text-soft);
-  line-height: 1.45;
-  min-height: 18px;
-}
-.ai-platform-rank {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 700;
-  padding: 4px 9px;
-  border-radius: 5px;
-  flex-shrink: 0;
-  margin-top: 1px;
-  letter-spacing: 0.3px;
-  transition: background 0.4s, color 0.4s;
-}
-.rank-good   { background: rgba(20,184,166,0.18); color: var(--teal-light); }
-.rank-bad    { background: rgba(245,158,11,0.18); color: var(--amber); }
-.rank-pending{ background: rgba(255,255,255,0.04); color: var(--text-mute); }
-
-.ai-stream-footer {
-  margin-top: 16px;
-  padding-top: 14px;
-  border-top: 1px dashed var(--border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--f-mono);
-  font-size: 10.5px;
-  color: var(--text-mute);
-}
-.ai-stream-footer strong {
-  color: var(--teal-light);
-  font-weight: 700;
-}
-
-@media (max-width: 1024px) {
-  .hero-inner { grid-template-columns: 1fr; gap: 56px; }
-  .hero h1 { font-size: 46px; letter-spacing: -1.8px; }
-  .nav-links a:not(.nav-cta) { display: none; }
-}
-@media (max-width: 640px) {
-  .hero { padding: 110px 20px 60px; }
-  .hero h1 { font-size: 34px; letter-spacing: -1.4px; }
-  .hero-sub { font-size: 15.5px; }
-  .ai-stream { padding: 18px; }
-  .hero-trust { font-size: 11.5px; gap: 16px; }
-}
-
-/* ===== COMMON SECTION ===== */
-.section {
-  position: relative;
-  padding: 130px 28px;
-  border-top: 1px solid var(--border-soft);
-  background: rgba(10,10,15,0.92);
-  backdrop-filter: blur(20px) saturate(120%);
-  -webkit-backdrop-filter: blur(20px) saturate(120%);
-}
-/* The first section after hero gets a smooth gradient transition */
-.section.section-demo {
-  background: linear-gradient(180deg, rgba(10,10,15,0.7) 0%, rgba(10,10,15,0.95) 60%);
-}
-.section-inner { max-width: var(--max); margin: 0 auto; position: relative; z-index: 1; }
-.section-head { text-align: center; margin-bottom: 60px; }
-.section-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: var(--teal-light);
-  margin-bottom: 18px;
-  padding: 6px 14px;
-  background: rgba(20,184,166,0.08);
-  border: 1px solid rgba(20,184,166,0.25);
-  border-radius: 999px;
-}
-.section-title {
-  font-size: 46px;
-  font-weight: 900;
-  letter-spacing: -1.6px;
+.section h2 {
+  font-family: var(--f-display);
+  font-weight: 300;
+  font-size: clamp(32px, 4.4vw, 56px);
   line-height: 1.1;
-  margin-bottom: 18px;
+  letter-spacing: -0.022em;
+  font-variation-settings: "opsz" 96;
+  margin-top: 28px;
 }
-.section-sub {
+.section h2 em { font-style: italic; font-weight: 400; }
+.section h2 .mute { color: var(--text-mute); }
+.section-lede {
   font-size: 17px;
+  line-height: 1.7;
   color: var(--text-soft);
-  max-width: 660px;
-  margin: 0 auto;
-  line-height: 1.65;
+  max-width: 560px;
+  font-weight: 400;
 }
+.section-lede strong { color: var(--text); font-weight: 500; }
 
-/* Reveal on scroll */
-.reveal {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-.reveal.in { opacity: 1; transform: translateY(0); }
+.section { padding: 120px 0; border-bottom: 1px solid var(--border); position: relative; z-index: 1; }
+.section-tight { padding: 96px 0; }
 
-/* ===== CARDS ===== */
-.card {
-  position: relative;
-  background: rgba(26,26,36,0.7);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 26px;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-.card-glow::before {
-  content: '';
-  position: absolute;
-  inset: -1px;
-  border-radius: 18px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(20,184,166,0.55) 0%, rgba(167,139,250,0.4) 50%, transparent 100%);
-  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  -webkit-mask-composite: xor;
-  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  mask-composite: exclude;
-  pointer-events: none;
-}
-.card-wide { grid-column: 1 / -1; }
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 22px;
-  padding-bottom: 14px;
-  border-bottom: 1px dashed var(--border);
-}
-.card-label {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: var(--text-mute);
-  text-transform: uppercase;
-}
-.card-tag {
-  font-family: var(--f-mono);
-  font-size: 10px;
-  color: var(--teal-light);
-  font-weight: 600;
-  padding: 4px 10px;
-  background: rgba(20,184,166,0.1);
-  border: 1px solid rgba(20,184,166,0.25);
-  border-radius: 5px;
-  letter-spacing: 0.5px;
-}
-
-/* ===== Demo Grid (Phase 2A) ===== */
-.demo-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-
-/* Gauge */
-.gauge-wrap {
-  position: relative;
-  text-align: center;
-  margin: 8px 0 4px;
-  padding: 0 12px;
-}
-.gauge { width: 100%; max-width: 280px; height: auto; display: block; margin: 0 auto; }
-.gauge-trend {
-  font-family: var(--f-mono);
-  font-size: 12px;
-  color: var(--teal-light);
-  font-weight: 600;
-  margin-top: 4px;
-  letter-spacing: 0.3px;
-}
-
-/* Sparkline */
-.sparkline-wrap {
-  margin-top: 18px;
-  padding-top: 18px;
-  border-top: 1px dashed var(--border);
-}
-.sparkline-label {
-  font-family: var(--f-mono);
-  font-size: 10px;
-  letter-spacing: 1.5px;
-  color: var(--text-mute);
-  text-transform: uppercase;
-  margin-bottom: 8px;
-  display: block;
-}
-.sparkline { width: 100%; height: 50px; display: block; }
-
-/* Neural / Model card */
-.neural { width: 100%; height: 220px; display: block; }
-.model-tagline {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  line-height: 1.6;
-  text-align: center;
-  padding: 14px 12px 4px;
-  font-family: var(--f-sans);
-}
-.model-tagline strong {
-  color: var(--text);
-  font-weight: 600;
-  background: linear-gradient(180deg, transparent 70%, rgba(20,184,166,0.2) 70%);
-  padding: 0 2px;
-}
-.neural-meta {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 8px;
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px dashed var(--border);
-}
-.neural-meta div { text-align: center; }
-.neural-meta span {
-  display: block;
-  font-family: var(--f-mono);
-  font-size: 10px;
-  color: var(--text-mute);
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-.neural-meta strong { font-size: 17px; color: var(--teal-light); font-weight: 800; font-family: var(--f-mono); }
-
-/* Metrics */
-.metrics-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 24px;
-}
-.metric { text-align: center; }
-.metric-num {
-  font-family: var(--f-mono);
-  font-size: 50px;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--teal-light), var(--purple-light));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -2.5px;
-  margin-bottom: 6px;
-  line-height: 1;
-}
-.metric-label {
-  font-size: 13px;
-  color: var(--text-soft);
-}
-
-/* ===== Why ===== */
-.why-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 18px;
-}
-.why-card {
-  background: rgba(26,26,36,0.7);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 32px 28px;
-  transition: transform 0.25s, border-color 0.25s, background 0.25s;
-}
-.why-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(20,184,166,0.4);
-  background: rgba(26,26,36,0.85);
-}
-.why-icon {
-  width: 56px;
-  height: 56px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, rgba(20,184,166,0.18), rgba(167,139,250,0.12));
-  border: 1px solid rgba(20,184,166,0.3);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 18px;
-}
-.why-card h3 {
-  font-size: 21px;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-  margin-bottom: 12px;
-}
-.why-card p {
-  font-size: 14.5px;
-  color: var(--text-soft);
-  line-height: 1.65;
-  margin-bottom: 16px;
-}
-.why-card p strong { color: var(--text); font-weight: 600; }
-.why-meta {
-  font-family: var(--f-mono);
-  font-size: 11.5px;
-  color: var(--teal-light);
-  letter-spacing: 0.5px;
-  padding-top: 14px;
-  border-top: 1px dashed var(--border);
-}
-
-/* ===== Engine Flow ===== */
-.engine-flow {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
-  gap: 14px;
-  align-items: stretch;
-}
-.engine-step {
-  background: rgba(26,26,36,0.7);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 26px 22px;
-  position: relative;
-  transition: transform 0.25s, border-color 0.25s;
-}
-.engine-step:hover { transform: translateY(-4px); border-color: rgba(20,184,166,0.4); }
-.engine-step-last {
-  background: linear-gradient(135deg, rgba(20,184,166,0.14), rgba(167,139,250,0.08));
-  border-color: rgba(20,184,166,0.5);
-  box-shadow: 0 12px 32px rgba(20,184,166,0.18);
-}
-.engine-step-num {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 1.8px;
-  color: var(--teal-light);
-  font-weight: 600;
-  margin-bottom: 14px;
-  padding-bottom: 12px;
+/* ========== NAV ========== */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  padding: 22px 32px;
+  background: rgba(10,10,10,0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  display: block;
 }
-.engine-step h3 {
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: -0.3px;
-  margin-bottom: 8px;
+.nav-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.nav-brand {
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: -0.012em;
 }
-.engine-step p {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  line-height: 1.55;
-  margin-bottom: 14px;
-}
-.engine-step-meta {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  color: var(--text-mute);
-  padding-top: 12px;
-  border-top: 1px dashed var(--border);
-  letter-spacing: 0.3px;
-}
-.engine-step-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--teal);
-  font-size: 20px;
-  font-family: var(--f-mono);
-  font-weight: 700;
-}
-
-/* ===== Trust ===== */
-.trust-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 18px;
-}
-.trust-card {
-  background: rgba(26,26,36,0.7);
+.nav-brand em { font-style: italic; font-weight: 400; color: var(--text-soft); }
+.nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.nav-links a { transition: color 0.2s ease; }
+.nav-links a:hover { color: var(--text); }
+.nav-meta { display: flex; align-items: center; gap: 16px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-mute); }
+.nav-pill {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 5px 11px;
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 32px 24px;
-  text-align: center;
-  transition: transform 0.25s, border-color 0.25s;
+  border-radius: 999px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
 }
-.trust-card:hover { transform: translateY(-3px); }
-.trust-card-feature {
-  background: linear-gradient(135deg, rgba(20,184,166,0.12), rgba(167,139,250,0.06));
-  border-color: rgba(20,184,166,0.4);
-  box-shadow: 0 16px 40px rgba(20,184,166,0.18);
+.nav-pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--highlight); }
+@media (max-width: 900px) { .nav-links { display: none; } }
+
+/* ========== BUTTONS ========== */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-family: var(--f-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
 }
-.trust-num {
-  font-family: var(--f-mono);
-  font-size: 52px;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--teal-light), var(--purple-light));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -2.5px;
-  margin-bottom: 8px;
-  line-height: 1;
+.btn-primary { background: var(--text); color: var(--bg); }
+.btn-primary:hover { background: #fff; transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+.btn-ghost:hover { border-color: var(--text); background: rgba(255,255,255,0.04); }
+.btn svg { width: 14px; height: 14px; }
+
+/* ========== HERO ========== */
+.hero { padding: 96px 0 100px; border-bottom: 1px solid var(--border); }
+.hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: start; }
+.hero h1 {
+  font-family: var(--f-display);
+  font-weight: 300;
+  font-size: clamp(40px, 5.6vw, 72px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  font-variation-settings: "opsz" 96;
+  margin-top: 32px;
 }
-.trust-label {
-  font-size: 14.5px;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 8px;
+.hero h1 .line { display: block; }
+.hero h1 em { font-style: italic; font-weight: 400; font-variation-settings: "opsz" 144; }
+.hero h1 .accent { color: var(--text-mute); }
+.hero-sub { margin-top: 36px; font-size: 17px; line-height: 1.7; color: var(--text-soft); max-width: 560px; }
+.hero-sub strong { color: var(--text); font-weight: 500; }
+.hero-cta { margin-top: 44px; display: flex; gap: 14px; flex-wrap: wrap; }
+.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.trust-item {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-mute);
 }
-.trust-desc {
-  font-size: 12.5px;
-  color: var(--text-mute);
-  line-height: 1.55;
+.trust-item strong {
+  display: block; color: var(--text); font-size: 24px;
+  font-family: var(--f-display); font-weight: 400; letter-spacing: -0.02em;
+  text-transform: none; margin-bottom: 4px; font-variation-settings: "opsz" 60;
 }
 
-/* ===== MISSION (Who We Are) ===== */
-.section-mission { padding: 110px 28px; }
-.mission-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 80px;
-  align-items: start;
+.hero-aside {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0));
+  padding: 28px;
+  position: sticky; top: 110px;
 }
-.mission-tag {
-  display: inline-block;
+.aside-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.aside-title { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); }
+.aside-status { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; color: var(--highlight); display: inline-flex; align-items: center; gap: 6px; }
+.aside-status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.aside-prompt {
+  font-family: var(--f-display); font-style: italic; font-weight: 300;
+  font-size: 17px; line-height: 1.55; color: var(--text-soft);
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border);
+  min-height: 28px;
+}
+.aside-prompt-text { display: inline; }
+.aside-prompt-cursor {
+  display: inline-block; width: 2px; height: 0.9em;
+  background: var(--text-soft); vertical-align: -0.12em;
+  margin-left: 3px; animation: typing-blink 0.9s steps(2) infinite;
+}
+.aside-prompt.done .aside-prompt-cursor { opacity: 0.25; animation: none; }
+@keyframes typing-blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+
+.aside-commentary {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.03em;
+  color: var(--highlight); padding: 10px 14px; margin-bottom: 18px;
+  border-left: 2px solid var(--highlight); background: rgba(245,158,11,0.05);
+  min-height: 38px; line-height: 1.5;
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.aside-commentary.show { opacity: 1; transform: translateY(0); }
+.aside-commentary-cursor {
+  display: inline-block; width: 1.5px; height: 0.85em;
+  background: var(--highlight); margin-left: 2px;
+  vertical-align: -0.1em; animation: typing-blink 0.7s steps(2) infinite;
+}
+
+.aside-foot {
+  margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-mute);
+}
+.aside-foot strong {
+  font-family: var(--f-display); font-weight: 300; font-style: italic;
+  font-size: 26px; letter-spacing: -0.02em; text-transform: none;
+  color: var(--text); font-variation-settings: "opsz" 96;
+}
+.aside-foot strong .pct { font-size: 0.55em; color: var(--text-mute); font-style: normal; margin-left: 1px; }
+
+.platform-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 12px;
+  row-gap: 5px;
+  padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px;
+  position: relative;
+  transition: background 0.25s ease, padding 0.25s ease, margin 0.25s ease;
+}
+.platform-row:last-child { border-bottom: none; padding-bottom: 0; }
+.platform-name { font-weight: 500; transition: color 0.25s ease; grid-column: 1; grid-row: 1; }
+.platform-rank { font-family: var(--f-mono); color: var(--text-mute); font-size: 13px; font-variant-numeric: tabular-nums; transition: color 0.25s ease; grid-column: 2; grid-row: 1; align-self: center; }
+.platform-rank.high { color: var(--text); font-weight: 500; }
+.platform-rank.pending { color: var(--text-faint); font-size: 14px; letter-spacing: 0.1em; }
+.platform-answer {
+  grid-column: 1 / -1; grid-row: 2;
   font-family: var(--f-mono);
   font-size: 11px;
-  letter-spacing: 2.5px;
-  color: var(--teal-light);
-  font-weight: 700;
-  margin-bottom: 22px;
+  letter-spacing: 0.02em;
+  color: var(--text-mute);
+  line-height: 1.45;
+  min-height: 14px;
 }
-.mission-title {
-  font-size: 46px;
-  font-weight: 900;
-  letter-spacing: -1.8px;
-  line-height: 1.1;
+.platform-row.is-active .platform-answer { color: var(--highlight); }
+.platform-row.is-active {
+  background: rgba(245,158,11,0.06);
+  margin: 0 -10px;
+  padding-left: 10px; padding-right: 10px;
+  border-radius: 3px;
 }
-.mission-body p {
-  font-size: 16.5px;
-  color: var(--text-soft);
-  line-height: 1.85;
-  margin-bottom: 22px;
+.platform-row.is-active .platform-name { color: var(--highlight); }
+.platform-row.is-active::before {
+  content: ""; position: absolute; left: -2px; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--highlight);
+  box-shadow: 0 0 0 4px rgba(245,158,11,0.18);
 }
-.mission-body p strong {
-  color: var(--text);
-  font-weight: 600;
-  background: linear-gradient(180deg, transparent 65%, rgba(20,184,166,0.18) 65%);
-  padding: 0 2px;
+.platform-group { display: flex; flex-direction: column; }
+.platform-group + .platform-group { margin-top: 18px; }
+.platform-group-head {
+  font-family: var(--f-mono); font-size: 9px; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-faint);
+  padding: 0 0 10px;
+  display: flex; align-items: center; justify-content: space-between;
 }
-.mission-pillars {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 14px;
-  margin-top: 36px;
-  padding-top: 32px;
-  border-top: 1px solid var(--border);
-}
+.platform-group-head .ghead-count { color: var(--text-mute); }
+
+/* ========== MISSION ========== */
+.mission-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; }
+.mission-body p { font-size: 17px; line-height: 1.75; color: var(--text-soft); margin-bottom: 20px; }
+.mission-body p strong { color: var(--text); font-weight: 500; }
+.mission-pillars { margin-top: 40px; display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
 .mission-pillar {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;
-  align-items: start;
+  background: var(--bg);
+  padding: 22px 28px;
+  display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center;
 }
 .mission-pillar-num {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--teal-light);
-  letter-spacing: 1.5px;
-  padding-top: 3px;
+  font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.12em;
+  color: var(--text-mute); font-weight: 500;
 }
 .mission-pillar-body h4 {
-  font-size: 13.5px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  margin-bottom: 4px;
-  color: var(--text);
+  font-family: var(--f-display); font-weight: 400; font-size: 18px;
+  letter-spacing: -0.01em; margin-bottom: 4px;
 }
-.mission-pillar-body p {
-  font-size: 12.5px;
-  color: var(--text-mute);
-  margin: 0;
-  line-height: 1.5;
-  font-family: var(--f-mono);
-}
+.mission-pillar-body h4 em { font-style: italic; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.mission-pillar-body p { color: var(--text-mute); font-size: 14px; }
 
-/* ===== THESIS (Why this matters) ===== */
-.section-thesis { padding: 110px 28px; }
-.thesis-kpis {
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px;
-  margin-bottom: 32px;
-}
-.thesis-kpi {
-  background: rgba(20,20,30,0.6); border: 1px solid var(--border-soft);
-  border-radius: 14px; padding: 22px 18px; text-align: center;
-  transition: border-color 0.25s, transform 0.25s;
-}
-.thesis-kpi:hover { border-color: rgba(20,184,166,0.35); transform: translateY(-3px); }
-.thesis-kpi-feature {
-  background: linear-gradient(140deg, rgba(244,63,94,0.18), rgba(167,139,250,0.10));
-  border-color: rgba(244,63,94,0.5);
-  box-shadow: 0 14px 36px rgba(244,63,94,0.20);
-}
-.thesis-kpi-feature .thesis-kpi-value {
-  background: linear-gradient(135deg, #FB7185, var(--purple-light));
-  -webkit-background-clip: text; background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.thesis-kpi-value {
-  font-family: var(--f-mono); font-size: 32px; font-weight: 800;
-  letter-spacing: -1.2px;
-  background: linear-gradient(135deg, var(--teal-light), var(--purple-light));
-  -webkit-background-clip: text; background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 10px; line-height: 1.1;
-}
-.thesis-kpi-label { font-size: 12px; color: var(--text-soft);
-  line-height: 1.5; margin-bottom: 10px; min-height: 36px; }
-.thesis-kpi-source {
-  font-family: var(--f-mono); font-size: 9.5px;
-  letter-spacing: 0.5px; color: var(--text-mute);
-}
-.thesis-timeline {
-  background: rgba(26,26,36,0.6); border: 1px solid var(--border-soft);
-  border-radius: 14px; padding: 24px 28px; margin-bottom: 28px;
-}
-.thesis-timeline-title {
-  font-family: var(--f-mono); font-size: 11px; font-weight: 700;
-  letter-spacing: 1.5px; color: var(--teal-light);
-  text-transform: uppercase; margin-bottom: 18px;
-}
-.thesis-timeline-track {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
-  gap: 10px; align-items: center;
-}
-.thesis-stage { display: flex; align-items: center; gap: 12px; }
-.thesis-stage-year {
-  font-family: var(--f-mono); font-size: 11px; font-weight: 800;
-  color: var(--text);
-  background: rgba(20,184,166,0.15);
-  border: 1px solid rgba(20,184,166,0.35);
-  padding: 4px 10px; border-radius: 999px;
-  letter-spacing: 0.5px; white-space: nowrap;
-}
-.thesis-stage-label { font-size: 12.5px; font-weight: 500;
-  color: var(--text-soft); line-height: 1.4; }
-.thesis-stage-now .thesis-stage-year {
-  background: linear-gradient(135deg, var(--teal), var(--purple));
-  border-color: transparent; color: white; font-weight: 900;
-}
-.thesis-stage-now .thesis-stage-label { color: var(--text); font-weight: 700; }
-.thesis-arrow { color: var(--teal); font-size: 18px;
-  font-family: var(--f-mono); font-weight: 700; text-align: center; }
-.thesis-hypothesis {
-  position: relative;
-  background: linear-gradient(135deg, rgba(20,184,166,0.16), rgba(167,139,250,0.10));
-  border: 1px solid rgba(20,184,166,0.45);
-  border-radius: 18px; padding: 32px 36px;
-  box-shadow: 0 24px 60px rgba(20,184,166,0.16);
-  overflow: hidden;
-}
-.thesis-hypothesis::before {
-  content: ''; position: absolute; inset: 0;
-  background: radial-gradient(ellipse at top right, rgba(20,184,166,0.18), transparent 60%);
-  pointer-events: none;
-}
-.thesis-hypothesis-tag {
-  font-family: var(--f-mono); font-size: 11px; font-weight: 700;
-  letter-spacing: 2.2px; color: var(--teal-light);
-  margin-bottom: 14px; position: relative;
-}
-.thesis-hypothesis-body {
-  font-size: 18px; font-weight: 500; color: var(--text);
-  line-height: 1.7; position: relative; letter-spacing: -0.2px;
-}
-.thesis-hypothesis-body strong { color: var(--teal-light); font-weight: 700; }
+/* ========== THESIS ========== */
+.thesis-kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-bottom: 64px; }
+.thesis-kpi { background: var(--bg); padding: 36px 24px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.thesis-kpi:hover { background: var(--bg-soft); }
+.thesis-kpi-feature { background: var(--bg-soft); }
+.thesis-kpi-value { font-family: var(--f-display); font-weight: 300; font-size: clamp(40px, 4.5vw, 56px); line-height: 1; letter-spacing: -0.035em; font-variation-settings: "opsz" 144; }
+.thesis-kpi-value em { font-style: italic; font-weight: 400; }
+.thesis-kpi-value .pct { color: var(--text-mute); font-weight: 400; font-style: normal; font-size: 0.55em; vertical-align: 0.4em; margin-left: 2px; }
+.thesis-kpi-label { font-size: 13px; line-height: 1.5; color: var(--text-soft); margin-top: auto; padding-top: 24px; }
+.thesis-kpi-source { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 14px; border-top: 1px solid var(--border); }
 
-/* ===== INSIGHTS (How we think) ===== */
-.insights-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-.insight-card {
-  position: relative;
-  background: rgba(20,20,30,0.6);
-  border: 1px solid var(--border-soft);
-  border-radius: 16px;
-  padding: 28px 26px;
-  transition: transform 0.25s, border-color 0.25s, background 0.25s;
-}
-.insight-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(20,184,166,0.3);
-  background: rgba(26,26,36,0.85);
-}
-.insight-card-feature {
-  background: linear-gradient(140deg, rgba(20,184,166,0.1), rgba(167,139,250,0.06));
-  border-color: rgba(20,184,166,0.4);
-  box-shadow: 0 16px 40px rgba(20,184,166,0.12);
-}
-.insight-num {
-  font-family: var(--f-mono);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--teal-light);
-  letter-spacing: 2px;
-  margin-bottom: 14px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border);
-  display: block;
-}
-.insight-card h3 {
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: -0.4px;
-  line-height: 1.3;
-  margin-bottom: 12px;
-}
-.insight-card p {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  line-height: 1.7;
-  margin-bottom: 16px;
-}
-.insight-card p strong {
-  color: var(--text);
-  font-weight: 600;
-  background: linear-gradient(180deg, transparent 70%, rgba(20,184,166,0.15) 70%);
-  padding: 0 2px;
-}
-.insight-tag {
-  font-family: var(--f-mono);
-  font-size: 11.5px;
-  color: var(--teal-light);
-  line-height: 1.55;
-  padding-top: 14px;
-  border-top: 1px dashed var(--border);
-  letter-spacing: 0.2px;
-}
+.thesis-timeline { margin: 64px 0; padding: 36px 32px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); }
+.thesis-timeline-title { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 28px; }
+.thesis-timeline-track { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; gap: 16px; align-items: center; }
+.thesis-stage { display: flex; flex-direction: column; gap: 6px; }
+.thesis-stage-year { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--text-faint); }
+.thesis-stage-label { font-family: var(--f-display); font-weight: 400; font-size: 16px; line-height: 1.3; letter-spacing: -0.01em; color: var(--text-soft); }
+.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: italic; }
+.thesis-stage-now .thesis-stage-year { color: var(--highlight); }
+.thesis-arrow { color: var(--text-faint); font-family: var(--f-mono); }
 
-/* ===== DELIVERABLES (alternating zigzag rows) ===== */
-.deliverable-row {
-  display: grid;
-  grid-template-columns: 1fr 1.1fr;
-  gap: 80px;
-  align-items: center;
-  margin-bottom: 90px;
-}
-.deliverable-row:last-child { margin-bottom: 0; }
+.thesis-hypothesis { margin-top: 48px; padding: 40px 44px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--bg-soft-2); }
+.thesis-hypothesis-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 16px; }
+.thesis-hypothesis-body { font-family: var(--f-display); font-style: italic; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
+.thesis-hypothesis-body strong { font-style: normal; font-weight: 500; }
+
+/* ========== DEMO ========== */
+.demo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.demo-grid > .card-wide { grid-column: 1 / -1; }
+.card { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 20px; min-height: 320px; }
+.card-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.card-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); }
+.card-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--text-faint); }
+
+.gauge-wrap { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 12px 0; }
+.gauge { width: 220px; height: auto; }
+.gauge-num-text { font-family: var(--f-display); font-weight: 300; font-variation-settings: "opsz" 144; }
+.gauge-trend { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.sparkline-wrap { display: flex; flex-direction: column; gap: 8px; }
+.sparkline-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+.sparkline { width: 100%; height: 50px; }
+
+.model-tagline { font-size: 14px; line-height: 1.6; color: var(--text-soft); }
+.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: italic; font-weight: 400; }
+.neural-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.neural-meta > div { display: flex; flex-direction: column; gap: 4px; }
+.neural-meta span { font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+.neural-meta strong { font-family: var(--f-display); font-weight: 400; font-size: 22px; letter-spacing: -0.02em; font-variation-settings: "opsz" 60; }
+
+.metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.metric { display: flex; flex-direction: column; gap: 6px; }
+.metric-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 3.5vw, 44px); line-height: 1; letter-spacing: -0.032em; font-variation-settings: "opsz" 96; }
+.metric-num em { font-style: italic; font-weight: 400; }
+.metric-num .unit { font-size: 0.55em; color: var(--text-mute); margin-left: 2px; vertical-align: 0.3em; }
+.metric-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+
+/* ========== WHY ========== */
+.why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.why-card { background: var(--bg); padding: 44px 36px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.why-card:hover { background: var(--bg-soft); }
+.why-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; color: var(--text); margin-bottom: 8px; }
+.why-icon svg { width: 28px; height: 28px; }
+.why-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
+.why-card h3 em { font-style: italic; }
+.why-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.why-card p strong { color: var(--text); font-weight: 500; }
+.why-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== ENGINE ========== */
+.engine-flow { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.engine-step { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 12px; }
+.engine-step-num { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 8px; }
+.engine-step h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
+.engine-step h3 em { font-style: italic; }
+.engine-step p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.engine-step-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+.engine-step-last { background: var(--bg-soft); }
+
+/* ========== TRUST ========== */
+.trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.trust-card { background: var(--bg); padding: 36px 28px; display: flex; flex-direction: column; gap: 12px; transition: background 0.2s ease; }
+.trust-card:hover { background: var(--bg-soft); }
+.trust-card-feature { background: var(--bg-soft); }
+.trust-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(48px, 5vw, 72px); line-height: 1; letter-spacing: -0.04em; font-variation-settings: "opsz" 144; }
+.trust-num em { font-style: italic; font-weight: 400; }
+.trust-num .unit { font-size: 0.5em; color: var(--text-mute); font-weight: 400; }
+.trust-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); }
+.trust-desc { font-size: 13px; line-height: 1.55; color: var(--text-mute); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== INSIGHTS ========== */
+.insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.insight-card { background: var(--bg); padding: 40px 32px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.insight-card:hover { background: var(--bg-soft); }
+.insight-card-feature { background: var(--bg-soft); }
+.insight-num { font-family: var(--f-display); font-weight: 300; font-size: 56px; line-height: 1; letter-spacing: -0.04em; color: var(--text-faint); font-variation-settings: "opsz" 144; }
+.insight-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 21px; line-height: 1.25; letter-spacing: -0.015em; margin-top: 6px; }
+.insight-card h3 em { font-style: italic; }
+.insight-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.insight-card p strong { color: var(--text); font-weight: 500; }
+.insight-tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; color: var(--highlight); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== DELIVERABLES ========== */
+.deliverable-row { display: grid; grid-template-columns: 1fr 1.05fr; gap: 80px; align-items: center; padding: 64px 0; border-bottom: 1px solid var(--border); }
+.deliverable-row:last-child { border-bottom: none; padding-bottom: 0; }
 .deliverable-row-reverse .deliverable-text { order: 2; }
 .deliverable-row-reverse .deliverable-visual { order: 1; }
+.deliverable-num { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 16px; }
+.deliverable-text h3 { font-family: var(--f-display); font-weight: 300; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
+.deliverable-text h3 em { font-style: italic; font-weight: 400; }
+.deliverable-text p { margin-top: 20px; font-size: 16px; line-height: 1.7; color: var(--text-soft); }
+.deliverable-text p strong { color: var(--text); font-weight: 500; }
+.deliverable-bullets { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.deliverable-bullets li { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.04em; color: var(--text-mute); padding-left: 20px; position: relative; }
+.deliverable-bullets li::before { content: "—"; position: absolute; left: 0; color: var(--text-faint); }
 
-.deliverable-text { padding: 0 8px; }
-.deliverable-num {
-  font-family: var(--f-mono);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--teal-light);
-  letter-spacing: 2px;
-  margin-bottom: 14px;
-  display: inline-block;
-  padding: 4px 12px;
-  background: rgba(20,184,166,0.08);
-  border: 1px solid rgba(20,184,166,0.25);
-  border-radius: 999px;
-}
-.deliverable-text h3 {
-  font-size: 30px;
-  font-weight: 800;
-  letter-spacing: -0.8px;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-.deliverable-text p {
-  font-size: 15.5px;
-  color: var(--text-soft);
-  line-height: 1.75;
-  margin-bottom: 20px;
-}
-.deliverable-text p strong {
-  color: var(--text);
-  font-weight: 600;
-  background: linear-gradient(180deg, transparent 65%, rgba(20,184,166,0.18) 65%);
-  padding: 0 2px;
-}
-.deliverable-bullets {
-  list-style: none;
-}
-.deliverable-bullets li {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  padding: 7px 0 7px 22px;
-  position: relative;
-  border-bottom: 1px dashed var(--border-soft);
-}
-.deliverable-bullets li:last-child { border-bottom: 0; }
-.deliverable-bullets li::before {
-  content: '';
-  position: absolute;
-  left: 0; top: 14px;
-  width: 12px; height: 1px;
-  background: var(--teal);
-}
+.mock-card { border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); padding: 24px; }
+.mock-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.mock-pill { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-mute); }
+.mock-pill-good { color: var(--text); border-color: var(--border-strong); }
+.mock-pill-purple { color: var(--highlight); border-color: var(--border-strong); }
 
-/* Mock cards (Stripe-style product UI mock) */
-.mock-card {
-  position: relative;
-  background: rgba(18,18,26,0.85);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 18px;
-  backdrop-filter: blur(14px);
-  box-shadow: 0 24px 56px rgba(0,0,0,0.4);
-}
-.mock-card::before {
-  content: '';
-  position: absolute;
-  inset: -1px;
-  border-radius: 16px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(20,184,166,0.4) 0%, rgba(167,139,250,0.3) 50%, transparent 100%);
-  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-}
-.mock-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px dashed var(--border);
-}
-.mock-pill {
-  font-family: var(--f-mono);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.04);
-  color: var(--text-mute);
-  border: 1px solid var(--border);
-}
-.mock-pill-good { background: rgba(20,184,166,0.15); color: var(--teal-light); border-color: rgba(20,184,166,0.3); }
-.mock-pill-purple { background: rgba(167,139,250,0.15); color: var(--purple-light); border-color: rgba(167,139,250,0.3); }
-.mock-foot {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px dashed var(--border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
-  color: var(--text-mute);
-  font-family: var(--f-mono);
-}
-.mock-foot strong { color: var(--teal-light); font-size: 14px; font-weight: 800; }
-.mock-foot-list {
-  display: block;
-  font-size: 11.5px;
-  line-height: 1.6;
-}
-.ftag {
-  font-family: var(--f-mono);
-  font-size: 9.5px;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  padding: 2px 7px;
-  background: rgba(245,158,11,0.15);
-  color: var(--amber);
-  border-radius: 4px;
-  margin-right: 8px;
-}
+.mock-platforms { display: flex; flex-direction: column; gap: 10px; }
+.mock-platform { display: grid; grid-template-columns: 110px 1fr 64px; gap: 12px; align-items: center; font-size: 12px; }
+.mock-plat-name { display: flex; align-items: center; gap: 8px; font-weight: 500; }
+.mock-plat-name .dot { width: 8px; height: 8px; border-radius: 50%; }
+.mock-plat-bar { height: 4px; background: rgba(255,255,255,0.06); border-radius: 999px; overflow: hidden; }
+.mock-plat-bar .bar-fill { height: 100%; background: var(--text); opacity: 0.85; border-radius: 999px; }
+.mock-plat-val { font-family: var(--f-mono); font-size: 11px; text-align: right; color: var(--text-soft); font-variant-numeric: tabular-nums; }
+.mock-plat-val small { color: var(--text-faint); margin-left: 2px; }
+.mock-foot { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--text-mute); }
+.mock-foot strong { font-family: var(--f-display); font-weight: 400; font-size: 22px; letter-spacing: -0.02em; color: var(--text); }
+.mock-foot-list { flex-direction: column; align-items: flex-start; gap: 8px; }
+.mock-foot-list .ftag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; color: var(--highlight); margin-right: 8px; }
+.mock-chart { width: 100%; height: auto; }
 
-/* 01 — platforms */
-.mock-platforms { display: flex; flex-direction: column; gap: 9px; }
-.mock-platform {
-  display: grid;
-  grid-template-columns: 110px 1fr auto;
-  gap: 12px;
-  align-items: center;
-  font-size: 11.5px;
-}
-.mock-plat-name {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: var(--text);
-  font-weight: 600;
-}
-.mock-plat-name .dot {
-  width: 8px; height: 8px;
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-.mock-plat-bar {
-  height: 6px;
-  background: rgba(255,255,255,0.05);
-  border-radius: 3px;
-  overflow: hidden;
-}
-.bar-fill {
-  height: 100%;
-  border-radius: 3px;
-  transition: width 1.2s ease-out;
-}
-.mock-plat-val {
-  font-family: var(--f-mono);
-  font-weight: 700;
-  color: var(--text);
-  white-space: nowrap;
-}
-.mock-plat-val small { color: var(--text-mute); font-weight: 500; font-size: 10.5px; }
+.mock-actions { display: flex; flex-direction: column; gap: 12px; }
+.mock-action { display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: center; padding: 12px; border: 1px solid var(--border); border-radius: 6px; }
+.prio { font-family: var(--f-mono); font-size: 10px; font-weight: 500; padding: 4px 8px; border-radius: 4px; letter-spacing: 0.08em; }
+.prio-high { background: rgba(245,158,11,0.12); color: var(--highlight); }
+.prio-med { background: rgba(255,255,255,0.06); color: var(--text-soft); }
+.prio-low { background: rgba(255,255,255,0.03); color: var(--text-mute); }
+.mock-action-body { display: flex; flex-direction: column; gap: 4px; }
+.mock-action-body strong { font-size: 13px; font-weight: 500; }
+.mock-action-body span { font-size: 11px; color: var(--text-mute); line-height: 1.4; }
+.mock-action-impact { text-align: right; }
+.mock-action-impact b { font-family: var(--f-display); font-weight: 400; font-size: 16px; letter-spacing: -0.015em; display: block; }
+.mock-action-impact small { font-family: var(--f-mono); font-size: 10px; color: var(--text-faint); }
 
-/* 02 — chart */
-.mock-chart {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 4px 0 10px;
-}
-
-/* 03 — actions */
-.mock-actions { display: flex; flex-direction: column; gap: 8px; }
-.mock-action {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 12px;
-  align-items: center;
-  padding: 10px 12px;
-  background: rgba(10,10,15,0.4);
-  border: 1px solid var(--border-soft);
-  border-radius: 8px;
-}
-.prio {
-  font-family: var(--f-mono);
-  font-size: 10px;
-  font-weight: 800;
-  padding: 4px 8px;
-  border-radius: 5px;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-}
-.prio-high { background: rgba(244,63,94,0.15); color: #FB7185; border: 1px solid rgba(244,63,94,0.3); }
-.prio-med  { background: rgba(245,158,11,0.15); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
-.prio-low  { background: rgba(255,255,255,0.04); color: var(--text-mute); border: 1px solid var(--border); }
-.mock-action-body strong {
-  display: block;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 2px;
-}
-.mock-action-body span {
-  display: block;
-  font-size: 11.5px;
-  color: var(--text-mute);
-  line-height: 1.4;
-}
-.mock-action-impact {
-  text-align: right;
-  font-family: var(--f-mono);
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-}
-.mock-action-impact b {
-  font-size: 13px;
-  font-weight: 800;
-  color: var(--teal-light);
-}
-.mock-action-impact small {
-  font-size: 10px;
-  color: var(--text-mute);
-}
-
-/* 04 — screenshot */
 .mock-card-screenshot { padding: 0; overflow: hidden; }
-.mock-card-screenshot::before { display: none; }
-.mock-screenshot-head {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 16px;
-  background: rgba(255,255,255,0.04);
-  border-bottom: 1px solid var(--border);
-}
+.mock-screenshot-head { display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: var(--surface); border-bottom: 1px solid var(--border); }
 .mock-dots { display: flex; gap: 6px; }
-.mock-dots span {
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.18);
-}
-.mock-dots span:first-child { background: #FB7185; }
-.mock-dots span:nth-child(2) { background: #F59E0B; }
-.mock-dots span:nth-child(3) { background: #14B8A6; }
-.mock-url {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  color: var(--text-mute);
-  letter-spacing: 0.3px;
-}
-.mock-screenshot-body { padding: 18px 20px 20px; }
-.mock-msg-prompt {
-  font-size: 13px;
-  color: var(--text);
-  background: rgba(255,255,255,0.04);
-  border-radius: 12px 12px 12px 0;
-  padding: 10px 14px;
-  margin-bottom: 14px;
-  display: inline-block;
-  max-width: 80%;
-  border: 1px solid var(--border);
-}
-.mock-msg-answer {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  line-height: 1.7;
-}
-.mock-msg-answer mark {
-  background: rgba(20,184,166,0.22);
-  color: var(--text);
-  padding: 1px 4px;
-  border-radius: 3px;
-  font-weight: 600;
-}
-.mock-citations {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px dashed var(--border);
-}
-.cit {
-  font-family: var(--f-mono);
-  font-size: 10.5px;
-  padding: 4px 9px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  color: var(--text-mute);
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-.cit b {
-  width: 14px; height: 14px;
-  background: var(--text-mute);
-  color: var(--bg);
-  border-radius: 3px;
-  font-size: 9px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.cit-brand { background: rgba(20,184,166,0.12); border-color: rgba(20,184,166,0.4); color: var(--teal-light); }
-.cit-brand b { background: var(--teal); color: var(--bg); }
+.mock-dots span { width: 9px; height: 9px; border-radius: 50%; background: var(--border-strong); }
+.mock-url { font-family: var(--f-mono); font-size: 11px; color: var(--text-mute); }
+.mock-screenshot-body { padding: 24px; }
+.mock-msg-prompt { font-size: 13px; color: var(--text-mute); padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+.mock-msg-answer { font-size: 14px; line-height: 1.7; color: var(--text); }
+.mock-msg-answer mark { background: rgba(245,158,11,0.16); color: var(--text); padding: 1px 4px; border-radius: 2px; }
+.mock-citations { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 8px; }
+.cit { font-family: var(--f-mono); font-size: 11px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-soft); display: inline-flex; align-items: center; gap: 6px; }
+.cit b { color: var(--text-mute); }
+.cit-brand { border-color: var(--highlight); color: var(--highlight); }
+.cit-brand b { color: var(--highlight); }
 
-/* (Roadmap Timeline kept below in case re-used) */
-/* ===== Roadmap Timeline (horizontal) ===== */
-.timeline { position: relative; padding: 0 12px; }
-.timeline-track {
-  position: relative;
-  height: 4px;
-  background: rgba(255,255,255,0.06);
-  margin: 0 0 50px;
-  border-radius: 2px;
-}
-.timeline-progress {
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 18%;
-  background: linear-gradient(90deg, var(--text-soft) 0%, var(--purple) 100%);
-  border-radius: 2px;
-}
-.timeline-dot {
-  position: absolute;
-  top: 50%;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--bg);
-  border: 3px solid var(--text-soft);
-  transform: translate(-50%, -50%);
-}
-.timeline-dot-1 { left: 16.66%; border-color: var(--text-soft); }
-.timeline-dot-1::after {
-  content: '';
-  position: absolute;
-  inset: -4px;
-  border-radius: 50%;
-  background: var(--text-soft);
-  opacity: 0.25;
-  animation: dotPulse 2s ease-in-out infinite;
-}
-.timeline-dot-1 span {
-  position: absolute;
-  top: -34px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--f-mono);
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: var(--amber);
-  background: rgba(245,158,11,0.12);
-  border: 1px solid rgba(245,158,11,0.4);
-  padding: 4px 10px;
-  border-radius: 999px;
-  white-space: nowrap;
-  font-weight: 700;
-}
-.timeline-dot-2 { left: 50%; border-color: var(--purple); }
-.timeline-dot-3 { left: 83.33%; border-color: var(--teal); }
+/* ========== CTA ========== */
+.cta-card { max-width: 880px; margin: 0 auto; padding: 80px 64px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); text-align: center; }
+.cta-eyebrow { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 24px; }
+.cta-card h2 { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
+.cta-card h2 em { font-style: italic; font-weight: 400; }
+.cta-card > p { margin-top: 20px; font-size: 16px; color: var(--text-soft); max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.65; }
+.cta-form { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.cta-form input { padding: 14px 18px; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; color: var(--text); font-family: var(--f-sans); font-size: 14px; transition: border-color 0.2s; }
+.cta-form input:focus { outline: none; border-color: var(--text); }
+.cta-form input::placeholder { color: var(--text-faint); }
+.cta-form input[name="company"], .cta-form input[name="email"] { grid-column: span 1; }
+.cta-form input[name="url"] { grid-column: span 2; }
+.cta-form button { grid-column: span 2; justify-content: center; }
 
-.timeline-stages {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 32px;
-}
-.timeline-stage {
-  position: relative;
-  padding: 22px 0 0;
-}
-.timeline-when {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 1.5px;
-  color: var(--text-mute);
-  font-weight: 600;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.timeline-stage h3 {
-  font-size: 19px;
-  font-weight: 800;
-  letter-spacing: -0.4px;
-  margin-bottom: 12px;
-  line-height: 1.3;
-}
-.timeline-stage p {
-  font-size: 14px;
-  color: var(--text-soft);
-  line-height: 1.65;
-  margin-bottom: 16px;
-}
-.timeline-stage p em {
-  font-style: italic;
-  color: var(--text-mute);
-  display: block;
-  margin-top: 6px;
-  font-size: 13px;
-  border-left: 2px solid var(--border);
-  padding-left: 10px;
-}
-.timeline-kpi {
-  font-family: var(--f-mono);
-  font-size: 12px;
-  color: var(--text-mute);
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
-}
-.timeline-kpi b { color: var(--teal-light); font-weight: 700; }
-.timeline-stage-mid h3 { color: var(--purple-light); }
-.timeline-stage-future h3 { color: var(--teal-light); }
-.timeline-stage-mid .timeline-when { color: var(--purple); }
-.timeline-stage-future .timeline-when { color: var(--teal); }
+/* ========== FOOTER ========== */
+.footer { padding: 56px 32px; text-align: center; font-family: var(--f-mono); font-size: 12px; color: var(--text-faint); letter-spacing: 0.04em; }
+.footer a { color: var(--text-mute); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.footer a:hover { border-color: var(--text-mute); }
 
-/* ===== Pricing ===== */
-.pricing-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 18px;
-  align-items: stretch;
-}
-.pricing-card {
-  position: relative;
-  background: rgba(26,26,36,0.7);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 36px 28px;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.25s, border-color 0.25s;
-}
-.pricing-card:hover { transform: translateY(-4px); }
-.pricing-card-feature {
-  background: linear-gradient(180deg, rgba(20,184,166,0.14), rgba(26,26,36,0.7) 50%);
-  border-color: rgba(20,184,166,0.45);
-  transform: scale(1.04);
-  box-shadow: 0 24px 60px rgba(20,184,166,0.25);
-  z-index: 2;
-}
-.pricing-card-feature:hover { transform: scale(1.04) translateY(-4px); }
-.pricing-badge {
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--teal), var(--purple));
-  color: white;
-  font-family: var(--f-mono);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  padding: 5px 14px;
-  border-radius: 999px;
-  box-shadow: 0 6px 16px rgba(20,184,166,0.3);
-}
-.pricing-tag {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--teal-light);
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-.pricing-card h3 {
-  font-size: 26px;
-  font-weight: 800;
-  letter-spacing: -0.8px;
-  margin-bottom: 4px;
-}
-.pricing-desc {
-  font-size: 13px;
-  color: var(--text-mute);
-  margin-bottom: 22px;
-}
-.pricing-price {
-  font-family: var(--f-mono);
-  font-size: 38px;
-  font-weight: 800;
-  letter-spacing: -1.5px;
-  margin-bottom: 24px;
-  color: var(--text);
-}
-.pricing-price span {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-mute);
-  margin-left: 4px;
-}
-.pricing-features {
-  list-style: none;
-  margin-bottom: 28px;
-  flex: 1;
-}
-.pricing-features li {
-  font-size: 13.5px;
-  color: var(--text-soft);
-  padding: 8px 0;
-  border-bottom: 1px dashed var(--border-soft);
-  position: relative;
-  padding-left: 22px;
-}
-.pricing-features li::before {
-  content: '✓';
-  color: var(--teal);
-  position: absolute;
-  left: 0;
-  font-weight: 700;
-  font-family: var(--f-mono);
-}
-.pricing-cta {
-  display: block;
-  text-align: center;
-  padding: 13px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  transition: background 0.18s, transform 0.18s, border-color 0.18s;
-}
-.pricing-cta:hover {
-  background: rgba(255,255,255,0.1);
-  border-color: var(--border-strong);
-  transform: translateY(-2px);
-}
-.pricing-cta-feature {
-  background: linear-gradient(135deg, var(--teal), var(--teal-dark));
-  border-color: transparent;
-  color: white;
-}
-.pricing-cta-feature:hover {
-  box-shadow: 0 12px 28px rgba(20,184,166,0.45);
-  background: linear-gradient(135deg, var(--teal-light), var(--teal));
+.compare-foot { padding: 64px 0; text-align: center; background: linear-gradient(180deg, var(--bg), #060606); }
+.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: italic; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
+.compare-row { display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.compare-row .btn-ghost { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 18px; }
+
+/* ========== RESPONSIVE ========== */
+/* ========== REVEAL / COUNTER ANIMATIONS ========== */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.75s cubic-bezier(0.4, 0, 0.2, 1), transform 0.75s cubic-bezier(0.4, 0, 0.2, 1); }
+.reveal.in { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.08s; }
+.reveal-d2 { transition-delay: 0.16s; }
+.reveal-d3 { transition-delay: 0.24s; }
+.reveal-d4 { transition-delay: 0.32s; }
+.reveal-d5 { transition-delay: 0.4s; }
+.reveal-d6 { transition-delay: 0.48s; }
+
+/* Gauge arc — initial state, JS animates strokeDashoffset */
+.gauge-arc-anim { stroke-dasharray: 100; stroke-dashoffset: 100; }
+
+/* Path reveal — JS sets dasharray=length, dashoffset=length, then 0 */
+.path-reveal { transition: stroke-dashoffset 1.4s cubic-bezier(0.4, 0, 0.2, 1); }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .gauge-arc-anim { stroke-dashoffset: 0 !important; }
 }
 
-/* ===== CTA ===== */
-.section-cta { padding: 100px 28px 160px; }
-.cta-card {
-  position: relative;
-  background: linear-gradient(135deg, rgba(20,184,166,0.14) 0%, rgba(167,139,250,0.1) 100%);
-  border: 1px solid rgba(20,184,166,0.4);
-  border-radius: 24px;
-  padding: 60px 50px;
-  text-align: center;
-  overflow: hidden;
-}
-.cta-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at center top, rgba(20,184,166,0.25), transparent 60%);
-  pointer-events: none;
-}
-.cta-eyebrow {
-  font-family: var(--f-mono);
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--teal-light);
-  font-weight: 700;
-  margin-bottom: 18px;
-  position: relative;
-}
-.cta-card h2 {
-  font-size: 38px;
-  font-weight: 900;
-  letter-spacing: -1.2px;
-  line-height: 1.2;
-  margin-bottom: 18px;
-  position: relative;
-}
-.cta-card p {
-  font-size: 16px;
-  color: var(--text-soft);
-  margin-bottom: 36px;
-  max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.6;
-  position: relative;
-}
-.cta-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr auto;
-  gap: 10px;
-  max-width: 880px;
-  margin: 0 auto;
-  position: relative;
-}
-.cta-form input {
-  padding: 14px 16px;
-  background: rgba(10,10,15,0.7);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text);
-  font-family: var(--f-sans);
-  font-size: 14px;
-  outline: none;
-  transition: border-color 0.18s, background 0.18s;
-}
-.cta-form input::placeholder { color: var(--text-mute); }
-.cta-form input:focus { border-color: var(--teal); background: rgba(10,10,15,0.9); }
-
-/* ===== Sticky bottom bar ===== */
-.sticky-bar {
-  position: fixed;
-  bottom: 0; left: 0; right: 0;
-  z-index: 90;
-  padding: 14px 28px;
-  background: rgba(10,10,15,0.88);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border-top: 1px solid var(--border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  font-size: 13.5px;
-  color: var(--text-soft);
-  transform: translateY(110%);
-  transition: transform 0.4s ease;
-}
-.sticky-bar.show { transform: translateY(0); }
-.sticky-bar strong { color: var(--teal-light); font-weight: 700; }
-.sticky-cta {
-  padding: 10px 20px;
-  background: linear-gradient(135deg, var(--teal), var(--teal-dark));
-  color: white;
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 700;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: transform 0.18s, box-shadow 0.18s;
-}
-.sticky-cta:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(20,184,166,0.4);
-}
-
-@media (max-width: 1024px) {
-  .demo-grid, .why-grid, .mission-grid, .insights-grid { grid-template-columns: 1fr; gap: 40px; }
-  .thesis-kpis { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .thesis-timeline-track { grid-template-columns: 1fr; gap: 14px; }
+@media (max-width: 1100px) {
+  .thesis-kpis { grid-template-columns: repeat(3, 1fr); }
+  .insights-grid, .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .trust-grid { grid-template-columns: repeat(2, 1fr); }
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .thesis-timeline-track { grid-template-columns: 1fr; gap: 8px; }
   .thesis-arrow { transform: rotate(90deg); }
-  .thesis-hypothesis { padding: 24px 22px; }
-  .thesis-hypothesis-body { font-size: 15.5px; }
-  .insights-grid { gap: 14px; }
-  .mission-pillars { grid-template-columns: 1fr; gap: 16px; }
-  .mission-title { font-size: 34px; }
-  .deliverable-row { grid-template-columns: 1fr; gap: 32px; margin-bottom: 60px; }
+}
+@media (max-width: 900px) {
+  .hero-grid, .section-head, .mission-grid, .deliverable-row, .demo-grid, .engine-flow { grid-template-columns: 1fr !important; gap: 48px; }
   .deliverable-row-reverse .deliverable-text { order: 1; }
   .deliverable-row-reverse .deliverable-visual { order: 2; }
-  .deliverable-text h3 { font-size: 24px; }
-  .trust-grid { grid-template-columns: 1fr 1fr; }
-  .metrics-grid { grid-template-columns: 1fr 1fr; }
-  .engine-flow { grid-template-columns: 1fr; }
-  .engine-step-arrow { transform: rotate(90deg); padding: 4px; }
-  .section-title { font-size: 34px; letter-spacing: -1px; }
+  .insights-grid, .why-grid, .thesis-kpis, .trust-grid { grid-template-columns: 1fr; }
+  .hero-trust { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hero, .section { padding: 80px 0; }
+  .container, .container-narrow, .nav { padding-left: 20px; padding-right: 20px; }
+  .cta-card { padding: 48px 28px; }
   .cta-form { grid-template-columns: 1fr; }
-  .pricing-card-feature { transform: none; }
-  .pricing-card-feature:hover { transform: translateY(-4px); }
-  .cta-card { padding: 44px 26px; }
-  .cta-card h2 { font-size: 28px; }
-}
-@media (max-width: 640px) {
-  .section { padding: 90px 20px; }
-  .trust-grid, .metrics-grid { grid-template-columns: 1fr; }
-  .section-head { margin-bottom: 40px; }
-}
-
-/* ===== Footer ===== */
-.footer {
-  padding: 42px 28px 32px;
-  border-top: 1px solid var(--border-soft);
-  text-align: center;
-  color: var(--text-mute);
-  font-size: 12.5px;
-  font-family: var(--f-mono);
-  background: rgba(10,10,15,0.5);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-.footer a { color: var(--text-soft); text-decoration: none; }
-.footer a:hover { color: var(--teal-light); }
-
-/* ===== CITORA TRIGGER + MODAL ===== */
-.citora-trigger {
-  cursor: pointer;
-  border-bottom: 1px dashed rgba(20,184,166,0.5);
-  transition: color 0.18s, border-color 0.18s, background 0.18s;
-  padding: 0 1px;
-}
-.citora-trigger:hover {
-  color: var(--teal-light);
-  border-bottom-color: var(--teal-light);
-  background: rgba(20,184,166,0.06);
-}
-.citora-trigger:focus-visible {
-  outline: 2px solid var(--teal);
-  outline-offset: 2px;
-  border-radius: 3px;
-}
-
-.citora-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.28s ease, visibility 0.28s;
-}
-.citora-modal.open { opacity: 1; visibility: visible; }
-.citora-modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(5,5,10,0.78);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-.citora-modal-card {
-  position: relative;
-  max-width: 540px;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(28,28,40,0.96), rgba(18,18,28,0.96));
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 38px 36px 32px;
-  box-shadow: 0 40px 100px rgba(0,0,0,0.6);
-  transform: translateY(20px) scale(0.97);
-  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.citora-modal.open .citora-modal-card { transform: translateY(0) scale(1); }
-.citora-modal-card::before {
-  content: '';
-  position: absolute;
-  inset: -1px;
-  border-radius: 20px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(20,184,166,0.6) 0%, rgba(167,139,250,0.5) 50%, transparent 100%);
-  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  -webkit-mask-composite: xor;
-  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
-  mask-composite: exclude;
-  pointer-events: none;
-}
-.citora-modal-close {
-  position: absolute;
-  top: 14px; right: 14px;
-  width: 34px; height: 34px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  color: var(--text-soft);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.18s, color 0.18s, transform 0.18s;
-}
-.citora-modal-close:hover {
-  background: rgba(255,255,255,0.1);
-  color: var(--text);
-  transform: rotate(90deg);
-}
-.citora-modal-eyebrow {
-  font-family: var(--f-mono);
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 2.2px;
-  color: var(--teal-light);
-  margin-bottom: 14px;
-}
-.citora-modal-card h3 {
-  font-size: 30px;
-  font-weight: 900;
-  letter-spacing: -1px;
-  line-height: 1.2;
-  margin-bottom: 22px;
-  background: linear-gradient(110deg, var(--teal-light), var(--purple-light));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.citora-modal-sub {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--text-mute);
-  margin-top: 4px;
-  letter-spacing: -0.2px;
-  -webkit-text-fill-color: var(--text-mute);
-}
-.citora-modal-card p {
-  font-size: 14.5px;
-  color: var(--text-soft);
-  line-height: 1.75;
-  margin-bottom: 14px;
-}
-.citora-modal-card p strong {
-  color: var(--text);
-  font-weight: 700;
-}
-.citora-modal-card p em {
-  font-style: italic;
-  color: var(--teal-light);
-  font-weight: 600;
-}
-.citora-modal-meta {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 12px;
-  margin: 22px 0 22px;
-  padding: 16px 0;
-  border-top: 1px dashed var(--border);
-  border-bottom: 1px dashed var(--border);
-}
-.citora-modal-meta div { text-align: center; }
-.citora-modal-meta span {
-  display: block;
-  font-family: var(--f-mono);
-  font-size: 9.5px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--text-mute);
-  margin-bottom: 5px;
-}
-.citora-modal-meta strong {
-  font-family: var(--f-mono);
-  font-size: 18px;
-  color: var(--teal-light);
-  font-weight: 800;
-  letter-spacing: -0.5px;
-}
-.citora-modal-link {
-  display: inline-flex;
-  align-items: center;
-  color: var(--teal-light);
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 13.5px;
-  letter-spacing: 0.2px;
-  transition: color 0.15s, transform 0.15s;
-}
-.citora-modal-link:hover { color: var(--teal); transform: translateX(2px); }
-
-@media (max-width: 540px) {
-  .citora-modal-card { padding: 30px 24px 26px; }
-  .citora-modal-card h3 { font-size: 24px; }
+  .cta-form input[name="company"], .cta-form input[name="email"], .cta-form input[name="url"], .cta-form button { grid-column: span 1; }
+  .hero-aside { position: static; }
 }
 </style>
 </head>
 <body>
 
-<div class="cosmic-bg" aria-hidden="true">
-  <video class="cosmic-video" autoplay muted loop playsinline preload="auto" poster="">
-    <source src="/assets/hero-cosmic.mp4" type="video/mp4">
-  </video>
-  <div class="cosmic-overlay"></div>
-  <div class="cosmic-nebula nebula-1"></div>
-  <div class="cosmic-nebula nebula-2"></div>
-  <canvas id="cosmic-canvas"></canvas>
-  <div class="cosmic-grid"></div>
-  <div class="cosmic-vignette"></div>
-  <div class="cosmic-noise"></div>
-</div>
-
 <nav class="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-brand">
-      <div class="nav-brand-mark">G</div>
-      GeoRank24
-    </a>
+    <div class="nav-brand">Plu<em>rank</em></div>
     <div class="nav-links">
-      <a href="#mission">概要</a>
-      <a href="#thesis">仮説</a>
-      <a href="#how">仕組み</a>
-      <a href="#insights">インサイト</a>
-      <a href="#contact" class="nav-cta">無料診断 →</a>
-      <span class="nav-lang">
-        <a href="/ko.html">KO</a>
-        <a href="/en.html">EN</a>
-        <a href="/ja.html" class="active">JA</a>
-      </span>
+      <a href="#mission">Mission</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#how">Pluora</a>
+      <a href="#insights">Insights</a>
+      <a href="#deliverables">Deliverables</a>
+    </div>
+    <div class="nav-meta">
+      <a href="/ko.html">KO</a>
+      <span style="color:var(--text-faint)">·</span>
+      <a href="/en.html">EN</a>
+      <span style="color:var(--text-faint)">·</span>
+      <a href="/ja.html" style="color:var(--text)">JA</a>
     </div>
   </div>
 </nav>
 
+<!-- ===== HERO ===== -->
 <section class="hero">
-  <div class="hero-inner">
-    <div>
-      <div class="hero-eyebrow">
-        <span class="hero-eyebrow-dot"></span>
-        PREDICTIVE MARKETING AI · MULTI-SIGNAL
-      </div>
-      <h1>
-        <span class="h1-line">AIが決めるすべての露出 —</span>
-        <span class="h1-line">AI検索 · SNS · 推薦アルゴリズム。</span>
-        <span class="h1-line gradient-text">Citoraが公開前に予測します。</span>
-      </h1>
-      <p class="hero-sub">
-        <strong>Citora</strong>はGeoRank24が開発したマルチシグナル・マーケティングAIモデルです。
-        12カ国 <strong>7 AI検索 + YouTube · Instagram · X · TikTok · Threads</strong>から
-        3,000万件+のデータを学習し、コンテンツがどこで<strong>露出·引用·推薦</strong>されるかを
-        <strong>公開前に</strong>予測します。
-      </p>
-      <div class="hero-cta-row">
-        <a href="#contact" class="btn-primary">
-          無料診断を受ける
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-        </a>
-        <a href="#how" class="btn-secondary">エンジンの仕組みを見る</a>
-      </div>
-      <div class="hero-trust">
-        <span><strong>12+ データソース</strong> 統合</span>
-        <span><strong>BigQuery 30M+</strong> 学習</span>
-        <span><strong>7 AI + 5 SNS</strong> マルチシグナル</span>
-      </div>
-    </div>
-
-    <div class="ai-stream">
-      <div class="ai-stream-header">
-        <span class="ai-stream-title">EXPOSURE + CITATION · LIVE</span>
-        <span class="ai-stream-status">ANALYZING</span>
-      </div>
-
-      <div class="ai-stream-prompt">
-        <div class="ai-stream-prompt-icon"></div>
-        <div class="ai-stream-prompt-text" id="prompt-text"></div>
-        <div class="ai-stream-prompt-cursor"></div>
-      </div>
-
-      <div class="ai-platforms" id="platforms">
-        <div class="ai-platform" data-platform="chatgpt">
-          <div class="ai-platform-logo" style="background:#10A37F;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2L20 7v10l-8 5-8-5V7l8-5zm0 3.5l-5 3v7l5 3 5-3v-7l-5-3z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">ChatGPT</div>
-            <div class="ai-platform-answer" data-text="公式比較+スペック表 — 引用可能性 高"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="82%">…</div>
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Predictive Marketing AI · Multi-signal</div>
+        <h1>
+          <span class="line">AIが決めるすべての露出 —</span>
+          <span class="line accent">AI検索・SNS・推薦アルゴリズム。</span>
+          <span class="line"><em>Pluora</em>が発行前に予測します。</span>
+        </h1>
+        <p class="hero-sub">
+          <strong>Pluora</strong>はPlurankが開発したマルチシグナル・マーケティングAIモデルです。
+          12カ国の<strong>7つのAI検索 + YouTube · Instagram · X · TikTok · Threads</strong>から
+          3,000万件以上のデータで学習し、コンテンツがどこで露出・引用・推薦されるかを
+          <strong>発行前に</strong>予測します。
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            無料診断を受ける
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#how" class="btn btn-ghost">エンジンの仕組みを見る</a>
         </div>
-        <div class="ai-platform" data-platform="claude">
-          <div class="ai-platform-logo" style="background:#D97757;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l1.5 6.5L20 10l-6.5 1.5L12 22l-1.5-10.5L4 10l6.5-1.5L12 2z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Claude</div>
-            <div class="ai-platform-answer" data-text="実証資料・コード引用パターン — 適合度 良"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="71%">…</div>
-        </div>
-        <div class="ai-platform" data-platform="perplexity">
-          <div class="ai-platform-logo" style="background:#1FB8CD;">
-            <svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="4" r="2.2"/><circle cx="20" cy="12" r="2.2"/><circle cx="12" cy="20" r="2.2"/><circle cx="4" cy="12" r="2.2"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Perplexity</div>
-            <div class="ai-platform-answer" data-text="権威ドメイン+明確な出典 — 優先引用対象"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
-        </div>
-        <div class="ai-platform" data-platform="gemini">
-          <div class="ai-platform-logo" style="background:#4285F4;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Gemini</div>
-            <div class="ai-platform-answer" data-text="Search Grounding — 出典の多様性が必要"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="54%">…</div>
-        </div>
-        <div class="ai-platform" data-platform="aimode">
-          <div class="ai-platform-logo" style="background:#EA4335;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"><path d="M12 3l1.6 6.4L20 11l-6.4 1.6L12 19l-1.6-6.4L4 11l6.4-1.6L12 3z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">AI Mode</div>
-            <div class="ai-platform-answer" data-text="深掘り比較回答 — ケーススタディ重み ↑"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="63%">…</div>
-        </div>
-        <div class="ai-platform" data-platform="aio">
-          <div class="ai-platform-logo" style="background:#FBBC04;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><path d="M12 12 L19 12"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">AI Overview</div>
-            <div class="ai-platform-answer" data-text="検索1位ドメイン優先 — FAQ追加を推奨"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="42%">…</div>
-        </div>
-        <div class="ai-platform" data-platform="deepseek">
-          <div class="ai-platform-logo" style="background:#4D6BFE;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M3 13c0-3 3-5 6-5 4 0 6 2.5 7 5.5 1 0 3-1 5-3v5c-2 2-5 3-9 3-3 0-6-1-8-2.5-1-1-1-2-1-3z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">DeepSeek</div>
-            <div class="ai-platform-answer" data-text="OSS親和 — コード・論文の出典強い"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="58%">…</div>
-        </div>
-
-        <div class="ai-platform-divider">SOCIAL · 推薦アルゴリズム</div>
-
-        <div class="ai-platform" data-platform="tiktok">
-          <div class="ai-platform-logo" style="background:#000000;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M16 2v6c1.5 1.5 3.5 2 5 2v3c-2 0-4-0.5-5-1.5V18c0 2.5-2 4.5-4.5 4.5S7 20.5 7 18s2-4.5 4.5-4.5c.3 0 .7 0 1 .1v3.1c-.3-.1-.6-.2-1-.2-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5V2h3z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">TikTok</div>
-            <div class="ai-platform-answer" data-text="FYP進入可 — 最初3秒のフック必要"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="81%">…</div>
-        </div>
-
-        <div class="ai-platform" data-platform="youtube">
-          <div class="ai-platform-logo" style="background:#FF0000;">
-            <svg viewBox="0 0 24 24" fill="white"><polygon points="9.5,7 17,12 9.5,17"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">YouTube</div>
-            <div class="ai-platform-answer" data-text="チュートリアル適合 — 視聴時間 ↑"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="75%">…</div>
-        </div>
-
-        <div class="ai-platform" data-platform="instagram">
-          <div class="ai-platform-logo" style="background:linear-gradient(135deg,#833AB4,#FD1D1D,#FCB045);">
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17.5" cy="6.5" r="0.8" fill="white"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Instagram</div>
-            <div class="ai-platform-answer" data-text="Reels·カルーセル適合 — ビジュアル補強"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="68%">…</div>
-        </div>
-
-        <div class="ai-platform" data-platform="x">
-          <div class="ai-platform-logo" style="background:#000000;">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M14.7 10.5L21 3h-2.4l-5.5 6.4L8.7 3H3l6.6 9.7L3 21h2.4l5.8-6.7L15.4 21H21l-6.3-10.5zm-2 2.4l-.7-1L6 4.6h2.4L13.4 12l.7 1L18.7 19.4h-2.4L13.7 13z"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">X (Twitter)</div>
-            <div class="ai-platform-answer" data-text="Thread露出 — 引用可能性 中"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="58%">…</div>
-        </div>
-
-        <div class="ai-platform" data-platform="threads">
-          <div class="ai-platform-logo" style="background:#0F0F0F;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"><path d="M12.5 4c4 0 6.5 2.5 7 6 .5 4-2 8-6.5 8.5-3 .3-5-1.2-5-3.5 0-2 1.7-3.5 4-3.5 2 0 3.5 1 4 2.5"/><path d="M14 11c-1-1-2.5-1.5-4-1"/></svg>
-          </div>
-          <div class="ai-platform-body">
-            <div class="ai-platform-name">Threads</div>
-            <div class="ai-platform-answer" data-text="テキスト議論適合 — ハッシュタグ拡張"></div>
-          </div>
-          <div class="ai-platform-rank rank-pending" data-rank="49%">…</div>
+        <div class="hero-trust">
+          <div class="trust-item"><strong>12+</strong>統合データソース</div>
+          <div class="trust-item"><strong>30M+</strong>BigQuery学習データ</div>
+          <div class="trust-item"><strong>7 + 5</strong>AI検索 · SNSシグナル</div>
         </div>
       </div>
 
-      <div class="ai-stream-footer">
-        <span>平均露出確率 (7 AI + 5 SNS)</span>
-        <span><strong id="prob-value">0.0%</strong> ↑ 公開後7日以内</span>
-      </div>
+      <aside class="hero-aside">
+        <div class="aside-head">
+          <span class="aside-title">Exposure + Citation · Live</span>
+          <span class="aside-status">Analyzing</span>
+        </div>
+        <div class="aside-prompt" id="aside-prompt">
+          <span class="aside-prompt-text" id="prompt-text"></span><span class="aside-prompt-cursor"></span>
+        </div>
+
+        <div class="platform-group">
+          <div class="platform-group-head">
+            <span>AI Search · Citation</span>
+            <span class="ghead-count">7</span>
+          </div>
+          <div class="platform-row" data-rank="82" data-answer="成分比較表 + 臨床データ — 引用可能性が高い"><span class="platform-name">ChatGPT</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="71" data-answer="皮膚科の出典 + 安全性根拠 — 適合度良好"><span class="platform-name">Claude</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="68" data-answer="Allure · @cosmeなど権威メディアを優先引用"><span class="platform-name">Perplexity</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="63" data-answer="深層比較 — カテゴリ重み付け ↑"><span class="platform-name">AI Mode</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="58" data-answer="成分サイエンス — 論文・臨床出典に強い"><span class="platform-name">DeepSeek</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="54" data-answer="Search Grounding — レビュー多様性の補強が必要"><span class="platform-name">Gemini</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="47" data-answer="検索1位ドメイン優先 — FAQスキーマ補強推奨"><span class="platform-name">AI Overview</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+        </div>
+
+        <div class="platform-group">
+          <div class="platform-group-head">
+            <span>Social · Recommendation</span>
+            <span class="ghead-count">5</span>
+          </div>
+          <div class="platform-row" data-rank="78" data-answer="GRWM · 最初の3秒のビジュアルフック — FYP進入に強い"><span class="platform-name">TikTok</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="61" data-answer="レビュー・チュートリアル — 視聴時間の重み ↑"><span class="platform-name">YouTube</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="56" data-answer="Reels · カルーセル — テクスチャクローズアップ補強"><span class="platform-name">Instagram</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="42" data-answer="成分議論 — インフルエンサー言及が個別露出"><span class="platform-name">X</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="33" data-answer="成分/使用感の議論 — ハッシュタグ拡張が必要"><span class="platform-name">Threads</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+        </div>
+
+        <div class="aside-foot">
+          <span>平均露出確率 (7+5)</span>
+          <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
+        </div>
+      </aside>
     </div>
   </div>
 </section>
 
-<!-- ===== MISSION / WHO WE ARE ===== -->
-<section class="section section-mission" id="mission">
-  <div class="section-inner">
+<!-- ===== MISSION ===== -->
+<section class="section" id="mission">
+  <div class="container">
     <div class="mission-grid">
-      <div class="mission-text reveal">
-        <span class="mission-tag">WHO WE ARE</span>
-        <h2 class="mission-title">
-          世界初の <span class="gradient-text">GEO最適化</span><br>
-          AIモデル企業
-        </h2>
+      <div class="reveal">
+        <div class="eyebrow">Who We Are</div>
+        <h2>世界初の<br><em>GEO最適化</em> AIモデル会社。</h2>
       </div>
-      <div class="mission-body reveal">
+      <div class="mission-body reveal reveal-d1">
         <p>
-          <strong>GEO(Generative Engine Optimization)</strong>は、AI検索時代のSEOです。
-          SEOが「自分のコンテンツが検索1ページ目に表示される確率」だとすれば、
-          GEOは<strong>「自分のコンテンツがChatGPT・Claude・Perplexity・Geminiなどの回答に引用される確率」</strong>です。
+          <strong>GEO(Generative Engine Optimization)</strong>はAI検索時代のSEOです。
+          SEOが「自分のコンテンツが検索1ページ目に表示される確率」だったとすれば、
+          GEOは<strong>「自分のコンテンツがChatGPT・Claude・Perplexity・Geminiの回答に引用される確率」</strong>です。
         </p>
         <p>
-          GeoRank24は毎週12カ国7つのAIプラットフォームでキャプチャした
-          <strong>3,000万件+の「公開↔引用」データ</strong>で独自の引用予測モデル
-          <strong>Citora</strong>を学習させています。
-          Citoraがあなたのコンテンツの<strong>AI引用確率を公開前にスコアで出力します</strong> —
-          AI検索時代のSurfer SEOを構築します。
+          Plurankは毎週12カ国7つのAIプラットフォームから収集した<strong>3,000万件以上の発行↔引用データ</strong>で、
+          自社の引用予測モデル<strong>Pluora</strong>を学習させます。
+          Pluoraがあなたのコンテンツが<strong>AIに引用される確率を発行前にスコアとして出力します</strong> —
+          AI検索時代のSurfer SEOを作っています。
         </p>
         <div class="mission-pillars">
           <div class="mission-pillar">
             <div class="mission-pillar-num">01</div>
             <div class="mission-pillar-body">
-              <h4>測定 · MEASURE</h4>
-              <p>7 AI × 12カ国 引用追跡</p>
+              <h4><em>Measure</em></h4>
+              <p>7 AI × 12カ国の引用トラッキング</p>
             </div>
           </div>
           <div class="mission-pillar">
             <div class="mission-pillar-num">02</div>
             <div class="mission-pillar-body">
-              <h4>学習 · LEARN</h4>
-              <p>公開↔引用 30M+ データ</p>
+              <h4><em>Learn</em></h4>
+              <p>発行↔引用 3,000万件以上のデータセット</p>
             </div>
           </div>
           <div class="mission-pillar">
             <div class="mission-pillar-num">03</div>
             <div class="mission-pillar-body">
-              <h4>予測 · PREDICT</h4>
-              <p>コンテンツ別 引用確率出力</p>
+              <h4><em>Predict</em></h4>
+              <p>コンテンツ別の引用確率を出力</p>
             </div>
           </div>
         </div>
@@ -2371,524 +717,479 @@ body {
   </div>
 </section>
 
-<!-- ===== THESIS · WHY THIS MATTERS ===== -->
-<section class="section section-thesis" id="thesis">
-  <div class="section-inner">
+<!-- ===== THESIS ===== -->
+<section class="section" id="thesis">
+  <div class="container">
     <div class="section-head reveal">
-      <span class="section-eyebrow">WHY THIS MATTERS</span>
-      <h2 class="section-title">マーケティングの決定者が <span class="gradient-text">変わりました</span></h2>
-      <p class="section-sub">人間がキュレーションする時代は終わりました。今やAIアルゴリズムがすべての露出を決定し、それを予測しなければマーケティングは機能しません。</p>
+      <div>
+        <div class="eyebrow">Why This Matters</div>
+        <h2>マーケティングの決定者が <em>変わった</em>。</h2>
+      </div>
+      <p class="section-lede">
+        人間がキュレーションする時代は終わりました。今やAIアルゴリズムがすべての露出を決めます —
+        そしてそれを<strong>予測</strong>できなければマーケティングは機能しません。
+      </p>
     </div>
 
-    <div class="thesis-kpis reveal">
-      <div class="thesis-kpi">
-        <div class="thesis-kpi-value">70%</div>
-        <div class="thesis-kpi-label">YouTube視聴時間を<br>AI推薦が決定</div>
+    <div class="thesis-kpis">
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">70<span class="pct">%</span></div>
+        <div class="thesis-kpi-label">YouTube視聴時間を <strong style="color:var(--text);font-weight:500">AIレコメンド</strong>が決定</div>
         <div class="thesis-kpi-source">YouTube CPO</div>
       </div>
-      <div class="thesis-kpi">
-        <div class="thesis-kpi-value">90%+</div>
-        <div class="thesis-kpi-label">TikTok FYPリーチ<br>非フォロワー(アルゴ)</div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">90<span class="pct">%+</span></div>
+        <div class="thesis-kpi-label">TikTok FYP到達、非フォロワー <strong style="color:var(--text);font-weight:500">アルゴリズム</strong></div>
         <div class="thesis-kpi-source">Sotrender</div>
       </div>
-      <div class="thesis-kpi thesis-kpi-feature">
-        <div class="thesis-kpi-value">−58%</div>
-        <div class="thesis-kpi-label">Google AI Overview後<br>オーガニックCTR低下</div>
+      <div class="thesis-kpi thesis-kpi-feature reveal">
+        <div class="thesis-kpi-value"><em>−58</em><span class="pct">%</span></div>
+        <div class="thesis-kpi-label">AI Overview導入後の <strong style="color:var(--text);font-weight:500">Organic CTR</strong> 低下</div>
         <div class="thesis-kpi-source">Ahrefs · 2025</div>
       </div>
-      <div class="thesis-kpi">
-        <div class="thesis-kpi-value">9億</div>
-        <div class="thesis-kpi-label">ChatGPT週次<br>アクティブユーザー</div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">9<span class="pct">億</span></div>
+        <div class="thesis-kpi-label">ChatGPT週間アクティブ、<strong style="color:var(--text);font-weight:500">検索の代替</strong></div>
         <div class="thesis-kpi-source">OpenAI · 2026.02</div>
       </div>
-      <div class="thesis-kpi">
-        <div class="thesis-kpi-value">65%</div>
-        <div class="thesis-kpi-label">CMO「AIが役割を<br>根本的に変える」</div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">65<span class="pct">%</span></div>
+        <div class="thesis-kpi-label">CMO「AIが役割を<strong style="color:var(--text);font-weight:500">根本的に変える</strong>」</div>
         <div class="thesis-kpi-source">Gartner · 2025</div>
       </div>
     </div>
 
     <div class="thesis-timeline reveal">
-      <div class="thesis-timeline-title">AIゲートキーパーが各段階で蓄積される</div>
+      <div class="thesis-timeline-title">AIゲートキーパーは段階ごとに積み重なる</div>
       <div class="thesis-timeline-track">
         <div class="thesis-stage">
           <span class="thesis-stage-year">2010</span>
-          <span class="thesis-stage-label">SEO<br>(検索アルゴ)</span>
+          <span class="thesis-stage-label">SEO <em style="font-style:italic;color:var(--text-mute)">検索アルゴリズム</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2015</span>
-          <span class="thesis-stage-label">Social Algo<br>(推薦フィード)</span>
+          <span class="thesis-stage-label">Social Algo <em style="font-style:italic;color:var(--text-mute)">推薦フィード</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2023</span>
-          <span class="thesis-stage-label">LLM Search<br>(AI回答)</span>
+          <span class="thesis-stage-label">LLM Search <em style="font-style:italic;color:var(--text-mute)">AI回答</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage thesis-stage-now">
           <span class="thesis-stage-year">2026+</span>
-          <span class="thesis-stage-label">Agentic<br>Commerce</span>
+          <span class="thesis-stage-label"><em>Agentic Commerce</em></span>
         </div>
       </div>
     </div>
 
     <div class="thesis-hypothesis reveal">
-      <div class="thesis-hypothesis-tag">OUR HYPOTHESIS</div>
+      <div class="thesis-hypothesis-tag">Our Hypothesis</div>
       <div class="thesis-hypothesis-body">
-        AI検索 + ソーシャル + 来るAgentic Commerce — すべての<strong>AI媒介チャネルの露出・引用・推薦</strong>を
-        統合予測するモデルがマーケティングインフラの標準になります。
-        だから<strong>Citora</strong>は単一チャネルではなく<strong>マルチシグナル統合学習</strong>で構築します。
+        AI検索 + ソーシャル + 近く到来するAgentic Commerce — すべての<strong>AI-mediatedチャネルの露出・引用・推薦</strong>を
+        統合予測するモデルが、マーケティング・インフラの標準になります。だからこそ<strong>Pluora</strong>は
+        単一チャネルではなく<strong>マルチシグナル統合学習</strong>で構築されています。
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== LIVE PREDICTION DEMO ===== -->
-<section class="section section-demo" id="how">
-  <div class="section-inner">
+<!-- ===== DEMO ===== -->
+<section class="section" id="how">
+  <div class="container">
     <div class="section-head reveal">
-      <span class="section-eyebrow">MEET CITORA</span>
-      <h2 class="section-title">引用確率を<span class="gradient-text">予測するAIモデル</span></h2>
-      <p class="section-sub">192件の「公開↔引用」実証データで学習した<strong>Citora</strong>が、URL一行で7つのAIプラットフォーム別引用確率(GEO Score)を出力します。</p>
+      <div>
+        <div class="eyebrow">Meet Pluora</div>
+        <h2>コンテンツの引用確率を <em>予測</em>するAIモデル。</h2>
+      </div>
+      <p class="section-lede">
+        192件の発行↔引用実証データで学習された<strong>Pluora</strong>が — コンテンツURL1行で
+        7つのAIプラットフォーム別の引用確率(GEO Score)を出力します。
+      </p>
     </div>
 
     <div class="demo-grid">
-      <!-- Probability Gauge Card -->
-      <div class="card card-glow reveal">
+      <div class="card reveal">
         <div class="card-header">
-          <span class="card-label">CITATION PROBABILITY</span>
-          <span class="card-tag">コンテンツ引用確率</span>
+          <span class="card-label">Citation Probability</span>
+          <span class="card-tag">コンテンツ別スコア</span>
         </div>
-        <div class="gauge-wrap">
+        <div class="gauge-wrap" data-gauge-target="78.2">
           <svg class="gauge" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid meet">
-            <defs>
-              <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#14B8A6"/>
-                <stop offset="100%" stop-color="#A78BFA"/>
-              </linearGradient>
-            </defs>
-            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.07)" stroke-width="14" fill="none" stroke-linecap="round"/>
-            <path id="gauge-prog" d="M 20 110 A 80 80 0 0 1 180 110" stroke="url(#gaugeGrad)" stroke-width="14" fill="none" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
-            <text id="gauge-num" x="100" y="92" text-anchor="middle"
-                  fill="#F5F5F7" font-family="JetBrains Mono, monospace"
-                  font-size="34" font-weight="800" letter-spacing="-1.2">0.0<tspan fill="#B4B4C0" font-size="20" dx="2">%</tspan></text>
+            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.06)" stroke-width="10" fill="none" stroke-linecap="round"/>
+            <path class="gauge-arc-anim" d="M 20 110 A 80 80 0 0 1 180 110" stroke="#f5f5f5" stroke-width="10" fill="none" stroke-linecap="round" pathLength="100"/>
+            <text x="100" y="96" text-anchor="middle" fill="#f5f5f5" class="gauge-num-text gauge-text-anim" font-size="42" font-weight="300">0.0<tspan fill="rgba(255,255,255,0.46)" font-size="22" dx="2">%</tspan></text>
           </svg>
-          <div class="gauge-trend">公開後7日以内の引用確率</div>
+          <div class="gauge-trend">発行後7日以内の引用確率</div>
         </div>
         <div class="sparkline-wrap">
-          <span class="sparkline-label">最近公開したコンテンツの引用確率推移</span>
+          <span class="sparkline-label">最近の発行コンテンツ推移</span>
           <svg class="sparkline" viewBox="0 0 200 50" preserveAspectRatio="none">
-            <defs>
-              <linearGradient id="sparkFill" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.4"/>
-                <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
-              </linearGradient>
-            </defs>
-            <path d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8 L 200 50 L 0 50 Z" fill="url(#sparkFill)"/>
-            <path id="spark-path" d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8" stroke="#2DD4BF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
-            <circle cx="200" cy="8" r="4" fill="#A78BFA" opacity="0" id="spark-dot">
-              <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2s" fill="freeze"/>
-            </circle>
+            <path d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8 L 200 50 L 0 50 Z" fill="rgba(255,255,255,0.04)"/>
+            <path class="path-reveal" d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8" stroke="#f5f5f5" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            <circle cx="200" cy="8" r="3" fill="#f5f5f5"/>
           </svg>
         </div>
       </div>
 
-      <!-- Citora Model Card -->
       <div class="card reveal">
         <div class="card-header">
-          <span class="card-label">Citora</span>
+          <span class="card-label">Pluora</span>
           <span class="card-tag">v0.8 · GEO Score</span>
         </div>
-        <svg class="neural" id="neural-svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid meet">
-          <g id="nn-connections" stroke-width="0.7" fill="none"></g>
-          <g id="nn-nodes"></g>
+        <svg viewBox="0 0 400 240" style="flex:1;width:100%;height:auto;">
+          <g stroke="rgba(255,255,255,0.18)" stroke-width="0.8" fill="none">
+            <line x1="60" y1="60" x2="180" y2="40"/><line x1="60" y1="60" x2="180" y2="100"/><line x1="60" y1="60" x2="180" y2="140"/>
+            <line x1="60" y1="120" x2="180" y2="40"/><line x1="60" y1="120" x2="180" y2="100"/><line x1="60" y1="120" x2="180" y2="140"/><line x1="60" y1="120" x2="180" y2="180"/>
+            <line x1="60" y1="180" x2="180" y2="100"/><line x1="60" y1="180" x2="180" y2="140"/><line x1="60" y1="180" x2="180" y2="180"/>
+            <line x1="180" y1="40" x2="300" y2="60"/><line x1="180" y1="40" x2="300" y2="120"/>
+            <line x1="180" y1="100" x2="300" y2="60"/><line x1="180" y1="100" x2="300" y2="120"/><line x1="180" y1="100" x2="300" y2="180"/>
+            <line x1="180" y1="140" x2="300" y2="120"/><line x1="180" y1="140" x2="300" y2="180"/>
+            <line x1="180" y1="180" x2="300" y2="120"/><line x1="180" y1="180" x2="300" y2="180"/>
+            <line x1="300" y1="60" x2="360" y2="120"/><line x1="300" y1="120" x2="360" y2="120"/><line x1="300" y1="180" x2="360" y2="120"/>
+          </g>
+          <g fill="#f5f5f5">
+            <circle cx="60" cy="60" r="4"/><circle cx="60" cy="120" r="4"/><circle cx="60" cy="180" r="4"/>
+            <circle cx="180" cy="40" r="4"/><circle cx="180" cy="100" r="4"/><circle cx="180" cy="140" r="4"/><circle cx="180" cy="180" r="4"/>
+            <circle cx="300" cy="60" r="4"/><circle cx="300" cy="120" r="4"/><circle cx="300" cy="180" r="4"/>
+            <circle cx="360" cy="120" r="6" stroke="#f5f5f5" stroke-width="2" fill="#0a0a0a"/>
+          </g>
+          <text x="60" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">INPUT</text>
+          <text x="180" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">FEATURES</text>
+          <text x="300" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">LATENT</text>
+          <text x="360" y="220" text-anchor="middle" fill="#f5f5f5" font-family="Geist Mono" font-size="9" letter-spacing="1.5">OUT</text>
         </svg>
         <div class="model-tagline">
-          <strong>Citora</strong> — GeoRank24独自の引用予測AI。URL入力 → 7プラットフォーム別引用確率出力。
+          <strong>Pluora</strong> — Plurankの自社引用予測AIモデル。URL入力 → 7 AIプラットフォーム引用確率を出力。
         </div>
         <div class="neural-meta">
-          <div><span>予測期間</span><strong>7日</strong></div>
-          <div><span>学習周期</span><strong>週1回</strong></div>
+          <div><span>予測ホライズン</span><strong>7日</strong></div>
+          <div><span>再学習</span><strong>週1回</strong></div>
           <div><span>MAPE</span><strong>8.6%</strong></div>
         </div>
       </div>
 
-      <!-- Metrics Wide Card -->
-      <div class="card card-wide reveal">
+      <div class="card card-wide reveal reveal-d2">
         <div class="card-header">
-          <span class="card-label">REAL-TIME DATA FOUNDATION</span>
+          <span class="card-label">Real-time Data Foundation</span>
           <span class="card-tag">12カ国 · 7プラットフォーム</span>
         </div>
         <div class="metrics-grid">
-          <div class="metric"><div class="metric-num" data-count="192">0</div><div class="metric-label">公開↔引用 実証</div></div>
-          <div class="metric"><div class="metric-num" data-count="30" data-suffix="M+">0</div><div class="metric-label">BigQuery 学習データ</div></div>
-          <div class="metric"><div class="metric-num" data-count="12">0</div><div class="metric-label">国(実ISP IP)</div></div>
-          <div class="metric"><div class="metric-num" data-count="97" data-decimal="1">0</div><div class="metric-label">平均GEOスコア</div></div>
+          <div class="metric"><div class="metric-num" data-count="192">192</div><div class="metric-label">発行↔引用実証件数</div></div>
+          <div class="metric"><div class="metric-num" data-count="30">30<span class="unit">M+</span></div><div class="metric-label">BigQuery学習データ</div></div>
+          <div class="metric"><div class="metric-num" data-count="12">12</div><div class="metric-label">カ国 (実ISP IP)</div></div>
+          <div class="metric"><div class="metric-num" data-count="97.1" data-decimals="1">97.1</div><div class="metric-label">平均GEOスコア</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== WHY GEORANK24 ===== -->
-<section class="section section-why" id="why">
-  <div class="section-inner">
+<!-- ===== WHY ===== -->
+<section class="section" id="why">
+  <div class="container">
     <div class="section-head reveal">
-      <h2 class="section-title">なぜ我々だけが <span class="gradient-text">予測</span>まで可能か</h2>
-      <p class="section-sub">リアルブラウザデータ、12カ国のISP IP、3,000万件の学習データ — この三つを揃えているのは世界で当社だけです。</p>
+      <div>
+        <div class="eyebrow">Why Plurank</div>
+        <h2>なぜ私たちは <em>予測</em>まで可能なのか。</h2>
+      </div>
+      <p class="section-lede">
+        実ブラウザデータ、12カ国のISP IP、3,000万件以上の学習データ —
+        この3つすべてを持つ会社は、世界中で私たちだけです。
+      </p>
     </div>
 
     <div class="why-grid">
       <div class="why-card reveal">
-        <div class="why-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        </div>
-        <h3>リアルブラウザデータ</h3>
-        <p>API推定値やスクレイピングではなく、<strong>12カ国のISP IPから実際にユーザーが見ている画面</strong>をキャプチャします。</p>
-        <div class="why-meta">スクリーンショット認証 · 192件 公開↔引用実証</div>
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <h3>実 <em>ブラウザ</em> データ</h3>
+        <p>API推定値やスクレイピングではなく<strong>12カ国のISP IPで実際にユーザーが見る画面</strong>をキャプチャします。</p>
+        <div class="why-meta">スクリーンショット認証 · 192件実証</div>
       </div>
       <div class="why-card reveal">
-        <div class="why-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--teal-light);"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
         <h3>7プラットフォーム × 12カ国</h3>
-        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>を5ワーカーセット、60台のEC2で同時計測。</p>
-        <div class="why-meta">週1ベースライン + 日次トレンド計測</div>
+        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>を5つのワーカーセット、60台のEC2で同時計測。</p>
+        <div class="why-meta">週1回定期 + 日次トレンド</div>
       </div>
       <div class="why-card reveal">
-        <div class="why-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--purple-light);"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M5.6 18.4l4.2-4.2M14.2 9.8l4.2-4.2"/></svg>
-        </div>
-        <h3>Citora — 公開前の引用確率予測</h3>
-        <p>30M+の公開↔引用データで学習した<strong>Citora</strong>が、コンテンツのAI引用確率を公開前にスコアで出力します。</p>
-        <div class="why-meta">AI検索時代のSurfer SEO · MAPE 8.6%</div>
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M5.6 18.4l4.2-4.2M14.2 9.8l4.2-4.2"/></svg></div>
+        <h3>Pluora — <em>発行前</em> 予測</h3>
+        <p>3,000万件以上の発行↔引用データで学習された<strong>Pluora</strong>が、コンテンツがAIに引用される確率を発行前にスコアとして出力します。</p>
+        <div class="why-meta">AI検索のSurfer SEO · MAPE 8.6%</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== PREDICTION ENGINE FLOW ===== -->
-<section class="section section-engine" id="engine">
-  <div class="section-inner">
+<!-- ===== ENGINE ===== -->
+<section class="section" id="engine">
+  <div class="container">
     <div class="section-head reveal">
-      <span class="section-eyebrow">HOW IT WORKS</span>
-      <h2 class="section-title">データから<span class="gradient-text">予測</span>までの4ステップ</h2>
-      <p class="section-sub">毎週自動でデータを収集し、モデルで学習し、来週の引用確率を予測します。</p>
+      <div>
+        <div class="eyebrow">How It Works</div>
+        <h2>データから<em>予測</em>まで、4ステップのエンジン。</h2>
+      </div>
+      <p class="section-lede">
+        毎週自動でデータを収集し、モデルを学習させ、翌週の可視性を予測します。
+      </p>
     </div>
 
     <div class="engine-flow">
       <div class="engine-step reveal">
-        <div class="engine-step-num">01 · COLLECT</div>
-        <h3>リアルブラウザでキャプチャ</h3>
-        <p>12カ国のISP IPから7つのAIプラットフォームを実ブラウザでキャプチャ。60台のワーカーEC2で自動化。</p>
+        <div class="engine-step-num">01 · Collect</div>
+        <h3>実ブラウザ・キャプチャ</h3>
+        <p>12カ国のISP IPで7つのAIプラットフォームの回答を実ブラウザで取得。毎週60台のワーカーEC2で自動化。</p>
         <div class="engine-step-meta">毎週火曜 03:00 KST</div>
       </div>
-      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
       <div class="engine-step reveal">
-        <div class="engine-step-num">02 · LABEL</div>
-        <h3>スクリーンショット+引用抽出</h3>
-        <p>スクリーンショット・出典URL・順位・テキストトークンをBigQueryに格納。248の特徴量に正規化。</p>
-        <div class="engine-step-meta">学習データ 30M+ 累積</div>
+        <div class="engine-step-num">02 · Label</div>
+        <h3>スクリーンショット + 引用抽出</h3>
+        <p>スクリーンショット・出典URL・順位・テキストトークンをBigQueryに格納。248の特徴量で正規化。</p>
+        <div class="engine-step-meta">学習データ3,000万件以上を蓄積</div>
       </div>
-      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
       <div class="engine-step reveal">
-        <div class="engine-step-num">03 · TRAIN</div>
-        <h3>Citora 再学習</h3>
-        <p>Citoraが「公開↔引用」パターンを学習。週1回の重み更新、MAPE 8.6%。</p>
-        <div class="engine-step-meta">v1リリース · 2026 H2</div>
+        <div class="engine-step-num">03 · Train</div>
+        <h3><em>Pluora</em> 再学習</h3>
+        <p>Pluoraが発行↔引用パターンを学習。週1回の重み更新、MAPE 8.6%。</p>
+        <div class="engine-step-meta">v1リリース予定 · 2026 H2</div>
       </div>
-      <div class="engine-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
-      <div class="engine-step engine-step-last reveal">
-        <div class="engine-step-num">04 · PREDICT</div>
-        <h3>引用確率+最適化ガイド</h3>
-        <p>URLを入力するとCitoraが7プラットフォーム別引用確率(GEO Score)を出力。スコアが低い場合、どこを補強すれば上がるかを自動提案。</p>
-        <div class="engine-step-meta">リアルタイム+週次月曜 09:00 レポート</div>
+      <div class="engine-step engine-step-last">
+        <div class="engine-step-num">04 · Predict</div>
+        <h3>引用確率 + ガイド</h3>
+        <p>URLを入力すると7 AI別の引用確率(GEO Score)を出力。スコアが低い場合、どの部分を補強すれば上昇するかを自動提案。</p>
+        <div class="engine-step-meta">リアルタイム + 毎週月曜09:00レポート</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== TRUST / DATA FOUNDATION ===== -->
-<section class="section section-trust" id="trust">
-  <div class="section-inner">
+<!-- ===== TRUST ===== -->
+<section class="section" id="trust">
+  <div class="container">
     <div class="section-head reveal">
-      <h2 class="section-title"><span class="gradient-text">学習データ</span>こそが堀(モート)です</h2>
-      <p class="section-sub">毎週火曜の早朝、12カ国60台のワーカーEC2が7つのAIプラットフォームを同時にキャプチャしBigQueryに格納します。このデータがそのまま次のモデルの燃料となります。</p>
+      <div>
+        <div class="eyebrow">Data Foundation</div>
+        <h2><em>学習データ</em>こそがモートです。</h2>
+      </div>
+      <p class="section-lede">
+        毎週火曜の早朝、12カ国60台のワーカーEC2が7 AIプラットフォームを同時にキャプチャし、BigQueryに格納します。
+        このデータがそのまま次のモデルの<strong>燃料</strong>になります。
+      </p>
     </div>
 
     <div class="trust-grid">
       <div class="trust-card reveal">
         <div class="trust-num" data-count="192">192</div>
-        <div class="trust-label">公開↔AI引用 実証</div>
-        <div class="trust-desc">12社ブログ → AI検索引用まで追跡したケース</div>
+        <div class="trust-label">発行↔AI引用の実証件数</div>
+        <div class="trust-desc">12社のブログ → AI検索引用まで追跡したケース</div>
       </div>
-      <div class="trust-card trust-card-feature reveal">
-        <div class="trust-num">30M+</div>
+      <div class="trust-card trust-card-feature reveal reveal-d1">
+        <div class="trust-num" data-count="30">30<span class="unit">M+</span></div>
         <div class="trust-label">BigQuery学習データ</div>
-        <div class="trust-desc">スクリーンショット・出典・順位・テキストトークン・メタデータ</div>
+        <div class="trust-desc">スクリーンショット · 出典 · 順位 · テキストトークン · メタデータ</div>
       </div>
-      <div class="trust-card reveal">
-        <div class="trust-num">12</div>
-        <div class="trust-label">国(実IP)</div>
+      <div class="trust-card reveal reveal-d2">
+        <div class="trust-num" data-count="12">12</div>
+        <div class="trust-label">カ国 (実IP)</div>
         <div class="trust-desc">US · UK · JP · KR · DE · FR · ES · IT · IN · BR · ID · AE</div>
       </div>
-      <div class="trust-card reveal">
-        <div class="trust-num">97.1</div>
+      <div class="trust-card reveal reveal-d3">
+        <div class="trust-num" data-count="97.1" data-decimals="1">97.1</div>
         <div class="trust-label">平均GEOスコア</div>
-        <div class="trust-desc">12カテゴリ192件の公開コンテンツ</div>
+        <div class="trust-desc">12カテゴリ · 192件の発行コンテンツ</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== INSIGHTS — How we think about GEO ===== -->
-<section class="section section-insights" id="insights">
-  <div class="section-inner">
+<!-- ===== INSIGHTS ===== -->
+<section class="section" id="insights">
+  <div class="container">
     <div class="section-head reveal">
-      <span class="section-eyebrow">HOW WE THINK ABOUT GEO</span>
-      <h2 class="section-title">データから見えた <span class="gradient-text">6つの真実</span></h2>
-      <p class="section-sub">毎週3,000万件以上の「公開↔引用」データを処理して見えてきた、GEOに本気で取り組むなら知っておくべきこと。</p>
+      <div>
+        <div class="eyebrow">How We Think About GEO</div>
+        <h2>データで見つけた <em>6つ</em>の事実。</h2>
+      </div>
+      <p class="section-lede">
+        毎週3,000万件以上の発行↔引用データを見続けて私たちが発見した、GEOを真剣に扱うなら必ず知るべきこと。
+      </p>
     </div>
 
     <div class="insights-grid">
       <article class="insight-card reveal">
         <div class="insight-num">01</div>
-        <h3>AIは「検索」せず、答えを「書く」</h3>
-        <p>AI検索は結果一覧を返しません。複数の出典を合成して一つの回答を書き上げます。だから<strong>引用された出典こそが可視性</strong>です。</p>
-        <div class="insight-tag">→ 7 AI × 12カ国で、どの出典がどの回答に入ったかを毎週追跡</div>
+        <h3>AIは検索せず、<em>答えを書く</em>。</h3>
+        <p>AI検索は結果リストを表示しません。複数の出典を組み合わせて1つの回答を作ります。だから<strong>引用された出典こそが可視性</strong>です。</p>
+        <div class="insight-tag">→ 7 AI × 12カ国でどの出典が入ったかを毎週追跡</div>
       </article>
-
       <article class="insight-card reveal">
         <div class="insight-num">02</div>
-        <h3>一度の言及と「主要根拠」、その差は5倍</h3>
-        <p>同じ一行でも<strong>脚注に入るか、本論の根拠になるか</strong>で可視性は別物。単なる言及では足りません。</p>
-        <div class="insight-tag">→ GEO Scoreは引用回数だけでなく位置・文脈・正確性まで重み付け</div>
+        <h3>一度の言及と核心的な根拠、その差は <em>5倍</em>。</h3>
+        <p>同じ一文でも<strong>脚注になるか、本文の根拠になるか</strong>で可視性が変わります。単なる言及では不十分です。</p>
+        <div class="insight-tag">→ GEO Scoreは位置・文脈・正確性を重み付けで反映</div>
       </article>
-
       <article class="insight-card reveal">
         <div class="insight-num">03</div>
-        <h3>人はキーワードで聞かない</h3>
-        <p>SEOは「Mercedes E-Class 価格」のキーワード照合。GEOには<strong>「家族4人向けのプレミアムセダン」</strong>といった本物の質問が来ます。同じ製品でも、創業者・PM・デザイナーで質問が全く異なります。</p>
-        <div class="insight-tag">→ ユーザー意図とペルソナ別クラスタで引用パターンを別個に学習</div>
+        <h3>人々は <em>キーワード</em>では尋ねない。</h3>
+        <p>SEOは「Mercedes E-Class 価格」のようなキーワード。GEOは<strong>「家族4人に合うプレミアムセダン」</strong>のような事情が入ってきます。</p>
+        <div class="insight-tag">→ ペルソナクラスタで分けて引用パターンを学習</div>
       </article>
-
       <article class="insight-card reveal">
         <div class="insight-num">04</div>
-        <h3>AIはあなたのサイトだけを読まない</h3>
-        <p>AIはあなたのドメインだけを見て答えを作りません。<strong>レビュー・コミュニティ・報道の言及</strong>まで合わせて評価します。</p>
-        <div class="insight-tag">→ 80+メディアと5大コミュニティ(Reddit·HN·Quora·G2·Trustpilot)を週次トラッキング</div>
+        <h3>AIは <em>あなたのサイトだけ</em>を読まない。</h3>
+        <p>AIはドメイン1つを見て答えを作りません。<strong>レビュー・コミュニティ・メディア引用</strong>まで合算して評価します。</p>
+        <div class="insight-tag">→ 80+メディア + 5大コミュニティのメンションを週次トラッキング</div>
       </article>
-
       <article class="insight-card reveal">
         <div class="insight-num">05</div>
-        <h3>AIが「使いやすい」コンテンツは形が違う</h3>
-        <p>量に意味はありません。<strong>AIが直接取り込める形式</strong>(スキーマ・FAQ・明確な出典)が引用を決めます。</p>
-        <div class="insight-tag">→ シミュレーターがどこを補強すれば +N pt 引用確率上昇かを正確に出力</div>
+        <h3>AIが <em>取り出しやすい</em>コンテンツは違って見える。</h3>
+        <p>量は意味がありません。<strong>AIがそのまま引用できる形式</strong>(スキーマ・FAQ・明確な出典)が引用の可否を決めます。</p>
+        <div class="insight-tag">→ シミュレーターが補強時の +N pt を正確に出力</div>
       </article>
-
       <article class="insight-card insight-card-feature reveal">
         <div class="insight-num">06</div>
-        <h3>「推薦」は終わり、「買う」AIが来る</h3>
-        <p>推薦を超え、<strong>比較・決済までAIが直接実行</strong>する時代。可視性の意味が認知から行動へ移ります。</p>
-        <div class="insight-tag">→ ChatGPT Operator・Perplexity Shoppingまで測定対象に組み込み済み</div>
+        <h3>「推薦する」AIは終わり、<em>「買う」</em>AIが来る。</h3>
+        <p>推薦を超えて<strong>比較・決済の実行までAIが直接処理</strong>する時代。露出の意味が認知(awareness)から行動(action)へ移ります。</p>
+        <div class="insight-tag">→ ChatGPT Operator · Perplexity Shopping を計測対象に既に含む</div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ===== WHAT YOU GET ===== -->
-<section class="section section-deliverables" id="deliverables">
-  <div class="section-inner">
+<!-- ===== DELIVERABLES ===== -->
+<section class="section" id="deliverables">
+  <div class="container">
     <div class="section-head reveal">
-      <h2 class="section-title">毎週月曜、お客様にお届けするもの — <span class="gradient-text">予測・分析・実行ガイド</span></h2>
-      <p class="section-sub">単なる計測ではなく予測。公開前の引用確率+公開後のモニタリング+次のアクションガイドまで、一つに。</p>
+      <div>
+        <div class="eyebrow">What You Get · Every Monday</div>
+        <h2>クライアントが受け取るもの — <em>毎週月曜日</em>。</h2>
+      </div>
+      <p class="section-lede">
+        測定だけでなく予測。発行前の引用確率 + 発行後のモニタリング + 次のアクションガイドまでを1つで。
+      </p>
     </div>
 
-    <!-- 01 · Weekly Visibility Report -->
     <div class="deliverable-row reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">01</div>
-        <h3>週次可視性レポート</h3>
-        <p>7つのAIプラットフォーム × 12カ国で、ブランドの<strong>引用・順位・シェア</strong>を毎週自動算出。競合5社比較を標準搭載、カテゴリ別SOV(Share of Voice)まで一画面に整理されます。</p>
+        <h3>週次可視性 <em>レポート</em></h3>
+        <p>7 AIプラットフォーム × 12カ国であなたのブランドの<strong>引用・順位・シェア</strong>を毎週自動算出します。
+        競合5社比較が標準で含まれ、カテゴリ別SOV(Share of Voice)まで1画面にまとめます。</p>
         <ul class="deliverable-bullets">
-          <li>プラットフォーム別 平均順位+引用回数</li>
-          <li>国別シェアヒートマップ</li>
-          <li>競合5社SOV比較</li>
+          <li>プラットフォーム別の平均順位 + 引用回数</li>
+          <li>国別シェアのヒートマップ</li>
+          <li>競合5社のSOV比較</li>
         </ul>
       </div>
       <div class="deliverable-visual">
         <div class="mock-card">
           <div class="mock-head">
-            <span class="mock-pill">WEEK 17 · 2026-04-21</span>
+            <span class="mock-pill">Week 17 · 2026-04-21</span>
             <span class="mock-pill mock-pill-good">+5.2pt</span>
           </div>
           <div class="mock-platforms">
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#10A37F"></span>ChatGPT</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:82%;background:#10A37F"></div></div>
-              <div class="mock-plat-val">82% <small>· #1</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:71%;background:#D97757"></div></div>
-              <div class="mock-plat-val">71% <small>· #2</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:68%;background:#1FB8CD"></div></div>
-              <div class="mock-plat-val">68% <small>· #3</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:63%;background:#EA4335"></div></div>
-              <div class="mock-plat-val">63% <small>· #4</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:58%;background:#4D6BFE"></div></div>
-              <div class="mock-plat-val">58% <small>· #5</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:54%;background:#4285F4"></div></div>
-              <div class="mock-plat-val">54% <small>· #6</small></div>
-            </div>
-            <div class="mock-platform">
-              <div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div>
-              <div class="mock-plat-bar"><div class="bar-fill" style="width:42%;background:#FBBC04"></div></div>
-              <div class="mock-plat-val">42% <small>· #7</small></div>
-            </div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#10A37F"></span>ChatGPT</div><div class="mock-plat-bar"><div class="bar-fill" style="width:82%"></div></div><div class="mock-plat-val">82% <small>· #1</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div><div class="mock-plat-bar"><div class="bar-fill" style="width:71%"></div></div><div class="mock-plat-val">71% <small>· #2</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div><div class="mock-plat-bar"><div class="bar-fill" style="width:68%"></div></div><div class="mock-plat-val">68% <small>· #3</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div><div class="mock-plat-bar"><div class="bar-fill" style="width:63%"></div></div><div class="mock-plat-val">63% <small>· #4</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div><div class="mock-plat-bar"><div class="bar-fill" style="width:58%"></div></div><div class="mock-plat-val">58% <small>· #5</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div><div class="mock-plat-bar"><div class="bar-fill" style="width:54%"></div></div><div class="mock-plat-val">54% <small>· #6</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div><div class="mock-plat-bar"><div class="bar-fill" style="width:42%"></div></div><div class="mock-plat-val">42% <small>· #7</small></div></div>
           </div>
-          <div class="mock-foot">
-            <span>全体平均シェア</span><strong>62.6%</strong>
-          </div>
+          <div class="mock-foot"><span>全体平均シェア</span><strong>62.6%</strong></div>
         </div>
       </div>
     </div>
 
-    <!-- 02 · Citation Probability + Simulator (reversed) -->
     <div class="deliverable-row deliverable-row-reverse reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">02</div>
-        <h3>コンテンツ引用確率+改善シミュレーター</h3>
-        <p>公開予定のコンテンツURLやドラフトを入力すると、<strong>Citora</strong>が<strong>7プラットフォーム別の引用確率</strong>を出力。スコアが低い場合、どこ(スキーマ・出典・構成)を補強すれば確率が上がるかをシミュレーターで事前に確認できます。</p>
+        <h3>引用確率 + <em>改善シミュレーター</em></h3>
+        <p>発行予定のコンテンツURLまたは草稿を入力すると<strong>Pluora</strong>が<strong>7つのAIプラットフォーム別の引用確率</strong>を出力します。
+        スコアが低い場合、どこ(スキーマ・出典・構造)を補強すれば確率が上がるかをシミュレーターで事前に確認できます。</p>
         <ul class="deliverable-bullets">
-          <li>5 AIプラットフォーム別 引用確率(0-100%)</li>
-          <li>「これを直せば +N pt」シミュレーション</li>
-          <li>MAPE 8.6%(予測精度の標準メトリック)</li>
+          <li>7 AIプラットフォーム別の引用確率 (0–100%)</li>
+          <li>「何を直せば +N pt」改善シミュレーション</li>
+          <li>MAPE 8.6% (予測精度の標準メトリクス)</li>
         </ul>
       </div>
       <div class="deliverable-visual">
         <div class="mock-card">
           <div class="mock-head">
-            <span class="mock-pill">CONTENT · /blog/post-2026-04</span>
-            <span class="mock-pill mock-pill-purple">SIMULATOR</span>
+            <span class="mock-pill">/blog/post-2026-04</span>
+            <span class="mock-pill mock-pill-purple">+ Simulator</span>
           </div>
           <svg class="mock-chart" viewBox="0 0 360 180" preserveAspectRatio="xMidYMid meet">
-            <defs>
-              <linearGradient id="ciFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
-                <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
-              </linearGradient>
-              <linearGradient id="histLine" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0%" stop-color="#14B8A6"/>
-                <stop offset="100%" stop-color="#2DD4BF"/>
-              </linearGradient>
-            </defs>
-            <!-- grid -->
-            <line x1="30" y1="40" x2="340" y2="40" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-            <line x1="30" y1="90" x2="340" y2="90" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-            <line x1="30" y1="140" x2="340" y2="140" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-            <!-- y labels -->
-            <text x="22" y="44" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">90</text>
-            <text x="22" y="94" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">60</text>
-            <text x="22" y="144" text-anchor="end" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">30</text>
-            <!-- forecast division line -->
-            <line x1="240" y1="20" x2="240" y2="155" stroke="rgba(167,139,250,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
-            <text x="240" y="14" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono" font-weight="700">CURRENT</text>
-            <!-- confidence band -->
-            <path d="M 240 80 L 280 65 L 320 50 L 340 45 L 340 85 L 320 75 L 280 90 L 240 95 Z"
-                  fill="url(#ciFill)"/>
-            <!-- history line -->
-            <polyline points="30,120 70,115 110,108 150,98 190,88 230,82" fill="none"
-                      stroke="url(#histLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <!-- forecast line (dashed) -->
-            <polyline points="230,82 270,72 310,62 340,55" fill="none"
-                      stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,3"/>
-            <!-- history dots -->
-            <circle cx="30" cy="120" r="3" fill="#14B8A6"/>
-            <circle cx="70" cy="115" r="3" fill="#14B8A6"/>
-            <circle cx="110" cy="108" r="3" fill="#14B8A6"/>
-            <circle cx="150" cy="98" r="3" fill="#14B8A6"/>
-            <circle cx="190" cy="88" r="3" fill="#14B8A6"/>
-            <circle cx="230" cy="82" r="3.5" fill="#2DD4BF" stroke="#0A0A0F" stroke-width="1.5"/>
-            <!-- forecast point -->
-            <circle cx="340" cy="55" r="5" fill="#A78BFA" stroke="#0A0A0F" stroke-width="2"/>
-            <text x="340" y="42" text-anchor="end" fill="#A78BFA" font-size="11" font-family="Inter" font-weight="800">78.2</text>
-            <!-- x labels -->
-            <text x="30" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">Base</text>
-            <text x="110" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">+ 出典</text>
-            <text x="190" y="170" text-anchor="middle" fill="#6B6B7A" font-size="9" font-family="JetBrains Mono">+ FAQ</text>
-            <text x="270" y="170" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono">+ 比較</text>
-            <text x="340" y="170" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="JetBrains Mono">+ Schema</text>
+            <line x1="30" y1="40" x2="340" y2="40" stroke="rgba(255,255,255,0.05)"/>
+            <line x1="30" y1="90" x2="340" y2="90" stroke="rgba(255,255,255,0.05)"/>
+            <line x1="30" y1="140" x2="340" y2="140" stroke="rgba(255,255,255,0.05)"/>
+            <text x="22" y="44" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">90</text>
+            <text x="22" y="94" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">60</text>
+            <text x="22" y="144" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">30</text>
+            <line x1="240" y1="20" x2="240" y2="155" stroke="rgba(245,158,11,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="240" y="14" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono" font-weight="500">現在</text>
+            <polyline class="path-reveal" points="30,120 70,115 110,108 150,98 190,88 230,82" fill="none" stroke="#f5f5f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            <polyline points="230,82 270,72 310,62 340,55" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,3"/>
+            <circle cx="30" cy="120" r="2.5" fill="#f5f5f5"/>
+            <circle cx="70" cy="115" r="2.5" fill="#f5f5f5"/>
+            <circle cx="110" cy="108" r="2.5" fill="#f5f5f5"/>
+            <circle cx="150" cy="98" r="2.5" fill="#f5f5f5"/>
+            <circle cx="190" cy="88" r="2.5" fill="#f5f5f5"/>
+            <circle cx="230" cy="82" r="3.5" fill="#f5f5f5" stroke="#0a0a0a" stroke-width="1.5"/>
+            <circle cx="340" cy="55" r="5" fill="#f59e0b" stroke="#0a0a0a" stroke-width="2"/>
+            <text x="340" y="42" text-anchor="end" fill="#f59e0b" font-size="11" font-family="Fraunces" font-weight="500">78.2</text>
+            <text x="30" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">初期</text>
+            <text x="110" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">+ 出典</text>
+            <text x="190" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">+ FAQ</text>
+            <text x="270" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ 比較表</text>
+            <text x="340" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ スキーマ</text>
           </svg>
           <div class="mock-foot mock-foot-list">
-            <div><span class="ftag">SUGGEST</span> 比較表+スキーマ追加で引用確率 +18pt 見込み</div>
+            <div><span class="ftag">SUGGEST</span>比較表 + Schema markup 追加時、引用確率 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style:italic;">+18pt</strong> 見込み</div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 03 · Action Priorities -->
     <div class="deliverable-row reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">03</div>
-        <h3>実行優先度</h3>
-        <p>「どのコンテンツをどこに公開すれば引用されるか」— モデルが直接生成した<strong>アクションガイド</strong>を優先度順に提供。各アクションには想定インパクト(スコア変動)と難易度を併記します。</p>
+        <h3>実行 <em>優先順位</em></h3>
+        <p>「どのコンテンツをどこに発行すれば引用されるか」 — モデルが直接生成した<strong>アクションガイド</strong>を
+        優先順位付きで提供します。各アクションには予測インパクト(スコア変動)と難易度が一緒に表示されます。</p>
         <ul class="deliverable-bullets">
-          <li>プラットフォーム別 優先アクション自動生成</li>
-          <li>想定インパクト(ポイント単位)</li>
-          <li>難易度・所要時間の見積もり</li>
+          <li>プラットフォーム別の優先アクションを自動生成</li>
+          <li>予測インパクト (ポイント単位)</li>
+          <li>難易度 · 所要時間の見込み</li>
         </ul>
       </div>
       <div class="deliverable-visual">
         <div class="mock-card">
           <div class="mock-head">
-            <span class="mock-pill">PRIORITY ACTIONS · 4件</span>
-            <span class="mock-pill mock-pill-good">実行で +8.4pt 見込み</span>
+            <span class="mock-pill">Priority Actions · 4件</span>
+            <span class="mock-pill mock-pill-good">実行時 +8.4pt 見込み</span>
           </div>
           <div class="mock-actions">
             <div class="mock-action">
               <span class="prio prio-high">P1</span>
-              <div class="mock-action-body">
-                <strong>公式比較ページの公開</strong>
-                <span>Perplexityは比較コンテンツを優先引用 — 競合K社との優位性を可視化</span>
-              </div>
+              <div class="mock-action-body"><strong>公式比較ページの発行</strong><span>Perplexityは比較コンテンツを優先引用 — 競合K社に対する優位を公開</span></div>
               <div class="mock-action-impact"><b>+3.2pt</b><small>2日</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-high">P1</span>
-              <div class="mock-action-body">
-                <strong>FAQスキーマ追加</strong>
-                <span>AI Overview引用率 38% → 60% 見込み(Reddit依存を軽減)</span>
-              </div>
+              <div class="mock-action-body"><strong>FAQスキーママークアップを追加</strong><span>AI Overview引用率 38% → 60% 見込み (Reddit依存度の低下)</span></div>
               <div class="mock-action-impact"><b>+2.8pt</b><small>4時間</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-med">P2</span>
-              <div class="mock-action-body">
-                <strong>事例3件をGitHubで公開</strong>
-                <span>Claudeの引用パターン — コード/実証資料を優先</span>
-              </div>
+              <div class="mock-action-body"><strong>ケーススタディ3件をGitHub公開</strong><span>Claudeの引用パターン — コード/実証資料が優先</span></div>
               <div class="mock-action-impact"><b>+1.6pt</b><small>1週</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-low">P3</span>
-              <div class="mock-action-body">
-                <strong>ドキュメントのhreflang強化</strong>
-                <span>JP/DE市場の可視性 +12% 見込み</span>
-              </div>
+              <div class="mock-action-body"><strong>自社ドキュメントのhreflang強化</strong><span>JP/DE市場の可視性 +12% 見込み</span></div>
               <div class="mock-action-impact"><b>+0.8pt</b><small>1日</small></div>
             </div>
           </div>
@@ -2896,16 +1197,16 @@ body {
       </div>
     </div>
 
-    <!-- 04 · Screenshot Evidence (reversed) -->
     <div class="deliverable-row deliverable-row-reverse reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">04</div>
-        <h3>スクリーンショット証跡</h3>
-        <p>実際にAIが回答した画面を<strong>そのままキャプチャ</strong>して添付。引用された出典がハイライトされ、レポート・経営会議資料としてすぐに使えます。</p>
+        <h3>スクリーンショット <em>証拠</em></h3>
+        <p>実際にAIが回答した画面を<strong>そのままキャプチャ</strong>して添付します。
+        引用された出典がハイライトされ、レポートや役員会議用の資料として即座に使用可能です。</p>
         <ul class="deliverable-bullets">
-          <li>7 AI × 12カ国 = 毎週84+のスクリーンショット</li>
-          <li>引用元を自動ハイライト</li>
-          <li>PNG · PDF · BigQuery エクスポート</li>
+          <li>7 AI × 12カ国 = 毎週84枚以上のスクリーンショット</li>
+          <li>引用出典の自動ハイライト</li>
+          <li>PNG · PDF · BigQuery 直接ダウンロード</li>
         </ul>
       </div>
       <div class="deliverable-visual">
@@ -2915,9 +1216,11 @@ body {
             <span class="mock-url">chatgpt.com · US · Apr 21</span>
           </div>
           <div class="mock-screenshot-body">
-            <div class="mock-msg-prompt">メルセデス・ベンツ Eクラスについて教えて</div>
+            <div class="mock-msg-prompt">Mercedes-Benz E-Classについて教えて</div>
             <div class="mock-msg-answer">
-              メルセデス・ベンツEクラスはドイツ・シュトゥットガルト発のプレミアムセダンで、<mark>2026年モデル</mark>はマイルドハイブリッドと<mark>MBUXスーパースクリーン</mark>を採用。同セグメントのBMW 5シリーズ、Audi A6と比較して<mark>乗り心地と内装の仕上げ</mark>で優位性を示します。
+              Mercedes-Benz E-Classは、ドイツ・シュトゥットガルトを拠点とするプレミアムセダンで、
+              <mark>2026年モデル</mark>はマイルドハイブリッド技術と<mark>MBUXスーパースクリーン</mark>を導入しました。
+              同クラスの競合BMW 5シリーズ、Audi A6と比較して<mark>乗り心地とインテリア仕上げ</mark>で優位を示します。
               <div class="mock-citations">
                 <span class="cit"><b>1</b> mercedes-benz.com</span>
                 <span class="cit"><b>2</b> motortrend.com</span>
@@ -2931,274 +1234,101 @@ body {
   </div>
 </section>
 
-<!-- ===== CONTACT CTA ===== -->
-<section class="section section-cta" id="contact">
-  <div class="section-inner">
+<!-- ===== CTA ===== -->
+<section class="section" id="contact">
+  <div class="container">
     <div class="cta-card reveal">
-      <div class="cta-eyebrow">FREE DIAGNOSTIC · 3分で結果</div>
-      <h2>あなたのコンテンツがAIに引用される確率を、<br><span class="gradient-text">公開前に無料で</span>確認してください</h2>
-      <p>公開予定または既存コンテンツのURLをお知らせください。7プラットフォーム別引用確率+スコア改善ガイドを無料でお届けします。</p>
-      <form class="cta-form" id="cta-form">
+      <div class="cta-eyebrow">Free Diagnostic · 3分で結果</div>
+      <h2>あなたのコンテンツがAIに引用される確率を、<br><em>発行前に無料で</em> 確認してください。</h2>
+      <p>発行予定または既存のコンテンツURLをお知らせください。7 AIプラットフォーム別の引用確率 + スコア改善ガイドを無料でお送りします。</p>
+      <form class="cta-form">
         <input type="text" name="company" placeholder="会社名" required>
-        <input type="text" name="url" placeholder="コンテンツURLまたはドメイン" required>
         <input type="email" name="email" placeholder="メール" required>
-        <button type="submit" class="btn-primary">
+        <input type="text" name="url" placeholder="コンテンツURLまたはドメイン" required>
+        <button type="submit" class="btn btn-primary">
           無料診断を受ける
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </button>
       </form>
     </div>
   </div>
 </section>
 
-<!-- ===== CITORA MODAL ===== -->
-<div class="citora-modal" id="citora-modal" aria-hidden="true" role="dialog" aria-labelledby="citora-modal-title">
-  <div class="citora-modal-backdrop" data-close></div>
-  <div class="citora-modal-card">
-    <button class="citora-modal-close" data-close aria-label="閉じる">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-    <div class="citora-modal-eyebrow">PREDICTION MODEL</div>
-    <h3 id="citora-modal-title">Citora<span class="citora-modal-sub">— 引用の神託(オラクル)</span></h3>
-    <p>
-      <strong>Citora</strong>は <strong>Cite</strong>(引用)+ <strong>ora</strong>(ラテン語で <em>「語る・予言する」</em>、英語の <em>oracle</em> の語源)の造語です。
-      つまり <strong>「引用を予言する者」</strong>。
-    </p>
-    <p>
-      毎週3,000万件以上の引用データで学習したGeoRank24独自のAIモデルで、どのコンテンツがどのAIに引用されるかを<strong>公開前に予測</strong>します。
-    </p>
-    <div class="citora-modal-meta">
-      <div><span>バージョン</span><strong>v0.8</strong></div>
-      <div><span>学習データ</span><strong>30M+</strong></div>
-      <div><span>MAPE</span><strong>8.6%</strong></div>
-    </div>
-    <a href="#how" class="citora-modal-link" data-close>仕組みを見る →</a>
-  </div>
-</div>
-
-<!-- Sticky bottom bar -->
-<div class="sticky-bar" id="sticky-bar">
-  <span><strong>3分の無料診断</strong> · あなたのコンテンツがAIに引用される確率を確認</span>
-  <a href="#contact" class="sticky-cta">診断を受ける →</a>
-</div>
-
 <footer class="footer">
-  <p>© 2026 TwoStepsAhead Inc · GeoRank24 · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a></p>
+  © 2026 TwoStepsAhead Inc · Plurank · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a>
 </footer>
 
 <script>
-// ===== COSMIC CANVAS — particles + neural connections + parallax =====
 (function () {
-  const canvas = document.getElementById('cosmic-canvas');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d', { alpha: true });
-  const dpr = Math.min(window.devicePixelRatio || 1, 2);
-
-  let W = 0, H = 0;
-  const particles = [];
-  let scrollY = 0;
-  let mouseX = 0, mouseY = 0;
-  let targetMouseX = 0, targetMouseY = 0;
-
-  const PARTICLE_BASE = 110;
-  const CONNECT_DIST = 130;
-
-  function resize() {
-    W = window.innerWidth;
-    H = window.innerHeight;
-    canvas.width = W * dpr;
-    canvas.height = H * dpr;
-    canvas.style.width = W + 'px';
-    canvas.style.height = H + 'px';
-    ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.scale(dpr, dpr);
-  }
-
-  function init() {
-    resize();
-    particles.length = 0;
-    const count = Math.floor(Math.min(PARTICLE_BASE, (W * H) / 14000));
-    for (let i = 0; i < count; i++) {
-      const depth = Math.random() * 0.85 + 0.15;
-      particles.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.18 * depth,
-        vy: (Math.random() - 0.5) * 0.18 * depth,
-        size: 0.4 + Math.random() * 1.6 * depth,
-        depth,
-        glow: Math.random() < 0.12,
-        hue: Math.random() < 0.6 ? 'teal' : 'purple',
-        twinklePhase: Math.random() * Math.PI * 2,
-      });
-    }
-  }
-
-  function loop(t) {
-    ctx.clearRect(0, 0, W, H);
-
-    // Smooth mouse parallax
-    mouseX += (targetMouseX - mouseX) * 0.05;
-    mouseY += (targetMouseY - mouseY) * 0.05;
-
-    const parallaxScroll = scrollY * 0.15;
-
-    for (let p of particles) {
-      // motion
-      p.x += p.vx;
-      p.y += p.vy;
-      // wrap
-      if (p.x < -10) p.x = W + 10;
-      if (p.x > W + 10) p.x = -10;
-      if (p.y < -10) p.y = H + 10;
-      if (p.y > H + 10) p.y = -10;
-
-      // parallax offset based on depth
-      const ox = (mouseX * 28 - 14) * p.depth;
-      const oy = (mouseY * 28 - 14) * p.depth - parallaxScroll * p.depth;
-      const drawX = p.x + ox;
-      const drawY = p.y + oy;
-
-      // twinkle
-      const tw = 0.7 + 0.3 * Math.sin(t * 0.001 + p.twinklePhase);
-      const baseAlpha = (0.35 + p.depth * 0.55) * tw;
-
-      // base star
-      ctx.beginPath();
-      ctx.arc(drawX, drawY, p.size, 0, Math.PI * 2);
-      if (p.hue === 'teal') {
-        ctx.fillStyle = `rgba(180, 255, 240, ${baseAlpha})`;
-      } else {
-        ctx.fillStyle = `rgba(220, 210, 255, ${baseAlpha * 0.85})`;
-      }
-      ctx.fill();
-
-      // glow halo for select stars
-      if (p.glow) {
-        const haloR = p.size * 6;
-        const grad = ctx.createRadialGradient(drawX, drawY, 0, drawX, drawY, haloR);
-        const c = p.hue === 'teal'
-          ? `rgba(45, 212, 191, ${baseAlpha * 0.45})`
-          : `rgba(167, 139, 250, ${baseAlpha * 0.45})`;
-        grad.addColorStop(0, c);
-        grad.addColorStop(1, 'transparent');
-        ctx.beginPath();
-        ctx.arc(drawX, drawY, haloR, 0, Math.PI * 2);
-        ctx.fillStyle = grad;
-        ctx.fill();
-      }
-
-      // remember draw coords for connection draw
-      p._dx = drawX;
-      p._dy = drawY;
-    }
-
-    // neural connections
-    for (let i = 0; i < particles.length; i++) {
-      const a = particles[i];
-      for (let j = i + 1; j < particles.length; j++) {
-        const b = particles[j];
-        const dx = a._dx - b._dx;
-        const dy = a._dy - b._dy;
-        const distSq = dx * dx + dy * dy;
-        if (distSq < CONNECT_DIST * CONNECT_DIST) {
-          const dist = Math.sqrt(distSq);
-          const op = (1 - dist / CONNECT_DIST) * 0.18 * Math.min(a.depth, b.depth);
-          ctx.strokeStyle = `rgba(167, 139, 250, ${op})`;
-          ctx.lineWidth = 0.5;
-          ctx.beginPath();
-          ctx.moveTo(a._dx, a._dy);
-          ctx.lineTo(b._dx, b._dy);
-          ctx.stroke();
-        }
-      }
-    }
-
-    requestAnimationFrame(loop);
-  }
-
-  // Events
-  window.addEventListener('resize', () => {
-    resize();
-    // Re-seed if size changed dramatically
-  });
-  window.addEventListener('scroll', () => {
-    scrollY = window.scrollY;
-  }, { passive: true });
-  window.addEventListener('mousemove', (e) => {
-    targetMouseX = e.clientX / window.innerWidth;
-    targetMouseY = e.clientY / window.innerHeight;
-  });
-
-  // Parallax: shift the cosmic-bg container vertically (cheaper, doesn't break nebula keyframes)
-  const cosmicBg = document.querySelector('.cosmic-bg');
-  const grid = document.querySelector('.cosmic-grid');
-  const stars = document.querySelector('.cosmic-stars');
-  function applyParallax() {
-    const y = window.scrollY;
-    if (grid)  grid.style.transform  = `translate3d(0, ${y * -0.18}px, 0)`;
-    if (stars) stars.style.transform = `translate3d(0, ${y * -0.30}px, 0)`;
-  }
-  window.addEventListener('scroll', applyParallax, { passive: true });
-
-  init();
-  requestAnimationFrame(loop);
-})();
-
-// ===== HERO LIVE STREAM + KINETIC =====
-(function () {
-  const PROMPT_TEXT = "yourbrand.com/blog/post-2026-04 を分析";
-  const promptEl = document.getElementById('prompt-text');
+  const PROMPT = '「ヴィーガン保湿クリーム — 2026年ベスト」のコンテンツはどこで引用・推薦されるか?';
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+  const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
 
-  async function typeText(el, text, speed = 22, jitter = 18) {
+  async function typeText(el, text, speed = 22, jitter = 14) {
     el.textContent = '';
-    for (let i = 0; i < text.length; i++) {
-      el.textContent += text[i];
+    for (const ch of text) {
+      el.textContent += ch;
       await sleep(speed + Math.random() * jitter);
     }
   }
 
-  async function runStream() {
-    await sleep(500);
-    await typeText(promptEl, PROMPT_TEXT, 50, 35);
+  function countUp(el, target, dur = 500, suffix = '%') {
+    return new Promise((resolve) => {
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min((now - start) / dur, 1);
+        el.textContent = Math.round(target * easeOutCubic(t)) + suffix;
+        if (t < 1) requestAnimationFrame(step);
+        else resolve();
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  async function runHero() {
+    const promptText = document.getElementById('prompt-text');
+    const promptWrap = document.getElementById('aside-prompt');
+    const probEl = document.getElementById('prob-value');
+    if (!promptText) return;
+
     await sleep(450);
+    await typeText(promptText, PROMPT, 26, 18);
+    await sleep(300);
+    promptWrap.classList.add('done');
 
-    const platforms = document.querySelectorAll('.ai-platform');
-    for (let i = 0; i < platforms.length; i++) {
-      const el = platforms[i];
-      el.classList.add('active');
-      const answerEl = el.querySelector('.ai-platform-answer');
-      const rankEl = el.querySelector('.ai-platform-rank');
-      const fullText = answerEl.dataset.text;
-      const rank = rankEl.dataset.rank;
-      const pctMatch = rank.match(/(\d+)/);
-      const isGood = pctMatch ? parseInt(pctMatch[1]) >= 60 : false;
+    const rows = document.querySelectorAll('.platform-row[data-rank]');
+    let sum = 0;
 
-      await typeText(answerEl, fullText, 16, 12);
+    for (const row of rows) {
+      const rank = +row.dataset.rank;
+      const answer = row.dataset.answer;
+      const rankEl = row.querySelector('.platform-rank');
+      const answerEl = row.querySelector('.platform-answer');
+
+      row.classList.add('is-active');
+      await typeText(answerEl, answer, 14, 8);
+      await sleep(140);
+
+      rankEl.classList.remove('pending');
+      if (rank >= 60) rankEl.classList.add('high');
+      await countUp(rankEl, rank, 460);
+
+      sum += rank;
       await sleep(120);
-      rankEl.classList.remove('rank-pending');
-      rankEl.classList.add(isGood ? 'rank-good' : 'rank-bad');
-      rankEl.textContent = rank;
-      el.classList.add('done');
-      await sleep(220);
+      row.classList.remove('is-active');
     }
 
-    // probability counter starts after platforms revealed
-    const probEl = document.getElementById('prob-value');
-    const target = 64.1;
-    let cur = 0;
-    const tick = () => {
-      cur += 1.4;
-      if (cur >= target) { probEl.textContent = target.toFixed(1) + '%'; return; }
-      probEl.textContent = cur.toFixed(1) + '%';
-      requestAnimationFrame(tick);
-    };
-    tick();
+    const avg = sum / rows.length;
+    const startAvg = performance.now();
+    function avgStep(now) {
+      const t = Math.min((now - startAvg) / 900, 1);
+      probEl.textContent = (avg * easeOutCubic(t)).toFixed(1);
+      if (t < 1) requestAnimationFrame(avgStep);
+    }
+    requestAnimationFrame(avgStep);
   }
-  runStream();
 
-  // ===== REVEAL ON SCROLL =====
+  // ===== Reveal on scroll =====
   const reveals = document.querySelectorAll('.reveal');
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach((e) => {
@@ -3208,322 +1338,89 @@ body {
       }
     });
   }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
-  reveals.forEach(el => revealObs.observe(el));
+  reveals.forEach((el) => revealObs.observe(el));
 
-  // ===== GAUGE + METRICS (in-view triggers) =====
-  function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
-  function animateNumber(el, from, to, duration, formatter) {
-    const start = performance.now();
-    function step(now) {
-      const t = Math.min((now - start) / duration, 1);
-      const v = from + (to - from) * easeOutCubic(t);
-      el.textContent = formatter ? formatter(v) : v.toFixed(0);
-      if (t < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-  }
-
-  // Gauge animation (SVG text + arc)
-  const gaugeProg = document.getElementById('gauge-prog');
-  const gaugeNum = document.getElementById('gauge-num');
-  const sparkPath = document.getElementById('spark-path');
-  const gaugeWrap = gaugeNum && gaugeNum.closest('.card');
-  if (gaugeWrap) {
-    const gObs = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        const TARGET = 73.4;
-        gaugeProg.style.transition = 'stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1)';
-        gaugeProg.style.strokeDashoffset = (100 - TARGET).toString();
-
-        // animate the SVG text node
-        const start = performance.now();
-        const ease = (t) => 1 - Math.pow(1 - t, 3);
-        const tick = (now) => {
-          const t = Math.min((now - start) / 1600, 1);
-          const v = (TARGET * ease(t)).toFixed(1);
-          gaugeNum.firstChild.nodeValue = v;
-          if (t < 1) requestAnimationFrame(tick);
-        };
-        requestAnimationFrame(tick);
-
-        if (sparkPath) {
-          sparkPath.style.transition = 'stroke-dashoffset 1.4s ease-out 0.3s';
-          sparkPath.style.strokeDashoffset = '0';
-        }
-        gObs.disconnect();
+  // ===== Number counters =====
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseFloat(el.dataset.count);
+      const decimals = parseInt(el.dataset.decimals || '0', 10);
+      const dur = parseInt(el.dataset.dur || '1400', 10);
+      let textNode = el.firstChild;
+      if (!textNode || textNode.nodeType !== 3) {
+        textNode = document.createTextNode('0');
+        el.insertBefore(textNode, el.firstChild);
       }
-    }, { threshold: 0.4 });
-    gObs.observe(gaugeWrap);
-  }
-
-  // Metric counters (only numeric data-count)
-  const metricEls = document.querySelectorAll('.metric-num[data-count], .trust-num[data-count]');
-  const mObs = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const el = entry.target;
-        const target = parseFloat(el.dataset.count);
-        if (!isNaN(target)) {
-          const decimal = el.dataset.decimal ? parseInt(el.dataset.decimal) : 0;
-          const suffix = el.dataset.suffix || '';
-          animateNumber(el, 0, target, 1400, (v) => v.toFixed(decimal) + suffix);
-        }
-        mObs.unobserve(el);
+      textNode.nodeValue = decimals ? '0.' + '0'.repeat(decimals) : '0';
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min((now - start) / dur, 1);
+        const v = target * easeOutCubic(t);
+        textNode.nodeValue = decimals ? v.toFixed(decimals) : Math.round(v).toString();
+        if (t < 1) requestAnimationFrame(step);
       }
+      requestAnimationFrame(step);
+      counterObs.unobserve(el);
     });
   }, { threshold: 0.4 });
-  metricEls.forEach(el => mObs.observe(el));
+  counters.forEach((el) => counterObs.observe(el));
 
-  // ===== NEURAL NETWORK =====
-  const nnSvg = document.getElementById('neural-svg');
-  if (nnSvg) {
-    const nodes = document.getElementById('nn-nodes');
-    const conns = document.getElementById('nn-connections');
-    const layers = [4, 6, 8, 6, 3];
-    const W = 400, H = 280, pad = 30;
-    const layerX = (i) => pad + (W - pad * 2) * (i / (layers.length - 1));
-    const nodeY = (j, total) => {
-      if (total === 1) return H / 2;
-      const span = H - pad * 2;
-      return pad + span * (j / (total - 1));
-    };
-
-    const positions = [];
-    layers.forEach((count, i) => {
-      const arr = [];
-      for (let j = 0; j < count; j++) arr.push({ x: layerX(i), y: nodeY(j, count) });
-      positions.push(arr);
-    });
-
-    for (let i = 0; i < layers.length - 1; i++) {
-      positions[i].forEach((a, ai) => {
-        positions[i + 1].forEach((b, bi) => {
-          const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-          line.setAttribute('x1', a.x); line.setAttribute('y1', a.y);
-          line.setAttribute('x2', b.x); line.setAttribute('y2', b.y);
-          line.setAttribute('stroke', 'rgba(167,139,250,0.16)');
-          line.setAttribute('class', 'nn-line');
-          line.dataset.from = `${i}-${ai}`;
-          line.dataset.to = `${i + 1}-${bi}`;
-          conns.appendChild(line);
-        });
-      });
-    }
-
-    positions.forEach((layer, i) => {
-      layer.forEach((p, j) => {
-        const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        c.setAttribute('cx', p.x); c.setAttribute('cy', p.y);
-        c.setAttribute('r', i === 0 || i === layers.length - 1 ? 5 : 4);
-        c.setAttribute('fill', '#1A1A24');
-        c.setAttribute('stroke', 'rgba(167,139,250,0.4)');
-        c.setAttribute('stroke-width', '1.2');
-        c.setAttribute('class', 'nn-node');
-        c.dataset.id = `${i}-${j}`;
-        nodes.appendChild(c);
-      });
-    });
-
-    function pulse() {
-      const allNodes = nodes.querySelectorAll('.nn-node');
-      const allLines = conns.querySelectorAll('.nn-line');
-      allNodes.forEach(n => {
-        n.setAttribute('fill', '#1A1A24');
-        n.setAttribute('stroke', 'rgba(167,139,250,0.4)');
-      });
-      allLines.forEach(l => l.setAttribute('stroke', 'rgba(167,139,250,0.16)'));
-
-      let activeNodes = new Set();
-      for (let j = 0; j < layers[0]; j++) {
-        if (Math.random() > 0.4) activeNodes.add(`0-${j}`);
+  // ===== Gauge SVG arc + text =====
+  const gauges = document.querySelectorAll('[data-gauge-target]');
+  const gaugeObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const wrap = e.target;
+      const target = parseFloat(wrap.dataset.gaugeTarget);
+      const arc = wrap.querySelector('.gauge-arc-anim');
+      const text = wrap.querySelector('.gauge-text-anim');
+      if (arc) {
+        arc.style.transition = 'stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        requestAnimationFrame(() => { arc.style.strokeDashoffset = (100 - target).toString(); });
       }
-
-      layers.forEach((_, i) => {
-        setTimeout(() => {
-          activeNodes.forEach(id => {
-            const [li] = id.split('-').map(Number);
-            if (li === i) {
-              const node = nodes.querySelector(`[data-id="${id}"]`);
-              if (node) {
-                node.setAttribute('fill', '#14B8A6');
-                node.setAttribute('stroke', '#2DD4BF');
-              }
-            }
-          });
-          if (i < layers.length - 1) {
-            const nextActive = new Set();
-            allLines.forEach(line => {
-              if (activeNodes.has(line.dataset.from) && Math.random() > 0.45) {
-                line.setAttribute('stroke', 'rgba(20,184,166,0.7)');
-                nextActive.add(line.dataset.to);
-              }
-            });
-            activeNodes = nextActive;
-          }
-        }, i * 280);
-      });
-    }
-    setTimeout(pulse, 1200);
-    setInterval(pulse, 3500);
-  }
-
-  // ===== STICKY BAR =====
-  const stickyBar = document.getElementById('sticky-bar');
-  const ctaSection = document.getElementById('contact');
-  if (stickyBar && ctaSection) {
-    let lastShown = false;
-    window.addEventListener('scroll', () => {
-      const y = window.scrollY;
-      const ctaTop = ctaSection.getBoundingClientRect().top + window.scrollY;
-      const shouldShow = y > window.innerHeight * 0.6 && y + window.innerHeight < ctaTop + 80;
-      if (shouldShow !== lastShown) {
-        stickyBar.classList.toggle('show', shouldShow);
-        lastShown = shouldShow;
-      }
-    }, { passive: true });
-  }
-
-  // ===== CITORA MODAL =====
-  (function () {
-    const modal = document.getElementById('citora-modal');
-    if (!modal) return;
-    const open = () => {
-      modal.classList.add('open');
-      modal.setAttribute('aria-hidden', 'false');
-      document.body.style.overflow = 'hidden';
-    };
-    const close = () => {
-      modal.classList.remove('open');
-      modal.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
-    };
-
-    const SELECTORS = [
-      '.hero-sub strong', '.mission-body strong', '.section-sub strong',
-      '.why-card p strong', '.engine-step p', '.deliverable-text p strong',
-      '.engine-step h3', '.why-card h3', '.model-tagline strong',
-      '.card-label', '.h1-line.gradient-text'
-    ];
-    document.querySelectorAll(SELECTORS.join(',')).forEach(el => {
-      el.childNodes.forEach(node => {
-        if (node.nodeType !== Node.TEXT_NODE) return;
-        if (!/Citora/.test(node.nodeValue)) return;
-        const frag = document.createDocumentFragment();
-        const parts = node.nodeValue.split(/(Citora)/);
-        parts.forEach(part => {
-          if (part === 'Citora') {
-            const span = document.createElement('span');
-            span.className = 'citora-trigger';
-            span.tabIndex = 0;
-            span.setAttribute('role', 'button');
-            span.setAttribute('aria-label', 'Citora モデル詳細を見る');
-            span.textContent = 'Citora';
-            frag.appendChild(span);
-          } else if (part) {
-            frag.appendChild(document.createTextNode(part));
-          }
-        });
-        node.parentNode.replaceChild(frag, node);
-      });
-    });
-
-    document.addEventListener('click', (e) => {
-      const t = e.target.closest('.citora-trigger');
-      if (t) { e.preventDefault(); open(); }
-      if (e.target.closest('[data-close]')) close();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && modal.classList.contains('open')) close();
-      if ((e.key === 'Enter' || e.key === ' ') && document.activeElement && document.activeElement.classList.contains('citora-trigger')) {
-        e.preventDefault();
-        open();
-      }
-    });
-  })();
-
-  // ===== CTA Form (Slack notification via /api/contact) =====
-  const ctaForm = document.getElementById('cta-form');
-  if (ctaForm) {
-    ctaForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const submitBtn = ctaForm.querySelector('button[type="submit"]');
-      submitBtn.disabled = true;
-      submitBtn.style.opacity = '0.7';
-
-      const fd = new FormData(ctaForm);
-      const payload = {
-        company: (fd.get('company') || '').toString().trim(),
-        url: (fd.get('url') || '').toString().trim(),
-        email: (fd.get('email') || '').toString().trim(),
-        source: 'georank24.com/ja · contact form',
-      };
-
-      try {
-        const r = await fetch('/api/contact', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
-        if (r.ok) {
-          ctaForm.reset();
-          alert('診断リクエストを受け付けました。営業日1日以内にご連絡いたします。');
-        } else {
-          const j = await r.json().catch(() => ({}));
-          alert('送信エラー (' + (j.error || r.status) + ')\nしばらくしてから再試行いただくか、glenn.kim@twostepsahead.co.kr まで直接ご連絡ください。');
+      if (text) {
+        const tspan = text.firstChild;
+        const start = performance.now();
+        function tick(now) {
+          const t = Math.min((now - start) / 1600, 1);
+          const v = (target * easeOutCubic(t)).toFixed(1);
+          if (tspan && tspan.nodeType === 3) tspan.nodeValue = v; else text.firstChild.nodeValue = v;
+          if (t < 1) requestAnimationFrame(tick);
         }
-      } catch (err) {
-        alert('ネットワークエラーが発生しました。しばらくしてから再試行いただくか、glenn.kim@twostepsahead.co.kr まで直接ご連絡ください。');
-      } finally {
-        submitBtn.disabled = false;
-        submitBtn.style.opacity = '1';
+        requestAnimationFrame(tick);
       }
+      gaugeObs.unobserve(wrap);
     });
+  }, { threshold: 0.4 });
+  gauges.forEach((el) => gaugeObs.observe(el));
+
+  // ===== Path reveal (sparkline + chart polylines) =====
+  const paths = document.querySelectorAll('.path-reveal');
+  const pathObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      try {
+        const length = el.getTotalLength();
+        el.style.strokeDasharray = length;
+        el.style.strokeDashoffset = length;
+        el.getBoundingClientRect();
+        el.style.transition = 'stroke-dashoffset 1.5s cubic-bezier(0.4, 0, 0.2, 1)';
+        requestAnimationFrame(() => { el.style.strokeDashoffset = '0'; });
+      } catch (err) { /* SVG not ready */ }
+      pathObs.unobserve(el);
+    });
+  }, { threshold: 0.3 });
+  paths.forEach((el) => pathObs.observe(el));
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runHero);
+  } else {
+    runHero();
   }
-
-  // (kinetic rotation removed — final line is now static)
-
-  // ===== ENGAGED VISIT TRACKING (one-shot per session) =====
-  (function () {
-    let sent = false;
-    const sendVisit = (event) => {
-      if (sent) return;
-      sent = true;
-      const payload = {
-        event,
-        path: location.pathname + location.search,
-        referrer: document.referrer || 'direct',
-        ua: navigator.userAgent,
-      };
-      const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
-      // sendBeacon survives page-unload; falls back to fetch if unsupported
-      if (navigator.sendBeacon && navigator.sendBeacon('/api/track-visit', blob)) return;
-      fetch('/api/track-visit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-        keepalive: true,
-      }).catch(() => {});
-    };
-
-    // Trigger A: 30 seconds of dwell
-    const dwellTimer = setTimeout(() => sendVisit('30s dwell'), 30000);
-
-    // Trigger B: 50% page scroll
-    const onScroll = () => {
-      const ratio = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
-      if (ratio > 0.5) {
-        clearTimeout(dwellTimer);
-        sendVisit('50% scroll');
-        window.removeEventListener('scroll', onScroll);
-      }
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-
-    // Trigger C: clicked CTA / scrolled to contact section
-    document.querySelectorAll('a[href="#contact"], a[href*="mailto"]').forEach((el) => {
-      el.addEventListener('click', () => sendVisit('cta click'), { once: true });
-    });
-  })();
 })();
 </script>
 
