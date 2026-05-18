@@ -10,7 +10,7 @@
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta name="theme-color" content="#0a0a0a">
 <link rel="canonical" href="https://www.plurank.com/ja.html">
-<link rel="alternate" hreflang="ko" href="https://www.plurank.com/ko.html">
+<link rel="alternate" hreflang="ko" href="https://www.plurank.com/">
 <link rel="alternate" hreflang="en" href="https://www.plurank.com/en.html">
 <link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja.html">
 <link rel="alternate" hreflang="x-default" href="https://www.plurank.com/">
@@ -25,7 +25,16 @@
 <meta name="twitter:title" content="Plurank — AI検索時代のマーケティング予測エンジン">
 <meta name="twitter:description" content="AIが次に誰を推薦するかを予測するマーケティングAIモデル。">
 <meta name="twitter:image" content="https://www.plurank.com/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23f5f5f5'/%3E%3Ctext x='50' y='66' text-anchor='middle' fill='%230a0a0a' font-family='Fraunces,Georgia,serif' font-style='italic' font-weight='400' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
+<!-- Favicons & PWA -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Search engine verification (※ 사용자 작업 필요: 각 콘솔에서 발급받은 값으로 교체) -->
+<!-- <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN"> -->
+<!-- <meta name="naver-site-verification" content="REPLACE_WITH_NAVER_TOKEN"> -->
+<!-- <meta name="msvalidate.01" content="REPLACE_WITH_BING_TOKEN"> -->
 
 <!-- Vercel Web Analytics -->
 <script defer src="/_vercel/insights/script.js"></script>
@@ -82,6 +91,7 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+em, i, cite, address, dfn { font-style: normal; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--f-sans);
@@ -138,7 +148,7 @@ body::before {
   font-variation-settings: "opsz" 96;
   margin-top: 28px;
 }
-.section h2 em { font-style: italic; font-weight: 400; }
+.section h2 em { font-style: normal; font-weight: 400; }
 .section h2 .mute { color: var(--text-mute); }
 .section-lede {
   font-size: 17px;
@@ -168,7 +178,7 @@ body::before {
   font-size: 21px;
   letter-spacing: -0.012em;
 }
-.nav-brand em { font-style: italic; font-weight: 400; color: var(--text-soft); }
+.nav-brand em { font-style: normal; font-weight: 400; color: var(--text-soft); }
 .nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
 .nav-links a { transition: color 0.2s ease; }
 .nav-links a:hover { color: var(--text); }
@@ -218,12 +228,12 @@ body::before {
   margin-top: 32px;
 }
 .hero h1 .line { display: block; }
-.hero h1 em { font-style: italic; font-weight: 400; font-variation-settings: "opsz" 144; }
+.hero h1 em { font-style: normal; font-weight: 400; font-variation-settings: "opsz" 144; }
 .hero h1 .accent { color: var(--text-mute); }
 .hero-sub { margin-top: 36px; font-size: 17px; line-height: 1.7; color: var(--text-soft); max-width: 560px; }
 .hero-sub strong { color: var(--text); font-weight: 500; }
 .hero-cta { margin-top: 44px; display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .trust-item {
   font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--text-mute);
@@ -247,7 +257,7 @@ body::before {
 .aside-status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulse 1.6s ease-in-out infinite; }
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
 .aside-prompt {
-  font-family: var(--f-display); font-style: italic; font-weight: 300;
+  font-family: var(--f-display); font-style: normal; font-weight: 300;
   font-size: 17px; line-height: 1.55; color: var(--text-soft);
   margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border);
   min-height: 28px;
@@ -283,7 +293,7 @@ body::before {
   text-transform: uppercase; color: var(--text-mute);
 }
 .aside-foot strong {
-  font-family: var(--f-display); font-weight: 300; font-style: italic;
+  font-family: var(--f-display); font-weight: 300; font-style: normal;
   font-size: 26px; letter-spacing: -0.02em; text-transform: none;
   color: var(--text); font-variation-settings: "opsz" 96;
 }
@@ -355,7 +365,7 @@ body::before {
   font-family: var(--f-display); font-weight: 400; font-size: 18px;
   letter-spacing: -0.01em; margin-bottom: 4px;
 }
-.mission-pillar-body h4 em { font-style: italic; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.mission-pillar-body h4 em { font-style: normal; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
 .mission-pillar-body p { color: var(--text-mute); font-size: 14px; }
 
 /* ========== THESIS ========== */
@@ -364,7 +374,7 @@ body::before {
 .thesis-kpi:hover { background: var(--bg-soft); }
 .thesis-kpi-feature { background: var(--bg-soft); }
 .thesis-kpi-value { font-family: var(--f-display); font-weight: 300; font-size: clamp(40px, 4.5vw, 56px); line-height: 1; letter-spacing: -0.035em; font-variation-settings: "opsz" 144; }
-.thesis-kpi-value em { font-style: italic; font-weight: 400; }
+.thesis-kpi-value em { font-style: normal; font-weight: 400; }
 .thesis-kpi-value .pct { color: var(--text-mute); font-weight: 400; font-style: normal; font-size: 0.55em; vertical-align: 0.4em; margin-left: 2px; }
 .thesis-kpi-label { font-size: 13px; line-height: 1.5; color: var(--text-soft); margin-top: auto; padding-top: 24px; }
 .thesis-kpi-source { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 14px; border-top: 1px solid var(--border); }
@@ -375,13 +385,13 @@ body::before {
 .thesis-stage { display: flex; flex-direction: column; gap: 6px; }
 .thesis-stage-year { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--text-faint); }
 .thesis-stage-label { font-family: var(--f-display); font-weight: 400; font-size: 16px; line-height: 1.3; letter-spacing: -0.01em; color: var(--text-soft); }
-.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: italic; }
+.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: normal; }
 .thesis-stage-now .thesis-stage-year { color: var(--highlight); }
 .thesis-arrow { color: var(--text-faint); font-family: var(--f-mono); }
 
 .thesis-hypothesis { margin-top: 48px; padding: 40px 44px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--bg-soft-2); }
 .thesis-hypothesis-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 16px; }
-.thesis-hypothesis-body { font-family: var(--f-display); font-style: italic; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
+.thesis-hypothesis-body { font-family: var(--f-display); font-style: normal; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
 .thesis-hypothesis-body strong { font-style: normal; font-weight: 500; }
 
 /* ========== DEMO ========== */
@@ -401,7 +411,7 @@ body::before {
 .sparkline { width: 100%; height: 50px; }
 
 .model-tagline { font-size: 14px; line-height: 1.6; color: var(--text-soft); }
-.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: italic; font-weight: 400; }
+.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: normal; font-weight: 400; }
 .neural-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
 .neural-meta > div { display: flex; flex-direction: column; gap: 4px; }
 .neural-meta span { font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
@@ -410,7 +420,7 @@ body::before {
 .metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
 .metric { display: flex; flex-direction: column; gap: 6px; }
 .metric-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 3.5vw, 44px); line-height: 1; letter-spacing: -0.032em; font-variation-settings: "opsz" 96; }
-.metric-num em { font-style: italic; font-weight: 400; }
+.metric-num em { font-style: normal; font-weight: 400; }
 .metric-num .unit { font-size: 0.55em; color: var(--text-mute); margin-left: 2px; vertical-align: 0.3em; }
 .metric-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
 
@@ -421,7 +431,7 @@ body::before {
 .why-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; color: var(--text); margin-bottom: 8px; }
 .why-icon svg { width: 28px; height: 28px; }
 .why-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
-.why-card h3 em { font-style: italic; }
+.why-card h3 em { font-style: normal; }
 .why-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .why-card p strong { color: var(--text); font-weight: 500; }
 .why-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -431,7 +441,7 @@ body::before {
 .engine-step { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 12px; }
 .engine-step-num { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 8px; }
 .engine-step h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
-.engine-step h3 em { font-style: italic; }
+.engine-step h3 em { font-style: normal; }
 .engine-step p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .engine-step-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
 .engine-step-last { background: var(--bg-soft); }
@@ -442,7 +452,7 @@ body::before {
 .trust-card:hover { background: var(--bg-soft); }
 .trust-card-feature { background: var(--bg-soft); }
 .trust-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(48px, 5vw, 72px); line-height: 1; letter-spacing: -0.04em; font-variation-settings: "opsz" 144; }
-.trust-num em { font-style: italic; font-weight: 400; }
+.trust-num em { font-style: normal; font-weight: 400; }
 .trust-num .unit { font-size: 0.5em; color: var(--text-mute); font-weight: 400; }
 .trust-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); }
 .trust-desc { font-size: 13px; line-height: 1.55; color: var(--text-mute); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -454,7 +464,7 @@ body::before {
 .insight-card-feature { background: var(--bg-soft); }
 .insight-num { font-family: var(--f-display); font-weight: 300; font-size: 56px; line-height: 1; letter-spacing: -0.04em; color: var(--text-faint); font-variation-settings: "opsz" 144; }
 .insight-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 21px; line-height: 1.25; letter-spacing: -0.015em; margin-top: 6px; }
-.insight-card h3 em { font-style: italic; }
+.insight-card h3 em { font-style: normal; }
 .insight-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .insight-card p strong { color: var(--text); font-weight: 500; }
 .insight-tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; color: var(--highlight); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -466,7 +476,7 @@ body::before {
 .deliverable-row-reverse .deliverable-visual { order: 1; }
 .deliverable-num { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 16px; }
 .deliverable-text h3 { font-family: var(--f-display); font-weight: 300; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
-.deliverable-text h3 em { font-style: italic; font-weight: 400; }
+.deliverable-text h3 em { font-style: normal; font-weight: 400; }
 .deliverable-text p { margin-top: 20px; font-size: 16px; line-height: 1.7; color: var(--text-soft); }
 .deliverable-text p strong { color: var(--text); font-weight: 500; }
 .deliverable-bullets { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -525,7 +535,7 @@ body::before {
 .cta-card { max-width: 880px; margin: 0 auto; padding: 80px 64px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); text-align: center; }
 .cta-eyebrow { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 24px; }
 .cta-card h2 { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
-.cta-card h2 em { font-style: italic; font-weight: 400; }
+.cta-card h2 em { font-style: normal; font-weight: 400; }
 .cta-card > p { margin-top: 20px; font-size: 16px; color: var(--text-soft); max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.65; }
 .cta-form { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 600px; margin-left: auto; margin-right: auto; }
 .cta-form input { padding: 14px 18px; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; color: var(--text); font-family: var(--f-sans); font-size: 14px; transition: border-color 0.2s; }
@@ -541,7 +551,7 @@ body::before {
 .footer a:hover { border-color: var(--text-mute); }
 
 .compare-foot { padding: 64px 0; text-align: center; background: linear-gradient(180deg, var(--bg), #060606); }
-.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: italic; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
+.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: normal; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
 .compare-row { display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
 .compare-row .btn-ghost { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 18px; }
 
@@ -583,7 +593,7 @@ body::before {
 .compare-row > div:first-child { color: var(--text-soft); }
 .compare-row > div:nth-child(2) { color: var(--text-mute); }
 .compare-us { color: var(--text); font-weight: 500; }
-.compare-us strong { color: var(--highlight); font-weight: 500; font-family: var(--f-display); font-style: italic; font-size: 16px; }
+.compare-us strong { color: var(--highlight); font-weight: 500; font-family: var(--f-display); font-style: normal; font-size: 16px; }
 
 .lens-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
 .lens-card { background: var(--bg); padding: 32px 22px; display: flex; flex-direction: column; gap: 10px; transition: background 0.2s ease; }
@@ -651,7 +661,260 @@ body::before {
   .cta-form input[name="company"], .cta-form input[name="email"], .cta-form input[name="url"], .cta-form button { grid-column: span 1; }
   .hero-aside { position: static; }
 }
+
+
+
+/* === Plurank Modal v2 (persona wizard) === */
+.pl-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(10,10,10,0.78);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  z-index: 1000; opacity: 0; pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+.pl-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+.pl-modal {
+  background: var(--bg, #0a0a0a); border: 1px solid var(--border, #2a2a2a);
+  border-radius: 16px; max-width: 620px; width: 100%; max-height: 92vh; overflow-y: auto;
+  padding: 36px 36px 32px; position: relative;
+  transform: translateY(12px); transition: transform 0.25s ease;
+  color: var(--text, #fff);
+}
+.pl-modal-backdrop.open .pl-modal { transform: translateY(0); }
+.pl-modal-close {
+  position: absolute; top: 18px; right: 18px;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: transparent; border: 1px solid var(--border, #2a2a2a);
+  color: var(--text-soft, #ccc); cursor: pointer; font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.pl-modal-close:hover { background: var(--text, #fff); color: var(--bg, #0a0a0a); }
+.pl-modal-eyebrow {
+  font-family: var(--f-mono, monospace); font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-mute, #888); margin-bottom: 12px;
+}
+.pl-modal h3 {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 26px; line-height: 1.25; letter-spacing: -0.02em;
+  margin-bottom: 10px; color: var(--text, #fff);
+}
+.pl-modal p.pl-modal-desc {
+  font-size: 14px; line-height: 1.65; color: var(--text-soft, #ccc);
+  margin-bottom: 26px;
+}
+.pl-step { display: none; }
+.pl-step.active { display: block; animation: plFadeIn 0.25s ease; }
+@keyframes plFadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Step 1 — persona cards */
+.pl-persona-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin-top: 8px;
+}
+.pl-persona-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border, #2a2a2a);
+  border-radius: 12px; padding: 22px 18px;
+  text-align: left; cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex; flex-direction: column; gap: 8px;
+  font-family: inherit; color: var(--text, #fff);
+}
+.pl-persona-card:hover {
+  border-color: var(--text, #fff);
+  background: rgba(255,255,255,0.05);
+  transform: translateY(-2px);
+}
+.pl-persona-icon { font-size: 26px; line-height: 1; }
+.pl-persona-name {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 18px; letter-spacing: -0.01em; color: var(--text, #fff);
+  margin: 4px 0 2px;
+}
+.pl-persona-sub {
+  font-size: 12.5px; line-height: 1.55; color: var(--text-soft, #ccc);
+}
+
+/* Step 2 — value props + form */
+.pl-back {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: none; border: none; padding: 0;
+  font-size: 12px; color: var(--text-mute, #888);
+  font-family: var(--f-mono, monospace); letter-spacing: 0.06em;
+  text-transform: uppercase; cursor: pointer; margin-bottom: 14px;
+}
+.pl-back:hover { color: var(--text, #fff); }
+.pl-step-indicator {
+  font-family: var(--f-mono, monospace); font-size: 10px;
+  letter-spacing: 0.18em; color: var(--text-mute, #888);
+  text-transform: uppercase; float: right;
+}
+.pl-value-list {
+  list-style: none; padding: 0; margin: 0 0 24px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.pl-value-list li {
+  display: flex; gap: 10px; align-items: flex-start;
+  font-size: 13.5px; line-height: 1.55; color: var(--text-soft, #ccc);
+}
+.pl-value-list li::before {
+  content: "✓"; color: var(--text, #fff); font-weight: 700;
+  flex-shrink: 0; font-size: 13px; line-height: 1.55;
+}
+.pl-section-divider {
+  border-top: 1px solid var(--border, #2a2a2a);
+  margin: 0 0 18px; padding-top: 18px;
+  font-family: var(--f-mono, monospace); font-size: 10px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-mute, #888);
+}
+
+/* Form */
+.pl-modal form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.pl-modal form .full { grid-column: span 2; }
+.pl-modal input, .pl-modal textarea {
+  padding: 13px 16px; background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border, #2a2a2a); border-radius: 10px;
+  color: var(--text, #fff); font-family: var(--f-sans, system-ui);
+  font-size: 14px; width: 100%;
+  transition: border-color 0.2s;
+}
+.pl-modal input:focus, .pl-modal textarea:focus {
+  outline: none; border-color: var(--text, #fff);
+}
+.pl-modal input::placeholder, .pl-modal textarea::placeholder { color: var(--text-faint, #666); }
+.pl-modal textarea { min-height: 76px; resize: vertical; }
+.pl-modal button[type="submit"] {
+  margin-top: 6px; padding: 14px 22px;
+  background: var(--text, #fff); color: var(--bg, #0a0a0a);
+  border: none; border-radius: 999px; font-weight: 500;
+  font-size: 14px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  transition: transform 0.15s, opacity 0.15s;
+  grid-column: span 2;
+}
+.pl-modal button[type="submit"]:hover { transform: translateY(-1px); }
+.pl-modal button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.pl-modal-msg {
+  margin-top: 4px; font-size: 13px; padding: 10px 14px;
+  border-radius: 8px; display: none; grid-column: span 2;
+}
+.pl-modal-msg.success {
+  display: block; background: rgba(64,168,91,0.15);
+  color: #6ee093; border: 1px solid rgba(64,168,91,0.3);
+}
+.pl-modal-msg.error {
+  display: block; background: rgba(200,40,60,0.15);
+  color: #ff7a85; border: 1px solid rgba(200,40,60,0.3);
+}
+
+@media (max-width: 560px) {
+  .pl-modal { padding: 28px 22px 24px; }
+  .pl-persona-grid { grid-template-columns: 1fr; }
+  .pl-modal form { grid-template-columns: 1fr; }
+  .pl-modal form .full, .pl-modal button[type="submit"], .pl-modal-msg { grid-column: span 1; }
+}
+
+
+/* === Plurank Portfolio Marquee === */
+.pl-portfolio {
+  padding: 28px 0 32px;
+  border-top: 1px solid var(--border, #2a2a2a);
+  border-bottom: 1px solid var(--border, #2a2a2a);
+  background: rgba(255,255,255,0.015);
+  overflow: hidden;
+}
+.pl-portfolio-eyebrow {
+  text-align: center;
+  font-family: var(--f-mono, monospace);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mute, #888);
+  margin-bottom: 16px;
+}
+.pl-portfolio-marquee {
+  position: relative; overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.pl-portfolio-track {
+  display: flex; gap: 10px;
+  animation: plMarquee 60s linear infinite;
+  width: max-content;
+}
+.pl-portfolio:hover .pl-portfolio-track { animation-play-state: paused; }
+@keyframes plMarquee { to { transform: translateX(-50%); } }
+.pl-chip {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 8px 16px;
+  border: 1px solid var(--border, #2a2a2a);
+  border-radius: 999px;
+  background: var(--bg, #0a0a0a);
+  flex-shrink: 0;
+  transition: border-color 0.18s, transform 0.18s;
+}
+.pl-chip:hover { border-color: var(--text, #fff); transform: translateY(-1px); }
+.pl-chip-name {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 16px; color: var(--text, #fff);
+  letter-spacing: -0.01em; line-height: 1;
+}
+.pl-chip-sub {
+  font-size: 11px; color: var(--text-soft, #ccc);
+  font-family: var(--f-mono, monospace);
+  letter-spacing: 0.04em; line-height: 1;
+}
+.pl-chip-sep {
+  display: inline-block; width: 1px; height: 12px;
+  background: var(--border, #2a2a2a);
+}
+
 </style>
+
+<!-- Structured Data: WebSite (with SearchAction) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Plurank",
+  "url": "https://www.plurank.com",
+  "inLanguage": ["ko","en","ja"],
+  "publisher": {"@type":"Organization","name":"Plurank","url":"https://www.plurank.com"}
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.plurank.com/"}
+  ]
+}
+</script>
+
+<!-- Structured Data: Product (Plurank platform with pricing tiers) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Plurank",
+  "description": "AI 검색 시대의 GEO 데이터 인프라. 7개 AI 검색 × 12개국 실측 데이터로 콘텐츠 인용 확률을 예측합니다.",
+  "brand": {"@type":"Brand","name":"Plurank"},
+  "category": "Generative Engine Optimization (GEO) Data Platform",
+  "offers": [
+    {"@type":"Offer","name":"Enterprise Consulting","description":"엔터프라이즈 GEO 전략 컨설팅","priceCurrency":"KRW","price":"7000000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"7000000"},"availability":"https://schema.org/InStock"},
+    {"@type":"Offer","name":"SaaS Entry","description":"Plurank.app Entry tier","priceCurrency":"KRW","price":"240000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"240000"},"availability":"https://schema.org/PreOrder"},
+    {"@type":"Offer","name":"SaaS Growth","description":"Plurank.app Growth tier","priceCurrency":"KRW","price":"990000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"990000"},"availability":"https://schema.org/PreOrder"}
+  ]
+}
+</script>
+
 </head>
 <body>
 
@@ -680,29 +943,27 @@ body::before {
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="eyebrow">Predictive Marketing AI · Multi-signal</div>
+        <div class="eyebrow">The Data Layer for AI Search</div>
         <h1>
-          <span class="line">AIが決めるすべての露出 —</span>
-          <span class="line accent">AI検索・SNS・推薦アルゴリズム。</span>
-          <span class="line"><em>Pluora</em>が発行前に予測します。</span>
+          <span class="line accent">Stop guessing.</span>
+          <span class="line">Start measuring.</span>
         </h1>
         <p class="hero-sub">
-          <strong>Pluora</strong>はPlurankが開発したマルチシグナル・マーケティングAIモデルです。
-          12カ国の<strong>7つのAI検索 + YouTube · Instagram · X · TikTok · Threads</strong>から
-          3,000万件以上のデータで学習し、コンテンツがどこで露出・引用・推薦されるかを
-          <strong>発行前に</strong>予測します。
+          SEO時代の<strong>Semrush</strong>がしていたことを、GEO時代は<strong>Plurank</strong>が担います。
+          AIが回答する前に測定し、発行前に予測する
+          <strong>すべての代理店・ブランド・開発者のためのGEOデータインフラ</strong>。
         </p>
         <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">
-            無料診断を受ける
+          <a href="#" class="btn btn-primary" data-pl-open="demo">
+            デモを申し込む
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
           </a>
-          <a href="#how" class="btn btn-ghost">エンジンの仕組みを見る</a>
         </div>
         <div class="hero-trust">
-          <div class="trust-item"><strong>12+</strong>統合データソース</div>
-          <div class="trust-item"><strong>30M+</strong>BigQuery学習データ</div>
-          <div class="trust-item"><strong>7 + 5</strong>AI検索 · SNSシグナル</div>
+          <div class="trust-item"><strong>7</strong>AI Platforms</div>
+          <div class="trust-item"><strong>12</strong>Countries</div>
+          <div class="trust-item"><strong>30M+</strong>Records</div>
+          <div class="trust-item"><strong>MAPE 8.6%</strong>Prediction</div>
         </div>
       </div>
 
@@ -746,6 +1007,38 @@ body::before {
           <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
         </div>
       </aside>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== PORTFOLIO MARQUEE ===== -->
+<section class="pl-portfolio" aria-label="Portfolio">
+  <div class="pl-portfolio-eyebrow">PORTFOLIO · 主な顧客・パートナー — 15+プロジェクト / 3カ国</div>
+  <div class="pl-portfolio-marquee">
+    <div class="pl-portfolio-track">
+        <span class="pl-chip"><span class="pl-chip-name">Ascent Korea</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Enterprise Data Marketing</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Samsung Affiliate</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">AI Search Validation</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">3 Gangnam Clinics</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Dermatology · Clinic</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">All That Honors Club</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Inbound Travel</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">ourconsulting</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Agency Reseller</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Hansol MS</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">EV Charging</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Tokuyama Shoji</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Japan FMCG</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Kozy.care</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">France Wellness</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">BridgeLeaf</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">US GTM Partner</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Top Korean Ad Agencies</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Negotiating</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Local SME PoCs</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Multi Industry</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Ascent Korea</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Enterprise Data Marketing</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Samsung Affiliate</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">AI Search Validation</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">3 Gangnam Clinics</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Dermatology · Clinic</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">All That Honors Club</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Inbound Travel</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">ourconsulting</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Agency Reseller</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Hansol MS</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">EV Charging</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Tokuyama Shoji</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Japan FMCG</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Kozy.care</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">France Wellness</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">BridgeLeaf</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">US GTM Partner</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Top Korean Ad Agencies</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Negotiating</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Local SME PoCs</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Multi Industry</span></span>
     </div>
   </div>
 </section>
@@ -880,17 +1173,17 @@ body::before {
       <div class="thesis-timeline-track">
         <div class="thesis-stage">
           <span class="thesis-stage-year">2010</span>
-          <span class="thesis-stage-label">SEO <em style="font-style:italic;color:var(--text-mute)">検索アルゴリズム</em></span>
+          <span class="thesis-stage-label">SEO <em style="font-style: normal;color:var(--text-mute)">検索アルゴリズム</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2015</span>
-          <span class="thesis-stage-label">Social Algo <em style="font-style:italic;color:var(--text-mute)">推薦フィード</em></span>
+          <span class="thesis-stage-label">Social Algo <em style="font-style: normal;color:var(--text-mute)">推薦フィード</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2023</span>
-          <span class="thesis-stage-label">LLM Search <em style="font-style:italic;color:var(--text-mute)">AI回答</em></span>
+          <span class="thesis-stage-label">LLM Search <em style="font-style: normal;color:var(--text-mute)">AI回答</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage thesis-stage-now">
@@ -1347,7 +1640,7 @@ body::before {
             <text x="340" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ スキーマ</text>
           </svg>
           <div class="mock-foot mock-foot-list">
-            <div><span class="ftag">SUGGEST</span>比較表 + Schema markup 追加時、引用確率 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style:italic;">+18pt</strong> 見込み</div>
+            <div><span class="ftag">SUGGEST</span>比較表 + Schema markup 追加時、引用確率 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style: normal;">+18pt</strong> 見込み</div>
           </div>
         </div>
       </div>
@@ -1706,6 +1999,197 @@ body::before {
   } else {
     runHero();
   }
+})();
+</script>
+
+
+
+
+
+<!-- Plurank CTA Modal v2 -->
+<div class="pl-modal-backdrop" id="pl-modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="pl-modal">
+    <button class="pl-modal-close" data-pl-close aria-label="Close">✕</button>
+
+    <!-- Step 1: persona -->
+    <div class="pl-step active" data-step="1">
+      <div class="pl-modal-eyebrow">STEP 1 · 申込者の選択</div>
+      <h3>30分でPlurankをご案内します。</h3>
+      <p class="pl-modal-desc">ご案内内容を最適化するため、まずあなたの役割をお選びください。</p>
+      <div class="pl-persona-grid">
+        <button type="button" class="pl-persona-card" data-pl-persona="agency">
+          <span class="pl-persona-icon">🏢</span>
+          <span class="pl-persona-name">マーケティング代理店</span>
+          <span class="pl-persona-sub">SEO・GEO・コンテンツ・PR代理店向け。クライアント提案をデータで武装。</span>
+        </button>
+        <button type="button" class="pl-persona-card" data-pl-persona="brand">
+          <span class="pl-persona-icon">🎯</span>
+          <span class="pl-persona-name">ブランド・インハウス</span>
+          <span class="pl-persona-sub">社内マーケ・SEO・CMOチーム。AI検索で自社ブランドを優位に。</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Step 2: agency -->
+    <div class="pl-step" data-step="2" data-persona-view="agency">
+      <button type="button" class="pl-back" data-pl-back>← 戻る</button>
+      <span class="pl-step-indicator">2 / 2</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · オンラインミーティング申込</div>
+      <h3>代理店のためのPlurank</h3>
+      <ul class="pl-value-list">
+        <li><strong>クライアント別ホワイトラベルレポート</strong> — 自社ブランドで発行</li>
+        <li><strong>1アカウント = 複数ブランドのマルチダッシュボード</strong></li>
+        <li><strong>リセラー利益 30〜50%</strong> — データ再販可能な構造</li>
+        <li>30M件以上の実ブラウザデータ · 7 AI · 12カ国 ISP IP</li>
+      </ul>
+      <div class="pl-section-divider">FORM</div>
+      <form data-pl-form data-persona="agency">
+        <input type="hidden" name="type" value="demo">
+        <input type="hidden" name="persona" value="agency">
+        <input type="text" name="company" placeholder="会社名" required autocomplete="organization">
+        <input type="text" name="name" placeholder="担当者名" autocomplete="name">
+        <input type="email" name="email" placeholder="メール" required autocomplete="email">
+        <input type="text" name="url" placeholder="会社URL (任意)" autocomplete="url">
+        <input type="text" name="slot" class="full" placeholder="希望ミーティング時間帯 (例: 平日14〜17時 / 5月16日午後)">
+        <textarea name="message" class="full" placeholder="お問い合わせ内容 (任意)" rows="2"></textarea>
+        <button type="submit">
+          <span>30分ミーティングを申し込む</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+        <div class="pl-modal-msg"></div>
+      </form>
+    </div>
+
+    <!-- Step 2: brand -->
+    <div class="pl-step" data-step="2" data-persona-view="brand">
+      <button type="button" class="pl-back" data-pl-back>← 戻る</button>
+      <span class="pl-step-indicator">2 / 2</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · オンラインミーティング申込</div>
+      <h3>ブランド・インハウスのためのPlurank</h3>
+      <ul class="pl-value-list">
+        <li><strong>発行前のAI引用確率予測</strong> — Pluora MAPE 8.6%</li>
+        <li><strong>7 AI × 12カ国モニタリング</strong> — 実ブラウザデータ</li>
+        <li><strong>競合5社との比較</strong> — Citation·Source·Platform分析</li>
+        <li>国内Top1データマーケ代理店・Samsung系列の導入実績</li>
+      </ul>
+      <div class="pl-section-divider">FORM</div>
+      <form data-pl-form data-persona="brand">
+        <input type="hidden" name="type" value="demo">
+        <input type="hidden" name="persona" value="brand">
+        <input type="text" name="company" placeholder="会社名" required autocomplete="organization">
+        <input type="text" name="name" placeholder="担当者名" autocomplete="name">
+        <input type="email" name="email" placeholder="メール" required autocomplete="email">
+        <input type="text" name="url" placeholder="会社URL (任意)" autocomplete="url">
+        <input type="text" name="slot" class="full" placeholder="希望ミーティング時間帯 (例: 平日14〜17時 / 5月16日午後)">
+        <textarea name="message" class="full" placeholder="お問い合わせ内容 (任意)" rows="2"></textarea>
+        <button type="submit">
+          <span>30分ミーティングを申し込む</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+        <div class="pl-modal-msg"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const SUCCESS_MSG = 'お申込みを受け付けました。営業日1日以内にミーティング日程をご返信します。';
+  const ERROR_MSG   = '送信中にエラーが発生しました。しばらくしてから再度お試しください。';
+  const modal = document.getElementById('pl-modal');
+  if (!modal) return;
+  const steps = modal.querySelectorAll('.pl-step');
+
+  function show(personaOrStep1) {
+    steps.forEach((s) => s.classList.remove('active'));
+    if (!personaOrStep1) {
+      modal.querySelector('[data-step="1"]').classList.add('active');
+    } else {
+      const view = modal.querySelector(`[data-persona-view="${personaOrStep1}"]`);
+      if (view) view.classList.add('active');
+    }
+  }
+  function openModal() {
+    show(null);
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  // Open from any [data-pl-open]
+  document.querySelectorAll('[data-pl-open]').forEach((el) => {
+    el.addEventListener('click', (e) => { e.preventDefault(); openModal(); });
+  });
+  // Persona pick
+  modal.querySelectorAll('[data-pl-persona]').forEach((btn) => {
+    btn.addEventListener('click', () => show(btn.dataset.plPersona));
+  });
+  // Back
+  modal.querySelectorAll('[data-pl-back]').forEach((b) => {
+    b.addEventListener('click', () => show(null));
+  });
+  // Close
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal || e.target.closest('[data-pl-close]')) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+
+  async function submitForm(formEl, sourceLabel) {
+    const data = Object.fromEntries(new FormData(formEl).entries());
+    data.source = sourceLabel;
+    const btn = formEl.querySelector('button[type="submit"]');
+    const msgEl = formEl.querySelector('.pl-modal-msg');
+    if (btn) btn.disabled = true;
+    if (msgEl) { msgEl.className = 'pl-modal-msg'; msgEl.textContent = ''; }
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error('bad');
+      if (msgEl) { msgEl.className = 'pl-modal-msg success'; msgEl.textContent = SUCCESS_MSG; }
+      formEl.reset();
+    } catch (err) {
+      if (msgEl) { msgEl.className = 'pl-modal-msg error'; msgEl.textContent = ERROR_MSG; }
+    } finally {
+      if (btn) btn.disabled = false;
+    }
+  }
+
+  // Wizard forms
+  modal.querySelectorAll('[data-pl-form]').forEach((f) => {
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      submitForm(f, 'hero-modal-' + (f.dataset.persona || 'unknown'));
+    });
+  });
+
+  // Legacy #contact form — still wire to slack as diagnostic
+  document.querySelectorAll('form.cta-form').forEach((f) => {
+    if (!f.querySelector('input[name="type"]')) {
+      const h = document.createElement('input');
+      h.type = 'hidden'; h.name = 'type'; h.value = 'diagnostic';
+      f.appendChild(h);
+    }
+    if (!f.querySelector('.pl-modal-msg')) {
+      const m = document.createElement('div');
+      m.className = 'pl-modal-msg';
+      m.style.gridColumn = 'span 2';
+      m.style.marginTop = '8px';
+      f.appendChild(m);
+    }
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      submitForm(f, 'contact-section');
+    });
+  });
 })();
 </script>
 

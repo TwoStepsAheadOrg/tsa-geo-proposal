@@ -1,6 +1,23 @@
 // Vercel Serverless Function: /api/contact
-// Receives diagnostic request from CTA form and posts to Slack via Incoming Webhook.
+// Receives form submissions from Plurank (Hero modal & #contact section)
+// and posts to Slack via Incoming Webhook.
 // Required env var: SLACK_WEBHOOK_URL
+
+const TYPE_LABELS = {
+  'demo':          { emoji: '🤝', title: '데모 신청' },
+  'agency-demo':   { emoji: '🤝', title: '에이전시 데모 요청' },
+  'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },
+  'api-key':       { emoji: '🔑', title: 'API Key 요청' },
+  'diagnostic':    { emoji: '🎯', title: '무료 진단 신청' },
+  'general':       { emoji: '✉️', title: '일반 문의' },
+};
+
+const PERSONA_LABELS = {
+  'agency':  '🏢 마케팅 에이전시',
+  'brand':   '🎯 브랜드 인하우스 (마케팅 담당자)',
+  'developer': '⚙️ 개발자 / AI 엔지니어',
+  'other':   '기타',
+};
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -8,9 +25,10 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { company, url, email, source } = (req.body && typeof req.body === 'object') ? req.body : {};
+  const body = (req.body && typeof req.body === 'object') ? req.body : {};
+  const { company, url = '', email, message = '', source = '', type = 'diagnostic', name = '', persona = '', slot = '' } = body;
 
-  if (!company || !url || !email) {
+  if (!company || !email) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
@@ -23,35 +41,50 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'Notification channel not configured' });
   }
 
+  const t = TYPE_LABELS[type] || TYPE_LABELS.general;
+
   const submittedAt = new Date().toLocaleString('ko-KR', {
     timeZone: 'Asia/Seoul',
     year: 'numeric', month: '2-digit', day: '2-digit',
     hour: '2-digit', minute: '2-digit',
   });
 
-  const slackPayload = {
-    text: `🎯 GeoRank24 무료 진단 신청 — ${company}`,
-    blocks: [
-      {
-        type: 'header',
-        text: { type: 'plain_text', text: '🎯 GeoRank24 무료 진단 신청', emoji: true },
-      },
-      {
-        type: 'section',
-        fields: [
-          { type: 'mrkdwn', text: `*회사명*\n${company}` },
-          { type: 'mrkdwn', text: `*이메일*\n${email}` },
-          { type: 'mrkdwn', text: `*콘텐츠 URL / 도메인*\n${url}` },
-          { type: 'mrkdwn', text: `*신청 시각*\n${submittedAt} KST` },
-        ],
-      },
-      {
-        type: 'context',
-        elements: [
-          { type: 'mrkdwn', text: `georank24.com${source ? ` · ${source}` : ''}` },
-        ],
-      },
+  const fields = [];
+  if (persona && PERSONA_LABELS[persona]) {
+    fields.push({ type: 'mrkdwn', text: `*신청자 유형*\n${PERSONA_LABELS[persona]}` });
+  }
+  fields.push({ type: 'mrkdwn', text: `*회사명*\n${company}` });
+  fields.push({ type: 'mrkdwn', text: `*이메일*\n${email}` });
+  if (name)  fields.push({ type: 'mrkdwn', text: `*담당자*\n${name}` });
+  if (url)   fields.push({ type: 'mrkdwn', text: `*URL / 도메인*\n${url}` });
+  if (slot)  fields.push({ type: 'mrkdwn', text: `*희망 미팅 시간*\n${slot}` });
+  fields.push({ type: 'mrkdwn', text: `*신청 시각*\n${submittedAt} KST` });
+
+  const blocks = [
+    {
+      type: 'header',
+      text: { type: 'plain_text', text: `${t.emoji} Plurank · ${t.title}`, emoji: true },
+    },
+    { type: 'section', fields },
+  ];
+
+  if (message) {
+    blocks.push({
+      type: 'section',
+      text: { type: 'mrkdwn', text: `*문의 내용*\n${message.slice(0, 1800)}` },
+    });
+  }
+
+  blocks.push({
+    type: 'context',
+    elements: [
+      { type: 'mrkdwn', text: `plurank.com · type: \`${type}\`${source ? ` · ${source}` : ''}` },
     ],
+  });
+
+  const slackPayload = {
+    text: `${t.emoji} Plurank ${t.title} — ${company}`,
+    blocks,
   };
 
   try {
@@ -62,8 +95,8 @@ export default async function handler(req, res) {
     });
 
     if (!slackRes.ok) {
-      const text = await slackRes.text();
-      console.error('Slack webhook error:', slackRes.status, text);
+      const txt = await slackRes.text();
+      console.error('Slack webhook error:', slackRes.status, txt);
       return res.status(502).json({ error: 'Notification dispatch failed' });
     }
 

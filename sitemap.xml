@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 한국어 (정식 / canonical) -->
+  <url>
+    <loc>https://www.plurank.com/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
+  </url>
+
+  <!-- English -->
+  <url>
+    <loc>https://www.plurank.com/en.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
+  </url>
+
+  <!-- 日本語 -->
+  <url>
+    <loc>https://www.plurank.com/ja.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
+  </url>
+
+</urlset>

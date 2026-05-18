@@ -3,36 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Plurank — AI 검색 시대의 마케팅 예측 엔진</title>
-<meta name="description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델. 7 AI 검색 + 5 SNS · 12개국 · 실제 브라우저 데이터.">
+<title>Plurank — AI Discovery AdTech for Generative Search</title>
+<meta name="description" content="AI 검색에서 브랜드가 어떤 질문에 노출되고 어떤 출처로 인용되는지 측정하고, 웹사이트·SNS·커뮤니티·PR 콘텐츠 실행까지 연결하는 AI Discovery AdTech 플랫폼입니다.">
 <meta name="keywords" content="GEO, GEO 최적화, AI 검색 최적화, 마케팅 인텔리전스, ChatGPT 인용, Perplexity, Pluora, Plurank, AI 마케팅 예측">
 <meta name="author" content="TwoStepsAhead">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta name="theme-color" content="#0a0a0a">
 <link rel="canonical" href="https://www.plurank.com/">
-<link rel="alternate" hreflang="ko" href="https://www.plurank.com/ko.html">
+<link rel="alternate" hreflang="ko" href="https://www.plurank.com/">
 <link rel="alternate" hreflang="en" href="https://www.plurank.com/en.html">
 <link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja.html">
 <link rel="alternate" hreflang="x-default" href="https://www.plurank.com/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Plurank — AI 검색 시대의 마케팅 예측 엔진">
-<meta property="og:description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델. 7 AI 검색 + 5 SNS · 12개국 · 실제 브라우저 데이터.">
+<meta property="og:title" content="Plurank — AI Discovery AdTech for Generative Search">
+<meta property="og:description" content="AI 답변·인용·소스 데이터를 분석하고, 필요한 채널의 콘텐츠 실행까지 연결하는 Plurank.">
 <meta property="og:url" content="https://www.plurank.com/">
 <meta property="og:site_name" content="Plurank">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://www.plurank.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Plurank — AI 검색 시대의 마케팅 예측 엔진">
-<meta name="twitter:description" content="AI가 다음에 누구를 추천할지 예측하는 마케팅 AI 모델.">
+<meta name="twitter:title" content="Plurank — AI Discovery AdTech">
+<meta name="twitter:description" content="AI 검색에서 브랜드가 발견되는 방식을 측정하고, 콘텐츠 실행까지 연결합니다.">
 <meta name="twitter:image" content="https://www.plurank.com/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23f5f5f5'/%3E%3Ctext x='50' y='66' text-anchor='middle' fill='%230a0a0a' font-family='Fraunces,Georgia,serif' font-style='italic' font-weight='400' font-size='52'%3EG%3C/text%3E%3C/svg%3E">
+<!-- Favicons & PWA -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 
-<!-- Vercel Web Analytics -->
-<script defer src="/_vercel/insights/script.js"></script>
-<!-- Vercel Speed Insights -->
-<script defer src="/_vercel/speed-insights/script.js"></script>
-<!-- Citora Lead Pixel -->
-<script async src="https://api.lead.georank24.com/api/pixel?site_key=cl_pk_d6Tj-rUtfPR1fTrHD6QMpYyB"></script>
+<!-- Search engine verification (※ 사용자 작업 필요: 각 콘솔에서 발급받은 값으로 교체) -->
+<!-- <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN"> -->
+<!-- <meta name="naver-site-verification" content="REPLACE_WITH_NAVER_TOKEN"> -->
+<!-- <meta name="msvalidate.01" content="REPLACE_WITH_BING_TOKEN"> -->
+
+<!-- Analytics -->
+<script>
+(function () {
+  var host = window.location.hostname;
+  var isLocal = !host || host === 'localhost' || host === '127.0.0.1' || host === '::1';
+  if (isLocal) return;
+
+  [
+    { src: '/_vercel/insights/script.js', defer: true },
+    { src: '/_vercel/speed-insights/script.js', defer: true },
+    { src: 'https://api.lead.georank24.com/api/pixel?site_key=cl_pk_d6Tj-rUtfPR1fTrHD6QMpYyB', async: true }
+  ].forEach(function (asset) {
+    var script = document.createElement('script');
+    script.src = asset.src;
+    if (asset.defer) script.defer = true;
+    if (asset.async) script.async = true;
+    document.head.appendChild(script);
+  });
+})();
+</script>
 
 <!-- Structured Data: Organization -->
 <script type="application/ld+json">
@@ -42,7 +65,7 @@
   "name": "Plurank",
   "url": "https://www.plurank.com",
   "logo": "https://www.plurank.com/og-image.png",
-  "description": "12개국 7 AI + 5 SNS 신호를 통합 학습한 마케팅 AI 모델 Pluora. 콘텐츠가 어디서 인용·추천될지 발행 전에 추론합니다.",
+  "description": "AI 답변·인용·소스 데이터를 분석하고 채널별 콘텐츠 실행까지 연결해 브랜드가 AI 검색에서 더 잘 발견되도록 돕는 AI Discovery AdTech 플랫폼.",
   "founder": {"@type":"Person","name":"Glenn Kim"},
   "sameAs": ["https://twostepsahead.co.kr","https://georank24-ir.twostepsahead.co.kr"]
 }
@@ -55,8 +78,8 @@
   "@type": "Service",
   "serviceType": "Generative Engine Optimization (GEO)",
   "provider": {"@type":"Organization","name":"Plurank"},
-  "name": "Plurank — AI 인용 예측 마케팅 인텔리전스",
-  "description": "콘텐츠를 발행하기 전에 7개 AI 답변에 인용될 확률을 점수로 알려드리고, 12개국 12채널의 노출 격차를 시각화합니다.",
+  "name": "Plurank — AI Discovery AdTech Platform",
+  "description": "AI 답변 속 브랜드 언급, 인용 출처, 경쟁사 위치, 국가별 차이, 실행 우선순위를 분석해 GEO 전략과 채널별 콘텐츠 실행으로 연결합니다.",
   "areaServed": [{"@type":"Country","name":"KR"},{"@type":"Country","name":"US"},{"@type":"Country","name":"JP"},{"@type":"Country","name":"GB"},{"@type":"Country","name":"DE"},{"@type":"Country","name":"FR"},{"@type":"Country","name":"ES"},{"@type":"Country","name":"IT"},{"@type":"Country","name":"IN"},{"@type":"Country","name":"BR"},{"@type":"Country","name":"ID"},{"@type":"Country","name":"AE"}]
 }
 </script>
@@ -67,12 +90,12 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"GEO가 SEO와 어떻게 다른가요?","acceptedAnswer":{"@type":"Answer","text":"SEO는 검색 1페이지에 노출될 확률을 다뤘다면, GEO는 ChatGPT·Claude·Perplexity 같은 AI 답변에 인용될 확률을 다룹니다."}},
-    {"@type":"Question","name":"Pluora 모델의 정확도는 어느 정도인가요?","acceptedAnswer":{"@type":"Answer","text":"매주 12개국에서 7개 AI 플랫폼 답변을 캡처한 30M+ 실증 데이터를 학습합니다. 평균 예측 오차(MAPE) 8.6% 수준."}},
-    {"@type":"Question","name":"왜 12개국을 동시에 측정하나요?","acceptedAnswer":{"@type":"Answer","text":"같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌 브랜드라면 12국 답변을 동시에 봐야 정확한 액션을 잡을 수 있습니다."}},
-    {"@type":"Question","name":"경쟁사와 무엇이 다른가요?","acceptedAnswer":{"@type":"Answer","text":"Brandwatch는 소셜만, Profound는 AI 검색만, 어센트는 검색 키워드만 봅니다. Plurank는 이 셋을 통합해 12국 12채널을 동시에, 발행 전 인용 확률까지 예측합니다."}},
+    {"@type":"Question","name":"GEO가 SEO와 어떻게 다른가요?","acceptedAnswer":{"@type":"Answer","text":"SEO는 검색 결과의 순위를 다뤘다면, GEO는 ChatGPT·Claude·Perplexity 같은 AI 답변에서 브랜드와 콘텐츠가 인용될 가능성을 다룹니다."}},
+    {"@type":"Question","name":"Pluora 모델의 정확도는 어느 정도인가요?","acceptedAnswer":{"@type":"Answer","text":"매주 12개국에서 7개 AI 플랫폼 답변을 캡처한 30M+ 실증 데이터를 학습합니다. 현재 평균 예측 오차(MAPE)는 8.6% 수준입니다."}},
+    {"@type":"Question","name":"왜 12개국을 동시에 측정하나요?","acceptedAnswer":{"@type":"Answer","text":"같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌 브랜드는 국가별 답변 차이를 함께 봐야 실행 우선순위를 정확히 잡을 수 있습니다."}},
+    {"@type":"Question","name":"경쟁사와 무엇이 다른가요?","acceptedAnswer":{"@type":"Answer","text":"대부분의 툴은 모니터링이나 검색 분석 중 하나에 머뭅니다. Plurank는 AI 답변, 소스 신호, 채널별 콘텐츠 실행, 발행 전 예측을 하나의 루프로 연결합니다."}},
     {"@type":"Question","name":"도입까지 얼마나 걸리나요?","acceptedAnswer":{"@type":"Answer","text":"컨설팅 계약 후 다음 주부터 첫 5 Lens 리포트를 받으실 수 있습니다. SaaS는 2026 하반기 출시 예정."}},
-    {"@type":"Question","name":"무료 진단은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"콘텐츠 URL을 보내주시면 7개 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다. 약 3분 안에 결과 도착."}}
+    {"@type":"Question","name":"무료 진단은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"브랜드 URL이나 진단하고 싶은 질문을 보내주시면 AI 답변 노출, 인용 출처, 경쟁사 대비 위치, 개선 우선순위를 간단히 정리해드립니다."}}
   ]
 }
 </script>
@@ -107,6 +130,7 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+em, i, cite, address, dfn { font-style: normal; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--f-sans);
@@ -163,7 +187,9 @@ body::before {
   font-variation-settings: "opsz" 96;
   margin-top: 28px;
 }
-.section h2 em { font-style: italic; font-weight: 400; }
+.section h2 .line { display: block; }
+.section h2 .keep { white-space: nowrap; }
+.section h2 em { font-style: normal; font-weight: 400; }
 .section h2 .mute { color: var(--text-mute); }
 .section-lede {
   font-size: 17px;
@@ -193,7 +219,7 @@ body::before {
   font-size: 21px;
   letter-spacing: -0.012em;
 }
-.nav-brand em { font-style: italic; font-weight: 400; color: var(--text-soft); }
+.nav-brand em { font-style: normal; font-weight: 400; color: var(--text-soft); }
 .nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
 .nav-links a { transition: color 0.2s ease; }
 .nav-links a:hover { color: var(--text); }
@@ -236,19 +262,20 @@ body::before {
 .hero h1 {
   font-family: var(--f-display);
   font-weight: 300;
-  font-size: clamp(40px, 5.6vw, 72px);
+  font-size: 64px;
   line-height: 1.05;
   letter-spacing: -0.025em;
   font-variation-settings: "opsz" 96;
   margin-top: 32px;
 }
 .hero h1 .line { display: block; }
-.hero h1 em { font-style: italic; font-weight: 400; font-variation-settings: "opsz" 144; }
+.hero h1 .nowrap { white-space: nowrap; }
+.hero h1 em { font-style: normal; font-weight: 400; font-variation-settings: "opsz" 144; }
 .hero h1 .accent { color: var(--text-mute); }
 .hero-sub { margin-top: 36px; font-size: 17px; line-height: 1.7; color: var(--text-soft); max-width: 560px; }
 .hero-sub strong { color: var(--text); font-weight: 500; }
 .hero-cta { margin-top: 44px; display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .trust-item {
   font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--text-mute);
@@ -259,113 +286,288 @@ body::before {
   text-transform: none; margin-bottom: 4px; font-variation-settings: "opsz" 60;
 }
 
-.hero-aside {
+.hero-positioning {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hero-positioning span {
   border: 1px solid var(--border);
-  border-radius: 8px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0));
-  padding: 28px;
-  position: sticky; top: 110px;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  background: rgba(255,255,255,0.025);
 }
-.aside-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
-.aside-title { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); }
-.aside-status { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; color: var(--highlight); display: inline-flex; align-items: center; gap: 6px; }
-.aside-status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulse 1.6s ease-in-out infinite; }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
-.aside-prompt {
-  font-family: var(--f-display); font-style: italic; font-weight: 300;
-  font-size: 17px; line-height: 1.55; color: var(--text-soft);
-  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border);
-  min-height: 28px;
+
+.hero-visual {
+  position: sticky;
+  top: 104px;
+  min-height: 640px;
 }
-.aside-prompt-text { display: inline; }
+.discovery-scene {
+  position: relative;
+  min-height: 640px;
+  overflow: hidden;
+  isolation: isolate;
+}
+.discovery-scene::before {
+  content: "";
+  position: absolute;
+  inset: 7% 4% 8% 4%;
+  border-top: 1px solid rgba(255,255,255,0.09);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  opacity: 0.75;
+  pointer-events: none;
+}
+.discovery-scene::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(245,158,11,0.48), transparent);
+  transform: translateY(-50%);
+  opacity: 0.6;
+  pointer-events: none;
+}
+#discovery-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scene-panel {
+  position: absolute;
+  z-index: 2;
+  border: 1px solid rgba(255,255,255,0.11);
+  background: rgba(10,10,10,0.58);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.28);
+}
+.scene-prompt {
+  top: 38px;
+  left: 0;
+  right: 12%;
+  padding: 18px 20px;
+}
+.scene-label {
+  display: block;
+  font-family: var(--f-mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  margin-bottom: 10px;
+}
+.scene-prompt strong {
+  display: block;
+  font-family: var(--f-display);
+  font-size: 19px;
+  line-height: 1.45;
+  font-weight: 300;
+  color: var(--text-soft);
+}
 .aside-prompt-cursor {
-  display: inline-block; width: 2px; height: 0.9em;
-  background: var(--text-soft); vertical-align: -0.12em;
-  margin-left: 3px; animation: typing-blink 0.9s steps(2) infinite;
+  display: inline-block;
+  width: 2px;
+  height: 0.9em;
+  background: var(--text-soft);
+  vertical-align: -0.12em;
+  margin-left: 3px;
+  animation: typing-blink 0.9s steps(2) infinite;
 }
-.aside-prompt.done .aside-prompt-cursor { opacity: 0.25; animation: none; }
+.scene-prompt.done .aside-prompt-cursor { opacity: 0.25; animation: none; }
 @keyframes typing-blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
 
-.aside-commentary {
-  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.03em;
-  color: var(--highlight); padding: 10px 14px; margin-bottom: 18px;
-  border-left: 2px solid var(--highlight); background: rgba(245,158,11,0.05);
-  min-height: 38px; line-height: 1.5;
-  opacity: 0; transform: translateY(-4px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+.scene-core {
+  right: 0;
+  bottom: 74px;
+  width: min(238px, 46%);
+  padding: 22px;
+  z-index: 4;
 }
-.aside-commentary.show { opacity: 1; transform: translateY(0); }
-.aside-commentary-cursor {
-  display: inline-block; width: 1.5px; height: 0.85em;
-  background: var(--highlight); margin-left: 2px;
-  vertical-align: -0.1em; animation: typing-blink 0.7s steps(2) infinite;
+.scene-core strong {
+  display: block;
+  font-family: var(--f-display);
+  font-size: 44px;
+  line-height: 1;
+  font-weight: 300;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
 }
-
-.aside-foot {
-  margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border);
-  display: flex; justify-content: space-between; align-items: baseline;
-  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--text-mute);
+.scene-core strong .pct {
+  font-size: 0.48em;
+  color: var(--text-mute);
+  margin-left: 2px;
 }
-.aside-foot strong {
-  font-family: var(--f-display); font-weight: 300; font-style: italic;
-  font-size: 26px; letter-spacing: -0.02em; text-transform: none;
-  color: var(--text); font-variation-settings: "opsz" 96;
+.scene-core p {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text-soft);
 }
-.aside-foot strong .pct { font-size: 0.55em; color: var(--text-mute); font-style: normal; margin-left: 1px; }
-
-.platform-row {
+.scene-signal-stack {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 26px;
+  width: min(272px, 52%);
+  display: grid;
+  gap: 8px;
+}
+.scene-signal {
   display: grid;
   grid-template-columns: 1fr auto;
-  grid-template-rows: auto auto;
-  column-gap: 12px;
-  row-gap: 5px;
-  padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px;
-  position: relative;
-  transition: background 0.25s ease, padding 0.25s ease, margin 0.25s ease;
+  gap: 4px 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,0.09);
+  background: rgba(10,10,10,0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
 }
-.platform-row:last-child { border-bottom: none; padding-bottom: 0; }
-.platform-name { font-weight: 500; transition: color 0.25s ease; grid-column: 1; grid-row: 1; }
-.platform-rank { font-family: var(--f-mono); color: var(--text-mute); font-size: 13px; font-variant-numeric: tabular-nums; transition: color 0.25s ease; grid-column: 2; grid-row: 1; align-self: center; }
-.platform-rank.high { color: var(--text); font-weight: 500; }
-.platform-rank.pending { color: var(--text-faint); font-size: 14px; letter-spacing: 0.1em; }
-.platform-answer {
-  grid-column: 1 / -1; grid-row: 2;
+.scene-signal span {
   font-family: var(--f-mono);
-  font-size: 11px;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.scene-signal strong {
+  grid-column: 1;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-soft);
+}
+.scene-signal-score {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  font-family: var(--f-mono);
+  font-size: 13px;
+  color: var(--text-mute);
+  font-variant-numeric: tabular-nums;
+}
+.scene-signal-copy {
+  grid-column: 1 / -1;
+  min-height: 14px;
+  font-family: var(--f-mono);
+  font-size: 9px;
+  line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--text-mute);
-  line-height: 1.45;
-  min-height: 14px;
 }
-.platform-row.is-active .platform-answer { color: var(--highlight); }
-.platform-row.is-active {
-  background: rgba(245,158,11,0.06);
-  margin: 0 -10px;
-  padding-left: 10px; padding-right: 10px;
-  border-radius: 3px;
+.scene-signal.is-active {
+  transform: translateX(8px);
+  border-color: rgba(245,158,11,0.58);
+  background: rgba(245,158,11,0.09);
 }
-.platform-row.is-active .platform-name { color: var(--highlight); }
-.platform-row.is-active::before {
-  content: ""; position: absolute; left: -2px; top: 50%; transform: translateY(-50%);
-  width: 4px; height: 4px; border-radius: 50%;
-  background: var(--highlight);
-  box-shadow: 0 0 0 4px rgba(245,158,11,0.18);
+.scene-signal.is-active strong,
+.scene-signal.is-active .scene-signal-copy,
+.scene-signal.is-active .scene-signal-score {
+  color: var(--highlight);
 }
-.platform-group { display: flex; flex-direction: column; }
-.platform-group + .platform-group { margin-top: 18px; }
-.platform-group-head {
-  font-family: var(--f-mono); font-size: 9px; font-weight: 500;
-  letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-faint);
-  padding: 0 0 10px;
-  display: flex; align-items: center; justify-content: space-between;
+.scene-source {
+  position: absolute;
+  z-index: 2;
+  padding: 9px 11px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(10,10,10,0.45);
+  color: var(--text-soft);
+  font-family: var(--f-mono);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
-.platform-group-head .ghead-count { color: var(--text-mute); }
+.scene-source strong {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--f-sans);
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+  font-weight: 500;
+}
+.source-owned { top: 170px; left: 4%; }
+.source-earned { top: 168px; right: 2%; }
+.source-social { top: 338px; left: 2%; }
+.source-community { top: 360px; right: 5%; }
+.scene-status {
+  position: absolute;
+  z-index: 3;
+  top: 118px;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--highlight);
+}
+.scene-status::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
 
 /* ========== MISSION ========== */
 .mission-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; }
 .mission-body p { font-size: 17px; line-height: 1.75; color: var(--text-soft); margin-bottom: 20px; }
 .mission-body p strong { color: var(--text); font-weight: 500; }
+.position-ladder {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.position-step {
+  background: var(--bg);
+  padding: 24px 20px;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.position-step-feature {
+  background: linear-gradient(180deg, rgba(245,158,11,0.11), rgba(255,255,255,0.025));
+}
+.position-step span {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+.position-step strong {
+  font-family: var(--f-display);
+  font-size: 21px;
+  line-height: 1.15;
+  font-weight: 400;
+  color: var(--text);
+}
+.position-step p {
+  margin: auto 0 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-soft);
+}
 .mission-pillars { margin-top: 40px; display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
 .mission-pillar {
   background: var(--bg);
@@ -380,7 +582,7 @@ body::before {
   font-family: var(--f-display); font-weight: 400; font-size: 18px;
   letter-spacing: -0.01em; margin-bottom: 4px;
 }
-.mission-pillar-body h4 em { font-style: italic; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.mission-pillar-body h4 em { font-style: normal; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
 .mission-pillar-body p { color: var(--text-mute); font-size: 14px; }
 
 /* ========== THESIS ========== */
@@ -389,7 +591,7 @@ body::before {
 .thesis-kpi:hover { background: var(--bg-soft); }
 .thesis-kpi-feature { background: var(--bg-soft); }
 .thesis-kpi-value { font-family: var(--f-display); font-weight: 300; font-size: clamp(40px, 4.5vw, 56px); line-height: 1; letter-spacing: -0.035em; font-variation-settings: "opsz" 144; }
-.thesis-kpi-value em { font-style: italic; font-weight: 400; }
+.thesis-kpi-value em { font-style: normal; font-weight: 400; }
 .thesis-kpi-value .pct { color: var(--text-mute); font-weight: 400; font-style: normal; font-size: 0.55em; vertical-align: 0.4em; margin-left: 2px; }
 .thesis-kpi-label { font-size: 13px; line-height: 1.5; color: var(--text-soft); margin-top: auto; padding-top: 24px; }
 .thesis-kpi-source { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 14px; border-top: 1px solid var(--border); }
@@ -400,13 +602,13 @@ body::before {
 .thesis-stage { display: flex; flex-direction: column; gap: 6px; }
 .thesis-stage-year { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--text-faint); }
 .thesis-stage-label { font-family: var(--f-display); font-weight: 400; font-size: 16px; line-height: 1.3; letter-spacing: -0.01em; color: var(--text-soft); }
-.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: italic; }
+.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: normal; }
 .thesis-stage-now .thesis-stage-year { color: var(--highlight); }
 .thesis-arrow { color: var(--text-faint); font-family: var(--f-mono); }
 
 .thesis-hypothesis { margin-top: 48px; padding: 40px 44px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--bg-soft-2); }
 .thesis-hypothesis-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 16px; }
-.thesis-hypothesis-body { font-family: var(--f-display); font-style: italic; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
+.thesis-hypothesis-body { font-family: var(--f-display); font-style: normal; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
 .thesis-hypothesis-body strong { font-style: normal; font-weight: 500; }
 
 /* ========== DEMO ========== */
@@ -426,7 +628,7 @@ body::before {
 .sparkline { width: 100%; height: 50px; }
 
 .model-tagline { font-size: 14px; line-height: 1.6; color: var(--text-soft); }
-.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: italic; font-weight: 400; }
+.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: normal; font-weight: 400; }
 .neural-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
 .neural-meta > div { display: flex; flex-direction: column; gap: 4px; }
 .neural-meta span { font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
@@ -435,7 +637,7 @@ body::before {
 .metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
 .metric { display: flex; flex-direction: column; gap: 6px; }
 .metric-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 3.5vw, 44px); line-height: 1; letter-spacing: -0.032em; font-variation-settings: "opsz" 96; }
-.metric-num em { font-style: italic; font-weight: 400; }
+.metric-num em { font-style: normal; font-weight: 400; }
 .metric-num .unit { font-size: 0.55em; color: var(--text-mute); margin-left: 2px; vertical-align: 0.3em; }
 .metric-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
 
@@ -446,7 +648,7 @@ body::before {
 .why-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; color: var(--text); margin-bottom: 8px; }
 .why-icon svg { width: 28px; height: 28px; }
 .why-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
-.why-card h3 em { font-style: italic; }
+.why-card h3 em { font-style: normal; }
 .why-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .why-card p strong { color: var(--text); font-weight: 500; }
 .why-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -456,7 +658,7 @@ body::before {
 .engine-step { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 12px; }
 .engine-step-num { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 8px; }
 .engine-step h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
-.engine-step h3 em { font-style: italic; }
+.engine-step h3 em { font-style: normal; }
 .engine-step p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .engine-step-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
 .engine-step-last { background: var(--bg-soft); }
@@ -467,7 +669,7 @@ body::before {
 .trust-card:hover { background: var(--bg-soft); }
 .trust-card-feature { background: var(--bg-soft); }
 .trust-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(48px, 5vw, 72px); line-height: 1; letter-spacing: -0.04em; font-variation-settings: "opsz" 144; }
-.trust-num em { font-style: italic; font-weight: 400; }
+.trust-num em { font-style: normal; font-weight: 400; }
 .trust-num .unit { font-size: 0.5em; color: var(--text-mute); font-weight: 400; }
 .trust-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); }
 .trust-desc { font-size: 13px; line-height: 1.55; color: var(--text-mute); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -479,7 +681,7 @@ body::before {
 .insight-card-feature { background: var(--bg-soft); }
 .insight-num { font-family: var(--f-display); font-weight: 300; font-size: 56px; line-height: 1; letter-spacing: -0.04em; color: var(--text-faint); font-variation-settings: "opsz" 144; }
 .insight-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 21px; line-height: 1.25; letter-spacing: -0.015em; margin-top: 6px; }
-.insight-card h3 em { font-style: italic; }
+.insight-card h3 em { font-style: normal; }
 .insight-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
 .insight-card p strong { color: var(--text); font-weight: 500; }
 .insight-tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; color: var(--highlight); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
@@ -491,7 +693,7 @@ body::before {
 .deliverable-row-reverse .deliverable-visual { order: 1; }
 .deliverable-num { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 16px; }
 .deliverable-text h3 { font-family: var(--f-display); font-weight: 300; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
-.deliverable-text h3 em { font-style: italic; font-weight: 400; }
+.deliverable-text h3 em { font-style: normal; font-weight: 400; }
 .deliverable-text p { margin-top: 20px; font-size: 16px; line-height: 1.7; color: var(--text-soft); }
 .deliverable-text p strong { color: var(--text); font-weight: 500; }
 .deliverable-bullets { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -550,7 +752,7 @@ body::before {
 .cta-card { max-width: 880px; margin: 0 auto; padding: 80px 64px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); text-align: center; }
 .cta-eyebrow { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 24px; }
 .cta-card h2 { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
-.cta-card h2 em { font-style: italic; font-weight: 400; }
+.cta-card h2 em { font-style: normal; font-weight: 400; }
 .cta-card > p { margin-top: 20px; font-size: 16px; color: var(--text-soft); max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.65; }
 .cta-form { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 600px; margin-left: auto; margin-right: auto; }
 .cta-form input { padding: 14px 18px; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; color: var(--text); font-family: var(--f-sans); font-size: 14px; transition: border-color 0.2s; }
@@ -566,7 +768,7 @@ body::before {
 .footer a:hover { border-color: var(--text-mute); }
 
 .compare-foot { padding: 64px 0; text-align: center; background: linear-gradient(180deg, var(--bg), #060606); }
-.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: italic; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
+.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: normal; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
 .compare-row { display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
 .compare-row .btn-ghost { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 18px; }
 
@@ -608,7 +810,7 @@ body::before {
 .compare-row > div:first-child { color: var(--text-soft); }
 .compare-row > div:nth-child(2) { color: var(--text-mute); }
 .compare-us { color: var(--text); font-weight: 500; }
-.compare-us strong { color: var(--highlight); font-weight: 500; font-family: var(--f-display); font-style: italic; font-size: 16px; }
+.compare-us strong { color: var(--highlight); font-weight: 500; font-family: var(--f-display); font-style: normal; font-size: 16px; }
 
 .lens-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
 .lens-card { background: var(--bg); padding: 32px 22px; display: flex; flex-direction: column; gap: 10px; transition: background 0.2s ease; }
@@ -650,9 +852,11 @@ body::before {
 @media (max-width: 1100px) {
   .fanout-grid, .layer-grid, .partner-list { grid-template-columns: repeat(2, 1fr); }
   .lens-grid { grid-template-columns: repeat(2, 1fr); }
+  .position-ladder { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 700px) {
   .fanout-grid, .layer-grid, .partner-list, .lens-grid { grid-template-columns: 1fr; }
+  .position-ladder { grid-template-columns: 1fr; }
   .compare-row { grid-template-columns: 1fr; gap: 6px; padding: 18px 20px; }
 }
 
@@ -671,13 +875,557 @@ body::before {
   .insights-grid, .why-grid, .thesis-kpis, .trust-grid { grid-template-columns: 1fr; }
   .hero-trust { grid-template-columns: 1fr 1fr; gap: 20px; }
   .hero, .section { padding: 80px 0; }
+  .hero h1 { font-size: 56px; }
   .container, .container-narrow, .nav { padding-left: 20px; padding-right: 20px; }
   .cta-card { padding: 48px 28px; }
   .cta-form { grid-template-columns: 1fr; }
   .cta-form input[name="company"], .cta-form input[name="email"], .cta-form input[name="url"], .cta-form button { grid-column: span 1; }
-  .hero-aside { position: static; }
+  .hero-visual { position: static; min-height: 560px; }
+  .discovery-scene { min-height: 560px; }
+  .scene-prompt { top: 8px; right: 0; }
+  .scene-status { top: 104px; }
 }
+
+@media (max-width: 520px) {
+  .hero h1 { font-size: 45px; line-height: 1.08; }
+  .section h2 .keep { white-space: normal; }
+  .hero-positioning span { width: calc(50% - 4px); text-align: center; }
+  .hero-visual { min-height: 780px; }
+  .discovery-scene { min-height: 780px; margin: 0 -6px; scroll-margin-top: 92px; }
+  .scene-prompt { left: 6px; right: 6px; padding: 16px; }
+  .scene-status { top: 112px; right: 8px; }
+  .scene-source { display: none; }
+  .scene-signal-stack { left: 6px; right: 6px; top: 430px; bottom: auto; width: auto; }
+  .scene-core { top: 248px; right: 6px; bottom: auto; width: calc(100% - 12px); padding: 18px; }
+  .scene-core strong { font-size: 38px; }
+}
+
+@media (max-width: 360px) {
+  .hero h1 .nowrap { white-space: normal; }
+}
+
+
+
+/* === Plurank Modal v2 (persona wizard) === */
+.pl-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(10,10,10,0.78);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  z-index: 1000; opacity: 0; pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+.pl-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+.pl-modal {
+  background: var(--bg, #0a0a0a); border: 1px solid var(--border, #2a2a2a);
+  border-radius: 16px; max-width: 620px; width: 100%; max-height: 92vh; overflow-y: auto;
+  padding: 36px 36px 32px; position: relative;
+  transform: translateY(12px); transition: transform 0.25s ease;
+  color: var(--text, #fff);
+}
+.pl-modal-backdrop.open .pl-modal { transform: translateY(0); }
+.pl-modal-close {
+  position: absolute; top: 18px; right: 18px;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: transparent; border: 1px solid var(--border, #2a2a2a);
+  color: var(--text-soft, #ccc); cursor: pointer; font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.pl-modal-close:hover { background: var(--text, #fff); color: var(--bg, #0a0a0a); }
+.pl-modal-eyebrow {
+  font-family: var(--f-mono, monospace); font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-mute, #888); margin-bottom: 12px;
+}
+.pl-modal h3 {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 26px; line-height: 1.25; letter-spacing: -0.02em;
+  margin-bottom: 10px; color: var(--text, #fff);
+}
+.pl-modal p.pl-modal-desc {
+  font-size: 14px; line-height: 1.65; color: var(--text-soft, #ccc);
+  margin-bottom: 26px;
+}
+.pl-step { display: none; }
+.pl-step.active { display: block; animation: plFadeIn 0.25s ease; }
+@keyframes plFadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Step 1 — persona cards */
+.pl-persona-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin-top: 8px;
+}
+.pl-persona-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border, #2a2a2a);
+  border-radius: 12px; padding: 22px 18px;
+  text-align: left; cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex; flex-direction: column; gap: 8px;
+  font-family: inherit; color: var(--text, #fff);
+}
+.pl-persona-card:hover {
+  border-color: var(--text, #fff);
+  background: rgba(255,255,255,0.05);
+  transform: translateY(-2px);
+}
+.pl-persona-icon { font-size: 26px; line-height: 1; }
+.pl-persona-name {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 18px; letter-spacing: -0.01em; color: var(--text, #fff);
+  margin: 4px 0 2px;
+}
+.pl-persona-sub {
+  font-size: 12.5px; line-height: 1.55; color: var(--text-soft, #ccc);
+}
+
+/* Step 2 — value props + form */
+.pl-back {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: none; border: none; padding: 0;
+  font-size: 12px; color: var(--text-mute, #888);
+  font-family: var(--f-mono, monospace); letter-spacing: 0.06em;
+  text-transform: uppercase; cursor: pointer; margin-bottom: 14px;
+}
+.pl-back:hover { color: var(--text, #fff); }
+.pl-step-indicator {
+  font-family: var(--f-mono, monospace); font-size: 10px;
+  letter-spacing: 0.18em; color: var(--text-mute, #888);
+  text-transform: uppercase; float: right;
+}
+.pl-value-list {
+  list-style: none; padding: 0; margin: 0 0 24px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.pl-value-list li {
+  display: flex; gap: 10px; align-items: flex-start;
+  font-size: 13.5px; line-height: 1.55; color: var(--text-soft, #ccc);
+}
+.pl-value-list li::before {
+  content: "✓"; color: var(--text, #fff); font-weight: 700;
+  flex-shrink: 0; font-size: 13px; line-height: 1.55;
+}
+.pl-section-divider {
+  border-top: 1px solid var(--border, #2a2a2a);
+  margin: 0 0 18px; padding-top: 18px;
+  font-family: var(--f-mono, monospace); font-size: 10px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-mute, #888);
+}
+
+/* Form */
+.pl-modal form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.pl-modal form .full { grid-column: span 2; }
+.pl-modal input, .pl-modal textarea {
+  padding: 13px 16px; background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border, #2a2a2a); border-radius: 10px;
+  color: var(--text, #fff); font-family: var(--f-sans, system-ui);
+  font-size: 14px; width: 100%;
+  transition: border-color 0.2s;
+}
+.pl-modal input:focus, .pl-modal textarea:focus {
+  outline: none; border-color: var(--text, #fff);
+}
+.pl-modal input::placeholder, .pl-modal textarea::placeholder { color: var(--text-faint, #666); }
+.pl-modal textarea { min-height: 76px; resize: vertical; }
+.pl-modal button[type="submit"] {
+  margin-top: 6px; padding: 14px 22px;
+  background: var(--text, #fff); color: var(--bg, #0a0a0a);
+  border: none; border-radius: 999px; font-weight: 500;
+  font-size: 14px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  transition: transform 0.15s, opacity 0.15s;
+  grid-column: span 2;
+}
+.pl-modal button[type="submit"]:hover { transform: translateY(-1px); }
+.pl-modal button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.pl-modal-msg {
+  margin-top: 4px; font-size: 13px; padding: 10px 14px;
+  border-radius: 8px; display: none; grid-column: span 2;
+}
+.pl-modal-msg.success {
+  display: block; background: rgba(64,168,91,0.15);
+  color: #6ee093; border: 1px solid rgba(64,168,91,0.3);
+}
+.pl-modal-msg.error {
+  display: block; background: rgba(200,40,60,0.15);
+  color: #ff7a85; border: 1px solid rgba(200,40,60,0.3);
+}
+
+@media (max-width: 560px) {
+  .pl-modal { padding: 28px 22px 24px; }
+  .pl-persona-grid { grid-template-columns: 1fr; }
+  .pl-modal form { grid-template-columns: 1fr; }
+  .pl-modal form .full, .pl-modal button[type="submit"], .pl-modal-msg { grid-column: span 1; }
+}
+
+
+/* === Plurank Portfolio Marquee === */
+.pl-portfolio {
+  padding: 28px 0 32px;
+  border-top: 1px solid var(--border, #2a2a2a);
+  border-bottom: 1px solid var(--border, #2a2a2a);
+  background: rgba(255,255,255,0.015);
+  overflow: hidden;
+}
+.pl-portfolio-eyebrow {
+  text-align: center;
+  font-family: var(--f-mono, monospace);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mute, #888);
+  margin-bottom: 16px;
+}
+.pl-portfolio-marquee {
+  position: relative; overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.pl-portfolio-track {
+  display: flex; gap: 10px;
+  animation: plMarquee 60s linear infinite;
+  width: max-content;
+}
+.pl-portfolio:hover .pl-portfolio-track { animation-play-state: paused; }
+@keyframes plMarquee { to { transform: translateX(-50%); } }
+.pl-chip {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 8px 16px;
+  border: 1px solid var(--border, #2a2a2a);
+  border-radius: 999px;
+  background: var(--bg, #0a0a0a);
+  flex-shrink: 0;
+  transition: border-color 0.18s, transform 0.18s;
+}
+.pl-chip:hover { border-color: var(--text, #fff); transform: translateY(-1px); }
+.pl-chip-name {
+  font-family: var(--f-display, serif); font-weight: 400;
+  font-size: 16px; color: var(--text, #fff);
+  letter-spacing: -0.01em; line-height: 1;
+}
+.pl-chip-sub {
+  font-size: 11px; color: var(--text-soft, #ccc);
+  font-family: var(--f-mono, monospace);
+  letter-spacing: 0.04em; line-height: 1;
+}
+.pl-chip-sep {
+  display: inline-block; width: 1px; height: 12px;
+  background: var(--border, #2a2a2a);
+}
+
+/* === Narrative sections: question market / AI source map / global use cases === */
+.question-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.question-panel {
+  background: var(--bg);
+  padding: 44px;
+  min-height: 420px;
+}
+.question-panel-feature {
+  background:
+    linear-gradient(180deg, rgba(245,158,11,0.07), rgba(255,255,255,0.015)),
+    var(--bg-soft);
+}
+.question-list {
+  display: grid;
+  gap: 14px;
+}
+.question-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px 20px;
+  background: rgba(255,255,255,0.02);
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.question-card:hover {
+  border-color: var(--border-strong);
+  background: rgba(255,255,255,0.04);
+  transform: translateY(-1px);
+}
+.question-tag {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--highlight);
+  margin-bottom: 8px;
+}
+.question-card p {
+  font-family: var(--f-display);
+  font-size: clamp(18px, 2vw, 23px);
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  font-weight: 300;
+  color: var(--text);
+}
+.answer-path {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.answer-step {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.answer-step:last-child { border-bottom: none; }
+.answer-step-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--highlight);
+}
+.answer-step h3 {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.015em;
+  margin-bottom: 6px;
+}
+.answer-step p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-soft);
+}
+.source-map {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+.source-column {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  padding: 24px;
+  min-height: 260px;
+}
+.source-column-feature {
+  background:
+    linear-gradient(180deg, rgba(245,158,11,0.08), rgba(255,255,255,0.015)),
+    var(--bg-soft);
+  border-color: var(--border-strong);
+}
+.source-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-faint);
+  font-family: var(--f-mono);
+  font-size: 20px;
+}
+.source-column h3 {
+  font-family: var(--f-display);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  margin-bottom: 16px;
+}
+.source-column p {
+  color: var(--text-soft);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.source-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+.source-tags span {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--text-mute);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 9px;
+}
+.loop-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.loop-card {
+  background: var(--bg);
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.loop-card-feature { background: var(--bg-soft); }
+.loop-num {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--text-mute);
+}
+.loop-card h3 {
+  font-family: var(--f-display);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.loop-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-soft);
+}
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.channel-card {
+  background: var(--bg);
+  padding: 30px 24px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.channel-card-feature {
+  background:
+    linear-gradient(180deg, rgba(245,158,11,0.08), rgba(255,255,255,0.015)),
+    var(--bg-soft);
+}
+.channel-card h3 {
+  font-family: var(--f-display);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.channel-card p {
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.62;
+}
+.channel-list {
+  margin-top: auto;
+  display: grid;
+  gap: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.channel-list span {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+.usecase-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.usecase-card {
+  background: var(--bg);
+  padding: 30px 24px;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.usecase-card h3 {
+  font-family: var(--f-display);
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.usecase-card p {
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.62;
+}
+.usecase-tag {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--highlight);
+}
+
+@media (max-width: 1100px) {
+  .source-map { grid-template-columns: 1fr; }
+  .source-arrow { transform: rotate(90deg); padding: 8px 0; }
+  .loop-grid, .channel-grid, .usecase-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 900px) {
+  .question-grid { grid-template-columns: 1fr; }
+  .question-panel { padding: 30px 24px; min-height: auto; }
+}
+@media (max-width: 700px) {
+  .loop-grid, .channel-grid, .usecase-grid { grid-template-columns: 1fr; }
+}
+
 </style>
+
+<!-- Structured Data: WebSite (with SearchAction) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Plurank",
+  "url": "https://www.plurank.com",
+  "inLanguage": ["ko","en","ja"],
+  "publisher": {"@type":"Organization","name":"Plurank","url":"https://www.plurank.com"}
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.plurank.com/"}
+  ]
+}
+</script>
+
+<!-- Structured Data: Product (Plurank platform with pricing tiers) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Plurank",
+  "description": "AI 검색에서 브랜드가 어떤 질문에 노출되고 어떤 출처로 인용되는지 측정하며, 채널별 콘텐츠 실행까지 연결하는 AI Discovery AdTech 플랫폼입니다.",
+  "brand": {"@type":"Brand","name":"Plurank"},
+  "category": "Generative Engine Optimization (GEO) Data Platform",
+  "offers": [
+    {"@type":"Offer","name":"Enterprise Consulting","description":"엔터프라이즈 GEO 전략 컨설팅","priceCurrency":"KRW","price":"7000000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"7000000"},"availability":"https://schema.org/InStock"},
+    {"@type":"Offer","name":"SaaS Entry","description":"Plurank.app Entry tier","priceCurrency":"KRW","price":"240000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"240000"},"availability":"https://schema.org/PreOrder"},
+    {"@type":"Offer","name":"SaaS Growth","description":"Plurank.app Growth tier","priceCurrency":"KRW","price":"990000","priceSpecification":{"@type":"UnitPriceSpecification","unitText":"per month","priceCurrency":"KRW","price":"990000"},"availability":"https://schema.org/PreOrder"}
+  ]
+}
+</script>
+
 </head>
 <body>
 
@@ -685,11 +1433,12 @@ body::before {
   <div class="nav-inner">
     <div class="nav-brand">Plu<em>rank</em></div>
     <div class="nav-links">
-      <a href="#fan-out">Why</a>
-      <a href="#lens">5 Lens</a>
+      <a href="#market">Question</a>
+      <a href="#fan-out">Signals</a>
+      <a href="#channel-activation">Content</a>
       <a href="#how">Pluora</a>
-      <a href="#engage">함께하기</a>
-      <a href="#faq">FAQ</a>
+      <a href="#global">Global</a>
+      <a href="#contact">진단</a>
     </div>
     <div class="nav-meta">
       <a href="/ko.html" style="color:var(--text)">KO</a>
@@ -706,72 +1455,196 @@ body::before {
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="eyebrow">Predictive Marketing AI · Multi-signal</div>
+        <div class="eyebrow">AI Discovery AdTech</div>
         <h1>
-          <span class="line">AI가 결정하는 모든 노출 —</span>
-          <span class="line accent">AI 검색 · SNS · 추천 알고리즘.</span>
-          <span class="line"><em>Pluora</em>가 발행 전에 예측합니다.</span>
+          <span class="line nowrap">사용자의 질문이</span>
+          <span class="line accent">브랜드 발견 경로를</span>
+          <span class="line">바꾸고 있습니다.</span>
         </h1>
         <p class="hero-sub">
-          <strong>Pluora</strong>는 Plurank가 만든 멀티시그널 마케팅 AI 모델입니다.
-          12개국 <strong>7 AI 검색 + YouTube · Instagram · X · TikTok · Threads</strong>에서
-          3천만 건+ 데이터를 학습해, 콘텐츠가 어디서 노출·인용·추천될지
-          <strong>발행 전에</strong> 예측합니다.
+          사용자가 ChatGPT, Gemini, Claude, Perplexity에 브랜드를 물을 때,
+          답변은 홈페이지 한 곳만 보고 만들어지지 않습니다.
+          공식 문서, 리뷰, 영상, 커뮤니티, 로컬 매체의 신호가 함께 반영됩니다.
+          <strong>Plurank는 이 과정을 측정하고, 부족한 채널의 콘텐츠를 실행하며, 결과를 Pluora 모델에 다시 학습시키는 AI Discovery AdTech 플랫폼</strong>입니다.
         </p>
+        <div class="hero-positioning" aria-label="AI Discovery AdTech positioning">
+          <span>Answer Data</span>
+          <span>Channel Content</span>
+          <span>Global GEO</span>
+          <span>Pluora Learning</span>
+        </div>
         <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">
-            무료 진단 받기
+          <a href="#" class="btn btn-primary" data-pl-open="demo">
+            AI 노출 진단 받기
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
           </a>
-          <a href="#how" class="btn btn-ghost">엔진 작동 원리 보기</a>
+          <a href="#market" class="btn btn-ghost">질문이 발견 경로가 되는 방식 보기</a>
         </div>
         <div class="hero-trust">
-          <div class="trust-item"><strong>12+</strong>데이터 소스 통합</div>
-          <div class="trust-item"><strong>30M+</strong>BigQuery 학습 데이터</div>
-          <div class="trust-item"><strong>7 + 5</strong>AI 검색 · SNS 시그널</div>
+          <div class="trust-item"><strong>7</strong>AI Platforms</div>
+          <div class="trust-item"><strong>12</strong>Countries</div>
+          <div class="trust-item"><strong>Multi</strong>Source Signals</div>
+          <div class="trust-item"><strong>Pluora</strong>Prediction Model</div>
         </div>
       </div>
 
-      <aside class="hero-aside">
-        <div class="aside-head">
-          <span class="aside-title">Exposure + Citation · Live</span>
-          <span class="aside-status">Analyzing</span>
-        </div>
-        <div class="aside-prompt" id="aside-prompt">
-          <span class="aside-prompt-text" id="prompt-text"></span><span class="aside-prompt-cursor"></span>
-        </div>
+      <aside class="hero-visual" aria-label="AI Discovery AdTech 3D signal map">
+        <div class="discovery-scene" id="discovery-scene">
+          <canvas id="discovery-canvas" aria-hidden="true"></canvas>
+          <div class="scene-status">Live Signal Graph</div>
 
-        <div class="platform-group">
-          <div class="platform-group-head">
-            <span>AI Search · Citation</span>
-            <span class="ghead-count">7</span>
+          <div class="scene-panel scene-prompt" id="aside-prompt">
+            <span class="scene-label">Question enters the market</span>
+            <strong><span id="prompt-text"></span><span class="aside-prompt-cursor"></span></strong>
           </div>
-          <div class="platform-row" data-rank="82" data-answer="성분 비교 표 + 임상 데이터 — 인용 가능성 높음"><span class="platform-name">ChatGPT</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="71" data-answer="피부과 출처 + 안전성 근거 — 적합도 양호"><span class="platform-name">Claude</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="68" data-answer="Allure · 글로우레시피 권위 매체 우선 인용"><span class="platform-name">Perplexity</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="63" data-answer="심층 성분 비교 — 카테고리 가중치 ↑"><span class="platform-name">AI Mode</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="58" data-answer="성분 사이언스 — 논문·임상 출처 강세"><span class="platform-name">DeepSeek</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="54" data-answer="Search Grounding — 후기 다양성 보강 필요"><span class="platform-name">Gemini</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="47" data-answer="검색 1순위 도메인 우선 — FAQ 스키마 보강"><span class="platform-name">AI Overview</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-        </div>
 
-        <div class="platform-group">
-          <div class="platform-group-head">
-            <span>Social · Recommendation</span>
-            <span class="ghead-count">5</span>
+          <div class="scene-source source-owned">Owned<strong>Website · FAQ · Blog</strong></div>
+          <div class="scene-source source-earned">Earned<strong>News · Review · PR</strong></div>
+          <div class="scene-source source-social">Social<strong>YouTube · Instagram · Threads</strong></div>
+          <div class="scene-source source-community">Community<strong>Reddit · Quora · Wiki</strong></div>
+
+          <div class="scene-panel scene-core">
+            <span class="scene-label">AI Answer Inclusion</span>
+            <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
+            <p>추천 결과는 한 페이지보다 여러 채널의 신뢰 신호가 합쳐진 결과에 가깝습니다.</p>
           </div>
-          <div class="platform-row" data-rank="78" data-answer="GRWM · 첫 3초 비주얼 hook — FYP 진입 강세"><span class="platform-name">TikTok</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="61" data-answer="리뷰 튜토리얼 — Watch time 가중치 ↑"><span class="platform-name">YouTube</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="56" data-answer="Reels · 캐러셀 — 텍스처 클로즈업 보강"><span class="platform-name">Instagram</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="42" data-answer="성분 토론 — 인플루언서 멘션 분리 노출"><span class="platform-name">X</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-          <div class="platform-row" data-rank="33" data-answer="성분/사용기 토론 — 해시태그 확장 필요"><span class="platform-name">Threads</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
-        </div>
 
-        <div class="aside-foot">
-          <span>평균 노출 확률 (7+5)</span>
-          <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
+          <div class="scene-signal-stack" aria-label="Source signal analysis">
+            <div class="scene-signal" data-rank="82" data-answer="공식 FAQ와 비교 콘텐츠가 답변의 기본 근거가 됩니다.">
+              <span>Owned Signal</span>
+              <strong>FAQ · Comparison · llms.txt</strong>
+              <em class="scene-signal-score">—</em>
+              <em class="scene-signal-copy"></em>
+            </div>
+            <div class="scene-signal" data-rank="76" data-answer="리뷰와 언론 노출이 후보 신뢰도를 보강합니다.">
+              <span>Earned Signal</span>
+              <strong>Review · PR · Publisher</strong>
+              <em class="scene-signal-score">—</em>
+              <em class="scene-signal-copy"></em>
+            </div>
+            <div class="scene-signal" data-rank="68" data-answer="커뮤니티의 실제 질문과 반론이 답변의 맥락을 채웁니다.">
+              <span>Community Signal</span>
+              <strong>Reddit · Quora · Wiki</strong>
+              <em class="scene-signal-score">—</em>
+              <em class="scene-signal-copy"></em>
+            </div>
+            <div class="scene-signal" data-rank="61" data-answer="영상과 SNS 콘텐츠가 최신성, 사용감, 확산 신호를 보강합니다.">
+              <span>Social Signal</span>
+              <strong>YouTube · Instagram · Threads</strong>
+              <em class="scene-signal-score">—</em>
+              <em class="scene-signal-copy"></em>
+            </div>
+          </div>
         </div>
       </aside>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== PORTFOLIO MARQUEE ===== -->
+<section class="pl-portfolio" aria-label="Portfolio">
+  <div class="pl-portfolio-eyebrow">PORTFOLIO · 주요 고객사 및 파트너 — 15+ 프로젝트 / 해외 3개국</div>
+  <div class="pl-portfolio-marquee">
+    <div class="pl-portfolio-track">
+        <span class="pl-chip"><span class="pl-chip-name">Ascent Korea</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Enterprise Data Marketing</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Samsung 계열</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">AI Search Validation</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">강남 의료기관 3곳</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Dermatology · Clinic</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">All That Honors Club</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Inbound Travel</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">ourconsulting</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Agency Reseller</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Hansol MS</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">EV Charging</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Tokuyama Shoji</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Japan FMCG</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">Kozy.care</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">France Wellness</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">BridgeLeaf</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">US GTM Partner</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">국내 Top 광고대행사</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Negotiating</span></span>
+        <span class="pl-chip"><span class="pl-chip-name">국내 로컬 SME PoC</span><span class="pl-chip-sep" aria-hidden="true"></span><span class="pl-chip-sub">Multi Industry</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Ascent Korea</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Enterprise Data Marketing</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Samsung 계열</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">AI Search Validation</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">강남 의료기관 3곳</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Dermatology · Clinic</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">All That Honors Club</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Inbound Travel</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">ourconsulting</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Agency Reseller</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Hansol MS</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">EV Charging</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Tokuyama Shoji</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Japan FMCG</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">Kozy.care</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">France Wellness</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">BridgeLeaf</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">US GTM Partner</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">국내 Top 광고대행사</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Negotiating</span></span>
+        <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">국내 로컬 SME PoC</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Multi Industry</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUESTION MARKET ===== -->
+<section class="section" id="market">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Question-led Discovery</div>
+        <h2>
+          <span class="line">사용자는 이제</span>
+          <span class="line"><em>질문 하나로 브랜드를 비교합니다</em>.</span>
+        </h2>
+      </div>
+      <p class="section-lede">
+        예전에는 이런 질문이 검색 결과 페이지에서 여러 링크를 비교하는 과정으로 이어졌습니다.
+        지금은 답변 안에서 후보와 이유가 함께 요약됩니다.
+        그 답변에 포함되는지가 브랜드 발견의 <strong>출발점</strong>이 됩니다.
+      </p>
+    </div>
+
+    <div class="question-grid">
+      <div class="question-panel question-panel-feature reveal">
+        <div class="question-list">
+          <div class="question-card">
+            <div class="question-tag">Beauty · Global</div>
+            <p>"민감성 피부에 좋은 한국 스킨케어 브랜드 추천해줘."</p>
+          </div>
+          <div class="question-card">
+            <div class="question-tag">SaaS · B2B</div>
+            <p>"일본 진출을 준비하는 스타트업에 맞는 마케팅 자동화 툴은?"</p>
+          </div>
+          <div class="question-card">
+            <div class="question-tag">Healthcare · Local</div>
+            <p>"서울에서 외국인이 믿고 갈 수 있는 피부과는 어디야?"</p>
+          </div>
+          <div class="question-card">
+            <div class="question-tag">Commerce · Comparison</div>
+            <p>"가성비 좋은 프리미엄 커피 브랜드를 비교해줘."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-panel reveal reveal-d1">
+        <div class="answer-path">
+          <div class="answer-step">
+            <span class="answer-step-num">01</span>
+            <div>
+              <h3>Question</h3>
+              <p>사용자는 키워드가 아니라 상황, 목적, 예산, 국가, 비교 조건이 섞인 문장으로 묻습니다.</p>
+            </div>
+          </div>
+          <div class="answer-step">
+            <span class="answer-step-num">02</span>
+            <div>
+              <h3>Signals</h3>
+              <p>공식 홈페이지뿐 아니라 뉴스, 영상, 리뷰, 커뮤니티, SNS, 위키성 콘텐츠가 함께 반영됩니다.</p>
+            </div>
+          </div>
+          <div class="answer-step">
+            <span class="answer-step-num">03</span>
+            <div>
+              <h3>Answer</h3>
+              <p>여러 신호가 하나의 답변으로 요약되고, 브랜드는 그 안에서 비교되거나 제외됩니다.</p>
+            </div>
+          </div>
+          <div class="answer-step">
+            <span class="answer-step-num">04</span>
+            <div>
+              <h3>Recommendation</h3>
+              <p>추천된 브랜드는 다음 클릭, 비교, 문의, 구매 후보로 이어집니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -781,41 +1654,73 @@ body::before {
   <div class="container">
     <div class="mission-grid">
       <div class="reveal">
-        <div class="eyebrow">Who We Are</div>
-        <h2>글로벌 최초의<br><em>GEO 최적화</em> AI 모델 회사.</h2>
+        <div class="eyebrow">Category · AI Discovery AdTech</div>
+        <h2>
+          <span class="line">브랜드가 AI 답변에</span>
+          <span class="line"><em>등장할 근거</em>를 쌓습니다.</span>
+        </h2>
       </div>
       <div class="mission-body reveal reveal-d1">
         <p>
-          <strong>GEO(Generative Engine Optimization)</strong>는 AI 검색 시대의 SEO입니다.
-          SEO가 "내 콘텐츠가 검색 1페이지에 노출될 확률"이었다면,
-          GEO는 <strong>"내 콘텐츠가 ChatGPT·Claude·Perplexity·Gemini의 답변에 인용될 확률"</strong>입니다.
+          <strong>AI Discovery AdTech</strong>는 AI 답변에서 브랜드가 어떻게 보이고, 어떤 출처를 근거로 인용되는지
+          데이터로 관리하고 콘텐츠 실행까지 연결하는 마케팅 인프라입니다.
+          검색 광고가 검색 결과의 클릭을 운영했다면, Plurank는
+          <strong>답변이 만들어지기 전에 필요한 신뢰 신호와 채널별 콘텐츠를 운영합니다.</strong>
         </p>
         <p>
-          Plurank는 매주 12개국 7 AI 플랫폼에서 캡처한 <strong>3천만 건+ 발행↔인용 데이터</strong>로
-          자체 인용 예측 모델 <strong>Pluora</strong>를 학습시킵니다.
-          Pluora가 당신의 콘텐츠가 <strong>AI에 인용될 확률을 발행 전에 점수로 출력합니다</strong> —
-          AI 검색 시대의 Surfer SEO를 만듭니다.
+          해외에서는 AI visibility, citation tracking, content activation, AI advertising이 하나의 실행 시장으로 붙고 있습니다.
+          Plurank는 여기서 한 걸음 더 나아가 <strong>한국·일본·미국 등 로컬 소스 분석과 실제 콘텐츠 제작·배포</strong>까지 연결합니다.
+          리포트만 제공하는 툴이 아니라, AI 답변에 반영될 만한 출처에 브랜드 근거를 쌓는 운영형 애드테크입니다.
         </p>
+        <div class="position-ladder" aria-label="AI Discovery AdTech category ladder">
+          <div class="position-step">
+            <span>01 · SEO</span>
+            <strong>Rank Links</strong>
+            <p>검색 결과에서 웹페이지 순위를 올리는 기존 검색 최적화.</p>
+          </div>
+          <div class="position-step">
+            <span>02 · AEO/GEO</span>
+            <strong>Track Answers</strong>
+            <p>AI 답변 안의 브랜드 언급, 위치, 인용 출처를 추적.</p>
+          </div>
+          <div class="position-step">
+            <span>03 · Source Activation</span>
+            <strong>Shape Signals</strong>
+            <p>웹사이트, 리뷰, PR, 커뮤니티, SNS, 위키성 소스별로 필요한 콘텐츠를 배치.</p>
+          </div>
+          <div class="position-step position-step-feature">
+            <span>04 · Plurank</span>
+            <strong>AI Discovery AdTech</strong>
+            <p>답변 데이터, 콘텐츠 실행, Pluora 학습을 하나의 운영 루프로 연결.</p>
+          </div>
+        </div>
         <div class="mission-pillars">
           <div class="mission-pillar">
             <div class="mission-pillar-num">01</div>
             <div class="mission-pillar-body">
-              <h4>측정 <em>Measure</em></h4>
-              <p>7 AI × 12국 인용 추적</p>
+              <h4>관측 <em>Observe</em></h4>
+              <p>질문·답변·인용·경쟁사·국가별 AI Visibility 추적</p>
             </div>
           </div>
           <div class="mission-pillar">
             <div class="mission-pillar-num">02</div>
             <div class="mission-pillar-body">
-              <h4>학습 <em>Learn</em></h4>
-              <p>발행↔인용 30M+ 데이터셋</p>
+              <h4>정렬 <em>Align</em></h4>
+              <p>Owned·Earned·Social·Community 신호의 메시지 일관성 설계</p>
             </div>
           </div>
           <div class="mission-pillar">
             <div class="mission-pillar-num">03</div>
             <div class="mission-pillar-body">
-              <h4>예측 <em>Predict</em></h4>
-              <p>콘텐츠별 인용 확률 출력</p>
+              <h4>실행 <em>Activate</em></h4>
+              <p>SEO·PR·영상·SNS·커뮤니티·리뷰 콘텐츠를 데이터 기반으로 제작·배포</p>
+            </div>
+          </div>
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">04</div>
+            <div class="mission-pillar-body">
+              <h4>학습 <em>Learn</em></h4>
+              <p>실행 결과와 AI 답변 변화를 Pluora 예측 모델에 다시 반영</p>
             </div>
           </div>
         </div>
@@ -824,48 +1729,47 @@ body::before {
   </div>
 </section>
 
-<!-- ===== FAN-OUT · 노출 분산 12+ ===== -->
+<!-- ===== SOURCE SIGNAL MAP ===== -->
 <section class="section" id="fan-out">
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <div class="eyebrow">왜 추적이 어려워졌는가</div>
-        <h2>옛날엔 <em>검색 1순위</em> 한 자리 — 지금은 <em>12+ 채널</em>이 동시에 답합니다.</h2>
+        <div class="eyebrow">How AI Answers</div>
+        <h2>
+          <span class="line">AI 답변은 한 페이지에서 나오지 않습니다.</span>
+          <span class="line"><em>여러 출처의 신호</em>가 함께 반영됩니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        한 사용자의 카테고리 질문에 ChatGPT 답변 · TikTok 추천 · Reddit 토론 · 매체 인용이 동시에 노출됩니다.
-        어디서 어떻게 보이는지 한 번에 추적하지 않으면 — <strong>마케팅 의사결정의 절반이 보이지 않게 됩니다.</strong>
+        같은 질문이라도 어떤 출처가 함께 반영되느냐에 따라 답변은 달라집니다.
+        Plurank는 웹사이트, 뉴스, 소셜, 커뮤니티, 로컬 소스를 함께 추적하고,
+        각 채널에 어떤 콘텐츠가 필요한지 <strong>실행 단위로</strong> 정리합니다.
       </p>
     </div>
 
-    <div class="fanout-grid">
-      <div class="fanout-card reveal">
-        <div class="fanout-head">
-          <span class="fanout-label">AI Search</span>
-          <span class="fanout-count">7</span>
+    <div class="source-map reveal">
+      <div class="source-column">
+        <h3>Question</h3>
+        <p>사용자의 질문은 제품명보다 상황과 의도를 더 많이 담습니다. 먼저 질문의 구조를 읽어야 합니다.</p>
+        <div class="source-tags">
+          <span>Intent</span><span>Persona</span><span>Country</span><span>Funnel</span>
         </div>
-        <p>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</p>
       </div>
-      <div class="fanout-card reveal reveal-d1">
-        <div class="fanout-head">
-          <span class="fanout-label">Social</span>
-          <span class="fanout-count">5</span>
+      <div class="source-arrow">→</div>
+      <div class="source-column source-column-feature">
+        <h3>Source Signals</h3>
+        <p>답변에 반영되는 신호는 자사 콘텐츠 밖에도 있습니다. Plurank는 브랜드가 관리해야 할 출처와 우선순위를 정리합니다.</p>
+        <div class="source-tags">
+          <span>Owned</span><span>Earned</span><span>Social</span><span>Community</span><span>Local</span>
         </div>
-        <p>TikTok · YouTube · Instagram · X · Threads</p>
       </div>
-      <div class="fanout-card reveal reveal-d2">
-        <div class="fanout-head">
-          <span class="fanout-label">Community</span>
-          <span class="fanout-count">5+</span>
+      <div class="source-arrow">→</div>
+      <div class="source-column">
+        <h3>AI Answer</h3>
+        <p>근거가 충분히 쌓이면 브랜드는 답변의 본문, 비교표, 추천 목록, 인용 출처 안에 등장합니다.</p>
+        <div class="source-tags">
+          <span>Mention</span><span>Citation</span><span>Position</span><span>Recommendation</span>
         </div>
-        <p>Reddit · Hacker News · Quora · G2 · Trustpilot</p>
-      </div>
-      <div class="fanout-card reveal reveal-d3">
-        <div class="fanout-head">
-          <span class="fanout-label">Media</span>
-          <span class="fanout-count">80+</span>
-        </div>
-        <p>Allure · TechCrunch · Mashable · IT조선 외 글로벌 80+ 매체</p>
       </div>
     </div>
   </div>
@@ -877,18 +1781,23 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Why This Matters</div>
-        <h2>마케팅의 결정자가 <em>바뀌었다</em>.</h2>
+        <h2>
+          <span class="line">검색 순위만으로는</span>
+          <span class="line"><em>발견을 설명하기 어려워졌습니다</em>.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        인간이 큐레이션하던 시대는 끝났습니다. 이제 AI 알고리즘이 모든 노출을 결정합니다 —
-        그리고 그것을 <strong>예측</strong>해야만 마케팅이 작동합니다.
+        브랜드는 더 이상 검색 결과의 링크 순위만 경쟁하지 않습니다.
+        AI 답변, 추천 피드, 커뮤니티 인용, 에이전트 커머스까지
+        사용자의 발견 경로가 늘어났습니다.
+        이 경로 전체가 다음 <strong>퍼포먼스 채널</strong>이 됩니다.
       </p>
     </div>
 
     <div class="thesis-kpis">
       <div class="thesis-kpi reveal">
         <div class="thesis-kpi-value">70<span class="pct">%</span></div>
-        <div class="thesis-kpi-label">YouTube 시청시간을 <strong style="color:var(--text);font-weight:500">AI 추천</strong>이 결정</div>
+        <div class="thesis-kpi-label">YouTube 시청시간의 상당 부분을 <strong style="color:var(--text);font-weight:500">추천 알고리즘</strong>이 좌우</div>
         <div class="thesis-kpi-source">YouTube CPO</div>
       </div>
       <div class="thesis-kpi reveal">
@@ -908,7 +1817,7 @@ body::before {
       </div>
       <div class="thesis-kpi reveal">
         <div class="thesis-kpi-value">65<span class="pct">%</span></div>
-        <div class="thesis-kpi-label">CMO "AI가 역할 <strong style="color:var(--text);font-weight:500">근본적으로 바꾼다</strong>"</div>
+        <div class="thesis-kpi-label">CMO가 보는 <strong style="color:var(--text);font-weight:500">AI 기반 역할 변화</strong></div>
         <div class="thesis-kpi-source">Gartner · 2025</div>
       </div>
     </div>
@@ -918,17 +1827,17 @@ body::before {
       <div class="thesis-timeline-track">
         <div class="thesis-stage">
           <span class="thesis-stage-year">2010</span>
-          <span class="thesis-stage-label">SEO <em style="font-style:italic;color:var(--text-mute)">검색 알고리즘</em></span>
+          <span class="thesis-stage-label">SEO <em style="font-style: normal;color:var(--text-mute)">검색 알고리즘</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2015</span>
-          <span class="thesis-stage-label">Social Algo <em style="font-style:italic;color:var(--text-mute)">추천 피드</em></span>
+          <span class="thesis-stage-label">Social Algo <em style="font-style: normal;color:var(--text-mute)">추천 피드</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage">
           <span class="thesis-stage-year">2023</span>
-          <span class="thesis-stage-label">LLM Search <em style="font-style:italic;color:var(--text-mute)">AI 답변</em></span>
+          <span class="thesis-stage-label">LLM Search <em style="font-style: normal;color:var(--text-mute)">AI 답변</em></span>
         </div>
         <div class="thesis-arrow">→</div>
         <div class="thesis-stage thesis-stage-now">
@@ -941,9 +1850,10 @@ body::before {
     <div class="thesis-hypothesis reveal">
       <div class="thesis-hypothesis-tag">Our Hypothesis</div>
       <div class="thesis-hypothesis-body">
-        AI 검색 + 소셜 + 곧 도래할 Agentic Commerce — 모든 <strong>AI-mediated 채널의 노출·인용·추천</strong>을
-        통합 예측하는 모델이 마케팅 인프라의 표준이 됩니다. 그래서 <strong>Pluora</strong>는
-        단일 채널이 아닌 <strong>멀티시그널 통합 학습</strong>으로 만들어집니다.
+        AI 검색, 소셜 추천, 커뮤니티 신호, 에이전트 커머스까지 연결해
+        <strong>노출·인용·추천 가능성</strong>을 예측하는 데이터 모델이
+        마케팅 인프라로 자리잡을 것입니다. Plurank는 이 영역을
+        <strong>AI Discovery AdTech</strong>라는 카테고리로 제품화합니다.
       </div>
     </div>
   </div>
@@ -955,11 +1865,14 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Build vs Plurank · 비용·시간 비교</div>
-        <h2>직접 만들면 <em>1년</em>, Plurank를 쓰면 <em>다음 주</em>부터.</h2>
+        <h2>
+          <span class="line">직접 만들면 <em>1년</em>,</span>
+          <span class="line">Plurank로는 <em>다음 주</em>부터.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        12국 12채널을 자체 추적하려면 워커 인프라 · 12국 ISP · 248개 피처 정규화 · 재학습 파이프라인까지 필요합니다.
-        ML 팀이 6~12개월 풀타임 투입해야 하는 인프라를 — <strong>Plurank는 구독으로 대체합니다.</strong>
+        12국 12채널을 자체 운영하려면 워커 인프라 · 12국 ISP · 248개 피처 정규화 · 재학습 파이프라인까지 필요합니다.
+        ML 팀이 6~12개월 투입해야 하는 인프라를 <strong>Plurank는 구독형 서비스로 대체합니다.</strong>
       </p>
     </div>
 
@@ -1003,12 +1916,16 @@ body::before {
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <div class="eyebrow">5 Lens · 우리가 보여드리는 것</div>
-        <h2>당신 브랜드가 <em>어디서 어떻게</em> 보이는지<br>5가지 시점으로 봅니다.</h2>
+        <div class="eyebrow">5 Lens · Plurank가 답하는 질문</div>
+        <h2>
+          <span class="line">AI 답변에서</span>
+          <span class="line">봐야 할 <em>5가지 기준</em>.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        검색·SNS·커뮤니티·매체에 흩어진 신호를 5가지 분석 도구로 모아,
-        <strong>지금 무엇이 효과적인지</strong> · <strong>무엇을 보강해야 점수가 오를지</strong>를 데이터로 알려드립니다.
+        단순히 노출 여부만 세지 않습니다.
+        어떤 질문, 출처, 국가, 플랫폼에서 브랜드가 어떻게 다뤄지는지 보고,
+        무엇을 보강해야 하는지까지 정리합니다.
       </p>
     </div>
 
@@ -1016,32 +1933,139 @@ body::before {
       <div class="lens-card reveal">
         <div class="lens-num">01</div>
         <h3>CitationLens</h3>
-        <div class="lens-tag">7가지 AI 답변 안에서</div>
-        <p>당신 브랜드가 어떤 단어로, 어디 위치에 인용되는지 매주 캡처합니다.</p>
+        <div class="lens-tag">어디에, 어떤 문맥으로 언급되는가?</div>
+        <p>7가지 AI 답변에서 브랜드가 어떤 문맥, 위치, 출처로 언급되는지 매주 확인합니다.</p>
       </div>
       <div class="lens-card lens-feature reveal reveal-d1">
         <div class="lens-num">02</div>
         <h3>PlatformLens<span class="lens-badge">Only Plurank</span></h3>
-        <div class="lens-tag">12채널 중 가장 효과적인 곳</div>
-        <p>같은 키워드에 대해 ChatGPT가 잘 인용하는지, TikTok이 더 잘 노출되는지 — 트래픽이 모이는 채널을 알려드립니다.</p>
+        <div class="lens-tag">어떤 플랫폼에서 발견되는가?</div>
+        <p>ChatGPT, Gemini, Perplexity, YouTube, Instagram, Reddit 중 어디가 브랜드 발견에 더 큰 영향을 주는지 봅니다.</p>
       </div>
       <div class="lens-card lens-feature reveal reveal-d2">
         <div class="lens-num">03</div>
         <h3>GeoLens<span class="lens-badge">Only Plurank</span></h3>
-        <div class="lens-tag">12개국별 격차</div>
-        <p>한국에서 잘 보이는데 일본에선 안 보이는 이유, 미국에서 경쟁사가 앞서는 지점을 한눈에 보여드립니다.</p>
+        <div class="lens-tag">국가마다 왜 다르게 답하는가?</div>
+        <p>한국에서 보이는 브랜드가 일본에서 사라지는 이유, 미국에서 경쟁사가 앞서는 출처를 국가별로 비교합니다.</p>
       </div>
       <div class="lens-card reveal reveal-d3">
         <div class="lens-num">04</div>
         <h3>SourceLens</h3>
-        <div class="lens-tag">AI가 인용한 매체·커뮤</div>
-        <p>Reddit · Hacker News · Allure 등 AI가 어디서 답을 가져오는지 — PR · 기고 우선순위를 잡아드립니다.</p>
+        <div class="lens-tag">답변의 근거가 되는 출처는 무엇인가?</div>
+        <p>뉴스, Reddit, Quora, G2, 리뷰, 위키형 콘텐츠 등 답변에 자주 쓰이는 소스 우선순위를 찾습니다.</p>
       </div>
       <div class="lens-card reveal reveal-d4">
         <div class="lens-num">05</div>
         <h3>BoostLens</h3>
-        <div class="lens-tag">"이 부분 보강 시 +N pt"</div>
-        <p>발행 전 콘텐츠를 입력하면 어떤 부분(스키마 · 출처 · 구조)을 보강해야 점수가 얼마나 오를지 미리 시뮬레이션합니다.</p>
+        <div class="lens-tag">무엇을 보강해야 위치가 달라지는가?</div>
+        <p>발행 전 초안을 입력하면 비교표, FAQ, 출처, 구조 보강으로 GEO Score가 얼마나 오를지 시뮬레이션합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSIGHT TO ACTION LOOP ===== -->
+<section class="section" id="action-loop">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">From Insight To Action</div>
+        <h2>
+          <span class="line">분석에서 끝나지 않고</span>
+          <span class="line"><em>다음 액션</em>까지 제안합니다.</span>
+        </h2>
+      </div>
+      <p class="section-lede">
+        Plurank는 단순 모니터링 대시보드가 아닙니다.
+        어떤 콘텐츠를 만들고, 어느 채널에 발행하고, 어떤 출처를 확보해야
+        브랜드 위치가 개선되는지 <strong>실행 우선순위와 제작 브리프</strong>로 제안합니다.
+      </p>
+    </div>
+
+    <div class="loop-grid">
+      <div class="loop-card reveal">
+        <div class="loop-num">01</div>
+        <h3>Question Mapping</h3>
+        <p>고객이 실제로 던질 핵심 질문과 구매 여정별 질의를 발굴합니다.</p>
+      </div>
+      <div class="loop-card reveal reveal-d1">
+        <div class="loop-num">02</div>
+        <h3>Source Intelligence</h3>
+        <p>답변에 자주 쓰이는 뉴스, 커뮤니티, 영상, 리뷰, 로컬 출처를 분석합니다.</p>
+      </div>
+      <div class="loop-card loop-card-feature reveal reveal-d2">
+        <div class="loop-num">03</div>
+        <h3>GEO Activation</h3>
+        <p>SEO 콘텐츠, 비교 페이지, FAQ, PR, SNS, 커뮤니티 답변까지 채널별 콘텐츠를 만듭니다.</p>
+      </div>
+      <div class="loop-card reveal reveal-d3">
+        <div class="loop-num">04</div>
+        <h3>Performance Check</h3>
+        <p>실행 후 답변 내 언급률, 인용률, 위치, 경쟁사 대비 점유율 변화를 측정합니다.</p>
+      </div>
+      <div class="loop-card reveal reveal-d4">
+        <div class="loop-num">05</div>
+        <h3>Pluora Learning</h3>
+        <p>실행 결과를 다시 학습해 다음 콘텐츠의 인용 가능성을 예측합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHANNEL CONTENT ACTIVATION ===== -->
+<section class="section" id="channel-activation">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Channel Content Activation</div>
+        <h2>
+          <span class="line">채널마다</span>
+          <span class="line"><em>필요한 콘텐츠</em>가 다릅니다.</span>
+        </h2>
+      </div>
+      <p class="section-lede">
+        Plurank는 GEO 점수만 보여주지 않습니다.
+        질문 데이터와 출처 데이터를 바탕으로 웹사이트, SNS, 영상, 커뮤니티, PR에 각각 필요한 콘텐츠를
+        설계하고 제작합니다. 우리는 <strong>콘텐츠 실행까지 포함한 AI 애드테크</strong>입니다.
+      </p>
+    </div>
+
+    <div class="channel-grid">
+      <div class="channel-card reveal">
+        <h3>Owned Media</h3>
+        <p>브랜드가 직접 운영하는 채널은 사실 관계를 확인하는 기준점이 됩니다. 비교표, FAQ, 제품 근거, 스키마를 답변에 인용되기 쉬운 구조로 만듭니다.</p>
+        <div class="channel-list">
+          <span>SEO/GEO Article</span>
+          <span>FAQ · Comparison Page</span>
+          <span>Schema · llms.txt</span>
+        </div>
+      </div>
+      <div class="channel-card channel-card-feature reveal reveal-d1">
+        <h3>Social & Video</h3>
+        <p>영상과 SNS는 최신 반응, 사용 장면, 표현 언어를 보여주는 채널입니다. YouTube, Shorts, Reels, Threads에 맞는 후킹과 스크립트를 데이터로 설계합니다.</p>
+        <div class="channel-list">
+          <span>YouTube Script</span>
+          <span>Shorts · Reels Hook</span>
+          <span>Threads · X Post Set</span>
+        </div>
+      </div>
+      <div class="channel-card reveal reveal-d2">
+        <h3>Community</h3>
+        <p>Reddit, Quora, 포럼, 위키성 문서는 사용자 관점의 근거가 쌓이는 곳입니다. 질문별 반론, 비교, 실제 사용 맥락을 과장 없이 정리합니다.</p>
+        <div class="channel-list">
+          <span>Reddit · Quora Answer</span>
+          <span>Forum Seeding Guide</span>
+          <span>Wiki-style Source Draft</span>
+        </div>
+      </div>
+      <div class="channel-card reveal reveal-d3">
+        <h3>Earned & Local</h3>
+        <p>언론, 리뷰, 리스트형 매체, 로컬 플랫폼은 신뢰도를 보강하는 외부 신호입니다. 국가별로 필요한 출처와 메시지를 따로 설계합니다.</p>
+        <div class="channel-list">
+          <span>PR Angle · Review Brief</span>
+          <span>Publisher Outreach Map</span>
+          <span>Local Source Package</span>
+        </div>
       </div>
     </div>
   </div>
@@ -1053,11 +2077,14 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Meet Pluora</div>
-        <h2>콘텐츠 인용 확률을 <em>예측</em>하는 AI 모델.</h2>
+        <h2>
+          <span class="line">Pluora는 발행 전에</span>
+          <span class="line"><em>인용 가능성</em>을 예측합니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        192건의 발행↔인용 실증 데이터로 학습된 <strong>Pluora</strong>가 — 콘텐츠 URL 한 줄로
-        7 AI 플랫폼별 인용 확률(GEO Score)을 출력합니다.
+        Pluora는 AI 답변, 인용 출처, 콘텐츠 구조, 플랫폼별 노출 결과를 함께 학습합니다.
+        콘텐츠를 만든 뒤 기다리는 대신, 발행 전에 <strong>GEO Score와 개선 방향</strong>을 확인합니다.
       </p>
     </div>
 
@@ -1144,11 +2171,14 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Why Plurank</div>
-        <h2>왜 우리가 <em>예측</em>까지 가능한가.</h2>
+        <h2>
+          <span class="line">AI 답변은 매번 달라집니다.</span>
+          <span class="line">반복 측정해야 <em>패턴</em>이 보입니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        실제 브라우저 데이터, 12개국 ISP IP, 30M+ 학습 데이터 —
-        셋 다 가진 회사는 전 세계에서 우리뿐입니다.
+        Plurank는 API 추정값이 아니라 실제 국가 환경에서 AI 답변을 반복 측정합니다.
+        그래서 단발성 스크린샷이 아니라 <strong>브랜드 발견 가능성의 분포와 추세</strong>를 봅니다.
       </p>
     </div>
 
@@ -1156,7 +2186,7 @@ body::before {
       <div class="why-card reveal">
         <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <h3>실제 <em>브라우저</em> 데이터</h3>
-        <p>API 추정값이나 스크래핑이 아닌 <strong>12개국 ISP IP에서 진짜 사람이 보는 화면</strong>을 캡처합니다.</p>
+        <p>API 추정값이나 스크래핑이 아닌 <strong>12개국 ISP IP에서 실제 사용자 환경의 화면</strong>을 캡처합니다.</p>
         <div class="why-meta">스크린샷 인증 · 192건 실증</div>
       </div>
       <div class="why-card reveal">
@@ -1168,7 +2198,7 @@ body::before {
       <div class="why-card reveal">
         <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M5.6 18.4l4.2-4.2M14.2 9.8l4.2-4.2"/></svg></div>
         <h3>Pluora — <em>발행 전</em> 예측</h3>
-        <p>30M+ 발행↔인용 데이터로 학습된 <strong>Pluora</strong>가 콘텐츠가 AI에 인용될 확률을 발행 전에 점수로 출력합니다.</p>
+        <p>30M+ 발행↔인용 데이터로 학습된 <strong>Pluora</strong>가 발행 전에 콘텐츠의 AI 인용 가능성을 점수로 보여줍니다.</p>
         <div class="why-meta">AI 검색의 Surfer SEO · MAPE 8.6%</div>
       </div>
     </div>
@@ -1181,7 +2211,10 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">How It Works</div>
-        <h2>데이터에서 <em>예측</em>까지, 4단계 엔진.</h2>
+        <h2>
+          <span class="line">수집부터 예측까지</span>
+          <span class="line"><em>4단계</em>로 운영합니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
         매주 자동으로 데이터를 수집하고, 모델로 학습하며, 다음 주 가시성을 예측합니다.
@@ -1192,25 +2225,25 @@ body::before {
       <div class="engine-step reveal">
         <div class="engine-step-num">01 · Collect</div>
         <h3>실제 브라우저 캡처</h3>
-        <p>12개국 ISP IP에서 7 AI 플랫폼 답변을 실제 브라우저로 캡처. 매주 60대 워커 EC2로 자동화.</p>
+        <p>12개국 ISP IP에서 7 AI 플랫폼 답변을 실제 브라우저로 캡처하고, 매주 60대 워커 EC2로 자동화합니다.</p>
         <div class="engine-step-meta">매주 화요일 03:00 KST</div>
       </div>
       <div class="engine-step reveal">
         <div class="engine-step-num">02 · Label</div>
         <h3>스크린샷 + 인용 추출</h3>
-        <p>스크린샷·출처 URL·순위·텍스트 토큰을 BigQuery에 적재. 248개 피처로 정규화.</p>
+        <p>스크린샷·출처 URL·순위·텍스트 토큰을 BigQuery에 적재하고, 248개 피처로 정규화합니다.</p>
         <div class="engine-step-meta">학습 데이터 30M+ 누적</div>
       </div>
       <div class="engine-step reveal">
         <div class="engine-step-num">03 · Train</div>
         <h3><em>Pluora</em> 재학습</h3>
-        <p>Pluora가 발행↔인용 패턴을 학습. 매주 1회 가중치 업데이트, MAPE 8.6%.</p>
+        <p>Pluora가 발행↔인용 패턴을 학습하고, 매주 1회 가중치를 업데이트합니다. 현재 MAPE는 8.6%입니다.</p>
         <div class="engine-step-meta">v1 출시 예정 · 2026 H2</div>
       </div>
       <div class="engine-step engine-step-last">
         <div class="engine-step-num">04 · Predict</div>
         <h3>인용 확률 + 가이드</h3>
-        <p>URL을 입력하면 7 AI별 인용 확률(GEO Score)을 출력. 점수가 낮으면 어떤 부분을 보강해야 오를지 자동 제안.</p>
+        <p>URL을 입력하면 7 AI별 인용 확률(GEO Score)을 출력합니다. 점수가 낮으면 어떤 부분을 보강해야 할지 제안합니다.</p>
         <div class="engine-step-meta">실시간 + 매주 월 09:00 리포트</div>
       </div>
     </div>
@@ -1223,11 +2256,14 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Data Foundation</div>
-        <h2><em>학습 데이터</em>가 곧 모트입니다.</h2>
+        <h2>
+          <span class="line"><em>학습 데이터</em>가</span>
+          <span class="line">Plurank의 기준입니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
         매주 화요일 새벽, 12개국 60대 워커 EC2가 7 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다.
-        이 데이터는 그대로 다음 모델의 <strong>연료</strong>가 됩니다.
+        이 데이터가 다음 예측 모델의 <strong>학습 기반</strong>이 됩니다.
       </p>
     </div>
 
@@ -1279,54 +2315,106 @@ body::before {
   </div>
 </section>
 
+<!-- ===== GLOBAL GEO ===== -->
+<section class="section" id="global">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Global GEO</div>
+        <h2>
+          <span class="line">AI 검색은 글로벌하지만,</span>
+          <span class="line"><em>답변에 쓰이는 출처는 국가마다 다릅니다</em>.</span>
+        </h2>
+      </div>
+      <p class="section-lede">
+        같은 질문도 한국, 일본, 미국, 동남아에서 서로 다른 답변으로 나타납니다.
+        Plurank는 국가별 AI 답변, 로컬 미디어, 커뮤니티, SNS, 리뷰 생태계를 분석해
+        <strong>시장별 AI Discovery Map</strong>을 만듭니다.
+      </p>
+    </div>
+
+    <div class="usecase-grid">
+      <div class="usecase-card reveal">
+        <h3>한국</h3>
+        <p>네이버·뉴스·커뮤니티·나무위키성 정보와 글로벌 AI 답변의 연결 지점을 분석합니다.</p>
+        <div class="usecase-tag">KR Source Map</div>
+      </div>
+      <div class="usecase-card reveal reveal-d1">
+        <h3>일본</h3>
+        <p>일본어 질문, 현지 리뷰, 유통 파트너, 로컬 미디어 신호를 분리해 GTM 전략에 반영합니다.</p>
+        <div class="usecase-tag">Japan GTM</div>
+      </div>
+      <div class="usecase-card reveal reveal-d2">
+        <h3>미국</h3>
+        <p>Reddit, Quora, G2, PR, 비교형 콘텐츠처럼 답변에 자주 쓰이는 오픈웹 신호를 추적합니다.</p>
+        <div class="usecase-tag">US Discovery</div>
+      </div>
+      <div class="usecase-card reveal reveal-d3">
+        <h3>동남아</h3>
+        <p>플랫폼별 소셜 추천, 크리에이터 콘텐츠, 커머스 리뷰가 AI 답변에 미치는 영향을 봅니다.</p>
+        <div class="usecase-tag">SEA Social</div>
+      </div>
+      <div class="usecase-card reveal reveal-d4">
+        <h3>유럽</h3>
+        <p>언어권별 출처, 규제 민감도, 신뢰 신호 차이를 반영해 국가별 콘텐츠 구조를 만듭니다.</p>
+        <div class="usecase-tag">EU Localization</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== INSIGHTS ===== -->
 <section class="section" id="insights">
   <div class="container">
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">How We Think About GEO</div>
-        <h2>데이터로 발견한 <em>6가지</em> 사실.</h2>
+        <h2>
+          <span class="line">데이터로 확인한</span>
+          <span class="line"><em>6가지</em> 전제.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        매주 30M+ 발행↔인용 데이터를 보면서 우리가 발견한, GEO를 진지하게 다루려면 반드시 알아야 할 것들.
+        매주 쌓이는 발행↔인용 데이터에서 반복적으로 보이는 패턴입니다.
+        GEO를 시작할 때 먼저 확인해야 할 기준입니다.
       </p>
     </div>
 
     <div class="insights-grid">
       <article class="insight-card reveal">
         <div class="insight-num">01</div>
-        <h3>AI는 검색하지 않고, <em>답을 짓는다</em>.</h3>
-        <p>AI 검색은 결과 목록을 보여주지 않습니다. 여러 출처를 합쳐 하나의 답변을 작성하죠. 그래서 <strong>인용된 출처가 곧 가시성</strong>입니다.</p>
+        <h3>AI 검색은 링크 목록보다 <em>답변을 먼저 보여줍니다</em>.</h3>
+        <p>사용자는 여러 결과를 직접 비교하기보다 요약된 답변에서 후보를 확인합니다. 그래서 <strong>인용된 출처가 곧 가시성</strong>이 됩니다.</p>
         <div class="insight-tag">→ 7 AI × 12국에서 어떤 출처가 들어갔는지 매주 추적</div>
       </article>
       <article class="insight-card reveal">
         <div class="insight-num">02</div>
-        <h3>한 번 언급과 핵심 근거, 그 차이는 <em>5배</em>.</h3>
-        <p>같은 한 줄도 <strong>각주에 들어가느냐 본문 근거가 되느냐</strong>에 따라 가시성이 달라집니다. 단순 언급만으론 부족합니다.</p>
+        <h3>한 줄 언급과 핵심 근거는 <em>다릅니다</em>.</h3>
+        <p>같은 한 줄도 <strong>각주에만 들어가는지, 본문 근거로 쓰이는지</strong>에 따라 의미가 달라집니다. 단순 언급만으론 부족합니다.</p>
         <div class="insight-tag">→ GEO Score는 위치·컨텍스트·정확성을 가중치로 반영</div>
       </article>
       <article class="insight-card reveal">
         <div class="insight-num">03</div>
-        <h3>사람들은 <em>키워드</em>로 묻지 않는다.</h3>
-        <p>SEO는 "Mercedes E-Class 가격" 같은 키워드. GEO는 <strong>"내 가족 4명에게 맞는 프리미엄 세단"</strong> 같은 사람의 사정이 들어옵니다.</p>
+        <h3>사람들은 키워드보다 <em>상황</em>으로 묻습니다.</h3>
+        <p>SEO는 "Mercedes E-Class 가격" 같은 키워드를 봤다면, GEO는 <strong>"내 가족 4명에게 맞는 프리미엄 세단"</strong>처럼 맥락이 들어간 질문을 봅니다.</p>
         <div class="insight-tag">→ 페르소나 클러스터로 분리해 인용 패턴 학습</div>
       </article>
       <article class="insight-card reveal">
         <div class="insight-num">04</div>
-        <h3>AI는 <em>당신 사이트만</em> 읽지 않는다.</h3>
-        <p>AI는 도메인 한 곳을 보고 답을 만들지 않습니다. <strong>리뷰·커뮤니티·언론 인용</strong>까지 모두 합산해 평가합니다.</p>
+        <h3>브랜드 사이트 밖의 신호도 <em>함께 봐야 합니다</em>.</h3>
+        <p>답변은 도메인 한 곳만으로 만들어지지 않습니다. <strong>리뷰·커뮤니티·언론 인용</strong>까지 함께 관리해야 신뢰도가 쌓입니다.</p>
         <div class="insight-tag">→ 80+ 매체 + 5대 커뮤니티 mention 주간 트래킹</div>
       </article>
       <article class="insight-card reveal">
         <div class="insight-num">05</div>
-        <h3>AI가 <em>꺼내 쓰기 쉬운</em> 콘텐츠는 다르게 생겼다.</h3>
-        <p>양은 의미 없습니다. <strong>AI가 바로 인용해 갈 수 있는 형식</strong>(스키마·FAQ·명확한 출처)이 인용 여부를 결정합니다.</p>
-        <div class="insight-tag">→ 시뮬레이터가 보강 시 +N pt 정확히 출력</div>
+        <h3>인용되기 쉬운 콘텐츠에는 <em>구조</em>가 있습니다.</h3>
+        <p>콘텐츠 양보다 중요하게 봐야 할 것은 <strong>답변에 반영되기 쉬운 형식</strong>입니다. 스키마, FAQ, 명확한 출처가 인용 가능성을 높입니다.</p>
+        <div class="insight-tag">→ 보강 항목별 예상 상승 폭을 시뮬레이션</div>
       </article>
       <article class="insight-card insight-card-feature reveal">
         <div class="insight-num">06</div>
-        <h3>'추천'하는 AI는 끝, <em>'사는'</em> AI가 온다.</h3>
-        <p>추천을 넘어 <strong>비교·결제 실행까지 AI가 직접 처리</strong>하는 시대. 노출의 의미가 인지(awareness)에서 행동(action)으로 옮겨갑니다.</p>
+        <h3>추천 다음에는 <em>구매 실행</em>이 붙습니다.</h3>
+        <p>AI 기반 경험이 비교와 결제 과정까지 연결되면, 노출의 의미는 인지(awareness)를 넘어 행동(action)으로 옮겨갑니다.</p>
         <div class="insight-tag">→ ChatGPT Operator · Perplexity Shopping 측정 포함</div>
       </article>
     </div>
@@ -1339,10 +2427,14 @@ body::before {
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">What You Get · Every Monday</div>
-        <h2>고객이 받는 것 — <em>매주 월요일</em>.</h2>
+        <h2>
+          <span class="line">매주 받는</span>
+          <span class="line"><em>실행 패키지</em>.</span>
+        </h2>
       </div>
       <p class="section-lede">
-        측정만이 아닌 예측. 발행 전 인용 확률 + 발행 후 모니터링 + 다음 액션 가이드까지 한 번에.
+        발행 전 인용 확률, 발행 후 모니터링, 소스 분석, 채널별 콘텐츠 제작 가이드까지 한 번에 제공합니다.
+        매주 데이터가 쌓일수록 Pluora의 예측과 실행 우선순위도 더 정교해집니다.
       </p>
     </div>
 
@@ -1350,7 +2442,7 @@ body::before {
       <div class="deliverable-text">
         <div class="deliverable-num">01</div>
         <h3>주간 가시성 <em>리포트</em></h3>
-        <p>7 AI 플랫폼 × 12개국에서 당신 브랜드의 <strong>인용·순위·점유율</strong>을 매주 자동 산출합니다.
+        <p>7 AI 플랫폼 × 12개국에서 브랜드의 <strong>인용·위치·점유율</strong>을 매주 자동 산출합니다.
         경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.</p>
         <ul class="deliverable-bullets">
           <li>플랫폼별 평균 순위 + 인용 횟수</li>
@@ -1422,7 +2514,7 @@ body::before {
             <text x="340" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ 스키마</text>
           </svg>
           <div class="mock-foot mock-foot-list">
-            <div><span class="ftag">SUGGEST</span>비교표 + Schema markup 추가 시 인용 확률 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style:italic;">+18pt</strong> 예상</div>
+            <div><span class="ftag">SUGGEST</span>비교표 + Schema markup 추가 시 인용 확률 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style: normal;">+18pt</strong> 예상</div>
           </div>
         </div>
       </div>
@@ -1431,40 +2523,41 @@ body::before {
     <div class="deliverable-row reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">03</div>
-        <h3>실행 <em>우선순위</em></h3>
-        <p>"어떤 콘텐츠를 어디에 발행해야 인용되는가" — 모델이 직접 생성한 <strong>액션 가이드</strong>를
-        우선순위 매겨 제공합니다. 각 액션엔 예상 임팩트(점수 변동)와 난이도가 함께 표시됩니다.</p>
+        <h3>채널별 <em>콘텐츠 실행안</em></h3>
+        <p>어떤 채널에 어떤 콘텐츠를 발행해야 인용 가능성이 높아지는지 정리합니다.
+        SEO 글, 비교 페이지, FAQ, PR 앵글, YouTube 스크립트, SNS 포스트, 커뮤니티 답변까지
+        <strong>채널 문법에 맞춘 제작 방향</strong>으로 제공합니다.</p>
         <ul class="deliverable-bullets">
-          <li>플랫폼별 우선 액션 자동 생성</li>
-          <li>예상 임팩트 (포인트 단위)</li>
-          <li>난이도 · 소요 시간 추정</li>
+          <li>채널별 콘텐츠 브리프 자동 생성</li>
+          <li>예상 임팩트와 제작 난이도 표시</li>
+          <li>글로벌·로컬 채널별 메시지 분리</li>
         </ul>
       </div>
       <div class="deliverable-visual">
         <div class="mock-card">
           <div class="mock-head">
-            <span class="mock-pill">Priority Actions · 4건</span>
+            <span class="mock-pill">Content Actions · 4건</span>
             <span class="mock-pill mock-pill-good">실행 시 +8.4pt 예상</span>
           </div>
           <div class="mock-actions">
             <div class="mock-action">
               <span class="prio prio-high">P1</span>
-              <div class="mock-action-body"><strong>공식 비교 페이지 발행</strong><span>Perplexity가 비교 콘텐츠 우선 인용 — 경쟁사 K 대비 우위 공개</span></div>
+              <div class="mock-action-body"><strong>공식 비교 페이지 발행</strong><span>Perplexity가 비교 콘텐츠를 자주 인용 — 경쟁사 대비 근거 공개</span></div>
               <div class="mock-action-impact"><b>+3.2pt</b><small>2일</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-high">P1</span>
-              <div class="mock-action-body"><strong>FAQ 스키마 마크업 추가</strong><span>AI Overview 인용률 38% → 60% 예상 (Reddit 의존도 감소)</span></div>
+              <div class="mock-action-body"><strong>YouTube 리뷰 스크립트 제작</strong><span>사용 장면과 비교 포인트를 90초 영상 문법으로 재구성</span></div>
               <div class="mock-action-impact"><b>+2.8pt</b><small>4시간</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-med">P2</span>
-              <div class="mock-action-body"><strong>케이스 스터디 3건 GitHub 공개</strong><span>Claude의 인용 패턴 — 코드/실증 자료 우선</span></div>
+              <div class="mock-action-body"><strong>커뮤니티 답변 패키지</strong><span>Reddit·Quora 질문별 반론과 근거를 중립 문장으로 정리</span></div>
               <div class="mock-action-impact"><b>+1.6pt</b><small>1주</small></div>
             </div>
             <div class="mock-action">
               <span class="prio prio-low">P3</span>
-              <div class="mock-action-body"><strong>자체 도큐먼트 hreflang 보강</strong><span>JP/DE 시장 가시성 +12% 예상</span></div>
+              <div class="mock-action-body"><strong>로컬 PR 앵글 보강</strong><span>JP/US 시장에서 인용될 만한 출처와 메시지 분리</span></div>
               <div class="mock-action-impact"><b>+0.8pt</b><small>1일</small></div>
             </div>
           </div>
@@ -1475,7 +2568,7 @@ body::before {
     <div class="deliverable-row deliverable-row-reverse reveal">
       <div class="deliverable-text">
         <div class="deliverable-num">04</div>
-        <h3>스크린샷 <em>증거</em></h3>
+        <h3>답변 <em>스크린샷</em></h3>
         <p>실제 AI가 답변한 화면을 <strong>그대로 캡처</strong>해 첨부합니다.
         인용된 출처가 highlight 되어, 보고서·임원 회의용 시각 자료로 즉시 사용 가능합니다.</p>
         <ul class="deliverable-bullets">
@@ -1509,13 +2602,64 @@ body::before {
   </div>
 </section>
 
+<!-- ===== USE CASES ===== -->
+<section class="section" id="use-cases">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Who Uses Plurank</div>
+        <h2>
+          <span class="line">AI 검색을</span>
+          <span class="line">관리 채널로 보는 <em>팀들</em>.</span>
+        </h2>
+      </div>
+      <p class="section-lede">
+        Plurank는 GEO 담당자만을 위한 툴이 아닙니다.
+        글로벌 브랜드, 콘텐츠 팀, 에이전시, GTM 팀이 AI 답변 안에서
+        브랜드의 발견 가능성을 관리하는 공통 데이터 레이어입니다.
+      </p>
+    </div>
+
+    <div class="usecase-grid">
+      <div class="usecase-card reveal">
+        <h3>Global Brand</h3>
+        <p>국가별 AI 검색 가시성과 경쟁사 위치를 한 화면에서 비교합니다.</p>
+        <div class="usecase-tag">Country Gap</div>
+      </div>
+      <div class="usecase-card reveal reveal-d1">
+        <h3>SEO/GEO Team</h3>
+        <p>검색 순위 너머 AI 답변 안의 언급률, 인용률, 추천 위치를 KPI로 관리합니다.</p>
+        <div class="usecase-tag">AI Visibility</div>
+      </div>
+      <div class="usecase-card reveal reveal-d2">
+        <h3>Content Team</h3>
+        <p>발행 전 콘텐츠가 AI에 인용될 가능성과 보강 포인트를 확인합니다.</p>
+        <div class="usecase-tag">Pre-publish Score</div>
+      </div>
+      <div class="usecase-card reveal reveal-d3">
+        <h3>Agency</h3>
+        <p>고객사별 AI Visibility 리포트와 실행 전략을 데이터 기반으로 제안합니다.</p>
+        <div class="usecase-tag">White-label Report</div>
+      </div>
+      <div class="usecase-card reveal reveal-d4">
+        <h3>Commerce/GTM</h3>
+        <p>AI 추천과 구매 여정이 매출, 문의, 브랜드 검색에 미치는 영향을 추적합니다.</p>
+        <div class="usecase-tag">AI-led Demand</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== HOW WE WORK · 4 LAYER ===== -->
 <section class="section" id="engage">
   <div class="container">
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">How We Work · 함께하는 4가지 방법</div>
-        <h2>지금 바로 시작할 수도, <em>전사 시스템</em>에 연결할 수도 있습니다.</h2>
+        <h2>
+          <span class="line">컨설팅으로 시작해</span>
+          <span class="line"><em>제품과 데이터</em>로 확장합니다.</span>
+        </h2>
       </div>
       <p class="section-lede">
         팀 규모와 목표에 맞춰 <strong>컨설팅 · SaaS · API · AI 에이전트</strong> 4개 진입점을 단계별로 제공합니다.
@@ -1527,28 +2671,28 @@ body::before {
         <div class="layer-status">Live · 지금 시작</div>
         <h3>Consulting</h3>
         <p class="layer-fit">엔터프라이즈 · 글로벌 브랜드</p>
-        <p>저희 팀이 직접 <strong style="color:var(--text);">5 Lens 분석 + 액션 가이드</strong>를 매주 전달합니다. 가장 빠르게 결과를 보고 싶을 때.</p>
+        <p>TwoStepsAhead 팀이 직접 <strong style="color:var(--text);">5 Lens 분석 + 채널별 콘텐츠 실행안</strong>을 매주 전달합니다. 빠르게 PoC를 시작하고 싶은 팀에 맞습니다.</p>
         <div class="layer-price">초기 6,000만 + 월 700~800만</div>
       </div>
       <div class="layer-card reveal reveal-d1">
         <div class="layer-status">2026 H2</div>
         <h3>Plurank.app · SaaS</h3>
         <p class="layer-fit">중견 · 중소 / 마케팅 팀</p>
-        <p>5 Lens를 셀프서비스로 사용. 키워드를 입력하면 점수와 가이드가 자동 출력됩니다.</p>
+        <p>5 Lens를 셀프서비스로 사용합니다. 질문을 입력하면 점수, 원인, 콘텐츠 보강안이 자동 출력됩니다.</p>
         <div class="layer-price">월 구독 (Entry · Growth · Enterprise)</div>
       </div>
       <div class="layer-card reveal reveal-d2">
         <div class="layer-status">2027</div>
         <h3>Plurank API + MCP · DaaS</h3>
         <p class="layer-fit">대기업 / AI 엔지니어링 팀</p>
-        <p>인용·추천 데이터를 사내 AI 시스템에 직접 공급합니다. 전사 인텔리전스 인프라.</p>
+        <p>인용·추천 데이터를 사내 AI 시스템에 직접 공급합니다. 전사 인텔리전스 레이어로 활용할 수 있습니다.</p>
         <div class="layer-price">별도 견적</div>
       </div>
       <div class="layer-card reveal reveal-d3">
         <div class="layer-status">2028</div>
         <h3>Plurank.AI / .TEAM · Agent</h3>
         <p class="layer-fit">모든 기업</p>
-        <p>분석·시뮬·콘텐츠 생성을 자율 에이전트가 수행. CMO Agent가 팀을 리드합니다.</p>
+        <p>분석, 시뮬레이션, 콘텐츠 초안 생성을 에이전트가 수행합니다. 마케팅 팀의 실행 속도를 높이는 CMO Agent입니다.</p>
         <div class="layer-price">사전 등록</div>
       </div>
     </div>
@@ -1561,26 +2705,29 @@ body::before {
     <div class="section-head reveal" style="grid-template-columns:1fr;margin-bottom:48px;">
       <div>
         <div class="eyebrow">FAQ · 자주 묻는 질문</div>
-        <h2><em>Plurank</em>에 대해 가장 많이 묻는 6가지.</h2>
+        <h2>
+          <span class="line"><em>Plurank</em>에 대해</span>
+          <span class="line">가장 많이 묻는 6가지.</span>
+        </h2>
       </div>
     </div>
 
     <div class="faq-list reveal">
       <details class="faq-item">
         <summary>GEO가 SEO와 어떻게 다른가요?</summary>
-        <p>SEO는 "검색 1페이지에 노출될 확률"을 다뤘다면, GEO는 <strong>"ChatGPT · Claude · Perplexity 같은 AI 답변에 인용될 확률"</strong>을 다룹니다. AI가 검색 결과를 요약해 답변을 생성하는 시대에는, 검색 순위보다 인용되는 출처가 되는 것이 더 중요합니다.</p>
+        <p>SEO는 검색 결과의 순위를 다뤘다면, GEO는 <strong>ChatGPT · Claude · Perplexity 같은 AI 답변에서 브랜드와 콘텐츠가 인용될 가능성</strong>을 다룹니다. 검색 순위만큼이나 답변의 근거 출처가 되는 일이 중요해지고 있습니다.</p>
       </details>
       <details class="faq-item">
         <summary>Pluora 모델의 정확도는 어느 정도인가요?</summary>
-        <p>매주 12개국에서 60대 워커가 7개 AI 플랫폼 답변을 캡처한 <strong>30M+ "발행↔인용" 실증 데이터</strong>를 학습합니다. 평균 예측 오차(MAPE) 8.6%로 업계 표준 정확도 수준입니다.</p>
+        <p>매주 12개국에서 60대 워커가 7개 AI 플랫폼 답변을 캡처한 <strong>30M+ "발행↔인용" 실증 데이터</strong>를 학습합니다. 현재 평균 예측 오차(MAPE)는 8.6% 수준입니다.</p>
       </details>
       <details class="faq-item">
         <summary>왜 12개국을 동시에 측정하나요?</summary>
-        <p>같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌로 콘텐츠를 발행하는 브랜드라면 <strong>12국 답변을 동시에 봐야</strong> 정확한 액션을 잡을 수 있습니다.</p>
+        <p>같은 키워드라도 한국 ChatGPT 답변과 미국 ChatGPT 답변이 다릅니다. 글로벌로 콘텐츠를 발행하는 브랜드라면 <strong>국가별 답변 차이를 함께 봐야</strong> 실행 우선순위를 정확히 잡을 수 있습니다.</p>
       </details>
       <details class="faq-item">
         <summary>Brandwatch · Profound · 어센트와 무엇이 다른가요?</summary>
-        <p>Brandwatch는 소셜만, Profound는 AI 검색만, 어센트는 검색 키워드만 봅니다. Plurank는 <strong>이 셋을 통합해 12국 12채널을 동시에</strong> 보고, 발행 전 인용 확률까지 예측하는 단일 모델을 운영합니다.</p>
+        <p>대부분의 툴은 모니터링이나 검색 분석 중 하나에 머뭅니다. Plurank는 <strong>AI 답변, 소스 신호, 채널별 콘텐츠 실행, 발행 전 예측</strong>을 하나의 루프로 묶습니다.</p>
       </details>
       <details class="faq-item">
         <summary>도입까지 얼마나 걸리나요?</summary>
@@ -1588,7 +2735,7 @@ body::before {
       </details>
       <details class="faq-item">
         <summary>무료 진단은 무엇인가요?</summary>
-        <p>발행 예정 또는 기존 콘텐츠 URL을 보내주시면 <strong>7개 AI 플랫폼별 인용 확률 + 점수 개선 가이드</strong>를 무료로 보내드립니다. 약 3분 안에 결과 도착.</p>
+        <p>브랜드 URL이나 진단하고 싶은 질문을 보내주시면 <strong>AI 답변 노출, 인용 출처, 경쟁사 대비 위치, 개선 우선순위</strong>를 간단히 정리해드립니다.</p>
       </details>
     </div>
   </div>
@@ -1598,15 +2745,18 @@ body::before {
 <section class="section" id="contact">
   <div class="container">
     <div class="cta-card reveal">
-      <div class="cta-eyebrow">Free Diagnostic · 3분 안에 결과</div>
-      <h2>당신의 콘텐츠가 AI에 인용될 확률,<br><em>발행 전에 무료로</em> 확인하세요.</h2>
-      <p>발행 예정 또는 기존 콘텐츠 URL을 알려주세요. 7 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다.</p>
+      <div class="cta-eyebrow">Free Diagnostic · AI Visibility Check</div>
+      <h2>
+        <span class="line">지금 AI 답변에서</span>
+        <span class="line"><em>우리 브랜드는 어떻게 보일까요?</em></span>
+      </h2>
+      <p>핵심 질문과 브랜드 URL을 알려주세요. AI 답변 안의 노출, 인용 출처, 경쟁사 대비 위치, 필요한 콘텐츠 액션을 정리해드립니다.</p>
       <form class="cta-form">
         <input type="text" name="company" placeholder="회사명" required>
         <input type="email" name="email" placeholder="이메일" required>
-        <input type="text" name="url" placeholder="콘텐츠 URL 또는 도메인" required>
+        <input type="text" name="url" placeholder="브랜드 URL 또는 진단하고 싶은 질문" required>
         <button type="submit" class="btn btn-primary">
-          무료 진단 받기
+          AI 노출 진단 받기
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </button>
       </form>
@@ -1620,7 +2770,7 @@ body::before {
 
 <script>
 (function () {
-  const PROMPT = '"비건 수분 크림 — 2026 베스트" 콘텐츠가 어디서 인용·추천될까?';
+  const PROMPT = '"민감성 피부에 좋은 한국 스킨케어 브랜드 추천해줘"';
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
 
@@ -1656,14 +2806,14 @@ body::before {
     await sleep(300);
     promptWrap.classList.add('done');
 
-    const rows = document.querySelectorAll('.platform-row[data-rank]');
+    const rows = document.querySelectorAll('.scene-signal[data-rank], .platform-row[data-rank]');
     let sum = 0;
 
     for (const row of rows) {
       const rank = +row.dataset.rank;
       const answer = row.dataset.answer;
-      const rankEl = row.querySelector('.platform-rank');
-      const answerEl = row.querySelector('.platform-answer');
+      const rankEl = row.querySelector('.scene-signal-score') || row.querySelector('.platform-rank');
+      const answerEl = row.querySelector('.scene-signal-copy') || row.querySelector('.platform-answer');
 
       row.classList.add('is-active');
       await typeText(answerEl, answer, 14, 8);
@@ -1677,6 +2827,8 @@ body::before {
       await sleep(120);
       row.classList.remove('is-active');
     }
+
+    if (!rows.length) return;
 
     const avg = sum / rows.length;
     const startAvg = performance.now();
@@ -1781,6 +2933,380 @@ body::before {
   } else {
     runHero();
   }
+})();
+</script>
+
+<script type="module">
+(async function () {
+  const canvas = document.getElementById('discovery-canvas');
+  const wrap = document.getElementById('discovery-scene');
+  if (!canvas || !wrap) return;
+
+  let THREE;
+  try {
+    THREE = await import('https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js');
+  } catch (err) {
+    wrap.classList.add('scene-static');
+    return;
+  }
+
+  const renderer = new THREE.WebGLRenderer({
+    canvas,
+    alpha: true,
+    antialias: true,
+    preserveDrawingBuffer: true,
+    powerPreference: 'high-performance'
+  });
+  renderer.setClearColor(0x000000, 0);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+  camera.position.set(0, 0.15, 8.2);
+
+  const root = new THREE.Group();
+  scene.add(root);
+  scene.add(new THREE.AmbientLight(0xffffff, 0.64));
+
+  const warmLight = new THREE.PointLight(0xf59e0b, 3.2, 16);
+  warmLight.position.set(3.2, 2.4, 4.6);
+  scene.add(warmLight);
+
+  const coolLight = new THREE.PointLight(0x6ee7f9, 1.4, 14);
+  coolLight.position.set(-3.6, -2.4, 4.2);
+  scene.add(coolLight);
+
+  const coreMaterial = new THREE.MeshStandardMaterial({
+    color: 0x111111,
+    emissive: 0xf59e0b,
+    emissiveIntensity: 0.26,
+    metalness: 0.38,
+    roughness: 0.34,
+    transparent: true,
+    opacity: 0.86
+  });
+  const core = new THREE.Mesh(new THREE.IcosahedronGeometry(0.86, 3), coreMaterial);
+  root.add(core);
+
+  const coreWire = new THREE.LineSegments(
+    new THREE.EdgesGeometry(core.geometry),
+    new THREE.LineBasicMaterial({ color: 0xf8fafc, transparent: true, opacity: 0.2 })
+  );
+  core.add(coreWire);
+
+  [
+    { r: 1.35, color: 0xf59e0b, opacity: 0.34 },
+    { r: 2.15, color: 0x6ee7f9, opacity: 0.18 },
+    { r: 3.05, color: 0xffffff, opacity: 0.12 }
+  ].forEach((ring, i) => {
+    const torus = new THREE.Mesh(
+      new THREE.TorusGeometry(ring.r, 0.006, 8, 160),
+      new THREE.MeshBasicMaterial({ color: ring.color, transparent: true, opacity: ring.opacity })
+    );
+    torus.rotation.x = Math.PI / 2 + i * 0.18;
+    torus.rotation.y = i * 0.46;
+    root.add(torus);
+  });
+
+  const nodeGeometry = new THREE.SphereGeometry(0.075, 18, 18);
+  const lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.14 });
+  const signalNodes = [
+    { label: 'Owned', angle: 0.12, radius: 3.15, y: 1.05, color: 0xf59e0b },
+    { label: 'Earned', angle: 1.42, radius: 3.34, y: 0.38, color: 0xffffff },
+    { label: 'Community', angle: 2.78, radius: 3.08, y: -0.78, color: 0x6ee7f9 },
+    { label: 'Social', angle: 4.05, radius: 3.26, y: -0.2, color: 0x8ab4ff },
+    { label: 'Local', angle: 5.18, radius: 2.86, y: 0.9, color: 0xfacc15 },
+    { label: 'Commerce', angle: 5.86, radius: 2.74, y: -1.02, color: 0xd6d3d1 }
+  ];
+
+  const flows = [];
+  signalNodes.forEach((node, nodeIndex) => {
+    const x = Math.cos(node.angle) * node.radius;
+    const z = Math.sin(node.angle) * node.radius * 0.42;
+    const pos = new THREE.Vector3(x, node.y, z);
+
+    const material = new THREE.MeshStandardMaterial({
+      color: node.color,
+      emissive: node.color,
+      emissiveIntensity: 0.48,
+      metalness: 0.1,
+      roughness: 0.28
+    });
+    const mesh = new THREE.Mesh(nodeGeometry, material);
+    mesh.position.copy(pos);
+    root.add(mesh);
+
+    const line = new THREE.Line(
+      new THREE.BufferGeometry().setFromPoints([pos, new THREE.Vector3(0, 0, 0)]),
+      lineMaterial.clone()
+    );
+    line.material.color.setHex(node.color);
+    line.material.opacity = nodeIndex % 2 ? 0.12 : 0.2;
+    root.add(line);
+
+    for (let i = 0; i < 3; i += 1) {
+      const flowMaterial = new THREE.MeshBasicMaterial({
+        color: node.color,
+        transparent: true,
+        opacity: 0.72
+      });
+      const flow = new THREE.Mesh(new THREE.SphereGeometry(0.026, 10, 10), flowMaterial);
+      root.add(flow);
+      flows.push({ mesh: flow, start: pos.clone(), delay: (nodeIndex * 0.17 + i * 0.29) % 1 });
+    }
+  });
+
+  const starGeometry = new THREE.BufferGeometry();
+  const starPositions = [];
+  for (let i = 0; i < 130; i += 1) {
+    starPositions.push(
+      (Math.random() - 0.5) * 8.6,
+      (Math.random() - 0.5) * 5.8,
+      (Math.random() - 0.5) * 3.2 - 1.2
+    );
+  }
+  starGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starPositions, 3));
+  const stars = new THREE.Points(
+    starGeometry,
+    new THREE.PointsMaterial({ color: 0xffffff, size: 0.012, transparent: true, opacity: 0.36 })
+  );
+  root.add(stars);
+
+  let pointerX = 0;
+  let pointerY = 0;
+  wrap.addEventListener('pointermove', (event) => {
+    const rect = wrap.getBoundingClientRect();
+    pointerX = ((event.clientX - rect.left) / rect.width - 0.5) * 0.35;
+    pointerY = ((event.clientY - rect.top) / rect.height - 0.5) * 0.22;
+  });
+  wrap.addEventListener('pointerleave', () => {
+    pointerX = 0;
+    pointerY = 0;
+  });
+
+  function resize() {
+    const width = Math.max(320, wrap.clientWidth);
+    const height = Math.max(520, wrap.clientHeight);
+    renderer.setSize(width, height, false);
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+  }
+
+  const clock = new THREE.Clock();
+  function animate() {
+    const elapsed = clock.getElapsedTime();
+    root.rotation.y += (pointerX + elapsed * 0.035 - root.rotation.y) * 0.018;
+    root.rotation.x += (pointerY + Math.sin(elapsed * 0.42) * 0.055 - root.rotation.x) * 0.018;
+    core.rotation.x = elapsed * 0.18;
+    core.rotation.y = elapsed * 0.26;
+    stars.rotation.y = -elapsed * 0.018;
+
+    flows.forEach((flow) => {
+      const t = (elapsed * 0.22 + flow.delay) % 1;
+      flow.mesh.position.copy(flow.start).multiplyScalar(1 - t);
+      flow.mesh.material.opacity = Math.sin(t * Math.PI) * 0.72;
+      const scale = 0.7 + Math.sin(t * Math.PI) * 0.9;
+      flow.mesh.scale.setScalar(scale);
+    });
+
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+  animate();
+})();
+</script>
+
+
+
+
+
+<!-- Plurank CTA Modal v2 -->
+<div class="pl-modal-backdrop" id="pl-modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="pl-modal">
+    <button class="pl-modal-close" data-pl-close aria-label="Close">✕</button>
+
+    <!-- Step 1: persona -->
+    <div class="pl-step active" data-step="1">
+      <div class="pl-modal-eyebrow">STEP 1 · 신청자 선택</div>
+      <h3>30분 안에 Plurank를 보여드려요.</h3>
+      <p class="pl-modal-desc">상황에 맞는 안내를 위해 먼저 신청 유형을 선택해주세요.</p>
+      <div class="pl-persona-grid">
+        <button type="button" class="pl-persona-card" data-pl-persona="agency">
+          <span class="pl-persona-icon">🏢</span>
+          <span class="pl-persona-name">마케팅 에이전시</span>
+          <span class="pl-persona-sub">SEO·GEO·콘텐츠·PR 에이전시. 클라이언트 제안을 데이터로 뒷받침합니다.</span>
+        </button>
+        <button type="button" class="pl-persona-card" data-pl-persona="brand">
+          <span class="pl-persona-icon">🎯</span>
+          <span class="pl-persona-name">브랜드 인하우스</span>
+          <span class="pl-persona-sub">사내 마케팅·SEO·CMO팀. AI 검색에서 브랜드 노출을 관리합니다.</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Step 2: agency -->
+    <div class="pl-step" data-step="2" data-persona-view="agency">
+      <button type="button" class="pl-back" data-pl-back>← 다시 선택</button>
+      <span class="pl-step-indicator">2 / 2</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · 온라인 미팅 신청</div>
+      <h3>마케팅 에이전시를 위한 Plurank</h3>
+      <ul class="pl-value-list">
+        <li><strong>클라이언트별 AI Visibility 리포트</strong> — 질문·소스·경쟁사 기준으로 제안</li>
+        <li><strong>GEO 실행 우선순위</strong> — 콘텐츠·PR·커뮤니티·SNS 액션까지 설계</li>
+        <li><strong>글로벌 캠페인 지원</strong> — 국가별 답변과 로컬 소스 차이 분석</li>
+        <li>7 AI · 12개국 · 멀티채널 소스 데이터 기반</li>
+      </ul>
+      <div class="pl-section-divider">FORM</div>
+      <form data-pl-form data-persona="agency">
+        <input type="hidden" name="type" value="demo">
+        <input type="hidden" name="persona" value="agency">
+        <input type="text" name="company" placeholder="회사명" required autocomplete="organization">
+        <input type="text" name="name" placeholder="담당자 이름" autocomplete="name">
+        <input type="email" name="email" placeholder="이메일" required autocomplete="email">
+        <input type="text" name="url" placeholder="회사 URL (선택)" autocomplete="url">
+        <input type="text" name="slot" class="full" placeholder="희망 미팅 시간대 (예: 평일 14~17시 / 5월 16일 오후)">
+        <textarea name="message" class="full" placeholder="문의 내용 (선택)" rows="2"></textarea>
+        <button type="submit">
+          <span>30분 미팅 신청하기</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+        <div class="pl-modal-msg"></div>
+      </form>
+    </div>
+
+    <!-- Step 2: brand -->
+    <div class="pl-step" data-step="2" data-persona-view="brand">
+      <button type="button" class="pl-back" data-pl-back>← 다시 선택</button>
+      <span class="pl-step-indicator">2 / 2</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · 온라인 미팅 신청</div>
+      <h3>브랜드 인하우스를 위한 Plurank</h3>
+      <ul class="pl-value-list">
+        <li><strong>AI 답변에서 우리 브랜드가 어떻게 보이는지 진단</strong> — 답변·인용·추천 위치 확인</li>
+        <li><strong>경쟁사 대비 AI Discovery Map</strong> — 어떤 질문에서 밀리는지 파악</li>
+        <li><strong>발행 전 GEO Score 예측</strong> — Pluora 기반 콘텐츠 개선 시뮬레이션</li>
+        <li>한국·일본·미국 등 글로벌 시장별 실행 전략 지원</li>
+      </ul>
+      <div class="pl-section-divider">FORM</div>
+      <form data-pl-form data-persona="brand">
+        <input type="hidden" name="type" value="demo">
+        <input type="hidden" name="persona" value="brand">
+        <input type="text" name="company" placeholder="회사명" required autocomplete="organization">
+        <input type="text" name="name" placeholder="담당자 이름" autocomplete="name">
+        <input type="email" name="email" placeholder="이메일" required autocomplete="email">
+        <input type="text" name="url" placeholder="회사 URL (선택)" autocomplete="url">
+        <input type="text" name="slot" class="full" placeholder="희망 미팅 시간대 (예: 평일 14~17시 / 5월 16일 오후)">
+        <textarea name="message" class="full" placeholder="문의 내용 (선택)" rows="2"></textarea>
+        <button type="submit">
+          <span>30분 미팅 신청하기</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+        <div class="pl-modal-msg"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const SUCCESS_MSG = '신청이 접수되었습니다. 영업일 1일 내 미팅 일정으로 회신드릴게요.';
+  const ERROR_MSG   = '전송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.';
+  const modal = document.getElementById('pl-modal');
+  if (!modal) return;
+  const steps = modal.querySelectorAll('.pl-step');
+
+  function show(personaOrStep1) {
+    steps.forEach((s) => s.classList.remove('active'));
+    if (!personaOrStep1) {
+      modal.querySelector('[data-step="1"]').classList.add('active');
+    } else {
+      const view = modal.querySelector(`[data-persona-view="${personaOrStep1}"]`);
+      if (view) view.classList.add('active');
+    }
+  }
+  function openModal() {
+    show(null);
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  // Open from any [data-pl-open]
+  document.querySelectorAll('[data-pl-open]').forEach((el) => {
+    el.addEventListener('click', (e) => { e.preventDefault(); openModal(); });
+  });
+  // Persona pick
+  modal.querySelectorAll('[data-pl-persona]').forEach((btn) => {
+    btn.addEventListener('click', () => show(btn.dataset.plPersona));
+  });
+  // Back
+  modal.querySelectorAll('[data-pl-back]').forEach((b) => {
+    b.addEventListener('click', () => show(null));
+  });
+  // Close
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal || e.target.closest('[data-pl-close]')) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+
+  async function submitForm(formEl, sourceLabel) {
+    const data = Object.fromEntries(new FormData(formEl).entries());
+    data.source = sourceLabel;
+    const btn = formEl.querySelector('button[type="submit"]');
+    const msgEl = formEl.querySelector('.pl-modal-msg');
+    if (btn) btn.disabled = true;
+    if (msgEl) { msgEl.className = 'pl-modal-msg'; msgEl.textContent = ''; }
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error('bad');
+      if (msgEl) { msgEl.className = 'pl-modal-msg success'; msgEl.textContent = SUCCESS_MSG; }
+      formEl.reset();
+    } catch (err) {
+      if (msgEl) { msgEl.className = 'pl-modal-msg error'; msgEl.textContent = ERROR_MSG; }
+    } finally {
+      if (btn) btn.disabled = false;
+    }
+  }
+
+  // Wizard forms
+  modal.querySelectorAll('[data-pl-form]').forEach((f) => {
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      submitForm(f, 'hero-modal-' + (f.dataset.persona || 'unknown'));
+    });
+  });
+
+  // Legacy #contact form — still wire to slack as diagnostic
+  document.querySelectorAll('form.cta-form').forEach((f) => {
+    if (!f.querySelector('input[name="type"]')) {
+      const h = document.createElement('input');
+      h.type = 'hidden'; h.name = 'type'; h.value = 'diagnostic';
+      f.appendChild(h);
+    }
+    if (!f.querySelector('.pl-modal-msg')) {
+      const m = document.createElement('div');
+      m.className = 'pl-modal-msg';
+      m.style.gridColumn = 'span 2';
+      m.style.marginTop = '8px';
+      f.appendChild(m);
+    }
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      submitForm(f, 'contact-section');
+    });
+  });
 })();
 </script>
 

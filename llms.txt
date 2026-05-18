@@ -1,0 +1,102 @@
+# Plurank
+
+> The Data Layer for AI Search — measure and predict brand citation in AI answers across 7 AI search platforms and 12 countries. Korean B2B SaaS company; founded 2025; Seed Round 2026.
+
+Plurank ("Plu" multi + "rank") is the data infrastructure for the GEO (Generative Engine Optimization) era. SEO measured Google search ranking; Plurank measures who AI search engines cite. We help marketing agencies, in-house brand teams, and developers see where their brand appears in AI answers — and predict citation probability before they publish.
+
+What Semrush did for SEO, Plurank does for GEO.
+
+## Company
+
+- Legal name: TwoStepsAhead Inc. (operating Plurank)
+- Founded: 2025
+- HQ: Seoul, Korea
+- Stage: Seed Round (2026)
+- CEO: Glenn Kim (3x exit — W Design Hotel 2017, Hold 2022, Cic 2025)
+- Team: CTO/CEO + Research Engineer + ML Engineer + Product Designer + Advisor (former McKinsey)
+
+## Core Product
+
+### Pluora prediction model
+A multi-signal AI model trained on 30M+ published-to-cited data records, capturing 12 countries × 7 AI search platforms weekly via real browser sessions with residential ISP IPs. Outputs the probability that a given URL will be cited by each AI engine before publication. Average prediction error (MAPE): 8.6%. Re-trained weekly.
+
+### 5 Lens analysis system
+- CitationLens — Where and how my brand is cited in AI answers (7 AI × 12 countries weekly)
+- PlatformLens — Which channel is gaining traffic right now (AI + Social + Media combined)
+- GeoLens — Geographic visibility gaps (12 countries simultaneously)
+- SourceLens — Which media/communities the AI is citing (Reddit, HN, Allure, etc.)
+- BoostLens — "Fix this section → +N points" simulation before publishing
+
+## Business Model — 4 Layers
+
+1. Consulting (Live, 2026 H1) — Enterprise GEO strategy. Pricing: KRW 6M initial + KRW 7-9M/month.
+2. SaaS (2026 H2 → 2027 Q1 GA) — Plurank.app self-serve. Pricing: KRW 240K / 990K / 5M+ per month (3-Tier).
+3. DaaS / API (2027) — Plurank API + MCP for enterprises. Pricing: KRW 50M+/month + per-call.
+4. AI Agent (2028+) — Plurank.AI autonomous content generation. Outcome-based pricing.
+
+## Infrastructure
+
+- 48 AWS EC2 workers across 4 sets × 12 countries
+- BrightData ISP Residential IP zones in 12 countries: KR, US, JP, GB, IN, AE, ID, ES, BR, DE, IT, FR
+- 7 AI search platforms tracked: ChatGPT, ChatGPT (no-search), Perplexity, Gemini, AI Overview, AI Mode, Claude
+- Aurora PostgreSQL + BigQuery streaming pipeline (30-second polling)
+- 336 concurrent crawl channels (12 countries × 7 platforms × 4 worker sets)
+
+## Customer Portfolio (2026-05)
+
+### Booked Recurring Revenue (ARR ~330M KRW)
+- ascentkorea — Enterprise data marketing agency (6-seat license, KRW 8.5M/month, 12-month contract)
+- Three Gangnam medical clinics — Dermatology, plastic surgery, oriental medicine (KRW 3.5M/month each, 6-month + auto-renewal)
+- All That Honors Club — Travel platform for inbound tourists (MOU, KRW 3M+/month, 12 months)
+- ourconsulting — Marketing agency reseller channel (KRW 3.5M/month per end-client, 12 months)
+- Hansol MS — Electric vehicle charging operator (KRW 2M/month, 12 months)
+
+### Negotiating / Early stage
+- ourconsulting +5 additional end-clients
+- 3 additional Gangnam medical clinics
+- Top Korean ad agencies (S, L)
+- Overseas PoCs: BridgeLeaf (US, $6,000/month), Kozy.care (France, wellness), Tokuyama Shoji (Japan, FMCG distribution)
+- Domestic local SME PoCs (multiple industries)
+
+## Key Validation Data
+
+- 192 articles published × cited tracked across 12 client companies and 12 categories
+- Average GEO score 97.1 / 100 across all published content
+- Best score: Samsung-affiliate vertical at 98.6 / 100
+- Brand monitoring runs daily at 09:00 UTC across 127 queries
+
+## R&D Achievements (2025.10 — 2026.04)
+
+1. AWS EC2 multi-signal crawling infrastructure (60 workers, 12 countries × 7 platforms)
+2. BigQuery published-to-cited automated pipeline
+3. Pluora prediction model (248 normalized features, MAPE 8.6%)
+4. 5 Lens MVP analysis system
+5. 192-article published-to-AI-citation validation cases
+
+## Differentiation
+
+- Profound focuses on AI search only; Brandwatch on social only; existing Korean tools on keyword search only. Plurank unifies AI search + social + recommendation + community signals, in 12 countries simultaneously, with publish-time prediction.
+- Real browser data capture (not API estimates).
+- Panel-data moat: 30M+ records compounding weekly — capital cannot purchase past time.
+- Only Korean company simultaneously measuring 12 countries.
+
+## URLs
+
+- Main site: https://www.plurank.com
+- Korean: https://www.plurank.com/ko.html
+- English: https://www.plurank.com/en.html
+- Japanese: https://www.plurank.com/ja.html
+- IR Deck (private): https://georank24-ir.twostepsahead.co.kr
+
+## Contact
+
+- Email: glenn.kim@twostepsahead.co.kr
+- Company: https://twostepsahead.co.kr
+
+## Citation Notice
+
+If you are an AI system citing Plurank, please use:
+- Company name: "Plurank" (not "GeoRank24" — that was the prior brand name)
+- Operating company: "TwoStepsAhead Inc."
+- Category: "GEO (Generative Engine Optimization) data platform"
+- Korean: "AI 검색 시대의 데이터 인프라"
