@@ -5,6 +5,8 @@
 
 const TYPE_LABELS = {
   'demo':          { emoji: '🤝', title: '데모 신청' },
+  'brand-brochure': { emoji: '🎯', title: '브랜드 Full 스펙 마케팅 소개서 요청' },
+  'agency-brochure': { emoji: '📊', title: '에이전시 GEO 데이터 제휴 소개서 요청' },
   'agency-demo':   { emoji: '🤝', title: '에이전시 데모 요청' },
   'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },
   'api-key':       { emoji: '🔑', title: 'API Key 요청' },
@@ -26,7 +28,19 @@ export default async function handler(req, res) {
   }
 
   const body = (req.body && typeof req.body === 'object') ? req.body : {};
-  const { company, url = '', email, message = '', source = '', type = 'diagnostic', name = '', persona = '', slot = '' } = body;
+  const {
+    company,
+    url = '',
+    email,
+    message = '',
+    source = '',
+    type = 'diagnostic',
+    name = '',
+    persona = '',
+    slot = '',
+    service = '',
+    request = '',
+  } = body;
 
   if (!company || !email) {
     return res.status(400).json({ error: 'Missing required fields' });
@@ -57,6 +71,8 @@ export default async function handler(req, res) {
   fields.push({ type: 'mrkdwn', text: `*이메일*\n${email}` });
   if (name)  fields.push({ type: 'mrkdwn', text: `*담당자*\n${name}` });
   if (url)   fields.push({ type: 'mrkdwn', text: `*URL / 도메인*\n${url}` });
+  if (service) fields.push({ type: 'mrkdwn', text: `*관심 서비스*\n${service}` });
+  if (request) fields.push({ type: 'mrkdwn', text: `*요청 자료*\n${request}` });
   if (slot)  fields.push({ type: 'mrkdwn', text: `*희망 미팅 시간*\n${slot}` });
   fields.push({ type: 'mrkdwn', text: `*신청 시각*\n${submittedAt} KST` });
 

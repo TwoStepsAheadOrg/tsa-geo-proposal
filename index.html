@@ -276,41 +276,78 @@ body::before {
 .btn svg { width: 14px; height: 14px; }
 
 /* ========== HERO ========== */
-.hero { padding: 96px 0 100px; border-bottom: 1px solid var(--border); }
+.hero {
+  --hero-progress: 0;
+  --hero-copy-y: 0px;
+  --hero-soft-y: 0px;
+  padding: 76px 0 64px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: clip;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -18%;
+  width: min(980px, 86vw);
+  height: 460px;
+  transform: translateX(-50%);
+  background:
+    linear-gradient(90deg, transparent 0 12%, rgba(245,158,11,0.08) 28%, rgba(255,255,255,0.045) 51%, rgba(110,231,249,0.055) 74%, transparent 100%);
+  filter: blur(48px);
+  opacity: 0.52;
+  pointer-events: none;
+}
 .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: start; }
+.hero-copy { will-change: transform; }
 .hero h1 {
   font-family: var(--f-display);
   font-weight: 300;
-  font-size: 64px;
+  font-size: clamp(48px, 4.3vw, 60px);
   line-height: 1.05;
   letter-spacing: -0.025em;
   font-variation-settings: "opsz" 96;
-  margin-top: 32px;
+  margin-top: 26px;
   text-wrap: pretty;
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
-.hero h1 .line { display: inline; }
-.hero h1 .line + .line::before { content: " "; }
+.hero h1 .line { display: block; }
+.hero h1 .line + .line::before { content: ""; }
 .hero h1 .nowrap { white-space: nowrap; }
+.hero h1 .word { display: inline-block; white-space: nowrap; }
+.hero h1 .char {
+  display: inline-block;
+  opacity: 0;
+  transform: translate3d(0, 0.66em, 0) rotate(2.5deg);
+  transform-origin: 50% 100%;
+}
+.hero h1[data-split-ready] .char {
+  animation: heroCharIn 0.72s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--char-delay, 0ms);
+}
+@keyframes heroCharIn {
+  to { opacity: 1; transform: translate3d(0, 0, 0) rotate(0deg); }
+}
 .hero h1 em { font-style: normal; font-weight: 400; font-variation-settings: "opsz" 144; }
 .hero h1 .accent { color: var(--text-mute); }
-.hero-sub { margin-top: 36px; font-size: 17px; line-height: 1.7; color: var(--text-soft); max-width: 560px; }
+.hero-sub { margin-top: 24px; font-size: 16px; line-height: 1.68; color: var(--text-soft); max-width: 610px; }
 .hero-sub strong { color: var(--text); font-weight: 500; }
-.hero-cta { margin-top: 44px; display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.hero-cta { margin-top: 34px; display: flex; gap: 14px; flex-wrap: wrap; }
+.hero-trust { margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
 .trust-item {
-  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em;
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--text-mute);
 }
 .trust-item strong {
-  display: block; color: var(--text); font-size: 24px;
+  display: block; color: var(--text); font-size: 23px;
   font-family: var(--f-display); font-weight: 400; letter-spacing: -0.02em;
   text-transform: none; margin-bottom: 4px; font-variation-settings: "opsz" 60;
 }
 
 .hero-positioning {
-  margin-top: 28px;
+  margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -326,15 +363,87 @@ body::before {
   color: var(--text-soft);
   background: rgba(255,255,255,0.025);
 }
+.hero-source-rail {
+  margin-top: 24px;
+  max-width: 620px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hero-source-rail span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 7px 11px;
+  border: 1px solid rgba(255,255,255,0.11);
+  background: rgba(255,255,255,0.035);
+  color: var(--text-soft);
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+  animation: sourceChipIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--chip-delay, 0ms);
+}
+.hero-source-rail span:first-child {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+.hero-source-rail + h1 { margin-top: 26px; }
+@keyframes sourceChipIn {
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+.hero-product-loop {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  border: 1px solid var(--border);
+  background: var(--border);
+  max-width: 650px;
+}
+.hero-loop-step {
+  min-height: 90px;
+  padding: 14px 14px 13px;
+  background: rgba(255,255,255,0.025);
+  position: relative;
+}
+.hero-loop-step.is-output {
+  background: linear-gradient(180deg, rgba(245,158,11,0.13), rgba(255,255,255,0.025));
+}
+.hero-loop-step span {
+  display: block;
+  margin-bottom: 10px;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  color: var(--highlight);
+}
+.hero-loop-step strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.25;
+  color: var(--text);
+}
+.hero-loop-step small {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-mute);
+}
 
 .hero-visual {
   position: sticky;
   top: 104px;
-  min-height: 640px;
+  min-height: 590px;
 }
 .discovery-scene {
   position: relative;
-  min-height: 640px;
+  min-height: 590px;
   overflow: hidden;
   isolation: isolate;
 }
@@ -374,6 +483,14 @@ body::before {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 24px 80px rgba(0,0,0,0.28);
+}
+.scene-panel,
+.scene-source,
+.scene-status,
+.scene-signal-stack {
+  --plx: 0px;
+  transform: translate3d(0, var(--plx), 0);
+  will-change: transform;
 }
 .scene-prompt {
   top: 38px;
@@ -447,6 +564,8 @@ body::before {
   gap: 8px;
 }
 .scene-signal {
+  --signal-x: 0px;
+  --plx: 0px;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 4px 12px;
@@ -455,6 +574,7 @@ body::before {
   background: rgba(10,10,10,0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  transform: translate3d(var(--signal-x), var(--plx), 0);
   transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
 }
 .scene-signal span {
@@ -489,7 +609,7 @@ body::before {
   color: var(--text-mute);
 }
 .scene-signal.is-active {
-  transform: translateX(8px);
+  --signal-x: 8px;
   border-color: rgba(245,158,11,0.58);
   background: rgba(245,158,11,0.09);
 }
@@ -547,6 +667,28 @@ body::before {
   animation: pulse 1.6s ease-in-out infinite;
 }
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+.motion-enabled .hero-copy {
+  transform: translate3d(0, var(--hero-copy-y, 0px), 0);
+}
+.motion-enabled .hero-sub,
+.motion-enabled .hero-positioning,
+.motion-enabled .hero-cta {
+  transform: translate3d(0, var(--hero-soft-y, 0px), 0);
+  will-change: transform;
+}
+.motion-enabled .reveal {
+  transform: translate3d(0, calc(18px + var(--motion-y, 0px)), 0);
+}
+.motion-enabled .reveal.in {
+  transform: translate3d(0, var(--motion-y, 0px), 0);
+}
+.motion-enabled .motion-section .reveal {
+  --motion-y: var(--section-shift-card, 0px);
+}
+.motion-enabled .motion-section .section-head.reveal {
+  --motion-y: var(--section-shift-head, 0px);
+}
 
 /* ========== MISSION ========== */
 .mission-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; }
@@ -814,6 +956,18 @@ body::before {
 
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }
+  .hero h1 .char,
+  .hero-source-rail span {
+    opacity: 1;
+    transform: none;
+    animation: none !important;
+  }
+  .scene-panel,
+  .scene-source,
+  .scene-status,
+  .scene-signal-stack {
+    transform: none !important;
+  }
   .gauge-arc-anim { stroke-dashoffset: 0 !important; }
 }
 
@@ -874,6 +1028,7 @@ body::before {
 
 @media (max-width: 1100px) {
   .fanout-grid, .layer-grid, .partner-list { grid-template-columns: repeat(2, 1fr); }
+  .output-grid { grid-template-columns: repeat(2, 1fr); }
   .lens-grid { grid-template-columns: repeat(2, 1fr); }
   .position-ladder { grid-template-columns: repeat(2, 1fr); }
 }
@@ -897,6 +1052,9 @@ body::before {
   .deliverable-row-reverse .deliverable-visual { order: 2; }
   .insights-grid, .why-grid, .thesis-kpis, .trust-grid { grid-template-columns: 1fr; }
   .hero-trust { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hero-product-loop { grid-template-columns: repeat(2, 1fr); }
+  .output-showcase-head { display: block; }
+  .output-showcase-head p { margin-top: 14px; }
   .hero, .section { padding: 80px 0; }
   .hero h1 { font-size: 56px; }
   .container, .container-narrow, .nav { padding-left: 20px; padding-right: 20px; }
@@ -912,7 +1070,12 @@ body::before {
 @media (max-width: 520px) {
   .hero h1 { font-size: 45px; line-height: 1.08; }
   .section h2 .keep { white-space: normal; }
+  .hero-product-loop { grid-template-columns: repeat(2, 1fr); }
+  .hero-loop-step { min-height: 92px; padding: 14px 12px; }
+  .hero-loop-step span { margin-bottom: 10px; }
+  .hero-loop-step small { font-size: 11px; }
   .hero-positioning span { width: calc(50% - 4px); text-align: center; }
+  .output-grid { grid-template-columns: 1fr; }
   .hero-visual { min-height: 780px; }
   .discovery-scene { min-height: 780px; margin: 0 -6px; scroll-margin-top: 92px; }
   .scene-prompt { left: 6px; right: 6px; padding: 16px; }
@@ -941,7 +1104,7 @@ body::before {
 .pl-modal-backdrop.open { opacity: 1; pointer-events: auto; }
 .pl-modal {
   background: var(--bg, #0a0a0a); border: 1px solid var(--border, #2a2a2a);
-  border-radius: 16px; max-width: 620px; width: 100%; max-height: 92vh; overflow-y: auto;
+  border-radius: 16px; max-width: 780px; width: 100%; max-height: 92vh; overflow-y: auto;
   padding: 36px 36px 32px; position: relative;
   transform: translateY(12px); transition: transform 0.25s ease;
   color: var(--text, #fff);
@@ -970,9 +1133,88 @@ body::before {
   font-size: 14px; line-height: 1.65; color: var(--text-soft, #ccc);
   margin-bottom: 26px;
 }
+.pl-modal-desc strong { color: var(--text); font-weight: 500; }
 .pl-step { display: none; }
 .pl-step.active { display: block; animation: plFadeIn 0.25s ease; }
 @keyframes plFadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.pl-service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  border: 1px solid var(--border);
+  background: var(--border);
+  margin: 22px 0 24px;
+}
+.pl-service-card {
+  background: rgba(255,255,255,0.025);
+  padding: 18px 18px 17px;
+  min-height: 142px;
+}
+.pl-service-card span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--highlight);
+}
+.pl-service-card strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.3;
+  color: var(--text);
+}
+.pl-service-card p {
+  margin-top: 8px;
+  color: var(--text-soft);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.pl-service-note {
+  margin: 0 0 24px;
+  padding: 14px 16px;
+  border: 1px solid rgba(245,158,11,0.28);
+  background: rgba(245,158,11,0.07);
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.pl-service-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 18px 0 0;
+}
+.pl-brochure-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 13px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--text);
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.pl-brochure-form {
+  display: none !important;
+  margin-top: 22px;
+}
+.pl-brochure-form.open {
+  display: grid !important;
+}
+.pl-form-help {
+  grid-column: span 2;
+  color: var(--text-mute);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
 
 /* Step 1 — persona cards */
 .pl-persona-grid {
@@ -1078,9 +1320,10 @@ body::before {
 
 @media (max-width: 560px) {
   .pl-modal { padding: 28px 22px 24px; }
+  .pl-service-grid { grid-template-columns: 1fr; }
   .pl-persona-grid { grid-template-columns: 1fr; }
   .pl-modal form { grid-template-columns: 1fr; }
-  .pl-modal form .full, .pl-modal button[type="submit"], .pl-modal-msg { grid-column: span 1; }
+  .pl-modal form .full, .pl-modal button[type="submit"], .pl-modal-msg, .pl-form-help { grid-column: span 1; }
 }
 
 
@@ -1136,6 +1379,74 @@ body::before {
 .pl-chip-sep {
   display: inline-block; width: 1px; height: 12px;
   background: var(--border, #2a2a2a);
+}
+
+/* === Product output strip === */
+.output-showcase {
+  padding: 36px 0 46px;
+  border-bottom: 1px solid var(--border);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.018), rgba(255,255,255,0.006)),
+    var(--bg);
+}
+.output-showcase-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+.output-showcase-head p {
+  max-width: 520px;
+  color: var(--text-soft);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.output-showcase-title {
+  font-family: var(--f-display);
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+}
+.output-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+.output-card {
+  min-height: 168px;
+  padding: 22px 20px;
+  background: rgba(255,255,255,0.025);
+  display: flex;
+  flex-direction: column;
+}
+.output-card.is-primary {
+  background: linear-gradient(180deg, rgba(245,158,11,0.16), rgba(255,255,255,0.025));
+}
+.output-card span {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--highlight);
+}
+.output-card strong {
+  margin-top: 26px;
+  font-family: var(--f-display);
+  font-size: 24px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+}
+.output-card p {
+  margin-top: auto;
+  padding-top: 18px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-soft);
 }
 
 /* === Narrative sections: question market / AI source map / global use cases === */
@@ -1583,81 +1894,121 @@ body::before {
 <section class="hero">
   <div class="container">
     <div class="hero-grid">
-      <div>
+      <div class="hero-copy">
         <div class="eyebrow">AI Discovery AdTech</div>
+        <div class="hero-source-rail" aria-label="AI answer and source platforms">
+          <span style="--chip-delay: 80ms">ChatGPT</span>
+          <span style="--chip-delay: 130ms">Gemini</span>
+          <span style="--chip-delay: 180ms">Perplexity</span>
+          <span style="--chip-delay: 230ms">YouTube</span>
+          <span style="--chip-delay: 280ms">Instagram</span>
+          <span style="--chip-delay: 330ms">Reddit</span>
+          <span style="--chip-delay: 380ms">Quora</span>
+          <span style="--chip-delay: 430ms">Publisher</span>
+        </div>
         <h1>
-          <span class="line nowrap">사용자의 질문이</span>
-          <span class="line accent">브랜드 발견 경로를</span>
-          <span class="line">바꾸고 있습니다.</span>
+          <span class="line nowrap">AI 검색 시대의 마케팅,</span>
+          <span class="line">Plurank가 끝까지 맡습니다.</span>
         </h1>
         <p class="hero-sub">
-          사용자가 ChatGPT, Gemini, Claude, Perplexity에 브랜드를 물을 때,
-          답변은 홈페이지 한 곳만 보고 만들어지지 않습니다.
-          공식 문서, 리뷰, 영상, 커뮤니티, 로컬 매체의 신호가 함께 반영됩니다.
-          <strong>Plurank는 이 과정을 측정하고, 부족한 채널의 콘텐츠를 실행하며, 결과를 Pluora 모델에 다시 학습시키는 AI Discovery AdTech 플랫폼</strong>입니다.
+          질문을 찾고, AI가 참고할 출처를 만들고, 웹·뉴스·SNS·커뮤니티에 콘텐츠를 배포합니다.
+          이후 AI 답변 변화와 <strong>Plurank Lead 방문 신호</strong>까지 추적해
+          브랜드가 발견되고 문의로 이어지는 흐름을 운영합니다.
         </p>
+        <div class="hero-product-loop" aria-label="Plurank execution loop">
+          <div class="hero-loop-step">
+            <span>01</span>
+            <strong>질문 분석</strong>
+            <small>구매·비교·추천 질의 발굴</small>
+          </div>
+          <div class="hero-loop-step">
+            <span>02</span>
+            <strong>출처 설계</strong>
+            <small>AI가 참고할 근거 구조화</small>
+          </div>
+          <div class="hero-loop-step is-output">
+            <span>03</span>
+            <strong>콘텐츠 생성</strong>
+            <small>채널별 원고·영상·커뮤니티 소재</small>
+          </div>
+          <div class="hero-loop-step">
+            <span>04</span>
+            <strong>채널 배포</strong>
+            <small>웹·SNS·PR·커뮤니티 실행</small>
+          </div>
+          <div class="hero-loop-step">
+            <span>05</span>
+            <strong>답변 추적</strong>
+            <small>인용·추천·경쟁 변화 확인</small>
+          </div>
+          <div class="hero-loop-step is-output">
+            <span>06</span>
+            <strong>리드 확인</strong>
+            <small>방문 기업과 관심 신호 연결</small>
+          </div>
+        </div>
         <div class="hero-positioning" aria-label="AI Discovery AdTech positioning">
-          <span>Answer Data</span>
-          <span>Channel Content</span>
-          <span>Global GEO</span>
-          <span>Pluora Learning</span>
+          <span>Question Map</span>
+          <span>Source Builder</span>
+          <span>Content Engine</span>
+          <span>End-to-End Ops</span>
         </div>
         <div class="hero-cta">
-          <a href="#" class="btn btn-primary" data-pl-open="demo">
-            AI 노출 진단 받기
+          <a href="#" class="btn btn-primary" data-pl-open="brand">
+            브랜드 AI 마케팅 맡기기
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
           </a>
-          <a href="#market" class="btn btn-ghost">질문이 발견 경로가 되는 방식 보기</a>
+          <a href="#" class="btn btn-ghost" data-pl-open="agency">에이전시 GEO 데이터 제휴</a>
         </div>
         <div class="hero-trust">
-          <div class="trust-item"><strong>12+</strong>Discovery Channels</div>
+          <div class="trust-item"><strong>15+</strong>Client Projects</div>
           <div class="trust-item"><strong>12</strong>Countries</div>
-          <div class="trust-item"><strong>Multi</strong>Source Signals</div>
-          <div class="trust-item"><strong>Pluora</strong>Prediction Model</div>
+          <div class="trust-item"><strong>30M+</strong>Training Data</div>
+          <div class="trust-item"><strong>Lead</strong>Visitor Tracking</div>
         </div>
       </div>
 
       <aside class="hero-visual" aria-label="AI Discovery AdTech 3D signal map">
         <div class="discovery-scene" id="discovery-scene">
           <canvas id="discovery-canvas" aria-hidden="true"></canvas>
-          <div class="scene-status">Live Signal Graph</div>
+          <div class="scene-status" data-parallax-layer="-0.08">Live Signal Graph</div>
 
-          <div class="scene-panel scene-prompt" id="aside-prompt">
-            <span class="scene-label">Question enters the market</span>
+          <div class="scene-panel scene-prompt" id="aside-prompt" data-parallax-layer="0.16">
+            <span class="scene-label">A customer asks AI</span>
             <strong><span id="prompt-text"></span><span class="aside-prompt-cursor"></span></strong>
           </div>
 
-          <div class="scene-source source-owned">Owned<strong>Website · FAQ · Blog</strong></div>
-          <div class="scene-source source-earned">Earned<strong>News · Review · PR</strong></div>
-          <div class="scene-source source-social">Social<strong>YouTube · Instagram · Threads</strong></div>
-          <div class="scene-source source-community">Community<strong>Reddit · Quora · Wiki</strong></div>
+          <div class="scene-source source-owned" data-parallax-layer="0.1">Owned<strong>Website · FAQ · Blog</strong></div>
+          <div class="scene-source source-earned" data-parallax-layer="-0.06">Earned<strong>News · Review · PR</strong></div>
+          <div class="scene-source source-social" data-parallax-layer="0.12">Social<strong>YouTube · Instagram · Threads</strong></div>
+          <div class="scene-source source-community" data-parallax-layer="-0.1">Community<strong>Reddit · Quora · Wiki</strong></div>
 
-          <div class="scene-panel scene-core">
+          <div class="scene-panel scene-core" data-parallax-layer="-0.14">
             <span class="scene-label">AI Answer Inclusion</span>
             <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
-            <p>추천 결과는 한 페이지보다 여러 채널의 신뢰 신호가 합쳐진 결과에 가깝습니다.</p>
+            <p>질문 분석, 출처 설계, 콘텐츠 실행이 함께 움직일 때 답변 안의 선택지가 바뀝니다.</p>
           </div>
 
-          <div class="scene-signal-stack" aria-label="Source signal analysis">
-            <div class="scene-signal" data-rank="82" data-answer="공식 FAQ와 비교 콘텐츠가 답변의 기본 근거가 됩니다.">
+          <div class="scene-signal-stack" aria-label="Source signal analysis" data-parallax-layer="0.08">
+            <div class="scene-signal" data-rank="82" data-answer="브랜드가 직접 통제하는 FAQ와 비교 페이지를 먼저 보강합니다.">
               <span>Owned Signal</span>
               <strong>FAQ · Comparison · llms.txt</strong>
               <em class="scene-signal-score">—</em>
               <em class="scene-signal-copy"></em>
             </div>
-            <div class="scene-signal" data-rank="76" data-answer="리뷰와 언론 노출이 후보 신뢰도를 보강합니다.">
+            <div class="scene-signal" data-rank="76" data-answer="언론, 리뷰, 파트너 콘텐츠로 신뢰 신호를 넓힙니다.">
               <span>Earned Signal</span>
               <strong>Review · PR · Publisher</strong>
               <em class="scene-signal-score">—</em>
               <em class="scene-signal-copy"></em>
             </div>
-            <div class="scene-signal" data-rank="68" data-answer="커뮤니티의 실제 질문과 반론이 답변의 맥락을 채웁니다.">
+            <div class="scene-signal" data-rank="68" data-answer="실제 질문이 오가는 커뮤니티에 맞춘 답변형 콘텐츠를 배치합니다.">
               <span>Community Signal</span>
               <strong>Reddit · Quora · Wiki</strong>
               <em class="scene-signal-score">—</em>
               <em class="scene-signal-copy"></em>
             </div>
-            <div class="scene-signal" data-rank="61" data-answer="영상과 SNS 콘텐츠가 최신성, 사용감, 확산 신호를 보강합니다.">
+            <div class="scene-signal" data-rank="61" data-answer="영상과 SNS로 최신성, 사용감, 확산 신호를 만듭니다.">
               <span>Social Signal</span>
               <strong>YouTube · Instagram · Threads</strong>
               <em class="scene-signal-score">—</em>
@@ -1698,6 +2049,44 @@ body::before {
         <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">BridgeLeaf</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">US GTM Partner</span></span>
         <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">국내 Top 광고대행사</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Negotiating</span></span>
         <span class="pl-chip" aria-hidden="true"><span class="pl-chip-name">국내 로컬 SME PoC</span><span class="pl-chip-sep"></span><span class="pl-chip-sub">Multi Industry</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRODUCT OUTPUTS ===== -->
+<section class="output-showcase" id="output-loop" aria-label="Plurank output loop">
+  <div class="container">
+    <div class="output-showcase-head">
+      <div>
+        <div class="eyebrow">What Plurank Ships</div>
+        <h2 class="output-showcase-title">분석에서 끝나지 않고, AI가 참고할 콘텐츠를 실제로 만듭니다.</h2>
+      </div>
+      <p>
+        GEO 데이터로 질문과 출처의 빈틈을 찾고, 그 빈틈을 채우는 콘텐츠를 채널별로 제작합니다.
+        이후 답변 변화와 방문 기업 신호까지 확인해 다음 실행 우선순위를 정합니다.
+      </p>
+    </div>
+    <div class="output-grid">
+      <article class="output-card">
+        <span>Question Map</span>
+        <strong>어떤 질문에서 빠지는지</strong>
+        <p>구매, 비교, 추천, 지역, 국가별 질문을 묶어 브랜드가 들어가야 할 답변 지점을 찾습니다.</p>
+      </article>
+      <article class="output-card is-primary">
+        <span>Content Engine</span>
+        <strong>무엇을 발행해야 하는지</strong>
+        <p>FAQ, 비교 페이지, 블로그, 리뷰 유도, 숏폼·커뮤니티 원고까지 채널별 소재로 변환합니다.</p>
+      </article>
+      <article class="output-card">
+        <span>Distribution</span>
+        <strong>어디에 쌓아야 하는지</strong>
+        <p>웹사이트, 뉴스, SNS, YouTube, 커뮤니티, 위키형 출처까지 질문에 맞춰 배포합니다.</p>
+      </article>
+      <article class="output-card is-primary">
+        <span>Plurank Lead</span>
+        <strong>누가 관심을 보였는지</strong>
+        <p>AI 답변과 콘텐츠를 보고 들어온 방문 기업을 식별하고 Slack·CRM 액션으로 연결합니다.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -2902,21 +3291,22 @@ body::before {
 <section class="section" id="contact">
   <div class="container">
     <div class="cta-card reveal">
-      <div class="cta-eyebrow">Free Diagnostic · AI Visibility Check</div>
+      <div class="cta-eyebrow">Start With Plurank</div>
       <h2>
-        <span class="line">지금 AI 답변에서</span>
-        <span class="line"><em>우리 브랜드는 어떻게 보일까요?</em></span>
+        <span class="line">브랜드는 마케팅 운영을 맡기고,</span>
+        <span class="line"><em>에이전시는 GEO 데이터를 납품받으세요.</em></span>
       </h2>
-      <p>핵심 질문과 브랜드 URL을 알려주세요. AI 답변 안의 노출, 인용 출처, 경쟁사 대비 위치, 필요한 콘텐츠 액션을 정리해드립니다.</p>
-      <form class="cta-form">
-        <input type="text" name="company" placeholder="회사명" required>
-        <input type="email" name="email" placeholder="이메일" required>
-        <input type="text" name="url" placeholder="브랜드 URL 또는 진단하고 싶은 질문" required>
-        <button type="submit" class="btn btn-primary">
-          AI 노출 진단 받기
+      <p>
+        브랜드에게는 질문 분석부터 콘텐츠 제작, 채널 배포, 리드 추적까지 운영합니다.
+        에이전시에게는 클라이언트 제안과 월간 보고에 바로 쓸 수 있는 GEO 데이터와 리포트를 제공합니다.
+      </p>
+      <div class="hero-cta" style="justify-content:center;">
+        <a href="#" class="btn btn-primary" data-pl-open="brand">
+          브랜드 AI 마케팅 맡기기
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-        </button>
-      </form>
+        </a>
+        <a href="#" class="btn btn-ghost" data-pl-open="agency">에이전시 GEO 데이터 제휴</a>
+      </div>
     </div>
   </div>
 </section>
@@ -2930,6 +3320,97 @@ body::before {
   const PROMPT = '"민감성 피부에 좋은 한국 스킨케어 브랜드 추천해줘"';
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function splitHeroHeading() {
+    const heading = document.querySelector('.hero h1');
+    if (!heading || heading.dataset.splitReady === 'true') return;
+
+    const lines = Array.from(heading.querySelectorAll('.line'));
+    heading.setAttribute('aria-label', lines.map((line) => line.textContent.trim()).join(' '));
+
+    let charIndex = 0;
+    lines.forEach((line) => {
+      const parts = line.textContent.split(/(\s+)/);
+      line.textContent = '';
+
+      parts.forEach((part) => {
+        if (!part) return;
+        if (/^\s+$/.test(part)) {
+          line.appendChild(document.createTextNode(part));
+          return;
+        }
+
+        const word = document.createElement('span');
+        word.className = 'word';
+        for (const ch of part) {
+          const char = document.createElement('span');
+          char.className = 'char';
+          char.textContent = ch;
+          char.style.setProperty('--char-delay', `${160 + charIndex * 16}ms`);
+          word.appendChild(char);
+          charIndex += 1;
+        }
+        line.appendChild(word);
+      });
+    });
+
+    heading.dataset.splitReady = 'true';
+  }
+
+  function setupScrollMotion() {
+    if (reduceMotion) return;
+
+    const hero = document.querySelector('.hero');
+    const layers = Array.from(document.querySelectorAll('[data-parallax-layer]'));
+    const sections = Array.from(document.querySelectorAll('.section'));
+    if (!hero && !layers.length && !sections.length) return;
+
+    document.documentElement.classList.add('motion-enabled');
+    sections.forEach((section) => section.classList.add('motion-section'));
+
+    const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+    let ticking = false;
+
+    function updateMotion() {
+      const viewport = window.innerHeight || 1;
+
+      if (hero) {
+        const rect = hero.getBoundingClientRect();
+        const progress = clamp(-rect.top / Math.max(rect.height, 1), 0, 1);
+        hero.style.setProperty('--hero-progress', progress.toFixed(3));
+        hero.style.setProperty('--hero-copy-y', `${(-16 * progress).toFixed(2)}px`);
+        hero.style.setProperty('--hero-soft-y', `${(-8 * progress).toFixed(2)}px`);
+
+        layers.forEach((layer) => {
+          const depth = parseFloat(layer.dataset.parallaxLayer || '0.08');
+          layer.style.setProperty('--plx', `${((progress - 0.5) * depth * 126).toFixed(2)}px`);
+        });
+      }
+
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        const progress = clamp((viewport - rect.top) / (viewport + rect.height), 0, 1);
+        const shift = (0.5 - progress) * 34;
+        section.style.setProperty('--section-progress', progress.toFixed(3));
+        section.style.setProperty('--section-shift', `${shift.toFixed(2)}px`);
+        section.style.setProperty('--section-shift-card', `${(shift * 0.28).toFixed(2)}px`);
+        section.style.setProperty('--section-shift-head', `${(shift * 0.42).toFixed(2)}px`);
+      });
+
+      ticking = false;
+    }
+
+    function requestUpdate() {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(updateMotion);
+    }
+
+    updateMotion();
+    window.addEventListener('scroll', requestUpdate, { passive: true });
+    window.addEventListener('resize', requestUpdate);
+  }
 
   async function typeText(el, text, speed = 22, jitter = 14) {
     el.textContent = '';
@@ -2952,6 +3433,18 @@ body::before {
     });
   }
 
+  function countDecimal(el, target, dur = 520) {
+    const from = parseFloat(el.textContent || '0') || 0;
+    const start = performance.now();
+    function step(now) {
+      const t = Math.min((now - start) / dur, 1);
+      const value = from + (target - from) * easeOutCubic(t);
+      el.textContent = value.toFixed(1);
+      if (t < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
   async function runHero() {
     const promptText = document.getElementById('prompt-text');
     const promptWrap = document.getElementById('aside-prompt');
@@ -2959,12 +3452,13 @@ body::before {
     if (!promptText) return;
 
     await sleep(450);
-    await typeText(promptText, PROMPT, 26, 18);
+    await typeText(promptText, PROMPT, 20, 10);
     await sleep(300);
     promptWrap.classList.add('done');
 
     const rows = document.querySelectorAll('.scene-signal[data-rank], .platform-row[data-rank]');
     let sum = 0;
+    let completed = 0;
 
     for (const row of rows) {
       const rank = +row.dataset.rank;
@@ -2973,15 +3467,17 @@ body::before {
       const answerEl = row.querySelector('.scene-signal-copy') || row.querySelector('.platform-answer');
 
       row.classList.add('is-active');
-      await typeText(answerEl, answer, 14, 8);
-      await sleep(140);
+      await typeText(answerEl, answer, 7, 3);
+      await sleep(90);
 
       rankEl.classList.remove('pending');
       if (rank >= 60) rankEl.classList.add('high');
-      await countUp(rankEl, rank, 460);
+      await countUp(rankEl, rank, 360);
 
       sum += rank;
-      await sleep(120);
+      completed += 1;
+      if (probEl) countDecimal(probEl, sum / completed, 520);
+      await sleep(80);
       row.classList.remove('is-active');
     }
 
@@ -3085,10 +3581,16 @@ body::before {
   }, { threshold: 0.3 });
   paths.forEach((el) => pathObs.observe(el));
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', runHero);
-  } else {
+  function boot() {
+    splitHeroHeading();
+    setupScrollMotion();
     runHero();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
   }
 })();
 </script>
@@ -3252,8 +3754,11 @@ body::before {
   const clock = new THREE.Clock();
   function animate() {
     const elapsed = clock.getElapsedTime();
+    const heroProgress = parseFloat(wrap.closest('.hero')?.style.getPropertyValue('--hero-progress') || '0') || 0;
     root.rotation.y += (pointerX + elapsed * 0.035 - root.rotation.y) * 0.018;
     root.rotation.x += (pointerY + Math.sin(elapsed * 0.42) * 0.055 - root.rotation.x) * 0.018;
+    root.rotation.z += (((heroProgress - 0.5) * 0.18) - root.rotation.z) * 0.016;
+    camera.position.z += ((8.2 - heroProgress * 0.34) - camera.position.z) * 0.025;
     core.rotation.x = elapsed * 0.18;
     core.rotation.y = elapsed * 0.26;
     stars.rotation.y = -elapsed * 0.018;
@@ -3287,19 +3792,17 @@ body::before {
 
     <!-- Step 1: persona -->
     <div class="pl-step active" data-step="1">
-      <div class="pl-modal-eyebrow">STEP 1 · 신청자 선택</div>
-      <h3>30분 안에 Plurank를 보여드려요.</h3>
-      <p class="pl-modal-desc">상황에 맞는 안내를 위해 먼저 신청 유형을 선택해주세요.</p>
+      <div class="pl-modal-eyebrow">SERVICE GUIDE · 신청 유형 선택</div>
+      <h3>어떤 방식으로 Plurank를 쓰고 싶으신가요?</h3>
+      <p class="pl-modal-desc">브랜드는 Full 스펙 마케팅 운영, 에이전시는 GEO 데이터 납품과 제휴 구조를 먼저 확인할 수 있습니다.</p>
       <div class="pl-persona-grid">
         <button type="button" class="pl-persona-card" data-pl-persona="agency">
-          <span class="pl-persona-icon">🏢</span>
-          <span class="pl-persona-name">마케팅 에이전시</span>
-          <span class="pl-persona-sub">SEO·GEO·콘텐츠·PR 에이전시. 클라이언트 제안을 데이터로 뒷받침합니다.</span>
+          <span class="pl-persona-name">에이전시 GEO 데이터 제휴</span>
+          <span class="pl-persona-sub">클라이언트 제안과 월간 보고에 쓸 AI 노출·인용·경쟁사 데이터를 납품받습니다.</span>
         </button>
         <button type="button" class="pl-persona-card" data-pl-persona="brand">
-          <span class="pl-persona-icon">🎯</span>
-          <span class="pl-persona-name">브랜드 인하우스</span>
-          <span class="pl-persona-sub">사내 마케팅·SEO·CMO팀. AI 검색에서 브랜드 노출을 관리합니다.</span>
+          <span class="pl-persona-name">브랜드 AI 마케팅 맡기기</span>
+          <span class="pl-persona-sub">질문 분석부터 콘텐츠 제작, 채널 배포, AI 답변 추적, 리드 확인까지 운영을 맡깁니다.</span>
         </button>
       </div>
     </div>
@@ -3307,27 +3810,61 @@ body::before {
     <!-- Step 2: agency -->
     <div class="pl-step" data-step="2" data-persona-view="agency">
       <button type="button" class="pl-back" data-pl-back>← 다시 선택</button>
-      <span class="pl-step-indicator">2 / 2</span>
-      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · 온라인 미팅 신청</div>
-      <h3>마케팅 에이전시를 위한 Plurank</h3>
+      <span class="pl-step-indicator">AGENCY</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">SERVICE GUIDE · GEO DATA PARTNER</div>
+      <h3>에이전시가 클라이언트에게 AI 검색 리포트를 제안할 수 있게 합니다.</h3>
+      <p class="pl-modal-desc">
+        Plurank는 에이전시에 <strong>GEO 데이터와 월간 리포트</strong>를 납품합니다.
+        클라이언트별 핵심 질문, AI 플랫폼별 노출, 경쟁사 비교, 인용 출처, 개선 우선순위를 제안서와 보고서에 바로 쓸 수 있게 정리합니다.
+      </p>
       <ul class="pl-value-list">
-        <li><strong>클라이언트별 AI Visibility 리포트</strong> — 질문·소스·경쟁사 기준으로 제안</li>
-        <li><strong>GEO 실행 우선순위</strong> — 콘텐츠·PR·커뮤니티·SNS 액션까지 설계</li>
-        <li><strong>글로벌 캠페인 지원</strong> — 국가별 답변과 로컬 소스 차이 분석</li>
-        <li>7 AI · 12개국 · 멀티채널 소스 데이터 기반</li>
+        <li><strong>클라이언트별 GEO 리포트 납품</strong> — 질문·AI 플랫폼·경쟁사·인용 출처 기준</li>
+        <li><strong>제안서/월간 보고서용 인사이트</strong> — 네이버·구글 이후의 신규 리포트 상품화</li>
+        <li><strong>화이트라벨·공동 제안 구조</strong> — 에이전시 영업과 운영 방식에 맞춰 제공</li>
+        <li><strong>운영 KPI 합의</strong> — 월 핵심 질문과 목표 노출률은 보장이 아닌 진척 지표로 관리</li>
       </ul>
-      <div class="pl-section-divider">FORM</div>
-      <form data-pl-form data-persona="agency">
-        <input type="hidden" name="type" value="demo">
+      <div class="pl-service-grid">
+        <div class="pl-service-card">
+          <span>01 DATA</span>
+          <strong>AI 노출·인용 데이터</strong>
+          <p>ChatGPT, Gemini, Perplexity 등에서 클라이언트와 경쟁사가 어떻게 언급되는지 추적합니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>02 REPORT</span>
+          <strong>월간 GEO 리포트</strong>
+          <p>키워드별 노출률, 인용 출처, 경쟁사 위치, 다음 액션을 보고서 형태로 제공합니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>03 PROPOSAL</span>
+          <strong>클라이언트 제안 소재</strong>
+          <p>“AI에서는 우리 브랜드가 보이나요?”라는 질문에 답할 신규 제안 논리를 만듭니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>04 PARTNER</span>
+          <strong>리셀러·공동 운영</strong>
+          <p>데이터 납품, 공동 제안, 화이트라벨 리포트 등 파트너 방식으로 운영합니다.</p>
+        </div>
+      </div>
+      <div class="pl-service-note">
+        소개서에는 에이전시용 리포트 샘플, 데이터 납품 범위, 클라이언트 제안 문구, 파일럿 패키지 구성이 포함됩니다.
+      </div>
+      <div class="pl-service-actions">
+        <button type="button" class="pl-brochure-toggle" data-pl-show-form="agency">에이전시용 상세 소개서 받기</button>
+      </div>
+      <form data-pl-form data-persona="agency" class="pl-brochure-form">
+        <input type="hidden" name="type" value="agency-brochure">
         <input type="hidden" name="persona" value="agency">
+        <input type="hidden" name="service" value="에이전시 GEO 데이터 납품/제휴">
+        <input type="hidden" name="request" value="에이전시용 상세 서비스 소개서 PDF 요청">
+        <div class="pl-section-divider full">FORM · 소개서 신청</div>
+        <div class="pl-form-help">신청이 들어오면 Slack으로 알림이 가고, 담당자가 에이전시용 PDF 소개서와 제휴 안내를 전달합니다.</div>
         <input type="text" name="company" placeholder="회사명" required autocomplete="organization">
         <input type="text" name="name" placeholder="담당자 이름" autocomplete="name">
         <input type="email" name="email" placeholder="이메일" required autocomplete="email">
         <input type="text" name="url" placeholder="회사 URL (선택)" autocomplete="url">
-        <input type="text" name="slot" class="full" placeholder="희망 미팅 시간대 (예: 평일 14~17시 / 5월 16일 오후)">
-        <textarea name="message" class="full" placeholder="문의 내용 (선택)" rows="2"></textarea>
+        <textarea name="message" class="full" placeholder="필요한 데이터 형태, 예상 클라이언트 수, 관심 업종을 알려주세요. (선택)" rows="3"></textarea>
         <button type="submit">
-          <span>30분 미팅 신청하기</span>
+          <span>상세 소개서 신청하기</span>
           <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </button>
         <div class="pl-modal-msg"></div>
@@ -3337,27 +3874,62 @@ body::before {
     <!-- Step 2: brand -->
     <div class="pl-step" data-step="2" data-persona-view="brand">
       <button type="button" class="pl-back" data-pl-back>← 다시 선택</button>
-      <span class="pl-step-indicator">2 / 2</span>
-      <div class="pl-modal-eyebrow" style="clear:both;">STEP 2 · 온라인 미팅 신청</div>
-      <h3>브랜드 인하우스를 위한 Plurank</h3>
+      <span class="pl-step-indicator">BRAND</span>
+      <div class="pl-modal-eyebrow" style="clear:both;">SERVICE GUIDE · FULL-SPEC MARKETING OPS</div>
+      <h3>AI 검색 시대의 마케팅을 Plurank가 끝까지 운영합니다.</h3>
+      <p class="pl-modal-desc">
+        브랜드에게 Plurank는 데이터 리포트에서 멈추지 않습니다.
+        핵심 질문을 정하고, AI가 참고할 출처를 만들고, 채널별 콘텐츠를 발행하며,
+        <strong>AI 답변 변화와 방문 리드 신호</strong>까지 확인합니다.
+      </p>
       <ul class="pl-value-list">
-        <li><strong>AI 답변에서 우리 브랜드가 어떻게 보이는지 진단</strong> — 답변·인용·추천 위치 확인</li>
-        <li><strong>경쟁사 대비 AI Discovery Map</strong> — 어떤 질문에서 밀리는지 파악</li>
-        <li><strong>발행 전 GEO Score 예측</strong> — Pluora 기반 콘텐츠 개선 시뮬레이션</li>
-        <li>한국·일본·미국 등 글로벌 시장별 실행 전략 지원</li>
+        <li><strong>AI 검색 노출 진단</strong> — 어떤 질문에서 빠지고, 어떤 출처가 인용되는지 확인</li>
+        <li><strong>Full 스펙 콘텐츠 실행</strong> — 웹사이트, 뉴스, SNS, 커뮤니티, 영상 소재까지 제작</li>
+        <li><strong>월간 운영 리포트</strong> — AI별 노출, 경쟁사 비교, 유입·문의 신호를 함께 보고</li>
+        <li><strong>글로벌 확장</strong> — 한국·일본·미국·중국향 데이터와 실행 리소스까지 연결</li>
       </ul>
-      <div class="pl-section-divider">FORM</div>
-      <form data-pl-form data-persona="brand">
-        <input type="hidden" name="type" value="demo">
+      <div class="pl-service-grid">
+        <div class="pl-service-card">
+          <span>01 QUESTION</span>
+          <strong>고객이 AI에게 묻는 질문을 찾습니다</strong>
+          <p>구매, 비교, 추천, 지역, 국가별 질문을 묶어 브랜드가 들어가야 할 답변 지점을 정합니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>02 SOURCE</span>
+          <strong>AI가 참고할 출처를 만듭니다</strong>
+          <p>공식 페이지, FAQ, 비교 콘텐츠, 리뷰, PR, 커뮤니티 답변형 콘텐츠를 설계합니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>03 CONTENT</span>
+          <strong>채널별 콘텐츠를 발행합니다</strong>
+          <p>웹·뉴스·SNS·YouTube·커뮤니티에 맞는 소재를 제작하고 배포합니다.</p>
+        </div>
+        <div class="pl-service-card">
+          <span>04 LEAD</span>
+          <strong>문의로 이어지는지 확인합니다</strong>
+          <p>픽셀 연동 시 방문 기업, 관심 페이지, 상담·예약 클릭 신호까지 함께 확인합니다.</p>
+        </div>
+      </div>
+      <div class="pl-service-note">
+        소개서에는 브랜드용 운영 프로세스, 월간 리포트 예시, 콘텐츠 산출물, KPI 설정 방식, 패키지 구성이 포함됩니다.
+      </div>
+      <div class="pl-service-actions">
+        <button type="button" class="pl-brochure-toggle" data-pl-show-form="brand">브랜드용 상세 소개서 받기</button>
+      </div>
+      <form data-pl-form data-persona="brand" class="pl-brochure-form">
+        <input type="hidden" name="type" value="brand-brochure">
         <input type="hidden" name="persona" value="brand">
+        <input type="hidden" name="service" value="브랜드 Full 스펙 AI 마케팅 집행">
+        <input type="hidden" name="request" value="브랜드용 상세 서비스 소개서 PDF 요청">
+        <div class="pl-section-divider full">FORM · 소개서 신청</div>
+        <div class="pl-form-help">신청이 들어오면 Slack으로 알림이 가고, 담당자가 브랜드용 PDF 소개서와 운영 상담 안내를 전달합니다.</div>
         <input type="text" name="company" placeholder="회사명" required autocomplete="organization">
         <input type="text" name="name" placeholder="담당자 이름" autocomplete="name">
         <input type="email" name="email" placeholder="이메일" required autocomplete="email">
         <input type="text" name="url" placeholder="회사 URL (선택)" autocomplete="url">
-        <input type="text" name="slot" class="full" placeholder="희망 미팅 시간대 (예: 평일 14~17시 / 5월 16일 오후)">
-        <textarea name="message" class="full" placeholder="문의 내용 (선택)" rows="2"></textarea>
+        <textarea name="message" class="full" placeholder="브랜드명, 목표 국가, 궁금한 AI 질문, 현재 고민을 알려주세요. (선택)" rows="3"></textarea>
         <button type="submit">
-          <span>30분 미팅 신청하기</span>
+          <span>상세 소개서 신청하기</span>
           <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </button>
         <div class="pl-modal-msg"></div>
@@ -3368,7 +3940,7 @@ body::before {
 
 <script>
 (function () {
-  const SUCCESS_MSG = '신청이 접수되었습니다. 영업일 1일 내 미팅 일정으로 회신드릴게요.';
+  const SUCCESS_MSG = '신청이 접수되었습니다. 담당자가 상세 소개서 PDF와 다음 안내를 보내드릴게요.';
   const ERROR_MSG   = '전송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.';
   const modal = document.getElementById('pl-modal');
   if (!modal) return;
@@ -3383,8 +3955,10 @@ body::before {
       if (view) view.classList.add('active');
     }
   }
-  function openModal() {
-    show(null);
+  function openModal(persona) {
+    show(persona || null);
+    modal.querySelectorAll('.pl-brochure-form.open').forEach((form) => form.classList.remove('open'));
+    modal.querySelectorAll('[data-pl-show-form]').forEach((button) => { button.style.display = ''; });
     modal.classList.add('open');
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -3397,7 +3971,11 @@ body::before {
 
   // Open from any [data-pl-open]
   document.querySelectorAll('[data-pl-open]').forEach((el) => {
-    el.addEventListener('click', (e) => { e.preventDefault(); openModal(); });
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const persona = el.dataset.plOpen === 'brand' || el.dataset.plOpen === 'agency' ? el.dataset.plOpen : null;
+      openModal(persona);
+    });
   });
   // Persona pick
   modal.querySelectorAll('[data-pl-persona]').forEach((btn) => {
@@ -3406,6 +3984,17 @@ body::before {
   // Back
   modal.querySelectorAll('[data-pl-back]').forEach((b) => {
     b.addEventListener('click', () => show(null));
+  });
+  modal.querySelectorAll('[data-pl-show-form]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const persona = button.dataset.plShowForm;
+      const form = modal.querySelector(`form[data-persona="${persona}"]`);
+      if (!form) return;
+      form.classList.add('open');
+      button.style.display = 'none';
+      const firstInput = form.querySelector('input[name="company"]');
+      if (firstInput) firstInput.focus();
+    });
   });
   // Close
   modal.addEventListener('click', (e) => {
