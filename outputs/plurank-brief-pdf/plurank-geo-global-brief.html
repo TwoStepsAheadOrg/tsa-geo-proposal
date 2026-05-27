@@ -1,0 +1,2908 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plurank GEO Global Brief</title>
+  <style>
+    @page {
+      size: 13.333in 7.5in;
+      margin: 0;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --bg: #050605;
+      --panel: #10110f;
+      --panel-2: #171814;
+      --line: rgba(255,255,255,.13);
+      --line-soft: rgba(255,255,255,.07);
+      --text: #f5f2ea;
+      --soft: rgba(245,242,234,.72);
+      --mute: rgba(245,242,234,.46);
+      --amber: #f5a400;
+      --green: #00e2a4;
+      --red: #ff3b30;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", sans-serif;
+      word-break: keep-all;
+      overflow-wrap: normal;
+      line-break: strict;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .slide {
+      position: relative;
+      width: 13.333in;
+      height: 7.5in;
+      padding: .54in .64in .48in;
+      overflow: hidden;
+      page-break-after: always;
+      background:
+        radial-gradient(circle at 78% 16%, rgba(245,164,0,.16), transparent 27%),
+        radial-gradient(circle at 12% 72%, rgba(0,226,164,.08), transparent 30%),
+        linear-gradient(135deg, #050605 0%, #0a0b09 58%, #050605 100%);
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.9), transparent 88%);
+    }
+
+    .content { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; }
+    .top { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: .34in; }
+    .logo { width: 1.55in; height: auto; object-fit: contain; }
+    .brand-stack { display: flex; flex-direction: column; align-items: flex-start; gap: .08in; }
+    .brand-owner {
+      color: var(--mute);
+      font-size: 10px;
+      letter-spacing: .08em;
+    }
+    .kicker {
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--mute);
+    }
+
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      max-width: 8.4in;
+      font-size: 54px;
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      font-weight: 760;
+    }
+    h2 {
+      max-width: 7.8in;
+      font-size: 42px;
+      line-height: 1.13;
+      letter-spacing: -0.035em;
+      font-weight: 760;
+    }
+    .lead {
+      margin-top: .28in;
+      max-width: 7.4in;
+      color: var(--soft);
+      font-size: 19px;
+      line-height: 1.58;
+      letter-spacing: -0.012em;
+    }
+    .accent { color: var(--amber); }
+    .green { color: var(--green); }
+    .red { color: var(--red); }
+    .small { font-size: 13px; line-height: 1.55; color: var(--mute); }
+
+    .hero-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1.04fr .96fr;
+      gap: .45in;
+      align-items: center;
+    }
+
+    .signal-box {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.025);
+      padding: .28in;
+      min-height: 4.45in;
+      position: relative;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.025);
+    }
+    .prompt {
+      border: 1px solid var(--line);
+      padding: .19in .22in;
+      color: var(--text);
+      font-size: 18px;
+      line-height: 1.45;
+      margin-bottom: .22in;
+      background: rgba(0,0,0,.18);
+    }
+    .signal-row {
+      display: grid;
+      grid-template-columns: 1.2in 1fr .5in;
+      gap: .14in;
+      align-items: center;
+      padding: .14in 0;
+      border-bottom: 1px solid var(--line-soft);
+      font-size: 14px;
+    }
+    .signal-row span:first-child {
+      color: var(--mute);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .signal-row strong { font-size: 15px; }
+    .signal-row em { color: var(--amber); font-style: normal; text-align: right; }
+    .answer-score {
+      position: absolute;
+      right: .26in;
+      bottom: .24in;
+      border: 1px solid rgba(245,164,0,.35);
+      background: rgba(245,164,0,.08);
+      padding: .16in .2in;
+      min-width: 1.72in;
+    }
+    .answer-score b { display: block; font-size: 32px; line-height: 1; }
+    .answer-score span { color: var(--soft); font-size: 12px; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .16in;
+      margin-top: .42in;
+    }
+    .metric {
+      border-top: 2px solid var(--amber);
+      padding-top: .16in;
+    }
+    .metric b { display: block; font-size: 34px; line-height: 1; letter-spacing: -0.03em; }
+    .metric span { display: block; margin-top: .08in; color: var(--soft); font-size: 13px; line-height: 1.4; }
+
+    .layer-grid {
+      margin-top: .42in;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      border: 1px solid var(--line);
+      background: var(--line);
+      gap: 1px;
+    }
+    .layer {
+      min-height: 2.35in;
+      background: rgba(255,255,255,.027);
+      padding: .18in .14in;
+    }
+    .layer b {
+      display: block;
+      color: var(--amber);
+      font-size: 21px;
+      margin-bottom: .18in;
+    }
+    .layer strong {
+      display: block;
+      font-size: 16px;
+      line-height: 1.25;
+      margin-bottom: .12in;
+    }
+    .layer span {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.48;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .26in;
+      margin-top: .38in;
+    }
+    .card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .3in;
+      min-height: 3.25in;
+    }
+    .card-label {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: .18in;
+    }
+    .card h3 {
+      font-size: 28px;
+      line-height: 1.17;
+      letter-spacing: -0.03em;
+      margin-bottom: .18in;
+    }
+    .card p { color: var(--soft); font-size: 16px; line-height: 1.58; }
+    .chips { display: flex; flex-wrap: wrap; gap: .08in; margin-top: .22in; }
+    .chip {
+      border: 1px solid var(--line);
+      color: var(--soft);
+      padding: .08in .12in;
+      font-size: 12px;
+      background: rgba(0,0,0,.16);
+    }
+
+    .agent {
+      margin-top: .24in;
+      min-height: 3.56in;
+      display: grid;
+      grid-template-columns: .98fr 1.04fr .98fr;
+      gap: .16in;
+      align-items: center;
+      position: relative;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: .12in;
+    }
+    .step {
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(255,255,255,.036), rgba(0,226,164,.026));
+      padding: .15in .16in;
+      min-height: .78in;
+      position: relative;
+    }
+    .step::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -.18in;
+      width: .18in;
+      border-top: 1px solid rgba(245,164,0,.45);
+    }
+    .steps.right .step::after {
+      left: -.18in;
+      right: auto;
+    }
+    .step b {
+      display: block;
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      margin-bottom: .07in;
+    }
+    .step strong { display: block; font-size: 16px; margin-bottom: .04in; }
+    .step span { display: block; color: var(--soft); font-size: 12px; line-height: 1.36; }
+    .output {
+      position: relative;
+      min-height: 3.38in;
+      border: 1px solid rgba(245,164,0,.42);
+      background:
+        radial-gradient(circle at 50% 40%, rgba(245,164,0,.18), transparent 48%),
+        linear-gradient(180deg, rgba(255,255,255,.04), rgba(0,226,164,.035));
+      padding: .28in;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 0 0 1px rgba(255,255,255,.03), 0 0 56px rgba(245,164,0,.08);
+    }
+    .output::before {
+      content: "PLURANK";
+      color: rgba(245,242,234,.08);
+      position: absolute;
+      top: .22in;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Verdana", sans-serif;
+      letter-spacing: .2em;
+      font-size: 12px;
+    }
+    .output h3 { font-size: 35px; line-height: 1.08; letter-spacing: -0.04em; max-width: 3.1in; }
+    .output p { margin-top: .18in; color: var(--soft); font-size: 15px; line-height: 1.5; max-width: 3.18in; }
+    .agent-badge {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: .14in;
+    }
+    .cta {
+      margin-top: .24in;
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: .1in;
+      padding: .13in .18in;
+      background: var(--text);
+      color: var(--bg);
+      font-size: 14px;
+      font-weight: 720;
+    }
+
+    .ops-grid {
+      margin-top: .34in;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1px;
+      border: 1px solid var(--line);
+      background: var(--line);
+    }
+    .ops-step {
+      min-height: 2.16in;
+      background: rgba(255,255,255,.027);
+      padding: .18in .14in;
+    }
+    .ops-step b {
+      display: block;
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      margin-bottom: .16in;
+    }
+    .ops-step strong {
+      display: block;
+      font-size: 15.5px;
+      line-height: 1.28;
+      margin-bottom: .1in;
+    }
+    .ops-step span {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .ops-step.china {
+      background: linear-gradient(160deg, rgba(255,59,48,.16), rgba(245,164,0,.06));
+      box-shadow: inset 0 0 0 1px rgba(255,59,48,.22);
+    }
+    .ops-step.china b { color: #ff6b63; }
+
+    .proof-grid {
+      margin-top: .34in;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .24in;
+    }
+    .proof-card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+      min-height: 3.24in;
+    }
+    .proof-card h3 {
+      font-size: 24px;
+      line-height: 1.16;
+      letter-spacing: -0.035em;
+      margin-bottom: .16in;
+    }
+    .proof-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: .12in;
+    }
+    .proof-stat {
+      border-top: 2px solid var(--amber);
+      padding-top: .1in;
+      min-height: .68in;
+    }
+    .proof-stat b {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .proof-stat span {
+      display: block;
+      margin-top: .07in;
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .proof-note {
+      margin-top: .12in;
+      color: var(--soft);
+      font-size: 11px;
+      line-height: 1.36;
+      border-top: 1px solid var(--line-soft);
+      padding-top: .1in;
+    }
+    .case-grid {
+      margin-top: .24in;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .18in;
+    }
+    .case-card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .18in;
+      min-height: 3.02in;
+      display: flex;
+      flex-direction: column;
+    }
+    .case-card h3 {
+      font-size: 22px;
+      line-height: 1.18;
+      letter-spacing: -0.035em;
+      margin-bottom: .1in;
+    }
+    .case-meta {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: .09in;
+    }
+    .case-block {
+      border-top: 1px solid var(--line-soft);
+      padding-top: .08in;
+      margin-top: .08in;
+    }
+    .case-block b {
+      display: block;
+      color: var(--text);
+      font-size: 13px;
+      margin-bottom: .04in;
+    }
+    .case-block span {
+      display: block;
+      color: var(--soft);
+      font-size: 11.2px;
+      line-height: 1.35;
+    }
+    .case-result {
+      margin-top: auto;
+      border: 1px solid rgba(245,164,0,.58);
+      background: linear-gradient(135deg, rgba(245,164,0,.18), rgba(0,224,167,.08));
+      padding: .1in .11in .11in;
+      color: var(--text);
+      font-size: 12.4px;
+      line-height: 1.26;
+      font-weight: 720;
+    }
+    .case-impact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .08in;
+      margin: .02in 0 .1in;
+    }
+    .case-impact div {
+      border-top: 2px solid var(--amber);
+      background: rgba(245,164,0,.07);
+      padding: .08in .08in .09in;
+      min-height: .58in;
+    }
+    .case-impact b {
+      display: block;
+      color: var(--text);
+      font-size: 22px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: .05in;
+    }
+    .case-impact span {
+      color: var(--soft);
+      font-size: 10.4px;
+      line-height: 1.25;
+      display: block;
+    }
+    .case-result strong {
+      color: var(--amber);
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .hospital-slide h2 {
+      max-width: 8.9in;
+      font-size: 43px;
+      line-height: 1.11;
+    }
+    .hospital-slide .lead {
+      max-width: 9.25in;
+      font-size: 17px;
+      line-height: 1.52;
+    }
+    .hospital-board {
+      margin-top: .34in;
+      display: grid;
+      grid-template-columns: 3.05in 1fr;
+      gap: .26in;
+      min-height: 3.55in;
+    }
+    .hospital-proof {
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(0,226,164,.07), rgba(255,255,255,.026));
+      padding: .24in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hospital-proof b {
+      display: block;
+      color: var(--amber);
+      font-size: 60px;
+      line-height: .94;
+      letter-spacing: -0.05em;
+      margin-bottom: .08in;
+    }
+    .hospital-proof strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.18;
+      letter-spacing: -0.035em;
+      margin-bottom: .08in;
+    }
+    .hospital-proof span,
+    .hospital-note {
+      display: block;
+      color: var(--soft);
+      font-size: 13px;
+      line-height: 1.42;
+    }
+    .hospital-tags {
+      display: grid;
+      gap: .08in;
+      margin-top: .2in;
+    }
+    .hospital-tag {
+      border-top: 2px solid var(--green);
+      background: rgba(0,226,164,.045);
+      padding: .1in;
+      color: var(--text);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+    .hospital-tag em {
+      display: block;
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-style: normal;
+      font-size: 10px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      margin-bottom: .04in;
+    }
+    .hospital-detail {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+    }
+    .logo-wall {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .12in;
+      margin-bottom: .18in;
+    }
+    .partner-logo {
+      min-height: .86in;
+      border: 1px solid var(--line-soft);
+      background: rgba(255,255,255,.92);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .12in;
+      color: #171814;
+      font-size: 15px;
+      font-weight: 760;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .partner-logo img {
+      max-width: 100%;
+      max-height: .48in;
+      object-fit: contain;
+    }
+    .hospital-flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .1in;
+      margin-top: .18in;
+    }
+    .hospital-step {
+      border-top: 2px solid var(--amber);
+      padding-top: .1in;
+    }
+    .hospital-step b {
+      display: block;
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      margin-bottom: .08in;
+    }
+    .hospital-step strong {
+      display: block;
+      font-size: 17px;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      margin-bottom: .05in;
+    }
+    .hospital-step span {
+      display: block;
+      color: var(--soft);
+      font-size: 11.2px;
+      line-height: 1.35;
+    }
+
+    .growth-wrap {
+      margin-top: .22in;
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      gap: .25in;
+      align-items: stretch;
+    }
+    .growth-panel {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+      min-height: 3.12in;
+    }
+    .growth-panel h3 {
+      font-size: 23px;
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+      margin-bottom: .15in;
+    }
+    .growth-kpis {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .1in;
+      margin-top: .12in;
+    }
+    .growth-kpi {
+      border-top: 2px solid var(--amber);
+      background: rgba(245,164,0,.06);
+      padding: .11in .11in;
+      min-height: .72in;
+    }
+    .growth-kpi b {
+      display: block;
+      font-size: 28px;
+      line-height: 1;
+      letter-spacing: -0.035em;
+    }
+    .growth-kpi span {
+      display: block;
+      margin-top: .05in;
+      color: var(--soft);
+      font-size: 10.8px;
+      line-height: 1.34;
+    }
+    .bar-chart {
+      margin-top: .06in;
+      display: flex;
+      flex-direction: column;
+      gap: .12in;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 1.15in 1fr .82in;
+      gap: .12in;
+      align-items: center;
+    }
+    .bar-label b { display: block; font-size: 15px; }
+    .bar-label span { display: block; color: var(--mute); font-size: 10px; margin-top: .03in; }
+    .bar-track {
+      height: .38in;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line-soft);
+      position: relative;
+      overflow: hidden;
+    }
+    .bar-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, var(--amber), #ffcf5a);
+    }
+    .bar-fill.green { background: linear-gradient(90deg, var(--green), #68ffd6); }
+    .bar-fill.outline {
+      background: linear-gradient(90deg, rgba(245,164,0,.22), rgba(0,226,164,.18));
+      border-right: 2px solid var(--green);
+    }
+    .bar-value { color: var(--text); font-size: 18px; font-weight: 760; text-align: right; }
+    .pipeline-table {
+      margin-top: .14in;
+      border: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background: var(--line);
+      gap: 1px;
+    }
+    .pipeline-cell {
+      background: rgba(255,255,255,.03);
+      padding: .1in;
+      min-height: .68in;
+    }
+    .pipeline-cell b { display: block; color: var(--amber); font-size: 18px; line-height: 1; }
+    .pipeline-cell span { display: block; color: var(--soft); font-size: 10px; line-height: 1.28; margin-top: .05in; }
+    .growth-note {
+      margin-top: .1in;
+      color: var(--mute);
+      font-size: 9.8px;
+      line-height: 1.38;
+    }
+
+    .journey-slide h2 {
+      max-width: 9.25in;
+      font-size: 42px;
+      line-height: 1.11;
+    }
+    .journey-slide .lead {
+      max-width: 9.2in;
+      font-size: 16.8px;
+      line-height: 1.5;
+      margin-top: .2in;
+    }
+    .journey-board {
+      margin-top: .28in;
+      display: grid;
+      grid-template-columns: 3.05in 1fr;
+      gap: .24in;
+      min-height: 3.62in;
+    }
+    .journey-context {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .24in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .journey-context b {
+      display: block;
+      color: var(--amber);
+      font-size: 48px;
+      line-height: .98;
+      letter-spacing: -0.045em;
+      margin-bottom: .1in;
+    }
+    .journey-context strong {
+      display: block;
+      font-size: 23px;
+      line-height: 1.18;
+      letter-spacing: -0.035em;
+      margin-bottom: .12in;
+    }
+    .journey-context span {
+      display: block;
+      color: var(--soft);
+      font-size: 12.8px;
+      line-height: 1.42;
+    }
+    .journey-chips {
+      display: grid;
+      gap: .08in;
+      margin-top: .2in;
+    }
+    .journey-chip {
+      border-top: 2px solid var(--green);
+      background: rgba(0,226,164,.045);
+      padding: .09in;
+      font-size: 12.5px;
+      line-height: 1.34;
+      color: var(--soft);
+    }
+    .journey-chip em {
+      display: block;
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      font-style: normal;
+      margin-bottom: .04in;
+    }
+    .journey-map {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+    }
+    .journey-lanes {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: .08in;
+      margin-bottom: .16in;
+    }
+    .lane {
+      min-height: 1.36in;
+      border: 1px solid var(--line-soft);
+      background: rgba(255,255,255,.03);
+      padding: .12in;
+      position: relative;
+    }
+    .lane::after {
+      content: "→";
+      position: absolute;
+      right: -.12in;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--amber);
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .lane:last-child::after { content: ""; }
+    .lane b {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .lane strong {
+      display: block;
+      margin-top: .08in;
+      font-size: 17px;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+    }
+    .lane span {
+      display: block;
+      margin-top: .06in;
+      color: var(--soft);
+      font-size: 10.6px;
+      line-height: 1.33;
+    }
+    .journey-data {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .09in;
+      border-top: 1px solid var(--line-soft);
+      padding-top: .16in;
+    }
+    .journey-data div {
+      border-top: 2px solid var(--amber);
+      padding-top: .08in;
+    }
+    .journey-data b {
+      display: block;
+      font-size: 16px;
+      margin-bottom: .04in;
+    }
+    .journey-data span {
+      display: block;
+      color: var(--soft);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .growth-slide {
+      background:
+        radial-gradient(circle at 78% 16%, rgba(245,164,0,.16), transparent 27%),
+        radial-gradient(circle at 12% 72%, rgba(0,226,164,.08), transparent 30%),
+        linear-gradient(135deg, #050605 0%, #0a0b09 58%, #050605 100%);
+      color: var(--text);
+      padding: .54in .64in .48in;
+    }
+    .growth-slide::before {
+      display: block;
+    }
+    .growth-slide .content {
+      display: block;
+    }
+    .growth-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #dedbd2;
+      padding-bottom: .17in;
+      margin-bottom: .22in;
+      color: #111;
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .growth-kicker {
+      display: flex;
+      align-items: center;
+      gap: .08in;
+      color: var(--mute);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .growth-kicker::before {
+      content: "";
+      width: .05in;
+      height: .05in;
+      background: var(--amber);
+      display: inline-block;
+    }
+    .growth-slide h2 {
+      max-width: 7.4in;
+      font-size: 40px;
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      color: var(--text);
+    }
+    .growth-stage {
+      margin-top: .3in;
+      display: grid;
+      grid-template-columns: 7.4in 3.55in;
+      gap: .56in;
+      align-items: start;
+    }
+    .curve-area {
+      position: relative;
+      height: 4.64in;
+    }
+    .growth-copy {
+      position: absolute;
+      left: .78in;
+      top: .46in;
+      z-index: 2;
+      color: var(--text);
+      font-size: 22px;
+      line-height: 1.85;
+      letter-spacing: -0.02em;
+    }
+    .growth-copy b {
+      font-size: 36px;
+      letter-spacing: -0.045em;
+      margin-right: .1in;
+    }
+    .growth-copy mark {
+      color: var(--text);
+      background: linear-gradient(transparent 58%, rgba(245,164,0,.48) 58%);
+      padding: 0 .02in;
+    }
+    .curve-svg {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 7.2in;
+      height: 4.38in;
+      overflow: visible;
+    }
+    .curve-label {
+      position: absolute;
+      color: var(--mute);
+      font-size: 13px;
+      line-height: 1.22;
+      letter-spacing: .02em;
+    }
+    .curve-label b {
+      display: block;
+      color: var(--text);
+      font-size: 20px;
+      letter-spacing: -0.025em;
+      line-height: 1.05;
+    }
+    .curve-label.start { left: .05in; bottom: .03in; }
+    .curve-label.mid { right: 1.72in; top: 1.82in; text-align: center; }
+    .curve-label.end { right: .28in; top: -.08in; text-align: center; }
+    .timeline {
+      border-left: 1px solid var(--line);
+      margin-top: .2in;
+      padding-left: .23in;
+      min-height: 4.34in;
+      position: relative;
+    }
+    .timeline-title {
+      color: var(--mute);
+      font-family: "Verdana", sans-serif;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: .22in;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: .27in;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -.285in;
+      top: .04in;
+      width: .1in;
+      height: .1in;
+      border-radius: 50%;
+      background: #b9b7b1;
+    }
+    .timeline-item.hot::before {
+      background: var(--amber);
+      box-shadow: 0 0 18px rgba(245,164,0,.32);
+    }
+    .timeline-item b {
+      display: block;
+      color: var(--mute);
+      font-family: "Verdana", sans-serif;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: .04in;
+    }
+    .timeline-item strong {
+      display: inline;
+      color: var(--text);
+      font-size: 19px;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      background: linear-gradient(transparent 62%, rgba(245,164,0,.34) 62%);
+    }
+    .timeline-item span {
+      display: block;
+      color: var(--soft);
+      margin-top: .07in;
+      font-size: 11.5px;
+      line-height: 1.35;
+    }
+    .growth-slide .footer {
+      color: var(--mute);
+    }
+
+    .engine-slide .content { display: flex; flex-direction: column; }
+    .engine-slide h2 {
+      max-width: 8.7in;
+      font-size: 42px;
+      line-height: 1.12;
+      letter-spacing: -0.038em;
+    }
+    .engine-slide .lead {
+      margin-top: .16in;
+      max-width: 8.9in;
+      font-size: 16.5px;
+      line-height: 1.5;
+    }
+    .engine-board {
+      margin-top: .28in;
+      display: grid;
+      grid-template-columns: 2.75in 1fr;
+      gap: .28in;
+      min-height: 3.42in;
+    }
+    .engine-panel {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .2in;
+      position: relative;
+      overflow: hidden;
+    }
+    .engine-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 18% 20%, rgba(245,164,0,.08), transparent 42%);
+      pointer-events: none;
+    }
+    .engine-panel > * { position: relative; z-index: 1; }
+    .engine-label {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: .16in;
+    }
+    .engine-big {
+      font-size: 54px;
+      line-height: .95;
+      letter-spacing: -0.045em;
+      font-weight: 780;
+      margin-bottom: .08in;
+    }
+    .engine-caption {
+      color: var(--soft);
+      font-size: 13px;
+      line-height: 1.42;
+    }
+    .engine-kpis {
+      margin-top: .18in;
+      display: grid;
+      gap: .1in;
+    }
+    .engine-kpi {
+      border-top: 2px solid var(--amber);
+      background: rgba(245,164,0,.055);
+      padding: .11in;
+    }
+    .engine-kpi b {
+      display: block;
+      font-size: 25px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .engine-kpi span {
+      display: block;
+      margin-top: .06in;
+      color: var(--soft);
+      font-size: 11.5px;
+      line-height: 1.3;
+    }
+    .engine-core {
+      border: 1px solid rgba(245,164,0,.42);
+      background:
+        radial-gradient(circle at 50% 36%, rgba(245,164,0,.12), transparent 42%),
+        rgba(255,255,255,.025);
+      padding: .22in;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: .16in;
+    }
+    .engine-core-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .18in;
+      border-bottom: 1px solid var(--line-soft);
+      padding-bottom: .13in;
+    }
+    .engine-core-title strong {
+      display: block;
+      font-size: 24px;
+      letter-spacing: -0.035em;
+      line-height: 1.14;
+    }
+    .engine-core-title span {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .engine-motion {
+      display: grid;
+      grid-template-columns: 1fr .24in 1fr;
+      gap: .1in;
+      align-items: stretch;
+    }
+    .motion-card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      padding: .16in;
+      min-height: 1.28in;
+    }
+    .motion-card b {
+      display: block;
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: .09in;
+    }
+    .motion-card strong {
+      display: block;
+      font-size: 18px;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+      margin-bottom: .07in;
+    }
+    .motion-card span {
+      display: block;
+      color: var(--soft);
+      font-size: 11.4px;
+      line-height: 1.38;
+    }
+    .motion-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--amber);
+      font-size: 24px;
+      font-weight: 800;
+    }
+    .engine-loop {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .08in;
+    }
+    .engine-loop div {
+      border-top: 2px solid var(--green);
+      padding-top: .08in;
+      color: var(--soft);
+      font-size: 11px;
+      line-height: 1.25;
+    }
+    .engine-loop b {
+      display: block;
+      color: var(--text);
+      font-size: 13px;
+      margin-bottom: .04in;
+    }
+    .pipeline-panel {
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(245,164,0,.075), rgba(255,255,255,.025));
+      padding: .2in;
+    }
+    .pipeline-total {
+      margin-top: .04in;
+      border-bottom: 1px solid var(--line-soft);
+      padding-bottom: .16in;
+    }
+    .pipeline-total b {
+      display: block;
+      color: var(--amber);
+      font-size: 56px;
+      line-height: .94;
+      letter-spacing: -0.045em;
+    }
+    .pipeline-total span {
+      display: block;
+      margin-top: .08in;
+      color: var(--soft);
+      font-size: 13px;
+    }
+    .pipeline-split {
+      margin-top: .16in;
+      display: grid;
+      gap: .1in;
+    }
+    .pipeline-row {
+      display: grid;
+      grid-template-columns: .82in 1fr;
+      gap: .1in;
+      align-items: center;
+    }
+    .pipeline-row b {
+      color: var(--text);
+      font-size: 19px;
+      letter-spacing: -0.03em;
+    }
+    .pipeline-bar {
+      height: .25in;
+      border: 1px solid var(--line-soft);
+      background: rgba(255,255,255,.05);
+      position: relative;
+    }
+    .pipeline-bar span {
+      position: absolute;
+      inset: 0 auto 0 0;
+      background: linear-gradient(90deg, var(--amber), rgba(0,226,164,.72));
+    }
+    .pipeline-note {
+      margin-top: .16in;
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .footer {
+      position: absolute;
+      left: .64in;
+      right: .64in;
+      bottom: .25in;
+      display: flex;
+      justify-content: space-between;
+      color: var(--mute);
+      font-family: "Verdana", sans-serif;
+      font-size: 9px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+
+    .appendix-slide h2 {
+      max-width: 9.1in;
+      font-size: 42px;
+      line-height: 1.11;
+    }
+    .appendix-slide .lead {
+      max-width: 9.2in;
+      font-size: 16.5px;
+      line-height: 1.5;
+      margin-top: .18in;
+    }
+    .appendix-grid {
+      margin-top: .28in;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: .24in;
+      min-height: 3.9in;
+    }
+    .monitor-grid {
+      margin-top: .25in;
+      display: grid;
+      grid-template-columns: 7.35in 1fr;
+      gap: .22in;
+      min-height: 3.95in;
+      align-items: stretch;
+    }
+    .monitor-shot {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.96);
+      padding: .08in;
+      box-shadow: 0 18px 60px rgba(0,0,0,.24);
+      overflow: hidden;
+    }
+    .monitor-shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left;
+      display: block;
+    }
+    .data-panel {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .2in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .data-fields {
+      display: grid;
+      gap: .08in;
+    }
+    .data-field {
+      border-top: 2px solid var(--amber);
+      padding-top: .08in;
+    }
+    .data-field b {
+      display: block;
+      font-size: 15px;
+      line-height: 1.15;
+      margin-bottom: .04in;
+    }
+    .data-field span {
+      display: block;
+      color: var(--soft);
+      font-size: 11.5px;
+      line-height: 1.35;
+    }
+    .export-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .08in;
+      margin-top: .14in;
+    }
+    .export-row span {
+      border: 1px solid var(--line-soft);
+      background: rgba(255,255,255,.04);
+      padding: .08in;
+      color: var(--text);
+      font-size: 12px;
+      text-align: center;
+      font-weight: 720;
+    }
+    .demo-page {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      color: #171814;
+      padding: .22in;
+      box-shadow: 0 18px 60px rgba(0,0,0,.24);
+      overflow: hidden;
+    }
+    .demo-page.dark {
+      background: rgba(255,255,255,.028);
+      color: var(--text);
+    }
+    .demo-eyebrow {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: .11in;
+    }
+    .demo-page h3 {
+      font-size: 27px;
+      line-height: 1.14;
+      letter-spacing: -0.035em;
+      margin-bottom: .12in;
+    }
+    .demo-page p {
+      color: rgba(23,24,20,.72);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .demo-page.dark p { color: var(--soft); }
+    .answer-block {
+      margin-top: .16in;
+      border-left: 4px solid var(--amber);
+      background: rgba(245,164,0,.08);
+      padding: .12in .14in;
+      font-size: 13px;
+      line-height: 1.48;
+    }
+    .faq-list {
+      margin-top: .15in;
+      display: grid;
+      gap: .08in;
+    }
+    .faq-item {
+      border-top: 1px solid rgba(23,24,20,.14);
+      padding-top: .08in;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .faq-item b {
+      display: block;
+      color: #171814;
+      margin-bottom: .03in;
+    }
+    .demo-side {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+    }
+    .deliverable-list {
+      display: grid;
+      gap: .11in;
+      margin-top: .04in;
+    }
+    .deliverable {
+      border-top: 2px solid var(--amber);
+      padding-top: .09in;
+    }
+    .deliverable b {
+      display: block;
+      font-size: 17px;
+      line-height: 1.2;
+      margin-bottom: .04in;
+    }
+    .deliverable span {
+      display: block;
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.38;
+    }
+    .phone-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .14in;
+      margin-top: .28in;
+    }
+    .phone-card {
+      min-height: 3.8in;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      color: #171814;
+      padding: .15in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .phone-card .platform {
+      color: #8a5c00;
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: .1in;
+    }
+    .phone-card h3 {
+      font-size: 20px;
+      line-height: 1.16;
+      letter-spacing: -0.035em;
+    }
+    .phone-card p {
+      margin-top: .1in;
+      color: rgba(23,24,20,.7);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .phone-snippets {
+      display: grid;
+      gap: .06in;
+      margin-top: .16in;
+    }
+    .phone-snippets span {
+      border-left: 3px solid var(--amber);
+      background: rgba(245,164,0,.07);
+      padding: .06in .08in;
+      color: rgba(23,24,20,.76);
+      font-size: 11.2px;
+      line-height: 1.32;
+    }
+    .social-metric {
+      border-top: 1px solid rgba(23,24,20,.16);
+      padding-top: .1in;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .08in;
+      font-size: 11px;
+      color: rgba(23,24,20,.62);
+    }
+    .social-metric b {
+      display: block;
+      color: #171814;
+      font-size: 17px;
+      line-height: 1;
+    }
+    .calendar-grid {
+      margin-top: .28in;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: .24in;
+    }
+    .week-board {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .22in;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .1in;
+    }
+    .week {
+      border-top: 2px solid var(--green);
+      padding-top: .1in;
+      min-height: 3.24in;
+    }
+    .week b {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .week strong {
+      display: block;
+      margin-top: .08in;
+      font-size: 18px;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+    }
+    .week span {
+      display: block;
+      margin-top: .08in;
+      color: var(--soft);
+      font-size: 11.5px;
+      line-height: 1.4;
+    }
+    .report-card {
+      border: 1px solid rgba(245,164,0,.44);
+      background: linear-gradient(145deg, rgba(245,164,0,.08), rgba(255,255,255,.026));
+      padding: .22in;
+    }
+    .score-line {
+      display: grid;
+      grid-template-columns: .92in 1fr;
+      gap: .12in;
+      align-items: center;
+      margin: .16in 0;
+    }
+    .score-line b {
+      color: var(--amber);
+      font-size: 36px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .score-line span {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .mini-bar {
+      height: .19in;
+      border: 1px solid var(--line-soft);
+      background: rgba(255,255,255,.05);
+      position: relative;
+    }
+    .mini-bar i {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 74%;
+      background: linear-gradient(90deg, var(--amber), var(--green));
+    }
+
+    .narka-slide h2 {
+      max-width: 9.45in;
+      font-size: 40px;
+    }
+    .narka-slide .lead {
+      max-width: 9.35in;
+      font-size: 16px;
+      line-height: 1.48;
+    }
+    .narka-evidence-grid {
+      margin-top: .24in;
+      display: grid;
+      grid-template-columns: 4.18in 1fr;
+      gap: .22in;
+      min-height: 3.96in;
+    }
+    .narka-visual {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      position: relative;
+      overflow: hidden;
+      min-height: 3.96in;
+      box-shadow: 0 18px 60px rgba(0,0,0,.24);
+    }
+    .narka-visual::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.12), rgba(0,0,0,.62));
+    }
+    .narka-visual .brand-photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .narka-logo-card {
+      position: absolute;
+      left: .2in;
+      top: .2in;
+      z-index: 2;
+      width: 1.55in;
+      background: rgba(255,255,255,.95);
+      padding: .12in .16in;
+    }
+    .narka-logo-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .narka-tags {
+      position: absolute;
+      left: .2in;
+      right: .2in;
+      bottom: .18in;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .08in;
+    }
+    .narka-tags span {
+      border: 1px solid rgba(255,255,255,.3);
+      background: rgba(0,0,0,.34);
+      padding: .08in;
+      color: var(--text);
+      font-family: "Verdana", sans-serif;
+      font-size: 9.5px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .narka-proof-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .12in;
+    }
+    .narka-proof {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .17in;
+      min-height: 1.88in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .narka-proof b {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .narka-proof strong {
+      display: block;
+      margin-top: .08in;
+      font-size: 21px;
+      line-height: 1.16;
+      letter-spacing: -0.035em;
+    }
+    .narka-proof span {
+      display: block;
+      margin-top: .08in;
+      color: var(--soft);
+      font-size: 12.2px;
+      line-height: 1.38;
+    }
+    .narka-pilot-grid {
+      margin-top: .21in;
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap: .22in;
+      min-height: 3.33in;
+    }
+    .narka-query-board,
+    .narka-track {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .17in;
+    }
+    .narka-query-board {
+      display: grid;
+      gap: .1in;
+    }
+    .narka-query {
+      display: grid;
+      grid-template-columns: .7in 1fr;
+      gap: .1in;
+      align-items: start;
+      border-top: 1px solid var(--line-soft);
+      padding-top: .08in;
+    }
+    .narka-query:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .narka-query em {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-style: normal;
+    }
+    .narka-query strong {
+      display: block;
+      font-size: 16.5px;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+    }
+    .narka-query span {
+      display: block;
+      margin-top: .035in;
+      color: var(--soft);
+      font-size: 10.7px;
+      line-height: 1.35;
+    }
+    .narka-track {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: .075in;
+    }
+    .narka-track-step {
+      display: grid;
+      grid-template-columns: .46in 1fr;
+      gap: .12in;
+      align-items: start;
+      border-top: 2px solid var(--amber);
+      padding-top: .07in;
+    }
+    .narka-track-step b {
+      color: var(--amber);
+      font-size: 25px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .narka-track-step strong {
+      display: block;
+      font-size: 16.5px;
+      line-height: 1.16;
+      letter-spacing: -0.03em;
+    }
+    .narka-track-step span {
+      display: block;
+      margin-top: .035in;
+      color: var(--soft);
+      font-size: 10.6px;
+      line-height: 1.35;
+    }
+    .narka-ask-strip {
+      margin-top: .09in;
+      border: 1px solid rgba(0,226,164,.3);
+      background: rgba(0,226,164,.06);
+      padding: .075in .14in;
+      display: grid;
+      grid-template-columns: 1.05in 1fr;
+      gap: .14in;
+      align-items: center;
+    }
+    .narka-ask-strip b {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .narka-ask-strip span {
+      color: var(--soft);
+      font-size: 11.6px;
+      line-height: 1.38;
+    }
+    .narka-position-grid {
+      margin-top: .24in;
+      display: grid;
+      grid-template-columns: 3.8in 1fr;
+      gap: .22in;
+      min-height: 3.56in;
+    }
+    .narka-product-stage {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .18in;
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: .12in;
+    }
+    .narka-product-stage::after {
+      content: "";
+      position: absolute;
+      inset: auto -.4in -.8in auto;
+      width: 2.6in;
+      height: 2.6in;
+      border: 1px solid rgba(0,226,164,.24);
+      border-radius: 50%;
+    }
+    .narka-product-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .18in;
+      position: relative;
+      z-index: 1;
+    }
+    .narka-product-head img {
+      width: 1.25in;
+      background: rgba(255,255,255,.95);
+      padding: .1in .12in;
+    }
+    .narka-product-head span {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.35;
+      text-align: right;
+    }
+    .narka-product-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .1in;
+      position: relative;
+      z-index: 1;
+      align-items: stretch;
+    }
+    .narka-product-card {
+      background: rgba(255,255,255,.94);
+      min-height: 2.12in;
+      padding: .12in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #171814;
+    }
+    .narka-product-card img {
+      width: 100%;
+      height: 1.4in;
+      object-fit: contain;
+      display: block;
+    }
+    .narka-product-card b {
+      display: block;
+      font-size: 11.6px;
+      line-height: 1.18;
+      letter-spacing: -0.02em;
+    }
+    .narka-question-cloud {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .05in;
+    }
+    .narka-question-cloud span {
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(0,0,0,.2);
+      color: var(--soft);
+      font-size: 9.8px;
+      padding: .04in .065in;
+    }
+    .narka-pillar-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .12in;
+    }
+    .narka-pillar {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .18in;
+      min-height: 3.56in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .narka-pillar b {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .narka-pillar strong {
+      display: block;
+      margin-top: .12in;
+      font-size: 23px;
+      line-height: 1.13;
+      letter-spacing: -0.035em;
+    }
+    .narka-pillar span {
+      display: block;
+      margin-top: .12in;
+      color: var(--soft);
+      font-size: 12.2px;
+      line-height: 1.4;
+    }
+    .narka-pillar em {
+      display: block;
+      color: var(--green);
+      font-style: normal;
+      font-size: 12px;
+      line-height: 1.35;
+      margin-top: .18in;
+      padding-top: .11in;
+      border-top: 1px solid var(--line-soft);
+    }
+    .narka-market-grid {
+      margin-top: .23in;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .12in;
+    }
+    .narka-market {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .16in;
+      min-height: 3.85in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .narka-market b {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .narka-market strong {
+      display: block;
+      margin-top: .1in;
+      font-size: 21px;
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+    .narka-market span {
+      display: block;
+      margin-top: .11in;
+      color: var(--soft);
+      font-size: 11.4px;
+      line-height: 1.36;
+    }
+    .narka-market ul {
+      list-style: none;
+      padding: 0;
+      margin: .14in 0 0;
+      display: grid;
+      gap: .07in;
+    }
+    .narka-market li {
+      border-left: 3px solid var(--amber);
+      padding-left: .08in;
+      color: var(--soft);
+      font-size: 10.8px;
+      line-height: 1.34;
+    }
+    .narka-package-grid {
+      margin-top: .24in;
+      display: grid;
+      grid-template-columns: .98fr 1.02fr;
+      gap: .22in;
+      min-height: 3.7in;
+    }
+    .narka-deliverables {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .2in;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .12in;
+    }
+    .narka-deliverable {
+      border-top: 2px solid var(--green);
+      padding-top: .09in;
+    }
+    .narka-deliverable b {
+      display: block;
+      font-size: 18px;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+    }
+    .narka-deliverable span {
+      display: block;
+      margin-top: .06in;
+      color: var(--soft);
+      font-size: 11.2px;
+      line-height: 1.36;
+    }
+    .narka-meeting-card {
+      border: 1px solid rgba(245,164,0,.44);
+      background: linear-gradient(145deg, rgba(245,164,0,.08), rgba(255,255,255,.026));
+      padding: .22in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .narka-meeting-card h3 {
+      font-size: 30px;
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+    .narka-meeting-list {
+      display: grid;
+      gap: .09in;
+      margin-top: .18in;
+    }
+    .narka-meeting-item {
+      display: grid;
+      grid-template-columns: 1.1in 1fr;
+      gap: .12in;
+      border-top: 1px solid var(--line-soft);
+      padding-top: .08in;
+    }
+    .narka-meeting-item b {
+      color: var(--amber);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .narka-meeting-item span {
+      color: var(--soft);
+      font-size: 11.8px;
+      line-height: 1.36;
+    }
+    .prika-grid {
+      margin-top: .24in;
+      display: grid;
+      grid-template-columns: 4.28in 1fr;
+      gap: .22in;
+      min-height: 3.7in;
+    }
+    .prika-proof-shot {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      padding: .1in;
+      color: #171814;
+      box-shadow: 0 18px 60px rgba(0,0,0,.24);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .prika-proof-shot img {
+      width: 100%;
+      height: 2.62in;
+      object-fit: cover;
+      object-position: top left;
+      display: block;
+      border: 1px solid rgba(23,24,20,.12);
+    }
+    .prika-proof-caption {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: .06in;
+      margin-top: .1in;
+    }
+    .prika-proof-caption span {
+      border-top: 2px solid #f1e96a;
+      padding-top: .06in;
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      font-weight: 760;
+    }
+    .prika-channel-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .12in;
+    }
+    .prika-channel {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.027);
+      padding: .17in;
+      min-height: 2.85in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .prika-channel b {
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .prika-channel strong {
+      display: block;
+      margin-top: .09in;
+      font-size: 22px;
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+    .prika-channel span {
+      display: block;
+      margin-top: .1in;
+      color: var(--soft);
+      font-size: 11.2px;
+      line-height: 1.36;
+    }
+    .prika-channel em {
+      display: block;
+      color: var(--amber);
+      font-style: normal;
+      font-size: 12px;
+      line-height: 1.28;
+      border-top: 1px solid var(--line-soft);
+      padding-top: .08in;
+      margin-top: .16in;
+    }
+    .prika-model-strip {
+      margin-top: .13in;
+      border: 1px solid rgba(0,226,164,.3);
+      background: rgba(0,226,164,.06);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      overflow: hidden;
+    }
+    .prika-model-strip div {
+      padding: .1in .12in;
+      background: rgba(0,0,0,.1);
+    }
+    .prika-model-strip b {
+      display: block;
+      color: var(--green);
+      font-family: "Verdana", sans-serif;
+      font-size: 10px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      margin-bottom: .04in;
+    }
+    .prika-model-strip span {
+      color: var(--soft);
+      font-size: 11.4px;
+      line-height: 1.34;
+    }
+
+  </style>
+</head>
+<body>
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <div class="brand-stack">
+          <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+          <div class="brand-owner">운영사 · 주식회사 투스텝스어헤드</div>
+        </div>
+        <div class="kicker">AI Discovery AdTech · Global GEO Brief</div>
+      </div>
+      <div class="hero-grid">
+        <div>
+          <h1>AI가 답할 때, 브랜드는 <span class="accent">국경 밖에서도</span> 발견되어야 합니다.</h1>
+          <p class="lead">
+            검색 결과의 순위만으로는 더 이상 발견을 설명하기 어렵습니다.
+            사용자는 ChatGPT, Gemini, Perplexity, Google AI에 묻고,
+            AI는 여러 국가와 여러 채널의 출처를 조합해 답합니다.
+          </p>
+          <div class="metrics">
+            <div class="metric"><b>25%</b><span>Gartner는 2026년 전통 검색량 감소를 예측했습니다.</span></div>
+            <div class="metric"><b>1,200%</b><span>Adobe는 미국 리테일 사이트의 GenAI 유입 급증을 관측했습니다.</span></div>
+            <div class="metric"><b>65-85%</b><span>Semrush는 ChatGPT 프롬프트 다수가 기존 검색어와 다르다고 봅니다.</span></div>
+          </div>
+        </div>
+        <div class="signal-box">
+          <div class="prompt">"한국에서 믿을 만한 스킨케어 브랜드를 추천해줘"</div>
+          <div class="signal-row"><span>Owned</span><strong>Website · FAQ · 비교 페이지</strong><em>82%</em></div>
+          <div class="signal-row"><span>Earned</span><strong>News · Review · Publisher</strong><em>76%</em></div>
+          <div class="signal-row"><span>Social</span><strong>YouTube · Instagram · Threads</strong><em>61%</em></div>
+          <div class="signal-row"><span>Community</span><strong>Reddit · Quora · Wiki · Cafe</strong><em>68%</em></div>
+          <div class="answer-score"><b>AI Answer</b><span>브랜드 선택은 출처의 조합에서 시작됩니다.</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Plurank · TwoStepsAhead Co., Ltd.</span><span>01 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Why Global GEO</div>
+      </div>
+      <h2>AI 검색은 로컬 검색이 아니라, <span class="accent">글로벌 답변 시장</span>입니다.</h2>
+      <p class="lead">
+        같은 질문도 국가, 언어, 플랫폼, 출처에 따라 답이 달라집니다.
+        브랜드가 한 국가의 검색 결과에만 머무르면, AI 답변 안에서는 경쟁사나 글로벌 출처가 먼저 선택될 수 있습니다.
+      </p>
+      <div class="split">
+        <div class="card">
+          <div class="card-label">Market Shift</div>
+          <h3>사용자는 키워드보다 질문으로 움직입니다.</h3>
+          <p>AI 프롬프트는 기존 검색어와 다릅니다. 구매, 비교, 추천, 여행, 금융처럼 고민이 긴 영역일수록 AI가 먼저 의사결정 후보군을 만듭니다.</p>
+          <div class="chips">
+            <span class="chip">Recommendation</span><span class="chip">Comparison</span><span class="chip">Research</span><span class="chip">Decision</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-label">Global Execution</div>
+          <h3>출처는 한 사이트가 아니라 여러 시장에 흩어져 있습니다.</h3>
+          <p>공식 웹사이트, 뉴스, SNS, 영상, 커뮤니티, 리뷰, 현지 언어 콘텐츠가 함께 작동합니다. 그래서 GEO는 처음부터 글로벌 데이터와 실행 체계가 필요합니다.</p>
+          <div class="chips">
+            <span class="chip">Korea</span><span class="chip">Japan</span><span class="chip">US</span><span class="chip">China</span><span class="chip">Multi-language</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Search is fragmenting into answers</span><span>02 / 18</span></div>
+  </section>
+
+  <section class="slide journey-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">AI-Era Customer Decision Journey</div>
+      </div>
+      <h2>AI 플랫폼 등장 이후, 구매여정 분석은 <span class="accent">더 넓은 데이터 문제</span>가 됐습니다.</h2>
+      <p class="lead">
+        기존 CDJ는 검색어 흐름으로 문제 인식부터 구매 이후까지의 의도를 읽었습니다.
+        이제 사용자는 검색창뿐 아니라 ChatGPT, Gemini, Perplexity, Google AI에 질문하고, AI는 국가별 언어와 여러 출처를 묶어 답을 만듭니다.
+      </p>
+      <div class="journey-board">
+        <div class="journey-context">
+          <div>
+            <b>CDJ+</b>
+            <strong>검색어 여정에서 AI 답변 여정으로 확장</strong>
+            <span>구매여정은 더 이상 키워드 목록만으로 설명되지 않습니다. 질문, 답변, 인용 출처, 브랜드 언급, 경쟁사 노출까지 함께 봐야 합니다.</span>
+          </div>
+          <div class="journey-chips">
+            <div class="journey-chip"><em>ListeningMind CDJ</em>검색 데이터로 소비자의 의사결정 흐름과 단계별 전략 기회를 파악합니다.</div>
+            <div class="journey-chip"><em>Plurank GEO</em>AI 답변과 인용 데이터를 더해 국가별 구매여정 지도를 확장합니다.</div>
+          </div>
+        </div>
+        <div class="journey-map">
+          <div class="journey-lanes">
+            <div class="lane"><b>01</b><strong>문제 인식</strong><span>소비자가 처음 던지는 카테고리·고민형 질문</span></div>
+            <div class="lane"><b>02</b><strong>정보 탐색</strong><span>AI가 요약하는 기준, 체크리스트, 비교 요소</span></div>
+            <div class="lane"><b>03</b><strong>대안 비교</strong><span>브랜드·경쟁사·리뷰·미디어 출처의 조합</span></div>
+            <div class="lane"><b>04</b><strong>구매 확정</strong><span>가격, 위치, 예약, 상담, 구매 링크로 이어지는 순간</span></div>
+            <div class="lane"><b>05</b><strong>구매 이후</strong><span>후기, 재탐색, 커뮤니티 질문, 다음 추천</span></div>
+          </div>
+          <div class="journey-data">
+            <div><b>국가·언어</b><span>같은 질문도 시장별로 다른 답변과 출처를 만듭니다.</span></div>
+            <div><b>AI 플랫폼</b><span>ChatGPT, Gemini, Perplexity별 답변 구조를 비교합니다.</span></div>
+            <div><b>인용 출처</b><span>공식 웹, 뉴스, 리뷰, 커뮤니티가 어떤 단계에 쓰이는지 봅니다.</span></div>
+            <div><b>실행 액션</b><span>부족한 단계에 콘텐츠, PR, SNS, 커뮤니티를 배치합니다.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Source: ListeningMind CDJ use case · Plurank synthesis</span><span>03 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Where GEO Happens</div>
+      </div>
+      <h2>Plurank는 GEO를 <span class="accent">여섯 개 레이어</span>에서 건드립니다.</h2>
+      <p class="lead">
+        GEO는 "AI에 잘 보이는 글쓰기"가 아닙니다.
+        AI가 답을 만들 때 참고하는 질문, 출처, 콘텐츠, 배포, 성과의 구조를 운영하는 일입니다.
+      </p>
+      <div class="layer-grid">
+        <div class="layer"><b>01</b><strong>질문</strong><span>고객이 AI에게 실제로 묻는 구매·비교·추천 질의를 찾습니다.</span></div>
+        <div class="layer"><b>02</b><strong>답변</strong><span>AI 플랫폼별로 브랜드 언급, 추천, 경쟁사 위치를 측정합니다.</span></div>
+        <div class="layer"><b>03</b><strong>출처</strong><span>AI가 어떤 웹, 뉴스, 리뷰, 커뮤니티를 참고하는지 봅니다.</span></div>
+        <div class="layer"><b>04</b><strong>콘텐츠</strong><span>AI가 인용할 수 있는 근거형 콘텐츠를 만듭니다.</span></div>
+        <div class="layer"><b>05</b><strong>배포</strong><span>웹, SNS, PR, 영상, 커뮤니티에 맞춰 채널별로 실행합니다.</span></div>
+        <div class="layer"><b>06</b><strong>성과</strong><span>답변 변화, 유입, 방문 기업, 문의 신호까지 연결합니다.</span></div>
+      </div>
+    </div>
+    <div class="footer"><span>Not rankings. Evidence for answers.</span><span>04 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Business Model</div>
+      </div>
+      <h2>Plurank는 데이터 회사이자, <span class="accent">실행하는 AI 마케팅 회사</span>입니다.</h2>
+      <p class="lead">
+        Plurank의 매력은 측정에서 멈추지 않는다는 점입니다.
+        에이전시에는 GEO 데이터를 납품하고, 브랜드에는 그 데이터로 콘텐츠와 채널 실행까지 맡습니다.
+      </p>
+      <div class="split">
+        <div class="card">
+          <div class="card-label">For Agencies</div>
+          <h3>GEO 데이터와 리포트를 납품합니다.</h3>
+          <p>클라이언트별 AI 노출, 인용 출처, 경쟁사 비교, 개선 우선순위를 제안서와 월간 보고서에 바로 쓸 수 있게 제공합니다.</p>
+          <div class="chips">
+            <span class="chip">AI Visibility</span><span class="chip">Citation Data</span><span class="chip">Competitor Matrix</span><span class="chip">White Label</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-label">For Brands</div>
+          <h3>GEO 최적화 콘텐츠를 직접 만듭니다.</h3>
+          <p>질문 분석, 출처 설계, 콘텐츠 생성, 다채널 배포, AI 답변 추적, Plurank Lead까지 하나의 운영 루프로 연결합니다.</p>
+          <div class="chips">
+            <span class="chip">Content Ops</span><span class="chip">SNS · PR</span><span class="chip">Community</span><span class="chip">Lead Tracking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Data infrastructure + execution engine</span><span>05 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Monthly Operating Package</div>
+      </div>
+      <h2>한 달 안에, <span class="accent">이 모든 실행을 제공해드립니다.</span></h2>
+      <p class="lead">
+        Plurank는 목표 질문 설정부터 AI 노출 측정, 근거 콘텐츠 제작, 중국 바이럴,
+        월간 리포트와 문의 신호 확인까지 하나의 운영 패키지로 제공합니다.
+      </p>
+      <div class="ops-grid">
+        <div class="ops-step"><b>01 TARGET</b><strong>목표 질문 설정</strong><span>월 핵심 질문·키워드 10개 내외를 브랜드와 함께 정합니다.</span></div>
+        <div class="ops-step"><b>02 MEASURE</b><strong>AI 노출 측정</strong><span>ChatGPT, Gemini, Perplexity, Google AI 등에서 언급·추천·출처를 추적합니다.</span></div>
+        <div class="ops-step"><b>03 CREATE</b><strong>근거 콘텐츠 제작</strong><span>웹, FAQ, 리뷰형 콘텐츠, SNS, PR, 커뮤니티 소재를 만듭니다.</span></div>
+        <div class="ops-step china"><b>04 CHINA</b><strong>중국 바이럴 실행</strong><span>중국향 콘텐츠 검수, 현지 커뮤니티·SNS 확산, 반응 기반 후속 소재까지 운영합니다.</span></div>
+        <div class="ops-step"><b>05 REPORT</b><strong>월간 리포트</strong><span>어떤 질문에서, 어떤 AI가, 어떤 출처를 보고 답했는지 정리합니다.</span></div>
+        <div class="ops-step"><b>06 FUNNEL</b><strong>문의 신호 확인</strong><span>픽셀 연동 시 유입, 방문 기업, 상담·예약 클릭까지 함께 봅니다.</span></div>
+      </div>
+      <p class="lead" style="max-width: 10.5in; margin-top: .28in; font-size: 16px;">
+        목표 노출률은 보장이 아니라 운영 KPI로 합의합니다. 중요한 것은 "노출 약속"이 아니라,
+        매주 진척과 월간 결과를 데이터로 확인하며 다음 액션을 바로 바꾸는 것입니다.
+      </p>
+    </div>
+    <div class="footer"><span>From sales promise to operating standard</span><span>06 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Proof · Data Delivery + Content Execution</div>
+      </div>
+      <h2>이미 성과는 두 축에서 확인됐습니다. <span class="accent">데이터 납품과 콘텐츠 실행.</span></h2>
+      <p class="lead">
+        IR 기준으로 Plurank는 데이터 인프라를 납품하는 효율과,
+        그 데이터로 콘텐츠를 생성·발행하는 실행 성과를 함께 만들고 있습니다.
+      </p>
+      <div class="proof-grid">
+        <div class="proof-card">
+          <div class="card-label">Data Delivery</div>
+          <h3>에이전시와 브랜드가 직접 만들 수 없는 데이터를 바로 받습니다.</h3>
+          <div class="proof-stats">
+            <div class="proof-stat"><b>12국</b><span>글로벌 AI 답변 자동 리포트</span></div>
+            <div class="proof-stat"><b>84+</b><span>주간 스크린샷·출처 수집 자동화</span></div>
+            <div class="proof-stat"><b>-80%</b><span>보고서 작성 시간 단축 사례</span></div>
+            <div class="proof-stat"><b>30M+</b><span>누적 멀티시그널 학습 데이터</span></div>
+          </div>
+          <p class="proof-note">자체 구축 시 6-12개월, 연 5억원 운영비, 2-3명 전담 인력이 필요하던 일을 구독형 데이터 납품 구조로 전환합니다.</p>
+        </div>
+        <div class="proof-card">
+          <div class="card-label">Content Execution</div>
+          <h3>데이터로 끝내지 않고, 인용될 가능성이 높은 콘텐츠를 만듭니다.</h3>
+          <div class="proof-stats">
+            <div class="proof-stat"><b>192건</b><span>GEO 콘텐츠 발행 실증</span></div>
+            <div class="proof-stat"><b>97.1</b><span>평균 GEO 점수 / 100</span></div>
+            <div class="proof-stat"><b>-60%</b><span>콘텐츠 제작 비용 절감</span></div>
+            <div class="proof-stat"><b>10x</b><span>발행 속도 개선</span></div>
+          </div>
+          <p class="proof-note">36개 GEO Rule과 멀티 LLM 검증으로 블로그, GEO 콘텐츠, 레딧·쿼라, 쓰레드, 인스타툰, 유튜브 쇼츠까지 다채널 소재로 확장합니다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Source: TSA GEO IR · customer application estimates</span><span>07 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Representative Customer Cases</div>
+      </div>
+      <h2>대표 사례는 세 가지로 설명할 수 있습니다. <span class="accent">데이터 상품화, 상담 전환, 글로벌 매출 기회.</span></h2>
+      <p class="lead">
+        Plurank는 업종마다 같은 일을 반복하지 않습니다.
+        에이전시에는 리포트 가능한 데이터를, 브랜드에는 AI가 참고할 수 있는 근거 콘텐츠를 만듭니다.
+      </p>
+      <div class="case-grid">
+        <div class="case-card">
+          <div class="case-meta">DATA DELIVERY · AGENCY</div>
+          <h3>Ascent Korea · 마케팅 에이전시</h3>
+          <div class="case-impact">
+            <div><b>-80%</b><span>AI 검색 리포트 작성 시간</span></div>
+            <div><b>New</b><span>GEO 데이터 제안 상품화</span></div>
+          </div>
+          <div class="case-block">
+            <b>무엇을 했나</b>
+            <span>클라이언트별 AI 노출, 인용 출처, 경쟁사 비교, 개선 우선순위를 보고서에 바로 쓸 수 있는 GEO 데이터로 정리했습니다.</span>
+          </div>
+          <div class="case-result"><strong>SEO 제안서 → GEO 데이터 상품</strong><br>기존 리포트에 AI 검색 진단을 붙여 에이전시의 신규 매출 항목으로 전환했습니다.</div>
+        </div>
+        <div class="case-card">
+          <div class="case-meta">CONTENT OPS · LOCAL MEDICAL</div>
+          <h3>강남 의료기관 3곳</h3>
+          <div class="case-impact">
+            <div><b>-60%</b><span>콘텐츠 제작 비용</span></div>
+            <div><b>10x</b><span>GEO 콘텐츠 발행 속도</span></div>
+          </div>
+          <div class="case-block">
+            <b>무엇을 했나</b>
+            <span>지역, 진료, 피부 고민, 추천형 질문을 기준으로 AI 답변에 들어갈 수 있는 FAQ·비교·정보형 콘텐츠를 제작했습니다.</span>
+          </div>
+          <div class="case-result"><strong>콘텐츠 비용 ↓ 상담 동선 ↑</strong><br>AI 추천형 질문을 콘텐츠로 선점해 상담·예약으로 이어지는 진입 지점을 늘렸습니다.</div>
+        </div>
+        <div class="case-card">
+          <div class="case-meta">CONTENT OPS · GLOBAL TOURISM</div>
+          <h3>K-Trip Hunters · 글로벌 관광 컨시어지</h3>
+          <div class="case-impact">
+            <div><b>97.1</b><span>평균 GEO 점수 학습군</span></div>
+            <div><b>Sales</b><span>글로벌 문의 → 매출 기회</span></div>
+          </div>
+          <div class="case-block">
+            <b>무엇을 했나</b>
+            <span>외국인 관광객이 AI에게 묻는 한국 여행, 의료·미용, 프라이빗 투어, 컨시어지형 질문을 구조화했습니다.</span>
+          </div>
+          <div class="case-result"><strong>AI 추천 질문 → 글로벌 매출 문의</strong><br>한국 여행·미용·프라이빗 투어 수요를 상담과 고가 패키지 매출 기회로 연결했습니다.</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Source: TSA GEO IR · named customer references</span><span>08 / 18</span></div>
+  </section>
+
+  <section class="slide hospital-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Hospital Marketing · China Viral</div>
+      </div>
+      <h2>Plurank는 <span class="accent">병원 마케팅에 진심</span>입니다.</h2>
+      <p class="lead">
+        강남에 위치한 룬피부과, 본큐어 한의원, 닥터고운선의원 외 2개 업체와 Plurank 서비스를 전면 도입해 마케팅을 진행 중입니다.
+        중국향 바이럴 마케팅도 대한항공 중국 지부장 출신 파트너와 함께 기획하고 있습니다.
+      </p>
+      <div class="hospital-board">
+        <div class="hospital-proof">
+          <div>
+            <b>5곳</b>
+            <strong>강남 의료기관 도입·진행</strong>
+            <span>피부과, 한의원, 의원급 의료기관의 상담 전환과 글로벌 유입을 함께 설계합니다.</span>
+          </div>
+          <div class="hospital-tags">
+            <div class="hospital-tag"><em>Turnkey</em>GEO 데이터, 콘텐츠, SNS, 커뮤니티, 리포트까지 병원 마케팅 운영을 전면 지원합니다.</div>
+            <div class="hospital-tag"><em>China</em>중국 지부장 출신 파트너와 현지 바이럴·커뮤니티 확산 전략을 준비합니다.</div>
+          </div>
+        </div>
+        <div class="hospital-detail">
+          <div class="case-meta">Current Medical Partners</div>
+          <div class="logo-wall">
+            <div class="partner-logo"><img src="assets/roon-dermatology-logo.png" alt="룬피부과"></div>
+            <div class="partner-logo">본큐어<br>한의원</div>
+            <div class="partner-logo"><img src="assets/boncure-logo.svg" alt="닥터고운선의원"></div>
+            <div class="partner-logo">외 2개<br>의료기관</div>
+          </div>
+          <p class="hospital-note">
+            Plurank는 병원별 핵심 진료, 지역 수요, 추천형 질문, 상담 전환 동선을 묶어 AI 검색 시대의 병원 마케팅 운영 체계를 만듭니다.
+          </p>
+          <div class="hospital-flow">
+            <div class="hospital-step"><b>01 Diagnose</b><strong>질문 진단</strong><span>지역·진료·피부 고민별 AI 질의를 수집합니다.</span></div>
+            <div class="hospital-step"><b>02 Create</b><strong>콘텐츠 제작</strong><span>FAQ, 비교, 후기형 근거 콘텐츠를 만듭니다.</span></div>
+            <div class="hospital-step"><b>03 Viral</b><strong>중국 확산</strong><span>현지 커뮤니티와 SNS 확산을 기획합니다.</span></div>
+            <div class="hospital-step"><b>04 Convert</b><strong>상담 전환</strong><span>예약·문의 클릭과 상담 신호까지 연결합니다.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Hospital GEO execution · China viral planning</span><span>09 / 18</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Plurank Agent</div>
+      </div>
+      <h2>결국 Plurank가 만들고 싶은 것은 <span class="accent">AI 검색 마케팅 Agent</span>입니다.</h2>
+      <p class="lead">
+        보고서만 주는 도구가 아니라, 질문을 찾고 출처를 만들고 콘텐츠를 실행하며 결과를 다시 학습하는 운영 시스템입니다.
+      </p>
+      <div class="agent">
+        <div class="steps">
+          <div class="step"><b>01</b><strong>질문 분석</strong><span>시장·국가·고객 의도별 AI 질의 발굴</span></div>
+          <div class="step"><b>02</b><strong>출처 설계</strong><span>공식 페이지, FAQ, 리뷰, PR 구조화</span></div>
+          <div class="step"><b>03</b><strong>콘텐츠 생성</strong><span>웹, SNS, 영상, 커뮤니티 소재 제작</span></div>
+        </div>
+        <div class="output">
+          <div class="agent-badge">AI Discovery AdTech</div>
+          <h3>AI가 추천할 때, 브랜드가 근거가 되도록.</h3>
+          <p>Plurank는 GEO 데이터와 콘텐츠 실행을 결합해 AI 시대의 브랜드 발견을 운영합니다.</p>
+          <div class="cta">Plurank Agent Loop</div>
+        </div>
+        <div class="steps right">
+          <div class="step"><b>04</b><strong>채널 배포</strong><span>국가와 플랫폼별 실행</span></div>
+          <div class="step"><b>05</b><strong>답변 추적</strong><span>AI 추천, 인용, 경쟁 변화를 측정</span></div>
+          <div class="step"><b>06</b><strong>리드 확인</strong><span>방문 기업과 문의 신호를 연결</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Sources: TSA GEO IR · Gartner · Adobe Analytics · Semrush · arXiv GEO</span><span>10 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix · Global Query Data</div>
+      </div>
+      <h2>각 국가의 AI 질의와 인용 출처를 <span class="accent">테이블 데이터</span>로 제공합니다.</h2>
+      <p class="lead">
+        Plurank는 국가, 언어, 플랫폼, 키워드별로 AI 답변에 등장한 인용 링크와 순위를 수집합니다.
+        고객은 필터링 가능한 테이블, 스프레드시트, 월간 리포트 형태로 바로 확인할 수 있습니다.
+      </p>
+      <div class="monitor-grid">
+        <div class="monitor-shot">
+          <img src="assets/global-monitoring-data.png" alt="국가별 글로벌 질의 모니터링 데이터 테이블">
+        </div>
+        <div class="data-panel">
+          <div>
+            <div class="demo-eyebrow">Data Delivery Fields</div>
+            <div class="data-fields">
+              <div class="data-field"><b>국가·언어·플랫폼</b><span>IN, GB, JP, US 등 국가코드와 언어코드, ChatGPT/Gemini/Perplexity별 답변을 분리합니다.</span></div>
+              <div class="data-field"><b>질의·순위·출처 URL</b><span>사용자가 실제로 묻는 질문, 인용 링크 순위, 링크 URL, 출처 타이틀을 행 단위로 제공합니다.</span></div>
+              <div class="data-field"><b>직접·간접 인용 구분</b><span>브랜드 공식 페이지인지, 리뷰·뉴스·커뮤니티 같은 간접 출처인지 구분해 실행 우선순위를 잡습니다.</span></div>
+              <div class="data-field"><b>답변 전문 확인</b><span>행을 클릭하면 해당 AI 답변 전문과 인용 맥락을 확인해 콘텐츠 보강 포인트를 찾습니다.</span></div>
+            </div>
+          </div>
+          <div class="export-row"><span>Sheet</span><span>CSV</span><span>Report</span></div>
+          </div>
+        </div>
+    </div>
+    <div class="footer"><span>Appendix · global query monitoring data</span><span>11 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix · Data To Content</div>
+      </div>
+      <h2>수집된 글로벌 질의는 <span class="accent">국가별 콘텐츠 액션</span>으로 전환됩니다.</h2>
+      <p class="lead">
+        테이블에서 확인한 국가별 질문과 인용 출처를 기반으로 웹 콘텐츠, 커뮤니티 답변, 숏폼 스크립트까지 바로 제작합니다.
+      </p>
+      <div class="phone-grid">
+        <div class="phone-card">
+          <div>
+            <div class="platform">India Query</div>
+            <h3>4G 스마트워치 구매 전 확인할 통신 조건</h3>
+            <p>인도 영어 질의에서 반복되는 네트워크, 로밍, 배터리, 가격 비교 질문을 FAQ형 콘텐츠로 전환합니다.</p>
+            <div class="phone-snippets">
+              <span>질문: "is it worth getting a 4g smart watch?"</span>
+              <span>콘텐츠: 통신사 호환·요금제·배터리 비교</span>
+              <span>CTA: 제품 비교표와 구매 가이드 연결</span>
+            </div>
+          </div>
+          <div class="social-metric"><div><b>Hook</b>3초 제목</div><div><b>Save</b>체크리스트</div></div>
+        </div>
+        <div class="phone-card">
+          <div>
+            <div class="platform">UK Query</div>
+            <h3>갤럭시 워치 구매 고민에 답하는 비교형 글</h3>
+            <p>영국 질의에서는 리뷰 매체와 커뮤니티 인용이 함께 나오므로, 브랜드 페이지와 제3자형 콘텐츠를 분리합니다.</p>
+            <div class="phone-snippets">
+              <span>질문: "is galaxy watch good for me?"</span>
+              <span>콘텐츠: 사용 시나리오별 장단점 정리</span>
+              <span>확장: Reddit·Quora용 답변 초안</span>
+            </div>
+          </div>
+          <div class="social-metric"><div><b>Reply</b>Q&amp;A형</div><div><b>Trust</b>주의사항</div></div>
+        </div>
+        <div class="phone-card">
+          <div>
+            <div class="platform">China Viral</div>
+            <h3>현지 플랫폼에 맞춘 브랜드 신뢰 소재</h3>
+            <p>중국향 실행은 번역이 아니라 현지 문맥 검수와 소재 분리입니다. 샤오홍슈, 커뮤니티, 숏폼을 따로 설계합니다.</p>
+            <div class="phone-snippets">
+              <span>0-3초: 저장되는 문제 제기형 제목</span>
+              <span>4-20초: 비교 기준과 사용 맥락 제시</span>
+              <span>21-30초: 상담·구매·문의 링크 연결</span>
+            </div>
+          </div>
+          <div class="social-metric"><div><b>30s</b>스크립트</div><div><b>CTA</b>상담 연결</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Appendix · data-to-content demo output</span><span>12 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix · Monthly Data Package</div>
+      </div>
+      <h2>한 달 운영물은 <span class="accent">데이터, 콘텐츠, 리포트</span>까지 패키지로 나옵니다.</h2>
+      <p class="lead">
+        매월 목표 국가와 질문을 정하고, AI 답변 데이터를 수집한 뒤 콘텐츠 제작과 채널 실행, 다음 액션 리포트까지 연결합니다.
+      </p>
+      <div class="calendar-grid">
+        <div class="week-board">
+          <div class="week"><b>Week 1</b><strong>국가·질문 설정</strong><span>목표 국가, 언어, 플랫폼, 핵심 질의 10개 내외를 확정합니다.</span></div>
+          <div class="week"><b>Week 2</b><strong>데이터 수집</strong><span>AI 답변, 인용 URL, 순위, 직접·간접 링크 구분을 테이블로 수집합니다.</span></div>
+          <div class="week"><b>Week 3</b><strong>콘텐츠 액션</strong><span>웹, 블로그, 커뮤니티, SNS에 필요한 콘텐츠와 답변 초안을 제작합니다.</span></div>
+          <div class="week"><b>Week 4</b><strong>월간 리포트</strong><span>답변 변화, 출처 반영, 다음 보강 질문을 월간 리포트로 정리합니다.</span></div>
+        </div>
+        <div class="report-card">
+          <div class="demo-eyebrow">Monthly Report Demo</div>
+          <h3>AI Answer Evidence Brief</h3>
+          <div class="score-line"><b>74%</b><span>목표 질문 10개 중 7개에서 브랜드명 또는 제작 콘텐츠가 답변 근거로 확인된 상태</span></div>
+          <div class="mini-bar"><i></i></div>
+          <div class="deliverable-list" style="margin-top:.18in;">
+            <div class="deliverable"><b>Before → After</b><span>답변 내 브랜드 언급, 경쟁사 위치, 인용 출처 변화를 비교합니다.</span></div>
+            <div class="deliverable"><b>Next Action</b><span>다음 달에 보강할 질문, 콘텐츠, 중국향 소재를 바로 제안합니다.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Appendix · monthly data package demo</span><span>13 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide narka-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix II · Narka Research</div>
+      </div>
+      <h2>Narka는 이미 <span class="accent">해외 질문이 생기는 단계</span>에 들어와 있습니다.</h2>
+      <p class="lead">
+        공식몰은 헤어 마스카라, 헤어 밀크, 트리트먼트, 헤어 미스트 등 케어와 스타일링 라인업을 전면에 두고 있습니다.
+        공개 보도자료 기준으로는 국내 오프라인 검증과 일본 확장 신호가 동시에 확인되어, 이제 해외 고객이 AI와 검색에서 묻는 질문을 선점할 타이밍입니다.
+      </p>
+      <div class="narka-evidence-grid">
+        <div class="narka-visual">
+          <img class="brand-photo" src="assets/narka-brand-intro.jpg" alt="Narka hair styling brand visual">
+          <div class="narka-logo-card"><img src="assets/narka-logo.svg" alt="Narka"></div>
+          <div class="narka-tags"><span>Hair Care</span><span>Hair Styling</span><span>Global-ready</span></div>
+        </div>
+        <div class="narka-proof-grid">
+          <div class="narka-proof">
+            <div><b>01 Domestic PMF</b><strong>론칭 5개월 만에 시코르 전국 매장 진출</strong></div>
+            <span>대표 제품은 하입-핏 헤어 마스카라, 비건 트리트먼트 헤어팩, 젠틀 새틴 헤어 에센스 등으로 소개됩니다.</span>
+          </div>
+          <div class="narka-proof">
+            <div><b>02 Category Hook</b><strong>헤어 마스카라라는 설명 가능한 신카테고리</strong></div>
+            <span>듀얼 솔대 기반의 잔머리·앞머리 스타일링 니즈는 국가별 질문형 콘텐츠로 전환하기 좋습니다.</span>
+          </div>
+          <div class="narka-proof">
+            <div><b>03 Japan Signal</b><strong>@COSME 온라인·100개 오프라인 매장 확장</strong></div>
+            <span>일본 진출 이후 판매 성장과 팝업 운영 이력이 있어, 일본어 AI 답변과 현지 리뷰 출처 관리가 중요합니다.</span>
+          </div>
+          <div class="narka-proof">
+            <div><b>04 Expansion Angle</b><strong>영미권·동남아 관심까지 확장 가능</strong></div>
+            <span>해외 고객은 제품명보다 문제를 먼저 묻습니다. “flyaway hair”, “baby hair”, “K-beauty hair mascara” 같은 질문을 잡아야 합니다.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Sources: Narka official site · Moneys · MK · WOWTALE · Financial News</span><span>14 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide narka-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix II · Proposal Frame</div>
+      </div>
+      <h2>Narka의 해외 확장은 <span class="accent">질문을 점유하는 브랜드</span>로 설계할 수 있습니다.</h2>
+      <p class="lead">
+        나르카 제품은 잔머리, 앞머리, 떡짐, 습도, 노워시 케어처럼 해외 고객이 구매 전에 검색하고 AI에게 묻는 상황이 선명합니다.
+        Plurank는 이 질문이 나오는 국가와 플랫폼을 찾고, 그 답변 안에서 Narka가 신뢰 가능한 선택지로 설명되도록 근거 콘텐츠와 배포 지점을 함께 설계합니다.
+      </p>
+      <div class="narka-position-grid">
+        <div class="narka-product-stage">
+          <div class="narka-product-head">
+            <img src="assets/narka-logo.svg" alt="Narka">
+            <span>제품 중심 번역이 아니라,<br>사용 상황 중심의 해외 발견 전략</span>
+          </div>
+          <div class="narka-product-pair">
+            <div class="narka-product-card">
+              <img src="assets/narka-hair-mascara.jpg" alt="Narka hair mascara">
+              <b>헤어 마스카라: 잔머리·앞머리·픽싱 질문</b>
+            </div>
+            <div class="narka-product-card">
+              <img src="assets/narka-hair-milk.jpg" alt="Narka hair milk">
+              <b>헤어 밀크: 열보호·노워시·차분한 결 질문</b>
+            </div>
+          </div>
+          <div class="narka-question-cloud">
+            <span>flyaways</span><span>baby hair</span><span>bangs</span><span>humidity</span><span>K-beauty hair</span><span>no-wash care</span>
+          </div>
+        </div>
+        <div class="narka-pillar-grid">
+          <div class="narka-pillar">
+            <div><b>01 Question Ownership</b><strong>국가별 구매 전 질문을 먼저 잡습니다.</strong><span>일본, 영미권, 동남아, 중국에서 제품명이 아니라 어떤 문제로 묻는지 수집합니다.</span></div>
+            <em>Output: GEO 질문 맵과 우선순위 SKU</em>
+          </div>
+          <div class="narka-pillar">
+            <div><b>02 Answer Evidence</b><strong>AI가 인용할 수 있는 근거를 만듭니다.</strong><span>공식 FAQ, 비교형 아티클, 사용법, 성분·특허·리뷰 근거를 국가별 언어로 정리합니다.</span></div>
+            <em>Output: 영문·일문·중문 근거 콘텐츠 초안</em>
+          </div>
+          <div class="narka-pillar">
+            <div><b>03 Proof Distribution</b><strong>출처가 되는 채널까지 연결합니다.</strong><span>리뷰 매체, 커뮤니티, 숏폼, 현지 플랫폼에서 어떤 링크가 답변 근거가 되는지 관리합니다.</span></div>
+            <em>Output: 배포 채널별 실행 브리프</em>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Narka overseas GEO proposal · positioning frame</span><span>15 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide narka-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix II · Country Plays</div>
+      </div>
+      <h2>국가별로 같은 제품을 <span class="accent">다른 질문과 근거</span>로 번역해야 합니다.</h2>
+      <p class="lead">
+        해외 홍보는 단순 번역보다 “현지 고객이 실제로 묻는 문제”를 잡는 일이 먼저입니다.
+        아래는 첫 미팅에서 제안드릴 수 있는 국가별 GEO 실행 가설입니다.
+      </p>
+      <div class="narka-market-grid">
+        <div class="narka-market">
+          <div>
+            <b>Japan</b>
+            <strong>앞머리 고정·잔머리 정돈</strong>
+            <span>일본은 @COSME 진출 신호가 있으므로 리뷰·Q&amp;A·사용법 출처를 강화하는 쪽이 자연스럽습니다.</span>
+          </div>
+          <ul>
+            <li>일본어 FAQ / How-to 콘텐츠</li>
+            <li>@COSME 리뷰 맥락 기반 질문 수집</li>
+            <li>“ベタつかない” “前髪” 중심 답변 최적화</li>
+          </ul>
+        </div>
+        <div class="narka-market">
+          <div>
+            <b>US / UK</b>
+            <strong>Flyaway hair와 K-beauty styling</strong>
+            <span>영문권은 브랜드 검색보다 문제 해결형 질의가 먼저 나오므로 비교형 콘텐츠와 튜토리얼이 중요합니다.</span>
+          </div>
+          <ul>
+            <li>“best Korean hair mascara” 질의 모니터링</li>
+            <li>비교표·튜토리얼·리뷰 브리프 제작</li>
+            <li>TikTok/Shorts용 15초 스크립트</li>
+          </ul>
+        </div>
+        <div class="narka-market">
+          <div>
+            <b>Southeast Asia</b>
+            <strong>습도·잔머리·휴대성</strong>
+            <span>동남아는 기후와 사용 맥락이 구매 질문을 만듭니다. 떡짐, 지속력, 휴대성 기준을 콘텐츠화합니다.</span>
+          </div>
+          <ul>
+            <li>습한 날씨 사용성 FAQ</li>
+            <li>Before/After 리뷰 질문 구조화</li>
+            <li>현지 이커머스 상세·리뷰 보강안</li>
+          </ul>
+        </div>
+        <div class="narka-market">
+          <div>
+            <b>China</b>
+            <strong>샤오홍슈형 스타일링 발견</strong>
+            <span>중국향은 검색보다 바이럴과 신뢰 소재가 함께 움직입니다. AI 근거용 중국어 콘텐츠와 숏폼 소재를 분리합니다.</span>
+          </div>
+          <ul>
+            <li>小红书 노트형 소재 기획</li>
+            <li>중문 사용법·비교 콘텐츠 초안</li>
+            <li>현지 파트너/KOL 브리프 구조화</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Narka overseas GEO proposal · country execution hypotheses</span><span>16 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide narka-slide prika-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix II · China Execution Partner</div>
+      </div>
+      <h2>중국 실행은 <span class="accent">PRIKA와 현지 바이럴 파트너</span>를 함께 연결합니다.</h2>
+      <p class="lead">
+        PRIKA는 중국 단독 진출의 장벽을 채널, 콘텐츠, 라이브의 결합으로 정의하고 더우인·샤오홍슈·티몰을 핵심 축으로 제시합니다.
+        Plurank는 중국어 질문과 AI 답변 근거를 설계하고, PRIKA 및 중국 관련 에이전시·바이럴 마케팅 실행 업체와 협업해 현지 확산까지 연결할 수 있습니다.
+      </p>
+      <div class="prika-grid">
+        <div class="prika-proof-shot">
+          <img src="assets/prika-china-channels.png" alt="PRIKA 중국 핵심 채널 소개 페이지">
+          <div class="prika-proof-caption"><span>Douyin Live</span><span>Xiaohongshu Trust</span><span>Tmall Commerce</span></div>
+        </div>
+        <div>
+          <div class="prika-channel-grid">
+            <div class="prika-channel">
+              <div><b>01 Live</b><strong>더우인 라이브 방송</strong><span>PRIKA 소개서 기준 핵심 라이브 채널입니다. 왕홍 직접 운영, 저녁 시간대 송출, 라이브 매출 견인을 실행 축으로 둡니다.</span></div>
+              <em>역할: 라이브용 제품 스토리와 구매 전 질문 스크립트</em>
+            </div>
+            <div class="prika-channel">
+              <div><b>02 Viral</b><strong>샤오홍슈 신뢰 콘텐츠</strong><span>중국 MZ세대의 검색·발견 채널로, 인플루언서 콘텐츠 시드와 “한국에서 직접 큐레이션” 포지셔닝을 만들 수 있습니다.</span></div>
+              <em>역할: 노트형 소재, 리뷰 포인트, KOC 브리프</em>
+            </div>
+            <div class="prika-channel">
+              <div><b>03 Commerce</b><strong>티몰 전환 구조</strong><span>중국 이커머스 공식 판매 채널로, 라이브·샤오홍슈 트래픽을 상시 판매와 시즌 프로모션으로 연결합니다.</span></div>
+              <em>역할: 상세페이지 FAQ와 구매 전환 근거 보강</em>
+            </div>
+          </div>
+          <div class="prika-model-strip">
+            <div><b>Plurank</b><span>중국어 질의 수집, AI 답변·출처 측정, 근거 콘텐츠 브리프</span></div>
+            <div><b>PRIKA / Partners</b><span>중국 에이전시, 현지 바이럴, 라이브, 커머스 실행 협업</span></div>
+            <div><b>Narka</b><span>메인 SKU, 제품 근거, 리뷰·UGC, 공급·프로모션 의사결정</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Sources: PRIKA introduction deck · China OPS section</span><span>17 / 18</span></div>
+  </section>
+
+  <section class="slide appendix-slide narka-slide">
+    <div class="content">
+      <div class="top">
+        <img class="logo" src="../../logo-wordmark.png" alt="Plurank">
+        <div class="kicker">Appendix II · Pilot Scope</div>
+      </div>
+      <h2>첫 협업은 <span class="accent">4주 해외 GEO 진단+실행 패키지</span>로 제안드립니다.</h2>
+      <p class="lead">
+        우선국가와 메인 SKU를 정하면, 한 달 안에 해외 고객 질문, AI 답변 현황, 인용 출처, 콘텐츠 보강안, 다음 달 실행 우선순위까지 한 번에 정리해드립니다.
+      </p>
+      <div class="narka-package-grid">
+        <div class="narka-deliverables">
+          <div class="narka-deliverable"><b>Global Question Map</b><span>국가·언어·플랫폼별 핵심 질문 10~20개와 구매여정 단계를 매핑합니다.</span></div>
+          <div class="narka-deliverable"><b>AI Answer Baseline</b><span>ChatGPT, Gemini, Perplexity, Google AI 답변 내 브랜드·경쟁사·인용 링크를 테이블로 제공합니다.</span></div>
+          <div class="narka-deliverable"><b>Evidence Content Pack</b><span>영문·일문 FAQ, 비교형 아티클, 커뮤니티 답변, 숏폼 스크립트 초안을 제작합니다.</span></div>
+          <div class="narka-deliverable"><b>Monthly Action Report</b><span>답변 변화, 출처 보강 지점, 다음 달 실행 우선순위를 리포트로 정리합니다.</span></div>
+        </div>
+        <div class="narka-meeting-card">
+          <div>
+            <div class="demo-eyebrow">Today’s Discussion</div>
+            <h3>오늘 확인하면 바로 파일럿 범위를 확정할 수 있습니다.</h3>
+            <div class="narka-meeting-list">
+              <div class="narka-meeting-item"><b>SKU</b><span>헤어 마스카라를 메인으로 갈지, 헤어 밀크·트리트먼트까지 묶을지 확인합니다.</span></div>
+              <div class="narka-meeting-item"><b>Market</b><span>일본 강화, 영미권 테스트, 동남아 확장, 중국 바이럴 중 우선순위를 정합니다.</span></div>
+              <div class="narka-meeting-item"><b>Assets</b><span>성분, 특허, 임상, 리뷰, UGC, 비포애프터 등 근거로 쓸 수 있는 자료를 확인합니다.</span></div>
+              <div class="narka-meeting-item"><b>Channel</b><span>현지 유통 파트너, 리뷰 채널, 커뮤니티, 숏폼 채널의 보유 여부를 확인합니다.</span></div>
+            </div>
+          </div>
+          <div class="narka-ask-strip" style="margin-top:.2in;">
+            <b>Proposal</b>
+            <span>나르카의 해외 홍보를 “노출 캠페인”이 아니라, AI와 검색이 인용할 수 있는 국가별 근거 자산 구축 프로젝트로 시작하겠습니다.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Narka overseas GEO proposal · 4-week pilot package</span><span>18 / 18</span></div>
+  </section>
+</body>
+</html>

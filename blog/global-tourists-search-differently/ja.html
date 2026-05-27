@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海外観光客は同じキーワードでも違う検索をします · Plurank Blog</title>
+<meta name="description" content="AI検索時代、日本・米国・台湾・東南アジアの観光客は同じ「ソウル 皮膚科」というキーワードでも全く違う質問をします。国別検索パターンとGEOリサーチの実践方法を整理しました。">
+<meta name="author" content="キム・ゴンヒ (CEO · TwoStepsAhead)">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#0a0a0a">
+
+<link rel="canonical" href="https://www.plurank.com/blog/global-tourists-search-differently/ja">
+<link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/global-tourists-search-differently/">
+<link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/global-tourists-search-differently/en">
+<link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/global-tourists-search-differently/ja">
+<link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/global-tourists-search-differently/">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="海外観光客は同じキーワードでも違う検索をします">
+<meta property="og:description" content="AI検索時代、日本・米国・台湾・東南アジアの観光客は同じ「ソウル 皮膚科」というキーワードでも全く違う質問をします。国別検索パターンとGEOリサーチの実践方法を整理しました。">
+<meta property="og:url" content="https://www.plurank.com/blog/global-tourists-search-differently/ja">
+<meta property="og:site_name" content="Plurank">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://www.plurank.com/og-image.png">
+<meta property="article:published_time" content="2026-05-27">
+<meta property="article:author" content="キム・ゴンヒ">
+<meta property="article:section" content="GEO Playbook">
+<meta property="article:tag" content="GEO"><meta property="article:tag" content="AI検索"><meta property="article:tag" content="観光マーケティング"><meta property="article:tag" content="インバウンド"><meta property="article:tag" content="国別検索">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="海外観光客は同じキーワードでも違う検索をします">
+<meta name="twitter:description" content="AI検索時代、日本・米国・台湾・東南アジアの観光客は同じ「ソウル 皮膚科」というキーワードでも全く違う質問をします。国別検索パターンとGEOリサーチの実践方法を整理しました。">
+<meta name="twitter:image" content="https://www.plurank.com/og-image.png">
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Schema.org -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "海外観光客は同じキーワードでも違う検索をします", "description": "AI検索時代、日本・米国・台湾・東南アジアの観光客は同じ「ソウル 皮膚科」というキーワードでも全く違う質問をします。国別検索パターンとGEOリサーチの実践方法を整理しました。", "datePublished": "2026-05-27", "dateModified": "2026-05-27", "inLanguage": "ja", "author": {"@type": "Person", "name": "キム・ゴンヒ", "jobTitle": "CEO · TwoStepsAhead", "affiliation": {"@type": "Organization", "name": "TwoStepsAhead Inc."}}, "publisher": {"@type": "Organization", "name": "Plurank", "url": "https://www.plurank.com", "logo": {"@type": "ImageObject", "url": "https://www.plurank.com/logo-square.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.plurank.com/blog/global-tourists-search-differently/ja"}, "articleSection": "GEO Playbook", "keywords": "GEO, AI検索, 観光マーケティング, インバウンド, 国別検索", "image": ["https://www.plurank.com/og-image.png"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.plurank.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.plurank.com/blog/ja"}, {"@type": "ListItem", "position": 3, "name": "海外観光客は同じキーワードでも違う検索をします", "item": "https://www.plurank.com/blog/global-tourists-search-differently/ja"}]}</script>
+
+<!-- Vercel Analytics -->
+<script defer src="/_vercel/insights/script.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #ffffff;
+  --paper: #fafaf7;
+  --text: #0a0a0a;
+  --text-soft: #2c2c2c;
+  --text-mute: #6b6b6b;
+  --text-faint: #a0a0a0;
+  --border: #e8e8e8;
+  --border-strong: #c8c8c8;
+  --accent: #0a0a0a;
+  --f-sans: 'Inter', 'Noto Sans KR', -apple-system, sans-serif;
+  --f-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+em, i, cite, address, dfn { font-style: normal; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--f-sans);
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all; overflow-wrap: break-word;
+  line-height: 1.65;
+}
+a { color: inherit; text-decoration: none; }
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 32px;
+}
+.nav-inner { max-width: 1240px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.nav-brand { display: flex; align-items: center; width: 132px; }
+.nav-brand img { width: 100%; height: auto; display: block; }
+.nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.nav-links a:hover { color: var(--text); }
+.nav-links .active { color: var(--text); }
+.nav-meta { display: flex; align-items: center; gap: 12px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-mute); }
+.nav-meta a { transition: color 0.15s; }
+.nav-meta a.active { color: var(--text); }
+@media (max-width: 900px) { .nav-links { display: none; } }
+
+.article-wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 80px; }
+
+.breadcrumb { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 28px; }
+.breadcrumb a:hover { color: var(--text); }
+.breadcrumb .sep { margin: 0 8px; color: var(--text-faint); }
+
+.article-header { margin-bottom: 44px; padding-bottom: 36px; border-bottom: 1px solid var(--border); }
+.eyebrow {
+  display: inline-block;
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-mute); margin-bottom: 20px;
+}
+.eyebrow::before { content: ""; display: inline-block; width: 22px; height: 1px; background: var(--text-mute); margin-right: 12px; vertical-align: middle; }
+
+h1.article-title {
+  font-family: var(--f-sans); font-weight: 700; font-size: clamp(28px, 4.4vw, 44px); line-height: 1.18; letter-spacing: -0.022em; margin: 0 0 18px;
+}
+.article-subtitle { font-size: 18px; line-height: 1.6; color: var(--text-soft); font-weight: 400; margin: 0 0 28px; }
+
+.article-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-family: var(--f-mono); font-size: 12px; color: var(--text-mute); }
+.author-row { display: flex; align-items: center; gap: 10px; }
+.author-avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--text); color: var(--bg); display: flex; align-items: center; justify-content: center; font-family: var(--f-sans); font-weight: 600; font-size: 13px; }
+.author-name { font-family: var(--f-sans); font-size: 14px; color: var(--text); font-weight: 500; letter-spacing: 0; text-transform: none; }
+.author-title { font-size: 11px; color: var(--text-mute); }
+.meta-sep { color: var(--text-faint); }
+
+.toc {
+  background: var(--paper); border: 1px solid var(--border); border-radius: 10px;
+  padding: 18px 22px; margin: 0 0 36px;
+}
+.toc-title { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 10px; }
+.toc ol { margin: 0; padding-left: 18px; color: var(--text-soft); font-size: 14px; }
+.toc li { margin: 6px 0; }
+.toc a:hover { color: var(--text); text-decoration: underline; }
+
+article.body { font-size: 17px; line-height: 1.78; color: var(--text-soft); }
+article.body h2 { font-family: var(--f-sans); font-weight: 700; font-size: 26px; line-height: 1.35; letter-spacing: -0.01em; margin: 48px 0 16px; color: var(--text); }
+article.body h3 { font-family: var(--f-sans); font-weight: 600; font-size: 20px; line-height: 1.4; margin: 32px 0 12px; color: var(--text); }
+article.body p { margin: 0 0 20px; }
+article.body strong { color: var(--text); font-weight: 600; }
+article.body em { color: var(--text-soft); }
+article.body ul, article.body ol { margin: 0 0 24px; padding-left: 24px; }
+article.body li { margin: 8px 0; }
+article.body blockquote { margin: 24px 0; padding: 16px 20px; border-left: 3px solid var(--text); background: var(--paper); color: var(--text); font-style: normal; }
+article.body a { color: var(--text); border-bottom: 1px solid var(--border-strong); transition: border-color 0.15s; }
+article.body a:hover { border-bottom-color: var(--text); }
+article.body hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+article.body code { font-family: var(--f-mono); font-size: 0.92em; background: var(--paper); padding: 2px 6px; border-radius: 4px; }
+
+.tags-row { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--border); font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-mute); }
+.tags-row .tag { display: inline-block; margin-right: 8px; padding: 4px 10px; background: var(--paper); border: 1px solid var(--border); border-radius: 999px; }
+
+.medium-origin { margin-top: 24px; font-size: 13px; color: var(--text-mute); font-style: normal; }
+.medium-origin a { color: var(--text); border-bottom: 1px solid var(--border-strong); }
+
+.cta-card {
+  margin: 64px 0 0; padding: 48px 40px; background: var(--text); color: var(--bg);
+  border-radius: 16px; text-align: center;
+}
+.cta-card h2 { font-family: var(--f-sans); font-weight: 700; font-size: 26px; line-height: 1.3; letter-spacing: -0.01em; margin: 0 0 12px; color: var(--bg); }
+.cta-card p { font-size: 15px; color: rgba(255,255,255,0.78); margin: 0 0 24px; line-height: 1.6; }
+.cta-card .btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 26px; background: var(--bg); color: var(--text);
+  border-radius: 999px; font-family: var(--f-sans); font-size: 14px; font-weight: 500;
+  transition: transform 0.15s;
+}
+.cta-card .btn:hover { transform: translateY(-1px); }
+
+.back-link { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 36px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.back-link:hover { color: var(--text); }
+
+footer.footer { padding: 56px 32px; text-align: center; font-family: var(--f-mono); font-size: 12px; color: var(--text-faint); letter-spacing: 0.04em; border-top: 1px solid var(--border); margin-top: 60px; }
+footer.footer a { color: var(--text-mute); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+footer.footer a:hover { border-color: var(--text-mute); }
+footer.footer .footer-lead { font-size: 13px; color: var(--text-soft); margin-bottom: 10px; letter-spacing: 0.02em; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-brand" aria-label="Plurank home">
+      <img src="/logo-wordmark.png" alt="Plurank AI Discovery AdTech" width="600" height="172">
+    </a>
+    <div class="nav-links">
+      <a href="/ja.html">Home</a>
+      <a href="/blog/ja" class="active">Blog</a>
+    </div>
+    <div class="nav-meta">
+      <a href="https://www.plurank.com/blog/global-tourists-search-differently/" class="" style="color:var(--text-mute)">KO</a>
+      <span style="color:var(--text-faint)">·</span>
+      <a href="https://www.plurank.com/blog/global-tourists-search-differently/en" class="" style="color:var(--text-mute)">EN</a>
+      <span style="color:var(--text-faint)">·</span>
+      <a href="https://www.plurank.com/blog/global-tourists-search-differently/ja" class="active" style="color:var(--text)">JA</a>
+    </div>
+  </div>
+</nav>
+
+<div class="article-wrap">
+  <a href="/blog/ja" class="back-link">← Blog 一覧へ</a>
+
+  <header class="article-header">
+    <div class="eyebrow">GEO Playbook</div>
+    <h1 class="article-title">海外観光客は同じキーワードでも違う検索をします</h1>
+    <p class="article-subtitle">「外国人観光客向けには英語に翻訳すればいいのでは?」— グローバル観光マーケティングで最もよくある誤解と、その先の答え。</p>
+    <div class="article-meta">
+      <div class="author-row">
+        <div class="author-avatar">K</div>
+        <div>
+          <div class="author-name">キム・ゴンヒ</div>
+          <div class="author-title">CEO · TwoStepsAhead</div>
+        </div>
+      </div>
+      <span class="meta-sep">·</span>
+      <span>2026-05-27</span>
+      <span class="meta-sep">·</span>
+      <span>8分で読了</span>
+    </div>
+  </header>
+
+  <aside class="toc"><div class="toc-title">目次</div><ol><li><a href="#海外観光客が実際に投げる質問">海外観光客が実際に投げる質問</a></li><li><a href="#国別に異なる検索パターン">国別に異なる検索パターン</a></li><li><a href="#同じキーワードの中に複数の市場がある">同じキーワードの中に複数の市場がある</a></li><li><a href="#既存seoツールの限界">既存SEOツールの限界</a></li><li><a href="#geoリサーチとは何か">GEOリサーチとは何か</a></li><li><a href="#国別質問マップが必要な理由">国別「質問マップ」が必要な理由</a></li><li><a href="#コンテンツ配置戦略-良いコンテンツよりも正しい場所">コンテンツ配置戦略 — 「良いコンテンツ」よりも「正しい場所」</a></li><li><a href="#グローバル観光マーケティングの本当の仕事">グローバル観光マーケティングの本当の仕事</a></li><li><a href="#投げかける質問そのものが変わる">投げかける質問そのものが変わる</a></li><li><a href="#plurankが行っていること">Plurankが行っていること</a></li><li><a href="#結論">結論</a></li></ol></aside>
+
+  <article class="body">
+    <p>グローバル観光マーケティングの話題で、必ず出てくる前提が三つあります。</p>
+<ul>
+<li>「外国人観光客向けには、ページを英語に翻訳すれば良いのでは?」</li>
+<li>「『韓国旅行』のおすすめキーワードを押さえれば十分では?」</li>
+<li>「グルメ・皮膚科・ショッピング・ホテルなどは、世界の観光客が似たように検索しているのでは?」</li>
+</ul>
+<p>結論から言うと、<strong>この三つはいずれも正しくありません。</strong> キーワードの意味そのものが、すでに変わっているからです。今のキーワードは単なる検索語ではなく、<strong>AIに投げる質問、現地コミュニティの比較基準、SNSに保存されるコンテンツ、レビュープラットフォームの信頼確認方法</strong>を同時に含む単位になっています。</p>
+<h2 id="海外観光客が実際に投げる質問">海外観光客が実際に投げる質問</h2>
+<p>同じカテゴリでも、海外観光客が実際にする質問はこういうものです。</p>
+<ul>
+<li>「ソウルで初めて行く人が失敗しない皮膚科はどこ?」</li>
+<li>「明洞ではなく、現地の人がよく行くショッピングエリアは?」</li>
+<li>「日本語対応している韓国の美容クリニックを教えて」</li>
+<li>「韓国旅行中、両親と行ける高級韓食レストランは?」</li>
+<li>「江南で外国人が予約しやすい皮膚科は?」</li>
+</ul>
+<p>これらの質問は、従来のキーワードツールの検索ボリュームグラフにはほとんど現れません。しかし、ChatGPT・Perplexity・Reddit・Quora・TikTokなどのAIやコミュニティチャネルには毎日積み上がっています。</p>
+<h2 id="国別に異なる検索パターン">国別に異なる検索パターン</h2>
+<p>同じ「ソウル 皮膚科」というカテゴリでも、国別の検索パターンは明確に異なります。</p>
+<h3 id="日本の観光客-安心感と距離感">日本の観光客 — 「安心感」と「距離感」</h3>
+<p>日本の観光客の検索基準は、ほぼ一つに収束します。<strong>事前に不安要素を取り除くこと。</strong> 韓国語対応の可否、日本語対応の有無、価格の明確さ、予約のしやすさを、検索段階ですべて確認しようとします。</p>
+<p>検索例:</p>
+<ul>
+<li>「韓国 美容皮膚科 日本語対応」</li>
+<li>「ソウル 皮膚科 初めて おすすめ」</li>
+</ul>
+<h3 id="米国の観光客-経験と信頼">米国の観光客 — 「経験」と「信頼」</h3>
+<p>米国の観光客は「コスパ」と「韓国でしかできない経験」を比較します。十分なレビュー数、外国人にとっての安全性、医師の資格などまで確認段階が長くなります。</p>
+<p>検索例:</p>
+<ul>
+<li>&quot;best Korean skin clinic for foreigners&quot;</li>
+<li>&quot;is it worth getting skincare treatment in Seoul&quot;</li>
+</ul>
+<h3 id="台湾の観光客-統合された動線">台湾の観光客 — 統合された動線</h3>
+<p>K-Beauty、ショッピング、カフェ、施術、フォトスポットを<strong>1日の動線</strong>として効率よくまとめたい志向が強いです。単一のクリニックだけを見るのではなく、その日の予定全体を一緒に検索します。</p>
+<h3 id="東南アジアの観光客-アクセスと家族親和性">東南アジアの観光客 — アクセスと家族親和性</h3>
+<p>価格、公共交通、ハラル・ビーガン・家族同伴の可否などの<strong>現地生活条件</strong>を最優先で確認します。価格が安くても信頼シグナルが不足していれば選択肢から外れます。</p>
+<h2 id="同じキーワードの中に複数の市場がある">同じキーワードの中に複数の市場がある</h2>
+<p>同じ「ソウル 皮膚科」という検索語の中に、最低でも6つの異なるユーザー意図が存在します。</p>
+<ul>
+<li><strong>日本人の初訪問者</strong>: 「日本語対応している場所」</li>
+<li><strong>米国人の短期訪問者</strong>: 「Same day appointment for foreigners」</li>
+<li><strong>台湾の観光客</strong>: 「K-Beauty動線に組み込みやすい場所」</li>
+<li><strong>プレミアム顧客</strong>: 「luxury dermatologist in Cheongdam」</li>
+<li><strong>価格を気にする顧客</strong>: 「how much does Korean skin treatment cost」</li>
+<li><strong>副作用を懸念する顧客</strong>: 「is Korean laser treatment safe for tourists」</li>
+</ul>
+<p><strong>同じキーワードの中に6つの市場が並んでいる</strong>わけです。単純な英訳が通用しない理由はここにあります。</p>
+<h2 id="既存seoツールの限界">既存SEOツールの限界</h2>
+<p>従来のキーワードツールは今も有用です。ただし、上で見たような<strong>海外観光客の実際の質問</strong>はそのままでは見えません。観光客はすでに、検索の出発点から次のチャネルへ分散しているからです。</p>
+<ul>
+<li>ChatGPTで旅行プランを尋ねる</li>
+<li>Perplexityで選択肢を比較する</li>
+<li>Redditで外国人の体験談を確認する</li>
+<li>Quoraで安全性に関する答えを探す</li>
+<li>TikTok・Instagramで保存できる場所を確認する</li>
+<li>Naver、Google、Xiaohongshu、Threads、YouTubeの情報を総合的に検証する</li>
+</ul>
+<p>問題は、いまだに多くのブランドが<strong>Googleキーワードだけを見てグローバルコンテンツを作っている</strong>点です。検索チャネルがすでに分散している現実の中では、半分の情報だけで意思決定していることになります。</p>
+<h2 id="geoリサーチとは何か">GEOリサーチとは何か</h2>
+<p>GEO(Generative Engine Optimization)は、検索順位を上げる作業ではありません。むしろ、<strong>AIがユーザーの質問に答えるとき、自社ブランドが解決策として登場するように設計する作業</strong>です。</p>
+<p>たとえば、誰かがChatGPTに「ソウルで外国人におすすめの皮膚科を教えて」と質問すると、AIは答えを作る際に次の要素を確認します。</p>
+<ul>
+<li>外国語対応の可否</li>
+<li>専門医による診療か</li>
+<li>レビュー数と質</li>
+<li>場所とアクセス</li>
+<li>価格の透明性</li>
+<li>予約の利便性</li>
+<li>観光客のレビュー</li>
+<li>公式サイトの説明</li>
+<li>コミュニティでの言及パターン</li>
+</ul>
+<p>GEOリサーチは、これらをチャネル別に点検し、<strong>AIの答えが形成される構造そのものを設計する</strong>作業です。</p>
+<h2 id="国別質問マップが必要な理由">国別「質問マップ」が必要な理由</h2>
+<p>海外観光客マーケティングで必要なのは、キーワードリストではなく、<strong>国別の質問マップ</strong>です。韓国の医療観光を例にすると次のようになります。</p>
+<h3 id="日本人観光客の質問">日本人観光客の質問</h3>
+<ul>
+<li>日本語対応はあるか?</li>
+<li>初訪問でも安全か?</li>
+<li>価格は明確か?</li>
+<li>レビューは良いか?</li>
+<li>過剰な施術を勧められないか?</li>
+</ul>
+<h3 id="米国人観光客の質問">米国人観光客の質問</h3>
+<ul>
+<li>韓国で受ける価値は本当にあるのか?</li>
+<li>医師は信頼できるか?</li>
+<li>外国人でも予約できるか?</li>
+<li>回復期間はどれくらいか?</li>
+<li>英語で十分に説明してくれるか?</li>
+</ul>
+<h3 id="台湾人観光客の質問">台湾人観光客の質問</h3>
+<ul>
+<li>K-Beauty旅行の動線に組み込めるか?</li>
+<li>施術後にショッピングやカフェに行けるか?</li>
+<li>人気のパッケージは何か?</li>
+<li>レビューは多いか?</li>
+<li>コスパは良いか?</li>
+</ul>
+<h3 id="東南アジア観光客の質問">東南アジア観光客の質問</h3>
+<ul>
+<li>家族と一緒に行けるか?</li>
+<li>交通は便利か?</li>
+<li>価格帯は無理がないか?</li>
+<li>ハラル飲食店や周辺施設はあるか?</li>
+<li>短い日程でも行けるか?</li>
+</ul>
+<p>これらの質問に答えるコンテンツが<strong>どこに配置されているか</strong>が、AIの答えに登場する確率を決めます。</p>
+<h2 id="コンテンツ配置戦略-良いコンテンツよりも正しい場所">コンテンツ配置戦略 — 「良いコンテンツ」よりも「正しい場所」</h2>
+<p>プラットフォームごとに重要度はすべて異なります。</p>
+<ul>
+<li>ある質問では <strong>Reddit</strong> が決め手になる</li>
+<li>ある質問では <strong>Quora</strong> が答えを作る</li>
+<li>ある質問では <strong>Naverブログ</strong>が信頼源になる</li>
+<li>ある質問では <strong>Googleレビュー</strong>が重みを決める</li>
+<li>ある質問では <strong>YouTube・Instagram</strong>が意思決定を作る</li>
+<li>ある質問では <strong>現地コミュニティ</strong>(Xiaohongshu・LINE・Wechatなど)が核心になる</li>
+</ul>
+<p>良いコンテンツよりも、<strong>AIと観光客が実際に参照している場所にコンテンツを配置する</strong>ことの方がはるかに重要です。</p>
+<h2 id="グローバル観光マーケティングの本当の仕事">グローバル観光マーケティングの本当の仕事</h2>
+<p>翻訳ではありません。<strong>質問の理解</strong>です。</p>
+<p>海外の観光客は言語だけが異なるわけではありません。</p>
+<ul>
+<li>検索を始める理由が異なる</li>
+<li>不安に感じる点が異なる</li>
+<li>比較の基準が異なる</li>
+<li>信頼する出典が異なる</li>
+<li>予約を決定する瞬間が異なる</li>
+</ul>
+<h2 id="投げかける質問そのものが変わる">投げかける質問そのものが変わる</h2>
+<p>これまで: 「うちのキーワードの検索ボリュームはどれくらい?」</p>
+<p>これからは、こう変わるべきです。</p>
+<ul>
+<li>各国の観光客は自社のカテゴリを<strong>どんな言葉で質問</strong>しているか?</li>
+<li>その質問に対して<strong>AIはどのブランドを答えとして推薦</strong>しているか?</li>
+<li>自社ブランドはその答えの中に登場しているか?</li>
+<li>登場していない場合、<strong>どの出典やコンテンツが不足</strong>しているか?</li>
+<li>競合はどの質問で繰り返し言及されているか?</li>
+<li>自社は<strong>どの質問の答えとして設計</strong>されるべきか?</li>
+</ul>
+<h2 id="plurankが行っていること">Plurankが行っていること</h2>
+<p>PlurankはGEOリサーチのインフラとして、以下を自動化します。</p>
+<ul>
+<li>国別・言語別・プラットフォーム別の観光客の質問を毎週収集</li>
+<li>AI検索(ChatGPT、Perplexity、Google AI、Gemini、Claude)が作る答えのキャプチャと分析</li>
+<li>AIの答えに繰り返し登場する出典チャネル(Reddit、Quora、Naver、YouTube、Threadsなど)の影響度分析</li>
+<li>競合ブランドの言及頻度と文脈の追跡</li>
+<li>自社ブランドが抜けている質問タイプの特定</li>
+<li>次のAIの答えに入るために、どのチャネル・どの形式のコンテンツを優先すべきかの設計</li>
+</ul>
+<p>キーワードを増やす作業ではなく、<strong>AIの答えの中で自社ブランドが自然に推薦されるようにするためのインフラ</strong>です。</p>
+<h2 id="結論">結論</h2>
+<p>検索の中心はすでに<strong>キーワードから質問へ</strong>移行しました。グローバル観光マーケティングの勝負は結局、<strong>その質問の中で自社ブランドがどんな答えとして登場するか</strong>にかかっています。</p>
+  </article>
+
+  <div class="tags-row"><span class="tag">GEO</span> · <span class="tag">AI検索</span> · <span class="tag">観光マーケティング</span> · <span class="tag">インバウンド</span> · <span class="tag">国別検索</span></div>
+  <div class="medium-origin">この記事はもともと <a href="https://medium.com/p/3bf7f58dae85" rel="noopener" target="_blank">Medium</a>に掲載されました。</div>
+
+  <div class="cta-card">
+    <h2>PlurankのGEOインテリジェンスを実際にご覧ください</h2>
+    <p>30分のデモで、自社ブランドがAIの回答にどう見えているかを確認します。</p>
+    <a href="/ja.html#contact" class="btn">30分デモを申し込む →</a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-lead">Plurank — TwoStepsAhead社の唯一無二のGEOソリューション</div>
+  © 2026 TwoStepsAhead Inc · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a>
+</footer>
+
+</body>
+</html>

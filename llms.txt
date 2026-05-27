@@ -88,6 +88,14 @@ A multi-signal AI model trained on 30M+ published-to-cited data records, capturi
 - Japanese: https://www.plurank.com/ja.html
 - IR Deck (private): https://georank24-ir.twostepsahead.co.kr
 
+## Blog (Latest Posts)
+
+- [Global Tourists Search Differently — Even With the Same Keyword](https://www.plurank.com/blog/global-tourists-search-differently/en) — Tourists from Japan, the US, Taiwan and Southeast Asia ask completely different questions even for the same "Seoul dermatology" keyword. Country-by-country search pattern breakdown plus the GEO research playbook. (2026-05-28, by Glenn Kim)
+  - 한국어: https://www.plurank.com/blog/global-tourists-search-differently/
+  - 日本語: https://www.plurank.com/blog/global-tourists-search-differently/ja
+
+Blog index: https://www.plurank.com/blog/ (ko) · /blog/en · /blog/ja
+
 ## Contact
 
 - Email: glenn.kim@twostepsahead.co.kr

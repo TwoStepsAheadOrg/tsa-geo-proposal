@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GeoRank24 — Style Preview (Editorial)</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Style preview — Fraunces + Geist + monotone editorial direction. Not for production.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0a0a0a;
+  --bg-soft: #101010;
+  --bg-soft-2: #131313;
+  --surface: #161616;
+  --surface-2: #1c1c1c;
+  --border: rgba(255,255,255,0.08);
+  --border-strong: rgba(255,255,255,0.16);
+  --text: #f5f5f5;
+  --text-soft: rgba(255,255,255,0.72);
+  --text-mute: rgba(255,255,255,0.46);
+  --text-faint: rgba(255,255,255,0.28);
+  --warm: #d6d3c7;
+  --warm-soft: #b8b3a3;
+  --highlight: #f59e0b;
+  --max: 1200px;
+  --max-narrow: 880px;
+  --f-display: 'Fraunces', 'Noto Serif KR', Georgia, serif;
+  --f-sans: 'Geist', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-mono: 'Geist Mono', 'SF Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--f-sans);
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-feature-settings: "ss01", "cv11";
+}
+::selection { background: var(--text); color: var(--bg); }
+a { color: inherit; text-decoration: none; }
+img, svg { display: block; max-width: 100%; }
+
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  background-image:
+    radial-gradient(circle at 25% 18%, rgba(255,255,255,0.022) 0%, transparent 45%),
+    radial-gradient(circle at 78% 72%, rgba(255,255,255,0.018) 0%, transparent 50%);
+  pointer-events: none; z-index: 0;
+}
+
+.container { max-width: var(--max); margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
+.container-narrow { max-width: var(--max-narrow); margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
+
+/* ========== EYEBROW / SECTION HEAD ========== */
+.eyebrow {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  display: inline-flex; align-items: center; gap: 12px;
+}
+.eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; }
+
+.section-head {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 80px;
+  margin-bottom: 80px;
+  align-items: end;
+}
+.section h2 {
+  font-family: var(--f-display);
+  font-weight: 300;
+  font-size: clamp(32px, 4.4vw, 56px);
+  line-height: 1.1;
+  letter-spacing: -0.022em;
+  font-variation-settings: "opsz" 96;
+  margin-top: 28px;
+}
+.section h2 em { font-style: italic; font-weight: 400; }
+.section h2 .mute { color: var(--text-mute); }
+.section-lede {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-soft);
+  max-width: 560px;
+  font-weight: 400;
+}
+.section-lede strong { color: var(--text); font-weight: 500; }
+
+.section { padding: 120px 0; border-bottom: 1px solid var(--border); position: relative; z-index: 1; }
+.section-tight { padding: 96px 0; }
+
+/* ========== NAV ========== */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  padding: 22px 32px;
+  background: rgba(10,10,10,0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.nav-brand {
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: -0.012em;
+}
+.nav-brand em { font-style: italic; font-weight: 400; color: var(--text-soft); }
+.nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.nav-links a { transition: color 0.2s ease; }
+.nav-links a:hover { color: var(--text); }
+.nav-meta { display: flex; align-items: center; gap: 16px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-mute); }
+.nav-pill {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 5px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.nav-pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--highlight); }
+@media (max-width: 900px) { .nav-links { display: none; } }
+
+/* ========== BUTTONS ========== */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-family: var(--f-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.btn-primary { background: var(--text); color: var(--bg); }
+.btn-primary:hover { background: #fff; transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+.btn-ghost:hover { border-color: var(--text); background: rgba(255,255,255,0.04); }
+.btn svg { width: 14px; height: 14px; }
+
+/* ========== HERO ========== */
+.hero { padding: 96px 0 100px; border-bottom: 1px solid var(--border); }
+.hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: start; }
+.hero h1 {
+  font-family: var(--f-display);
+  font-weight: 300;
+  font-size: clamp(40px, 5.6vw, 72px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  font-variation-settings: "opsz" 96;
+  margin-top: 32px;
+}
+.hero h1 .line { display: block; }
+.hero h1 em { font-style: italic; font-weight: 400; font-variation-settings: "opsz" 144; }
+.hero h1 .accent { color: var(--text-mute); }
+.hero-sub { margin-top: 36px; font-size: 17px; line-height: 1.7; color: var(--text-soft); max-width: 560px; }
+.hero-sub strong { color: var(--text); font-weight: 500; }
+.hero-cta { margin-top: 44px; display: flex; gap: 14px; flex-wrap: wrap; }
+.hero-trust { margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.trust-item {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-mute);
+}
+.trust-item strong {
+  display: block; color: var(--text); font-size: 24px;
+  font-family: var(--f-display); font-weight: 400; letter-spacing: -0.02em;
+  text-transform: none; margin-bottom: 4px; font-variation-settings: "opsz" 60;
+}
+
+.hero-aside {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0));
+  padding: 28px;
+  position: sticky; top: 110px;
+}
+.aside-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.aside-title { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); }
+.aside-status { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; color: var(--highlight); display: inline-flex; align-items: center; gap: 6px; }
+.aside-status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.aside-prompt {
+  font-family: var(--f-display); font-style: italic; font-weight: 300;
+  font-size: 17px; line-height: 1.55; color: var(--text-soft);
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border);
+  min-height: 28px;
+}
+.aside-prompt-text { display: inline; }
+.aside-prompt-cursor {
+  display: inline-block; width: 2px; height: 0.9em;
+  background: var(--text-soft); vertical-align: -0.12em;
+  margin-left: 3px; animation: typing-blink 0.9s steps(2) infinite;
+}
+.aside-prompt.done .aside-prompt-cursor { opacity: 0.25; animation: none; }
+@keyframes typing-blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+
+.aside-commentary {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.03em;
+  color: var(--highlight); padding: 10px 14px; margin-bottom: 18px;
+  border-left: 2px solid var(--highlight); background: rgba(245,158,11,0.05);
+  min-height: 38px; line-height: 1.5;
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.aside-commentary.show { opacity: 1; transform: translateY(0); }
+.aside-commentary-cursor {
+  display: inline-block; width: 1.5px; height: 0.85em;
+  background: var(--highlight); margin-left: 2px;
+  vertical-align: -0.1em; animation: typing-blink 0.7s steps(2) infinite;
+}
+
+.aside-foot {
+  margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-mute);
+}
+.aside-foot strong {
+  font-family: var(--f-display); font-weight: 300; font-style: italic;
+  font-size: 26px; letter-spacing: -0.02em; text-transform: none;
+  color: var(--text); font-variation-settings: "opsz" 96;
+}
+.aside-foot strong .pct { font-size: 0.55em; color: var(--text-mute); font-style: normal; margin-left: 1px; }
+
+.platform-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 12px;
+  row-gap: 5px;
+  padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px;
+  position: relative;
+  transition: background 0.25s ease, padding 0.25s ease, margin 0.25s ease;
+}
+.platform-row:last-child { border-bottom: none; padding-bottom: 0; }
+.platform-name { font-weight: 500; transition: color 0.25s ease; grid-column: 1; grid-row: 1; }
+.platform-rank { font-family: var(--f-mono); color: var(--text-mute); font-size: 13px; font-variant-numeric: tabular-nums; transition: color 0.25s ease; grid-column: 2; grid-row: 1; align-self: center; }
+.platform-rank.high { color: var(--text); font-weight: 500; }
+.platform-rank.pending { color: var(--text-faint); font-size: 14px; letter-spacing: 0.1em; }
+.platform-answer {
+  grid-column: 1 / -1; grid-row: 2;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--text-mute);
+  line-height: 1.45;
+  min-height: 14px;
+}
+.platform-row.is-active .platform-answer { color: var(--highlight); }
+.platform-row.is-active {
+  background: rgba(245,158,11,0.06);
+  margin: 0 -10px;
+  padding-left: 10px; padding-right: 10px;
+  border-radius: 3px;
+}
+.platform-row.is-active .platform-name { color: var(--highlight); }
+.platform-row.is-active::before {
+  content: ""; position: absolute; left: -2px; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--highlight);
+  box-shadow: 0 0 0 4px rgba(245,158,11,0.18);
+}
+.platform-group { display: flex; flex-direction: column; }
+.platform-group + .platform-group { margin-top: 18px; }
+.platform-group-head {
+  font-family: var(--f-mono); font-size: 9px; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-faint);
+  padding: 0 0 10px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.platform-group-head .ghead-count { color: var(--text-mute); }
+
+/* ========== MISSION ========== */
+.mission-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; }
+.mission-body p { font-size: 17px; line-height: 1.75; color: var(--text-soft); margin-bottom: 20px; }
+.mission-body p strong { color: var(--text); font-weight: 500; }
+.mission-pillars { margin-top: 40px; display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.mission-pillar {
+  background: var(--bg);
+  padding: 22px 28px;
+  display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center;
+}
+.mission-pillar-num {
+  font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.12em;
+  color: var(--text-mute); font-weight: 500;
+}
+.mission-pillar-body h4 {
+  font-family: var(--f-display); font-weight: 400; font-size: 18px;
+  letter-spacing: -0.01em; margin-bottom: 4px;
+}
+.mission-pillar-body h4 em { font-style: italic; color: var(--text-soft); font-weight: 300; margin-left: 4px; font-size: 14px; font-family: var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.mission-pillar-body p { color: var(--text-mute); font-size: 14px; }
+
+/* ========== THESIS ========== */
+.thesis-kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-bottom: 64px; }
+.thesis-kpi { background: var(--bg); padding: 36px 24px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.thesis-kpi:hover { background: var(--bg-soft); }
+.thesis-kpi-feature { background: var(--bg-soft); }
+.thesis-kpi-value { font-family: var(--f-display); font-weight: 300; font-size: clamp(40px, 4.5vw, 56px); line-height: 1; letter-spacing: -0.035em; font-variation-settings: "opsz" 144; }
+.thesis-kpi-value em { font-style: italic; font-weight: 400; }
+.thesis-kpi-value .pct { color: var(--text-mute); font-weight: 400; font-style: normal; font-size: 0.55em; vertical-align: 0.4em; margin-left: 2px; }
+.thesis-kpi-label { font-size: 13px; line-height: 1.5; color: var(--text-soft); margin-top: auto; padding-top: 24px; }
+.thesis-kpi-source { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 14px; border-top: 1px solid var(--border); }
+
+.thesis-timeline { margin: 64px 0; padding: 36px 32px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); }
+.thesis-timeline-title { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 28px; }
+.thesis-timeline-track { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; gap: 16px; align-items: center; }
+.thesis-stage { display: flex; flex-direction: column; gap: 6px; }
+.thesis-stage-year { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--text-faint); }
+.thesis-stage-label { font-family: var(--f-display); font-weight: 400; font-size: 16px; line-height: 1.3; letter-spacing: -0.01em; color: var(--text-soft); }
+.thesis-stage-now .thesis-stage-label { color: var(--text); font-style: italic; }
+.thesis-stage-now .thesis-stage-year { color: var(--highlight); }
+.thesis-arrow { color: var(--text-faint); font-family: var(--f-mono); }
+
+.thesis-hypothesis { margin-top: 48px; padding: 40px 44px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--bg-soft-2); }
+.thesis-hypothesis-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 16px; }
+.thesis-hypothesis-body { font-family: var(--f-display); font-style: italic; font-weight: 300; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; letter-spacing: -0.012em; font-variation-settings: "opsz" 144; color: var(--text); }
+.thesis-hypothesis-body strong { font-style: normal; font-weight: 500; }
+
+/* ========== DEMO ========== */
+.demo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.demo-grid > .card-wide { grid-column: 1 / -1; }
+.card { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 20px; min-height: 320px; }
+.card-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.card-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); }
+.card-tag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--text-faint); }
+
+.gauge-wrap { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 12px 0; }
+.gauge { width: 220px; height: auto; }
+.gauge-num-text { font-family: var(--f-display); font-weight: 300; font-variation-settings: "opsz" 144; }
+.gauge-trend { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.sparkline-wrap { display: flex; flex-direction: column; gap: 8px; }
+.sparkline-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+.sparkline { width: 100%; height: 50px; }
+
+.model-tagline { font-size: 14px; line-height: 1.6; color: var(--text-soft); }
+.model-tagline strong { color: var(--text); font-weight: 500; font-family: var(--f-display); font-style: italic; font-weight: 400; }
+.neural-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.neural-meta > div { display: flex; flex-direction: column; gap: 4px; }
+.neural-meta span { font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+.neural-meta strong { font-family: var(--f-display); font-weight: 400; font-size: 22px; letter-spacing: -0.02em; font-variation-settings: "opsz" 60; }
+
+.metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.metric { display: flex; flex-direction: column; gap: 6px; }
+.metric-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 3.5vw, 44px); line-height: 1; letter-spacing: -0.032em; font-variation-settings: "opsz" 96; }
+.metric-num em { font-style: italic; font-weight: 400; }
+.metric-num .unit { font-size: 0.55em; color: var(--text-mute); margin-left: 2px; vertical-align: 0.3em; }
+.metric-label { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+
+/* ========== WHY ========== */
+.why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.why-card { background: var(--bg); padding: 44px 36px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.why-card:hover { background: var(--bg-soft); }
+.why-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; color: var(--text); margin-bottom: 8px; }
+.why-icon svg { width: 28px; height: 28px; }
+.why-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
+.why-card h3 em { font-style: italic; }
+.why-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.why-card p strong { color: var(--text); font-weight: 500; }
+.why-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== ENGINE ========== */
+.engine-flow { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.engine-step { background: var(--bg); padding: 36px; display: flex; flex-direction: column; gap: 12px; }
+.engine-step-num { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 8px; }
+.engine-step h3 { font-family: var(--f-display); font-weight: 400; font-size: 22px; line-height: 1.2; letter-spacing: -0.015em; }
+.engine-step h3 em { font-style: italic; }
+.engine-step p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.engine-step-meta { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+.engine-step-last { background: var(--bg-soft); }
+
+/* ========== TRUST ========== */
+.trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.trust-card { background: var(--bg); padding: 36px 28px; display: flex; flex-direction: column; gap: 12px; transition: background 0.2s ease; }
+.trust-card:hover { background: var(--bg-soft); }
+.trust-card-feature { background: var(--bg-soft); }
+.trust-num { font-family: var(--f-display); font-weight: 300; font-size: clamp(48px, 5vw, 72px); line-height: 1; letter-spacing: -0.04em; font-variation-settings: "opsz" 144; }
+.trust-num em { font-style: italic; font-weight: 400; }
+.trust-num .unit { font-size: 0.5em; color: var(--text-mute); font-weight: 400; }
+.trust-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); }
+.trust-desc { font-size: 13px; line-height: 1.55; color: var(--text-mute); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== INSIGHTS ========== */
+.insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.insight-card { background: var(--bg); padding: 40px 32px; display: flex; flex-direction: column; gap: 14px; transition: background 0.2s ease; }
+.insight-card:hover { background: var(--bg-soft); }
+.insight-card-feature { background: var(--bg-soft); }
+.insight-num { font-family: var(--f-display); font-weight: 300; font-size: 56px; line-height: 1; letter-spacing: -0.04em; color: var(--text-faint); font-variation-settings: "opsz" 144; }
+.insight-card h3 { font-family: var(--f-display); font-weight: 400; font-size: 21px; line-height: 1.25; letter-spacing: -0.015em; margin-top: 6px; }
+.insight-card h3 em { font-style: italic; }
+.insight-card p { font-size: 14px; line-height: 1.65; color: var(--text-soft); }
+.insight-card p strong { color: var(--text); font-weight: 500; }
+.insight-tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; color: var(--highlight); padding-top: 16px; border-top: 1px solid var(--border); margin-top: auto; }
+
+/* ========== DELIVERABLES ========== */
+.deliverable-row { display: grid; grid-template-columns: 1fr 1.05fr; gap: 80px; align-items: center; padding: 64px 0; border-bottom: 1px solid var(--border); }
+.deliverable-row:last-child { border-bottom: none; padding-bottom: 0; }
+.deliverable-row-reverse .deliverable-text { order: 2; }
+.deliverable-row-reverse .deliverable-visual { order: 1; }
+.deliverable-num { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--text-mute); margin-bottom: 16px; }
+.deliverable-text h3 { font-family: var(--f-display); font-weight: 300; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
+.deliverable-text h3 em { font-style: italic; font-weight: 400; }
+.deliverable-text p { margin-top: 20px; font-size: 16px; line-height: 1.7; color: var(--text-soft); }
+.deliverable-text p strong { color: var(--text); font-weight: 500; }
+.deliverable-bullets { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.deliverable-bullets li { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.04em; color: var(--text-mute); padding-left: 20px; position: relative; }
+.deliverable-bullets li::before { content: "—"; position: absolute; left: 0; color: var(--text-faint); }
+
+.mock-card { border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); padding: 24px; }
+.mock-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.mock-pill { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-mute); }
+.mock-pill-good { color: var(--text); border-color: var(--border-strong); }
+.mock-pill-purple { color: var(--highlight); border-color: var(--border-strong); }
+
+.mock-platforms { display: flex; flex-direction: column; gap: 10px; }
+.mock-platform { display: grid; grid-template-columns: 110px 1fr 64px; gap: 12px; align-items: center; font-size: 12px; }
+.mock-plat-name { display: flex; align-items: center; gap: 8px; font-weight: 500; }
+.mock-plat-name .dot { width: 8px; height: 8px; border-radius: 50%; }
+.mock-plat-bar { height: 4px; background: rgba(255,255,255,0.06); border-radius: 999px; overflow: hidden; }
+.mock-plat-bar .bar-fill { height: 100%; background: var(--text); opacity: 0.85; border-radius: 999px; }
+.mock-plat-val { font-family: var(--f-mono); font-size: 11px; text-align: right; color: var(--text-soft); font-variant-numeric: tabular-nums; }
+.mock-plat-val small { color: var(--text-faint); margin-left: 2px; }
+.mock-foot { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--text-mute); }
+.mock-foot strong { font-family: var(--f-display); font-weight: 400; font-size: 22px; letter-spacing: -0.02em; color: var(--text); }
+.mock-foot-list { flex-direction: column; align-items: flex-start; gap: 8px; }
+.mock-foot-list .ftag { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em; color: var(--highlight); margin-right: 8px; }
+.mock-chart { width: 100%; height: auto; }
+
+.mock-actions { display: flex; flex-direction: column; gap: 12px; }
+.mock-action { display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: center; padding: 12px; border: 1px solid var(--border); border-radius: 6px; }
+.prio { font-family: var(--f-mono); font-size: 10px; font-weight: 500; padding: 4px 8px; border-radius: 4px; letter-spacing: 0.08em; }
+.prio-high { background: rgba(245,158,11,0.12); color: var(--highlight); }
+.prio-med { background: rgba(255,255,255,0.06); color: var(--text-soft); }
+.prio-low { background: rgba(255,255,255,0.03); color: var(--text-mute); }
+.mock-action-body { display: flex; flex-direction: column; gap: 4px; }
+.mock-action-body strong { font-size: 13px; font-weight: 500; }
+.mock-action-body span { font-size: 11px; color: var(--text-mute); line-height: 1.4; }
+.mock-action-impact { text-align: right; }
+.mock-action-impact b { font-family: var(--f-display); font-weight: 400; font-size: 16px; letter-spacing: -0.015em; display: block; }
+.mock-action-impact small { font-family: var(--f-mono); font-size: 10px; color: var(--text-faint); }
+
+.mock-card-screenshot { padding: 0; overflow: hidden; }
+.mock-screenshot-head { display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: var(--surface); border-bottom: 1px solid var(--border); }
+.mock-dots { display: flex; gap: 6px; }
+.mock-dots span { width: 9px; height: 9px; border-radius: 50%; background: var(--border-strong); }
+.mock-url { font-family: var(--f-mono); font-size: 11px; color: var(--text-mute); }
+.mock-screenshot-body { padding: 24px; }
+.mock-msg-prompt { font-size: 13px; color: var(--text-mute); padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+.mock-msg-answer { font-size: 14px; line-height: 1.7; color: var(--text); }
+.mock-msg-answer mark { background: rgba(245,158,11,0.16); color: var(--text); padding: 1px 4px; border-radius: 2px; }
+.mock-citations { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 8px; }
+.cit { font-family: var(--f-mono); font-size: 11px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-soft); display: inline-flex; align-items: center; gap: 6px; }
+.cit b { color: var(--text-mute); }
+.cit-brand { border-color: var(--highlight); color: var(--highlight); }
+.cit-brand b { color: var(--highlight); }
+
+/* ========== CTA ========== */
+.cta-card { max-width: 880px; margin: 0 auto; padding: 80px 64px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); text-align: center; }
+.cta-eyebrow { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--highlight); margin-bottom: 24px; }
+.cta-card h2 { font-family: var(--f-display); font-weight: 300; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; letter-spacing: -0.022em; font-variation-settings: "opsz" 96; }
+.cta-card h2 em { font-style: italic; font-weight: 400; }
+.cta-card > p { margin-top: 20px; font-size: 16px; color: var(--text-soft); max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.65; }
+.cta-form { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.cta-form input { padding: 14px 18px; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; color: var(--text); font-family: var(--f-sans); font-size: 14px; transition: border-color 0.2s; }
+.cta-form input:focus { outline: none; border-color: var(--text); }
+.cta-form input::placeholder { color: var(--text-faint); }
+.cta-form input[name="company"], .cta-form input[name="email"] { grid-column: span 1; }
+.cta-form input[name="url"] { grid-column: span 2; }
+.cta-form button { grid-column: span 2; justify-content: center; }
+
+/* ========== FOOTER ========== */
+.footer { padding: 56px 32px; text-align: center; font-family: var(--f-mono); font-size: 12px; color: var(--text-faint); letter-spacing: 0.04em; }
+.footer a { color: var(--text-mute); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.footer a:hover { border-color: var(--text-mute); }
+
+.compare-foot { padding: 64px 0; text-align: center; background: linear-gradient(180deg, var(--bg), #060606); }
+.compare-foot h3 { font-family: var(--f-display); font-weight: 400; font-style: italic; font-size: 28px; letter-spacing: -0.015em; margin-bottom: 24px; }
+.compare-row { display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.compare-row .btn-ghost { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 18px; }
+
+/* ========== RESPONSIVE ========== */
+/* ========== REVEAL / COUNTER ANIMATIONS ========== */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.75s cubic-bezier(0.4, 0, 0.2, 1), transform 0.75s cubic-bezier(0.4, 0, 0.2, 1); }
+.reveal.in { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.08s; }
+.reveal-d2 { transition-delay: 0.16s; }
+.reveal-d3 { transition-delay: 0.24s; }
+.reveal-d4 { transition-delay: 0.32s; }
+.reveal-d5 { transition-delay: 0.4s; }
+.reveal-d6 { transition-delay: 0.48s; }
+
+/* Gauge arc — initial state, JS animates strokeDashoffset */
+.gauge-arc-anim { stroke-dasharray: 100; stroke-dashoffset: 100; }
+
+/* Path reveal — JS sets dasharray=length, dashoffset=length, then 0 */
+.path-reveal { transition: stroke-dashoffset 1.4s cubic-bezier(0.4, 0, 0.2, 1); }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .gauge-arc-anim { stroke-dashoffset: 0 !important; }
+}
+
+@media (max-width: 1100px) {
+  .thesis-kpis { grid-template-columns: repeat(3, 1fr); }
+  .insights-grid, .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .trust-grid { grid-template-columns: repeat(2, 1fr); }
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .thesis-timeline-track { grid-template-columns: 1fr; gap: 8px; }
+  .thesis-arrow { transform: rotate(90deg); }
+}
+@media (max-width: 900px) {
+  .hero-grid, .section-head, .mission-grid, .deliverable-row, .demo-grid, .engine-flow { grid-template-columns: 1fr !important; gap: 48px; }
+  .deliverable-row-reverse .deliverable-text { order: 1; }
+  .deliverable-row-reverse .deliverable-visual { order: 2; }
+  .insights-grid, .why-grid, .thesis-kpis, .trust-grid { grid-template-columns: 1fr; }
+  .hero-trust { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hero, .section { padding: 80px 0; }
+  .container, .container-narrow, .nav { padding-left: 20px; padding-right: 20px; }
+  .cta-card { padding: 48px 28px; }
+  .cta-form { grid-template-columns: 1fr; }
+  .cta-form input[name="company"], .cta-form input[name="email"], .cta-form input[name="url"], .cta-form button { grid-column: span 1; }
+  .hero-aside { position: static; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">GeoRank<em>24</em></div>
+    <div class="nav-links">
+      <a href="#mission">Mission</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#how">Citora</a>
+      <a href="#insights">Insights</a>
+      <a href="#deliverables">Deliverables</a>
+    </div>
+    <div class="nav-meta">
+      <span class="nav-pill">Style Preview</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Predictive Marketing AI · Multi-signal</div>
+        <h1>
+          <span class="line">AI가 결정하는 모든 노출 —</span>
+          <span class="line accent">AI 검색 · SNS · 추천 알고리즘.</span>
+          <span class="line"><em>Citora</em>가 발행 전에 예측합니다.</span>
+        </h1>
+        <p class="hero-sub">
+          <strong>Citora</strong>는 GeoRank24가 만든 멀티시그널 마케팅 AI 모델입니다.
+          12개국 <strong>7 AI 검색 + YouTube · Instagram · X · TikTok · Threads</strong>에서
+          3천만 건+ 데이터를 학습해, 콘텐츠가 어디서 노출·인용·추천될지
+          <strong>발행 전에</strong> 예측합니다.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            무료 진단 받기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#how" class="btn btn-ghost">엔진 작동 원리 보기</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><strong>12+</strong>데이터 소스 통합</div>
+          <div class="trust-item"><strong>30M+</strong>BigQuery 학습 데이터</div>
+          <div class="trust-item"><strong>7 + 5</strong>AI 검색 · SNS 시그널</div>
+        </div>
+      </div>
+
+      <aside class="hero-aside">
+        <div class="aside-head">
+          <span class="aside-title">Exposure + Citation · Live</span>
+          <span class="aside-status">Analyzing</span>
+        </div>
+        <div class="aside-prompt" id="aside-prompt">
+          <span class="aside-prompt-text" id="prompt-text"></span><span class="aside-prompt-cursor"></span>
+        </div>
+
+        <div class="platform-group">
+          <div class="platform-group-head">
+            <span>AI Search · Citation</span>
+            <span class="ghead-count">7</span>
+          </div>
+          <div class="platform-row" data-rank="82" data-answer="성분 비교 표 + 임상 데이터 — 인용 가능성 높음"><span class="platform-name">ChatGPT</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="71" data-answer="피부과 출처 + 안전성 근거 — 적합도 양호"><span class="platform-name">Claude</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="68" data-answer="Allure · 글로우레시피 권위 매체 우선 인용"><span class="platform-name">Perplexity</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="63" data-answer="심층 성분 비교 — 카테고리 가중치 ↑"><span class="platform-name">AI Mode</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="58" data-answer="성분 사이언스 — 논문·임상 출처 강세"><span class="platform-name">DeepSeek</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="54" data-answer="Search Grounding — 후기 다양성 보강 필요"><span class="platform-name">Gemini</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="47" data-answer="검색 1순위 도메인 우선 — FAQ 스키마 보강"><span class="platform-name">AI Overview</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+        </div>
+
+        <div class="platform-group">
+          <div class="platform-group-head">
+            <span>Social · Recommendation</span>
+            <span class="ghead-count">5</span>
+          </div>
+          <div class="platform-row" data-rank="78" data-answer="GRWM · 첫 3초 비주얼 hook — FYP 진입 강세"><span class="platform-name">TikTok</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="61" data-answer="리뷰 튜토리얼 — Watch time 가중치 ↑"><span class="platform-name">YouTube</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="56" data-answer="Reels · 캐러셀 — 텍스처 클로즈업 보강"><span class="platform-name">Instagram</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="42" data-answer="성분 토론 — 인플루언서 멘션 분리 노출"><span class="platform-name">X</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+          <div class="platform-row" data-rank="33" data-answer="성분/사용기 토론 — 해시태그 확장 필요"><span class="platform-name">Threads</span><span class="platform-rank pending">—</span><span class="platform-answer"></span></div>
+        </div>
+
+        <div class="aside-foot">
+          <span>평균 노출 확률 (7+5)</span>
+          <strong><span id="prob-value">0.0</span><span class="pct">%</span></strong>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MISSION ===== -->
+<section class="section" id="mission">
+  <div class="container">
+    <div class="mission-grid">
+      <div class="reveal">
+        <div class="eyebrow">Who We Are</div>
+        <h2>글로벌 최초의<br><em>GEO 최적화</em> AI 모델 회사.</h2>
+      </div>
+      <div class="mission-body reveal reveal-d1">
+        <p>
+          <strong>GEO(Generative Engine Optimization)</strong>는 AI 검색 시대의 SEO입니다.
+          SEO가 "내 콘텐츠가 검색 1페이지에 노출될 확률"이었다면,
+          GEO는 <strong>"내 콘텐츠가 ChatGPT·Claude·Perplexity·Gemini의 답변에 인용될 확률"</strong>입니다.
+        </p>
+        <p>
+          GeoRank24는 매주 12개국 7 AI 플랫폼에서 캡처한 <strong>3천만 건+ 발행↔인용 데이터</strong>로
+          자체 인용 예측 모델 <strong>Citora</strong>를 학습시킵니다.
+          Citora가 당신의 콘텐츠가 <strong>AI에 인용될 확률을 발행 전에 점수로 출력합니다</strong> —
+          AI 검색 시대의 Surfer SEO를 만듭니다.
+        </p>
+        <div class="mission-pillars">
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">01</div>
+            <div class="mission-pillar-body">
+              <h4>측정 <em>Measure</em></h4>
+              <p>7 AI × 12국 인용 추적</p>
+            </div>
+          </div>
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">02</div>
+            <div class="mission-pillar-body">
+              <h4>학습 <em>Learn</em></h4>
+              <p>발행↔인용 30M+ 데이터셋</p>
+            </div>
+          </div>
+          <div class="mission-pillar">
+            <div class="mission-pillar-num">03</div>
+            <div class="mission-pillar-body">
+              <h4>예측 <em>Predict</em></h4>
+              <p>콘텐츠별 인용 확률 출력</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== THESIS ===== -->
+<section class="section" id="thesis">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Why This Matters</div>
+        <h2>마케팅의 결정자가 <em>바뀌었다</em>.</h2>
+      </div>
+      <p class="section-lede">
+        인간이 큐레이션하던 시대는 끝났습니다. 이제 AI 알고리즘이 모든 노출을 결정합니다 —
+        그리고 그것을 <strong>예측</strong>해야만 마케팅이 작동합니다.
+      </p>
+    </div>
+
+    <div class="thesis-kpis">
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">70<span class="pct">%</span></div>
+        <div class="thesis-kpi-label">YouTube 시청시간을 <strong style="color:var(--text);font-weight:500">AI 추천</strong>이 결정</div>
+        <div class="thesis-kpi-source">YouTube CPO</div>
+      </div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">90<span class="pct">%+</span></div>
+        <div class="thesis-kpi-label">TikTok FYP 도달, 비팔로워 <strong style="color:var(--text);font-weight:500">알고리즘</strong></div>
+        <div class="thesis-kpi-source">Sotrender</div>
+      </div>
+      <div class="thesis-kpi thesis-kpi-feature reveal">
+        <div class="thesis-kpi-value"><em>−58</em><span class="pct">%</span></div>
+        <div class="thesis-kpi-label">AI Overview 노출 후 <strong style="color:var(--text);font-weight:500">Organic CTR</strong> 하락</div>
+        <div class="thesis-kpi-source">Ahrefs · 2025</div>
+      </div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">9<span class="pct">억</span></div>
+        <div class="thesis-kpi-label">ChatGPT 주간 활성, <strong style="color:var(--text);font-weight:500">검색 대체</strong></div>
+        <div class="thesis-kpi-source">OpenAI · 2026.02</div>
+      </div>
+      <div class="thesis-kpi reveal">
+        <div class="thesis-kpi-value">65<span class="pct">%</span></div>
+        <div class="thesis-kpi-label">CMO "AI가 역할 <strong style="color:var(--text);font-weight:500">근본적으로 바꾼다</strong>"</div>
+        <div class="thesis-kpi-source">Gartner · 2025</div>
+      </div>
+    </div>
+
+    <div class="thesis-timeline reveal">
+      <div class="thesis-timeline-title">AI 게이트키퍼가 단계마다 누적된다</div>
+      <div class="thesis-timeline-track">
+        <div class="thesis-stage">
+          <span class="thesis-stage-year">2010</span>
+          <span class="thesis-stage-label">SEO <em style="font-style:italic;color:var(--text-mute)">검색 알고리즘</em></span>
+        </div>
+        <div class="thesis-arrow">→</div>
+        <div class="thesis-stage">
+          <span class="thesis-stage-year">2015</span>
+          <span class="thesis-stage-label">Social Algo <em style="font-style:italic;color:var(--text-mute)">추천 피드</em></span>
+        </div>
+        <div class="thesis-arrow">→</div>
+        <div class="thesis-stage">
+          <span class="thesis-stage-year">2023</span>
+          <span class="thesis-stage-label">LLM Search <em style="font-style:italic;color:var(--text-mute)">AI 답변</em></span>
+        </div>
+        <div class="thesis-arrow">→</div>
+        <div class="thesis-stage thesis-stage-now">
+          <span class="thesis-stage-year">2026+</span>
+          <span class="thesis-stage-label"><em>Agentic Commerce</em></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="thesis-hypothesis reveal">
+      <div class="thesis-hypothesis-tag">Our Hypothesis</div>
+      <div class="thesis-hypothesis-body">
+        AI 검색 + 소셜 + 곧 도래할 Agentic Commerce — 모든 <strong>AI-mediated 채널의 노출·인용·추천</strong>을
+        통합 예측하는 모델이 마케팅 인프라의 표준이 됩니다. 그래서 <strong>Citora</strong>는
+        단일 채널이 아닌 <strong>멀티시그널 통합 학습</strong>으로 만들어집니다.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DEMO ===== -->
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Meet Citora</div>
+        <h2>콘텐츠 인용 확률을 <em>예측</em>하는 AI 모델.</h2>
+      </div>
+      <p class="section-lede">
+        192건의 발행↔인용 실증 데이터로 학습된 <strong>Citora</strong>가 — 콘텐츠 URL 한 줄로
+        7 AI 플랫폼별 인용 확률(GEO Score)을 출력합니다.
+      </p>
+    </div>
+
+    <div class="demo-grid">
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-label">Citation Probability</span>
+          <span class="card-tag">콘텐츠 인용 확률</span>
+        </div>
+        <div class="gauge-wrap" data-gauge-target="78.2">
+          <svg class="gauge" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid meet">
+            <path d="M 20 110 A 80 80 0 0 1 180 110" stroke="rgba(255,255,255,0.06)" stroke-width="10" fill="none" stroke-linecap="round"/>
+            <path class="gauge-arc-anim" d="M 20 110 A 80 80 0 0 1 180 110" stroke="#f5f5f5" stroke-width="10" fill="none" stroke-linecap="round" pathLength="100"/>
+            <text x="100" y="96" text-anchor="middle" fill="#f5f5f5" class="gauge-num-text gauge-text-anim" font-size="42" font-weight="300">0.0<tspan fill="rgba(255,255,255,0.46)" font-size="22" dx="2">%</tspan></text>
+          </svg>
+          <div class="gauge-trend">발행 후 7일 내 인용 확률</div>
+        </div>
+        <div class="sparkline-wrap">
+          <span class="sparkline-label">최근 발행 콘텐츠 추이</span>
+          <svg class="sparkline" viewBox="0 0 200 50" preserveAspectRatio="none">
+            <path d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8 L 200 50 L 0 50 Z" fill="rgba(255,255,255,0.04)"/>
+            <path class="path-reveal" d="M 0 35 L 50 30 L 100 28 L 150 18 L 200 8" stroke="#f5f5f5" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            <circle cx="200" cy="8" r="3" fill="#f5f5f5"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-header">
+          <span class="card-label">Citora</span>
+          <span class="card-tag">v0.8 · GEO Score</span>
+        </div>
+        <svg viewBox="0 0 400 240" style="flex:1;width:100%;height:auto;">
+          <g stroke="rgba(255,255,255,0.18)" stroke-width="0.8" fill="none">
+            <line x1="60" y1="60" x2="180" y2="40"/><line x1="60" y1="60" x2="180" y2="100"/><line x1="60" y1="60" x2="180" y2="140"/>
+            <line x1="60" y1="120" x2="180" y2="40"/><line x1="60" y1="120" x2="180" y2="100"/><line x1="60" y1="120" x2="180" y2="140"/><line x1="60" y1="120" x2="180" y2="180"/>
+            <line x1="60" y1="180" x2="180" y2="100"/><line x1="60" y1="180" x2="180" y2="140"/><line x1="60" y1="180" x2="180" y2="180"/>
+            <line x1="180" y1="40" x2="300" y2="60"/><line x1="180" y1="40" x2="300" y2="120"/>
+            <line x1="180" y1="100" x2="300" y2="60"/><line x1="180" y1="100" x2="300" y2="120"/><line x1="180" y1="100" x2="300" y2="180"/>
+            <line x1="180" y1="140" x2="300" y2="120"/><line x1="180" y1="140" x2="300" y2="180"/>
+            <line x1="180" y1="180" x2="300" y2="120"/><line x1="180" y1="180" x2="300" y2="180"/>
+            <line x1="300" y1="60" x2="360" y2="120"/><line x1="300" y1="120" x2="360" y2="120"/><line x1="300" y1="180" x2="360" y2="120"/>
+          </g>
+          <g fill="#f5f5f5">
+            <circle cx="60" cy="60" r="4"/><circle cx="60" cy="120" r="4"/><circle cx="60" cy="180" r="4"/>
+            <circle cx="180" cy="40" r="4"/><circle cx="180" cy="100" r="4"/><circle cx="180" cy="140" r="4"/><circle cx="180" cy="180" r="4"/>
+            <circle cx="300" cy="60" r="4"/><circle cx="300" cy="120" r="4"/><circle cx="300" cy="180" r="4"/>
+            <circle cx="360" cy="120" r="6" stroke="#f5f5f5" stroke-width="2" fill="#0a0a0a"/>
+          </g>
+          <text x="60" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">INPUT</text>
+          <text x="180" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">FEATURES</text>
+          <text x="300" y="220" text-anchor="middle" fill="rgba(255,255,255,0.46)" font-family="Geist Mono" font-size="9" letter-spacing="1.5">LATENT</text>
+          <text x="360" y="220" text-anchor="middle" fill="#f5f5f5" font-family="Geist Mono" font-size="9" letter-spacing="1.5">OUT</text>
+        </svg>
+        <div class="model-tagline">
+          <strong>Citora</strong> — GeoRank24의 자체 인용 예측 AI 모델. URL 입력 → 7 AI 플랫폼 인용 확률 출력.
+        </div>
+        <div class="neural-meta">
+          <div><span>예측 지평</span><strong>7일</strong></div>
+          <div><span>학습 주기</span><strong>주 1회</strong></div>
+          <div><span>MAPE</span><strong>8.6%</strong></div>
+        </div>
+      </div>
+
+      <div class="card card-wide reveal reveal-d2">
+        <div class="card-header">
+          <span class="card-label">Real-time Data Foundation</span>
+          <span class="card-tag">12개국 · 7 플랫폼</span>
+        </div>
+        <div class="metrics-grid">
+          <div class="metric"><div class="metric-num" data-count="192">192</div><div class="metric-label">발행↔인용 실증</div></div>
+          <div class="metric"><div class="metric-num" data-count="30">30<span class="unit">M+</span></div><div class="metric-label">BigQuery 학습 데이터</div></div>
+          <div class="metric"><div class="metric-num" data-count="12">12</div><div class="metric-label">국가 (실제 ISP IP)</div></div>
+          <div class="metric"><div class="metric-num" data-count="97.1" data-decimals="1">97.1</div><div class="metric-label">평균 GEO 점수</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY ===== -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Why GeoRank24</div>
+        <h2>왜 우리가 <em>예측</em>까지 가능한가.</h2>
+      </div>
+      <p class="section-lede">
+        실제 브라우저 데이터, 12개국 ISP IP, 30M+ 학습 데이터 —
+        셋 다 가진 회사는 전 세계에서 우리뿐입니다.
+      </p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <h3>실제 <em>브라우저</em> 데이터</h3>
+        <p>API 추정값이나 스크래핑이 아닌 <strong>12개국 ISP IP에서 진짜 사람이 보는 화면</strong>을 캡처합니다.</p>
+        <div class="why-meta">스크린샷 인증 · 192건 실증</div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+        <h3>7 플랫폼 × 12 국가</h3>
+        <p><strong>ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek</strong>를 5개 워커 세트, 60대 EC2로 동시 측정.</p>
+        <div class="why-meta">주 1회 정기 + 일일 트렌드</div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M5.6 18.4l4.2-4.2M14.2 9.8l4.2-4.2"/></svg></div>
+        <h3>Citora — <em>발행 전</em> 예측</h3>
+        <p>30M+ 발행↔인용 데이터로 학습된 <strong>Citora</strong>가 콘텐츠가 AI에 인용될 확률을 발행 전에 점수로 출력합니다.</p>
+        <div class="why-meta">AI 검색의 Surfer SEO · MAPE 8.6%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ENGINE ===== -->
+<section class="section" id="engine">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">How It Works</div>
+        <h2>데이터에서 <em>예측</em>까지, 4단계 엔진.</h2>
+      </div>
+      <p class="section-lede">
+        매주 자동으로 데이터를 수집하고, 모델로 학습하며, 다음 주 가시성을 예측합니다.
+      </p>
+    </div>
+
+    <div class="engine-flow">
+      <div class="engine-step reveal">
+        <div class="engine-step-num">01 · Collect</div>
+        <h3>실제 브라우저 캡처</h3>
+        <p>12개국 ISP IP에서 7 AI 플랫폼 답변을 실제 브라우저로 캡처. 매주 60대 워커 EC2로 자동화.</p>
+        <div class="engine-step-meta">매주 화요일 03:00 KST</div>
+      </div>
+      <div class="engine-step reveal">
+        <div class="engine-step-num">02 · Label</div>
+        <h3>스크린샷 + 인용 추출</h3>
+        <p>스크린샷·출처 URL·순위·텍스트 토큰을 BigQuery에 적재. 248개 피처로 정규화.</p>
+        <div class="engine-step-meta">학습 데이터 30M+ 누적</div>
+      </div>
+      <div class="engine-step reveal">
+        <div class="engine-step-num">03 · Train</div>
+        <h3><em>Citora</em> 재학습</h3>
+        <p>Citora가 발행↔인용 패턴을 학습. 매주 1회 가중치 업데이트, MAPE 8.6%.</p>
+        <div class="engine-step-meta">v1 출시 예정 · 2026 H2</div>
+      </div>
+      <div class="engine-step engine-step-last">
+        <div class="engine-step-num">04 · Predict</div>
+        <h3>인용 확률 + 가이드</h3>
+        <p>URL을 입력하면 7 AI별 인용 확률(GEO Score)을 출력. 점수가 낮으면 어떤 부분을 보강해야 오를지 자동 제안.</p>
+        <div class="engine-step-meta">실시간 + 매주 월 09:00 리포트</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST ===== -->
+<section class="section" id="trust">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Data Foundation</div>
+        <h2><em>학습 데이터</em>가 곧 모트입니다.</h2>
+      </div>
+      <p class="section-lede">
+        매주 화요일 새벽, 12개국 60대 워커 EC2가 7 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다.
+        이 데이터는 그대로 다음 모델의 <strong>연료</strong>가 됩니다.
+      </p>
+    </div>
+
+    <div class="trust-grid">
+      <div class="trust-card reveal">
+        <div class="trust-num" data-count="192">192</div>
+        <div class="trust-label">발행↔AI 인용 실증</div>
+        <div class="trust-desc">12업체 블로그 → AI 검색 인용까지 추적한 케이스</div>
+      </div>
+      <div class="trust-card trust-card-feature reveal reveal-d1">
+        <div class="trust-num" data-count="30">30<span class="unit">M+</span></div>
+        <div class="trust-label">BigQuery 학습 데이터</div>
+        <div class="trust-desc">스크린샷 · 출처 · 순위 · 텍스트 토큰 · 메타데이터</div>
+      </div>
+      <div class="trust-card reveal reveal-d2">
+        <div class="trust-num" data-count="12">12</div>
+        <div class="trust-label">국가 (실제 IP)</div>
+        <div class="trust-desc">US · UK · JP · KR · DE · FR · ES · IT · IN · BR · ID · AE</div>
+      </div>
+      <div class="trust-card reveal reveal-d3">
+        <div class="trust-num" data-count="97.1" data-decimals="1">97.1</div>
+        <div class="trust-label">평균 GEO 점수</div>
+        <div class="trust-desc">12개 카테고리 · 192건 발행 콘텐츠</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSIGHTS ===== -->
+<section class="section" id="insights">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">How We Think About GEO</div>
+        <h2>데이터로 발견한 <em>6가지</em> 사실.</h2>
+      </div>
+      <p class="section-lede">
+        매주 30M+ 발행↔인용 데이터를 보면서 우리가 발견한, GEO를 진지하게 다루려면 반드시 알아야 할 것들.
+      </p>
+    </div>
+
+    <div class="insights-grid">
+      <article class="insight-card reveal">
+        <div class="insight-num">01</div>
+        <h3>AI는 검색하지 않고, <em>답을 짓는다</em>.</h3>
+        <p>AI 검색은 결과 목록을 보여주지 않습니다. 여러 출처를 합쳐 하나의 답변을 작성하죠. 그래서 <strong>인용된 출처가 곧 가시성</strong>입니다.</p>
+        <div class="insight-tag">→ 7 AI × 12국에서 어떤 출처가 들어갔는지 매주 추적</div>
+      </article>
+      <article class="insight-card reveal">
+        <div class="insight-num">02</div>
+        <h3>한 번 언급과 핵심 근거, 그 차이는 <em>5배</em>.</h3>
+        <p>같은 한 줄도 <strong>각주에 들어가느냐 본문 근거가 되느냐</strong>에 따라 가시성이 달라집니다. 단순 언급만으론 부족합니다.</p>
+        <div class="insight-tag">→ GEO Score는 위치·컨텍스트·정확성을 가중치로 반영</div>
+      </article>
+      <article class="insight-card reveal">
+        <div class="insight-num">03</div>
+        <h3>사람들은 <em>키워드</em>로 묻지 않는다.</h3>
+        <p>SEO는 "Mercedes E-Class 가격" 같은 키워드. GEO는 <strong>"내 가족 4명에게 맞는 프리미엄 세단"</strong> 같은 사람의 사정이 들어옵니다.</p>
+        <div class="insight-tag">→ 페르소나 클러스터로 분리해 인용 패턴 학습</div>
+      </article>
+      <article class="insight-card reveal">
+        <div class="insight-num">04</div>
+        <h3>AI는 <em>당신 사이트만</em> 읽지 않는다.</h3>
+        <p>AI는 도메인 한 곳을 보고 답을 만들지 않습니다. <strong>리뷰·커뮤니티·언론 인용</strong>까지 모두 합산해 평가합니다.</p>
+        <div class="insight-tag">→ 80+ 매체 + 5대 커뮤니티 mention 주간 트래킹</div>
+      </article>
+      <article class="insight-card reveal">
+        <div class="insight-num">05</div>
+        <h3>AI가 <em>꺼내 쓰기 쉬운</em> 콘텐츠는 다르게 생겼다.</h3>
+        <p>양은 의미 없습니다. <strong>AI가 바로 인용해 갈 수 있는 형식</strong>(스키마·FAQ·명확한 출처)이 인용 여부를 결정합니다.</p>
+        <div class="insight-tag">→ 시뮬레이터가 보강 시 +N pt 정확히 출력</div>
+      </article>
+      <article class="insight-card insight-card-feature reveal">
+        <div class="insight-num">06</div>
+        <h3>'추천'하는 AI는 끝, <em>'사는'</em> AI가 온다.</h3>
+        <p>추천을 넘어 <strong>비교·결제 실행까지 AI가 직접 처리</strong>하는 시대. 노출의 의미가 인지(awareness)에서 행동(action)으로 옮겨갑니다.</p>
+        <div class="insight-tag">→ ChatGPT Operator · Perplexity Shopping 측정 포함</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DELIVERABLES ===== -->
+<section class="section" id="deliverables">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">What You Get · Every Monday</div>
+        <h2>고객이 받는 것 — <em>매주 월요일</em>.</h2>
+      </div>
+      <p class="section-lede">
+        측정만이 아닌 예측. 발행 전 인용 확률 + 발행 후 모니터링 + 다음 액션 가이드까지 한 번에.
+      </p>
+    </div>
+
+    <div class="deliverable-row reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">01</div>
+        <h3>주간 가시성 <em>리포트</em></h3>
+        <p>7 AI 플랫폼 × 12개국에서 당신 브랜드의 <strong>인용·순위·점유율</strong>을 매주 자동 산출합니다.
+        경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.</p>
+        <ul class="deliverable-bullets">
+          <li>플랫폼별 평균 순위 + 인용 횟수</li>
+          <li>국가별 점유율 히트맵</li>
+          <li>경쟁사 5사 SOV 비교</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">Week 17 · 2026-04-21</span>
+            <span class="mock-pill mock-pill-good">+5.2pt</span>
+          </div>
+          <div class="mock-platforms">
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#10A37F"></span>ChatGPT</div><div class="mock-plat-bar"><div class="bar-fill" style="width:82%"></div></div><div class="mock-plat-val">82% <small>· #1</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#D97757"></span>Claude</div><div class="mock-plat-bar"><div class="bar-fill" style="width:71%"></div></div><div class="mock-plat-val">71% <small>· #2</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#1FB8CD"></span>Perplexity</div><div class="mock-plat-bar"><div class="bar-fill" style="width:68%"></div></div><div class="mock-plat-val">68% <small>· #3</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#EA4335"></span>AI Mode</div><div class="mock-plat-bar"><div class="bar-fill" style="width:63%"></div></div><div class="mock-plat-val">63% <small>· #4</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#4D6BFE"></span>DeepSeek</div><div class="mock-plat-bar"><div class="bar-fill" style="width:58%"></div></div><div class="mock-plat-val">58% <small>· #5</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#4285F4"></span>Gemini</div><div class="mock-plat-bar"><div class="bar-fill" style="width:54%"></div></div><div class="mock-plat-val">54% <small>· #6</small></div></div>
+            <div class="mock-platform"><div class="mock-plat-name"><span class="dot" style="background:#FBBC04"></span>AI Overview</div><div class="mock-plat-bar"><div class="bar-fill" style="width:42%"></div></div><div class="mock-plat-val">42% <small>· #7</small></div></div>
+          </div>
+          <div class="mock-foot"><span>전체 평균 점유율</span><strong>62.6%</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deliverable-row deliverable-row-reverse reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">02</div>
+        <h3>인용 확률 + <em>개선 시뮬레이터</em></h3>
+        <p>발행 예정 콘텐츠 URL이나 초안을 입력하면 <strong>Citora</strong>가 <strong>7 AI 플랫폼별 인용 확률</strong>을 출력합니다.
+        점수가 낮으면 어떤 부분(스키마·출처·구조)을 보강해야 확률이 오를지 시뮬레이터로 미리 확인할 수 있습니다.</p>
+        <ul class="deliverable-bullets">
+          <li>7 AI 플랫폼별 인용 확률 (0–100%)</li>
+          <li>"무엇을 고치면 +N pt" 개선 시뮬레이션</li>
+          <li>MAPE 8.6% (예측 정확도 표준 메트릭)</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">/blog/post-2026-04</span>
+            <span class="mock-pill mock-pill-purple">+ Simulator</span>
+          </div>
+          <svg class="mock-chart" viewBox="0 0 360 180" preserveAspectRatio="xMidYMid meet">
+            <line x1="30" y1="40" x2="340" y2="40" stroke="rgba(255,255,255,0.05)"/>
+            <line x1="30" y1="90" x2="340" y2="90" stroke="rgba(255,255,255,0.05)"/>
+            <line x1="30" y1="140" x2="340" y2="140" stroke="rgba(255,255,255,0.05)"/>
+            <text x="22" y="44" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">90</text>
+            <text x="22" y="94" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">60</text>
+            <text x="22" y="144" text-anchor="end" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">30</text>
+            <line x1="240" y1="20" x2="240" y2="155" stroke="rgba(245,158,11,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="240" y="14" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono" font-weight="500">현재 콘텐츠</text>
+            <polyline class="path-reveal" points="30,120 70,115 110,108 150,98 190,88 230,82" fill="none" stroke="#f5f5f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            <polyline points="230,82 270,72 310,62 340,55" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,3"/>
+            <circle cx="30" cy="120" r="2.5" fill="#f5f5f5"/>
+            <circle cx="70" cy="115" r="2.5" fill="#f5f5f5"/>
+            <circle cx="110" cy="108" r="2.5" fill="#f5f5f5"/>
+            <circle cx="150" cy="98" r="2.5" fill="#f5f5f5"/>
+            <circle cx="190" cy="88" r="2.5" fill="#f5f5f5"/>
+            <circle cx="230" cy="82" r="3.5" fill="#f5f5f5" stroke="#0a0a0a" stroke-width="1.5"/>
+            <circle cx="340" cy="55" r="5" fill="#f59e0b" stroke="#0a0a0a" stroke-width="2"/>
+            <text x="340" y="42" text-anchor="end" fill="#f59e0b" font-size="11" font-family="Fraunces" font-weight="500">78.2</text>
+            <text x="30" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">초기</text>
+            <text x="110" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">+ 출처</text>
+            <text x="190" y="170" text-anchor="middle" fill="rgba(255,255,255,0.28)" font-size="9" font-family="Geist Mono">+ FAQ</text>
+            <text x="270" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ 비교표</text>
+            <text x="340" y="170" text-anchor="middle" fill="#f59e0b" font-size="9" font-family="Geist Mono">+ 스키마</text>
+          </svg>
+          <div class="mock-foot mock-foot-list">
+            <div><span class="ftag">SUGGEST</span>비교표 + Schema markup 추가 시 인용 확률 <strong style="color:var(--text);font-family:var(--f-display);font-weight:400;font-style:italic;">+18pt</strong> 예상</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deliverable-row reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">03</div>
+        <h3>실행 <em>우선순위</em></h3>
+        <p>"어떤 콘텐츠를 어디에 발행해야 인용되는가" — 모델이 직접 생성한 <strong>액션 가이드</strong>를
+        우선순위 매겨 제공합니다. 각 액션엔 예상 임팩트(점수 변동)와 난이도가 함께 표시됩니다.</p>
+        <ul class="deliverable-bullets">
+          <li>플랫폼별 우선 액션 자동 생성</li>
+          <li>예상 임팩트 (포인트 단위)</li>
+          <li>난이도 · 소요 시간 추정</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card">
+          <div class="mock-head">
+            <span class="mock-pill">Priority Actions · 4건</span>
+            <span class="mock-pill mock-pill-good">실행 시 +8.4pt 예상</span>
+          </div>
+          <div class="mock-actions">
+            <div class="mock-action">
+              <span class="prio prio-high">P1</span>
+              <div class="mock-action-body"><strong>공식 비교 페이지 발행</strong><span>Perplexity가 비교 콘텐츠 우선 인용 — 경쟁사 K 대비 우위 공개</span></div>
+              <div class="mock-action-impact"><b>+3.2pt</b><small>2일</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-high">P1</span>
+              <div class="mock-action-body"><strong>FAQ 스키마 마크업 추가</strong><span>AI Overview 인용률 38% → 60% 예상 (Reddit 의존도 감소)</span></div>
+              <div class="mock-action-impact"><b>+2.8pt</b><small>4시간</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-med">P2</span>
+              <div class="mock-action-body"><strong>케이스 스터디 3건 GitHub 공개</strong><span>Claude의 인용 패턴 — 코드/실증 자료 우선</span></div>
+              <div class="mock-action-impact"><b>+1.6pt</b><small>1주</small></div>
+            </div>
+            <div class="mock-action">
+              <span class="prio prio-low">P3</span>
+              <div class="mock-action-body"><strong>자체 도큐먼트 hreflang 보강</strong><span>JP/DE 시장 가시성 +12% 예상</span></div>
+              <div class="mock-action-impact"><b>+0.8pt</b><small>1일</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deliverable-row deliverable-row-reverse reveal">
+      <div class="deliverable-text">
+        <div class="deliverable-num">04</div>
+        <h3>스크린샷 <em>증거</em></h3>
+        <p>실제 AI가 답변한 화면을 <strong>그대로 캡처</strong>해 첨부합니다.
+        인용된 출처가 highlight 되어, 보고서·임원 회의용 시각 자료로 즉시 사용 가능합니다.</p>
+        <ul class="deliverable-bullets">
+          <li>7 AI × 12국 = 매주 84+ 스크린샷</li>
+          <li>인용 출처 자동 highlight</li>
+          <li>PNG · PDF · BigQuery 직접 다운로드</li>
+        </ul>
+      </div>
+      <div class="deliverable-visual">
+        <div class="mock-card mock-card-screenshot">
+          <div class="mock-screenshot-head">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <span class="mock-url">chatgpt.com · US · Apr 21</span>
+          </div>
+          <div class="mock-screenshot-body">
+            <div class="mock-msg-prompt">Mercedes-Benz E-Class에 대해 알려줘</div>
+            <div class="mock-msg-answer">
+              메르세데스-벤츠 E-Class는 독일 슈투트가르트 기반 프리미엄 세단으로,
+              <mark>2026년형 모델</mark>은 마일드 하이브리드 기술과 <mark>MBUX 슈퍼스크린</mark>을 도입했습니다.
+              동급 경쟁 차종 BMW 5시리즈, Audi A6 대비 <mark>승차감과 인테리어 마감</mark>에서 우위를 보입니다.
+              <div class="mock-citations">
+                <span class="cit"><b>1</b> mercedes-benz.com</span>
+                <span class="cit"><b>2</b> motortrend.com</span>
+                <span class="cit cit-brand"><b>3</b> mbusa.com/e-class</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="cta-card reveal">
+      <div class="cta-eyebrow">Free Diagnostic · 3분 안에 결과</div>
+      <h2>당신의 콘텐츠가 AI에 인용될 확률,<br><em>발행 전에 무료로</em> 확인하세요.</h2>
+      <p>발행 예정 또는 기존 콘텐츠 URL을 알려주세요. 7 AI 플랫폼별 인용 확률 + 점수 개선 가이드를 무료로 보내드립니다.</p>
+      <form class="cta-form">
+        <input type="text" name="company" placeholder="회사명" required>
+        <input type="email" name="email" placeholder="이메일" required>
+        <input type="text" name="url" placeholder="콘텐츠 URL 또는 도메인" required>
+        <button type="submit" class="btn btn-primary">
+          무료 진단 받기
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMPARE FOOTER ===== -->
+<section class="compare-foot">
+  <div class="container">
+    <div class="eyebrow" style="margin-bottom:16px">Style Preview · Hybrid Direction</div>
+    <h3>이 톤으로 전체 사이트를 가져갈까요?</h3>
+    <div class="compare-row">
+      <a href="/ko.html" class="btn btn-ghost">현재 디자인 (Cosmic) ↗</a>
+      <a href="https://www.twostepsahead.co.kr" target="_blank" class="btn btn-ghost">참조 — twostepsahead.co.kr ↗</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2026 TwoStepsAhead Inc · GeoRank24 · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a>
+</footer>
+
+<script>
+(function () {
+  const PROMPT = '"비건 수분 크림 — 2026 베스트" 콘텐츠가 어디서 인용·추천될까?';
+  const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+  const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
+
+  async function typeText(el, text, speed = 22, jitter = 14) {
+    el.textContent = '';
+    for (const ch of text) {
+      el.textContent += ch;
+      await sleep(speed + Math.random() * jitter);
+    }
+  }
+
+  function countUp(el, target, dur = 500, suffix = '%') {
+    return new Promise((resolve) => {
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min((now - start) / dur, 1);
+        el.textContent = Math.round(target * easeOutCubic(t)) + suffix;
+        if (t < 1) requestAnimationFrame(step);
+        else resolve();
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  async function runHero() {
+    const promptText = document.getElementById('prompt-text');
+    const promptWrap = document.getElementById('aside-prompt');
+    const probEl = document.getElementById('prob-value');
+    if (!promptText) return;
+
+    await sleep(450);
+    await typeText(promptText, PROMPT, 26, 18);
+    await sleep(300);
+    promptWrap.classList.add('done');
+
+    const rows = document.querySelectorAll('.platform-row[data-rank]');
+    let sum = 0;
+
+    for (const row of rows) {
+      const rank = +row.dataset.rank;
+      const answer = row.dataset.answer;
+      const rankEl = row.querySelector('.platform-rank');
+      const answerEl = row.querySelector('.platform-answer');
+
+      row.classList.add('is-active');
+      await typeText(answerEl, answer, 14, 8);
+      await sleep(140);
+
+      rankEl.classList.remove('pending');
+      if (rank >= 60) rankEl.classList.add('high');
+      await countUp(rankEl, rank, 460);
+
+      sum += rank;
+      await sleep(120);
+      row.classList.remove('is-active');
+    }
+
+    const avg = sum / rows.length;
+    const startAvg = performance.now();
+    function avgStep(now) {
+      const t = Math.min((now - startAvg) / 900, 1);
+      probEl.textContent = (avg * easeOutCubic(t)).toFixed(1);
+      if (t < 1) requestAnimationFrame(avgStep);
+    }
+    requestAnimationFrame(avgStep);
+  }
+
+  // ===== Reveal on scroll =====
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  reveals.forEach((el) => revealObs.observe(el));
+
+  // ===== Number counters =====
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseFloat(el.dataset.count);
+      const decimals = parseInt(el.dataset.decimals || '0', 10);
+      const dur = parseInt(el.dataset.dur || '1400', 10);
+      let textNode = el.firstChild;
+      if (!textNode || textNode.nodeType !== 3) {
+        textNode = document.createTextNode('0');
+        el.insertBefore(textNode, el.firstChild);
+      }
+      textNode.nodeValue = decimals ? '0.' + '0'.repeat(decimals) : '0';
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min((now - start) / dur, 1);
+        const v = target * easeOutCubic(t);
+        textNode.nodeValue = decimals ? v.toFixed(decimals) : Math.round(v).toString();
+        if (t < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+      counterObs.unobserve(el);
+    });
+  }, { threshold: 0.4 });
+  counters.forEach((el) => counterObs.observe(el));
+
+  // ===== Gauge SVG arc + text =====
+  const gauges = document.querySelectorAll('[data-gauge-target]');
+  const gaugeObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const wrap = e.target;
+      const target = parseFloat(wrap.dataset.gaugeTarget);
+      const arc = wrap.querySelector('.gauge-arc-anim');
+      const text = wrap.querySelector('.gauge-text-anim');
+      if (arc) {
+        arc.style.transition = 'stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        requestAnimationFrame(() => { arc.style.strokeDashoffset = (100 - target).toString(); });
+      }
+      if (text) {
+        const tspan = text.firstChild;
+        const start = performance.now();
+        function tick(now) {
+          const t = Math.min((now - start) / 1600, 1);
+          const v = (target * easeOutCubic(t)).toFixed(1);
+          if (tspan && tspan.nodeType === 3) tspan.nodeValue = v; else text.firstChild.nodeValue = v;
+          if (t < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+      gaugeObs.unobserve(wrap);
+    });
+  }, { threshold: 0.4 });
+  gauges.forEach((el) => gaugeObs.observe(el));
+
+  // ===== Path reveal (sparkline + chart polylines) =====
+  const paths = document.querySelectorAll('.path-reveal');
+  const pathObs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      try {
+        const length = el.getTotalLength();
+        el.style.strokeDasharray = length;
+        el.style.strokeDashoffset = length;
+        el.getBoundingClientRect();
+        el.style.transition = 'stroke-dashoffset 1.5s cubic-bezier(0.4, 0, 0.2, 1)';
+        requestAnimationFrame(() => { el.style.strokeDashoffset = '0'; });
+      } catch (err) { /* SVG not ready */ }
+      pathObs.unobserve(el);
+    });
+  }, { threshold: 0.3 });
+  paths.forEach((el) => pathObs.observe(el));
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runHero);
+  } else {
+    runHero();
+  }
+})();
+</script>
+
+</body>
+</html>
