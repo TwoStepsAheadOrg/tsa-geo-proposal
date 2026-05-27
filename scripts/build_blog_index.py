@@ -141,6 +141,10 @@ def render_index(lang, posts):
 <meta property="og:site_name" content="Plurank">
 <meta property="og:locale" content="{og_locale}">
 <meta property="og:image" content="{SITE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="{escape(ui['page_title'])}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{escape(ui["page_title"])}">
 <meta name="twitter:description" content="{escape(ui["page_desc"])}">

@@ -221,6 +221,9 @@ def build_post_html(slug: str, lang: str, meta: dict, body_md: str) -> str:
     href_en = f"{SITE_URL}/blog/{slug}/en"
     href_ja = f"{SITE_URL}/blog/{slug}/ja"
 
+    # Word count (rough — for SEO signal)
+    word_count = len(re.findall(r"\S+", body_md))
+
     # Article JSON-LD
     article_jsonld = {
         "@context": "https://schema.org",
@@ -230,11 +233,13 @@ def build_post_html(slug: str, lang: str, meta: dict, body_md: str) -> str:
         "datePublished": pub_date,
         "dateModified": pub_date,
         "inLanguage": html_lang,
+        "wordCount": word_count,
+        "timeRequired": f"PT{reading_time}M",
         "author": {
             "@type": "Person",
             "name": author_name,
             "jobTitle": author_title,
-            "affiliation": {"@type": "Organization", "name": "TwoStepsAhead Inc."},
+            "affiliation": {"@type": "Organization", "name": "TwoStepsAhead Inc.", "url": SITE_URL},
         },
         "publisher": {
             "@type": "Organization",
@@ -304,6 +309,10 @@ def build_post_html(slug: str, lang: str, meta: dict, body_md: str) -> str:
 <meta property="og:site_name" content="Plurank">
 <meta property="og:locale" content="{og_locale}">
 <meta property="og:image" content="{SITE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="{escape(title)}">
 <meta property="article:published_time" content="{pub_date}">
 <meta property="article:author" content="{escape(author_name)}">
 <meta property="article:section" content="{escape(category)}">
