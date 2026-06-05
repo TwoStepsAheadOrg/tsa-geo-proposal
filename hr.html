@@ -611,6 +611,7 @@ body::before {
   })();
 
   var jobsById = {};
+  var DEFAULT_TEMPLATE = null; // {url,name} — '기타/자유 지원' 및 양식 없는 직무용 (첫 직무의 양식을 기본 양식으로)
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
   function liList(arr, title) {
     if (!arr || !arr.length) return '';
@@ -644,10 +645,14 @@ body::before {
     var dl = document.getElementById('template-dl');
     var link = document.getElementById('template-link');
     var nameEl = document.getElementById('template-name');
-    var j = jobsById[jobSelect && jobSelect.value];
-    if (j && j.formTemplateUrl) {
-      if (link) link.href = j.formTemplateUrl;
-      if (nameEl) nameEl.textContent = (j.formTemplateName || '지원서 양식') + ' 다운로드';
+    var val = jobSelect && jobSelect.value;
+    var j = jobsById[val];
+    var url = '', name = '지원서 양식';
+    if (j && j.formTemplateUrl) { url = j.formTemplateUrl; name = j.formTemplateName || '지원서 양식'; }
+    else if (val && DEFAULT_TEMPLATE) { url = DEFAULT_TEMPLATE.url; name = DEFAULT_TEMPLATE.name; } // 'other' 또는 양식 없는 직무
+    if (url) {
+      if (link) link.href = url;
+      if (nameEl) nameEl.textContent = name + ' 다운로드';
       if (dl) dl.hidden = false;
     } else if (dl) { dl.hidden = true; }
   }
@@ -658,7 +663,7 @@ body::before {
       .then(function (r) { if (!r.ok) throw new Error('jobs'); return r.json(); })
       .then(function (res) {
         var jobs = (res && res.data) || [];
-        jobs.forEach(function (j) { jobsById[String(j.id)] = j; });
+        jobs.forEach(function (j) { jobsById[String(j.id)] = j; if (!DEFAULT_TEMPLATE && j.formTemplateUrl) DEFAULT_TEMPLATE = { url: j.formTemplateUrl, name: j.formTemplateName || '지원서 양식' }; });
         if (rolesList) {
           if (jobs.length) {
             rolesList.innerHTML = jobs.map(roleCard).join('');
