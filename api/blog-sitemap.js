@@ -39,7 +39,10 @@ export default async function handler(req, res) {
 ${body}
 </urlset>`;
 
+  // Use res.end (raw Node) rather than Vercel's res.send(), which overrode the
+  // Content-Type to application/json for this string body. We need real XML.
+  res.statusCode = 200;
   res.setHeader('Content-Type', 'application/xml; charset=utf-8');
   res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=1200');
-  return res.status(200).send(xml);
+  return res.end(xml);
 }
