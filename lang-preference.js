@@ -5,8 +5,8 @@
     '/': 'ko',
     '/index.html': 'ko',
     '/ko.html': 'ko',
-    '/en.html': 'en',
-    '/ja.html': 'ja'
+    '/en': 'en',
+    '/ja': 'ja'
   };
 
   function setLanguage(lang) {

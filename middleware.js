@@ -65,7 +65,7 @@ export default function middleware(request) {
   if (url.searchParams.has('no_lang_redirect')) return;
 
   const lang = pickLanguage(request);
-  const targetPath = lang === 'ja' ? '/ja.html' : lang === 'en' ? '/en.html' : '';
+  const targetPath = lang === 'ja' ? '/ja' : lang === 'en' ? '/en' : '';
   if (!targetPath) return;
 
   url.pathname = targetPath;
