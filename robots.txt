@@ -67,3 +67,4 @@ Allow: /
 
 # === Sitemap ===
 Sitemap: https://www.plurank.com/sitemap.xml
+Sitemap: https://www.plurank.com/blog/sitemap.xml
