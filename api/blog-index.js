@@ -183,11 +183,8 @@ export default async function handler(req, res) {
   }
   const lang = ['ko', 'en', 'ja'].includes(req.query.lang) ? req.query.lang : 'ko';
 
-  // Local posts for this language, newest first (pinned ahead of platform posts).
-  const local = LOCAL_POSTS
-    .filter((e) => e.lang === lang)
-    .sort((a, b) => (a.date < b.date ? 1 : -1))
-    .map(fromLocal);
+  // Local hand-written posts for this language.
+  const local = LOCAL_POSTS.filter((e) => e.lang === lang).map(fromLocal);
 
   // Platform posts are Korean-only → only surface them on the ko index.
   let platform = [];
@@ -195,7 +192,11 @@ export default async function handler(req, res) {
     platform = (await fetchPlatformPosts()).map(fromPlatform);
   }
 
-  const posts = [...local, ...platform];
+  // True newest-first across local + platform, so the featured "LATEST" card is
+  // genuinely the most recent post (dates are YYYY-MM-DD → string compare works).
+  const posts = [...local, ...platform].sort((a, b) =>
+    a.date < b.date ? 1 : a.date > b.date ? -1 : 0,
+  );
   const html = renderIndex(lang, posts);
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
