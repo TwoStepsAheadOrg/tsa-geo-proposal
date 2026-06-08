@@ -164,7 +164,7 @@ async function trackBotVisit(req, slug) {
   const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim();
   const base = process.env.TRACK_API || 'https://api.plurank.com';
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), 800);
+  const timer = setTimeout(() => ctrl.abort(), 2500);
   try {
     await fetch(`${base}/api/plurank/track/bot-visit`, {
       method: 'POST',
