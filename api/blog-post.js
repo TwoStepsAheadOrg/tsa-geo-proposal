@@ -151,6 +151,34 @@ ${footerHtml(ui.footer_lead)}
 </html>`;
 }
 
+// AI 크롤러 비콘 — 봇이 www 글을 크롤하면 우리 트래킹 서버(api.plurank.com)에 기록한다.
+// www 글은 blog.plurank.com KR 블로그의 미러(self-canonical)이므로, host 를 blog.plurank.com
+// 으로 리매핑해 보내면 서버가 ws1 플루랭크 블로그 + 해당 글로 자동 귀속한다.
+// 사람 요청엔 영향 없음(봇 UA 만 ≤800ms, 실패해도 페이지 응답 정상).
+const AI_BOT_PATTERN =
+  /(gptbot|chatgpt-user|oai-searchbot|claudebot|claude-user|anthropic|perplexitybot|perplexity-user|ccbot|google-extended|googlebot|bingbot|applebot|bytespider|amazonbot|meta-external|cohere|bot|crawler|spider)/i;
+
+async function trackBotVisit(req, slug) {
+  const ua = String(req.headers['user-agent'] || '');
+  if (!ua || !AI_BOT_PATTERN.test(ua)) return;
+  const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim();
+  const base = process.env.TRACK_API || 'https://api.plurank.com';
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 800);
+  try {
+    await fetch(`${base}/api/plurank/track/bot-visit`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ host: 'blog.plurank.com', path: `/${slug}`, ua, ip, method: req.method }),
+      signal: ctrl.signal,
+    });
+  } catch {
+    /* best-effort */
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
     res.setHeader('Allow', 'GET');
@@ -166,6 +194,7 @@ export default async function handler(req, res) {
 
   if (ok && data && data.slug) {
     const html = renderPost(data);
+    await trackBotVisit(req, slug); // 봇이면 AI 크롤러 비콘(≤800ms), 사람이면 즉시 통과
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
     return res.status(200).send(html);
