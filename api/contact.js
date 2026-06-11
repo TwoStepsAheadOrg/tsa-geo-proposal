@@ -6,6 +6,8 @@
 const TYPE_LABELS = {
   'demo':          { emoji: '🤝', title: '데모 신청' },
   'brand-brochure': { emoji: '🎯', title: '브랜드 Full 스펙 마케팅 소개서 요청' },
+  'instatoon-consulting': { emoji: '🎨', title: '인스타툰 제작 상담' },
+  'shorts-consulting': { emoji: '🎬', title: '쇼츠·릴스 영상화 상담' },
   'agency-brochure': { emoji: '📊', title: '에이전시 GEO 데이터 제휴 소개서 요청' },
   'agency-demo':   { emoji: '🤝', title: '에이전시 데모 요청' },
   'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },

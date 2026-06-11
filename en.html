@@ -139,7 +139,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 em, i, cite, address, dfn { font-style: normal; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
 body {
   font-family: var(--f-sans);
   background: var(--bg);
@@ -238,9 +238,37 @@ body::before {
   display: block;
   object-fit: contain;
 }
-.nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
-.nav-links a { transition: color 0.2s ease; }
-.nav-links a:hover { color: var(--text); }
+.nav-links { display: flex; align-items: center; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.nav-links a, .nav-menu-trigger { transition: color 0.2s ease; }
+.nav-links a:hover, .nav-menu:hover .nav-menu-trigger { color: var(--text); }
+.nav-menu { position: relative; display: inline-flex; align-items: center; padding: 8px 0; }
+.nav-dropdown {
+  position: absolute;
+  left: -18px;
+  top: calc(100% + 8px);
+  width: 238px;
+  padding: 10px;
+  background: rgba(18,18,18,0.96);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.38);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+}
+.nav-menu:hover .nav-dropdown, .nav-menu:focus-within .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+.nav-dropdown a {
+  display: grid;
+  gap: 2px;
+  padding: 12px;
+  border-radius: 6px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.nav-dropdown a:hover { background: rgba(255,255,255,0.06); }
+.nav-dropdown span { font-family: var(--f-sans); font-size: 14px; font-weight: 700; color: var(--text); }
+.nav-dropdown small { font-family: var(--f-sans); font-size: 12px; color: var(--text-mute); }
 .nav-meta { display: flex; align-items: center; gap: 16px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-mute); }
 .nav-pill {
   display: inline-flex; align-items: center; gap: 7px;
@@ -1564,7 +1592,13 @@ body::before {
     <div class="nav-links">
       <a href="#market">Question</a>
       <a href="#fan-out">Signals</a>
-      <a href="#channel-activation">Content</a>
+      <div class="nav-menu">
+        <a href="/content/insta-toon" class="nav-menu-trigger">Content</a>
+        <div class="nav-dropdown" aria-label="Content services">
+          <a href="/content/insta-toon"><span>Insta Toon</span><small>Instagram webtoon production</small></a>
+          <a href="/content/youtube-shorts"><span>Youtube Shorts</span><small>Shorts and Reels video ads</small></a>
+        </div>
+      </div>
       <a href="#how">Pluora</a>
       <a href="#global">Global</a>
       <a href="#contact">Diagnostic</a>
@@ -2926,7 +2960,7 @@ body::before {
 
 <footer class="footer">
   <div style="font-size:13px;color:var(--text-soft);margin-bottom:10px;letter-spacing:0.02em;">Plurank — TwoStepsAhead Inc.'s unrivaled GEO solution</div>
-  © 2026 TwoStepsAhead Inc · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a>
+  © 2026 TwoStepsAhead Inc · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a> · <a href="/privacy">Privacy Policy</a>
 </footer>
 
 <script>
