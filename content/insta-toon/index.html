@@ -28,12 +28,22 @@
   "provider": {"@type": "Organization", "name": "Plurank"},
   "serviceType": "Instagram webtoon content production",
   "areaServed": {"@type": "Country", "name": "KR"},
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "KRW",
-    "price": "1900000",
-    "description": "기본 인스타툰 4주 8편, VAT 및 광고비 별도"
-  }
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Pilot",
+      "priceCurrency": "KRW",
+      "price": "1900000",
+      "description": "기본 인스타툰 4주 8편, VAT 및 광고비 별도"
+    },
+    {
+      "@type": "Offer",
+      "name": "Monthly Operation",
+      "priceCurrency": "KRW",
+      "price": "0",
+      "description": "월간 운영 및 브랜드 협업형 인스타툰은 상담 후 견적"
+    }
+  ]
 }
 </script>
 </head>
@@ -115,6 +125,62 @@
           <p>피드 1장, 카드뉴스, 릴스·쇼츠 영상화까지 이어갈 수 있게 처음부터 광고 관점으로 설계합니다.</p>
         </article>
       </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Price Table</div>
+          <h2>처음엔 8편으로 반응을 보고, 잘 먹히는 업종만 키웁니다.</h2>
+        </div>
+        <p class="section-lede">
+          스튜디오토마토식 가격표처럼 제작 범위가 바로 보이도록 정리했습니다.
+          Plurank는 기본 파일럿 가격은 공개하고, 브랜드 협업형·영상화는 범위에 따라 상담으로 안내합니다.
+        </p>
+      </div>
+      <div class="pricing-table">
+        <article class="pricing-card featured">
+          <span class="pricing-badge">Recommended</span>
+          <h3>인스타툰 파일럿</h3>
+          <div class="pricing-price">190만원</div>
+          <p class="pricing-sub">4주 8편으로 업종별 반응을 먼저 확인하는 기본 패키지</p>
+          <ul class="pricing-list">
+            <li>업종 리서치 및 후킹 메시지 기획</li>
+            <li>4컷 인스타툰 월 8편 제작</li>
+            <li>피드 업로드용 이미지 파일 납품</li>
+            <li>메타 광고용 1장 소재 문안 정리</li>
+          </ul>
+        </article>
+        <article class="pricing-card">
+          <span class="pricing-badge">Operation</span>
+          <h3>월간 운영형</h3>
+          <div class="pricing-price">상담 견적</div>
+          <p class="pricing-sub">인스타툰을 매달 쌓고, 반응 좋은 컷을 광고 소재로 확장하는 운영형</p>
+          <ul class="pricing-list">
+            <li>월간 콘텐츠 캘린더 설계</li>
+            <li>업종별 FAQ·사례·후기형 시리즈화</li>
+            <li>카드뉴스·캐러셀 광고 소재 확장</li>
+            <li>광고 반응 기반 다음 소재 개선</li>
+          </ul>
+        </article>
+        <article class="pricing-card">
+          <span class="pricing-badge">Brand Collab</span>
+          <h3>브랜드 협업형</h3>
+          <div class="pricing-price">상담 견적</div>
+          <p class="pricing-sub">캐릭터 세계관, 캠페인, 쇼츠·릴스까지 함께 쓰는 고관여 제작형</p>
+          <ul class="pricing-list">
+            <li>브랜드/업종 캐릭터 톤앤매너 설계</li>
+            <li>캠페인형 스토리라인 및 시리즈 구성</li>
+            <li>쇼츠·릴스 영상화 연계 가능</li>
+            <li>광고 집행용 후킹 문구 패키지 포함</li>
+          </ul>
+        </article>
+      </div>
+      <p class="pricing-note">
+        <strong>공통 안내:</strong> 모든 금액은 VAT·광고비 별도입니다. 쇼츠·릴스 영상화, 음성, 캐릭터 고도화, 추가 편수는 제작 범위에 따라 별도 견적입니다.
+      </p>
     </div>
   </section>
 
@@ -241,4 +307,3 @@ document.querySelectorAll('[data-content-form]').forEach(function (form) {
 </script>
 </body>
 </html>
-
