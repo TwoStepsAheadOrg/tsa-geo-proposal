@@ -199,9 +199,37 @@ body::before {
 .nav-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .nav-brand { display: inline-flex; align-items: center; width: 154px; flex: 0 0 auto; }
 .nav-brand img { width: 100%; height: auto; display: block; object-fit: contain; }
-.nav-links { display: flex; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
-.nav-links a { transition: color 0.2s ease; }
-.nav-links a:hover { color: var(--text); }
+.nav-links { display: flex; align-items: center; gap: 28px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mute); }
+.nav-links a, .nav-menu-trigger { transition: color 0.2s ease; }
+.nav-links a:hover, .nav-menu:hover .nav-menu-trigger { color: var(--text); }
+.nav-menu { position: relative; display: inline-flex; align-items: center; padding: 8px 0; }
+.nav-dropdown {
+  position: absolute;
+  left: -18px;
+  top: calc(100% + 8px);
+  width: 238px;
+  padding: 10px;
+  background: rgba(18,18,18,0.96);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.38);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+}
+.nav-menu:hover .nav-dropdown, .nav-menu:focus-within .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+.nav-dropdown a {
+  display: grid;
+  gap: 2px;
+  padding: 12px;
+  border-radius: 6px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.nav-dropdown a:hover { background: rgba(255,255,255,0.06); }
+.nav-dropdown span { font-family: var(--f-sans); font-size: 14px; font-weight: 700; color: var(--text); }
+.nav-dropdown small { font-family: var(--f-sans); font-size: 12px; color: var(--text-mute); }
 .nav-meta { display: flex; align-items: center; gap: 16px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-mute); }
 .nav-pill {
   display: inline-flex; align-items: center; gap: 7px;
@@ -296,14 +324,6 @@ body::before {
 .template-link { justify-content: flex-start; color: var(--text); }
 .template-link svg { color: var(--highlight); }
 .cta-form .field[hidden] { display: none; }
-.cta-form .consent { text-align: left; }
-.consent-row { display: flex; align-items: flex-start; gap: 9px; font-size: 13.5px; color: var(--text-soft); cursor: pointer; line-height: 1.5; }
-.consent-row input { margin-top: 3px; accent-color: var(--highlight); flex: 0 0 auto; width: 15px; height: 15px; }
-.consent-row b { color: var(--highlight); font-weight: 600; }
-.consent-detail { margin-top: 9px; font-size: 12.5px; color: var(--text-mute); }
-.consent-detail summary { cursor: pointer; color: var(--text-soft); }
-.consent-detail ul { margin: 9px 0 0; padding-left: 16px; line-height: 1.75; }
-.consent-detail b { color: var(--text-soft); font-weight: 500; }
 
 /* ===== APPLY (CTA card + form, shared with plurank.com) ===== */
 .cta-card { max-width: 880px; margin: 0 auto; padding: 80px 64px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); text-align: center; }
@@ -391,6 +411,13 @@ body::before {
       <a href="#why">Why now</a>
       <a href="#values">Values</a>
       <a href="#culture">Culture</a>
+      <div class="nav-menu">
+        <a href="/content/insta-toon" class="nav-menu-trigger">Content</a>
+        <div class="nav-dropdown" aria-label="Content services">
+          <a href="/content/insta-toon"><span>Insta Toon</span><small>업종별 인스타툰 제작</small></a>
+          <a href="/content/youtube-shorts"><span>Youtube Shorts</span><small>쇼츠·릴스 영상화</small></a>
+        </div>
+      </div>
       <a href="#roles">Roles</a>
       <a href="/blog/">Blog</a>
     </div>
@@ -582,22 +609,6 @@ body::before {
             <span class="file-label-text">작성한 지원서 업로드 (최대 20MB)</span>
           </label>
         </div>
-
-        <div class="field full consent">
-          <label class="consent-row">
-            <input type="checkbox" id="privacy-consent" name="privacyConsent" required>
-            <span><b>[필수]</b> 개인정보 수집·이용에 동의합니다.</span>
-          </label>
-          <details class="consent-detail">
-            <summary>수집 항목 · 목적 · 보유기간 보기</summary>
-            <ul>
-              <li><b>수집 항목</b> — 이름, 이메일, 지원 직무, 제출 파일(지원서·포트폴리오), 링크(선택)</li>
-              <li><b>수집·이용 목적</b> — 채용 전형 진행 및 결과 안내</li>
-              <li><b>보유·이용 기간</b> — 채용 종료 후 1년 보관 뒤 파기 (또는 동의 철회 시까지)</li>
-              <li><b>동의 거부 권리</b> — 동의를 거부할 수 있으나, 거부 시 지원 접수가 제한됩니다.</li>
-            </ul>
-          </details>
-        </div>
         <button type="submit" class="btn btn-primary">지원서 제출
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </button>
@@ -609,7 +620,7 @@ body::before {
 
 <footer class="footer">
   <div style="font-size:13px;color:var(--text-soft);margin-bottom:10px;letter-spacing:0.02em;">Plurank — 투스텝스어헤드(주)의 독보적인 GEO 솔루션</div>
-  © 2026 TwoStepsAhead Inc · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a>
+  © 2026 TwoStepsAhead Inc · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a> · <a href="/privacy">개인정보처리방침</a>
 </footer>
 
 <script>
@@ -735,7 +746,7 @@ body::before {
       var msgEl = form.querySelector('.pl-modal-msg');
       var btn = form.querySelector('button[type="submit"]');
       function setMsg(cls, text) { if (msgEl) { msgEl.className = 'pl-modal-msg ' + cls; msgEl.textContent = text; } }
-      if (!form.checkValidity()) { setMsg('error', '이름·이메일·지원 직무·개인정보 동의를 확인해주세요.'); if (form.reportValidity) form.reportValidity(); return; }
+      if (!form.checkValidity()) { setMsg('error', '이름·이메일·지원 직무를 입력해주세요.'); if (form.reportValidity) form.reportValidity(); return; }
       var file = fileInput && fileInput.files[0];
       if (file && file.size > MAX_BYTES) { setMsg('error', '첨부 파일은 최대 20MB까지 가능합니다.'); return; }
       if (btn) btn.disabled = true;
@@ -756,8 +767,7 @@ body::before {
         var payload = {
           jobId: (jobIdVal && jobIdVal !== 'other') ? Number(jobIdVal) : null,
           name: fd2.get('name'), email: fd2.get('email'),
-          link: fd2.get('link') || '', fileUrl: fileUrl, fileName: fileName,
-          privacyConsent: true, privacyConsentAt: new Date().toISOString(), source: 'hr-page',
+          link: fd2.get('link') || '', fileUrl: fileUrl, fileName: fileName, source: 'hr-page',
         };
         var res = await fetch(API_BASE + '/api/careers/apply', {
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),

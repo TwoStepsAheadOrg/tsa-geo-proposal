@@ -116,6 +116,27 @@ export default async function handler(req, res) {
       return res.status(502).json({ error: 'Notification dispatch failed' });
     }
 
+    // 광고 랜딩 퍼널: 전환(상담)을 plurank-server로 forward (best-effort — 실패해도 리드 접수는 성공 처리)
+    try {
+      await fetch('https://api.plurank.com/api/plurank/track/landing-conversion', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          page: body.page || (source ? '/' + source.replace(/^\/+/, '') : ''),
+          visitorId: body.visitorId || '',
+          utmSource: body.utmSource || '',
+          utmMedium: body.utmMedium || '',
+          utmCampaign: body.utmCampaign || '',
+          utmContent: body.utmContent || '',
+          utmTerm: body.utmTerm || '',
+          fbclid: body.fbclid || '',
+          convType: type || '',
+        }),
+      });
+    } catch (e) {
+      console.error('landing-conversion forward failed:', e && e.message);
+    }
+
     return res.status(200).json({ success: true });
   } catch (err) {
     console.error('Notification error:', err);
