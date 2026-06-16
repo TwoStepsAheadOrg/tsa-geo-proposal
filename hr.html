@@ -584,7 +584,7 @@ body::before {
     <div class="cta-card reveal">
       <div class="cta-eyebrow">Apply</div>
       <h2>지원서를 <em>보내주세요</em></h2>
-      <p>지원할 직무를 선택하고, <b>지원서 양식을 다운로드해 작성한 뒤 업로드</b>해 주세요. 포트폴리오 링크가 있다면 함께 남겨주세요.</p>
+      <p>지원할 직무를 선택해 <b>지원서 양식을 다운로드</b>하세요. 작성한 지원서와 <b>본인 이력서</b>를 <b>하나의 ZIP 파일로 압축</b>해 업로드해 주세요. 포트폴리오 링크가 있다면 함께 남겨주세요.</p>
       <form class="cta-form" id="apply-form" novalidate>
         <input type="text" name="name" placeholder="이름" aria-label="이름" required>
         <input type="email" name="email" placeholder="이메일" aria-label="이메일" required>
@@ -603,11 +603,12 @@ body::before {
         <input type="text" name="link" placeholder="포트폴리오 · GitHub · LinkedIn 링크 (선택)" aria-label="링크">
 
         <div class="field full">
-          <input type="file" id="resume-file" name="resume" accept=".pdf,.doc,.docx,.ppt,.pptx,.hwp,.hwpx,.zip,image/*" hidden>
+          <input type="file" id="resume-file" name="resume" accept=".zip,application/zip,application/x-zip-compressed" hidden>
           <label for="resume-file" class="file-label" id="file-label">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
-            <span class="file-label-text">작성한 지원서 업로드 (최대 20MB)</span>
+            <span class="file-label-text">지원서 + 이력서 ZIP 업로드 (최대 20MB)</span>
           </label>
+          <span class="field-q" style="color:var(--text-mute);">작성한 지원서와 본인 이력서를 <b style="color:var(--text-soft);">하나의 ZIP 파일</b>로 압축해 올려주세요.</span>
         </div>
         <button type="submit" class="btn btn-primary">지원서 제출
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
@@ -748,7 +749,9 @@ body::before {
       function setMsg(cls, text) { if (msgEl) { msgEl.className = 'pl-modal-msg ' + cls; msgEl.textContent = text; } }
       if (!form.checkValidity()) { setMsg('error', '이름·이메일·지원 직무를 입력해주세요.'); if (form.reportValidity) form.reportValidity(); return; }
       var file = fileInput && fileInput.files[0];
-      if (file && file.size > MAX_BYTES) { setMsg('error', '첨부 파일은 최대 20MB까지 가능합니다.'); return; }
+      if (!file) { setMsg('error', '작성한 지원서와 이력서를 압축한 ZIP 파일을 첨부해주세요.'); return; }
+      if (!/\.zip$/i.test(file.name)) { setMsg('error', '지원서와 이력서를 하나의 ZIP 파일로 압축해 업로드해주세요.'); return; }
+      if (file.size > MAX_BYTES) { setMsg('error', '첨부 파일은 최대 20MB까지 가능합니다.'); return; }
       if (btn) btn.disabled = true;
       setMsg('', '');
       try {
