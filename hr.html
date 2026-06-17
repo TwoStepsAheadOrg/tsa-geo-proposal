@@ -343,7 +343,7 @@ body::before {
 }
 .cta-form select:invalid { color: var(--text-faint); }
 .cta-form input[name="name"], .cta-form input[name="email"] { grid-column: span 1; }
-.cta-form select, .cta-form input[name="link"], .cta-form textarea, .cta-form .full { grid-column: span 2; }
+.cta-form select, .cta-form input[name="phone"], .cta-form input[name="link"], .cta-form textarea, .cta-form .full { grid-column: span 2; }
 .cta-form button { grid-column: span 2; justify-content: center; }
 .cta-form .field { display: flex; flex-direction: column; gap: 9px; }
 .cta-form .field-q { font-size: 13px; line-height: 1.5; color: var(--text-soft); padding-left: 2px; }
@@ -353,6 +353,16 @@ body::before {
 .file-label:hover { border-color: var(--text); color: var(--text); }
 .file-label svg { width: 18px; height: 18px; flex: 0 0 auto; }
 .file-label.has-file { border-style: solid; border-color: var(--warm-soft); color: var(--text); }
+.consent { gap: 8px; }
+.consent-row { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; color: var(--text-soft); cursor: pointer; line-height: 1.5; }
+.consent-row input { width: 16px; height: 16px; margin-top: 2px; flex: 0 0 auto; accent-color: var(--warm-soft); cursor: pointer; }
+.consent-row b { color: var(--highlight); font-weight: 600; }
+.consent-detail { font-size: 12.5px; color: var(--text-mute); }
+.consent-detail summary { cursor: pointer; color: var(--text-mute); padding: 2px 0; list-style: none; }
+.consent-detail summary::-webkit-details-marker { display: none; }
+.consent-detail summary::before { content: "▸ "; color: var(--text-faint); }
+.consent-detail[open] summary::before { content: "▾ "; }
+.consent-detail > div { margin-top: 8px; padding: 12px 14px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; line-height: 1.8; }
 .pl-modal-msg { margin-top: 4px; font-size: 13px; padding: 10px 14px; border-radius: 8px; display: none; grid-column: span 2; }
 .pl-modal-msg.info { display: block; background: rgba(255,255,255,0.05); color: var(--text-soft); border: 1px solid var(--border); }
 .pl-modal-msg.success { display: block; background: rgba(64,168,91,0.15); color: #6ee093; border: 1px solid rgba(64,168,91,0.3); }
@@ -390,7 +400,7 @@ body::before {
   .hr-hero { padding: 72px 0 80px; }
   .cta-card { padding: 48px 28px; }
   .cta-form { grid-template-columns: 1fr; }
-  .cta-form input[name="name"], .cta-form input[name="email"], .cta-form input[name="link"],
+  .cta-form input[name="name"], .cta-form input[name="email"], .cta-form input[name="phone"], .cta-form input[name="link"],
   .cta-form select, .cta-form textarea, .cta-form button, .cta-form .full, .pl-modal-msg { grid-column: span 1; }
 }
 @media (max-width: 560px) {
@@ -588,6 +598,7 @@ body::before {
       <form class="cta-form" id="apply-form" novalidate>
         <input type="text" name="name" placeholder="이름" aria-label="이름" required>
         <input type="email" name="email" placeholder="이메일" aria-label="이메일" required>
+        <input type="tel" name="phone" placeholder="연락처 (예: 010-1234-5678)" aria-label="연락처" autocomplete="tel" required>
         <select name="jobId" id="job-select" aria-label="지원 직무" required>
           <option value="" disabled selected hidden>지원 직무를 선택하세요</option>
           <option value="other">기타 / 자유 지원</option>
@@ -609,6 +620,21 @@ body::before {
             <span class="file-label-text">지원서 + 이력서 ZIP 업로드 (최대 20MB)</span>
           </label>
           <span class="field-q" style="color:var(--text-mute);">작성한 지원서와 본인 이력서를 <b style="color:var(--text-soft);">하나의 ZIP 파일</b>로 압축해 올려주세요.</span>
+        </div>
+        <div class="field full consent">
+          <label class="consent-row" for="privacy-consent">
+            <input type="checkbox" name="privacyConsent" id="privacy-consent" required>
+            <span>개인정보 수집·이용에 동의합니다. <b>(필수)</b></span>
+          </label>
+          <details class="consent-detail">
+            <summary>수집 항목 및 목적 보기</summary>
+            <div>
+              · 수집 항목: 이름, 이메일, 연락처, 지원서·이력서, 포트폴리오 링크<br>
+              · 수집·이용 목적: 채용 전형 진행 및 결과 안내(알림톡·이메일 발송 포함)<br>
+              · 보유·이용 기간: 채용 종료 후 1년 (이후 지체 없이 파기)<br>
+              · 귀하는 동의를 거부할 권리가 있으며, 거부 시 지원 접수가 제한됩니다.
+            </div>
+          </details>
         </div>
         <button type="submit" class="btn btn-primary">지원서 제출
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
@@ -747,7 +773,11 @@ body::before {
       var msgEl = form.querySelector('.pl-modal-msg');
       var btn = form.querySelector('button[type="submit"]');
       function setMsg(cls, text) { if (msgEl) { msgEl.className = 'pl-modal-msg ' + cls; msgEl.textContent = text; } }
-      if (!form.checkValidity()) { setMsg('error', '이름·이메일·지원 직무를 입력해주세요.'); if (form.reportValidity) form.reportValidity(); return; }
+      var consentEl = document.getElementById('privacy-consent');
+      if (consentEl && !consentEl.checked) { setMsg('error', '개인정보 수집·이용에 동의해주세요.'); if (consentEl.focus) consentEl.focus(); return; }
+      if (!form.checkValidity()) { setMsg('error', '이름·이메일·연락처·지원 직무를 입력해주세요.'); if (form.reportValidity) form.reportValidity(); return; }
+      var phoneDigits = (form.phone && form.phone.value ? form.phone.value : '').replace(/[^0-9]/g, '');
+      if (phoneDigits.length < 9 || phoneDigits.length > 11) { setMsg('error', '연락처를 정확히 입력해주세요.'); return; }
       var file = fileInput && fileInput.files[0];
       if (!file) { setMsg('error', '작성한 지원서와 이력서를 압축한 ZIP 파일을 첨부해주세요.'); return; }
       if (!/\.zip$/i.test(file.name)) { setMsg('error', '지원서와 이력서를 하나의 ZIP 파일로 압축해 업로드해주세요.'); return; }
@@ -769,8 +799,9 @@ body::before {
         var jobIdVal = fd2.get('jobId');
         var payload = {
           jobId: (jobIdVal && jobIdVal !== 'other') ? Number(jobIdVal) : null,
-          name: fd2.get('name'), email: fd2.get('email'),
+          name: fd2.get('name'), email: fd2.get('email'), phone: fd2.get('phone') || '',
           link: fd2.get('link') || '', fileUrl: fileUrl, fileName: fileName, source: 'hr-page',
+          privacyConsent: true, privacyConsentAt: new Date().toISOString(),
         };
         var res = await fetch(API_BASE + '/api/careers/apply', {
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
