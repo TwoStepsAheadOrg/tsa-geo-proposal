@@ -788,11 +788,19 @@ body::before {
         var fileUrl = '', fileName = '';
         if (file) {
           setMsg('info', '지원서 업로드 중…');
-          var fd = new FormData(); fd.append('file', file);
+          var nameVal = (form.querySelector('[name="name"]') || {}).value || '';
+          var phoneVal = (form.querySelector('[name="phone"]') || {}).value || '';
+          var fd = new FormData();
+          fd.append('file', file);
+          fd.append('name', nameVal);
+          fd.append('phone', phoneVal);
           var up = await fetch(API_BASE + '/api/careers/upload', { method: 'POST', body: fd });
           if (!up.ok) throw new Error('upload');
           var uj = await up.json();
-          fileUrl = (uj && uj.url) || ''; fileName = file.name;
+          fileUrl = (uj && uj.url) || '';
+          var ext = (file.name.split('.').pop() || 'zip');
+          var who = [nameVal, phoneVal.replace(/[^0-9]/g, '')].filter(Boolean).join('_');
+          fileName = who ? (who + '.' + ext) : file.name;
           if (!fileUrl) throw new Error('upload');
         }
         var fd2 = new FormData(form);
