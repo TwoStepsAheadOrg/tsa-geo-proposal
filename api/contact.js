@@ -6,6 +6,8 @@
 const TYPE_LABELS = {
   'demo':          { emoji: '🤝', title: '데모 신청' },
   'brand-brochure': { emoji: '🎯', title: '브랜드 Full 스펙 마케팅 소개서 요청' },
+  'instatoon-consulting': { emoji: '🎨', title: '인스타툰 제작 상담' },
+  'shorts-consulting': { emoji: '🎬', title: '쇼츠·릴스 영상화 상담' },
   'agency-brochure': { emoji: '📊', title: '에이전시 GEO 데이터 제휴 소개서 요청' },
   'agency-demo':   { emoji: '🤝', title: '에이전시 데모 요청' },
   'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },
@@ -40,6 +42,16 @@ export default async function handler(req, res) {
     slot = '',
     service = '',
     request = '',
+    pageUrl = '',
+    referrer = '',
+    utm_source = '',
+    utm_medium = '',
+    utm_campaign = '',
+    utm_content = '',
+    utm_term = '',
+    plurank_offer = '',
+    creative_type = '',
+    industry = '',
   } = body;
 
   if (!company || !email) {
@@ -74,6 +86,24 @@ export default async function handler(req, res) {
   if (service) fields.push({ type: 'mrkdwn', text: `*관심 서비스*\n${service}` });
   if (request) fields.push({ type: 'mrkdwn', text: `*요청 자료*\n${request}` });
   if (slot)  fields.push({ type: 'mrkdwn', text: `*희망 미팅 시간*\n${slot}` });
+  if (pageUrl) fields.push({ type: 'mrkdwn', text: `*접수 페이지*\n${String(pageUrl).slice(0, 300)}` });
+  if (referrer) fields.push({ type: 'mrkdwn', text: `*이전 페이지*\n${String(referrer).slice(0, 300)}` });
+  const campaignFields = [
+    ['utm_source', utm_source],
+    ['utm_medium', utm_medium],
+    ['utm_campaign', utm_campaign],
+    ['utm_content', utm_content],
+    ['utm_term', utm_term],
+    ['plurank_offer', plurank_offer],
+    ['creative_type', creative_type],
+    ['industry', industry],
+  ].filter(([, value]) => value);
+  if (campaignFields.length) {
+    fields.push({
+      type: 'mrkdwn',
+      text: `*광고 추적값*\n${campaignFields.map(([key, value]) => `${key}=${String(value).slice(0, 160)}`).join('\n')}`,
+    });
+  }
   fields.push({ type: 'mrkdwn', text: `*신청 시각*\n${submittedAt} KST` });
 
   const blocks = [

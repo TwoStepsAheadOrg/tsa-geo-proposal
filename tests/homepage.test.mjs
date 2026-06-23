@@ -3,6 +3,11 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+const instaToonHtml = await readFile(new URL("../content/insta-toon/index.html", import.meta.url), "utf8");
+const shortsHtml = await readFile(new URL("../content/youtube-shorts/index.html", import.meta.url), "utf8");
+const instaToonFlatHtml = await readFile(new URL("../content/insta-toon.html", import.meta.url), "utf8");
+const shortsFlatHtml = await readFile(new URL("../content/youtube-shorts.html", import.meta.url), "utf8");
+const privacyHtml = await readFile(new URL("../privacy/index.html", import.meta.url), "utf8");
 
 test("homepage keeps the production AI Discovery AdTech positioning", () => {
   assert.match(html, /AI Discovery AdTech/);
@@ -52,4 +57,39 @@ test("homepage surfaces portfolio and outcome proof", () => {
   for (const proof of ["15\\+", "30M\\+", "12", "Lead"]) {
     assert.match(html, new RegExp(proof));
   }
+});
+
+test("homepage exposes the Content service navigation", () => {
+  assert.match(html, /href="\/content\/insta-toon"/);
+  assert.match(html, /Insta Toon/);
+  assert.match(html, /Youtube Shorts/);
+  assert.match(html, /href="\/privacy"/);
+});
+
+test("content landing pages include price, examples, and consultation forms", () => {
+  assert.equal(instaToonFlatHtml, instaToonHtml);
+  assert.equal(shortsFlatHtml, shortsHtml);
+
+  assert.match(instaToonHtml, /4주 15편/);
+  assert.doesNotMatch(instaToonHtml, /4주 8편|월 8편|instatoon_4w8/);
+  assert.match(instaToonHtml, /190만원/);
+  assert.match(instaToonHtml, /Price Table/);
+  assert.match(instaToonHtml, /월간 운영형/);
+  assert.match(instaToonHtml, /브랜드 협업형/);
+  assert.match(instaToonHtml, /restaurant-instatoon\.png/);
+  assert.match(instaToonHtml, /name="type" value="instatoon-consulting"/);
+
+  assert.match(shortsHtml, /쇼츠·릴스 영상화/);
+  assert.match(shortsHtml, /4주 15편/);
+  assert.doesNotMatch(shortsHtml, /4주 8편|월 8편|instatoon_4w8/);
+  assert.match(shortsHtml, /Video Add-on/);
+  assert.match(shortsHtml, /광고 집행 패키지/);
+  assert.match(shortsHtml, /restaurant-instatoon-shorts\.mp4/);
+  assert.match(shortsHtml, /name="type" value="shorts-consulting"/);
+});
+
+test("privacy policy is available for lead ads", () => {
+  assert.match(privacyHtml, /개인정보처리방침/);
+  assert.match(privacyHtml, /광고 리드폼/);
+  assert.match(privacyHtml, /glenn\.kim@twostepsahead\.co\.kr/);
 });
