@@ -76,7 +76,16 @@ test("content landing pages include price, examples, and consultation forms", ()
   assert.match(instaToonHtml, /Price Table/);
   assert.match(instaToonHtml, /월간 운영형/);
   assert.match(instaToonHtml, /브랜드 협업형/);
-  assert.match(instaToonHtml, /restaurant-instatoon\.png/);
+  for (const sample of [
+    "sample-clinic-care.png",
+    "sample-vet-care.png",
+    "sample-restaurant-story.png",
+    "sample-professional-trust.png",
+    "sample-education-parent.png",
+  ]) {
+    assert.match(instaToonHtml, new RegExp(sample.replace(".", "\\.")));
+  }
+  assert.doesNotMatch(instaToonHtml, /clinic-story-safe|vet-story-safe|restaurant-story-safe/);
   assert.match(instaToonHtml, /name="type" value="instatoon-consulting"/);
 
   assert.match(shortsHtml, /쇼츠·릴스 영상화/);
