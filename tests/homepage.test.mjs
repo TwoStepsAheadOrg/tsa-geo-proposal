@@ -65,7 +65,8 @@ test("homepage exposes the Content service navigation", () => {
 });
 
 test("content landing pages include price, examples, and consultation forms", () => {
-  assert.match(instaToonHtml, /4주 8편/);
+  assert.match(instaToonHtml, /4주 15편/);
+  assert.doesNotMatch(instaToonHtml, /4주 8편|월 8편|instatoon_4w8/);
   assert.match(instaToonHtml, /190만원/);
   assert.match(instaToonHtml, /Price Table/);
   assert.match(instaToonHtml, /월간 운영형/);
@@ -74,6 +75,8 @@ test("content landing pages include price, examples, and consultation forms", ()
   assert.match(instaToonHtml, /name="type" value="instatoon-consulting"/);
 
   assert.match(shortsHtml, /쇼츠·릴스 영상화/);
+  assert.match(shortsHtml, /4주 15편/);
+  assert.doesNotMatch(shortsHtml, /4주 8편|월 8편|instatoon_4w8/);
   assert.match(shortsHtml, /Video Add-on/);
   assert.match(shortsHtml, /광고 집행 패키지/);
   assert.match(shortsHtml, /restaurant-instatoon-shorts\.mp4/);
