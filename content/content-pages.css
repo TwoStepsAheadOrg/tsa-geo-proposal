@@ -640,6 +640,70 @@ button, input, textarea { font: inherit; }
   line-height: 1.5;
 }
 
+.generator-section {
+  padding-top: 24px;
+}
+.generator-panel {
+  display: grid;
+  grid-template-columns: 0.78fr 1.12fr;
+  gap: 34px;
+  align-items: center;
+  padding: clamp(26px, 4vw, 46px);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(91, 77, 255, 0.18), transparent 34%),
+    linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.025));
+}
+.generator-copy h2 {
+  margin-top: 14px;
+  font-size: clamp(32px, 4.5vw, 58px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.generator-copy p {
+  max-width: 620px;
+  margin-top: 18px;
+  color: var(--text-soft);
+  font-size: 17px;
+  line-height: 1.75;
+}
+.generator-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+.generator-points span {
+  padding: 8px 11px;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 999px;
+  color: var(--text-soft);
+  font-size: 13px;
+  background: rgba(0,0,0,0.18);
+}
+.generator-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+.generator-preview {
+  display: block;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 32px 90px rgba(0,0,0,0.34);
+}
+.generator-preview img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 43 / 23;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 .asset-board {
   display: grid;
   grid-template-columns: 0.95fr 0.75fr;
@@ -833,7 +897,7 @@ button, input, textarea { font: inherit; }
 
 @media (max-width: 960px) {
   .nav-links { display: none; }
-  .hero-grid, .section-head, .form-panel, .contrast-grid, .asset-board { grid-template-columns: 1fr; }
+  .hero-grid, .section-head, .form-panel, .contrast-grid, .asset-board, .generator-panel { grid-template-columns: 1fr; }
   .grid-3, .grid-2, .flow, .pricing-table, .decision-path, .system-board, .style-gallery, .kpi-grid, .risk-band { grid-template-columns: 1fr; }
   .toon-sample-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .path-step:not(:last-child)::after { display: none; }
@@ -857,5 +921,6 @@ button, input, textarea { font: inherit; }
     scroll-snap-align: start;
   }
   .lead-form { grid-template-columns: 1fr; }
-  .form-panel, .quote { padding: 24px; }
+  .form-panel, .quote, .generator-panel { padding: 24px; }
+  .generator-actions .btn { width: 100%; justify-content: center; }
 }
