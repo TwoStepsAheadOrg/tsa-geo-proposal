@@ -13,6 +13,7 @@ const TYPE_LABELS = {
   'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },
   'api-key':       { emoji: '🔑', title: 'API Key 요청' },
   'diagnostic':    { emoji: '🎯', title: '무료 진단 신청' },
+  'toon-agent-consulting': { emoji: '🎨', title: 'Toon Agent 제작 상담' },
   'general':       { emoji: '✉️', title: '일반 문의' },
 };
 
@@ -24,6 +25,15 @@ const PERSONA_LABELS = {
 };
 
 export default async function handler(req, res) {
+  // Allow cross-origin lead submissions (e.g. toonagent.co.kr standalone landing).
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(204).end();
+  }
+
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return res.status(405).json({ error: 'Method not allowed' });
