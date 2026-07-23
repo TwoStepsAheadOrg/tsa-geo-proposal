@@ -12,7 +12,8 @@ const TOC_TITLE = '목차';
 function tocHtml(toc) {
   const l2 = Array.isArray(toc) ? toc.filter((t) => t.level === 2) : [];
   if (l2.length < 3) return '';
-  const items = l2.map((t) => `<li><a href="#${escapeHtml(t.anchor)}">${escapeHtml(t.text)}</a></li>`).join('');
+  const clean = (s) => String(s ?? '').replace(/^#+\s*/, '').replace(/^\d+\.\s*/, '').trim();
+  const items = l2.map((t) => `<li><a href="#${escapeHtml(t.anchor)}">${escapeHtml(clean(t.text))}</a></li>`).join('');
   return `<aside class="toc"><div class="toc-title">${TOC_TITLE}</div><ol>${items}</ol></aside>`;
 }
 
