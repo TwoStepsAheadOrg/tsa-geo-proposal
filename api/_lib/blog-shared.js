@@ -70,7 +70,7 @@ export const INDEX_UI = {
     hero_title_a: 'AI 답변 안에서', hero_title_b: '브랜드가 어떻게', hero_title_c: '보이고 있는가',
     hero_sub: 'AI 검색 시대 GEO 마케팅 인사이트, 케이스 스터디, 그리고 Plurank 팀의 발견. 매주 갱신.',
     latest_label: 'LATEST', min_read: '분', by: 'by',
-    footer_lead: 'Plurank — 투스텝스어헤드(주)의 GEO 솔루션',
+    footer_lead: 'Plurank — 주식회사 투스텝스어헤드의 GEO 솔루션',
     empty: '곧 새 글이 올라옵니다.', read_more: '이어 읽기',
   },
   en: {
@@ -102,7 +102,7 @@ export const POST_UI_KO = {
   cta_title: 'AI 답변 안의 우리 브랜드를 직접 확인하세요',
   cta_sub: 'AI 검색 데이터 분석부터 채널별 콘텐츠 발행까지, 무료 진단으로 먼저 현황을 확인해보세요.',
   cta_btn: '무료 진단 신청',
-  footer_lead: 'Plurank — 투스텝스어헤드(주)의 GEO 솔루션',
+  footer_lead: 'Plurank — 주식회사 투스텝스어헤드의 GEO 솔루션',
 };
 
 export const LANG_MAP = { ko: ['ko_KR', 'ko'], en: ['en_US', 'en'], ja: ['ja_JP', 'ja'] };
@@ -159,7 +159,7 @@ export function footerHtml(footerLead) {
   return `<footer class="footer">
   <div class="footer-brand"><span class="wordmark">Plurank</span></div>
   <div class="footer-lead">${footerLead}</div>
-  <div class="footer-line">© 2026 Plurank · 투스텝스어헤드(주) · <a href="mailto:contact@plurank.com">contact@plurank.com</a> · <a href="/privacy">Privacy</a></div>
+  <div class="footer-line">© 2026 Plurank · 주식회사 투스텝스어헤드 · <a href="mailto:contact@plurank.com">contact@plurank.com</a> · <a href="/privacy">Privacy</a></div>
 </footer>`;
 }
 

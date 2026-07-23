@@ -165,7 +165,7 @@ UI = {
         "cta_title": "AI 답변 안의 우리 브랜드를 <em>직접 확인</em>하세요",
         "cta_sub": "30분 데모로 7 AI · 12개국에서 브랜드가 어떻게 보이고 있는지 확인합니다.",
         "cta_btn": "30분 데모 신청",
-        "footer_lead": "Plurank — 투스텝스어헤드(주)의 독보적인 GEO 솔루션",
+        "footer_lead": "Plurank — 주식회사 투스텝스어헤드의 독보적인 GEO 솔루션",
     },
     "en": {
         "back_to_blog": "← Back to Journal",

@@ -129,7 +129,7 @@ ${navHtml({ activeLang: 'ko', switchHrefs: { ko: canonical, en: `${SITE_URL}/blo
         <div class="author-avatar">P</div>
         <div>
           <div class="author-name">Plurank</div>
-          <div class="author-title">투스텝스어헤드(주)</div>
+          <div class="author-title">주식회사 투스텝스어헤드</div>
         </div>
       </div>
       <span class="meta-sep">·</span>
