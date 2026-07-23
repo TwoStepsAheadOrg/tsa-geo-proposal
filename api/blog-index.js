@@ -121,7 +121,7 @@ function renderIndex(lang, posts) {
 <title>${escapeHtml(ui.page_title)}</title>
 <meta name="description" content="${escapeHtml(ui.page_desc)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f8f8f7">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="ko" href="${hrefKo}">
 <link rel="alternate" hreflang="en" href="${hrefEn}">

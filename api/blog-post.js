@@ -91,7 +91,7 @@ function renderPost(p) {
 <meta name="description" content="${escapeHtml(subtitle)}">
 <meta name="author" content="Plurank (투스텝스어헤드)">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f8f8f7">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="ko" href="${canonical}">
 <link rel="alternate" hreflang="x-default" href="${canonical}">
@@ -143,7 +143,7 @@ ${navHtml({ activeLang: 'ko', switchHrefs: { ko: canonical, en: `${SITE_URL}/blo
   <div class="cta-card">
     <h2>${ui.cta_title}</h2>
     <p>${ui.cta_sub}</p>
-    <a href="/#contact" class="btn">${ui.cta_btn} <span style="font-family:var(--f-display);font-style:italic;">→</span></a>
+    <a href="/" class="btn">${ui.cta_btn} <span aria-hidden="true">→</span></a>
   </div>
 </div>
 ${footerHtml(ui.footer_lead)}
