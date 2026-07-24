@@ -8,6 +8,28 @@ const shortsHtml = await readFile(new URL("../content/youtube-shorts/index.html"
 const instaToonFlatHtml = await readFile(new URL("../content/insta-toon.html", import.meta.url), "utf8");
 const shortsFlatHtml = await readFile(new URL("../content/youtube-shorts.html", import.meta.url), "utf8");
 const privacyHtml = await readFile(new URL("../privacy/index.html", import.meta.url), "utf8");
+const pageTransitionCss = await readFile(new URL("../assets/plurank-page-transition.css", import.meta.url), "utf8");
+const pageTransitionJs = await readFile(new URL("../assets/plurank-page-transition.js", import.meta.url), "utf8");
+
+test("Plurank service switch lands cleanly on the full content section", () => {
+  assert.match(html, /plurank-page-transition\.css/);
+  assert.match(html, /plurank-page-transition\.js/);
+  assert.match(pageTransitionJs, /ABOUT_OFFSET = 86/);
+  assert.match(pageTransitionJs, /xp-route--plurank/);
+  assert.match(pageTransitionJs, /window\.scrollTo\(\{ top: targetTop, behavior: "auto" \}\)/);
+  assert.match(pageTransitionCss, /\.xp-hero--plurank \.xp-hero-laptop\s*{\s*opacity: 0\.5;/);
+});
+
+test("homepage overlays the enlarged Plurank service button on the laptop", () => {
+  assert.match(pageTransitionJs, /Plurank 서비스 바로가기/);
+  assert.match(pageTransitionJs, /https:\/\/marketing\.plurank\.com\//);
+  assert.match(pageTransitionCss, /width: 204px;/);
+  assert.match(pageTransitionCss, /height: 62px;/);
+  assert.match(pageTransitionCss, /font-family: "Pretendard"/);
+  assert.match(pageTransitionCss, /font-size: 16px;/);
+  assert.match(pageTransitionCss, /calc\(-50% - 20px\)/);
+  assert.match(pageTransitionCss, /\.xp-nav \.xp-nav__cta\s*{\s*display: none !important;/);
+});
 test("homepage keeps the production AI Discovery AdTech positioning", () => {
   assert.match(html, /AI Discovery AdTech/);
   assert.match(html, /AI 검색 시대의 마케팅,/);
