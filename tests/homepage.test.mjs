@@ -8,6 +8,18 @@ const shortsHtml = await readFile(new URL("../content/youtube-shorts/index.html"
 const instaToonFlatHtml = await readFile(new URL("../content/insta-toon.html", import.meta.url), "utf8");
 const shortsFlatHtml = await readFile(new URL("../content/youtube-shorts.html", import.meta.url), "utf8");
 const privacyHtml = await readFile(new URL("../privacy/index.html", import.meta.url), "utf8");
+const serviceCtaCss = await readFile(new URL("../assets/plurank-service-cta.css", import.meta.url), "utf8");
+const serviceCtaJs = await readFile(new URL("../assets/plurank-service-cta.js", import.meta.url), "utf8");
+
+test("homepage promotes the Plurank service over the muted product preview", () => {
+  assert.match(html, /plurank-service-cta\.css/);
+  assert.match(html, /plurank-service-cta\.js/);
+  assert.match(serviceCtaJs, /Plurank 서비스 바로가기/);
+  assert.match(serviceCtaJs, /https:\/\/marketing\.plurank\.com\//);
+  assert.match(serviceCtaCss, /\.xp-hero--plurank \.xp-hero-laptop\s*{\s*opacity: 0\.5;/);
+  assert.match(serviceCtaCss, /calc\(-50% - 20px\)/);
+  assert.match(serviceCtaCss, /\.xp-nav--plurank \.xp-nav__cta\s*{\s*display: none !important;/);
+});
 
 test("homepage keeps the production AI Discovery AdTech positioning", () => {
   assert.match(html, /AI Discovery AdTech/);

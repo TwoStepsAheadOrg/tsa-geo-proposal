@@ -1,0 +1,92 @@
+/* Homepage product CTA refinement. Kept separate from the generated app bundle. */
+.xp-nav--plurank .xp-nav__cta {
+  display: none !important;
+}
+
+.xp-hero--plurank .xp-product-switch {
+  width: calc(var(--consulting-width) + 12px);
+  grid-template-columns: var(--consulting-width);
+}
+
+.xp-hero--plurank .xp-product-switch button:last-child {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.xp-hero--plurank .xp-hero-product-preview {
+  position: relative;
+}
+
+.xp-hero--plurank .xp-hero-laptop {
+  opacity: 0.5;
+}
+
+.xp-hero--plurank .xp-service-cta {
+  min-width: 220px;
+  height: 53px;
+  padding: 0 22px;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 26px;
+  color: #f8f8f7;
+  background: #151515;
+  box-shadow: 0 10px 28px rgb(21 21 21 / 22%);
+  font-size: 17px;
+  font-weight: 570;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  transform: translate(-50%, calc(-50% - 20px));
+  transition:
+    background 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.xp-hero--plurank .xp-service-cta:hover {
+  background: #2a2a29;
+  box-shadow: 0 13px 32px rgb(21 21 21 / 26%);
+  transform: translate(-50%, calc(-50% - 22px));
+}
+
+.xp-hero--plurank .xp-service-cta:active {
+  transform: translate(-50%, calc(-50% - 20px)) scale(0.97);
+}
+
+.xp-hero--plurank .xp-service-cta:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow:
+    0 0 0 6px #151515,
+    0 10px 28px rgb(21 21 21 / 22%);
+}
+
+@media (max-width: 560px) {
+  .xp-hero--plurank {
+    min-height: 760px;
+  }
+
+  .xp-hero--plurank .xp-hero-product-preview {
+    display: block;
+    width: min(440px, calc(100vw - 28px));
+    margin-top: 24px;
+  }
+
+  .xp-hero--plurank .xp-service-cta {
+    min-width: 206px;
+    height: 50px;
+    padding-inline: 19px;
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xp-hero--plurank .xp-service-cta {
+    transition: none;
+  }
+}
