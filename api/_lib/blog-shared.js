@@ -159,7 +159,7 @@ export function footerHtml(footerLead) {
   return `<footer class="footer">
   <div class="footer-brand"><span class="wordmark">Plurank</span></div>
   <div class="footer-lead">${footerLead}</div>
-  <div class="footer-line">© 2026 Plurank · 주식회사 투스텝스어헤드 · <a href="mailto:contact@plurank.com">contact@plurank.com</a> · <a href="/privacy">Privacy</a></div>
+  <div class="footer-line">© 2026 Plurank · 주식회사 투스텝스어헤드 · <a href="mailto:glenn.kim@twostepsahead.co.kr">glenn.kim@twostepsahead.co.kr</a> · <a href="/privacy">Privacy</a></div>
 </footer>`;
 }
 
