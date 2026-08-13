@@ -153,3 +153,18 @@ test('전 페이지에 트래킹이 보존돼 있다', () => {
     assert.match(doc, /_vercel\/insights\/script\.js/, `${name}: insights 누락`);
   }
 });
+
+test('하위 페이지의 내비·푸터 앵커가 홈으로 연결된다 (먹통 링크 방지)', () => {
+  // 홈 섹션 앵커는 하위 페이지에 존재하지 않으므로 반드시 /#... 형태여야 한다
+  for (const [name, doc] of Object.entries({ pricing, ...trackers })) {
+    const bare = [...doc.matchAll(/href="(#[a-z]+)"/g)].map((m) => m[1]);
+    assert.deepEqual(bare, [], `${name}: 이 페이지에 없는 앵커로 가는 링크 ${bare.join(', ')}`);
+    assert.match(doc, /href="\/#diagnosis"/, `${name}: 무료 진단 CTA가 홈으로 연결되지 않음`);
+  }
+});
+
+test('홈은 순수 해시 앵커를 유지한다 (같은 페이지 스크롤)', () => {
+  for (const a of ['#product', '#metrics', '#diagnosis', '#contact']) {
+    assert.match(html, new RegExp(`href="${a}"`), `홈 앵커 누락: ${a}`);
+  }
+});
