@@ -1,0 +1,512 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e3]:
+    - navigation [ref=f22e6]:
+      - generic [ref=f22e7]:
+        - link [ref=f22e9] [cursor=pointer]:
+          - /url: ./
+        - generic [ref=f22e11]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: Not sure which is right for you?
+                  - generic:
+                    - paragraph:
+                      - link "Talk to us":
+                        - /url: ./demo
+          - generic [ref=f22e12]:
+            - link [ref=f22e14] [cursor=pointer]:
+              - /url: ./
+              - paragraph [ref=f22e16]: Product
+            - link [ref=f22e18] [cursor=pointer]:
+              - /url: ./pricing
+              - paragraph [ref=f22e20]: Pricing
+            - paragraph [ref=f22e24] [cursor=pointer]: Resources
+            - link [ref=f22e26] [cursor=pointer]:
+              - /url: ./partnerships
+              - paragraph [ref=f22e28]: Partnerships
+          - link [ref=f22e31] [cursor=pointer]:
+            - /url: ./careers
+            - paragraph [ref=f22e33]: Careers
+        - generic [ref=f22e35]:
+          - link [ref=f22e37] [cursor=pointer]:
+            - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+            - paragraph [ref=f22e41]: Log in
+          - link [ref=f22e43] [cursor=pointer]:
+            - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+            - paragraph [ref=f22e45]: Sign up
+    - generic [ref=f22e47]:
+      - generic [ref=f22e48]:
+        - generic [ref=f22e53]:
+          - generic [ref=f22e54]:
+            - heading "Pricing for Brands" [level=1] [ref=f22e56]
+            - paragraph [ref=f22e59]: Track and improve your brand visibility across AI platforms with analytics your team will actually enjoy using.
+          - paragraph [ref=f22e68]: Trusted by 3000+ brands and agencies
+        - generic [ref=f22e105]:
+          - generic [ref=f22e106]:
+            - generic [ref=f22e108]:
+              - generic [ref=f22e112]:
+                - generic [ref=f22e113]:
+                  - heading "Starter" [level=3] [ref=f22e114]
+                  - generic [ref=f22e115]:
+                    - generic [ref=f22e116]: $80
+                    - generic [ref=f22e117]: /mo
+                - generic [ref=f22e119]:
+                  - button "Switch to monthly billing" [ref=f22e120] [cursor=pointer]:
+                    - generic [ref=f22e123]: Annual
+                  - generic [ref=f22e124]: Save $180
+                - paragraph [ref=f22e125]: For SEO and content managers getting started with AI Search visibility.
+              - link [ref=f22e129] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - paragraph [ref=f22e131]: Get started
+              - generic [ref=f22e132]:
+                - paragraph [ref=f22e135]: "This includes:"
+                - generic [ref=f22e136]:
+                  - paragraph [ref=f22e140]: 50 prompts
+                  - paragraph [ref=f22e145]: Choose 3 models
+                  - paragraph [ref=f22e150]: Unlimited users
+                  - paragraph [ref=f22e154]: Daily tracking frequency
+                  - paragraph [ref=f22e158]: 1 project
+            - generic [ref=f22e160]:
+              - generic [ref=f22e164]:
+                - generic [ref=f22e165]:
+                  - heading "Pro" [level=3] [ref=f22e166]
+                  - generic [ref=f22e167]:
+                    - generic [ref=f22e168]: $205
+                    - generic [ref=f22e169]: /mo
+                - generic [ref=f22e171]:
+                  - button "Switch to monthly billing" [ref=f22e172] [cursor=pointer]:
+                    - generic [ref=f22e175]: Annual
+                  - generic [ref=f22e176]: Save $480
+                - paragraph [ref=f22e177]: For SEO teams that need sophisticated AI Search tracking and insights.
+              - link [ref=f22e181] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - paragraph [ref=f22e183]: Get started
+              - generic [ref=f22e184]:
+                - paragraph [ref=f22e187]: "This includes:"
+                - generic [ref=f22e188]:
+                  - paragraph [ref=f22e192]: 150 prompts
+                  - paragraph [ref=f22e197]: Choose 3 models
+                  - paragraph [ref=f22e202]: Unlimited users
+                  - paragraph [ref=f22e206]: Daily tracking frequency
+                  - paragraph [ref=f22e210]: 2 projects
+            - generic [ref=f22e212]:
+              - generic [ref=f22e216]:
+                - generic [ref=f22e217]:
+                  - heading "Advanced" [level=3] [ref=f22e218]
+                  - generic [ref=f22e219]:
+                    - generic [ref=f22e220]: $420
+                    - generic [ref=f22e221]: /mo
+                - generic [ref=f22e223]:
+                  - button "Switch to monthly billing" [ref=f22e224] [cursor=pointer]:
+                    - generic [ref=f22e227]: Annual
+                  - generic [ref=f22e228]: Save $900
+                - paragraph [ref=f22e229]: For marketing teams managing multiple projects with deeper reporting.
+              - link [ref=f22e233] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - paragraph [ref=f22e235]: Get started
+              - generic [ref=f22e236]:
+                - paragraph [ref=f22e239]: "This includes:"
+                - generic [ref=f22e240]:
+                  - paragraph [ref=f22e244]: 350 prompts
+                  - paragraph [ref=f22e249]: Choose 3 models
+                  - paragraph [ref=f22e254]: Unlimited users
+                  - paragraph [ref=f22e258]: Daily tracking frequency
+                  - paragraph [ref=f22e262]: 5 projects
+                  - paragraph [ref=f22e266]: Multi country
+                  - paragraph [ref=f22e270]: Looker Studio integration
+            - generic [ref=f22e275]:
+              - generic [ref=f22e276]:
+                - generic [ref=f22e278]:
+                  - heading "Enterprise" [level=3] [ref=f22e280]
+                  - heading "Custom" [level=3] [ref=f22e282]
+                - heading "Annual" [level=3] [ref=f22e286]
+                - paragraph [ref=f22e288]: For global brands who need custom coverage, integrations, and dedicated support.
+              - link [ref=f22e292] [cursor=pointer]:
+                - /url: https://peec.ai/demo?type=Brand&plan=Enterprise
+                - paragraph [ref=f22e294]: Talk to Sales
+              - generic [ref=f22e295]:
+                - paragraph [ref=f22e298]: "Everything in advanced, plus:"
+                - generic [ref=f22e299]:
+                  - paragraph [ref=f22e303]: Fully customisable prompt tracking
+                  - paragraph [ref=f22e308]: Choose from all models
+                  - paragraph [ref=f22e313]: Daily or weekly tracking frequency
+                  - paragraph [ref=f22e317]: Unlimited projects
+                  - paragraph [ref=f22e321]: Custom prompt setup
+                  - paragraph [ref=f22e325]: API access
+                  - paragraph [ref=f22e329]: Single Sign-on (SSO)
+                  - paragraph [ref=f22e333]: Up to 11 LLM models tracked
+          - generic [ref=f22e335]:
+            - paragraph [ref=f22e342]: Running a GEO agency? Track prompts across multiple brands.
+            - link [ref=f22e345] [cursor=pointer]:
+              - /url: ./pricing-agencies
+              - paragraph [ref=f22e349]: See agency pricing
+          - generic [ref=f22e355]:
+            - generic [ref=f22e357]:
+              - heading "Core features" [level=3] [ref=f22e362]
+              - generic [ref=f22e363]:
+                - heading "Available models" [level=3] [ref=f22e366]
+                - paragraph [ref=f22e369]: Select in the onboarding process
+              - generic [ref=f22e370]:
+                - paragraph [ref=f22e373]: AI Shopping
+                - paragraph [ref=f22e376]: Included at launch
+              - paragraph [ref=f22e380]: Number of models included
+              - paragraph [ref=f22e384]: Projects
+              - paragraph [ref=f22e388]: Countries per project
+              - paragraph [ref=f22e392]: Daily/Weekly tracking
+              - heading "Integrations & access" [level=3] [ref=f22e396]
+              - paragraph [ref=f22e400]: Looker integration
+              - paragraph [ref=f22e404]: API access
+              - paragraph [ref=f22e408]: MCP integration
+              - paragraph [ref=f22e412]: Single sign on (SSO)
+              - heading "Support & Community" [level=3] [ref=f22e416]
+              - paragraph [ref=f22e420]: Support channels
+              - paragraph [ref=f22e424]: Slack community
+              - paragraph [ref=f22e428]: Custom onboarding
+            - generic [ref=f22e430]:
+              - generic [ref=f22e431]:
+                - generic [ref=f22e432]:
+                  - generic [ref=f22e434]:
+                    - paragraph [ref=f22e437]: Starter
+                    - generic [ref=f22e441]:
+                      - generic [ref=f22e442]: $
+                      - generic [ref=f22e443]: "80"
+                      - generic [ref=f22e444]: /mo
+                  - generic [ref=f22e446]:
+                    - paragraph [ref=f22e451]: ChatGPT
+                    - paragraph [ref=f22e456]: AI Mode
+                    - paragraph [ref=f22e461]: AI Overviews
+                    - paragraph [ref=f22e466]: Microsoft Copilot
+                    - paragraph [ref=f22e471]: Perplexity
+                    - paragraph [ref=f22e476]: Gemini
+                  - paragraph [ref=f22e482]: "3"
+                  - paragraph [ref=f22e486]: "1"
+                  - paragraph [ref=f22e490]: "1"
+                  - paragraph [ref=f22e494]: Daily
+                  - paragraph [ref=f22e499]: "-"
+                  - paragraph [ref=f22e503]: "-"
+                  - paragraph [ref=f22e509]: "-"
+                  - paragraph [ref=f22e514]: Chats
+                  - paragraph [ref=f22e520]: "-"
+                - link [ref=f22e524] [cursor=pointer]:
+                  - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                  - paragraph [ref=f22e528]: Get started
+              - generic [ref=f22e529]:
+                - generic [ref=f22e530]:
+                  - generic [ref=f22e532]:
+                    - paragraph [ref=f22e535]: Pro
+                    - generic [ref=f22e539]:
+                      - generic [ref=f22e540]: $
+                      - generic [ref=f22e541]: "205"
+                      - generic [ref=f22e542]: /mo
+                  - generic [ref=f22e544]:
+                    - paragraph [ref=f22e549]: ChatGPT
+                    - paragraph [ref=f22e554]: AI Mode
+                    - paragraph [ref=f22e559]: AI Overviews
+                    - paragraph [ref=f22e564]: Microsoft Copilot
+                    - paragraph [ref=f22e569]: Perplexity
+                    - paragraph [ref=f22e574]: Gemini
+                  - paragraph [ref=f22e580]: "3"
+                  - paragraph [ref=f22e584]: "2"
+                  - paragraph [ref=f22e588]: "3"
+                  - paragraph [ref=f22e592]: Daily
+                  - paragraph [ref=f22e597]: "-"
+                  - paragraph [ref=f22e601]: "-"
+                  - paragraph [ref=f22e607]: "-"
+                  - paragraph [ref=f22e612]: Chats + Email
+                  - paragraph [ref=f22e618]: "-"
+                - link [ref=f22e622] [cursor=pointer]:
+                  - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                  - paragraph [ref=f22e624]: Get started
+              - generic [ref=f22e625]:
+                - generic [ref=f22e626]:
+                  - generic [ref=f22e628]:
+                    - paragraph [ref=f22e631]: Advanced
+                    - generic [ref=f22e635]:
+                      - generic [ref=f22e636]: $
+                      - generic [ref=f22e637]: "420"
+                      - generic [ref=f22e638]: /mo
+                  - generic [ref=f22e640]:
+                    - paragraph [ref=f22e645]: ChatGPT
+                    - paragraph [ref=f22e650]: AI Mode
+                    - paragraph [ref=f22e655]: AI Overviews
+                    - paragraph [ref=f22e660]: Microsoft Copilot
+                    - paragraph [ref=f22e665]: Perplexity
+                    - paragraph [ref=f22e670]: Gemini
+                  - paragraph [ref=f22e676]: "3"
+                  - paragraph [ref=f22e680]: "5"
+                  - paragraph [ref=f22e684]: "3"
+                  - paragraph [ref=f22e688]: Daily
+                  - paragraph [ref=f22e695]: "-"
+                  - paragraph [ref=f22e701]: "-"
+                  - paragraph [ref=f22e706]: Chats + Email
+                - link [ref=f22e714] [cursor=pointer]:
+                  - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                  - paragraph [ref=f22e718]: Get started
+              - generic [ref=f22e719]:
+                - generic [ref=f22e720]:
+                  - generic [ref=f22e722]:
+                    - paragraph [ref=f22e725]: Enterprise
+                    - paragraph [ref=f22e729]: Custom
+                  - generic [ref=f22e731]:
+                    - paragraph [ref=f22e736]: ChatGPT
+                    - paragraph [ref=f22e741]: AI Mode
+                    - paragraph [ref=f22e746]: AI Overviews
+                    - paragraph [ref=f22e751]: Microsoft Copilot
+                    - paragraph [ref=f22e756]: Perplexity
+                    - paragraph [ref=f22e761]: Gemini
+                    - generic [ref=f22e762]:
+                      - paragraph [ref=f22e766]: Claude Sonnet 4
+                      - paragraph [ref=f22e769]: API
+                    - generic [ref=f22e770]:
+                      - paragraph [ref=f22e774]: GPT 5 Search
+                      - paragraph [ref=f22e777]: API
+                    - generic [ref=f22e778]:
+                      - paragraph [ref=f22e782]: Deepseek
+                      - paragraph [ref=f22e785]: API
+                    - generic [ref=f22e786]:
+                      - paragraph [ref=f22e790]: Qwen
+                      - paragraph [ref=f22e793]: API
+                    - generic [ref=f22e794]:
+                      - paragraph [ref=f22e798]: Mistral
+                      - paragraph [ref=f22e801]: API
+                  - paragraph [ref=f22e807]: unlimited
+                  - paragraph [ref=f22e811]: unlimited
+                  - paragraph [ref=f22e815]: unlimited
+                  - paragraph [ref=f22e819]: Daily or Weekly
+                  - paragraph [ref=f22e833]: Dedicated Support
+                - link [ref=f22e841] [cursor=pointer]:
+                  - /url: https://peec.ai/demo?type=In%20House&plan=Enterprise
+                  - paragraph [ref=f22e845]: Talk to Sales
+      - generic [ref=f22e852]:
+        - generic [ref=f22e853]:
+          - generic [ref=f22e855]:
+            - paragraph [ref=f22e860]:
+              - generic [ref=f22e861]: Add-ons
+            - heading "Additional Models" [level=2] [ref=f22e863]
+            - paragraph [ref=f22e865]: Track more AI models without switching plans.
+          - generic [ref=f22e867]:
+            - generic [ref=f22e868]:
+              - paragraph [ref=f22e873]: ChatGPT
+              - paragraph [ref=f22e878]: AI Mode
+              - paragraph [ref=f22e883]: AI Overviews
+              - paragraph [ref=f22e888]: Microsoft Co-pilot
+              - paragraph [ref=f22e893]: Perplexity
+              - paragraph [ref=f22e898]: Gemini
+            - paragraph [ref=f22e900]:
+              - generic [ref=f22e901]: Add extra models anytime in your dashboard.
+        - generic [ref=f22e902]:
+          - generic [ref=f22e908]:
+            - generic [ref=f22e909]:
+              - heading "Starter" [level=3] [ref=f22e910]
+              - paragraph [ref=f22e911]: Price reflects one additional model based on the prompts included in this plan.
+              - generic [ref=f22e912]:
+                - generic [ref=f22e913]: $30
+                - generic [ref=f22e914]: /mo
+            - generic [ref=f22e916]:
+              - button "Switch to monthly billing" [ref=f22e917] [cursor=pointer]:
+                - generic [ref=f22e920]: Annual
+              - generic [ref=f22e921]: Save $60
+          - generic [ref=f22e927]:
+            - generic [ref=f22e928]:
+              - heading "Pro" [level=3] [ref=f22e929]
+              - paragraph [ref=f22e930]: Price reflects one additional model based on the prompts included in this plan.
+              - generic [ref=f22e931]:
+                - generic [ref=f22e932]: $70
+                - generic [ref=f22e933]: /mo
+            - generic [ref=f22e935]:
+              - button "Switch to monthly billing" [ref=f22e936] [cursor=pointer]:
+                - generic [ref=f22e939]: Annual
+              - generic [ref=f22e940]: Save $180
+          - generic [ref=f22e946]:
+            - generic [ref=f22e947]:
+              - heading "Advanced" [level=3] [ref=f22e948]
+              - paragraph [ref=f22e949]: Price reflects one additional model based on the prompts included in this plan.
+              - generic [ref=f22e950]:
+                - generic [ref=f22e951]: $140
+                - generic [ref=f22e952]: /mo
+            - generic [ref=f22e954]:
+              - button "Switch to monthly billing" [ref=f22e955] [cursor=pointer]:
+                - generic [ref=f22e958]: Annual
+              - generic [ref=f22e959]: Save $300
+      - generic [ref=f22e962]:
+        - generic [ref=f22e965]:
+          - paragraph [ref=f22e971]:
+            - generic [ref=f22e972]: Testimonials
+          - heading "Check what the best marketers say about Peec AI." [level=2] [ref=f22e975]
+        - generic [ref=f22e976]:
+          - generic [ref=f22e977]:
+            - generic [ref=f22e983]:
+              - paragraph [ref=f22e985]: Peec AI offers key insights on AI visibility, helping brands stay at the forefront of discovery in the age of AI and generative search. As ChatGPT, Perplexity, and Deepseek drive traffic and conversions, Peec.ai measures the growth.
+              - generic [ref=f22e990]:
+                - paragraph [ref=f22e992]: Crystal Carter
+                - paragraph [ref=f22e994]: Head of SEO Comms
+            - generic [ref=f22e1000]:
+              - paragraph [ref=f22e1002]: Peec allows us to pinpoint the exact types of content that are surfaced in specific LLMs. With that visibility, we’ve been able to prioritize our content strategy and drive a 5x year-over-year increase in traffic and demo requests from LLMs.
+              - generic [ref=f22e1007]:
+                - paragraph [ref=f22e1009]: Jon Gitlin
+                - paragraph [ref=f22e1011]: SEO Strategist
+          - generic [ref=f22e1016]:
+            - generic [ref=f22e1022]:
+              - paragraph [ref=f22e1024]: Peec avoids the issues we see with other SEO/AEO platforms, where there’s often an overload of features and information that isn't of primary importance. It keeps things simple - set up your prompts, see your AI visibility, and act on top citations.
+              - generic [ref=f22e1029]:
+                - paragraph [ref=f22e1031]: Ethan Smith
+                - paragraph [ref=f22e1033]: CEO
+            - generic [ref=f22e1039]:
+              - paragraph [ref=f22e1041]: Peec AI gave us a data-informed view of our LLMO strategy at Glide - virtually overnight. With its insights, our blog posts started ranking for targeted ChatGPT and Perplexity prompts within 24 hours. I am really impressed with the platform, and the exceptional support from the team.
+              - generic [ref=f22e1046]:
+                - paragraph [ref=f22e1048]: Sepy Bazzazi
+                - paragraph [ref=f22e1050]: Head of Marketing
+          - generic [ref=f22e1055]:
+            - generic [ref=f22e1061]:
+              - paragraph [ref=f22e1063]: Peec AI helps us identify what's being cited, adjust our strategy in real-time, and stay ahead of a rapidly evolving search landscape. For our team, the clarity and simplicity of the platform is invaluable when making strategic content decisions.
+              - generic [ref=f22e1068]:
+                - paragraph [ref=f22e1070]: Thomas Smeaton
+                - paragraph [ref=f22e1072]: SEO Manager
+            - generic [ref=f22e1078]:
+              - paragraph [ref=f22e1080]: As search marketers, our decisions should always be driven by data. Peec AI provides exactly the critical insights we need to stay competitive in the ever-evolving world of search.
+              - generic [ref=f22e1085]:
+                - paragraph [ref=f22e1087]: Artur Kosch
+                - paragraph [ref=f22e1089]: General Manager
+      - generic [ref=f22e1094]:
+        - generic [ref=f22e1097]:
+          - heading "FAQs" [level=2] [ref=f22e1099]
+          - paragraph [ref=f22e1101]: Get answers to the most common questions about AI search and Peec AI.
+        - generic [ref=f22e1105]:
+          - generic [ref=f22e1106]:
+            - button "What are AI answers?" [ref=f22e1107] [cursor=pointer]
+            - generic: "AI answers are the individual AI search results we track across platforms. It represents one chat result per model. Example: If you are running 25 prompts across 3 models for 30 days, we would analyze 25x3x30 = 2250 AI answers."
+          - generic [ref=f22e1113]:
+            - button "Can i track multiple sub-brands?" [ref=f22e1114] [cursor=pointer]
+            - generic: Yes. You can set up and monitor multiple sub-brands within your account, ensuring each gets its own visibility tracking. Agency accounts have this per default. Schedule a call with us to set it up for your brand as well.
+          - generic [ref=f22e1120]:
+            - button "Can I split the amount of prompts across multiple projects or brands?" [ref=f22e1121] [cursor=pointer]
+            - generic: Prompts can be shared across your account, allowing you to allocate it to different projects or brands as needed.
+          - generic [ref=f22e1127]:
+            - button "Can the prompt amount be adjusted?" [ref=f22e1128] [cursor=pointer]
+            - generic: Yes. You can upgrade or adjust your prompt volume at any time to match your usage and growth.
+          - generic [ref=f22e1134]:
+            - button "What determines the pricing?" [ref=f22e1135] [cursor=pointer]
+            - generic: Pricing is based on the number of tracked prompts and models analyzed. Higher tiers get discounts on price per prompt and a dedicated support function.
+          - generic [ref=f22e1141]:
+            - button "How does pricing work for multiple countries/languages?" [ref=f22e1142] [cursor=pointer]
+            - generic: You can track queries across any supported country or language with no additional cost. Pricing remains tied to usage of prompts, not the number of regions or languages.
+          - generic [ref=f22e1148]:
+            - button "Is there a yearly discount?" [ref=f22e1149] [cursor=pointer]
+            - generic: We offer a 15% discount for customers who choose annual billing.
+          - generic [ref=f22e1155]:
+            - button "How do agency bundles work if we mange several clients?" [ref=f22e1156] [cursor=pointer]
+            - generic: Agencies can manage multiple client projects under one bundle, with centralized billing and flexible prompt allocation.
+        - generic [ref=f22e1167]:
+          - heading "Find out what AI says about your brand" [level=3] [ref=f22e1169]
+          - generic [ref=f22e1170]:
+            - link [ref=f22e1174] [cursor=pointer]:
+              - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+              - paragraph [ref=f22e1176]: Start free trial
+            - link [ref=f22e1180] [cursor=pointer]:
+              - /url: https://peec.ai/demo?type=In%20House&plan=Enterprise
+              - paragraph [ref=f22e1186]: Talk to Sales
+    - generic [ref=f22e1208]:
+      - generic [ref=f22e1209]:
+        - generic [ref=f22e1210]:
+          - link [ref=f22e1211] [cursor=pointer]:
+            - /url: ./
+          - heading "AI search analytics for marketing teams" [level=4] [ref=f22e1217]
+        - generic [ref=f22e1218]:
+          - generic [ref=f22e1219]:
+            - paragraph [ref=f22e1221]: Company
+            - paragraph [ref=f22e1223]:
+              - link "Home" [ref=f22e1224] [cursor=pointer]:
+                - /url: ./
+            - paragraph [ref=f22e1226]:
+              - link "Careers" [ref=f22e1227] [cursor=pointer]:
+                - /url: ./careers#openroles
+            - paragraph [ref=f22e1229]:
+              - link "Entity Map" [ref=f22e1230] [cursor=pointer]:
+                - /url: ./entity-map
+            - paragraph [ref=f22e1232]:
+              - link "AI Instructions" [ref=f22e1233] [cursor=pointer]:
+                - /url: ./ai-instructions
+          - generic [ref=f22e1234]:
+            - paragraph [ref=f22e1236]: Product
+            - paragraph [ref=f22e1238]:
+              - link "Docs" [ref=f22e1239] [cursor=pointer]:
+                - /url: https://docs.peec.ai/intro-to-peec-ai
+            - paragraph [ref=f22e1241]:
+              - link "Blog" [ref=f22e1242] [cursor=pointer]:
+                - /url: ./blog
+            - paragraph [ref=f22e1244]:
+              - link "Pricing" [ref=f22e1245] [cursor=pointer]:
+                - /url: ./pricing
+            - paragraph [ref=f22e1247]:
+              - link "Changelog" [ref=f22e1248] [cursor=pointer]:
+                - /url: ./changelog
+          - generic [ref=f22e1249]:
+            - paragraph [ref=f22e1251]: Features
+            - paragraph [ref=f22e1253]:
+              - link "ChatGPT Visibility Tracker" [ref=f22e1254] [cursor=pointer]:
+                - /url: ./chat-gpt-visibility-tracker
+            - paragraph [ref=f22e1256]:
+              - link "Gemini Visibility Tracker" [ref=f22e1257] [cursor=pointer]:
+                - /url: ./gemini-visibility-tracker
+            - paragraph [ref=f22e1259]:
+              - link "AI Mode Visibility Tracker" [ref=f22e1260] [cursor=pointer]:
+                - /url: ./ai-mode-visibility-tracker
+            - paragraph [ref=f22e1262]:
+              - link "For Agencies" [ref=f22e1263] [cursor=pointer]:
+                - /url: ./for-agencies
+          - generic [ref=f22e1264]:
+            - paragraph [ref=f22e1266]: Partnership
+            - paragraph [ref=f22e1268]:
+              - link "Agencies" [ref=f22e1269] [cursor=pointer]:
+                - /url: ./partnerships/agencies
+            - paragraph [ref=f22e1271]:
+              - link "Creators" [ref=f22e1272] [cursor=pointer]:
+                - /url: ./partnerships/creators
+            - paragraph [ref=f22e1274]:
+              - link "Media" [ref=f22e1275] [cursor=pointer]:
+                - /url: ./partnerships/media
+          - generic [ref=f22e1276]:
+            - paragraph [ref=f22e1278]: Comparison
+            - paragraph [ref=f22e1280]:
+              - link "Peec vs Ahrefs" [ref=f22e1281] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-ai-vs-ahrefs-brand-radar
+            - paragraph [ref=f22e1283]:
+              - link "Peec vs Profound" [ref=f22e1284] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-vs-profound
+            - paragraph [ref=f22e1286]:
+              - link "Peec vs Semrush" [ref=f22e1287] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-vs-semrush
+          - generic [ref=f22e1288]:
+            - paragraph [ref=f22e1290]: Follow Us
+            - generic [ref=f22e1291]:
+              - paragraph [ref=f22e1295]:
+                - link "x.com" [ref=f22e1296] [cursor=pointer]:
+                  - /url: https://x.com/peec_ai
+              - paragraph [ref=f22e1300]:
+                - link "LinkedIn" [ref=f22e1301] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/peec-ai/
+              - paragraph [ref=f22e1306]:
+                - link "Youtube" [ref=f22e1307] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Peec-AI
+      - generic [ref=f22e1309]:
+        - paragraph [ref=f22e1312]: Peec AI is a top-rated AI search monitoring tool - 4.9/5 on G2 and regularly recommended on Reddit.
+        - generic [ref=f22e1313]:
+          - generic [ref=f22e1314]: © 2026 Peec AI. All rights reserved.
+          - generic [ref=f22e1316]:
+            - button "Cookie Trigger" [ref=f22e1318] [cursor=pointer]:
+              - generic [ref=f22e1319]: Cookie Settings
+            - paragraph [ref=f22e1321]:
+              - link "Privacy Policy" [ref=f22e1322] [cursor=pointer]:
+                - /url: ./legal/privacy-policy
+            - paragraph [ref=f22e1324]:
+              - link "Terms of Services" [ref=f22e1325] [cursor=pointer]:
+                - /url: ./legal/terms-of-use
+            - paragraph [ref=f22e1327]:
+              - link "Imprint" [ref=f22e1328] [cursor=pointer]:
+                - /url: ./legal/imprint
+  - generic [ref=f22e1387]:
+    - paragraph [ref=f22e1388]: We use cookies to personalize content, run ads, and analyze traffic.
+    - button "Okay" [ref=f22e1390] [cursor=pointer]
+  - iframe

@@ -1,0 +1,90 @@
+- generic [active] [ref=f99e1]:
+  - banner [ref=f99e3]:
+    - generic [ref=f99e4]:
+      - link "Go to Ads Transparency Center home page." [ref=f99e8] [cursor=pointer]:
+        - /url: https://adstransparency.google.com/
+        - generic [ref=f99e10]: 광고 투명성 센터
+      - generic [ref=f99e12]:
+        - button "Google 앱" [ref=f99e16] [cursor=pointer]
+        - link "로그인" [ref=f99e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adstransparency.google.com/advertiser/AR09306294506582179841?region%3Danywhere&followup=https://adstransparency.google.com/advertiser/AR09306294506582179841?region%3Danywhere&ec=GAZAsQQ
+  - generic [ref=f99e24]:
+    - generic [ref=f99e25]:
+      - generic [ref=f99e26]:
+        - button "홈" [ref=f99e27] [cursor=pointer]
+        - generic [ref=f99e30]:
+          - img [ref=f99e32]: keyboard_arrow_right
+          - generic [ref=f99e33]: Peec AI GmbH
+      - button "FAQ" [ref=f99e36] [cursor=pointer]
+    - generic [ref=f99e39]:
+      - generic [ref=f99e40]: Advertiser Details
+      - search [ref=f99e43]:
+        - generic [ref=f99e44]:
+          - toolbar "주제 전환 버튼" [ref=f99e45]:
+            - button "모든 주제" [pressed] [ref=f99e46] [cursor=pointer]
+            - button "정치 광고" [ref=f99e49] [cursor=pointer]
+          - generic [ref=f99e54]:
+            - img [ref=f99e56]: search
+            - generic [ref=f99e60]:
+              - generic: 광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기
+              - textbox "광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기" [ref=f99e61]
+          - button "지역 선택 필터 버튼" [ref=f99e64] [cursor=pointer]:
+            - generic "지역 선택 필터 버튼" [ref=f99e65]:
+              - img [ref=f99e67]: check
+              - generic [ref=f99e68]: 전체에서 게재되는 광고
+              - img [ref=f99e70]: arrow_drop_down
+      - generic [ref=f99e72]:
+        - generic [ref=f99e73]:
+          - generic [ref=f99e74]: Peec AI GmbH
+          - generic [ref=f99e75]:
+            - strong [ref=f99e76]: "법적 이름:"
+            - text: Peec AI GmbH
+          - generic [ref=f99e77]:
+            - strong [ref=f99e78]: "본사 위치:"
+            - text: 독일
+        - button "광고주가 신원을 확인함" [ref=f99e82] [cursor=pointer]:
+          - generic [ref=f99e83]:
+            - img [ref=f99e85]: how_to_reg
+            - generic [ref=f99e86]: 광고주가 신원을 확인함
+      - generic [ref=f99e88]:
+        - img [ref=f99e90]: info
+        - generic [ref=f99e91]:
+          - generic [ref=f99e92]: 일부 광고주가 게재하는 광고에 연령 제한 콘텐츠가 포함되어 있습니다. 로그인하여 Google에서 이 광고를 게재할 수 있는지 확인하세요.
+          - generic [ref=f99e93]:
+            - button "닫기" [ref=f99e94] [cursor=pointer]
+            - button [ref=f99e99] [cursor=pointer]:
+              - button "로그인" [ref=f99e100]
+      - generic [ref=f99e109]:
+        - button "기간 필터 버튼" [ref=f99e112] [cursor=pointer]:
+          - generic "기간 필터 버튼" [ref=f99e113]:
+            - img [ref=f99e115]: calendar_today
+            - generic [ref=f99e116]: 전체 기간
+            - img [ref=f99e118]: arrow_drop_down
+        - 'button "플랫폼 필터 버튼: 모든 플랫폼 선택됨" [ref=f99e121] [cursor=pointer]':
+          - generic "플랫폼 필터" [ref=f99e122]:
+            - generic [ref=f99e123]: 모든 플랫폼
+            - img [ref=f99e125]: arrow_drop_down
+        - 'button "광고 형식 필터 버튼: 모든 형식 선택됨" [ref=f99e128] [cursor=pointer]':
+          - generic "광고 형식 필터" [ref=f99e129]:
+            - generic [ref=f99e130]: 모든 형식
+            - img [ref=f99e132]: arrow_drop_down
+    - contentinfo [ref=f99e139]:
+      - generic [ref=f99e140]:
+        - button "개인 정보 보호" [ref=f99e142] [cursor=pointer]
+        - generic [ref=f99e143]:
+          - text: •
+          - button "약관" [ref=f99e144] [cursor=pointer]
+        - generic [ref=f99e145]:
+          - text: •
+          - button "Google Ads 정책" [ref=f99e146] [cursor=pointer]
+        - generic [ref=f99e147]:
+          - text: •
+          - link "FAQ" [ref=f99e148] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=f99e149]:
+        - generic [ref=f99e150]:
+          - text: •
+          - button "원칙" [ref=f99e151] [cursor=pointer]
+        - generic [ref=f99e152]:
+          - text: •
+          - button "Google Ads 블로그" [ref=f99e153] [cursor=pointer]

@@ -1,0 +1,211 @@
+- generic [active] [ref=f51e1]:
+  - generic [ref=f51e2]:
+    - banner [ref=f51e3]:
+      - generic [ref=f51e4]:
+        - link "크몽 홈으로 이동" [ref=f51e5] [cursor=pointer]:
+          - /url: /
+          - img "크몽 로고" [ref=f51e6]
+        - search [ref=f51e13]:
+          - generic [ref=f51e15]:
+            - textbox "어떤 전문가가 필요하세요?" [ref=f51e16]: 투스텝스어헤드
+            - button [ref=f51e18] [cursor=pointer]
+        - link "엔터프라이즈 기업용" [ref=f51e22] [cursor=pointer]:
+          - /url: /enterprise
+          - generic [ref=f51e23]:
+            - paragraph [ref=f51e24]: 엔터프라이즈
+            - generic [ref=f51e25]: 기업용
+        - generic [ref=f51e26]:
+          - button [ref=f51e27] [cursor=pointer]:
+            - paragraph [ref=f51e28]: 전문가 등록
+          - button [ref=f51e29] [cursor=pointer]:
+            - paragraph [ref=f51e30]: 로그인
+          - link "회원가입" [ref=f51e31] [cursor=pointer]:
+            - /url: /signup?next_page=%2Fsearch%3Ftype%3Dgigs%26keyword%3D%25ED%2588%25AC%25EC%258A%25A4%25ED%2585%259D%25EC%258A%25A4%25EC%2596%25B4%25ED%2597%25A4%25EB%2593%259C
+    - navigation [ref=f51e35]:
+      - generic [ref=f51e36]:
+        - button "업종별" [ref=f51e39] [cursor=pointer]
+        - button "전체 카테고리" [ref=f51e47] [cursor=pointer]:
+          - generic [ref=f51e53]: 전체
+        - generic [ref=f51e59]:
+          - list [ref=f51e60]:
+            - listitem [ref=f51e61]:
+              - link [ref=f51e63] [cursor=pointer]:
+                - /url: /category/1
+                - paragraph [ref=f51e65]: 디자인
+            - listitem [ref=f51e68]:
+              - link [ref=f51e70] [cursor=pointer]:
+                - /url: /category/2
+                - paragraph [ref=f51e72]: 마케팅
+            - listitem [ref=f51e75]:
+              - link [ref=f51e77] [cursor=pointer]:
+                - /url: /category/6
+                - paragraph [ref=f51e79]: IT·프로그래밍
+            - listitem [ref=f51e82]:
+              - link [ref=f51e84] [cursor=pointer]:
+                - /url: /category/7
+                - paragraph [ref=f51e86]: 영상·사진·음향
+            - listitem [ref=f51e89]:
+              - link [ref=f51e91] [cursor=pointer]:
+                - /url: /category/8
+                - paragraph [ref=f51e93]: 창업·사업
+            - listitem [ref=f51e96]:
+              - link [ref=f51e98] [cursor=pointer]:
+                - /url: /article/2538
+                - paragraph [ref=f51e100]: AI 서비스
+          - list [ref=f51e103]:
+            - listitem [ref=f51e104]:
+              - link [ref=f51e106] [cursor=pointer]:
+                - /url: /knowhow
+                - paragraph [ref=f51e108]: 전자책·템플릿
+            - listitem [ref=f51e111]:
+              - link [ref=f51e113] [cursor=pointer]:
+                - /url: /portfolio/1
+                - paragraph [ref=f51e115]: 포트폴리오
+            - listitem [ref=f51e118]:
+              - link [ref=f51e120] [cursor=pointer]:
+                - /url: /biz/about
+                - paragraph [ref=f51e122]: 크몽 Biz
+    - main [ref=f51e125]:
+      - generic [ref=f51e126]:
+        - generic [ref=f51e128]:
+          - heading [level=2] [ref=f51e132]:
+            - strong [ref=f51e133]: "'투스텝스어헤드'"
+            - text: 에 대한 검색결과
+          - generic [ref=f51e134]:
+            - button "서비스" [ref=f51e135] [cursor=pointer]
+            - button "전문가" [ref=f51e137] [cursor=pointer]
+            - button "포트폴리오" [ref=f51e139] [cursor=pointer]
+        - paragraph [ref=f51e147]: "'투스텝스어헤드' 서비스 검색 결과가 없어요"
+  - contentinfo [ref=f51e149]:
+    - separator [ref=f51e150]
+    - navigation [ref=f51e152]:
+      - generic [ref=f51e153]:
+        - generic [ref=f51e154]:
+          - link "고객센터" [ref=f51e155] [cursor=pointer]:
+            - /url: /support/customer-center
+          - link "전문가센터" [ref=f51e157] [cursor=pointer]:
+            - /url: /support/expert-center
+        - generic [ref=f51e159]:
+          - paragraph [ref=f51e160]: 10:30~18:00 (점심시간 13:00~14:00) . 주말, 공휴일 휴무
+          - paragraph [ref=f51e161]: 크몽은 서비스 중개 플랫폼이에요.작업 의뢰는 전문가에게 직접 문의해 주세요.
+        - generic [ref=f51e163]:
+          - paragraph [ref=f51e164]:
+            - link "이용약관" [ref=f51e165] [cursor=pointer]:
+              - /url: /support/customer-center/categories/26/latest
+          - paragraph [ref=f51e166]:
+            - link "개인정보처리방침" [ref=f51e167] [cursor=pointer]:
+              - /url: /support/customer-center/categories/28/latest
+      - generic [ref=f51e168]:
+        - generic [ref=f51e169]: 크몽 소개
+        - generic [ref=f51e170]:
+          - paragraph [ref=f51e172]:
+            - link "회사소개" [ref=f51e173] [cursor=pointer]:
+              - /url: https://www.kmongcorp.com
+          - paragraph [ref=f51e175]:
+            - link "IR 안내" [ref=f51e176] [cursor=pointer]:
+              - /url: https://company.kmong.com/notice
+          - paragraph [ref=f51e178]:
+            - link "인재채용" [ref=f51e179] [cursor=pointer]:
+              - /url: https://kmong.career.greetinghr.com/
+          - paragraph [ref=f51e181]:
+            - link "크몽로그" [ref=f51e182] [cursor=pointer]:
+              - /url: https://kmong.com/blog
+          - paragraph [ref=f51e184]:
+            - link "제휴 광고" [ref=f51e185] [cursor=pointer]:
+              - /url: https://kmong.com/article/1--제휴-광고-안내
+      - generic [ref=f51e186]:
+        - generic [ref=f51e187]: 의뢰인 안내
+        - generic [ref=f51e188]:
+          - paragraph [ref=f51e190]:
+            - link "크몽 Biz" [ref=f51e191] [cursor=pointer]:
+              - /url: https://kmong.com/article/2407
+          - paragraph [ref=f51e193]:
+            - link "엔터프라이즈" [ref=f51e194] [cursor=pointer]:
+              - /url: https://kmong.com/enterprise
+          - paragraph [ref=f51e196]:
+            - link "전자책·템플릿" [ref=f51e197] [cursor=pointer]:
+              - /url: https://kmong.com/knowhow
+          - paragraph [ref=f51e199]:
+            - link "전화운세" [ref=f51e200] [cursor=pointer]:
+              - /url: https://kmong.com/phone-counseling
+      - generic [ref=f51e201]:
+        - generic [ref=f51e202]: 전문가 안내
+        - generic [ref=f51e203]:
+          - paragraph [ref=f51e205]:
+            - link "전문가 등록" [ref=f51e206] [cursor=pointer]:
+              - /url: https://kmong.com/seller/become-a-seller
+          - paragraph [ref=f51e208]:
+            - link "전문가 센터" [ref=f51e209] [cursor=pointer]:
+              - /url: /support/expert-center
+      - generic [ref=f51e210]:
+        - generic [ref=f51e211]: 고객 지원
+        - generic [ref=f51e213]:
+          - paragraph [ref=f51e215]:
+            - link "공지사항" [ref=f51e216] [cursor=pointer]:
+              - /url: /support/customer-center/categories/1
+          - paragraph [ref=f51e218]:
+            - link "고객센터" [ref=f51e219] [cursor=pointer]:
+              - /url: /support/customer-center
+          - paragraph [ref=f51e221]:
+            - link "자주 묻는 질문" [ref=f51e222] [cursor=pointer]:
+              - /url: /support/customer-center/categories/2
+          - paragraph [ref=f51e224]:
+            - link "예상 견적" [ref=f51e225] [cursor=pointer]:
+              - /url: /prices
+    - separator [ref=f51e227]
+    - generic [ref=f51e228]:
+      - link [ref=f51e229] [cursor=pointer]:
+        - /url: /
+        - img "크몽 로고" [ref=f51e230]
+      - generic [ref=f51e236]:
+        - generic [ref=f51e237]:
+          - img "ISMS 인증" [ref=f51e238]
+          - paragraph [ref=f51e239]: 온라인 플랫폼 서비스 운영(크몽)(심사받지 않은 물리적 인프라 제외)2025.01.15 ~2028.01.14
+        - generic [ref=f51e240]:
+          - img "ISO/IEC 검증" [ref=f51e241]
+          - paragraph [ref=f51e242]: ISO/IEC 27001/27017정보보호 관리체계 및 클라우드보안관리체계 국제 표준 검증
+      - generic [ref=f51e243]:
+        - link [ref=f51e244] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.kmong.kmong
+          - img "google play" [ref=f51e245]
+        - link [ref=f51e246] [cursor=pointer]:
+          - /url: https://itunes.apple.com/kr/app/id1039179300?mt=8
+          - img "app store" [ref=f51e247]
+        - generic [ref=f51e248]:
+          - link [ref=f51e249] [cursor=pointer]:
+            - /url: https://www.instagram.com/kmong_official
+            - img "인스타그램" [ref=f51e250]
+          - link [ref=f51e251] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kmong_official
+            - img "유튜브" [ref=f51e252]
+    - paragraph [ref=f51e254]:
+      - text: (주)크몽
+      - generic [ref=f51e255]: "|"
+      - text: 서울시 서초구 사임당로 157, 3층
+      - generic [ref=f51e256]: "|"
+      - text: "대표 : 박현호, 김태헌"
+      - generic [ref=f51e257]: "|"
+      - text: "사업자등록번호 : 613-81-65278"
+      - link "사업자 정보확인" [ref=f51e258] [cursor=pointer]:
+        - /url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=6138165278
+      - text: "통신판매업신고 : 2018-서울서초-2134"
+      - generic [ref=f51e259]: "|"
+      - text: "유료직업소개사업등록번호 : 제2021-3210195-14-5-00035호"
+      - generic [ref=f51e260]: "|"
+      - text: "고객센터 : 1544-6254"
+      - generic [ref=f51e261]: "|"
+      - text: "호스팅 사업자: Amazon Web Service(AWS)"
+      - generic [ref=f51e262]: "|"
+      - link "1:1 문의하기" [ref=f51e263] [cursor=pointer]:
+        - /url: https://dknj7.channel.io/support-bots/97627
+      - generic [ref=f51e264]: "|"
+      - text: help@kmong.com
+    - generic [ref=f51e265]:
+      - paragraph [ref=f51e266]: (주)크몽은 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매회원에게 있습니다.
+      - paragraph [ref=f51e267]: (주)크몽 사이트의 상품/전문가/이벤트 정보, 디자인 및 화면의 구성, UI 등의 무단복제, 배포, 방송 또는 전송, 스크래핑 등의 행위는 저작권법, 콘텐츠산업 진흥법 등 관련법령에 의하여 엄격히 금지됩니다. [안내 보기]
+      - paragraph [ref=f51e268]:
+        - text: (주)크몽은 선불전자지급수단에 대해 지급보증보험에 가입하여 안전하게 보호하고 있습니다.
+        - link "[가입 사실 확인]" [ref=f51e269] [cursor=pointer]:
+          - /url: /support/customer-center/posts/33
+      - paragraph [ref=f51e271]: Copyright © 2026 kmong Inc. All rights reserved.
+  - alert [ref=f51e272]

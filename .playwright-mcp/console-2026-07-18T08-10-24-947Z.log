@@ -1,0 +1,21 @@
+[     305ms] ReferenceError: mixpanel is not defined
+    at <anonymous>:1:19
+    at <anonymous>:1:223
+    at https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:968:429
+    at oS (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:970:31)
+    at Ld.nS (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:967:95)
+    at Ld.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:361:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:283:465)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:246:711)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:246:462)
+    at Ld.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:307:473)
+[     361ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://auth.wishket.com/login?next=/partners/p/twostepsahead/:0
+[    4154ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[    4154ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[   50004ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[   50004ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[   50704ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[   50704ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://auth.wishket.com/_next/static/chunks/0vtgq0~6k.jw7.js:0
+[   58457ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://auth.wishket.com/api/loginApi:0
+[   61404ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://auth.wishket.com/api/loginApi:0
+[   70751ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://www.clarity.ms/tag/v3ro27anqd?ref=gtm:0

@@ -1,0 +1,2493 @@
+- generic [ref=f4e12]:
+  - generic [ref=f4e15]:
+    - link "Meta 광고 라이브러리" [ref=f4e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f4e20]: Meta 광고 라이브러리
+    - generic [ref=f4e22]: 광고 라이브러리
+    - menuitem "광고 라이브러리 보고서" [ref=f4e24] [cursor=pointer]:
+      - generic [ref=f4e25]: 광고 라이브러리 보고서
+    - menuitem "광고 라이브러리 API" [ref=f4e27] [cursor=pointer]:
+      - generic [ref=f4e28]: 광고 라이브러리 API
+    - menuitem "브랜디드 콘텐츠" [ref=f4e30] [cursor=pointer]:
+      - generic [ref=f4e31]: 브랜디드 콘텐츠
+    - menuitem "Open navigation panel" [ref=f4e33] [cursor=pointer]
+  - generic [ref=f4e40]:
+    - combobox "대한민국" [ref=f4e44] [cursor=pointer]:
+      - generic [ref=f4e51]: 대한민국
+    - combobox "모든 광고" [ref=f4e57] [cursor=pointer]:
+      - generic [ref=f4e67]: 모든 광고
+    - generic [ref=f4e77]:
+      - generic [ref=f4e83]: 키워드 또는 광고주로 검색
+      - generic [ref=f4e89]:
+        - searchbox "키워드 또는 광고주로 검색" [ref=f4e95]: "\"웹툰 제작\""
+        - button "지우기" [ref=f4e97] [cursor=pointer]
+  - dialog [ref=f4e99]:
+    - generic [ref=f4e100]:
+      - link [ref=f4e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f4e102]: 로그인
+      - menuitem [ref=f4e103] [cursor=pointer]
+    - generic [ref=f4e105]:
+      - generic [ref=f4e106]:
+        - heading [level=4] [ref=f4e108]: 광고 라이브러리
+        - menuitem [ref=f4e110] [cursor=pointer]:
+          - heading [level=4] [ref=f4e112]: 광고 라이브러리 보고서
+        - menuitem [ref=f4e114] [cursor=pointer]:
+          - heading [level=4] [ref=f4e116]: 광고 라이브러리 API
+        - menuitem [ref=f4e118] [cursor=pointer]:
+          - heading [level=4] [ref=f4e120]: 브랜디드 콘텐츠
+      - separator [ref=f4e121]
+      - generic [ref=f4e122]:
+        - menuitem [ref=f4e124] [cursor=pointer]:
+          - heading [level=4] [ref=f4e126]: 시스템 상태
+        - menuitem [ref=f4e128] [cursor=pointer]:
+          - heading [level=4] [ref=f4e130]: 이메일 업데이트 구독
+        - menuitem [ref=f4e132] [cursor=pointer]:
+          - heading [level=4] [ref=f4e134]: FAQ
+        - menuitem [ref=f4e136] [cursor=pointer]:
+          - heading [level=4] [ref=f4e138]: 광고 및 데이터 사용 정보
+        - menuitem [ref=f4e140] [cursor=pointer]:
+          - heading [level=4] [ref=f4e142]: 개인 정보 보호
+        - menuitem [ref=f4e144] [cursor=pointer]:
+          - heading [level=4] [ref=f4e146]: 이용 약관
+        - menuitem [ref=f4e148] [cursor=pointer]:
+          - heading [level=4] [ref=f4e150]: 쿠키
+  - generic [ref=f4e151]:
+    - generic [ref=f4e152]:
+      - generic [ref=f4e158]:
+        - heading "결과 ~39개" [level=3] [ref=f4e160]
+        - generic [ref=f4e162]:
+          - text: 이 결과에는
+          - strong [ref=f4e163]: 키워드 검색어
+          - text: 와 일치하는 광고가 포함됩니다.
+      - generic [ref=f4e164]:
+        - generic [ref=f4e174]:
+          - button "필터" [ref=f4e175] [cursor=pointer]:
+            - generic [ref=f4e180]: 필터
+          - generic [ref=f4e182]:
+            - generic [ref=f4e188]: 정렬
+            - combobox "정렬" [ref=f4e193] [cursor=pointer]:
+              - generic [ref=f4e200]: 정렬 기준
+        - generic [ref=f4e203]:
+          - generic [ref=f4e205]:
+            - generic [ref=f4e207]:
+              - generic [ref=f4e208]:
+                - generic [ref=f4e215]: 활성
+                - generic [ref=f4e218]: "라이브러리 ID: 1063082562946052"
+                - generic [ref=f4e220]: 2026. 7. 12.에 게재 시작함
+                - generic [ref=f4e222]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e236] [cursor=pointer]:
+                - generic [ref=f4e239]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e242] [cursor=pointer]:
+              - generic [ref=f4e246]: 광고 상세 정보 보기
+            - separator [ref=f4e247]
+            - generic [ref=f4e252]:
+              - generic [ref=f4e255]:
+                - img "Kakao Entertainment" [ref=f4e256]
+                - generic [ref=f4e258]:
+                  - link "Kakao Entertainment" [ref=f4e259] [cursor=pointer]:
+                    - /url: https://www.facebook.com/kakao.entertainment/
+                  - generic [ref=f4e263]:
+                    - strong [ref=f4e265]: 광고
+                    - generic:
+                      - strong
+              - 'button "_ ✓멜론, 2026년 상반기 차트 결산 발표 ✓몬스타엑스 기현, 솔로 앨범으로 컴백 ✓글로벌 메가IP ’나 혼자만 레벨업‘, 극장판 제작 ✓카카오엔터, 굿즈 저작권 인식 개선 캠페인 완료 Content beyond Content KAKAO ENTERTAINMENT #KAKAOENTERTAINMENT #카카오엔터테인먼트" [ref=f4e270]':
+                - generic [ref=f4e273]:
+                  - text: _
+                  - text: ✓멜론, 2026년 상반기 차트 결산 발표
+                  - text: ✓몬스타엑스 기현, 솔로 앨범으로 컴백
+                  - text: ✓글로벌 메가IP ’나 혼자만 레벨업‘, 극장판 제작
+                  - text: ✓카카오엔터, 굿즈 저작권 인식 개선 캠페인 완료
+                  - text: Content beyond Content
+                  - text: KAKAO ENTERTAINMENT
+                  - text: "#KAKAOENTERTAINMENT #카카오엔터테인먼트"
+              - generic [ref=f4e276]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e279]:
+                  - generic [ref=f4e283]:
+                    - link "INSTAGRAM.COM Visit Instagram Profile" [ref=f4e284] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkakao.entertainment&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e286]:
+                        - generic [ref=f4e287]:
+                          - button "INSTAGRAM.COM" [ref=f4e289]:
+                            - generic [ref=f4e290]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e292]:
+                          - generic [ref=f4e296]: Visit Instagram Profile
+                    - button [ref=f4e299]
+                  - generic [ref=f4e305]:
+                    - link "INSTAGRAM.COM Visit Instagram Profile" [ref=f4e306] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkakao.entertainment&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e308]:
+                        - generic [ref=f4e309]:
+                          - button "INSTAGRAM.COM" [ref=f4e311]:
+                            - generic [ref=f4e312]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e314]:
+                          - generic [ref=f4e318]: Visit Instagram Profile
+                    - button [ref=f4e321]
+                  - generic [ref=f4e327]:
+                    - link [ref=f4e328] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkakao.entertainment&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e330]:
+                        - button [ref=f4e333]:
+                          - generic [ref=f4e334]: INSTAGRAM.COM
+                        - button [ref=f4e336]:
+                          - generic [ref=f4e340]: Visit Instagram Profile
+                    - button [ref=f4e343]
+                  - generic [ref=f4e349]:
+                    - link [ref=f4e350] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkakao.entertainment&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e352]:
+                        - button [ref=f4e355]:
+                          - generic [ref=f4e356]: INSTAGRAM.COM
+                        - button [ref=f4e358]:
+                          - generic [ref=f4e362]: Visit Instagram Profile
+                    - button [ref=f4e365]
+                  - generic [ref=f4e371]:
+                    - link [ref=f4e372] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkakao.entertainment&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e374]:
+                        - button [ref=f4e377]:
+                          - generic [ref=f4e378]: INSTAGRAM.COM
+                        - button [ref=f4e380]:
+                          - generic [ref=f4e384]: Visit Instagram Profile
+                    - button [ref=f4e387]
+                - button "다음 항목" [ref=f4e391] [cursor=pointer]:
+                  - img [ref=f4e392]
+          - generic [ref=f4e395]:
+            - generic [ref=f4e397]:
+              - generic [ref=f4e398]:
+                - generic [ref=f4e405]: 활성
+                - generic [ref=f4e408]: "라이브러리 ID: 973833374574616"
+                - generic [ref=f4e410]: 2024. 12. 5.에 게재 시작함
+                - generic [ref=f4e412]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e421] [cursor=pointer]:
+                - generic [ref=f4e424]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e427] [cursor=pointer]:
+              - generic [ref=f4e431]: 광고 상세 정보 보기
+            - separator [ref=f4e432]
+            - generic [ref=f4e437]:
+              - generic [ref=f4e439]:
+                - img "와이랩 아카데미" [ref=f4e440]
+                - generic [ref=f4e442]:
+                  - link "와이랩 아카데미" [ref=f4e443] [cursor=pointer]:
+                    - /url: https://www.facebook.com/ylabacademy/
+                  - generic [ref=f4e447]:
+                    - strong [ref=f4e449]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e450]:
+                - 'button "캐주얼부터 극화체까지, 내 그림체 찾아 떠나는 모작 훈련! ✔️ 내가 좋아하는 웹툰으로 실력 UP! 🚀 원하는 스타일의 웹툰을 모작하며 나만의 그림체를 찾아보세요! 🎨 클립 스튜디오의 기능을 더 깊게 알아보면서 연출부터 마무리까지 웹툰 제작의 모든 과정을 경험해 보세요! ✨ #웹툰 #웹툰작가 #웹툰모작 #클립스튜디오 #웹툰학원 #웹툰그리기" [ref=f4e453]':
+                  - generic [ref=f4e456]:
+                    - text: 캐주얼부터 극화체까지, 내 그림체 찾아 떠나는 모작 훈련!
+                    - text: ✔️ 내가 좋아하는 웹툰으로 실력 UP! 🚀
+                    - text: 원하는 스타일의 웹툰을 모작하며 나만의 그림체를 찾아보세요! 🎨
+                    - text: 클립 스튜디오의 기능을 더 깊게 알아보면서 연출부터 마무리까지 웹툰 제작의 모든 과정을 경험해 보세요! ✨
+                    - text: "#웹툰 #웹툰작가 #웹툰모작 #클립스튜디오 #웹툰학원 #웹툰그리기"
+                - link "YLABAC.KR 와이랩 아카데미 더 알아보기" [ref=f4e457] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fylabac.kr%2F%25ea%25b0%2595%25ec%259d%2598-%25ec%2595%2588%25eb%2582%25b4%2F%25ec%2596%2591%25ea%25b2%25bd%25ec%25a3%25bc-%25ec%259b%25b9%25ed%2588%25b0-%25ec%259b%2590%25ea%25b3%25a0-%25ec%258b%25a4%25ec%258a%25b5%25eb%25b0%2598%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e459]:
+                    - generic [ref=f4e460]:
+                      - button "YLABAC.KR" [ref=f4e462]:
+                        - generic [ref=f4e463]: YLABAC.KR
+                      - button "와이랩 아카데미" [ref=f4e465]:
+                        - generic [ref=f4e466]: 와이랩 아카데미
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e468]:
+                      - generic [ref=f4e472]: 더 알아보기
+          - generic [ref=f4e474]:
+            - generic [ref=f4e476]:
+              - generic [ref=f4e477]:
+                - generic [ref=f4e484]: 활성
+                - generic [ref=f4e487]: "라이브러리 ID: 1052292584134563"
+                - generic [ref=f4e489]: 2026. 6. 28.에 게재 시작함
+                - generic [ref=f4e491]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e500] [cursor=pointer]:
+                - generic [ref=f4e503]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e506] [cursor=pointer]:
+              - generic [ref=f4e510]: 광고 상세 정보 보기
+            - separator [ref=f4e511]
+            - generic [ref=f4e516]:
+              - generic [ref=f4e518]:
+                - img "jbnexcon" [ref=f4e519]
+                - generic [ref=f4e521]:
+                  - link "jbnexcon" [ref=f4e522] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fjbnexcon&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e526]:
+                    - strong [ref=f4e528]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e529]:
+                - 'button "🎬 AI로 영상·음악·웹툰·애니를 만든다? 2026 JB-NEXCON 교육생을 모집합니다! 🚀 AX · VFX · CG · XR 4대 신기술로 4대 장르 융복합 콘텐츠를 만드는 신기술 콘텐츠 전문인력 양성과정 ✨ 전북특별자치도와 전북콘텐츠진흥원이 함께하는 지역 콘텐츠 인재 양성 프로젝트! 이론·실습·PBL 2개월 + 기업 인턴십 2개월, 총 120시간의 실무 밀착형 교육으로 포트폴리오부터 취·창업까지 한 번에 잡으세요 💪 ━━━━━━━━━━━━━━━ ✅ 교육비 전액 지원 ✅ 최신 장비 & 전용 공간 제공 ✅ 상위 15명 기업 실무 인턴십 2개월 ✅ 교육용 유료 프로그램 계정 지원 ✅ 취업서류·면접·포트폴리오 1:1 컨설팅 ✅ 수료생 전원 콘텐츠 분야 자격증 발급 ━━━━━━━━━━━━━━━ 🗓 접수기간 2026. 6. 29.(월) ~ 7. 24.(금) 18:00까지 👥 선발인원 : 최종 30명 💻 온라인 접수 모집 공고 : https://url.kr/j5fart 해당 링크에서 공고문 및 신청서식 확인 미래 콘텐츠 산업을 이끌 주인공, 바로 당신을 기다립니다 👇 지금 바로 지원하세요! 📩 문의 : JB-NEXCON 운영사무국 lhw@ccpm.co.kr / 02-587-5205" [ref=f4e532]':
+                  - generic [ref=f4e535]:
+                    - text: 🎬 AI로 영상·음악·웹툰·애니를 만든다?
+                    - text: 2026 JB-NEXCON 교육생을 모집합니다! 🚀
+                    - text: AX · VFX · CG · XR
+                    - text: 4대 신기술로 4대 장르 융복합 콘텐츠를 만드는
+                    - text: 신기술 콘텐츠 전문인력 양성과정 ✨
+                    - text: 전북특별자치도와 전북콘텐츠진흥원이 함께하는
+                    - text: 지역 콘텐츠 인재 양성 프로젝트!
+                    - text: 이론·실습·PBL 2개월 + 기업 인턴십 2개월,
+                    - text: 총 120시간의 실무 밀착형 교육으로
+                    - text: 포트폴리오부터 취·창업까지 한 번에 잡으세요 💪
+                    - text: ━━━━━━━━━━━━━━━
+                    - text: ✅ 교육비 전액 지원
+                    - text: ✅ 최신 장비 & 전용 공간 제공
+                    - text: ✅ 상위 15명 기업 실무 인턴십 2개월
+                    - text: ✅ 교육용 유료 프로그램 계정 지원
+                    - text: ✅ 취업서류·면접·포트폴리오 1:1 컨설팅
+                    - text: ✅ 수료생 전원 콘텐츠 분야 자격증 발급
+                    - text: ━━━━━━━━━━━━━━━
+                    - text: 🗓 접수기간
+                    - text: 2026. 6. 29.(월) ~ 7. 24.(금) 18:00까지
+                    - text: "👥 선발인원 : 최종 30명"
+                    - text: 💻 온라인 접수
+                    - text: "모집 공고 :"
+                    - link "https://url.kr/j5fart" [ref=f4e537] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Furl.kr%2Fj5fart&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                    - text: 해당 링크에서 공고문 및 신청서식 확인
+                    - text: 미래 콘텐츠 산업을 이끌 주인공,
+                    - text: 바로 당신을 기다립니다 👇
+                    - text: 지금 바로 지원하세요!
+                    - text: "📩 문의 : JB-NEXCON 운영사무국"
+                    - text: lhw@ccpm.co.kr / 02-587-5205
+                - link "JCON.OR.KR jbnexcon 더 알아보기" [ref=f4e538] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.jcon.or.kr%2Fboard%2Fview.php%3FnttId%3D4474%26bbsId%3DBBSMSTR_000000000001%26pageId%3DC000000016&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e540]:
+                    - generic [ref=f4e541]:
+                      - button "JCON.OR.KR" [ref=f4e543]:
+                        - generic [ref=f4e544]: JCON.OR.KR
+                      - button "jbnexcon" [ref=f4e546]:
+                        - generic [ref=f4e547]: jbnexcon
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e549]:
+                      - generic [ref=f4e553]: 더 알아보기
+          - generic [ref=f4e555]:
+            - generic [ref=f4e557]:
+              - generic [ref=f4e558]:
+                - generic [ref=f4e565]: 활성
+                - generic [ref=f4e568]: "라이브러리 ID: 495363993558735"
+                - generic [ref=f4e570]: 2024. 12. 10.에 게재 시작함
+                - generic [ref=f4e572]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e581] [cursor=pointer]:
+                - generic [ref=f4e584]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e587] [cursor=pointer]:
+              - generic [ref=f4e591]: 광고 상세 정보 보기
+            - separator [ref=f4e592]
+            - generic [ref=f4e597]:
+              - generic [ref=f4e600]:
+                - img "와이랩 아카데미" [ref=f4e601]
+                - generic [ref=f4e603]:
+                  - link "와이랩 아카데미" [ref=f4e604] [cursor=pointer]:
+                    - /url: https://www.facebook.com/ylabacademy/
+                  - generic [ref=f4e608]:
+                    - strong [ref=f4e610]: 광고
+                    - generic:
+                      - strong
+              - 'button "✨ 꿈꿔왔던 여성향 로맨스 웹툰, 이제 직접 만들어 보세요! ✨ 💖 여성향 단편 로맨스 웹툰 제작, 혼자 하려니 막막하시죠? 💖 ✏️ 걱정 마세요! 로맨스 웹툰 작가를 꿈꾸던 제가, 초보 시절 겪었던 시행착오와 노하우를 아낌없이 알려드립니다. 강하리 여성향 로맨스 웹툰 드로잉 강하리 여성항 로맨스 웹툰 공모전 준비반 #웹툰 #로맨스웹툰 #여성향웹툰 #웹툰작가 #웹툰제작" [ref=f4e615]':
+                - generic [ref=f4e618]:
+                  - text: ✨ 꿈꿔왔던 여성향 로맨스 웹툰, 이제 직접 만들어 보세요! ✨
+                  - text: 💖 여성향 단편 로맨스 웹툰 제작, 혼자 하려니 막막하시죠? 💖
+                  - text: ✏️ 걱정 마세요! 로맨스 웹툰 작가를 꿈꾸던 제가,
+                  - text: 초보 시절 겪었던 시행착오와 노하우를 아낌없이 알려드립니다.
+                  - text: 강하리 여성향 로맨스 웹툰 드로잉
+                  - text: 강하리 여성항 로맨스 웹툰 공모전 준비반
+                  - text: "#웹툰 #로맨스웹툰 #여성향웹툰 #웹툰작가 #웹툰제작"
+              - generic [ref=f4e621]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e624]:
+                  - generic [ref=f4e628]:
+                    - link "YLABAC.KR Learn More" [ref=f4e629] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fylabac.kr%2F%25ea%25b0%2595%25ec%259d%2598-%25ec%2595%2588%25eb%2582%25b4%2F%25ea%25b0%2595%25ed%2595%2598%25eb%25a6%25ac-%25ec%2597%25ac%25ec%2584%25b1%25ed%2596%25a5-%25eb%25a1%259c%25eb%25a7%25a8%25ec%258a%25a4-%25ec%259b%25b9%25ed%2588%25b0-%25eb%2593%259c%25eb%25a1%259c%25ec%259e%2589%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e631]:
+                        - generic [ref=f4e632]:
+                          - button "YLABAC.KR" [ref=f4e634]:
+                            - generic [ref=f4e635]: YLABAC.KR
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e637]:
+                          - generic [ref=f4e641]: Learn More
+                    - button [ref=f4e644]
+                  - generic [ref=f4e650]:
+                    - link "YLABAC.KR Learn More" [ref=f4e651] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fylabac.kr%2F%25ea%25b0%2595%25ec%259d%2598-%25ec%2595%2588%25eb%2582%25b4%2F%25ea%25b0%2595%25ed%2595%2598%25eb%25a6%25ac-%25ec%2597%25ac%25ec%2584%25b1%25ed%2596%25a5-%25eb%25a1%259c%25eb%25a7%25a8%25ec%258a%25a4-%25ec%259b%25b9%25ed%2588%25b0-%25eb%2593%259c%25eb%25a1%259c%25ec%259e%2589%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e653]:
+                        - generic [ref=f4e654]:
+                          - button "YLABAC.KR" [ref=f4e656]:
+                            - generic [ref=f4e657]: YLABAC.KR
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e659]:
+                          - generic [ref=f4e663]: Learn More
+                    - button [ref=f4e666]
+                  - generic [ref=f4e672]:
+                    - link [ref=f4e673] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fylabac.kr%2F%25ea%25b0%2595%25ec%259d%2598-%25ec%2595%2588%25eb%2582%25b4%2F%25ea%25b0%2595%25ed%2595%2598%25eb%25a6%25ac-%25ec%2597%25ac%25ec%2584%25b1%25ed%2596%25a5-%25eb%25a1%259c%25eb%25a7%25a8%25ec%258a%25a4-%25ec%259b%25b9%25ed%2588%25b0-%25eb%2593%259c%25eb%25a1%259c%25ec%259e%2589%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e675]:
+                        - button [ref=f4e678]:
+                          - generic [ref=f4e679]: YLABAC.KR
+                        - button [ref=f4e681]:
+                          - generic [ref=f4e685]: Learn More
+                    - button [ref=f4e688]
+                  - generic [ref=f4e694]:
+                    - link [ref=f4e695] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fylabac.kr%2F%25ea%25b0%2595%25ec%259d%2598-%25ec%2595%2588%25eb%2582%25b4%2F%25ea%25b0%2595%25ed%2595%2598%25eb%25a6%25ac-%25ec%2597%25ac%25ec%2584%25b1%25ed%2596%25a5-%25eb%25a1%259c%25eb%25a7%25a8%25ec%258a%25a4-%25ec%259b%25b9%25ed%2588%25b0-%25eb%2593%259c%25eb%25a1%259c%25ec%259e%2589%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e697]:
+                        - button [ref=f4e700]:
+                          - generic [ref=f4e701]: YLABAC.KR
+                        - button [ref=f4e703]:
+                          - generic [ref=f4e707]: Learn More
+                    - button [ref=f4e710]
+                - button "다음 항목" [ref=f4e714] [cursor=pointer]:
+                  - img [ref=f4e715]
+          - generic [ref=f4e718]:
+            - generic [ref=f4e720]:
+              - generic [ref=f4e721]:
+                - generic [ref=f4e728]: 비활성
+                - generic [ref=f4e731]: "라이브러리 ID: 1402322910996767"
+                - generic [ref=f4e733]: 2025. 8. 12.~2025. 8. 15.
+                - generic [ref=f4e735]: 플랫폼
+                - generic [ref=f4e749]: EU 투명성
+              - button "드롭다운 열기" [ref=f4e756] [cursor=pointer]:
+                - generic [ref=f4e759]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e762] [cursor=pointer]:
+              - generic [ref=f4e766]: 광고 상세 정보 보기
+            - separator [ref=f4e767]
+            - generic [ref=f4e772]:
+              - generic [ref=f4e776]:
+                - link "카밍의아뜰리에" [ref=f4e777] [cursor=pointer]:
+                  - /url: https://www.facebook.com/61551396927697/
+                - generic [ref=f4e781]:
+                  - strong [ref=f4e783]: 광고
+                  - generic:
+                    - strong
+              - generic [ref=f4e784]:
+                - 'button "#협찬 메이크업은 도구빨 국내 제작 루비셀 원단이라 부드럽고 밀착력이 좋아서 파운데이션이 결 사이사이까지 촘촘하게 발리더라구요. 특히 물방울 모양이라 T존이나 코 옆처럼 세심한 터치가 필요한 부분에도 무리 없이 쓸 수 있어요. 데일리 메이크업부터 중요한 날까지 손이 자주 가는 퍼프예요! 게다가 7개 세트 구매하면 전용 퍼프 케이스까지 증정이라니, 이건 놓치면 아쉬울 것 같아요💗 #뚱방울 #엘제이와이비뚱방울퍼프 #뚱방울퍼프" [ref=f4e787]':
+                  - generic [ref=f4e790]:
+                    - text: "#협찬"
+                    - text: 메이크업은 도구빨
+                    - text: 국내 제작 루비셀 원단이라 부드럽고 밀착력이 좋아서
+                    - text: 파운데이션이 결 사이사이까지 촘촘하게 발리더라구요.
+                    - text: 특히 물방울 모양이라 T존이나 코 옆처럼
+                    - text: 세심한 터치가 필요한 부분에도 무리 없이 쓸 수 있어요.
+                    - text: 데일리 메이크업부터 중요한 날까지 손이 자주 가는 퍼프예요!
+                    - text: 게다가 7개 세트 구매하면 전용 퍼프 케이스까지 증정이라니,
+                    - text: 이건 놓치면 아쉬울 것 같아요💗
+                    - text: "#뚱방울 #엘제이와이비뚱방울퍼프 #뚱방울퍼프"
+                - group "Video player" [ref=f4e801]:
+                  - button "동영상 재생" [ref=f4e803] [cursor=pointer]
+                  - generic [ref=f4e805]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM 카밍의아뜰리에 Instagram 프로필 방문" [ref=f4e807] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fspring_light_summer&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e808]:
+                    - generic [ref=f4e809]:
+                      - button "INSTAGRAM.COM" [ref=f4e811]:
+                        - generic [ref=f4e812]: INSTAGRAM.COM
+                      - button "카밍의아뜰리에" [ref=f4e814]:
+                        - generic [ref=f4e815]: 카밍의아뜰리에
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f4e817]:
+                      - generic [ref=f4e821]: Instagram 프로필 방문
+          - generic [ref=f4e823]:
+            - generic [ref=f4e825]:
+              - generic [ref=f4e826]:
+                - generic [ref=f4e833]: 활성
+                - generic [ref=f4e836]: "라이브러리 ID: 2164223251016244"
+                - generic [ref=f4e838]: 2026. 4. 23.에 게재 시작함
+                - generic [ref=f4e840]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e859] [cursor=pointer]:
+                - generic [ref=f4e862]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e865] [cursor=pointer]:
+              - generic [ref=f4e869]: 광고 상세 정보 보기
+            - separator [ref=f4e870]
+            - generic [ref=f4e875]:
+              - generic [ref=f4e878]:
+                - img "Sbs게임아카데미" [ref=f4e879]
+                - generic [ref=f4e881]:
+                  - link "Sbs게임아카데미" [ref=f4e882] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61570813509462/
+                  - generic [ref=f4e886]:
+                    - strong [ref=f4e888]: 광고
+                    - generic:
+                      - strong
+              - 'button "🎮 2026 게임·웹툰 입시 & 진로 로드맵 공개! 입시부터 취업, 실전 경험까지 한 번에 🚀 📌 SBS아카데미게임&웹툰학원 대전지점 연간 핵심 프로그램 ✨ 입시·진로·실무를 연결하는 실전형 교육 일정! ✨ 🔥 이런 기회를 놓치지 마세요! 🔥 ✔ 청강대 합격생이 직접 전하는 입시 전략 간담회 🎓 ✔ 19개 대학 입시 정보를 한자리에서! 대학입시 박람회 🏫 ✔ 청소년·성인 대상 실전 게임잼 & 협업 프로젝트 🎮 ✔ 게임·웹툰 업계 최신 트렌드를 만나는 채용설명회 💼 ✔ G-STAR 출품 & 연말 네트워킹까지! 실무 경험 완성 ⭐ 📈 입시 합격률 + 실무 경쟁력 + 진로 설계까지 결과로 증명하는 게임·웹툰 교육! 👉 지금 바로 상담 신청하세요! 🏃‍♂️💨 (선착순 마감 / 일정별 별도 안내) #SBS아카데미게임학원 #SBS아카데미웹툰학원 #대전게임학원 #대전웹툰학원 #게임입시 #웹툰입시 #청강대입시 #게임개발 #웹툰작가 #게임잼 #GSTAR #취업연계 #포트폴리오" [ref=f4e893]':
+                - generic [ref=f4e896]:
+                  - text: 🎮 2026 게임·웹툰 입시 & 진로 로드맵 공개!
+                  - text: 입시부터 취업, 실전 경험까지 한 번에 🚀
+                  - text: 📌 SBS아카데미게임&웹툰학원 대전지점 연간 핵심 프로그램
+                  - text: ✨ 입시·진로·실무를 연결하는 실전형 교육 일정! ✨
+                  - text: 🔥 이런 기회를 놓치지 마세요! 🔥
+                  - text: ✔ 청강대 합격생이 직접 전하는 입시 전략 간담회 🎓
+                  - text: ✔ 19개 대학 입시 정보를 한자리에서! 대학입시 박람회 🏫
+                  - text: ✔ 청소년·성인 대상 실전 게임잼 & 협업 프로젝트 🎮
+                  - text: ✔ 게임·웹툰 업계 최신 트렌드를 만나는 채용설명회 💼
+                  - text: ✔ G-STAR 출품 & 연말 네트워킹까지! 실무 경험 완성 ⭐
+                  - text: 📈 입시 합격률 + 실무 경쟁력 + 진로 설계까지
+                  - text: 결과로 증명하는 게임·웹툰 교육!
+                  - text: 👉 지금 바로 상담 신청하세요! 🏃‍♂️💨
+                  - text: (선착순 마감 / 일정별 별도 안내)
+                  - text: "#SBS아카데미게임학원 #SBS아카데미웹툰학원 #대전게임학원"
+                  - text: "#대전웹툰학원 #게임입시 #웹툰입시 #청강대입시 #게임개발"
+                  - text: "#웹툰작가 #게임잼 #GSTAR #취업연계 #포트폴리오"
+              - generic [ref=f4e899]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e902]:
+                  - generic [ref=f4e906]:
+                    - link "FB.ME 2026 입시 로드맵 공개! Apply Now" [ref=f4e907] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e909]:
+                        - generic [ref=f4e910]:
+                          - button "FB.ME" [ref=f4e912]:
+                            - generic [ref=f4e913]: FB.ME
+                          - button "2026 입시 로드맵 공개!" [ref=f4e915]:
+                            - generic [ref=f4e916]: 2026 입시 로드맵 공개!
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Apply Now" [disabled] [ref=f4e918]:
+                          - generic [ref=f4e922]: Apply Now
+                    - button [ref=f4e925]
+                  - generic [ref=f4e931]:
+                    - link "FB.ME 2026 입시 로드맵 공개! Apply Now" [ref=f4e932] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e934]:
+                        - generic [ref=f4e935]:
+                          - button "FB.ME" [ref=f4e937]:
+                            - generic [ref=f4e938]: FB.ME
+                          - button "2026 입시 로드맵 공개!" [ref=f4e940]:
+                            - generic [ref=f4e941]: 2026 입시 로드맵 공개!
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Apply Now" [disabled] [ref=f4e943]:
+                          - generic [ref=f4e947]: Apply Now
+                    - button [ref=f4e950]
+                  - generic [ref=f4e956]:
+                    - link [ref=f4e957] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e959]:
+                        - generic [ref=f4e960]:
+                          - button [ref=f4e962]:
+                            - generic [ref=f4e963]: FB.ME
+                          - button [ref=f4e965]:
+                            - generic [ref=f4e966]: 2026 입시 로드맵 공개!
+                        - button [disabled] [ref=f4e968]:
+                          - generic [ref=f4e972]: Apply Now
+                    - button [ref=f4e975]
+                  - generic [ref=f4e981]:
+                    - link [ref=f4e982] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e984]:
+                        - generic [ref=f4e985]:
+                          - button [ref=f4e987]:
+                            - generic [ref=f4e988]: FB.ME
+                          - button [ref=f4e990]:
+                            - generic [ref=f4e991]: 2026 입시 로드맵 공개!
+                        - button [disabled] [ref=f4e993]:
+                          - generic [ref=f4e997]: Apply Now
+                    - button [ref=f4e1000]
+                - button "다음 항목" [ref=f4e1004] [cursor=pointer]:
+                  - img [ref=f4e1005]
+          - generic [ref=f4e1008]:
+            - generic [ref=f4e1010]:
+              - generic [ref=f4e1011]:
+                - generic [ref=f4e1018]: 활성
+                - generic [ref=f4e1021]: "라이브러리 ID: 1961111107871106"
+                - generic [ref=f4e1023]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f4e1025]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e1034] [cursor=pointer]:
+                - generic [ref=f4e1037]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1040] [cursor=pointer]:
+              - generic [ref=f4e1044]: 광고 상세 정보 보기
+            - separator [ref=f4e1045]
+            - generic [ref=f4e1050]:
+              - generic [ref=f4e1052]:
+                - img "sbsant_kdt" [ref=f4e1053]
+                - generic [ref=f4e1055]:
+                  - link "sbsant_kdt" [ref=f4e1056] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fsbsant_kdt&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1060]:
+                    - strong [ref=f4e1062]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e1063]:
+                - 'button "🎬 \"연출을 아는 사람이 AI를 제어한다.\" AI 크리에이터의 데뷔 무대, BIFAN과 함께 국비 전액지원 「AI 멀티 에이전트 기반 미디어 크리에이터 양성과정」이 2기·3기 교육생을 동시 모집합니다. 📌 기수 안내 · 2기 평일반 — 매주 금요일 (OT 8.7) · 3기 주말반 — 매주 토요일 (OT 8.8) · 각 기수 40명 · 부천 웹툰융합센터 AI영상교육센터 ✅ 이런 분께 권합니다 콘텐츠 기획·제작·유통에 AI를 더하고 싶은 현업/예비 크리에이터, 웹드라마·웹툰·애니메이션 종사자 🎁 참여 혜택 · 수강료 전액 국비 무료 · AI 툴 구독 + 고사양 워크스테이션 지원 · 방송 현업 전문가 특강·멘토링 · 우수작 부천국제판타스틱영화제(BIFAN) 출품 추천 & 후속 제작지원 ⏰ 접수 마감 8월 1일 (2·3기 통일) 📝 신청 sbsantai.com 접속 → 기수별 지원서 작성 ⚠️ 동일 KOCCA 사업 내 9개 컨소시엄 과정 중복 수강은 불가합니다. 문화체육관광부 · 한국콘텐츠진흥원 | SBS A&T · VAXPORT · D.KE · BIFAN 해시태그 #AI영상제작 #국비지원교육 #미디어크리에이터 #AI크리에이터 #AI교육 #무료교육 #교육생모집 #영상편집 #콘텐츠제작 #웹드라마 #부천교육 #부천웹툰융합센터 #BIFAN #부천국제판타스틱영화제 #KOCCA #콘텐츠진흥원 #SBSAT #ai영상" [ref=f4e1066]':
+                  - generic [ref=f4e1069]:
+                    - text: 🎬 "연출을 아는 사람이 AI를 제어한다."
+                    - text: AI 크리에이터의 데뷔 무대, BIFAN과 함께
+                    - text: 국비 전액지원 「AI 멀티 에이전트 기반 미디어 크리에이터 양성과정」이 2기·3기 교육생을 동시 모집합니다.
+                    - text: 📌 기수 안내
+                    - text: · 2기 평일반 — 매주 금요일 (OT 8.7)
+                    - text: · 3기 주말반 — 매주 토요일 (OT 8.8)
+                    - text: · 각 기수 40명 · 부천 웹툰융합센터 AI영상교육센터
+                    - text: ✅ 이런 분께 권합니다
+                    - text: 콘텐츠 기획·제작·유통에 AI를 더하고 싶은 현업/예비 크리에이터, 웹드라마·웹툰·애니메이션 종사자
+                    - text: 🎁 참여 혜택
+                    - text: · 수강료 전액 국비 무료
+                    - text: · AI 툴 구독 + 고사양 워크스테이션 지원
+                    - text: · 방송 현업 전문가 특강·멘토링
+                    - text: · 우수작 부천국제판타스틱영화제(BIFAN) 출품 추천 & 후속 제작지원
+                    - text: ⏰ 접수 마감 8월 1일 (2·3기 통일)
+                    - text: 📝 신청
+                    - text: sbsantai.com 접속 → 기수별 지원서 작성
+                    - text: ⚠️ 동일 KOCCA 사업 내 9개 컨소시엄 과정 중복 수강은 불가합니다.
+                    - text: 문화체육관광부 · 한국콘텐츠진흥원 | SBS A&T · VAXPORT · D.KE · BIFAN
+                    - text: 해시태그
+                    - text: "#AI영상제작 #국비지원교육 #미디어크리에이터 #AI크리에이터 #AI교육 #무료교육 #교육생모집 #영상편집 #콘텐츠제작 #웹드라마 #부천교육 #부천웹툰융합센터 #BIFAN #부천국제판타스틱영화제 #KOCCA #콘텐츠진흥원 #SBSAT #ai영상"
+                - link "SBSANTAI.COM sbsant_kdt 자세히 보기" [ref=f4e1071] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsbsantai.com%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1073]:
+                    - generic [ref=f4e1074]:
+                      - button "SBSANTAI.COM" [ref=f4e1076]:
+                        - generic [ref=f4e1077]: SBSANTAI.COM
+                      - button "sbsant_kdt" [ref=f4e1079]:
+                        - generic [ref=f4e1080]: sbsant_kdt
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "자세히 보기" [ref=f4e1082]:
+                      - generic [ref=f4e1086]: 자세히 보기
+          - generic [ref=f4e1088]:
+            - generic [ref=f4e1090]:
+              - generic [ref=f4e1091]:
+                - generic [ref=f4e1098]: 활성
+                - generic [ref=f4e1101]: "라이브러리 ID: 36752151231066976"
+                - generic [ref=f4e1103]: 2026. 6. 23.에 게재 시작함
+                - generic [ref=f4e1105]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e1119] [cursor=pointer]:
+                - generic [ref=f4e1122]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1125] [cursor=pointer]:
+              - generic [ref=f4e1129]: 광고 상세 정보 보기
+            - separator [ref=f4e1130]
+            - generic [ref=f4e1135]:
+              - generic [ref=f4e1137]:
+                - img "Sbs게임아카데미" [ref=f4e1138]
+                - generic [ref=f4e1140]:
+                  - link "Sbs게임아카데미" [ref=f4e1141] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61570813509462/
+                  - generic [ref=f4e1145]:
+                    - strong [ref=f4e1147]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e1148]:
+                - button "이 중에서 몇 개나 해당되나요? 👀 웹툰이나 웹소설을 좋아하다 보면 어느 순간 이런 생각 들지 않나요? “나라면 이렇게 만들 텐데” “이 캐릭터 스토리 더 보고 싶은데” 좋아하는 걸 넘어서 직접 만들어보고 싶은 순간이 옵니다. 스토리 기획부터 캐릭터, 제작, 연재까지! 머릿속에만 있던 세상이 현실이 되는 순간✨ 👉 지금 바로 시작해보기" [ref=f4e1151]:
+                  - generic [ref=f4e1154]:
+                    - text: 이 중에서 몇 개나
+                    - text: 해당되나요? 👀
+                    - text: 웹툰이나 웹소설을 좋아하다 보면
+                    - text: 어느 순간 이런 생각 들지 않나요?
+                    - text: “나라면 이렇게 만들 텐데”
+                    - text: “이 캐릭터 스토리 더 보고 싶은데”
+                    - text: 좋아하는 걸 넘어서
+                    - text: 직접 만들어보고 싶은 순간이 옵니다.
+                    - text: 스토리 기획부터
+                    - text: 캐릭터, 제작, 연재까지!
+                    - text: 머릿속에만 있던 세상이 현실이 되는 순간✨
+                    - text: 👉 지금 바로 시작해보기
+                - link "HTTP://SNS.SBSWEBTOON.COM 웹툰/웹소설 좋아하는 사람? 👀 SBS아카데미웹툰학원은 대한민국 어느 지점이나 100% 법인 직영 아카데미이며, 전국 모든 지점에서 동일한 교육수준을 자랑합니다. 더 알아보기" [ref=f4e1156] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fsns.sbswebtoon.com%2Fevent%2Fevent25_0226.asp%3Futm_source%3Dsns%26utm_medium%3Dda%26utm_campaign%3Dofficial%26utm_content%3Dimage%26utm_term%3Dwebtoonnovel&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1158]:
+                    - generic [ref=f4e1159]:
+                      - button "HTTP://SNS.SBSWEBTOON.COM" [ref=f4e1161]:
+                        - generic [ref=f4e1162]: HTTP://SNS.SBSWEBTOON.COM
+                      - button "웹툰/웹소설 좋아하는 사람? 👀" [ref=f4e1164]:
+                        - generic [ref=f4e1165]: 웹툰/웹소설 좋아하는 사람? 👀
+                      - button "SBS아카데미웹툰학원은 대한민국 어느 지점이나 100% 법인 직영 아카데미이며, 전국 모든 지점에서 동일한 교육수준을 자랑합니다." [ref=f4e1167]:
+                        - generic [ref=f4e1168]: SBS아카데미웹툰학원은 대한민국 어느 지점이나 100% 법인 직영 아카데미이며, 전국 모든 지점에서 동일한 교육수준을 자랑합니다.
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e1170]:
+                      - generic [ref=f4e1174]: 더 알아보기
+          - generic [ref=f4e1176]:
+            - generic [ref=f4e1178]:
+              - generic [ref=f4e1179]:
+                - generic [ref=f4e1186]: 활성
+                - generic [ref=f4e1189]: "라이브러리 ID: 1004230728709635"
+                - generic [ref=f4e1191]: 2026. 5. 21.에 게재 시작함
+                - generic [ref=f4e1193]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e1202] [cursor=pointer]:
+                - generic [ref=f4e1205]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1208] [cursor=pointer]:
+              - generic [ref=f4e1212]: 광고 상세 정보 보기
+            - separator [ref=f4e1213]
+            - generic [ref=f4e1218]:
+              - generic [ref=f4e1221]:
+                - img "시각영상디자인학과" [ref=f4e1222]
+                - generic [ref=f4e1224]:
+                  - link "시각영상디자인학과" [ref=f4e1225] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551382935484/
+                  - generic [ref=f4e1229]:
+                    - strong [ref=f4e1231]: 광고
+                    - generic:
+                      - strong
+              - 'button "💕2026학년도 #2학기 신·편입생 #입시 모집 안내💕 #성적X #수능X #실력O ! 실력만으로 뽑는 #시각영상디자인 학과 #게임그래픽 #웹툰 #영상 #디자인 #인서울4년제대학 #AI 💜#2학기입학 하면 모두드림 장학금 100% #장학금 혜택 까지~! (특성화 교육비 장학 혜택) 💜제59회 경기디자인대전 대상 수상자 23학번 이강우 수상작 보러가기https://youtu.be/07hZrWlQ5hw?si=pDNaMJCBaQdYUtAN 💜우리학과가 궁금하다면?https://class.scau.ac.kr/design/ 💜입시문의 : 02-2287-0327" [ref=f4e1236]':
+                - generic [ref=f4e1239]:
+                  - text: "💕2026학년도 #2학기 신·편입생 #입시 모집 안내💕"
+                  - text: "#성적X #수능X #실력O ! 실력만으로 뽑는 #시각영상디자인 학과 #게임그래픽 #웹툰 #영상 #디자인 #인서울4년제대학 #AI"
+                  - text: "💜#2학기입학 하면 모두드림 장학금 100% #장학금 혜택 까지~!"
+                  - text: (특성화 교육비 장학 혜택)
+                  - text: 💜제59회 경기디자인대전 대상 수상자 23학번 이강우 수상작 보러가기
+                  - link "https://youtu.be/07hZrWlQ5hw?si=pDNaMJCBaQdYUtAN" [ref=f4e1241] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2F07hZrWlQ5hw%3Fsi%3DpDNaMJCBaQdYUtAN&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - text: 💜우리학과가 궁금하다면?
+                  - link "https://class.scau.ac.kr/design/" [ref=f4e1242] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fclass.scau.ac.kr%2Fdesign%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - text: "💜입시문의 : 02-2287-0327"
+              - generic [ref=f4e1244]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e1247]:
+                  - generic [ref=f4e1251]:
+                    - link "SCAU.AC.KR 디지털서울문화예술대학교 Learn More" [ref=f4e1252] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1254]:
+                        - generic [ref=f4e1255]:
+                          - button "SCAU.AC.KR" [ref=f4e1257]:
+                            - generic [ref=f4e1258]: SCAU.AC.KR
+                          - button "디지털서울문화예술대학교" [ref=f4e1260]:
+                            - generic [ref=f4e1261]: 디지털서울문화예술대학교
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e1263]:
+                          - generic [ref=f4e1267]: Learn More
+                    - button [ref=f4e1270]
+                  - generic [ref=f4e1276]:
+                    - link "SCAU.AC.KR 디지털서울문화예술대학교 Learn More" [ref=f4e1277] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1279]:
+                        - generic [ref=f4e1280]:
+                          - button "SCAU.AC.KR" [ref=f4e1282]:
+                            - generic [ref=f4e1283]: SCAU.AC.KR
+                          - button "디지털서울문화예술대학교" [ref=f4e1285]:
+                            - generic [ref=f4e1286]: 디지털서울문화예술대학교
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e1288]:
+                          - generic [ref=f4e1292]: Learn More
+                    - button [ref=f4e1295]
+                  - generic [ref=f4e1301]:
+                    - link [ref=f4e1302] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1304]:
+                        - generic [ref=f4e1305]:
+                          - button [ref=f4e1307]:
+                            - generic [ref=f4e1308]: SCAU.AC.KR
+                          - button [ref=f4e1310]:
+                            - generic [ref=f4e1311]: 디지털서울문화예술대학교
+                        - button [ref=f4e1313]:
+                          - generic [ref=f4e1317]: Learn More
+                    - button [ref=f4e1320]
+                  - generic [ref=f4e1326]:
+                    - link [ref=f4e1327] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1329]:
+                        - generic [ref=f4e1330]:
+                          - button [ref=f4e1332]:
+                            - generic [ref=f4e1333]: SCAU.AC.KR
+                          - button [ref=f4e1335]:
+                            - generic [ref=f4e1336]: 디지털서울문화예술대학교
+                        - button [ref=f4e1338]:
+                          - generic [ref=f4e1342]: Learn More
+                    - button [ref=f4e1345]
+                  - generic [ref=f4e1351]:
+                    - link [ref=f4e1352] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1354]:
+                        - generic [ref=f4e1355]:
+                          - button [ref=f4e1357]:
+                            - generic [ref=f4e1358]: SCAU.AC.KR
+                          - button [ref=f4e1360]:
+                            - generic [ref=f4e1361]: 디지털서울문화예술대학교
+                        - button [ref=f4e1363]:
+                          - generic [ref=f4e1367]: Learn More
+                    - button [ref=f4e1370]
+                  - generic [ref=f4e1376]:
+                    - link [ref=f4e1377] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1379]:
+                        - generic [ref=f4e1380]:
+                          - button [ref=f4e1382]:
+                            - generic [ref=f4e1383]: SCAU.AC.KR
+                          - button [ref=f4e1385]:
+                            - generic [ref=f4e1386]: 디지털서울문화예술대학교
+                        - button [ref=f4e1388]:
+                          - generic [ref=f4e1392]: Learn More
+                    - button [ref=f4e1395]
+                  - generic [ref=f4e1401]:
+                    - link [ref=f4e1402] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1404]:
+                        - generic [ref=f4e1405]:
+                          - button [ref=f4e1407]:
+                            - generic [ref=f4e1408]: SCAU.AC.KR
+                          - button [ref=f4e1410]:
+                            - generic [ref=f4e1411]: 디지털서울문화예술대학교
+                        - button [ref=f4e1413]:
+                          - generic [ref=f4e1417]: Learn More
+                    - button [ref=f4e1420]
+                  - generic [ref=f4e1426]:
+                    - link [ref=f4e1427] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1429]:
+                        - generic [ref=f4e1430]:
+                          - button [ref=f4e1432]:
+                            - generic [ref=f4e1433]: SCAU.AC.KR
+                          - button [ref=f4e1435]:
+                            - generic [ref=f4e1436]: 디지털서울문화예술대학교
+                        - button [ref=f4e1438]:
+                          - generic [ref=f4e1442]: Learn More
+                    - button [ref=f4e1445]
+                  - generic [ref=f4e1451]:
+                    - link [ref=f4e1452] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1454]:
+                        - generic [ref=f4e1455]:
+                          - button [ref=f4e1457]:
+                            - generic [ref=f4e1458]: SCAU.AC.KR
+                          - button [ref=f4e1460]:
+                            - generic [ref=f4e1461]: 디지털서울문화예술대학교
+                        - button [ref=f4e1463]:
+                          - generic [ref=f4e1467]: Learn More
+                    - button [ref=f4e1470]
+                  - generic [ref=f4e1476]:
+                    - link [ref=f4e1477] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.scau.ac.kr%2FApplication%2F11_ConClass%2FCC_View.aspx%3FMRID%3D86%26CRID%3D82&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1479]:
+                        - generic [ref=f4e1480]:
+                          - button [ref=f4e1482]:
+                            - generic [ref=f4e1483]: SCAU.AC.KR
+                          - button [ref=f4e1485]:
+                            - generic [ref=f4e1486]: 디지털서울문화예술대학교
+                        - button [ref=f4e1488]:
+                          - generic [ref=f4e1492]: Learn More
+                    - button [ref=f4e1495]
+                - button "다음 항목" [ref=f4e1499] [cursor=pointer]:
+                  - img [ref=f4e1500]
+          - generic [ref=f4e1503]:
+            - generic [ref=f4e1505]:
+              - generic [ref=f4e1506]:
+                - generic [ref=f4e1513]: 활성
+                - generic [ref=f4e1516]: "라이브러리 ID: 2141484516707644"
+                - generic [ref=f4e1518]: 2026. 3. 28.에 게재 시작함
+                - generic [ref=f4e1520]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e1529] [cursor=pointer]:
+                - generic [ref=f4e1532]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1535] [cursor=pointer]:
+              - generic [ref=f4e1539]: 광고 상세 정보 보기
+            - separator [ref=f4e1540]
+            - generic [ref=f4e1545]:
+              - generic [ref=f4e1548]:
+                - img "bucheon_anihi" [ref=f4e1549]
+                - generic [ref=f4e1551]:
+                  - link "bucheon_anihi" [ref=f4e1552] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fbucheon_anihi&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1556]:
+                    - strong [ref=f4e1558]: 광고
+                    - generic:
+                      - strong
+              - button ". 🏆2026학년도 최종 입시결과 공개🏆 부천웹툰학원에서 만들어낸 실제 합격 데이터입니다. 웹툰 · 게임 · 애니메이션 대학 307명 합격 단순한 숫자가 아닙니다. 🥇재원생 97% 이상 합격 🥇5년 연속 누적된 합격 데이터 🥇22-26 청강대 54명 합격 (부천 단일캠퍼스 기준) 그림을 좋아하는 단계에서 대학 합격이라는 결과까지 부천만화학원 애니하이는 과정이 아닌 결과로 증명합니다. 이런 학생에게 추천합니다 ✔웹툰 작가를 목표로 하는 학생 ✔게임일러스트, 애니메이션 진로를 고민 중인 학생 ✔입시 방향을 명확하게 잡고 싶은 학생 📍부천애니하이 만화학원 상담은 DM 또는 전화로 가능합니다. 032-327-7495" [ref=f4e1563]:
+                - generic [ref=f4e1566]:
+                  - text: .
+                  - text: 🏆2026학년도 최종 입시결과 공개🏆
+                  - text: 부천웹툰학원에서 만들어낸 실제 합격 데이터입니다.
+                  - text: 웹툰 · 게임 · 애니메이션 대학 307명 합격
+                  - text: 단순한 숫자가 아닙니다.
+                  - text: 🥇재원생 97% 이상 합격
+                  - text: 🥇5년 연속 누적된 합격 데이터
+                  - text: 🥇22-26 청강대 54명 합격 (부천 단일캠퍼스 기준)
+                  - text: 그림을 좋아하는 단계에서 대학 합격이라는 결과까지
+                  - text: 부천만화학원 애니하이는 과정이 아닌 결과로 증명합니다.
+                  - text: 이런 학생에게 추천합니다
+                  - text: ✔웹툰 작가를 목표로 하는 학생
+                  - text: ✔게임일러스트, 애니메이션 진로를 고민 중인 학생
+                  - text: ✔입시 방향을 명확하게 잡고 싶은 학생
+                  - text: 📍부천애니하이 만화학원
+                  - text: 상담은 DM 또는 전화로 가능합니다.
+                  - text: 032-327-7495
+              - generic [ref=f4e1569]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e1572]:
+                  - generic [ref=f4e1576]:
+                    - 'link "TALK.NAVER.COM 부천애니하이만화학원: 네이버톡톡 Learn More" [ref=f4e1577] [cursor=pointer]':
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1579]:
+                        - generic [ref=f4e1580]:
+                          - button "TALK.NAVER.COM" [ref=f4e1582]:
+                            - generic [ref=f4e1583]: TALK.NAVER.COM
+                          - 'button "부천애니하이만화학원: 네이버톡톡" [ref=f4e1585]':
+                            - generic [ref=f4e1586]: "부천애니하이만화학원: 네이버톡톡"
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e1588]:
+                          - generic [ref=f4e1592]: Learn More
+                    - button [ref=f4e1595]
+                  - generic [ref=f4e1601]:
+                    - 'link "TALK.NAVER.COM 부천애니하이만화학원: 네이버톡톡 Learn More" [ref=f4e1602] [cursor=pointer]':
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1604]:
+                        - generic [ref=f4e1605]:
+                          - button "TALK.NAVER.COM" [ref=f4e1607]:
+                            - generic [ref=f4e1608]: TALK.NAVER.COM
+                          - 'button "부천애니하이만화학원: 네이버톡톡" [ref=f4e1610]':
+                            - generic [ref=f4e1611]: "부천애니하이만화학원: 네이버톡톡"
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e1613]:
+                          - generic [ref=f4e1617]: Learn More
+                    - button [ref=f4e1620]
+                  - generic [ref=f4e1626]:
+                    - link [ref=f4e1627] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1629]:
+                        - generic [ref=f4e1630]:
+                          - button [ref=f4e1632]:
+                            - generic [ref=f4e1633]: TALK.NAVER.COM
+                          - button [ref=f4e1635]:
+                            - generic [ref=f4e1636]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1638]:
+                          - generic [ref=f4e1642]: Learn More
+                    - button [ref=f4e1645]
+                  - generic [ref=f4e1651]:
+                    - link [ref=f4e1652] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1654]:
+                        - generic [ref=f4e1655]:
+                          - button [ref=f4e1657]:
+                            - generic [ref=f4e1658]: TALK.NAVER.COM
+                          - button [ref=f4e1660]:
+                            - generic [ref=f4e1661]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1663]:
+                          - generic [ref=f4e1667]: Learn More
+                    - button [ref=f4e1670]
+                  - generic [ref=f4e1676]:
+                    - link [ref=f4e1677] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1679]:
+                        - generic [ref=f4e1680]:
+                          - button [ref=f4e1682]:
+                            - generic [ref=f4e1683]: TALK.NAVER.COM
+                          - button [ref=f4e1685]:
+                            - generic [ref=f4e1686]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1688]:
+                          - generic [ref=f4e1692]: Learn More
+                    - button [ref=f4e1695]
+                  - generic [ref=f4e1701]:
+                    - link [ref=f4e1702] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1704]:
+                        - generic [ref=f4e1705]:
+                          - button [ref=f4e1707]:
+                            - generic [ref=f4e1708]: TALK.NAVER.COM
+                          - button [ref=f4e1710]:
+                            - generic [ref=f4e1711]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1713]:
+                          - generic [ref=f4e1717]: Learn More
+                    - button [ref=f4e1720]
+                  - generic [ref=f4e1726]:
+                    - link [ref=f4e1727] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1729]:
+                        - generic [ref=f4e1730]:
+                          - button [ref=f4e1732]:
+                            - generic [ref=f4e1733]: TALK.NAVER.COM
+                          - button [ref=f4e1735]:
+                            - generic [ref=f4e1736]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1738]:
+                          - generic [ref=f4e1742]: Learn More
+                    - button [ref=f4e1745]
+                  - generic [ref=f4e1751]:
+                    - link [ref=f4e1752] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1754]:
+                        - generic [ref=f4e1755]:
+                          - button [ref=f4e1757]:
+                            - generic [ref=f4e1758]: TALK.NAVER.COM
+                          - button [ref=f4e1760]:
+                            - generic [ref=f4e1761]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1763]:
+                          - generic [ref=f4e1767]: Learn More
+                    - button [ref=f4e1770]
+                  - generic [ref=f4e1776]:
+                    - link [ref=f4e1777] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1779]:
+                        - generic [ref=f4e1780]:
+                          - button [ref=f4e1782]:
+                            - generic [ref=f4e1783]: TALK.NAVER.COM
+                          - button [ref=f4e1785]:
+                            - generic [ref=f4e1786]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1788]:
+                          - generic [ref=f4e1792]: Learn More
+                    - button [ref=f4e1795]
+                  - generic [ref=f4e1801]:
+                    - link [ref=f4e1802] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftalk.naver.com%2Fprofile%2Fwc31xm&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e1804]:
+                        - generic [ref=f4e1805]:
+                          - button [ref=f4e1807]:
+                            - generic [ref=f4e1808]: TALK.NAVER.COM
+                          - button [ref=f4e1810]:
+                            - generic [ref=f4e1811]: "부천애니하이만화학원: 네이버톡톡"
+                        - button [ref=f4e1813]:
+                          - generic [ref=f4e1817]: Learn More
+                    - button [ref=f4e1820]
+                - button "다음 항목" [ref=f4e1824] [cursor=pointer]:
+                  - img [ref=f4e1825]
+          - generic [ref=f4e1828]:
+            - generic [ref=f4e1830]:
+              - generic [ref=f4e1831]:
+                - generic [ref=f4e1838]: 비활성
+                - generic [ref=f4e1841]: "라이브러리 ID: 966637739153694"
+                - generic [ref=f4e1843]: 2026. 4. 2.~2026. 4. 4.
+                - generic [ref=f4e1845]: 플랫폼
+                - generic [ref=f4e1859]: EU 투명성
+              - button "드롭다운 열기" [ref=f4e1866] [cursor=pointer]:
+                - generic [ref=f4e1869]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1872] [cursor=pointer]:
+              - generic [ref=f4e1876]: 광고 상세 정보 보기
+            - separator [ref=f4e1877]
+            - generic [ref=f4e1882]:
+              - generic [ref=f4e1884]:
+                - img "Banjiha editor" [ref=f4e1885]
+                - generic [ref=f4e1887]:
+                  - link "Banjiha editor" [ref=f4e1888] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61561526953769/
+                  - generic [ref=f4e1892]:
+                    - strong [ref=f4e1894]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e1895]:
+                - 'button "배우 황인엽과 조이현이 화제의 웹툰 원작 드라마 <바른연애 길잡이>의 주인공을 맡습니다. 두 사람은 현재 세부 일정을 조율하고 있는 단계로 알려졌습니다. 남수 작가의 동명 웹툰을 원작으로 한 <바른연애 길잡이>는 매일 계획을 세우며 바른 생활을 실천하지만 연애에는 초보인 ''정바름''이 연애에 도전하면서 펼쳐지는 이야기를 그립니다. 원작의 높은 인기에 힘입어 드라마 제작 착수 소식만으로도 화제를 모은 바 있습니다. 황인엽은 tvN <여신강림>, 넷플릭스 시리즈 <안나라 수마나라>와 같은 웹툰 원작의 드라마와 JTBC <조립식 가족> 등의 작품으로 꾸준히 역량을 증명해왔으며 강렬한 존재감을 드러내며 거침없는 대세 행보를 이어가고 있습니다. 조이현은 최근 tvN <견우와 선녀>에 출연하며 사랑스럽고도 인상 깊은 연기를 선보였으며, 넷플릭스 시리즈 <지금 우리 학교는>을 통해 국내외에서 많은 사랑을 받아왔습니다. <바른연애 길잡이>는 디즈니+ 시리즈 <무빙>, <조명가게> 등을 제작한 무빙픽쳐스컴퍼니가 제작을 맡을 예정이며, 편성은 미정입니다. *이미지 출처: 케이엔스튜디오, 아티스트컴퍼니" [ref=f4e1898]':
+                  - generic [ref=f4e1901]:
+                    - text: 배우 황인엽과 조이현이 화제의 웹툰 원작 드라마 <바른연애 길잡이>의 주인공을 맡습니다. 두 사람은 현재 세부 일정을 조율하고 있는 단계로 알려졌습니다.
+                    - text: 남수 작가의 동명 웹툰을 원작으로 한 <바른연애 길잡이>는 매일 계획을 세우며 바른 생활을 실천하지만 연애에는 초보인 '정바름'이 연애에 도전하면서 펼쳐지는 이야기를 그립니다. 원작의 높은 인기에 힘입어 드라마 제작 착수 소식만으로도 화제를 모은 바 있습니다.
+                    - text: 황인엽은 tvN <여신강림>, 넷플릭스 시리즈 <안나라 수마나라>와 같은 웹툰 원작의 드라마와 JTBC <조립식 가족> 등의 작품으로 꾸준히 역량을 증명해왔으며 강렬한 존재감을 드러내며 거침없는 대세 행보를 이어가고 있습니다.
+                    - text: 조이현은 최근 tvN <견우와 선녀>에 출연하며 사랑스럽고도 인상 깊은 연기를 선보였으며, 넷플릭스 시리즈 <지금 우리 학교는>을 통해 국내외에서 많은 사랑을 받아왔습니다.
+                    - text: <바른연애 길잡이>는 디즈니+ 시리즈 <무빙>, <조명가게> 등을 제작한 무빙픽쳐스컴퍼니가 제작을 맡을 예정이며, 편성은 미정입니다.
+                    - text: "*이미지 출처: 케이엔스튜디오, 아티스트컴퍼니"
+                - link "INSTAGRAM.COM instagram.com Instagram 프로필 방문" [ref=f4e1902] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fbanjiha.ed&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1904]:
+                    - generic [ref=f4e1905]:
+                      - button "INSTAGRAM.COM" [ref=f4e1907]:
+                        - generic [ref=f4e1908]: INSTAGRAM.COM
+                      - button "instagram.com" [ref=f4e1910]:
+                        - generic [ref=f4e1911]: instagram.com
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f4e1913]:
+                      - generic [ref=f4e1917]: Instagram 프로필 방문
+          - generic [ref=f4e1919]:
+            - generic [ref=f4e1921]:
+              - generic [ref=f4e1922]:
+                - generic [ref=f4e1929]: 활성
+                - generic [ref=f4e1932]: "라이브러리 ID: 2524540404648437"
+                - generic [ref=f4e1934]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f4e1936]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e1950] [cursor=pointer]:
+                - generic [ref=f4e1953]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e1956] [cursor=pointer]:
+              - generic [ref=f4e1960]: 광고 상세 정보 보기
+            - separator [ref=f4e1961]
+            - generic [ref=f4e1966]:
+              - generic [ref=f4e1968]:
+                - img "Sbs게임아카데미" [ref=f4e1969]
+                - generic [ref=f4e1971]:
+                  - link "Sbs게임아카데미" [ref=f4e1972] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61570813509462/
+                  - generic [ref=f4e1976]:
+                    - strong [ref=f4e1978]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e1979]:
+                - 'button "📢 웹툰·웹소설 작가 진짜 도전해볼 사람? 아이디어는 있는데 어떻게 시작해야 할지 막막했다면 스토리 기획부터 캐릭터 디자인, 웹툰 제작, 웹소설 연재까지 작가 데뷔를 위한 프리미엄 클래스 OPEN 하교 후 내 작품 만드는 시간, 지금 시작하세요. 👉 지금 바로 상담 신청하기 #웹툰작가 #웹소설작가 #작가데뷔 #SBS아카데미게임학원 #웹툰학원 #웹소설학원" [ref=f4e1982]':
+                  - generic [ref=f4e1985]:
+                    - text: 📢 웹툰·웹소설 작가
+                    - text: 진짜 도전해볼 사람?
+                    - text: 아이디어는 있는데
+                    - text: 어떻게 시작해야 할지 막막했다면
+                    - text: 스토리 기획부터
+                    - text: 캐릭터 디자인, 웹툰 제작, 웹소설 연재까지
+                    - text: 작가 데뷔를 위한 프리미엄 클래스 OPEN
+                    - text: 하교 후
+                    - text: 내 작품 만드는 시간, 지금 시작하세요.
+                    - text: 👉 지금 바로 상담 신청하기
+                    - text: "#웹툰작가 #웹소설작가 #작가데뷔 #SBS아카데미게임학원 #웹툰학원 #웹소설학원"
+                - link "FB.ME 웹툰·웹소설 작가, 도전해볼래요? 지금 신청하기" [ref=f4e1987] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e1989]:
+                    - generic [ref=f4e1990]:
+                      - button "FB.ME" [ref=f4e1992]:
+                        - generic [ref=f4e1993]: FB.ME
+                      - button "웹툰·웹소설 작가, 도전해볼래요?" [ref=f4e1995]:
+                        - generic [ref=f4e1996]: 웹툰·웹소설 작가, 도전해볼래요?
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [disabled] [ref=f4e1998]:
+                      - generic [ref=f4e2002]: 지금 신청하기
+          - generic [ref=f4e2004]:
+            - generic [ref=f4e2006]:
+              - generic [ref=f4e2007]:
+                - generic [ref=f4e2014]: 활성
+                - generic [ref=f4e2017]: "라이브러리 ID: 3488640151313588"
+                - generic [ref=f4e2019]: 2026. 6. 23.에 게재 시작함
+                - generic [ref=f4e2021]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2055] [cursor=pointer]:
+                - generic [ref=f4e2058]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2061] [cursor=pointer]:
+              - generic [ref=f4e2065]: 광고 상세 정보 보기
+            - separator [ref=f4e2066]
+            - generic [ref=f4e2071]:
+              - generic [ref=f4e2073]:
+                - img "Hanbit Media" [ref=f4e2074]
+                - generic [ref=f4e2076]:
+                  - link "Hanbit Media" [ref=f4e2077] [cursor=pointer]:
+                    - /url: https://www.facebook.com/hanbitmedia/
+                  - generic [ref=f4e2081]:
+                    - strong [ref=f4e2083]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e2084]:
+                - button [ref=f4e2087]:
+                  - generic [ref=f4e2090]:
+                    - text: "#신간안내 『요즘 교사를 위한 AI×에듀테크 가이드 음악&미술 수업 편 with 2022 개정 교육과정』이 출간되었습니다."
+                    - text: ⠀
+                    - text: "\"선생님, 저는 소질이 없어요.\" (•﹏•٥)💦"
+                    - text: 음악·미술 시간마다 시작도 전에 머뭇거리는 학생들을 보며
+                    - text: 마음이 쓰였던 선생님을 위한 책입니다.
+                    - text: ⠀
+                    - text: 악보를 볼 줄 몰라도 비트를 만들고,
+                    - text: 그림 실력이 부족해도 명화를 감상하고 작품을 완성하는 수업.
+                    - text: 현직 초등교사 두 명이 직접 교실에서 검증한 47가지 활동으로 구성했습니다.
+                    - text: ⠀
+                    - text: 챗GPT·제미나이·수노·캔바·노트북LM·크롬 뮤직 랩·투닝까지,
+                    - text: 음악·미술 교과에 최적화된 AI×에듀테크 도구를
+                    - text: 2022 개정 교육과정 기준에 맞추어
+                    - text: 감상→표현→창작의 흐름으로 연결합니다.
+                    - text: ⠀
+                    - text: 미술 작품을 음악으로,
+                    - text: 음악을 그림책과 음악극으로 확장하는
+                    - text: 융합 수업까지 실제 수업 흐름 안에서 풀어냈습니다.
+                    - text: ⠀
+                    - text: 수업 설계만큼 중요한 기준도 함께 챙겼습니다.
+                    - text: 도구 사용법이 막힐 때 참고할 수 있는 저자 직강 유튜브 영상,
+                    - text: 2026년부터 의무화된 학운위 심의 대비 가이드,
+                    - text: AI 저작권 기준까지 함께 안내합니다.
+                    - text: ⠀
+                    - text: AI는 결과를 대신 만드는 도구가 아니라,
+                    - text: 아이들이 직접 느끼고 만들고 표현하는 과정을 더 넓혀주는 도구입니다.
+                    - text: "----"
+                    - text: ✅주요 내용
+                    - text: ❶ [음악 수업] 크롬 뮤직 랩·그루브 피자·훅패드로 리듬 창작
+                    - text: → 수노·챗GPT로 클래식 재창조·퓨전 국악 작곡
+                    - text: ❷ [미술 수업] 왓 더 아트·오드 원 아웃으로 비판적 감상
+                    - text: → 캔바·투닝으로 그림책·웹툰 제작
+                    - text: ❸ [융합 수업] 제미나이 젬스·노트북LM으로
+                    - text: 미술 작품 기반 음악 창작, 음악극 완성, 수업 자료 제작
+                    - text: ⠀
+                    - text: ✅추천 독자
+                    - text: • 음악·미술 수업에 AI와 에듀테크를 효과적으로 활용하고 싶은 교사
+                    - text: • 자신 없어하는 학생도 창작의 주인공으로 만들고 싶은 교사
+                    - text: • 2022 개정 교육과정을 실제 음악·미술 수업에 자연스럽게 녹이고 싶은 교사
+                    - text: • 감상·표현·창작이 유기적으로 이어지는 예술 수업을 진행하고 싶은 교사
+                    - text: • 2026년 새 학운위 심의 기준과 AI 저작권까지 안심하고 챙기고 싶은 교사
+                - link "요즘 교사를 위한 AI×에듀테크 가이드 음악&미술 수업 편 자세히 보기" [ref=f4e2092] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.hanbit.co.kr%2Fstore%2Fbooks%2Flook.php%3Fp_code%3DB5915926941%26type%3Dbook%26utm_source%3Dmeta%26utm_medium%3Dengagement%26utm_campaign%3D51063&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2094]:
+                    - generic [ref=f4e2095]:
+                      - generic:
+                        - button
+                      - button "요즘 교사를 위한 AI×에듀테크 가이드 음악&미술 수업 편" [ref=f4e2097]:
+                        - generic [ref=f4e2098]: 요즘 교사를 위한 AI×에듀테크 가이드 음악&미술 수업 편
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "자세히 보기" [ref=f4e2100]:
+                      - generic [ref=f4e2104]: 자세히 보기
+          - generic [ref=f4e2106]:
+            - generic [ref=f4e2108]:
+              - generic [ref=f4e2109]:
+                - generic [ref=f4e2116]: 활성
+                - generic [ref=f4e2119]: "라이브러리 ID: 854162700876092"
+                - generic [ref=f4e2121]: 2026. 7. 13.에 게재 시작함
+                - generic [ref=f4e2123]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2132] [cursor=pointer]:
+                - generic [ref=f4e2135]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2138] [cursor=pointer]:
+              - generic [ref=f4e2142]: 광고 상세 정보 보기
+            - separator [ref=f4e2143]
+            - generic [ref=f4e2148]:
+              - generic [ref=f4e2151]:
+                - img "stay_buyeo" [ref=f4e2152]
+                - generic [ref=f4e2154]:
+                  - link "stay_buyeo" [ref=f4e2155] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2159]:
+                    - strong [ref=f4e2161]: 광고
+                    - generic:
+                      - strong
+              - button [ref=f4e2166]:
+                - generic [ref=f4e2169]:
+                  - text: 🏡 국가민속문화유산에서 한 달, 창작의 영감을 찾다!
+                  - text: 2026 「여흥민씨고택 청년예술인 두지역살이」 참가자 모집
+                  - text: 부여의 역사와 문화가 살아 숨 쉬는 국가민속문화유산 '여흥민씨고택'에서 한 달간 머물며, 창작활동을 이어갈 청년예술인을 모집합니다.
+                  - text: 전통고택에서 생활하며 지역 주민들과 교류하고, 부여의 아름다운 풍경과 이야기를 자신만의 작품으로 담아보세요.
+                  - text: 📅 모집기간
+                  - text: 2026년 7월 1일 ~ 7월 20일(18:00까지)
+                  - text: 🏡 한 달 살이 일정
+                  - text: "1차 : 8월 24일 ~ 9월 20일 (남성)"
+                  - text: "2차 : 9월 28일 ~ 10월 25일 (여성)"
+                  - text: "3차 : 11월 2일 ~ 11월 29일 (추후 공지)"
+                  - text: 👤 모집대상
+                  - text: 부여군 외 지역에 거주하는 18~39세 청년예술인
+                  - text: 문학, 회화, 웹툰, 사진, 영상, 블로그, 유튜브, 여행작가 등 다양한 창작 분야 활동자
+                  - text: 🎨 참가자 지원
+                  - text: ✅ 국가민속문화유산 여흥민씨고택 숙박 제공
+                  - text: ✅ 식사지원(주 2회), 공유주방·세탁시설 이용
+                  - text: ✅ 부대비 지원(식비·교통비 최대 50만원)
+                  - text: ✅ 부여 역사문화 탐방 및 로컬 체험 프로그램
+                  - text: ✅ 지역 청년 및 주민들과의 교류 프로그램
+                  - text: ✅ 여행자보험 가입 및 공공요금 지원
+                  - text: ✨ 참가자가 해야 할 일
+                  - text: 부여를 소재로 한 창작물 제작
+                  - text: SNS 홍보 콘텐츠 주 1회 이상(총 4회)
+                  - text: 체험 프로그램 및 성과공유회(북토크) 참여
+                  - text: 📩 신청방법
+                  - text: "이메일: dot_company@naver.com"
+                  - text: "방문·우편: 충남 부여군 부여읍 계백로 266 부여군청 전략사업과 인구청년팀"
+                  - text: 신청서 다운로드 부여군청 홈페이지
+                  - link "https://www.buyeo.go.kr/html/kr/news/news_040202.html?mode=V&mng_no=2127050" [ref=f4e2170] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.buyeo.go.kr%2Fhtml%2Fkr%2Fnews%2Fnews_040202.html%3Fmode%3DV%26mng_no%3D2127050&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - text: 전통고택에서의 특별한 한 달.
+                  - text: 부여의 일상과 역사, 사람들을 만나며 새로운 창작의 영감을 얻고 싶은 청년예술인의 많은 관심과 참여를 기다립니다.
+                  - text: "#부여, #한달살기, #고택, #청년작가, #청년예술인, #국가민속문화유산, #참가자모집, #창작활동, #사진작가, #웹툰작가, #여행작가"
+              - generic [ref=f4e2172]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e2175]:
+                  - generic [ref=f4e2179]:
+                    - link "INSTAGRAM.COM Visit Instagram Profile" [ref=f4e2180] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2182]:
+                        - generic [ref=f4e2183]:
+                          - button "INSTAGRAM.COM" [ref=f4e2185]:
+                            - generic [ref=f4e2186]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e2188]:
+                          - generic [ref=f4e2192]: Visit Instagram Profile
+                    - button [ref=f4e2195]
+                  - generic [ref=f4e2201]:
+                    - link "INSTAGRAM.COM Visit Instagram Profile" [ref=f4e2202] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2204]:
+                        - generic [ref=f4e2205]:
+                          - button "INSTAGRAM.COM" [ref=f4e2207]:
+                            - generic [ref=f4e2208]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e2210]:
+                          - generic [ref=f4e2214]: Visit Instagram Profile
+                    - button [ref=f4e2217]
+                  - generic [ref=f4e2223]:
+                    - link [ref=f4e2224] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2226]:
+                        - button [ref=f4e2229]:
+                          - generic [ref=f4e2230]: INSTAGRAM.COM
+                        - button [ref=f4e2232]:
+                          - generic [ref=f4e2236]: Visit Instagram Profile
+                    - button [ref=f4e2239]
+                  - generic [ref=f4e2245]:
+                    - link [ref=f4e2246] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2248]:
+                        - button [ref=f4e2251]:
+                          - generic [ref=f4e2252]: INSTAGRAM.COM
+                        - button [ref=f4e2254]:
+                          - generic [ref=f4e2258]: Visit Instagram Profile
+                    - button [ref=f4e2261]
+                  - generic [ref=f4e2267]:
+                    - link [ref=f4e2268] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2270]:
+                        - button [ref=f4e2273]:
+                          - generic [ref=f4e2274]: INSTAGRAM.COM
+                        - button [ref=f4e2276]:
+                          - generic [ref=f4e2280]: Visit Instagram Profile
+                    - button [ref=f4e2283]
+                  - generic [ref=f4e2289]:
+                    - link [ref=f4e2290] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fstay_buyeo&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2292]:
+                        - button [ref=f4e2295]:
+                          - generic [ref=f4e2296]: INSTAGRAM.COM
+                        - button [ref=f4e2298]:
+                          - generic [ref=f4e2302]: Visit Instagram Profile
+                    - button [ref=f4e2305]
+                - button "다음 항목" [ref=f4e2309] [cursor=pointer]:
+                  - img [ref=f4e2310]
+          - generic [ref=f4e2313]:
+            - generic [ref=f4e2315]:
+              - generic [ref=f4e2316]:
+                - generic [ref=f4e2323]: 활성
+                - generic [ref=f4e2326]: "라이브러리 ID: 1646768303075555"
+                - generic [ref=f4e2328]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f4e2330]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2344] [cursor=pointer]:
+                - generic [ref=f4e2347]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2350] [cursor=pointer]:
+              - generic [ref=f4e2354]: 광고 상세 정보 보기
+            - separator [ref=f4e2355]
+            - generic [ref=f4e2360]:
+              - generic [ref=f4e2362]:
+                - img "Sbs게임아카데미" [ref=f4e2363]
+                - generic [ref=f4e2365]:
+                  - link "Sbs게임아카데미" [ref=f4e2366] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61570813509462/
+                  - generic [ref=f4e2370]:
+                    - strong [ref=f4e2372]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e2373]:
+                - button "이 중에서 몇 개나 해당되나요? 👀 웹툰이나 웹소설을 좋아하다 보면 어느 순간 이런 생각 들지 않나요? “나라면 이렇게 만들 텐데” “이 캐릭터 스토리 더 보고 싶은데” 좋아하는 걸 넘어서 직접 만들어보고 싶은 순간이 옵니다. 스토리 기획부터 캐릭터, 제작, 연재까지 머릿속에만 있던 세상이 현실이 되는 순간✨ 👉 지금 바로 시작해보기" [ref=f4e2376]:
+                  - generic [ref=f4e2379]:
+                    - text: 이 중에서 몇 개나 해당되나요? 👀
+                    - text: 웹툰이나 웹소설을 좋아하다 보면
+                    - text: 어느 순간 이런 생각 들지 않나요?
+                    - text: “나라면 이렇게 만들 텐데”
+                    - text: “이 캐릭터 스토리 더 보고 싶은데”
+                    - text: 좋아하는 걸 넘어서
+                    - text: 직접 만들어보고 싶은 순간이 옵니다.
+                    - text: 스토리 기획부터
+                    - text: 캐릭터, 제작, 연재까지
+                    - text: 머릿속에만 있던 세상이 현실이 되는 순간✨
+                    - text: 👉 지금 바로 시작해보기
+                - link "FB.ME 웹툰/웹소설 좋아하는 사람? 👀 지금 신청하기" [ref=f4e2381] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2383]:
+                    - generic [ref=f4e2384]:
+                      - button "FB.ME" [ref=f4e2386]:
+                        - generic [ref=f4e2387]: FB.ME
+                      - button "웹툰/웹소설 좋아하는 사람? 👀" [ref=f4e2389]:
+                        - generic [ref=f4e2390]: 웹툰/웹소설 좋아하는 사람? 👀
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [disabled] [ref=f4e2392]:
+                      - generic [ref=f4e2396]: 지금 신청하기
+          - generic [ref=f4e2398]:
+            - generic [ref=f4e2400]:
+              - generic [ref=f4e2401]:
+                - generic [ref=f4e2408]: 활성
+                - generic [ref=f4e2411]: "라이브러리 ID: 1518174396348973"
+                - generic [ref=f4e2413]: 2026. 7. 1.에 게재 시작함
+                - generic [ref=f4e2415]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2424] [cursor=pointer]:
+                - generic [ref=f4e2427]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2430] [cursor=pointer]:
+              - generic [ref=f4e2434]: 광고 상세 정보 보기
+            - separator [ref=f4e2435]
+            - generic [ref=f4e2440]:
+              - generic [ref=f4e2442]:
+                - img "ulsan_animartian" [ref=f4e2443]
+                - generic [ref=f4e2445]:
+                  - link "ulsan_animartian" [ref=f4e2446] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fulsan_animartian&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2450]:
+                    - strong [ref=f4e2452]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e2453]:
+                - 'button "[ 학원등록번호: 제 4980호 ] “입시의 답, 원장 직강으로 증명합니다”디자인과 애니메이션의 조화, 울산 애니마션미술학원 애니마션미술학원은 디자인, 만화, 애니메이션, 웹툰 등 다양한 분야에서 꿈을 키우는 학생들을 위해 체계적이고 전문적인 교육을 제공합니다. 상상만 하던 세상을 현실로 구현할 수 있는 힘, 애니마션에서 길러드립니다. [증명된 합격의 결과] • 주요 대학: 홍익대, 경희대, 청강대등 명문대 합격 노하우 보유 • 예고 입시: 애니원고, 울산예고 합격생 다수 배출 [애니마션만의 차별화된 교육 시스템] 1. 전문 원장 직강 시스템 • 획일적인 수업이 아닌, 학생 개개인의 장점을 살리는 1:1 밀착 지도 • 입시의 변화를 읽는 통찰력으로 합격의 순간까지 끝까지 함께합니다. 1. 목표별 맞춤형 클래스 • 대입 입시반: 상황표현 / 칸만화 / 포트폴리오 / 이미지보드 • 홍익대 입시 전문: 미술활동보고서 및 서류전형 집중 관리 예고 입시반: 애니원고 / 울산예고 실기 전문 지도 기초조형 / 게임 일러스트 / 웹툰 / 캐릭터 디자인 [탄탄한 실기 커리큘럼]기초조형부터 스토리텔링까지, 실기력을 극대화하는 세분화된 수업을 진행합니다. • 기초: 기초조형, 인체드로잉 • 심화: 연출법, 스토리텔링, 캐릭터 디자인 • 실전: 상황표현, 칸만화, 이미지보드, 포트폴리오 제작 [수강료 안내] (1회3시간/4주기준) 주1회 120,000 원 주2회 250,000 원 주3회 370,000 원 주4회 500,000 원 주5회 620,000 원 주6회 750,000 원 주7회 870,000 원 [상담 및 운영 안내] • 문의: 052-700-2379 (상시 상담 가능) • 주소: 울산 북구 신답로 35, 2층 (상안동) • 운영시간: 화~토 오후 2:00 ~ 9:00 (일, 월 휴무)" [ref=f4e2456]':
+                  - generic [ref=f4e2459]:
+                    - text: "[ 학원등록번호: 제 4980호 ]"
+                    - text: “입시의 답, 원장 직강으로 증명합니다”디자인과 애니메이션의 조화, 울산 애니마션미술학원
+                    - text: 애니마션미술학원은 디자인, 만화, 애니메이션, 웹툰 등 다양한 분야에서 꿈을 키우는 학생들을 위해 체계적이고 전문적인 교육을 제공합니다. 상상만 하던 세상을 현실로 구현할 수 있는 힘, 애니마션에서 길러드립니다.
+                    - text: "[증명된 합격의 결과]"
+                    - text: "• 주요 대학: 홍익대, 경희대, 청강대등 명문대 합격 노하우 보유"
+                    - text: "• 예고 입시: 애니원고, 울산예고 합격생 다수 배출"
+                    - text: "[애니마션만의 차별화된 교육 시스템]"
+                    - text: 1. 전문 원장 직강 시스템
+                    - text: • 획일적인 수업이 아닌, 학생 개개인의 장점을 살리는 1:1 밀착 지도
+                    - text: • 입시의 변화를 읽는 통찰력으로 합격의 순간까지 끝까지 함께합니다.
+                    - text: 1. 목표별 맞춤형 클래스
+                    - text: "• 대입 입시반: 상황표현 / 칸만화 / 포트폴리오 / 이미지보드"
+                    - text: "• 홍익대 입시 전문: 미술활동보고서 및 서류전형 집중 관리"
+                    - text: "예고 입시반: 애니원고 / 울산예고 실기 전문 지도"
+                    - text: 기초조형 / 게임 일러스트 / 웹툰 / 캐릭터 디자인
+                    - text: "[탄탄한 실기 커리큘럼]기초조형부터 스토리텔링까지, 실기력을 극대화하는 세분화된 수업을 진행합니다."
+                    - text: "• 기초: 기초조형, 인체드로잉"
+                    - text: "• 심화: 연출법, 스토리텔링, 캐릭터 디자인"
+                    - text: "• 실전: 상황표현, 칸만화, 이미지보드, 포트폴리오 제작"
+                    - text: "[수강료 안내]"
+                    - text: (1회3시간/4주기준)
+                    - text: 주1회 120,000 원
+                    - text: 주2회 250,000 원
+                    - text: 주3회 370,000 원
+                    - text: 주4회 500,000 원
+                    - text: 주5회 620,000 원
+                    - text: 주6회 750,000 원
+                    - text: 주7회 870,000 원
+                    - text: "[상담 및 운영 안내]"
+                    - text: "• 문의: 052-700-2379 (상시 상담 가능)"
+                    - text: "• 주소: 울산 북구 신답로 35, 2층 (상안동)"
+                    - text: "• 운영시간: 화~토 오후 2:00 ~ 9:00 (일, 월 휴무)"
+                - link "INSTAGRAM.COM ulsan_animartian Instagram 프로필 방문" [ref=f4e2461] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fulsan_animartian&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2463]:
+                    - generic [ref=f4e2464]:
+                      - button "INSTAGRAM.COM" [ref=f4e2466]:
+                        - generic [ref=f4e2467]: INSTAGRAM.COM
+                      - button "ulsan_animartian" [ref=f4e2469]:
+                        - generic [ref=f4e2470]: ulsan_animartian
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f4e2472]:
+                      - generic [ref=f4e2476]: Instagram 프로필 방문
+          - generic [ref=f4e2478]:
+            - generic [ref=f4e2480]:
+              - generic [ref=f4e2481]:
+                - generic [ref=f4e2488]: 활성
+                - generic [ref=f4e2491]: "라이브러리 ID: 1847226819588937"
+                - generic [ref=f4e2493]: 2026. 7. 15.에 게재 시작함
+                - generic [ref=f4e2495]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2509] [cursor=pointer]:
+                - generic [ref=f4e2512]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2515] [cursor=pointer]:
+              - generic [ref=f4e2519]: 광고 상세 정보 보기
+            - separator [ref=f4e2520]
+            - generic [ref=f4e2525]:
+              - generic [ref=f4e2528]:
+                - img "Kga아트클래스" [ref=f4e2529]
+                - generic [ref=f4e2531]:
+                  - link "Kga아트클래스" [ref=f4e2532] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100063577281445/
+                  - generic [ref=f4e2536]:
+                    - strong [ref=f4e2538]: 광고
+                    - generic:
+                      - strong
+              - 'button "다 그렸는데, 왜 내 원고는 연재작처럼 안보일까요? 완성도를 높이는 건 더 많이 그리는 것이 아닙니다. 강약을 어떻게 줄지, 중요한 장면에서 빛과 분위기를 어떻게 설계할지, 마지막 후보정을 어떻게 넣을지 결정하는 마감 프로세스가 필요합니다. 채화 웹툰 클래스에서는 네이버,카카오 웹툰에서 연재해온 경험으로 전공정 프로세스를 배웁니다. ✓ 컷 연출과 화면 구성 ✓ 채색·명암·빛의 방향 설계 ✓ 질감 표현과 후보정 ✓ 현업 제작 공정 기반 실습 ✓ 개인 작품에 적용하는 1:1 피드백 ✓ 기초부터 입시·취업 포트폴리오까지 단계별 진행 ☎ 상담 문의: 02-2135-5433 🔗 자세한 내용은 [프로필 링크]에서 확인하세요. #웹툰클래스 #웹툰학원 #웹툰포트폴리오 #웹툰입시 #웹툰취업" [ref=f4e2543]':
+                - generic [ref=f4e2546]:
+                  - text: 다 그렸는데, 왜 내 원고는 연재작처럼 안보일까요?
+                  - text: 완성도를 높이는 건 더 많이 그리는 것이 아닙니다.
+                  - text: 강약을 어떻게 줄지,
+                  - text: 중요한 장면에서 빛과 분위기를 어떻게 설계할지,
+                  - text: 마지막 후보정을 어떻게 넣을지 결정하는 마감 프로세스가 필요합니다.
+                  - text: 채화 웹툰 클래스에서는 네이버,카카오 웹툰에서 연재해온 경험으로 전공정 프로세스를 배웁니다.
+                  - text: ✓ 컷 연출과 화면 구성
+                  - text: ✓ 채색·명암·빛의 방향 설계
+                  - text: ✓ 질감 표현과 후보정
+                  - text: ✓ 현업 제작 공정 기반 실습
+                  - text: ✓ 개인 작품에 적용하는 1:1 피드백
+                  - text: ✓ 기초부터 입시·취업 포트폴리오까지 단계별 진행
+                  - text: "☎ 상담 문의: 02-2135-5433"
+                  - text: 🔗 자세한 내용은 [프로필 링크]에서 확인하세요.
+                  - text: "#웹툰클래스 #웹툰학원 #웹툰포트폴리오 #웹툰입시 #웹툰취업"
+              - generic [ref=f4e2549]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e2552]:
+                  - generic [ref=f4e2556]:
+                    - link "KYUNGILART.KR KGA아트클래스 See Details" [ref=f4e2557] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2559]:
+                        - generic [ref=f4e2560]:
+                          - button "KYUNGILART.KR" [ref=f4e2562]:
+                            - generic [ref=f4e2563]: KYUNGILART.KR
+                          - button "KGA아트클래스" [ref=f4e2565]:
+                            - generic [ref=f4e2566]: KGA아트클래스
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "See Details" [ref=f4e2568]:
+                          - generic [ref=f4e2572]: See Details
+                    - button [ref=f4e2575]
+                  - generic [ref=f4e2581]:
+                    - link "KYUNGILART.KR KGA아트클래스 See Details" [ref=f4e2582] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2584]:
+                        - generic [ref=f4e2585]:
+                          - button "KYUNGILART.KR" [ref=f4e2587]:
+                            - generic [ref=f4e2588]: KYUNGILART.KR
+                          - button "KGA아트클래스" [ref=f4e2590]:
+                            - generic [ref=f4e2591]: KGA아트클래스
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "See Details" [ref=f4e2593]:
+                          - generic [ref=f4e2597]: See Details
+                    - button [ref=f4e2600]
+                  - generic [ref=f4e2606]:
+                    - link [ref=f4e2607] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2609]:
+                        - generic [ref=f4e2610]:
+                          - button [ref=f4e2612]:
+                            - generic [ref=f4e2613]: KYUNGILART.KR
+                          - button [ref=f4e2615]:
+                            - generic [ref=f4e2616]: KGA아트클래스
+                        - button [ref=f4e2618]:
+                          - generic [ref=f4e2622]: See Details
+                    - button [ref=f4e2625]
+                  - generic [ref=f4e2631]:
+                    - link [ref=f4e2632] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2634]:
+                        - generic [ref=f4e2635]:
+                          - button [ref=f4e2637]:
+                            - generic [ref=f4e2638]: KYUNGILART.KR
+                          - button [ref=f4e2640]:
+                            - generic [ref=f4e2641]: KGA아트클래스
+                        - button [ref=f4e2643]:
+                          - generic [ref=f4e2647]: See Details
+                    - button [ref=f4e2650]
+                  - generic [ref=f4e2656]:
+                    - link [ref=f4e2657] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2659]:
+                        - generic [ref=f4e2660]:
+                          - button [ref=f4e2662]:
+                            - generic [ref=f4e2663]: KYUNGILART.KR
+                          - button [ref=f4e2665]:
+                            - generic [ref=f4e2666]: KGA아트클래스
+                        - button [ref=f4e2668]:
+                          - generic [ref=f4e2672]: See Details
+                    - button [ref=f4e2675]
+                  - generic [ref=f4e2681]:
+                    - link [ref=f4e2682] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2684]:
+                        - generic [ref=f4e2685]:
+                          - button [ref=f4e2687]:
+                            - generic [ref=f4e2688]: KYUNGILART.KR
+                          - button [ref=f4e2690]:
+                            - generic [ref=f4e2691]: KGA아트클래스
+                        - button [ref=f4e2693]:
+                          - generic [ref=f4e2697]: See Details
+                    - button [ref=f4e2700]
+                  - generic [ref=f4e2706]:
+                    - link [ref=f4e2707] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2709]:
+                        - generic [ref=f4e2710]:
+                          - button [ref=f4e2712]:
+                            - generic [ref=f4e2713]: KYUNGILART.KR
+                          - button [ref=f4e2715]:
+                            - generic [ref=f4e2716]: KGA아트클래스
+                        - button [ref=f4e2718]:
+                          - generic [ref=f4e2722]: See Details
+                    - button [ref=f4e2725]
+                  - generic [ref=f4e2731]:
+                    - link [ref=f4e2732] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2734]:
+                        - generic [ref=f4e2735]:
+                          - button [ref=f4e2737]:
+                            - generic [ref=f4e2738]: KYUNGILART.KR
+                          - button [ref=f4e2740]:
+                            - generic [ref=f4e2741]: KGA아트클래스
+                        - button [ref=f4e2743]:
+                          - generic [ref=f4e2747]: See Details
+                    - button [ref=f4e2750]
+                  - generic [ref=f4e2756]:
+                    - link [ref=f4e2757] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2759]:
+                        - generic [ref=f4e2760]:
+                          - button [ref=f4e2762]:
+                            - generic [ref=f4e2763]: KYUNGILART.KR
+                          - button [ref=f4e2765]:
+                            - generic [ref=f4e2766]: KGA아트클래스
+                        - button [ref=f4e2768]:
+                          - generic [ref=f4e2772]: See Details
+                    - button [ref=f4e2775]
+                  - generic [ref=f4e2781]:
+                    - link [ref=f4e2782] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2784]:
+                        - generic [ref=f4e2785]:
+                          - button [ref=f4e2787]:
+                            - generic [ref=f4e2788]: KYUNGILART.KR
+                          - button [ref=f4e2790]:
+                            - generic [ref=f4e2791]: KGA아트클래스
+                        - button [ref=f4e2793]:
+                          - generic [ref=f4e2797]: See Details
+                    - button [ref=f4e2800]
+                  - generic [ref=f4e2806]:
+                    - link [ref=f4e2807] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2809]:
+                        - generic [ref=f4e2810]:
+                          - button [ref=f4e2812]:
+                            - generic [ref=f4e2813]: KYUNGILART.KR
+                          - button [ref=f4e2815]:
+                            - generic [ref=f4e2816]: KGA아트클래스
+                        - button [ref=f4e2818]:
+                          - generic [ref=f4e2822]: See Details
+                    - button [ref=f4e2825]
+                  - generic [ref=f4e2831]:
+                    - link [ref=f4e2832] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkyungilart.kr%2Fportfolio%2Fteacherdetail%2F25&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e2834]:
+                        - generic [ref=f4e2835]:
+                          - button [ref=f4e2837]:
+                            - generic [ref=f4e2838]: KYUNGILART.KR
+                          - button [ref=f4e2840]:
+                            - generic [ref=f4e2841]: KGA아트클래스
+                        - button [ref=f4e2843]:
+                          - generic [ref=f4e2847]: See Details
+                    - button [ref=f4e2850]
+                - button "다음 항목" [ref=f4e2854] [cursor=pointer]:
+                  - img [ref=f4e2855]
+          - generic [ref=f4e2858]:
+            - generic [ref=f4e2860]:
+              - generic [ref=f4e2861]:
+                - generic [ref=f4e2868]: 활성
+                - generic [ref=f4e2871]: "라이브러리 ID: 4274058439526474"
+                - generic [ref=f4e2873]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f4e2875]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2889] [cursor=pointer]:
+                - generic [ref=f4e2892]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2895] [cursor=pointer]:
+              - generic [ref=f4e2899]: 광고 상세 정보 보기
+            - separator [ref=f4e2900]
+            - generic [ref=f4e2905]:
+              - generic [ref=f4e2907]:
+                - img "Sbs게임아카데미" [ref=f4e2908]
+                - generic [ref=f4e2910]:
+                  - link "Sbs게임아카데미" [ref=f4e2911] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61570813509462/
+                  - generic [ref=f4e2915]:
+                    - strong [ref=f4e2917]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e2918]:
+                - 'button "📢 웹툰·웹소설 작가 진짜 도전해볼 사람? 아이디어는 있는데 어떻게 시작해야 할지 막막했다면 스토리 기획부터 캐릭터 디자인, 웹툰 제작, 웹소설 연재까지 작가 데뷔를 위한 프리미엄 클래스 OPEN 퇴근 후 내 작품 만드는 시간, 지금 시작하세요. 👉 지금 바로 상담 신청하기 #웹툰작가 #웹소설작가 #작가데뷔 #SBS아카데미게임학원 #웹툰학원 #웹소설학원" [ref=f4e2921]':
+                  - generic [ref=f4e2924]:
+                    - text: 📢 웹툰·웹소설 작가
+                    - text: 진짜 도전해볼 사람?
+                    - text: 아이디어는 있는데
+                    - text: 어떻게 시작해야 할지 막막했다면
+                    - text: 스토리 기획부터
+                    - text: 캐릭터 디자인, 웹툰 제작, 웹소설 연재까지
+                    - text: 작가 데뷔를 위한 프리미엄 클래스 OPEN
+                    - text: 퇴근 후
+                    - text: 내 작품 만드는 시간, 지금 시작하세요.
+                    - text: 👉 지금 바로 상담 신청하기
+                    - text: "#웹툰작가 #웹소설작가 #작가데뷔 #SBS아카데미게임학원 #웹툰학원 #웹소설학원"
+                - link "FB.ME 웹툰/웹소설 좋아하는 사람? 👀 지금 신청하기" [ref=f4e2926] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e2928]:
+                    - generic [ref=f4e2929]:
+                      - button "FB.ME" [ref=f4e2931]:
+                        - generic [ref=f4e2932]: FB.ME
+                      - button "웹툰/웹소설 좋아하는 사람? 👀" [ref=f4e2934]:
+                        - generic [ref=f4e2935]: 웹툰/웹소설 좋아하는 사람? 👀
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [disabled] [ref=f4e2937]:
+                      - generic [ref=f4e2941]: 지금 신청하기
+          - generic [ref=f4e2943]:
+            - generic [ref=f4e2945]:
+              - generic [ref=f4e2946]:
+                - generic [ref=f4e2953]: 활성
+                - generic [ref=f4e2956]: "라이브러리 ID: 710445932059745"
+                - generic [ref=f4e2958]: 2026. 3. 6.에 게재 시작함
+                - generic [ref=f4e2960]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e2984] [cursor=pointer]:
+                - generic [ref=f4e2987]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e2990] [cursor=pointer]:
+              - generic [ref=f4e2994]: 광고 상세 정보 보기
+            - separator [ref=f4e2995]
+            - generic [ref=f4e3000]:
+              - generic [ref=f4e3002]:
+                - img "콜로소 - Coloso" [ref=f4e3003]
+                - generic [ref=f4e3005]:
+                  - link "콜로소 - Coloso" [ref=f4e3006] [cursor=pointer]:
+                    - /url: https://www.facebook.com/coloso.official/
+                  - generic [ref=f4e3010]:
+                    - strong [ref=f4e3012]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e3013]:
+                - button "웹툰 작가 데뷔가 막막한 이유 ··· 😵‍💫 결국 ‘완성된 원고’가 없기 때문 아닐까요? 흥행 작가 ‘초캄’의 각색 노하우로 기획안부터 실전 60컷 콘티까지 완성하고 ✏️ 후보정 장인 ‘이끼’의 기술을 더해 압도적 퀄리티의 완결 원고를 만드세요 🎨 하나의 클래스로 웹툰 제작 전 공정을 마스터하고, 메이저 스튜디오 투고까지 한 번에! 👉 지금 바로 [콜로소]에서 확인" [ref=f4e3016]:
+                  - generic [ref=f4e3019]:
+                    - text: 웹툰 작가 데뷔가 막막한 이유 ··· 😵‍💫
+                    - text: 결국 ‘완성된 원고’가 없기 때문 아닐까요?
+                    - text: 흥행 작가 ‘초캄’의 각색 노하우로
+                    - text: 기획안부터 실전 60컷 콘티까지 완성하고 ✏️
+                    - text: 후보정 장인 ‘이끼’의 기술을 더해
+                    - text: 압도적 퀄리티의 완결 원고를 만드세요 🎨
+                    - text: 하나의 클래스로
+                    - text: 웹툰 제작 전 공정을 마스터하고,
+                    - text: 메이저 스튜디오 투고까지 한 번에!
+                    - text: 👉 지금 바로 [콜로소]에서 확인
+                - link "COLOSO.CO.KR 웹툰 ‘완성’을 목표로 설계된 올인원 커리큘럼! ✍️🔥 더 알아보기" [ref=f4e3021] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcoloso.co.kr%2Fproducts%2Fchokamikki-class&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3023]:
+                    - generic [ref=f4e3024]:
+                      - button "COLOSO.CO.KR" [ref=f4e3026]:
+                        - generic [ref=f4e3027]: COLOSO.CO.KR
+                      - button "웹툰 ‘완성’을 목표로 설계된 올인원 커리큘럼! ✍️🔥" [ref=f4e3029]:
+                        - generic [ref=f4e3030]: 웹툰 ‘완성’을 목표로 설계된 올인원 커리큘럼! ✍️🔥
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e3032]:
+                      - generic [ref=f4e3036]: 더 알아보기
+          - generic [ref=f4e3038]:
+            - generic [ref=f4e3040]:
+              - generic [ref=f4e3041]:
+                - generic [ref=f4e3048]: 활성
+                - generic [ref=f4e3051]: "라이브러리 ID: 1552768389574633"
+                - generic [ref=f4e3053]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f4e3055]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3064] [cursor=pointer]:
+                - generic [ref=f4e3067]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3070] [cursor=pointer]:
+              - generic [ref=f4e3074]: 광고 상세 정보 보기
+            - separator [ref=f4e3075]
+            - generic [ref=f4e3080]:
+              - generic [ref=f4e3082]:
+                - img "Gnftoyz" [ref=f4e3083]
+                - generic [ref=f4e3085]:
+                  - link "Gnftoyz" [ref=f4e3086] [cursor=pointer]:
+                    - /url: https://www.facebook.com/GNFToyz/
+                  - generic [ref=f4e3090]:
+                    - strong [ref=f4e3092]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e3093]:
+                - 'button "도로와 춘식이를 만나보세요! 랜덤 키캡 6종: 귀여움과 즐거움이 가득한 실제 호환 가능한 키보드에 사용 가능! >ᄆ<♡ 구매하기: https://smartstore.naver.com/gnftoyz/products/13447270742 #도로춘식 #콜라보굿즈 #키캡" [ref=f4e3096]':
+                  - generic [ref=f4e3099]:
+                    - text: 도로와 춘식이를 만나보세요!
+                    - text: "랜덤 키캡 6종: 귀여움과 즐거움이 가득한"
+                    - text: 실제 호환 가능한 키보드에 사용 가능! >ᄆ<♡
+                    - text: "구매하기:"
+                    - link "https://smartstore.naver.com/gnftoyz/products/13447270742" [ref=f4e3100] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsmartstore.naver.com%2Fgnftoyz%2Fproducts%2F13447270742&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                    - text: "#도로춘식 #콜라보굿즈 #키캡"
+                - link "SMARTSTORE.NAVER.COM Gnftoyz 더 알아보기" [ref=f4e3101] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsmartstore.naver.com%2Fgnftoyz&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3103]:
+                    - generic [ref=f4e3104]:
+                      - button "SMARTSTORE.NAVER.COM" [ref=f4e3106]:
+                        - generic [ref=f4e3107]: SMARTSTORE.NAVER.COM
+                      - button "Gnftoyz" [ref=f4e3109]:
+                        - generic [ref=f4e3110]: Gnftoyz
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e3112]:
+                      - generic [ref=f4e3116]: 더 알아보기
+          - generic [ref=f4e3118]:
+            - generic [ref=f4e3120]:
+              - generic [ref=f4e3121]:
+                - generic [ref=f4e3128]: 활성
+                - generic [ref=f4e3131]: "라이브러리 ID: 883210981047701"
+                - generic [ref=f4e3133]: 2026. 7. 15.에 게재 시작함
+                - generic [ref=f4e3135]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3149] [cursor=pointer]:
+                - generic [ref=f4e3152]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3155] [cursor=pointer]:
+              - generic [ref=f4e3159]: 광고 상세 정보 보기
+            - separator [ref=f4e3160]
+            - generic [ref=f4e3165]:
+              - generic [ref=f4e3167]:
+                - img "Gnftoyz" [ref=f4e3168]
+                - generic [ref=f4e3170]:
+                  - link "Gnftoyz" [ref=f4e3171] [cursor=pointer]:
+                    - /url: https://www.facebook.com/GNFToyz/
+                  - generic [ref=f4e3175]:
+                    - strong [ref=f4e3177]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e3178]:
+                - 'button "니케, 승리의 여신! 기간틱 모더니아 피규어 예약 판매 오픈! 2026.07.16 00:00부터 시작 네이버 스마트 스토어에서 만나보세요! #NIKKE #니케 #기간틱모더니아" [ref=f4e3181]':
+                  - generic [ref=f4e3184]:
+                    - text: 니케, 승리의 여신!
+                    - text: 기간틱 모더니아 피규어 예약 판매 오픈!
+                    - text: 2026.07.16 00:00부터 시작
+                    - text: 네이버 스마트 스토어에서 만나보세요!
+                    - text: "#NIKKE #니케 #기간틱모더니아"
+                - 'link "SMARTSTORE.NAVER.COM GNFTOYZ 온라인샵 : 네이버 스마트스토어 영화, 게임, 만화, 웹툰 캐릭터 상품을 제작 및 판매하는 GNFTOYZ의 온라인샵입니다. 더 알아보기" [ref=f4e3185] [cursor=pointer]':
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsmartstore.naver.com%2Fgnftoyz&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3187]:
+                    - generic [ref=f4e3188]:
+                      - button "SMARTSTORE.NAVER.COM" [ref=f4e3190]:
+                        - generic [ref=f4e3191]: SMARTSTORE.NAVER.COM
+                      - 'button "GNFTOYZ 온라인샵 : 네이버 스마트스토어" [ref=f4e3193]':
+                        - generic [ref=f4e3194]: "GNFTOYZ 온라인샵 : 네이버 스마트스토어"
+                      - button "영화, 게임, 만화, 웹툰 캐릭터 상품을 제작 및 판매하는 GNFTOYZ의 온라인샵입니다." [ref=f4e3196]:
+                        - generic [ref=f4e3197]: 영화, 게임, 만화, 웹툰 캐릭터 상품을 제작 및 판매하는 GNFTOYZ의 온라인샵입니다.
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e3199]:
+                      - generic [ref=f4e3203]: 더 알아보기
+          - generic [ref=f4e3205]:
+            - generic [ref=f4e3207]:
+              - generic [ref=f4e3208]:
+                - generic [ref=f4e3215]: 활성
+                - generic [ref=f4e3218]: "라이브러리 ID: 1200795106454314"
+                - generic [ref=f4e3220]: 2026. 7. 12.에 게재 시작함
+                - generic [ref=f4e3222]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3231] [cursor=pointer]:
+                - generic [ref=f4e3234]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3237] [cursor=pointer]:
+              - generic [ref=f4e3241]: 광고 상세 정보 보기
+            - separator [ref=f4e3242]
+            - generic [ref=f4e3247]:
+              - generic [ref=f4e3250]:
+                - img "Miceplans" [ref=f4e3251]
+                - generic [ref=f4e3253]:
+                  - link "Miceplans" [ref=f4e3254] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100075838015446/
+                  - generic [ref=f4e3258]:
+                    - strong [ref=f4e3260]: 광고
+                    - generic:
+                      - strong
+              - 'button "✨ 상상을 작품으로 만드는 AI 창작대회! 전 국민 누구나 참여 가능한 창작형 AI 대회, 「AI 창작대회」 참가자를 모집합니다 🎨🎵📚 AI를 활용해 나만의 작품을 만들어보세요! 1️⃣ 스토리 with AI AI 창작동화 만들기 📖 2️⃣ 사운드 with AI AI 동요 만들기 🎶 3️⃣ 아트 with AI AI 웹툰 · AI 포스터 제작 🎨 🎁 참가자 대상 국산 AI 도구 제공! 솔라(Solar) 미리캔버스 매쓰AI 위툰 👧 유아 · 초등학생부터 일반 국민까지 누구나 쉽고 재미있게 참여 가능! 🏆 총 시상규모 3,600만원 📍 전국 주요 도시 오프라인 예선 진행 📅 참가 모집 : 5월 18일부터 ※ 지역별 접수 마감일 상이 / 홈페이지 참고 AI와 함께 만드는 특별한 창작 경험, 지금 바로 도전해보세요 🚀 🔗 참가 신청 https://aichallenge4all.or.kr/competitions/ai-creative #전국민AI경진대회 #AI창작대회 #AI #생성형AI #AI그림 #AI동화 #AI동요 #AI웹툰 #AI포스터 #국산AI #솔라 #미리캔버스 #매쓰AI #위툰" [ref=f4e3265]':
+                - generic [ref=f4e3268]:
+                  - text: ✨ 상상을 작품으로 만드는 AI 창작대회!
+                  - text: 전 국민 누구나 참여 가능한 창작형 AI 대회,
+                  - text: 「AI 창작대회」 참가자를 모집합니다 🎨🎵📚
+                  - text: AI를 활용해 나만의 작품을 만들어보세요!
+                  - text: 1️⃣ 스토리 with AI
+                  - text: AI 창작동화 만들기 📖
+                  - text: 2️⃣ 사운드 with AI
+                  - text: AI 동요 만들기 🎶
+                  - text: 3️⃣ 아트 with AI
+                  - text: AI 웹툰 · AI 포스터 제작 🎨
+                  - text: 🎁 참가자 대상 국산 AI 도구 제공!
+                  - text: 솔라(Solar)
+                  - text: 미리캔버스
+                  - text: 매쓰AI
+                  - text: 위툰
+                  - text: 👧 유아 · 초등학생부터 일반 국민까지
+                  - text: 누구나 쉽고 재미있게 참여 가능!
+                  - text: 🏆 총 시상규모 3,600만원
+                  - text: 📍 전국 주요 도시 오프라인 예선 진행
+                  - text: "📅 참가 모집 : 5월 18일부터"
+                  - text: ※ 지역별 접수 마감일 상이 / 홈페이지 참고
+                  - text: AI와 함께 만드는 특별한 창작 경험,
+                  - text: 지금 바로 도전해보세요 🚀
+                  - text: 🔗 참가 신청
+                  - link "https://aichallenge4all.or.kr/competitions/ai-creative" [ref=f4e3270] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Faichallenge4all.or.kr%2Fcompetitions%2Fai-creative&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - text: "#전국민AI경진대회 #AI창작대회 #AI #생성형AI #AI그림 #AI동화 #AI동요 #AI웹툰 #AI포스터 #국산AI #솔라 #미리캔버스 #매쓰AI #위툰"
+              - generic [ref=f4e3272]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e3275]:
+                  - generic [ref=f4e3279]:
+                    - link "AICHALLENGE4ALL.OR.KR 모두의 AI를 위한 전국민 AI 경진대회 Learn More" [ref=f4e3280] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Faichallenge4all.or.kr%2Fcompetitions%2Fai-creative&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3282]:
+                        - generic [ref=f4e3283]:
+                          - button "AICHALLENGE4ALL.OR.KR" [ref=f4e3285]:
+                            - generic [ref=f4e3286]: AICHALLENGE4ALL.OR.KR
+                          - button "모두의 AI를 위한 전국민 AI 경진대회" [ref=f4e3288]:
+                            - generic [ref=f4e3289]: 모두의 AI를 위한 전국민 AI 경진대회
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e3291]:
+                          - generic [ref=f4e3295]: Learn More
+                    - button [ref=f4e3298]
+                  - generic [ref=f4e3304]:
+                    - link "AICHALLENGE4ALL.OR.KR 모두의 AI를 위한 전국민 AI 경진대회 Learn More" [ref=f4e3305] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Faichallenge4all.or.kr%2Fcompetitions%2Fai-creative&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3307]:
+                        - generic [ref=f4e3308]:
+                          - button "AICHALLENGE4ALL.OR.KR" [ref=f4e3310]:
+                            - generic [ref=f4e3311]: AICHALLENGE4ALL.OR.KR
+                          - button "모두의 AI를 위한 전국민 AI 경진대회" [ref=f4e3313]:
+                            - generic [ref=f4e3314]: 모두의 AI를 위한 전국민 AI 경진대회
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e3316]:
+                          - generic [ref=f4e3320]: Learn More
+                    - button [ref=f4e3323]
+                  - generic [ref=f4e3329]:
+                    - link [ref=f4e3330] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Faichallenge4all.or.kr%2Fcompetitions%2Fai-creative&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3332]:
+                        - generic [ref=f4e3333]:
+                          - button [ref=f4e3335]:
+                            - generic [ref=f4e3336]: AICHALLENGE4ALL.OR.KR
+                          - button [ref=f4e3338]:
+                            - generic [ref=f4e3339]: 모두의 AI를 위한 전국민 AI 경진대회
+                        - button [ref=f4e3341]:
+                          - generic [ref=f4e3345]: Learn More
+                    - button [ref=f4e3348]
+                - button "다음 항목" [ref=f4e3352] [cursor=pointer]:
+                  - img [ref=f4e3353]
+          - generic [ref=f4e3356]:
+            - generic [ref=f4e3358]:
+              - generic [ref=f4e3359]:
+                - generic [ref=f4e3366]: 활성
+                - generic [ref=f4e3369]: "라이브러리 ID: 3548667041965867"
+                - generic [ref=f4e3371]: 2026. 7. 3.에 게재 시작함
+                - generic [ref=f4e3373]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3382] [cursor=pointer]:
+                - generic [ref=f4e3385]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3388] [cursor=pointer]:
+              - generic [ref=f4e3392]: 광고 상세 정보 보기
+            - separator [ref=f4e3393]
+            - generic [ref=f4e3398]:
+              - generic [ref=f4e3401]:
+                - img "디지드로우 코리아" [ref=f4e3402]
+                - generic [ref=f4e3404]:
+                  - link "디지드로우 코리아" [ref=f4e3405] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61586916884856/
+                  - generic [ref=f4e3409]:
+                    - strong [ref=f4e3411]: 광고
+                    - generic:
+                      - strong
+              - 'button "✨ #digidraw 4기 크리에이터 모집 OPEN! ✨ DIGIDRAW의 플래그십 액정타블렛 Turing 19 Pro Touch를 직접 체험하고 리뷰할 크리에이터를 모집합니다! 🎨 드로잉, 일러스트, 웹툰, 디자인에 관심 있다면 지금 도전해보세요. 📌 모집 기간 2026.07.01 ~ 2026.07.31 📌 활동 내용 ✔️ 2026년 8월 (제품 수령 후 2주) ✔️ Turing 19 Pro Touch 체험 후 콘텐츠 제작 ✔️ 최대 10명 선정 📱 참여 방법 (택 1) • 인스타그램 릴스 (30초~1분) • 인스타그램 웹툰형 리뷰 (4컷 이상) • 유튜브 쇼츠 또는 영상 • 네이버 블로그 리뷰 💡 콘텐츠에는 아래 내용 중 3가지 이상을 포함해주세요! 언박싱 & 첫인상 설치 과정 드로잉 테스트 터치 기능 소개 완성작 공개 제품 장점 소개 🎁 활동 혜택 ✨ 원고료 15만원 🏆 베스트 크리에이터 추가 10만원 ⚠️ 안내사항 본 체험단은 회수형 체험단입니다. 활동 종료 후 제품을 반납해야 합니다. 제품 반납 확인 후 원고료가 지급됩니다. 👉 지원 방법 1️⃣ 프로필 링크 내 지원서 작성 2️⃣ @digidrawkr 팔로우 3️⃣ 댓글에 \"신청완료\" 남기기" [ref=f4e3416]':
+                - generic [ref=f4e3419]:
+                  - text: "✨ #digidraw 4기 크리에이터 모집 OPEN! ✨"
+                  - text: DIGIDRAW의 플래그십 액정타블렛 Turing 19 Pro Touch를 직접 체험하고 리뷰할 크리에이터를 모집합니다!
+                  - text: 🎨 드로잉, 일러스트, 웹툰, 디자인에 관심 있다면 지금 도전해보세요.
+                  - text: 📌 모집 기간
+                  - text: 2026.07.01 ~ 2026.07.31
+                  - text: 📌 활동 내용
+                  - text: ✔️ 2026년 8월 (제품 수령 후 2주)
+                  - text: ✔️ Turing 19 Pro Touch 체험 후 콘텐츠 제작
+                  - text: ✔️ 최대 10명 선정
+                  - text: 📱 참여 방법 (택 1)
+                  - text: • 인스타그램 릴스 (30초~1분)
+                  - text: • 인스타그램 웹툰형 리뷰 (4컷 이상)
+                  - text: • 유튜브 쇼츠 또는 영상
+                  - text: • 네이버 블로그 리뷰
+                  - text: 💡 콘텐츠에는 아래 내용 중 3가지 이상을 포함해주세요!
+                  - text: 언박싱 & 첫인상
+                  - text: 설치 과정
+                  - text: 드로잉 테스트
+                  - text: 터치 기능 소개
+                  - text: 완성작 공개
+                  - text: 제품 장점 소개
+                  - text: 🎁 활동 혜택
+                  - text: ✨ 원고료 15만원
+                  - text: 🏆 베스트 크리에이터 추가 10만원
+                  - text: ⚠️ 안내사항
+                  - text: 본 체험단은 회수형 체험단입니다.
+                  - text: 활동 종료 후 제품을 반납해야 합니다.
+                  - text: 제품 반납 확인 후 원고료가 지급됩니다.
+                  - text: 👉 지원 방법
+                  - text: 1️⃣ 프로필 링크 내 지원서 작성
+                  - text: 2️⃣ @digidrawkr 팔로우
+                  - text: 3️⃣ 댓글에 "신청완료" 남기기
+              - generic [ref=f4e3422]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e3425]:
+                  - generic [ref=f4e3429]:
+                    - link "INSTAGRAM.COM 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos Visit Instagram Profile" [ref=f4e3430] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdigidrawkr&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3432]:
+                        - generic [ref=f4e3433]:
+                          - button "INSTAGRAM.COM" [ref=f4e3435]:
+                            - generic [ref=f4e3436]: INSTAGRAM.COM
+                          - button "디지드로우 코리아 (@digidrawkr) • Instagram photos and videos" [ref=f4e3438]:
+                            - generic [ref=f4e3439]: 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e3441]:
+                          - generic [ref=f4e3445]: Visit Instagram Profile
+                    - button [ref=f4e3448]
+                  - generic [ref=f4e3454]:
+                    - link "INSTAGRAM.COM 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos Visit Instagram Profile" [ref=f4e3455] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdigidrawkr&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3457]:
+                        - generic [ref=f4e3458]:
+                          - button "INSTAGRAM.COM" [ref=f4e3460]:
+                            - generic [ref=f4e3461]: INSTAGRAM.COM
+                          - button "디지드로우 코리아 (@digidrawkr) • Instagram photos and videos" [ref=f4e3463]:
+                            - generic [ref=f4e3464]: 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Visit Instagram Profile" [ref=f4e3466]:
+                          - generic [ref=f4e3470]: Visit Instagram Profile
+                    - button [ref=f4e3473]
+                  - generic [ref=f4e3479]:
+                    - link [ref=f4e3480] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdigidrawkr&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3482]:
+                        - generic [ref=f4e3483]:
+                          - button [ref=f4e3485]:
+                            - generic [ref=f4e3486]: INSTAGRAM.COM
+                          - button [ref=f4e3488]:
+                            - generic [ref=f4e3489]: 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos
+                        - button [ref=f4e3491]:
+                          - generic [ref=f4e3495]: Visit Instagram Profile
+                    - button [ref=f4e3498]
+                  - generic [ref=f4e3504]:
+                    - link [ref=f4e3505] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdigidrawkr&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3507]:
+                        - generic [ref=f4e3508]:
+                          - button [ref=f4e3510]:
+                            - generic [ref=f4e3511]: INSTAGRAM.COM
+                          - button [ref=f4e3513]:
+                            - generic [ref=f4e3514]: 디지드로우 코리아 (@digidrawkr) • Instagram photos and videos
+                        - button [ref=f4e3516]:
+                          - generic [ref=f4e3520]: Visit Instagram Profile
+                    - button [ref=f4e3523]
+                - button "다음 항목" [ref=f4e3527] [cursor=pointer]:
+                  - img [ref=f4e3528]
+          - generic [ref=f4e3531]:
+            - generic [ref=f4e3533]:
+              - generic [ref=f4e3534]:
+                - generic [ref=f4e3541]: 활성
+                - generic [ref=f4e3544]: "라이브러리 ID: 998132673055507"
+                - generic [ref=f4e3546]: 2026. 7. 15.에 게재 시작함
+                - generic [ref=f4e3548]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3557] [cursor=pointer]:
+                - generic [ref=f4e3560]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3563] [cursor=pointer]:
+              - generic [ref=f4e3567]: 광고 상세 정보 보기
+            - separator [ref=f4e3568]
+            - generic [ref=f4e3573]:
+              - generic [ref=f4e3576]:
+                - img "7am_official_sc" [ref=f4e3577]
+                - generic [ref=f4e3579]:
+                  - link "7am_official_sc" [ref=f4e3580] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2F7am_official_sc&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3584]:
+                    - strong [ref=f4e3586]: 광고
+                    - generic:
+                      - strong
+              - 'button "[2026 순천 청년 작가 네트워킹 파티 in JUL 참여 모집] 일정 : 2026.08.01 토요일, 오후 2시 ~ 6시 장소 : 중앙로 47 풍선껌 1층 모집기간 : 2026.07.14 ~ 07.27 까지 참여 링크 : https://forms.gle/axFVU9P8bh6xqDCdA 안녕하세요! 순천 청년 예술 단체 7AM 대표 이용권입니다! 2026년 순천 청년 작가 네트워킹 파티의 3번째 파티가 시작됩니다! 참여자분들의 적극적인 지지 덕분에 성공적으로 총 5회를 맞이한 해당 행사는 삼성생명, 삼성물산, 사회연대은행의 후원을 받는 BY LOCAL 지원사업을 통해 진행되는 행사입니다. 실제 지역에서 고군분투하는 지역 청년 작가들의 이야기와 관련 지자체의 미니 지원 사업 설명회, 청년 작가들끼리 이야기하는 미니포럼 그리고 친해지는 자유네트워킹 파티가 기획되어 있어 즐겁고 유익한 시간이 되실겁니다! 그리고 사후 설문조사를 통해 순천 청년 ''작가 지원 현황 및 향후 정책 제언 보고서''를 제작, 지자체에 전달하여 향후 순천 청년 작가들의 작업 환경과 생태계를 개선하고자 합니다! 선착순 20명! 많은 관심 바랍니다!" [ref=f4e3591]':
+                - generic [ref=f4e3594]:
+                  - text: "[2026 순천 청년 작가 네트워킹 파티 in JUL 참여 모집]"
+                  - text: "일정 : 2026.08.01 토요일, 오후 2시 ~ 6시"
+                  - text: "장소 : 중앙로 47 풍선껌 1층"
+                  - text: "모집기간 : 2026.07.14 ~ 07.27 까지"
+                  - text: "참여 링크 :"
+                  - link "https://forms.gle/axFVU9P8bh6xqDCdA" [ref=f4e3595] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - text: 안녕하세요! 순천 청년 예술 단체 7AM 대표 이용권입니다!
+                  - text: 2026년 순천 청년 작가 네트워킹 파티의 3번째 파티가 시작됩니다!
+                  - text: 참여자분들의 적극적인 지지 덕분에 성공적으로 총 5회를 맞이한 해당 행사는 삼성생명, 삼성물산, 사회연대은행의 후원을 받는 BY LOCAL 지원사업을 통해 진행되는 행사입니다.
+                  - text: 실제 지역에서 고군분투하는 지역 청년 작가들의 이야기와 관련 지자체의 미니 지원 사업 설명회, 청년 작가들끼리 이야기하는 미니포럼 그리고 친해지는 자유네트워킹 파티가 기획되어 있어 즐겁고 유익한 시간이 되실겁니다!
+                  - text: 그리고 사후 설문조사를 통해 순천 청년 '작가 지원 현황 및 향후 정책 제언 보고서'를 제작, 지자체에 전달하여 향후 순천 청년 작가들의 작업 환경과 생태계를 개선하고자 합니다!
+                  - text: 선착순 20명! 많은 관심 바랍니다!
+              - generic [ref=f4e3598]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f4e3601]:
+                  - generic [ref=f4e3605]:
+                    - link "FORMS.GLE 순천 청년 작가 네트워킹 파티 참가 신청서 Learn More" [ref=f4e3606] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3608]:
+                        - generic [ref=f4e3609]:
+                          - button "FORMS.GLE" [ref=f4e3611]:
+                            - generic [ref=f4e3612]: FORMS.GLE
+                          - button "순천 청년 작가 네트워킹 파티 참가 신청서" [ref=f4e3614]:
+                            - generic [ref=f4e3615]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e3617]:
+                          - generic [ref=f4e3621]: Learn More
+                    - button [ref=f4e3624]
+                  - generic [ref=f4e3630]:
+                    - link "FORMS.GLE 순천 청년 작가 네트워킹 파티 참가 신청서 Learn More" [ref=f4e3631] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3633]:
+                        - generic [ref=f4e3634]:
+                          - button "FORMS.GLE" [ref=f4e3636]:
+                            - generic [ref=f4e3637]: FORMS.GLE
+                          - button "순천 청년 작가 네트워킹 파티 참가 신청서" [ref=f4e3639]:
+                            - generic [ref=f4e3640]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f4e3642]:
+                          - generic [ref=f4e3646]: Learn More
+                    - button [ref=f4e3649]
+                  - generic [ref=f4e3655]:
+                    - link [ref=f4e3656] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3658]:
+                        - generic [ref=f4e3659]:
+                          - button [ref=f4e3661]:
+                            - generic [ref=f4e3662]: FORMS.GLE
+                          - button [ref=f4e3664]:
+                            - generic [ref=f4e3665]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                        - button [ref=f4e3667]:
+                          - generic [ref=f4e3671]: Learn More
+                    - button [ref=f4e3674]
+                  - generic [ref=f4e3680]:
+                    - link [ref=f4e3681] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3683]:
+                        - generic [ref=f4e3684]:
+                          - button [ref=f4e3686]:
+                            - generic [ref=f4e3687]: FORMS.GLE
+                          - button [ref=f4e3689]:
+                            - generic [ref=f4e3690]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                        - button [ref=f4e3692]:
+                          - generic [ref=f4e3696]: Learn More
+                    - button [ref=f4e3699]
+                  - generic [ref=f4e3705]:
+                    - link [ref=f4e3706] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3708]:
+                        - generic [ref=f4e3709]:
+                          - button [ref=f4e3711]:
+                            - generic [ref=f4e3712]: FORMS.GLE
+                          - button [ref=f4e3714]:
+                            - generic [ref=f4e3715]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                        - button [ref=f4e3717]:
+                          - generic [ref=f4e3721]: Learn More
+                    - button [ref=f4e3724]
+                  - generic [ref=f4e3730]:
+                    - link [ref=f4e3731] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3733]:
+                        - generic [ref=f4e3734]:
+                          - button [ref=f4e3736]:
+                            - generic [ref=f4e3737]: FORMS.GLE
+                          - button [ref=f4e3739]:
+                            - generic [ref=f4e3740]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                        - button [ref=f4e3742]:
+                          - generic [ref=f4e3746]: Learn More
+                    - button [ref=f4e3749]
+                  - generic [ref=f4e3755]:
+                    - link [ref=f4e3756] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FaxFVU9P8bh6xqDCdA&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                      - generic [ref=f4e3758]:
+                        - generic [ref=f4e3759]:
+                          - button [ref=f4e3761]:
+                            - generic [ref=f4e3762]: FORMS.GLE
+                          - button [ref=f4e3764]:
+                            - generic [ref=f4e3765]: 순천 청년 작가 네트워킹 파티 참가 신청서
+                        - button [ref=f4e3767]:
+                          - generic [ref=f4e3771]: Learn More
+                    - button [ref=f4e3774]
+                - button "다음 항목" [ref=f4e3778] [cursor=pointer]:
+                  - img [ref=f4e3779]
+          - generic [ref=f4e3782]:
+            - generic [ref=f4e3784]:
+              - generic [ref=f4e3785]:
+                - generic [ref=f4e3792]: 활성
+                - generic [ref=f4e3795]: "라이브러리 ID: 2904926079843255"
+                - generic [ref=f4e3797]: 2026. 7. 7.에 게재 시작함
+                - generic [ref=f4e3799]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3813] [cursor=pointer]:
+                - generic [ref=f4e3816]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3819] [cursor=pointer]:
+              - generic [ref=f4e3823]: 광고 상세 정보 보기
+            - separator [ref=f4e3824]
+            - generic [ref=f4e3829]:
+              - generic [ref=f4e3831]:
+                - img "poly.jeju" [ref=f4e3832]
+                - generic [ref=f4e3834]:
+                  - link "poly.jeju" [ref=f4e3835] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fpoly.jeju&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3839]:
+                    - strong [ref=f4e3841]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e3842]:
+                - 'button "[2027학년도 한국폴리텍대학 제주캠퍼스 AI콘텐츠과 신입생 모집 안내] \"AI로 만들고 콘텐츠로 취업하다!\" 🚀 미래 콘텐츠 산업의 주인공을 찾습니다! 한국폴리텍대학 제주캠퍼스 AI콘텐츠과에서 2027학년도 수시 1차 신입생을 모집합니다. ✅ 모집 학과 - AI콘텐츠과 (2년제 학위과정) 🗓️ 수시 1차 접수 일정 - 기간: 2026. 9. 7.(월) ~ 2026. 10. 1.(목) 🌟 이런 학생들에게 추천합니다! - 디자인, 영상, 웹툰 제작에 관심 있는 학생 - AI를 활용한 새로운 콘텐츠 제작을 배우고 싶은 학생 - 앱·웹 기반 UI/UX 기획을 함께 익히고 싶은 학생 - 취업 중심의 실무형 대학 교육을 원하는 학생 📍 문의 및 안내 - 전화: 064-754-7100 - 자세한 내용은 대학 홈페이지를 참고해 주세요! #한국폴리텍대학 #제주캠퍼스 #AI콘텐츠과 #신입생모집 #수시1차 #대학입시 #27학번 #AI콘텐츠 #디자인 #영상편집 #웹툰 #UIUX #취업성공 #제주도대학 #폴리텍대학 ※ 본 게시물은 AI를 통해 생성되었습니다." [ref=f4e3845]':
+                  - generic [ref=f4e3848]:
+                    - text: "[2027학년도 한국폴리텍대학 제주캠퍼스 AI콘텐츠과 신입생 모집 안내]"
+                    - text: "\"AI로 만들고 콘텐츠로 취업하다!\" 🚀"
+                    - text: 미래 콘텐츠 산업의 주인공을 찾습니다! 한국폴리텍대학 제주캠퍼스 AI콘텐츠과에서 2027학년도 수시 1차 신입생을 모집합니다.
+                    - text: ✅ 모집 학과
+                    - text: "- AI콘텐츠과 (2년제 학위과정)"
+                    - text: 🗓️ 수시 1차 접수 일정
+                    - text: "- 기간: 2026. 9. 7.(월) ~ 2026. 10. 1.(목)"
+                    - text: 🌟 이런 학생들에게 추천합니다!
+                    - text: "- 디자인, 영상, 웹툰 제작에 관심 있는 학생"
+                    - text: "- AI를 활용한 새로운 콘텐츠 제작을 배우고 싶은 학생"
+                    - text: "- 앱·웹 기반 UI/UX 기획을 함께 익히고 싶은 학생"
+                    - text: "- 취업 중심의 실무형 대학 교육을 원하는 학생"
+                    - text: 📍 문의 및 안내
+                    - text: "- 전화: 064-754-7100"
+                    - text: "- 자세한 내용은 대학 홈페이지를 참고해 주세요!"
+                    - text: "#한국폴리텍대학 #제주캠퍼스 #AI콘텐츠과 #신입생모집 #수시1차 #대학입시 #27학번 #AI콘텐츠 #디자인 #영상편집 #웹툰 #UIUX #취업성공 #제주도대학 #폴리텍대학"
+                    - text: ※ 본 게시물은 AI를 통해 생성되었습니다.
+                - link "INSTAGRAM.COM instagram.com Instagram 프로필 방문" [ref=f4e3850] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fpoly.jeju&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3852]:
+                    - generic [ref=f4e3853]:
+                      - button "INSTAGRAM.COM" [ref=f4e3855]:
+                        - generic [ref=f4e3856]: INSTAGRAM.COM
+                      - button "instagram.com" [ref=f4e3858]:
+                        - generic [ref=f4e3859]: instagram.com
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f4e3861]:
+                      - generic [ref=f4e3865]: Instagram 프로필 방문
+          - generic [ref=f4e3867]:
+            - generic [ref=f4e3869]:
+              - generic [ref=f4e3870]:
+                - generic [ref=f4e3877]: 활성
+                - generic [ref=f4e3880]: "라이브러리 ID: 1015357474433065"
+                - generic [ref=f4e3882]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f4e3884]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e3918] [cursor=pointer]:
+                - generic [ref=f4e3921]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e3924] [cursor=pointer]:
+              - generic [ref=f4e3928]: 광고 상세 정보 보기
+            - separator [ref=f4e3929]
+            - generic [ref=f4e3934]:
+              - generic [ref=f4e3938]:
+                - link "내신 연구소" [ref=f4e3939] [cursor=pointer]:
+                  - /url: https://www.facebook.com/61588952700355/
+                - generic [ref=f4e3943]:
+                  - strong [ref=f4e3945]: 광고
+                  - generic:
+                    - strong
+              - generic [ref=f4e3946]:
+                - 'button "시험기간이 10배 편해지는�내신 영어 AI 활용 세미나 📝 필기 기반 지문 분석 🎯 유형 및 난이도별 변형 문제 제작 🛠️ 자체 시험지 편집 🎨 지문 기반 웹툰 생성 이 모든 기능들을 바로 현장에서 사용하실 수 있도록 올인원 AI 활용 가이드를 이번 세미나 단독으로 알려드립니다! � ■ 모집 인원 · 양일 각 20명 ⏳ 일별 20명 한정으로만 진행되며 마감 시 추가 모집은 진행하지 않습니다. ■ 진행 일정 · 7/26(일) 22:00 ~ 24:00 · 7/27(월) 22:00 ~ 24:00 위 날짜 중 편하신 일정을 선택해주세요. 모두 동일한 내용으로 진행되니 하루만 참석하셔도 됩니다. ■ 진행 장소 · 워크토크 선릉점 (강남구 테헤란로 406 샹제리제센터 A동) #세미나 #영어 #영어학원 #영어강사 #영어선생님 #AI세미나" [ref=f4e3949]':
+                  - generic [ref=f4e3952]:
+                    - text: 시험기간이 10배 편해지는�내신 영어 AI 활용 세미나
+                    - text: 📝 필기 기반 지문 분석
+                    - text: 🎯 유형 및 난이도별 변형 문제 제작
+                    - text: 🛠️ 자체 시험지 편집
+                    - text: 🎨 지문 기반 웹툰 생성
+                    - text: 이 모든 기능들을
+                    - text: 바로 현장에서 사용하실 수 있도록
+                    - text: 올인원 AI 활용 가이드를
+                    - text: 이번 세미나 단독으로 알려드립니다! �
+                    - text: ■ 모집 인원
+                    - text: · 양일 각 20명
+                    - text: ⏳ 일별 20명 한정으로만 진행되며
+                    - text: 마감 시 추가 모집은 진행하지 않습니다.
+                    - text: ■ 진행 일정
+                    - text: · 7/26(일) 22:00 ~ 24:00
+                    - text: · 7/27(월) 22:00 ~ 24:00
+                    - text: 위 날짜 중 편하신 일정을 선택해주세요.
+                    - text: 모두 동일한 내용으로 진행되니
+                    - text: 하루만 참석하셔도 됩니다.
+                    - text: ■ 진행 장소
+                    - text: · 워크토크 선릉점
+                    - text: (강남구 테헤란로 406 샹제리제센터 A동)
+                    - text: "#세미나 #영어 #영어학원 #영어강사 #영어선생님 #AI세미나"
+                - group "Video player" [ref=f4e3963]:
+                  - button "동영상 재생" [ref=f4e3965] [cursor=pointer]
+                  - generic [ref=f4e3967]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:42
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - 'link "WWW.SMOAT.CO.KR 시험기간이 10배 편해지는�내신 영어 AI 활용 세미나 📝 필기 기반 지문 분석 🎯 유형 및 난이도별 변형 문제 제작 🛠️ 자체 시험지 편집 🎨 지문 기반 웹툰 생성 이 모든 기능들을 바로 현장에서 사용하실 수 있도록 올인원 AI 활용 가이드를 이번 세미나 단독으로 알려드립니다! � ■ 모집 인원 · 양일 각 20명 ⏳ 일별 20명 한정으로만 진행되며 마감 시 추가 모집은 진행하지 않습니다. ■ 진행 일정 · 7/26(일) 22:00 ~ 24:00 · 7/27(월) 22:00 ~ 24:00 위 날짜 중 편하신 일정을 선택해주세요. 모두 동일한 내용으로 진행되니 하루만 참석하셔도 됩니다. ■ 진행 장소 · 워크토크 선릉점 (강남구 테헤란로 406 샹제리제센터 A동) #세미나 #영어 #영어학원 #영어강사 #영어선생님 #AI세미나 자세히 보기" [ref=f4e3969] [cursor=pointer]':
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.smoat.co.kr%2Fseminar&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e3970]:
+                    - generic [ref=f4e3971]:
+                      - button "WWW.SMOAT.CO.KR" [ref=f4e3973]:
+                        - generic [ref=f4e3974]: WWW.SMOAT.CO.KR
+                      - button "시험기간이 10배 편해지는�내신 영어 AI 활용 세미나" [ref=f4e3976]:
+                        - generic [ref=f4e3977]: 시험기간이 10배 편해지는�내신 영어 AI 활용 세미나
+                      - 'button "📝 필기 기반 지문 분석 🎯 유형 및 난이도별 변형 문제 제작 🛠️ 자체 시험지 편집 🎨 지문 기반 웹툰 생성 이 모든 기능들을 바로 현장에서 사용하실 수 있도록 올인원 AI 활용 가이드를 이번 세미나 단독으로 알려드립니다! � ■ 모집 인원 · 양일 각 20명 ⏳ 일별 20명 한정으로만 진행되며 마감 시 추가 모집은 진행하지 않습니다. ■ 진행 일정 · 7/26(일) 22:00 ~ 24:00 · 7/27(월) 22:00 ~ 24:00 위 날짜 중 편하신 일정을 선택해주세요. 모두 동일한 내용으로 진행되니 하루만 참석하셔도 됩니다. ■ 진행 장소 · 워크토크 선릉점 (강남구 테헤란로 406 샹제리제센터 A동) #세미나 #영어 #영어학원 #영어강사 #영어선생님 #AI세미나" [ref=f4e3979]':
+                        - generic [ref=f4e3980]: "📝 필기 기반 지문 분석 🎯 유형 및 난이도별 변형 문제 제작 🛠️ 자체 시험지 편집 🎨 지문 기반 웹툰 생성 이 모든 기능들을 바로 현장에서 사용하실 수 있도록 올인원 AI 활용 가이드를 이번 세미나 단독으로 알려드립니다! � ■ 모집 인원 · 양일 각 20명 ⏳ 일별 20명 한정으로만 진행되며 마감 시 추가 모집은 진행하지 않습니다. ■ 진행 일정 · 7/26(일) 22:00 ~ 24:00 · 7/27(월) 22:00 ~ 24:00 위 날짜 중 편하신 일정을 선택해주세요. 모두 동일한 내용으로 진행되니 하루만 참석하셔도 됩니다. ■ 진행 장소 · 워크토크 선릉점 (강남구 테헤란로 406 샹제리제센터 A동) #세미나 #영어 #영어학원 #영어강사 #영어선생님 #AI세미나"
+                      - generic:
+                        - button
+                    - button "자세히 보기" [ref=f4e3982]:
+                      - generic [ref=f4e3986]: 자세히 보기
+          - generic [ref=f4e3988]:
+            - generic [ref=f4e3990]:
+              - generic [ref=f4e3991]:
+                - generic [ref=f4e3998]: 활성
+                - generic [ref=f4e4001]: "라이브러리 ID: 1339443631108485"
+                - generic [ref=f4e4003]: 2026. 7. 15.에 게재 시작함
+                - generic [ref=f4e4005]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e4014] [cursor=pointer]:
+                - generic [ref=f4e4017]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e4020] [cursor=pointer]:
+              - generic [ref=f4e4024]: 광고 상세 정보 보기
+            - separator [ref=f4e4025]
+            - generic [ref=f4e4030]:
+              - generic [ref=f4e4032]:
+                - img "artbam_art" [ref=f4e4033]
+                - generic [ref=f4e4035]:
+                  - link "artbam_art" [ref=f4e4036] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fartbam_art&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e4040]:
+                    - strong [ref=f4e4042]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e4043]:
+                - 'button "🎨 신진 아티스트 공개 모집! 당신의 작품을 노들섬 노들갤러리에 전시해보세요. 서울을 주제로 작품을 선보일 40인의 아티스트를 찾습니다. 시화부터 그림, 일러스트·카툰·웹툰, 사진, AI 아트, 종합예술까지 자신만의 시선으로 서울을 표현한 작품이라면 지원할 수 있습니다. 선정된 작가는 노들섬 노들갤러리 1관에서 열리는 〈ARTBAM SEOUL 2026〉 전시에 참여하게 됩니다. 작가의 전시 준비 부담을 줄일 수 있도록 작품 분야와 전시 방식에 따라 액자·패널·조명 등의 전시 제작을 지원합니다. 📌 모집 분야 시화 · 그림 · 일러스트 · 카툰 · 웹툰 사진 · AI 아트 · 종합예술 📅 공개 모집 2026.07.15 – 07.31 🗳 온라인 공개투표 2026.08.03 – 08.07 🏆 최종 선정 2026.08.11 온라인 투표와 심사위원 점수를 종합하여 선정합니다. 🖼 전시 일정 2026.09.09 – 09.13 📍 전시 장소 노들섬 노들갤러리 1관 ✅ 선정 작가 지원 노들섬 전시 공간 지원 작품별 전시 제작 지원 1인 최대 3점까지 전시 가능 선정 작가 전원 대상 시상 진행 서울을 바라보는 당신만의 시선이 하나의 작품이 되고, 하나의 전시가 됩니다. 지금 ARTBAM SEOUL에 참여하세요. 🔗 신청 및 상세 안내 artbam.art 프로필 링크 또는 포스터 QR코드 #신진작가모집 #아티스트모집 #작품공모 #전시공모 #아트밤서울 #ARTBAM #ARTBAMSEOUL #노들섬 #노들갤러리 #서울전시 #서울예술 #시화 #회화 #일러스트 #카툰 #웹툰 #사진공모 #AI아트 #종합예술 #한국문화예술발전협회" [ref=f4e4046]':
+                  - generic [ref=f4e4049]:
+                    - text: 🎨 신진 아티스트 공개 모집!
+                    - text: 당신의 작품을
+                    - text: 노들섬 노들갤러리에 전시해보세요.
+                    - text: 서울을 주제로 작품을 선보일
+                    - text: 40인의 아티스트를 찾습니다.
+                    - text: 시화부터 그림, 일러스트·카툰·웹툰,
+                    - text: 사진, AI 아트, 종합예술까지
+                    - text: 자신만의 시선으로 서울을 표현한 작품이라면 지원할 수 있습니다.
+                    - text: 선정된 작가는 노들섬 노들갤러리 1관에서 열리는
+                    - text: 〈ARTBAM SEOUL 2026〉 전시에 참여하게 됩니다.
+                    - text: 작가의 전시 준비 부담을 줄일 수 있도록
+                    - text: 작품 분야와 전시 방식에 따라
+                    - text: 액자·패널·조명 등의 전시 제작을 지원합니다.
+                    - text: 📌 모집 분야
+                    - text: 시화 · 그림 · 일러스트 · 카툰 · 웹툰
+                    - text: 사진 · AI 아트 · 종합예술
+                    - text: 📅 공개 모집
+                    - text: 2026.07.15 – 07.31
+                    - text: 🗳 온라인 공개투표
+                    - text: 2026.08.03 – 08.07
+                    - text: 🏆 최종 선정
+                    - text: 2026.08.11
+                    - text: 온라인 투표와 심사위원 점수를 종합하여 선정합니다.
+                    - text: 🖼 전시 일정
+                    - text: 2026.09.09 – 09.13
+                    - text: 📍 전시 장소
+                    - text: 노들섬 노들갤러리 1관
+                    - text: ✅ 선정 작가 지원
+                    - text: 노들섬 전시 공간 지원
+                    - text: 작품별 전시 제작 지원
+                    - text: 1인 최대 3점까지 전시 가능
+                    - text: 선정 작가 전원 대상 시상 진행
+                    - text: 서울을 바라보는 당신만의 시선이
+                    - text: 하나의 작품이 되고, 하나의 전시가 됩니다.
+                    - text: 지금 ARTBAM SEOUL에 참여하세요.
+                    - text: 🔗 신청 및 상세 안내
+                    - text: artbam.art
+                    - text: 프로필 링크 또는 포스터 QR코드
+                    - text: "#신진작가모집 #아티스트모집 #작품공모 #전시공모 #아트밤서울 #ARTBAM #ARTBAMSEOUL #노들섬 #노들갤러리 #서울전시 #서울예술 #시화 #회화 #일러스트 #카툰 #웹툰 #사진공모 #AI아트 #종합예술 #한국문화예술발전협회"
+                - link "ARTBAM.ART artbam_art 더 알아보기" [ref=f4e4051] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fartbam.art%2F&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e4053]:
+                    - generic [ref=f4e4054]:
+                      - button "ARTBAM.ART" [ref=f4e4056]:
+                        - generic [ref=f4e4057]: ARTBAM.ART
+                      - button "artbam_art" [ref=f4e4059]:
+                        - generic [ref=f4e4060]: artbam_art
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f4e4062]:
+                      - generic [ref=f4e4066]: 더 알아보기
+          - generic [ref=f4e4068]:
+            - generic [ref=f4e4070]:
+              - generic [ref=f4e4071]:
+                - generic [ref=f4e4078]: 활성
+                - generic [ref=f4e4081]: "라이브러리 ID: 1551560909776209"
+                - generic [ref=f4e4083]: 2026. 7. 12.에 게재 시작함
+                - generic [ref=f4e4085]: 플랫폼
+              - button "드롭다운 열기" [ref=f4e4114] [cursor=pointer]:
+                - generic [ref=f4e4117]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f4e4120] [cursor=pointer]:
+              - generic [ref=f4e4124]: 광고 상세 정보 보기
+            - separator [ref=f4e4125]
+            - generic [ref=f4e4130]:
+              - generic [ref=f4e4132]:
+                - img "콜로소 - Coloso" [ref=f4e4133]
+                - generic [ref=f4e4135]:
+                  - link "콜로소 - Coloso" [ref=f4e4136] [cursor=pointer]:
+                    - /url: https://www.facebook.com/coloso.official/
+                  - generic [ref=f4e4140]:
+                    - strong [ref=f4e4142]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f4e4143]:
+                - button "원하는 소품과 배경 에셋이 없어 구도까지 바꿔본 적 있으신가요? 🫠 남이 만든 에셋에 맞추지 말고, 작품에 필요한 배경과 소품을 직접 설계해 보세요. 펀딩 누적 후원액 3억, 웹툰 에셋 제작자 나라밍클의 실전형 배경 제작 파이프라인 😎 스케치업부터 블렌더, 클립스튜디오까지 나라밍클의 웹툰 에셋 제작 흐름을 지금 콜로소에서 확인해 보세요." [ref=f4e4146]:
+                  - generic [ref=f4e4149]:
+                    - text: 원하는 소품과 배경 에셋이 없어
+                    - text: 구도까지 바꿔본 적 있으신가요? 🫠
+                    - text: 남이 만든 에셋에 맞추지 말고,
+                    - text: 작품에 필요한 배경과 소품을
+                    - text: 직접 설계해 보세요.
+                    - text: 펀딩 누적 후원액 3억,
+                    - text: 웹툰 에셋 제작자 나라밍클의
+                    - text: 실전형 배경 제작 파이프라인 😎
+                    - text: 스케치업부터 블렌더, 클립스튜디오까지
+                    - text: 나라밍클의 웹툰 에셋 제작 흐름을
+                    - text: 지금 콜로소에서 확인해 보세요.
+                - link "COLOSO.CO.KR 실제 배경 제작에 필요한 핵심 기능만 쏙쏙 🔥 자세히 보기" [ref=f4e4151] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcoloso.co.kr%2Fcatalog%2Fnew&h=AUC90aJ3oRQ_shfA10WAsOlUXG3eP0n4XK3pYMWYl_9aI3RyA7DNuhOvPysvQf9lR2qfl_0PWFzvviDnqczkDYLp_2WbGCTwTkcbLMxqs0TwEAe8ZZrPWJZGg9C9McSVmXEUGyFW6SDERZ0I9CoTT7Kds4o
+                  - generic [ref=f4e4153]:
+                    - generic [ref=f4e4154]:
+                      - button "COLOSO.CO.KR" [ref=f4e4156]:
+                        - generic [ref=f4e4157]: COLOSO.CO.KR
+                      - button "실제 배경 제작에 필요한 핵심 기능만 쏙쏙 🔥" [ref=f4e4159]:
+                        - generic [ref=f4e4160]: 실제 배경 제작에 필요한 핵심 기능만 쏙쏙 🔥
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "자세히 보기" [ref=f4e4162]:
+                      - generic [ref=f4e4166]: 자세히 보기
+        - button "더 보기" [ref=f4e4167] [cursor=pointer]:
+          - generic [ref=f4e4168]: 더 보기
+    - generic [ref=f4e4171]:
+      - generic [ref=f4e4179]: 시스템 상태
+      - generic [ref=f4e4183]:
+        - list [ref=f4e4184]:
+          - listitem [ref=f4e4185]:
+            - heading "광고 라이브러리 API" [level=3] [ref=f4e4186]:
+              - link "광고 라이브러리 API" [ref=f4e4187] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=f4e4188]:
+            - heading "광고 및 데이터 사용 정보" [level=3] [ref=f4e4189]:
+              - link "광고 및 데이터 사용 정보" [ref=f4e4190] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=f4e4191]:
+            - heading "개인정보처리방침" [level=3] [ref=f4e4192]:
+              - link "개인정보처리방침" [ref=f4e4193] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=f4e4194]:
+            - heading "약관" [level=3] [ref=f4e4195]:
+              - link "약관" [ref=f4e4196] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=f4e4197]:
+            - heading "쿠키" [level=3] [ref=f4e4198]:
+              - link "쿠키" [ref=f4e4199] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | 한국어" [level=3] [ref=f4e4201]:
+          - text: Meta © 2026 |
+          - link "한국어" [ref=f4e4202] [cursor=pointer]:
+            - /url: /language/

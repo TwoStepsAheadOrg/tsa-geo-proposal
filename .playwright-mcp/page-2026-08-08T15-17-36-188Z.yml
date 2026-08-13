@@ -1,0 +1,317 @@
+- generic [active] [ref=f31e1]:
+  - banner [ref=f31e2]:
+    - generic [ref=f31e3]:
+      - link "크몽 홈으로 이동" [ref=f31e4] [cursor=pointer]:
+        - /url: /
+        - img "크몽 로고" [ref=f31e5]
+      - link "엔터프라이즈 기업용" [ref=f31e11] [cursor=pointer]:
+        - /url: /enterprise
+        - generic [ref=f31e12]:
+          - paragraph [ref=f31e13]: 엔터프라이즈
+          - generic [ref=f31e14]: 기업용
+      - generic [ref=f31e15]:
+        - button [ref=f31e16] [cursor=pointer]:
+          - paragraph [ref=f31e17]: 전문가 등록
+        - button [ref=f31e18] [cursor=pointer]:
+          - paragraph [ref=f31e19]: 로그인
+        - link "회원가입" [ref=f31e20] [cursor=pointer]:
+          - /url: /signup?next_page=%2F%40%25ED%2588%25AC%25EC%258A%25A4%25ED%2585%259D%25EC%258A%25A4%25EC%2596%25B4%25ED%2597%25A4%25EB%2593%259C
+  - main [ref=f31e23]:
+    - generic [ref=f31e24]:
+      - generic [ref=f31e26]:
+        - generic [ref=f31e27]:
+          - generic [ref=f31e30]:
+            - img "프로필 이미지" [ref=f31e31]
+            - status [ref=f31e33]
+          - generic [ref=f31e34]:
+            - heading "투스텝스어헤드" [level=1] [ref=f31e38]
+            - generic [ref=f31e39]:
+              - generic "0 Stars" [ref=f31e40]
+              - generic [ref=f31e44]: "0.0"
+              - generic [ref=f31e45]: (0)
+            - button "프로필 URL 복사" [ref=f31e46] [cursor=pointer]:
+              - generic [ref=f31e49]: kmong.com/@투스텝스어헤드
+        - button "문의하기" [ref=f31e50] [cursor=pointer]
+      - generic [ref=f31e52]:
+        - generic [ref=f31e53]:
+          - generic [ref=f31e54]:
+            - heading "활동 정보" [level=3] [ref=f31e56]
+            - generic [ref=f31e57]:
+              - generic [ref=f31e59]:
+                - paragraph [ref=f31e60]: 총 작업 수
+                - paragraph [ref=f31e61]: 0개
+              - generic [ref=f31e62]:
+                - generic [ref=f31e63]:
+                  - paragraph [ref=f31e64]: 만족도
+                  - paragraph [ref=f31e65]: 0%
+                - generic [ref=f31e66]: "0"
+            - generic [ref=f31e71]:
+              - generic [ref=f31e72]: 세금계산서 발행 가능
+              - generic [ref=f31e78]: 서울
+              - generic [ref=f31e83]: "연락 가능 시간: 10시 ~ 18시"
+              - generic [ref=f31e88]: "평균 응답 시간: 아직 몰라요"
+          - generic [ref=f31e97]:
+            - generic [ref=f31e98]:
+              - heading "경력 사항" [level=3] [ref=f31e103]
+              - heading "총 10년" [level=4] [ref=f31e104]
+            - generic [ref=f31e106]:
+              - heading "상세 경력" [level=3] [ref=f31e108]
+              - list [ref=f31e110]:
+                - listitem [ref=f31e111]:
+                  - generic [ref=f31e116]:
+                    - heading "투스텝스어헤드" [level=4] [ref=f31e117]
+                    - paragraph [ref=f31e119]: 경영 · 대표이사 · 1년 7개월
+                - listitem [ref=f31e120]:
+                  - generic [ref=f31e125]:
+                    - heading "PAP Corp" [level=4] [ref=f31e126]
+                    - paragraph [ref=f31e128]: 프로덕트 · 공동창업자 · 3년 4개월
+                - listitem [ref=f31e129]:
+                  - generic [ref=f31e133]:
+                    - heading "W디자인호텔" [level=4] [ref=f31e134]
+                    - paragraph [ref=f31e136]: 개발 · CTO · 1년 4개월
+          - generic [ref=f31e138]:
+            - heading "인증∙수상∙자격증" [level=3] [ref=f31e143]
+            - list [ref=f31e145]:
+              - listitem [ref=f31e146]:
+                - generic [ref=f31e148]:
+                  - heading "창업기업 확인서" [level=4] [ref=f31e149]
+                  - generic [ref=f31e150]:
+                    - generic [ref=f31e151]: 중소벤처기업부
+                    - generic [ref=f31e152]: ·
+                    - generic [ref=f31e153]: "2026.06"
+              - listitem [ref=f31e154]:
+                - generic [ref=f31e156]:
+                  - heading "중소기업(소상공인) 확인서" [level=4] [ref=f31e157]
+                  - generic [ref=f31e158]:
+                    - generic [ref=f31e159]: 중소벤처기업부
+                    - generic [ref=f31e160]: ·
+                    - generic [ref=f31e161]: "2026.05"
+              - listitem [ref=f31e162]:
+                - generic [ref=f31e164]:
+                  - heading "한국인공지능협회(KORAIA) 회원사" [level=4] [ref=f31e165]
+                  - generic [ref=f31e166]:
+                    - generic [ref=f31e167]: 한국인공지능협회
+                    - generic [ref=f31e168]: ·
+                    - generic [ref=f31e169]: "2026.06"
+          - generic [ref=f31e171]:
+            - generic [ref=f31e172]:
+              - heading "전문분야∙상세분야" [level=3] [ref=f31e175]
+              - generic [ref=f31e176]:
+                - generic [ref=f31e177]:
+                  - paragraph [ref=f31e178]: ∙ 마케팅
+                  - generic [ref=f31e179]:
+                    - generic [ref=f31e180]: 마케팅 분석∙전략
+                    - generic [ref=f31e182]: 인플루언서·체험단
+                    - generic [ref=f31e184]: 업종별 마케팅
+                    - generic [ref=f31e186]: 해외 마케팅
+                - generic [ref=f31e188]:
+                  - paragraph [ref=f31e189]: ∙ IT·프로그래밍
+                  - generic [ref=f31e190]:
+                    - generic [ref=f31e191]: AI 모델링·서비스 구축
+                    - generic [ref=f31e193]: PC 및 일반 프로그램
+                    - generic [ref=f31e195]: 웹사이트 신규 제작
+                    - generic [ref=f31e197]: 데이터 사이언스
+            - generic [ref=f31e199]:
+              - heading "보유 기술" [level=3] [ref=f31e202]
+              - generic [ref=f31e203]:
+                - generic [ref=f31e204]: ChatGPT (마케팅 활용)
+                - generic [ref=f31e206]: 숏폼 콘텐츠 기획
+                - generic [ref=f31e208]: 데이터 성과 분석
+                - generic [ref=f31e210]: 마케팅 컨설팅
+                - generic [ref=f31e212]: 인스타그램 체험단
+                - generic [ref=f31e214]: Python
+                - generic [ref=f31e216]: JavaScript
+                - generic [ref=f31e218]: React
+                - generic [ref=f31e220]: AWS / Azure / GCP
+                - generic [ref=f31e222]: SQL
+        - generic [ref=f31e224]:
+          - generic [ref=f31e225]:
+            - heading "소개" [level=3] [ref=f31e228]
+            - paragraph [ref=f31e231]: "주식회사 투스텝스어헤드 — AI 개발사이자 마케팅 에이전시입니다. 1) 마이크로웨이브: 재한 중국 크리에이터 샤오홍슈 방문형 콘텐츠(12건 발행·지표 공개) 2) 플루랭크: AI 검색 최적화(GEO) SaaS 운영, 국내외 기업 진단·컨설팅 3) AI 자동화·시스템 개발: EV충전 관제 SaaS, AI 상담봇, 숙박 예약 플랫폼(야놀자 인수) 등. 기업 고객 환영. microwave.ai.kr · plurank.com"
+          - generic [ref=f31e232]:
+            - generic [ref=f31e233]:
+              - heading "포트폴리오" [level=3] [ref=f31e234]
+              - link "더보기" [ref=f31e235] [cursor=pointer]:
+                - /url: /@투스텝스어헤드/portfolios
+            - generic [ref=f31e247]:
+              - generic [ref=f31e250]:
+                - link [ref=f31e251] [cursor=pointer]:
+                  - /url: /@투스텝스어헤드/portfolios/view/292526
+                  - article [ref=f31e252]:
+                    - generic [ref=f31e254]:
+                      - img "포트폴리오-외국인 관광객 패스 서비스 앱 구축. 기획부터 런칭까지(K-Trip ONE)" [ref=f31e256]
+                      - generic [ref=f31e257]:
+                        - paragraph [ref=f31e258]: 외국인 관광객 패스 서비스 앱 구축. 기획부터 런칭까지(K-Trip ONE)
+                        - paragraph [ref=f31e259]: "#앱개발 #관광플랫폼 #여행앱 #풀스택개발 #데이터파이프라인"
+                - button "북마크" [ref=f31e261] [cursor=pointer]
+              - generic [ref=f31e267]:
+                - link [ref=f31e268] [cursor=pointer]:
+                  - /url: /@투스텝스어헤드/portfolios/view/292523
+                  - article [ref=f31e269]:
+                    - generic [ref=f31e271]:
+                      - img "포트폴리오-전기차 충전 관제 SaaS 구축. 충전기 1467기 실운영(OCPP. 결제. AI상담)" [ref=f31e273]
+                      - generic [ref=f31e274]:
+                        - paragraph [ref=f31e275]: 전기차 충전 관제 SaaS 구축. 충전기 1467기 실운영(OCPP. 결제. AI상담)
+                        - paragraph [ref=f31e276]: "#전기차충전 #SaaS개발 #OCPP #관제시스템 #AI챗봇"
+                - button "북마크" [ref=f31e278] [cursor=pointer]
+              - generic [ref=f31e284]:
+                - link [ref=f31e285] [cursor=pointer]:
+                  - /url: /@투스텝스어헤드/portfolios/view/292521
+                  - article [ref=f31e286]:
+                    - generic [ref=f31e288]:
+                      - img "포트폴리오-AI 검색 최적화(GEO) SaaS 플루랭크 설계. 개발. 운영" [ref=f31e290]
+                      - generic [ref=f31e291]:
+                        - paragraph [ref=f31e292]: AI 검색 최적화(GEO) SaaS 플루랭크 설계. 개발. 운영
+                        - paragraph [ref=f31e293]: "#AI검색최적화 #GEO #챗GPT노출 #SaaS개발 #AI마케팅"
+                - button "북마크" [ref=f31e295] [cursor=pointer]
+          - generic [ref=f31e299]:
+            - heading "자주 묻는 질문" [level=3] [ref=f31e301]
+            - generic [ref=f31e302]:
+              - button "샤오홍슈 체험단(시딩)은 어떻게 진행되나요? 상담에서 업종·목표를 확인하면 재한(在韓) 중국 크리에이터를 복수 추천해 드립니다. 확정 후 방문·촬영을 진행하고, 가이드 원고와 금기어 검수를 거쳐 발행합니다. 발행 후 좋아요·저장·댓글 실측 리포트를 드리며, 서울 기준 섭외부터 발행까지 보통 1~2주입니다." [ref=f31e303] [cursor=pointer]:
+                - generic [ref=f31e304]:
+                  - generic [ref=f31e305]: 샤오홍슈 체험단(시딩)은 어떻게 진행되나요?
+                  - button [ref=f31e306]
+                - paragraph [ref=f31e310]: 상담에서 업종·목표를 확인하면 재한(在韓) 중국 크리에이터를 복수 추천해 드립니다. 확정 후 방문·촬영을 진행하고, 가이드 원고와 금기어 검수를 거쳐 발행합니다. 발행 후 좋아요·저장·댓글 실측 리포트를 드리며, 서울 기준 섭외부터 발행까지 보통 1~2주입니다.
+              - button "병원(피부과·클리닉)도 가능한가요? 의료광고 규제는 문제없나요? 가능합니다. 샤오홍슈는 중국 이용자 대상 플랫폼이라 국내 블로그·인스타 후기 대비 국내 의료광고 사전심의 부담이 크게 줄어듭니다. 대가성 광고 표기는 저희가 처리하며, 외국인환자 유치 등록기관 여부는 첫 상담에서 함께 확인합니다. 피부과 방문 브이로그 발행 사례도 보유하고 있습니다." [ref=f31e311] [cursor=pointer]:
+                - generic [ref=f31e312]:
+                  - generic [ref=f31e313]: 병원(피부과·클리닉)도 가능한가요? 의료광고 규제는 문제없나요?
+                  - button [ref=f31e314]
+                - paragraph [ref=f31e318]: 가능합니다. 샤오홍슈는 중국 이용자 대상 플랫폼이라 국내 블로그·인스타 후기 대비 국내 의료광고 사전심의 부담이 크게 줄어듭니다. 대가성 광고 표기는 저희가 처리하며, 외국인환자 유치 등록기관 여부는 첫 상담에서 함께 확인합니다. 피부과 방문 브이로그 발행 사례도 보유하고 있습니다.
+              - button "성과는 어떻게 확인하나요? 실제 사례가 있나요? 발행 노트 링크와 함께 좋아요·저장·댓글 실측 리포트를 드립니다. 현재까지 루이비통·헤라·3CE·아누아 등 12건을 발행했고, 합산 좋아요 4,630·저장 557 등 지표를 전부 공개하고 있습니다(microwave.ai.kr/files/case-sheet.pdf). 부풀린 추정치 없이 공개 수치 실측 기준입니다." [ref=f31e319] [cursor=pointer]:
+                - generic [ref=f31e320]:
+                  - generic [ref=f31e321]: 성과는 어떻게 확인하나요? 실제 사례가 있나요?
+                  - button [ref=f31e322]
+                - paragraph [ref=f31e326]: 발행 노트 링크와 함께 좋아요·저장·댓글 실측 리포트를 드립니다. 현재까지 루이비통·헤라·3CE·아누아 등 12건을 발행했고, 합산 좋아요 4,630·저장 557 등 지표를 전부 공개하고 있습니다(microwave.ai.kr/files/case-sheet.pdf). 부풀린 추정치 없이 공개 수치 실측 기준입니다.
+  - contentinfo [ref=f31e327]:
+    - separator [ref=f31e328]
+    - navigation [ref=f31e330]:
+      - generic [ref=f31e331]:
+        - generic [ref=f31e332]:
+          - link "고객센터" [ref=f31e333] [cursor=pointer]:
+            - /url: /support/customer-center
+          - link "전문가센터" [ref=f31e335] [cursor=pointer]:
+            - /url: /support/expert-center
+        - generic [ref=f31e337]:
+          - paragraph [ref=f31e338]: 10:30~18:00 (점심시간 13:00~14:00) . 주말, 공휴일 휴무
+          - paragraph [ref=f31e339]: 크몽은 서비스 중개 플랫폼이에요.작업 의뢰는 전문가에게 직접 문의해 주세요.
+        - generic [ref=f31e341]:
+          - paragraph [ref=f31e342]:
+            - link "이용약관" [ref=f31e343] [cursor=pointer]:
+              - /url: /support/customer-center/categories/26/latest
+          - paragraph [ref=f31e344]:
+            - link "개인정보처리방침" [ref=f31e345] [cursor=pointer]:
+              - /url: /support/customer-center/categories/28/latest
+      - generic [ref=f31e346]:
+        - generic [ref=f31e347]: 크몽 소개
+        - generic [ref=f31e348]:
+          - paragraph [ref=f31e350]:
+            - link "회사소개" [ref=f31e351] [cursor=pointer]:
+              - /url: https://www.kmongcorp.com
+          - paragraph [ref=f31e353]:
+            - link "IR 안내" [ref=f31e354] [cursor=pointer]:
+              - /url: https://company.kmong.com/notice
+          - paragraph [ref=f31e356]:
+            - link "인재채용" [ref=f31e357] [cursor=pointer]:
+              - /url: https://kmong.career.greetinghr.com/
+          - paragraph [ref=f31e359]:
+            - link "크몽로그" [ref=f31e360] [cursor=pointer]:
+              - /url: https://kmong.com/blog
+          - paragraph [ref=f31e362]:
+            - link "제휴 광고" [ref=f31e363] [cursor=pointer]:
+              - /url: https://kmong.com/article/1--제휴-광고-안내
+      - generic [ref=f31e364]:
+        - generic [ref=f31e365]: 의뢰인 안내
+        - generic [ref=f31e366]:
+          - paragraph [ref=f31e368]:
+            - link "크몽 Biz" [ref=f31e369] [cursor=pointer]:
+              - /url: https://kmong.com/article/2407
+          - paragraph [ref=f31e371]:
+            - link "엔터프라이즈" [ref=f31e372] [cursor=pointer]:
+              - /url: https://kmong.com/enterprise
+          - paragraph [ref=f31e374]:
+            - link "전자책·템플릿" [ref=f31e375] [cursor=pointer]:
+              - /url: https://kmong.com/knowhow
+          - paragraph [ref=f31e377]:
+            - link "전화운세" [ref=f31e378] [cursor=pointer]:
+              - /url: https://kmong.com/phone-counseling
+      - generic [ref=f31e379]:
+        - generic [ref=f31e380]: 전문가 안내
+        - generic [ref=f31e381]:
+          - paragraph [ref=f31e383]:
+            - link "전문가 등록" [ref=f31e384] [cursor=pointer]:
+              - /url: https://kmong.com/seller/become-a-seller
+          - paragraph [ref=f31e386]:
+            - link "전문가 센터" [ref=f31e387] [cursor=pointer]:
+              - /url: /support/expert-center
+      - generic [ref=f31e388]:
+        - generic [ref=f31e389]: 고객 지원
+        - generic [ref=f31e391]:
+          - paragraph [ref=f31e393]:
+            - link "공지사항" [ref=f31e394] [cursor=pointer]:
+              - /url: /support/customer-center/categories/1
+          - paragraph [ref=f31e396]:
+            - link "고객센터" [ref=f31e397] [cursor=pointer]:
+              - /url: /support/customer-center
+          - paragraph [ref=f31e399]:
+            - link "자주 묻는 질문" [ref=f31e400] [cursor=pointer]:
+              - /url: /support/customer-center/categories/2
+          - paragraph [ref=f31e402]:
+            - link "예상 견적" [ref=f31e403] [cursor=pointer]:
+              - /url: /prices
+    - separator [ref=f31e405]
+    - generic [ref=f31e406]:
+      - link [ref=f31e407] [cursor=pointer]:
+        - /url: /
+        - img "크몽 로고" [ref=f31e408]
+      - generic [ref=f31e414]:
+        - generic [ref=f31e415]:
+          - img "ISMS 인증" [ref=f31e416]
+          - paragraph [ref=f31e417]: 온라인 플랫폼 서비스 운영(크몽)(심사받지 않은 물리적 인프라 제외)2025.01.15 ~2028.01.14
+        - generic [ref=f31e418]:
+          - img "ISO/IEC 검증" [ref=f31e419]
+          - paragraph [ref=f31e420]: ISO/IEC 27001/27017정보보호 관리체계 및 클라우드보안관리체계 국제 표준 검증
+      - generic [ref=f31e421]:
+        - link "google play" [ref=f31e422] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.kmong.kmong
+          - img "google play"
+        - link "app store" [ref=f31e423] [cursor=pointer]:
+          - /url: https://itunes.apple.com/kr/app/id1039179300?mt=8
+          - img "app store"
+        - generic [ref=f31e424]:
+          - link "인스타그램" [ref=f31e425] [cursor=pointer]:
+            - /url: https://www.instagram.com/kmong_official
+            - img "인스타그램"
+          - link "유튜브" [ref=f31e426] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kmong_official
+            - img "유튜브"
+    - paragraph [ref=f31e428]:
+      - text: (주)크몽
+      - generic [ref=f31e429]: "|"
+      - text: 서울시 서초구 사임당로 157, 3층
+      - generic [ref=f31e430]: "|"
+      - text: "대표 : 박현호, 김태헌"
+      - generic [ref=f31e431]: "|"
+      - text: "사업자등록번호 : 613-81-65278"
+      - link "사업자 정보확인" [ref=f31e432] [cursor=pointer]:
+        - /url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=6138165278
+      - text: "통신판매업신고 : 2018-서울서초-2134"
+      - generic [ref=f31e433]: "|"
+      - text: "유료직업소개사업등록번호 : 제2021-3210195-14-5-00035호"
+      - generic [ref=f31e434]: "|"
+      - text: "고객센터 : 1544-6254"
+      - generic [ref=f31e435]: "|"
+      - text: "호스팅 사업자: Amazon Web Service(AWS)"
+      - generic [ref=f31e436]: "|"
+      - link "1:1 문의하기" [ref=f31e437] [cursor=pointer]:
+        - /url: https://dknj7.channel.io/support-bots/97627
+      - generic [ref=f31e438]: "|"
+      - text: help@kmong.com
+    - generic [ref=f31e439]:
+      - paragraph [ref=f31e440]: (주)크몽은 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매회원에게 있습니다.
+      - paragraph [ref=f31e441]: (주)크몽 사이트의 상품/전문가/이벤트 정보, 디자인 및 화면의 구성, UI 등의 무단복제, 배포, 방송 또는 전송, 스크래핑 등의 행위는 저작권법, 콘텐츠산업 진흥법 등 관련법령에 의하여 엄격히 금지됩니다. [안내 보기]
+      - paragraph [ref=f31e442]:
+        - text: (주)크몽은 선불전자지급수단에 대해 지급보증보험에 가입하여 안전하게 보호하고 있습니다.
+        - link "[가입 사실 확인]" [ref=f31e443] [cursor=pointer]:
+          - /url: /support/customer-center/posts/33
+      - paragraph [ref=f31e445]: Copyright © 2026 kmong Inc. All rights reserved.
+  - alert [ref=f31e446]

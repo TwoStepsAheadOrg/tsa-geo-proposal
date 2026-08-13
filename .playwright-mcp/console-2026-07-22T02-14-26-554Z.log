@@ -1,0 +1,9 @@
+[     368ms] [LOG] data.isLogin : false @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[   17692ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[   17692ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[   21254ms] [WARNING] Mixed Content: The page at 'https://touraz.kr/index' was loaded over HTTPS, but requested an insecure element 'http://touredu.visitkorea.or.kr/upload/images/pkgEdu_thumbnail_202607210421204831.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://touraz.kr/humanframe/theme/portal/assets/plugin/swiper/swiper.js:562
+[   25116ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[   25116ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[   26975ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[   26975ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[   30501ms] [WARNING] Mixed Content: The page at 'https://touraz.kr/index#' was loaded over HTTPS, but requested an insecure element 'http://touredu.visitkorea.or.kr/upload/images/pkgEdu_thumbnail_202607210421204831.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://touraz.kr/humanframe/theme/portal/assets/plugin/swiper/swiper.js:562

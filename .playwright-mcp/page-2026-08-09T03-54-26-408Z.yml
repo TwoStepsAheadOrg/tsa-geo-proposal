@@ -1,0 +1,362 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "TwoStepsAhead" [ref=e7] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "주요 메뉴" [ref=e8]:
+        - link "여정" [ref=e9] [cursor=pointer]:
+          - /url: "#journey"
+        - link "사례" [ref=e10] [cursor=pointer]:
+          - /url: "#work"
+        - link "솔루션" [ref=e11] [cursor=pointer]:
+          - /url: "#solutions"
+        - link "교육" [ref=e12] [cursor=pointer]:
+          - /url: "#education"
+        - link "스튜디오" [ref=e13] [cursor=pointer]:
+          - /url: "#studio"
+      - link "문의하기" [ref=e14] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: AX · DX · 교육 · 스타트업 스튜디오
+      - heading "기업 안에서 실제로 돌아가는 AI를 만듭니다." [level=1] [ref=e25]:
+        - text: 기업 안에서
+        - generic [ref=e26]: 실제로 돌아가는
+        - text: AI를 만듭니다.
+      - paragraph [ref=e28]: 투스텝스어헤드는 AX·DX를 설계하고 구축하는 AI 개발사입니다. 자체 AI 서비스 다섯 개를 직접 운영하며, 그 경험 그대로 기업에 적용합니다.
+      - generic [ref=e30]:
+        - link "무료 상담받기" [ref=e31] [cursor=pointer]:
+          - /url: "#contact"
+        - link "사례 보기" [ref=e34] [cursor=pointer]:
+          - /url: "#work"
+    - generic [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - definition [ref=e40]: 15+
+          - term [ref=e41]: 프로젝트
+        - generic [ref=e42]:
+          - definition [ref=e43]: 2억+
+          - term [ref=e44]: 누적 계약 · 설립 6개월
+        - generic [ref=e45]:
+          - definition [ref=e46]: 5개
+          - term [ref=e47]: 직접 운영하는 서비스
+        - generic [ref=e48]:
+          - definition [ref=e49]: 1,467기
+          - term [ref=e50]: 충전기 실운영 관제
+      - generic [ref=e52]:
+        - generic [ref=e53]: Clients & Partners
+        - generic [ref=e54]: 한솔엠에스
+        - generic [ref=e55]: 어센트코리아
+        - generic [ref=e56]: 토쿠야마상사
+        - generic [ref=e57]: BridgeLeaf
+        - generic [ref=e58]: Kozy.care
+        - generic [ref=e59]: 올댓아너스클럽
+        - generic [ref=e60]: 레비타로
+    - generic [ref=e62]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: "01"
+        - generic [ref=e67]: The journey
+      - generic [ref=e68]:
+        - heading "AI 도입은 구축으로 끝나지 않습니다." [level=2] [ref=e70]
+        - paragraph [ref=e72]: 진단에서 운영까지, 도입의 전 구간을 한 팀이 맡습니다.
+      - generic [ref=e73]:
+        - article [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: "01"
+            - generic [ref=e78]: 진단
+          - heading "업무에서 AI가 들어갈 지점을 찾습니다" [level=3] [ref=e79]
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - generic [ref=e82]: ↳
+              - text: 현장 인터뷰·업무 분해
+            - listitem [ref=e83]:
+              - generic [ref=e84]: ↳
+              - text: 적용 지점과 우선순위 정리
+            - listitem [ref=e85]:
+              - generic [ref=e86]: ↳
+              - text: 도입 범위·비용 설계
+        - article [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]: "02"
+            - generic [ref=e91]: 구축
+          - heading "AX·DX 시스템을 만듭니다" [level=3] [ref=e92]
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - generic [ref=e95]: ↳
+              - text: AI 에이전트·업무 자동화
+            - listitem [ref=e96]:
+              - generic [ref=e97]: ↳
+              - text: SaaS·관제·예약·CRM 개발
+            - listitem [ref=e98]:
+              - generic [ref=e99]: ↳
+              - text: 기존 시스템 연동
+        - article [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]: "03"
+            - generic [ref=e104]: 운영
+          - heading "도입 후를 함께 갑니다" [level=3] [ref=e105]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - generic [ref=e108]: ↳
+              - text: 24시간 AI 고객 응대(AICX)
+            - listitem [ref=e109]:
+              - generic [ref=e110]: ↳
+              - text: 모니터링·개선
+            - listitem [ref=e111]:
+              - generic [ref=e112]: ↳
+              - text: 임직원 교육
+    - generic [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e117]: "02"
+        - generic [ref=e119]: Case studies
+      - heading "이런 걸 만들어 왔습니다." [level=2] [ref=e121]: 이런 걸만들어 왔습니다.
+      - generic [ref=e122]:
+        - article [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: AX
+            - generic [ref=e127]: DX
+          - heading "충전기 1,467기 — 전기차 충전 관제가 2주 만에 돌아가다" [level=3] [ref=e128]
+          - paragraph [ref=e129]: OCPP 기반 통합 관제 SaaS를 구축하고, Claude 기반 AI 상담이 24시간 문의를 받습니다.
+          - paragraph [ref=e130]: — 한솔엠에스 · ChargeFLOW
+        - article [ref=e132]:
+          - generic [ref=e133]: AI
+          - heading "글로벌 대기업 계열 신제품의 AI 검색 노출 검증" [level=3] [ref=e135]
+          - paragraph [ref=e136]: 국가·플랫폼별 AI 검색 데이터를 공급하는 연간 계약으로 이어졌습니다.
+          - paragraph [ref=e137]: — 어센트코리아
+        - article [ref=e139]:
+          - generic [ref=e140]: DX
+          - heading "외국인 관광객 앱, 기획부터 런칭까지" [level=3] [ref=e142]
+          - paragraph [ref=e143]: 여행 패스 서비스 앱을 데이터 파이프라인부터 풀스택으로 만들었습니다.
+          - paragraph [ref=e144]: — 올댓아너스클럽 · K-Trip ONE
+      - generic [ref=e145]:
+        - article [ref=e147]:
+          - generic [ref=e148]: "04"
+          - heading "토쿠야마상사 · 일본" [level=3] [ref=e149]
+          - paragraph [ref=e150]: 이커머스·CRM 디지털 전환
+        - article [ref=e152]:
+          - generic [ref=e153]: "05"
+          - heading "BridgeLeaf · 미국" [level=3] [ref=e154]
+          - paragraph [ref=e155]: 아마존 셀러 아웃리치 CRM 구축
+        - article [ref=e157]:
+          - generic [ref=e158]: "06"
+          - heading "Kozy.care · 프랑스" [level=3] [ref=e159]
+          - paragraph [ref=e160]: 유럽 시장 AI 검색 노출 분석 리포트
+        - article [ref=e162]:
+          - generic [ref=e163]: "07"
+          - heading "레비타로" [level=3] [ref=e164]
+          - paragraph [ref=e165]: 모바일 앱 개발·운영
+      - generic [ref=e167]:
+        - generic [ref=e168]: ↳ AI 에이전트 · 상담 구축
+        - generic [ref=e169]: ↳ SaaS·관제 인프라 — 서버 43모듈 · 관리자 87화면 · OCPP
+        - generic [ref=e170]: ↳ 데이터 수집 · 크롤링 인프라
+        - generic [ref=e171]: ↳ 글로벌 프로젝트 — 미국 · 일본 · 프랑스
+    - generic [ref=e173]:
+      - generic [ref=e175]:
+        - generic [ref=e176]: "03"
+        - generic [ref=e178]: Our solutions
+      - generic [ref=e179]:
+        - heading "만들어 둔 것부터 쓰셔도 됩니다." [level=2] [ref=e181]
+        - paragraph [ref=e183]: 직접 운영 중인 자체 솔루션은 개발 없이 바로 도입할 수 있습니다.
+      - generic [ref=e184]:
+        - link [ref=e186] [cursor=pointer]:
+          - /url: https://www.woojoocall.com
+          - generic [ref=e187]:
+            - text: Flagship — Live
+            - heading "우주콜" [level=3] [ref=e188]
+            - paragraph [ref=e189]: 전화를 대신 받는 AI 직원
+            - paragraph [ref=e190]: 바쁜 순간과 영업시간 밖에도 전화를 대신 받고, 반복 문의와 콜백 요청을 정리합니다. 매장·병원·사무실에 바로 붙습니다.
+            - generic [ref=e191]: woojoocall.com
+          - img "우주콜 AI 전화 응대 예시 대화" [ref=e195]:
+            - generic [ref=e196]: 통화 중 · AI 응대
+            - generic [ref=e199]:
+              - generic [ref=e200]: 지금 예약 가능한가요?
+              - generic [ref=e201]: 네, 오늘 오후 3시와 5시에 자리가 있습니다. 성함과 연락처를 남겨주시면 예약해 드릴게요.
+              - generic [ref=e202]: 김민수, 010-1234-5678이요.
+              - generic [ref=e203]: 오후 3시로 예약했습니다. 확인 문자를 보내드렸어요.
+        - link "Live 사장노트 소상공인 AI 마케팅 가게의 온라인 노출을 AI가 진단하고, 무엇을 하면 되는지 알려줍니다. sajangnote.kr" [ref=e205] [cursor=pointer]:
+          - /url: https://www.sajangnote.kr
+          - generic [ref=e206]: Live
+          - heading "사장노트" [level=3] [ref=e207]
+          - paragraph [ref=e208]: 소상공인 AI 마케팅
+          - paragraph [ref=e209]: 가게의 온라인 노출을 AI가 진단하고, 무엇을 하면 되는지 알려줍니다.
+          - generic [ref=e210]: sajangnote.kr
+    - generic [ref=e215]:
+      - generic [ref=e217]:
+        - generic [ref=e218]: "04"
+        - generic [ref=e220]: Education
+      - generic [ref=e221]:
+        - heading "만든 사람이 가르칩니다." [level=2] [ref=e223]
+        - paragraph [ref=e225]: 대표는 Class101 · 패스트캠퍼스 · 스파르타코딩클럽 · 코드잇에서 개발 강의와 콘텐츠를 만들어 왔습니다. 지금도 기업과 개인에게 AI와 개발을 가르칩니다.
+      - generic [ref=e227]:
+        - generic [ref=e228]: 강의·콘텐츠 이력
+        - generic [ref=e229]: Class101
+        - generic [ref=e230]: 패스트캠퍼스
+        - generic [ref=e231]: 스파르타코딩클럽
+        - generic [ref=e232]: 코드잇
+      - generic [ref=e233]:
+        - article [ref=e235]:
+          - generic [ref=e236]: "01"
+          - heading "임원·리더 AI 특강" [level=3] [ref=e237]
+          - paragraph [ref=e238]: AI가 사업을 어떻게 바꾸는지, 의사결정자가 알아야 할 것만 압축합니다.
+        - article [ref=e240]:
+          - generic [ref=e241]: "02"
+          - heading "AX·DX 실무 워크숍" [level=3] [ref=e242]
+          - paragraph [ref=e243]: 부서 단위로 실제 업무를 가져와, AI를 붙이는 실습까지 갑니다.
+        - article [ref=e245]:
+          - generic [ref=e246]: "03"
+          - heading "개발 임직원 교육" [level=3] [ref=e247]
+          - paragraph [ref=e248]: AI 도구·에이전트 개발을 현업 개발자 눈높이로 가르칩니다.
+        - article [ref=e250]:
+          - generic [ref=e251]: "04"
+          - heading "개인 교육·코칭" [level=3] [ref=e252]
+          - paragraph [ref=e253]: 커리어 전환부터 사이드 프로젝트까지, 1:1로 갑니다.
+      - paragraph [ref=e255]:
+        - text: 교육 문의는
+        - link "상담 폼" [ref=e256] [cursor=pointer]:
+          - /url: "#contact"
+        - text: 에서 "기업교육 · 강의/워크숍"을 선택해 주세요.
+    - generic [ref=e258]:
+      - generic [ref=e260]:
+        - generic [ref=e261]: "05"
+        - generic [ref=e263]: Startup studio — built & operated
+      - generic [ref=e264]:
+        - heading "직접 만들고, 직접 운영합니다." [level=2] [ref=e266]
+        - generic [ref=e267]:
+          - paragraph [ref=e268]: 투스텝스어헤드는 스타트업 스튜디오를 지향합니다. 아이디어를 서비스로 만들고, 운영하며 배운 것을 기업 프로젝트에 그대로 넣습니다.
+          - paragraph [ref=e269]: 대표 김건희는 세 번 창업해 세 번 매각했습니다. COO 김지현은 B2B 스타트업에서 8년간 운영을 맡으며 시리즈 A와 B 투자 유치를 이끌었습니다.
+      - generic [ref=e270]:
+        - link "01 — Live 우주콜 전화를 대신 받는 AI 직원" [ref=e272] [cursor=pointer]:
+          - /url: https://www.woojoocall.com
+          - generic [ref=e273]: 01 — Live
+          - generic [ref=e278]:
+            - generic [ref=e279]: 우주콜
+            - paragraph [ref=e280]: 전화를 대신 받는 AI 직원
+        - link "02 — Live 텔링사주 캐릭터와 채팅으로 보는 AI 사주" [ref=e282] [cursor=pointer]:
+          - /url: https://telling.ai.kr
+          - generic [ref=e283]: 02 — Live
+          - generic [ref=e288]:
+            - generic [ref=e289]: 텔링사주
+            - paragraph [ref=e290]: 캐릭터와 채팅으로 보는 AI 사주
+        - link "03 — Live 마이크로웨이브 글로벌 인플루언서 마케팅" [ref=e292] [cursor=pointer]:
+          - /url: https://microwave.ai.kr
+          - generic [ref=e293]: 03 — Live
+          - generic [ref=e298]:
+            - generic [ref=e299]: 마이크로웨이브
+            - paragraph [ref=e300]: 글로벌 인플루언서 마케팅
+        - link "04 — Live 사장노트 소상공인 AI 마케팅" [ref=e302] [cursor=pointer]:
+          - /url: https://www.sajangnote.kr
+          - generic [ref=e303]: 04 — Live
+          - generic [ref=e308]:
+            - generic [ref=e309]: 사장노트
+            - paragraph [ref=e310]: 소상공인 AI 마케팅
+        - link "05 — Live 투니 손으로 그리는 콘텐츠 제작 앱" [ref=e312] [cursor=pointer]:
+          - /url: https://tooni.xyz
+          - generic [ref=e313]: 05 — Live
+          - generic [ref=e318]:
+            - generic [ref=e319]: 투니
+            - paragraph [ref=e320]: 손으로 그리는 콘텐츠 제작 앱
+      - generic [ref=e322]:
+        - generic [ref=e323]: 06 — Next
+        - generic [ref=e324]: 다음 서비스를 준비하고 있습니다.
+    - paragraph [ref=e328]: 납품하고 떠나지 않습니다. 운영까지 함께합니다.
+    - generic [ref=e330]:
+      - generic [ref=e332]:
+        - generic [ref=e333]: "06"
+        - generic [ref=e335]: Contact
+      - heading "지금 하시는 일부터 들려주세요." [level=2] [ref=e337]: 지금 하시는 일부터들려주세요.
+      - generic [ref=e338]:
+        - generic [ref=e340]:
+          - paragraph [ref=e341]: 첫 미팅에서 데모가 아니라 귀사 업무의 AI 적용 지점을 짚어드립니다. 어디서부터 시작할지는 저희가 같이 찾습니다.
+          - generic [ref=e342]:
+            - generic [ref=e343]:
+              - term [ref=e344]: Email
+              - definition [ref=e345]:
+                - link "glenn.kim@twostepsahead.co.kr" [ref=e346] [cursor=pointer]:
+                  - /url: mailto:glenn.kim@twostepsahead.co.kr
+            - generic [ref=e347]:
+              - term [ref=e348]: Response
+              - definition [ref=e349]: 평일 24시간 내 회신
+            - generic [ref=e350]:
+              - term [ref=e351]: Office
+              - definition [ref=e352]: 서울 강남구 압구정로 306
+          - generic [ref=e353]:
+            - text: 인증·선정
+            - list [ref=e354]:
+              - listitem [ref=e355]:
+                - generic [ref=e356]: ↳
+                - text: 한국관광공사 관광벤처사업 선정
+              - listitem [ref=e357]:
+                - generic [ref=e358]: ↳
+                - text: 중소벤처기업부 창업기업·중소기업 확인
+              - listitem [ref=e359]:
+                - generic [ref=e360]: ↳
+                - text: 한국인공지능협회(KORAIA) 회원사
+              - listitem [ref=e361]:
+                - generic [ref=e362]: ↳
+                - text: 연구개발전담부서 보유
+            - link "크몽 전문가 프로필" [ref=e363] [cursor=pointer]:
+              - /url: https://kmong.com/@투스텝스어헤드
+        - generic [ref=e368]:
+          - textbox [ref=e369]
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - generic [ref=e372]: Name *
+              - textbox "Name *" [ref=e373]:
+                - /placeholder: 이름
+            - generic [ref=e374]:
+              - generic [ref=e375]: Company *
+              - textbox "Company *" [ref=e376]:
+                - /placeholder: 회사명 (개인이시면 '개인')
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - generic [ref=e379]: Email *
+              - textbox "Email *" [ref=e380]:
+                - /placeholder: work@company.co.kr
+            - generic [ref=e381]:
+              - generic [ref=e382]: Interest
+              - combobox "Interest" [ref=e383]:
+                - option "AX 도입 · AI 상담/자동화/에이전트" [selected]
+                - option "DX 구축 · SaaS/관제/CRM 개발"
+                - option "AICX · AI 전화/채팅 응대"
+                - option "기업교육 · 강의/워크숍"
+                - option "스튜디오 협업 · 제휴"
+                - option "기타"
+          - generic [ref=e384]:
+            - generic [ref=e385]: Message *
+            - textbox "Message *" [ref=e386]:
+              - /placeholder: 지금 하고 있는 업무, 반복되는 일, 바꾸고 싶은 것 — 편하게 적어주세요.
+          - button "문의 보내기" [ref=e387]
+  - contentinfo [ref=e388]:
+    - generic [ref=e389]:
+      - generic [ref=e390]:
+        - generic [ref=e391]: TwoStepsAhead
+        - paragraph [ref=e392]: AX · DX · Education · Startup Studio — Seoul
+        - generic [ref=e393]:
+          - generic [ref=e394]: 주식회사 투스텝스어헤드
+          - generic [ref=e395]: 대표 김건희 · 사업자등록번호 319-87-03770
+          - generic [ref=e396]: 통신판매업신고 2025-서울강남-05963
+          - generic [ref=e397]: 서울특별시 강남구 압구정로 306, 지하1층 4-s 10호(신사동)
+          - generic [ref=e398]: glenn.kim@twostepsahead.co.kr · 010-9990-7868
+      - generic [ref=e399]:
+        - generic [ref=e400]:
+          - generic [ref=e401]: Our services
+          - link "우주콜" [ref=e402] [cursor=pointer]:
+            - /url: https://www.woojoocall.com
+          - link "텔링사주" [ref=e403] [cursor=pointer]:
+            - /url: https://telling.ai.kr
+          - link "마이크로웨이브" [ref=e404] [cursor=pointer]:
+            - /url: https://microwave.ai.kr
+          - link "사장노트" [ref=e405] [cursor=pointer]:
+            - /url: https://www.sajangnote.kr
+          - link "투니" [ref=e406] [cursor=pointer]:
+            - /url: https://tooni.xyz
+        - generic [ref=e407]:
+          - generic [ref=e408]: Contact
+          - link "glenn.kim@twostepsahead.co.kr" [ref=e409] [cursor=pointer]:
+            - /url: mailto:glenn.kim@twostepsahead.co.kr
+          - link "도입·교육 문의" [ref=e410] [cursor=pointer]:
+            - /url: "#contact"
+          - generic [ref=e411]: Seoul · KST
+    - generic [ref=e412]:
+      - generic [ref=e413]: © 2026 TwoStepsAhead Co., Ltd. All rights reserved.
+      - generic [ref=e414]: AX · DX · Education · Startup Studio

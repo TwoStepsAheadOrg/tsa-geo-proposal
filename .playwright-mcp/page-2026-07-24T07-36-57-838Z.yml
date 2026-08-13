@@ -1,0 +1,183 @@
+- generic [ref=f1e1]:
+  - iframe [ref=f1e2]:
+    
+  - generic [ref=f1e7]:
+    - banner [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - link [ref=f1e14] [cursor=pointer]:
+          - /url: /home
+          - img [ref=f1e15]
+          - generic [ref=f1e16]: Apps Script
+        - generic [ref=f1e17]:
+          - generic [ref=f1e20]:
+            - button [ref=f1e22] [cursor=pointer]: 플루랭크 워룸 API
+            - generic [ref=f1e1306]: cloud_done
+          - generic [ref=f1e31]:
+            - button [ref=f1e36] [cursor=pointer]:
+              - generic [ref=f1e39]:
+                - text: 배포
+                - generic [ref=f1e40]: 
+            - button [ref=f1e42] [cursor=pointer]:
+              - generic [ref=f1e45]: help_outline
+        - generic [ref=f1e47]:
+          - button [ref=f1e51] [cursor=pointer]:
+            - img [ref=f1e52]
+          - button [ref=f1e57] [cursor=pointer]:
+            - img [ref=f1e59]
+    - generic [ref=f1e61]:
+      - navigation [ref=f1e63]:
+        - link [ref=f1e64] [cursor=pointer]:
+          - generic [ref=f1e66]: info_outline
+          - generic [ref=f1e67]: 개요
+        - link [ref=f1e68] [cursor=pointer]:
+          - generic [ref=f1e70]: code
+          - generic [ref=f1e71]: 편집기
+        - link [ref=f1e72] [cursor=pointer]:
+          - generic [ref=f1e74]: history
+          - generic [ref=f1e75]: 프로젝트 기록
+        - link [ref=f1e76] [cursor=pointer]:
+          - generic [ref=f1e78]: alarm
+          - generic [ref=f1e79]: 트리거
+        - link [ref=f1e80] [cursor=pointer]:
+          - generic [ref=f1e82]: playlist_play
+          - generic [ref=f1e83]: 실행
+        - link [ref=f1e84] [cursor=pointer]:
+          - generic [ref=f1e86]: settings
+          - generic [ref=f1e87]: 프로젝트 설정
+      - generic [ref=f1e88]:
+        - heading [level=1] [ref=f1e89]: 편집기
+        - generic [ref=f1e90]:
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - heading [level=2] [ref=f1e94]: 파일
+              - generic [ref=f1e96]:
+                - button [disabled] [ref=f1e98]:
+                  - generic [ref=f1e101]: sort_by_alpha
+                - button [ref=f1e103] [cursor=pointer]:
+                  - generic [ref=f1e106]: add
+            - listbox [ref=f1e108]:
+              - option [ref=f1e109] [cursor=pointer]:
+                - generic [ref=f1e110]: Code.gs
+                - button [ref=f1e111]:
+                  - button [ref=f1e112]:
+                    - generic [ref=f1e115]: 
+            - generic [ref=f1e116]:
+              - heading [level=2] [ref=f1e117]: 라이브러리
+              - button [ref=f1e120] [cursor=pointer]:
+                - generic [ref=f1e123]: add
+            - generic [ref=f1e124]:
+              - heading [level=2] [ref=f1e125]: 서비스
+              - button [ref=f1e128] [cursor=pointer]:
+                - generic [ref=f1e131]: add
+          - separator [ref=f1e132]
+          - generic [ref=f1e138]:
+            - region [ref=f1e139]:
+              - generic [ref=f1e140]:
+                - generic [ref=f1e141]:
+                  - button [ref=f1e1180]:
+                    - generic [ref=f1e1183]: undo
+                  - generic [ref=f1e147]:
+                    - button [disabled]:
+                      - generic: redo
+                - generic [ref=f1e151]:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f1e1307]:
+                  - button [ref=f1e1311]:
+                    - generic [ref=f1e1314]: play_arrow
+                    - generic [ref=f1e1315]: 실행
+                  - button [ref=f1e1319]:
+                    - img [ref=f1e1322]
+                    - generic [ref=f1e1325]: 디버그
+                  - listbox [ref=f1e1328] [cursor=pointer]:
+                    - option [selected] [ref=f1e1329]: doGet
+                - button [ref=f1e164]:
+                  - generic [ref=f1e167]: 실행 로그
+            - generic [ref=f1e169]:
+              - main [ref=f1e173]:
+                - generic [ref=f1e174]: .
+                - generic [ref=f1e176]:
+                  - iframe [ref=f1e177]:
+                    
+                  - code [ref=f1e179]:
+                    - generic [ref=f1e180]:
+                      - generic [ref=f1e183]:
+                        - generic [ref=f1e1184]:
+                          - generic [ref=f1e1185] [cursor=pointer]: 
+                          - generic [ref=f1e1186]: "1"
+                        - generic [ref=f1e726]: "2"
+                        - generic [ref=f1e728]: "3"
+                        - generic [ref=f1e730]: "4"
+                        - generic [ref=f1e732]: "5"
+                        - generic [ref=f1e734]: "6"
+                        - generic [ref=f1e1188]: "7"
+                        - generic [ref=f1e739]: "8"
+                        - generic [ref=f1e1190]: "9"
+                        - generic [ref=f1e1191]:
+                          - generic [ref=f1e1192] [cursor=pointer]: 
+                          - generic [ref=f1e1193]: "10"
+                        - generic [ref=f1e746]: "11"
+                        - generic [ref=f1e1195]: "12"
+                        - generic [ref=f1e1196]:
+                          - generic [ref=f1e1197] [cursor=pointer]: 
+                          - generic [ref=f1e1198]: "13"
+                        - generic [ref=f1e753]: "14"
+                        - generic [ref=f1e755]: "15"
+                        - generic [ref=f1e757]: "16"
+                        - generic [ref=f1e759]: "17"
+                        - generic [ref=f1e761]: "18"
+                        - generic [ref=f1e763]: "19"
+                        - generic [ref=f1e1200]: "20"
+                        - generic [ref=f1e1201]:
+                          - generic [ref=f1e1202] [cursor=pointer]: 
+                          - generic [ref=f1e1203]: "21"
+                        - generic [ref=f1e1204]:
+                          - generic [ref=f1e1205] [cursor=pointer]: 
+                          - generic [ref=f1e1206]: "22"
+                        - generic [ref=f1e773]: "23"
+                        - generic [ref=f1e775]: "24"
+                        - generic [ref=f1e1208]: "25"
+                        - generic [ref=f1e1209]:
+                          - generic [ref=f1e1210] [cursor=pointer]: 
+                          - generic [ref=f1e1211]: "26"
+                        - generic [ref=f1e1212]:
+                          - generic [ref=f1e1213] [cursor=pointer]: 
+                          - generic [ref=f1e1214]: "27"
+                        - generic [ref=f1e785]: "28"
+                        - generic [ref=f1e1217]: "29"
+                      - generic [ref=f1e202]:
+                        - generic [ref=f1e1243]: /**
+                        - generic [ref=f1e1245]: "* 플루랭크 마케팅 워룸 — Apps Script 백엔드 (v3)"
+                        - generic [ref=f1e1247]: "*/"
+                        - generic [ref=f1e1249]: var ACCESS_KEY = 'wr-6f3f16580555';
+                        - generic [ref=f1e1251]: var VER = 3;
+                        - generic [ref=f1e1254]: var TASK_HEADERS = ['id','phase','order','title','goal','guide','channel','funnel','type','estMinutes',
+                        - generic [ref=f1e1256]: var KPI_HEADERS = ['date','inquiries','consults','signups','payments','memo'];
+                        - generic [ref=f1e1259]: "function sheet_(name, headers) {"
+                        - generic [ref=f1e1261]: var ss = SpreadsheetApp.getActive();
+                        - generic [ref=f1e1263]: var sh = ss.getSheetByName(name);
+                        - generic [ref=f1e1265]: "if (!sh) {"
+                        - generic [ref=f1e1267]: sh = ss.insertSheet(name);
+                        - generic [ref=f1e1269]: sh.appendRow(headers);
+                        - generic [ref=f1e1271]: sh.setFrozenRows(1);
+                        - generic [ref=f1e1273]: "}"
+                        - generic [ref=f1e1275]: return sh;
+                        - generic [ref=f1e1277]: "}"
+                        - generic [ref=f1e1280]: "function json_(obj) {"
+                        - generic [ref=f1e1282]: return ContentService.createTextOutput(JSON.stringify(obj))
+                        - generic [ref=f1e1284]: .setMimeType(ContentService.MimeType.JSON);
+                        - generic [ref=f1e1286]: "}"
+                        - generic [ref=f1e1289]: "function fmt_(v) {"
+                        - generic [ref=f1e1291]: "if (v instanceof Date) {"
+                        - generic [ref=f1e1293]: return Utilities.formatDate(v, SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'yyyy-MM-dd');
+                        - generic [ref=f1e1295]: "'successCriteria','icp','status','doneAt','memo'];"
+                        - generic [ref=f1e1297]: "}"
+                      - textbox [active] [ref=f1e211]: "if (col > 0) sh.getRange(i + 1, col).setValue(fields[key]); } return json_({ ok: true }); } } return json_({ error: 'not found: ' + id }); }"
+              - tooltip [ref=f1e212]: 실행 로그 닫기
+  - generic: 프로젝트 저장 중...
+  - generic [ref=f1e235]:
+    - alert
+    - alert
+    - complementary
+    - complementary
+  - generic [ref=f1e451]: 프로젝트 저장 중...

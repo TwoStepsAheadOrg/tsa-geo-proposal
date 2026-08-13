@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<style>
+  :root{
+    --ink:#0a0714; --deep:#160f33; --violet:#2a1a5e; --rose:#e08fb0; --rosedeep:#b85c86;
+    --gold:#e7c98f; --goldbright:#f5e2b0; --moon:#dfe6ff; --muted:#9a90c4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:1200px;overflow:hidden}
+  body{
+    font-family:"Pretendard",sans-serif; color:#fff; position:relative;
+    background:
+      radial-gradient(120% 90% at 50% -8%, #3a2470 0%, #241653 26%, #140d2e 55%, #0a0714 100%);
+  }
+  /* ---- atmosphere ---- */
+  .stars{position:absolute;inset:0;pointer-events:none}
+  .stars i{position:absolute;background:#fff;border-radius:50%;opacity:.85;
+    box-shadow:0 0 6px 1px rgba(223,230,255,.7)}
+  .neb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;mix-blend-mode:screen}
+  .neb.rose{width:640px;height:640px;left:-160px;bottom:-220px;background:radial-gradient(circle,#c15c8a 0%,transparent 66%)}
+  .neb.violet{width:720px;height:720px;right:-220px;top:-160px;background:radial-gradient(circle,#5b3fb0 0%,transparent 66%)}
+  .grain{position:absolute;inset:0;opacity:.06;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+  /* moon */
+  .moon{position:absolute;top:96px;right:150px;width:150px;height:150px;border-radius:50%;
+    background:radial-gradient(circle at 38% 34%, #fff 0%, #eae3ff 40%, #c9bff0 72%, #a394d8 100%);
+    box-shadow:0 0 70px 20px rgba(223,214,255,.35), inset -18px -14px 34px rgba(120,96,180,.6);}
+  .moon::after{content:"";position:absolute;inset:0;border-radius:50%;
+    background:radial-gradient(circle at 66% 30%, transparent 60%, rgba(10,7,20,.55) 100%)}
+  /* deco frame */
+  .frame{position:absolute;inset:34px;border:1px solid rgba(231,201,143,.35);pointer-events:none}
+  .frame::before,.frame::after{content:"";position:absolute;width:44px;height:44px;border:2px solid var(--gold)}
+  .frame::before{top:-2px;left:-2px;border-right:0;border-bottom:0}
+  .frame::after{bottom:-2px;right:-2px;border-left:0;border-top:0}
+  .cnr{position:absolute;width:44px;height:44px;border:2px solid var(--gold)}
+  .cnr.tr{top:32px;right:32px;border-left:0;border-bottom:0}
+  .cnr.bl{bottom:32px;left:32px;border-right:0;border-top:0}
+
+  /* ---- header ---- */
+  .head{position:absolute;top:120px;left:0;right:0;text-align:center;z-index:5}
+  .eyebrow{font-family:"Pretendard";font-size:16px;letter-spacing:.62em;color:var(--gold);
+    text-transform:uppercase;padding-left:.62em;margin-bottom:14px;opacity:.9}
+  .wordmark{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:104px;line-height:.92;
+    letter-spacing:.11em;color:transparent;
+    background:linear-gradient(180deg,#fff 0%,var(--goldbright) 42%,var(--gold) 78%,#b9975a 100%);
+    -webkit-background-clip:text;background-clip:text;
+    text-shadow:0 0 40px rgba(231,201,143,.28);padding-left:.11em}
+  .rune{display:inline-block;font-size:30px;color:var(--rose);vertical-align:middle;margin:0 18px;
+    filter:drop-shadow(0 0 10px rgba(224,143,176,.6))}
+  .tagline{margin-top:16px;font-family:"Gowun Batang",serif;font-size:23px;color:var(--moon);
+    letter-spacing:.02em;opacity:.92}
+  .tagline b{color:var(--rose);font-weight:700}
+
+  /* ---- stage ---- */
+  .stage{position:absolute;bottom:0;left:0;right:0;height:660px;z-index:4}
+
+  /* phone */
+  .phone{position:absolute;left:328px;bottom:-46px;width:340px;height:706px;border-radius:46px;
+    background:linear-gradient(160deg,#221844,#120c2b);padding:13px;
+    box-shadow:0 40px 90px -20px rgba(0,0,0,.7), 0 0 0 1.5px rgba(231,201,143,.5), inset 0 0 0 6px #0c0820;
+    transform:rotate(-6deg)}
+  .scr{width:100%;height:100%;border-radius:34px;overflow:hidden;position:relative;
+    background:radial-gradient(120% 60% at 50% 0%, #241748 0%, #140d30 55%, #0c0820 100%);
+    font-size:13px}
+  .notch{position:absolute;top:9px;left:50%;transform:translateX(-50%);width:96px;height:7px;border-radius:5px;background:rgba(255,255,255,.14);z-index:9}
+  .tbar{display:flex;align-items:center;justify-content:space-between;padding:26px 18px 10px}
+  .logo{display:flex;align-items:center;gap:9px}
+  .logo .mk{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--rose),var(--rosedeep));
+    display:flex;align-items:center;justify-content:center;font-size:15px;box-shadow:0 0 14px rgba(224,143,176,.5)}
+  .logo .nm{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:18px;letter-spacing:.06em;color:#fff}
+  .coin{font-size:12px;color:var(--gold);border:1px solid rgba(231,201,143,.4);border-radius:20px;padding:5px 11px;display:flex;gap:6px;align-items:center}
+  /* hero fortune card */
+  .hero{margin:6px 16px 0;border-radius:20px;height:200px;position:relative;overflow:hidden;
+    background:linear-gradient(150deg,#3a2168 0%,#241247 55%,#1a1038 100%);
+    border:1px solid rgba(231,201,143,.28)}
+  .hero .glow{position:absolute;width:220px;height:220px;right:-70px;top:-90px;border-radius:50%;
+    background:radial-gradient(circle,rgba(224,143,176,.55),transparent 65%);filter:blur(6px)}
+  .hero .cres{position:absolute;right:34px;top:30px;width:64px;height:64px;border-radius:50%;
+    background:radial-gradient(circle at 34% 32%,#fff,#e9e0ff 46%,#c3b6ec 100%);
+    box-shadow:0 0 26px rgba(223,214,255,.6), inset -12px -8px 20px rgba(120,96,180,.7)}
+  .hero .cres::after{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 70% 34%,transparent 58%,#241247 100%)}
+  .hero .lab{position:absolute;top:20px;left:20px;font-size:10px;letter-spacing:.34em;color:var(--gold);font-weight:600}
+  .hero .ttl{position:absolute;left:20px;top:78px;font-family:"Gowun Batang",serif;font-size:29px;color:#fff;line-height:1.15}
+  .hero .sub{position:absolute;left:20px;top:150px;font-size:12px;color:var(--muted)}
+  .hero .score{position:absolute;right:22px;bottom:18px;text-align:right}
+  .hero .score b{font-family:"Cormorant Garamond",serif;font-size:38px;color:var(--goldbright);line-height:1}
+  .hero .score span{font-size:10px;color:var(--muted);letter-spacing:.2em}
+  /* tarot row */
+  .sect{margin:16px 16px 0;font-size:11px;letter-spacing:.26em;color:var(--gold);font-weight:600}
+  .tarot{display:flex;gap:11px;margin:10px 16px 0}
+  .tcard{flex:1;aspect-ratio:5/8;border-radius:11px;position:relative;overflow:hidden;
+    background:linear-gradient(160deg,#20143f,#160d30);border:1px solid rgba(231,201,143,.4);
+    box-shadow:inset 0 0 0 3px rgba(231,201,143,.14)}
+  .tcard.mid{transform:translateY(-10px);border-color:rgba(224,143,176,.7);box-shadow:0 10px 24px -6px rgba(224,143,176,.5),inset 0 0 0 3px rgba(231,201,143,.2)}
+  .tcard .rn{position:absolute;top:7px;left:0;right:0;text-align:center;font-family:"Cormorant Garamond",serif;font-size:12px;color:var(--gold);letter-spacing:.1em}
+  .tcard .nm{position:absolute;bottom:7px;left:0;right:0;text-align:center;font-family:"Gowun Batang",serif;font-size:9px;color:var(--moon);opacity:.85}
+  .tcard .ic{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:34px;filter:drop-shadow(0 0 8px rgba(231,201,143,.5))}
+  /* nav */
+  .nav{position:absolute;bottom:0;left:0;right:0;height:62px;display:flex;align-items:center;justify-content:space-around;
+    background:linear-gradient(0deg,#120c2b 60%,transparent);border-top:1px solid rgba(255,255,255,.06);padding-bottom:6px}
+  .nav b{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:9px;color:var(--muted);font-weight:500}
+  .nav b i{font-size:16px;font-style:normal}
+  .nav b.on{color:var(--rose)}
+
+  /* floating tarot card (big, left) */
+  .float{position:absolute;left:76px;bottom:150px;width:224px;height:352px;border-radius:18px;transform:rotate(-13deg);
+    background:linear-gradient(160deg,#241548 0%,#180e37 60%,#120b2a 100%);
+    border:2px solid rgba(231,201,143,.6);
+    box-shadow:0 40px 80px -20px rgba(0,0,0,.7), inset 0 0 0 6px rgba(231,201,143,.1);z-index:6}
+  .float .inner{position:absolute;inset:12px;border:1px solid rgba(231,201,143,.35);border-radius:10px}
+  .float .rn{position:absolute;top:16px;left:0;right:0;text-align:center;font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--gold);letter-spacing:.2em}
+  .float .nm{position:absolute;bottom:18px;left:0;right:0;text-align:center;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:16px;color:var(--goldbright);letter-spacing:.14em}
+  .float .moon2{position:absolute;top:96px;left:50%;transform:translateX(-50%);width:96px;height:96px;border-radius:50%;
+    background:radial-gradient(circle at 36% 32%,#fff,#efe8ff 44%,#cdbff0 100%);
+    box-shadow:0 0 34px rgba(223,214,255,.55),inset -14px -10px 24px rgba(120,96,180,.7)}
+  .float .moon2::after{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 70% 32%,transparent 56%,#180e37 100%)}
+  .float .drop{position:absolute;bottom:60px;left:50%;transform:translateX(-50%);font-size:22px;color:var(--rose);filter:drop-shadow(0 0 8px rgba(224,143,176,.7))}
+
+  /* caption bottom-left */
+  .cap{position:absolute;left:96px;bottom:70px;z-index:7}
+  .cap .k{font-family:"Gowun Batang",serif;font-size:19px;color:var(--moon)}
+  .cap .k em{color:var(--gold);font-style:normal}
+  .cap .role{margin-top:8px;font-size:12px;letter-spacing:.28em;color:var(--muted);text-transform:uppercase}
+</style>
+</head>
+<body>
+  <div class="neb rose"></div><div class="neb violet"></div>
+  <div class="stars" id="st"></div>
+  <div class="moon"></div>
+  <div class="grain"></div>
+
+  <div class="head">
+    <div class="eyebrow">AI SAJU · TAROT</div>
+    <div class="wordmark">LEVI<span class="rune">✦</span>TARO</div>
+    <div class="tagline">AI가 읽어주는 <b>나의 사주</b>와 <b>오늘의 인연</b> · 타로 리딩과 AI 캐릭터 대화</div>
+  </div>
+
+  <div class="stage">
+    <!-- big floating tarot -->
+    <div class="float">
+      <div class="inner"></div>
+      <div class="rn">XVIII</div>
+      <div class="moon2"></div>
+      <div class="drop">♥</div>
+      <div class="nm">The Moon</div>
+    </div>
+
+    <!-- phone -->
+    <div class="phone"><div class="scr">
+      <div class="notch"></div>
+      <div class="tbar">
+        <div class="logo"><div class="mk">✦</div><div class="nm">Levitaro</div></div>
+        <div class="coin">✦ 1,200</div>
+      </div>
+      <div class="hero">
+        <div class="glow"></div><div class="cres"></div>
+        <div class="lab">AI SAJU REPORT</div>
+        <div class="ttl">재회운 사주</div>
+        <div class="sub">남은 마음 · 연락 타이밍 · 다시 만날 가능성</div>
+        <div class="score"><b>4.8</b><br><span>추천 리포트</span></div>
+      </div>
+      <div class="sect">오늘의 타로 · 3카드</div>
+      <div class="tarot">
+        <div class="tcard"><div class="rn">VI</div><div class="ic">☾</div><div class="nm">The Lovers</div></div>
+        <div class="tcard mid"><div class="rn">XVIII</div><div class="ic">✦</div><div class="nm">The Moon</div></div>
+        <div class="tcard"><div class="rn">XVII</div><div class="ic">★</div><div class="nm">The Star</div></div>
+      </div>
+      <div class="nav">
+        <b class="on"><i>⌂</i>홈</b><b><i>❃</i>캐릭터</b><b><i>❍</i>대화</b><b><i>✧</i>사주</b><b><i>◔</i>마이</b>
+      </div>
+    </div></div>
+
+    <div class="cap">
+      <div class="k">사주 · 타로 · <em>AI 캐릭터 대화</em>를 하나로</div>
+      <div class="role">Product Design · MVP</div>
+    </div>
+  </div>
+
+  <div class="frame"></div><div class="cnr tr"></div><div class="cnr bl"></div>
+
+  <script>
+    // starfield
+    const st=document.getElementById('st');let h='';
+    for(let i=0;i<130;i++){const s=(Math.sin(i*12.9898)*43758.5453)%1;const x=Math.abs((Math.sin(i*7.13)*1000)%100);const y=Math.abs((Math.cos(i*3.71)*1000)%100);const d=Math.abs(s)*2.2+.6;const o=.3+Math.abs((Math.sin(i*2.2))*.6);h+=`<i style="left:${x}%;top:${y}%;width:${d}px;height:${d}px;opacity:${o}"></i>`;}
+    st.innerHTML=h;
+  </script>
+</body>
+</html>

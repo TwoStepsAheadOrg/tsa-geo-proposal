@@ -1,0 +1,168 @@
+- application [ref=f5e1]:
+  - iframe [ref=f5e2]:
+    
+  - iframe [ref=f5e3]:
+    
+  - banner "메뉴 바" [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - complementary "Voice Standard를 가상의 비서로 활용하세요" [ref=f5e11]:
+        - generic [ref=f5e12]:
+          - img [ref=f5e14]
+          - generic [ref=f5e16]:
+            - generic [ref=f5e17]: Voice Standard를 가상의 비서로 활용하세요
+            - generic [ref=f5e18]: 자동 교환을 설정해 고객의 전화에 응대하고 자동으로 안내합니다
+        - button "시작하기" [ref=f5e21] [cursor=pointer]:
+          - generic [ref=f5e23]: 시작하기
+        - generic [ref=f5e24]:
+          - button "배너 닫기" [ref=f5e25] [cursor=pointer]:
+            - img [ref=f5e27]
+          - tooltip [ref=f5e30]: 배너 닫기
+      - generic [ref=f5e32]:
+        - link "스프레드시트 홈" [ref=f5e34] [cursor=pointer]:
+          - /url: https://docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+        - generic [ref=f5e41]:
+          - generic "제목 없는 스프레드시트" [ref=f5e43]:
+            - generic [ref=f5e44]:
+              - generic: 제목 없는 스프레드시트
+              - textbox "이름 바꾸기" [ref=f5e46]: 제목 없는 스프레드시트
+            - generic [ref=f5e47]:
+              - checkbox "별표" [ref=f5e49] [cursor=pointer]
+              - generic:
+                - button
+          - generic [ref=f5e54]:
+            - button "모든 댓글 보기" [ref=f5e56] [cursor=pointer]
+            - button "여기에서 통화에 참여하거나 통화에서 이 탭 발표" [ref=f5e60] [cursor=pointer]
+            - generic [ref=f5e65]:
+              - button "공유하기. 나에게만 공개." [ref=f5e66] [cursor=pointer]: 공유
+              - button "빠른 공유 작업" [ref=f5e68] [cursor=pointer]
+            - generic [ref=f5e71]:
+              - generic:
+                - button "Gemini에게 물어보기" [ref=f5e78] [cursor=pointer]
+                - tooltip [ref=f5e81]: Gemini에게 물어보기
+            - 'button "Google 계정: 김건희 (glenn.kim@twostepsahead.co.kr)" [ref=f5e84] [cursor=pointer]':
+              - img [ref=f5e85]
+    - generic [ref=f5e86]:
+      - menubar [ref=f5e88]:
+        - menuitem "파일" [ref=f5e89] [cursor=pointer]
+        - menuitem "수정" [ref=f5e90] [cursor=pointer]
+        - menuitem "보기" [ref=f5e91] [cursor=pointer]
+        - menuitem "삽입" [ref=f5e92] [cursor=pointer]
+        - menuitem "서식" [ref=f5e93] [cursor=pointer]
+        - menuitem "데이터" [ref=f5e94] [cursor=pointer]
+        - menuitem "도구" [ref=f5e95] [cursor=pointer]
+        - menuitem "Gemini" [ref=f5e96] [cursor=pointer]
+        - menuitem "확장 프로그램" [ref=f5e97] [cursor=pointer]
+        - menuitem "도움말" [ref=f5e98] [cursor=pointer]
+      - generic [ref=f5e99]:
+        - generic [ref=f5e100]:
+          - toolbar "메뉴 검색 (옵션+/)" [ref=f5e101]:
+            - combobox "메뉴" [ref=f5e103]
+          - toolbar "기본" [ref=f5e104]:
+            - button "실행취소 (⌘Z)" [ref=f5e105] [cursor=pointer]
+            - button "재실행 (⌘Y)" [ref=f5e110] [cursor=pointer]
+            - button "인쇄 (⌘P)" [ref=f5e115] [cursor=pointer]
+            - button "서식 복사" [ref=f5e120] [cursor=pointer]
+            - combobox "확대/축소" [ref=f5e125] [cursor=pointer]:
+              - option "확대/축소 목록입니다. 100%(이)가 선택되었습니다." [selected] [ref=f5e128]:
+                - textbox "확대/축소" [ref=f5e129]: 100%
+            - separator [disabled] [ref=f5e133]
+            - button "통화 형식" [ref=f5e134] [cursor=pointer]:
+              - generic [ref=f5e136]: ₩
+            - button "퍼센트 형식" [ref=f5e137] [cursor=pointer]:
+              - generic [ref=f5e139]: "%"
+            - button "소수점 이하 자릿수 감소" [ref=f5e140] [cursor=pointer]
+            - button "소수점 이하 자릿수 증가" [ref=f5e145] [cursor=pointer]
+            - button "서식 더보기" [ref=f5e150] [cursor=pointer]:
+              - generic [ref=f5e153]: "123"
+            - separator [disabled] [ref=f5e154]
+            - listbox "글꼴" [ref=f5e155] [cursor=pointer]:
+              - option "글꼴 목록입니다. 기본값 (Arial)(이)가 선택되었습니다." [selected] [ref=f5e158]: 기본값 (Arial)
+            - separator [disabled] [ref=f5e162]
+            - button "글꼴 크기 작게 (⌘+Shift+쉼표)" [ref=f5e163] [cursor=pointer]
+            - combobox "글꼴 크기" [ref=f5e168] [cursor=pointer]:
+              - option "글꼴 크기 목록입니다. 10(이)가 선택되었습니다." [selected] [ref=f5e171]:
+                - textbox "글꼴 크기" [ref=f5e172]: "10"
+            - button "글꼴 크기 크게 (⌘+Shift+마침표)" [ref=f5e173] [cursor=pointer]
+            - separator [disabled] [ref=f5e178]
+            - button "더보기" [ref=f5e179] [cursor=pointer]
+        - toolbar "모드 및 보기" [ref=f5e186]:
+          - button "메뉴 숨기기 (Ctrl+Shift+F)" [ref=f5e187] [cursor=pointer]
+    - generic:
+      - generic:
+        - button "측면 패널 표시":
+          - img [ref=f5e193] [cursor=pointer]
+    - generic [ref=f5e198]:
+      - generic "이름 상자 (⌘ + J)" [ref=f5e199]:
+        - textbox [ref=f5e200]: A1
+        - button "이름 상자 메뉴 버튼입니다. 메뉴 항목 중 하나를 선택하여 해당하는 이름이 지정된 범위로 이동하세요." [ref=f5e202] [cursor=pointer]
+      - textbox [ref=f5e215]
+  - navigation "시트 탭 바" [ref=f5e251]:
+    - toolbar [ref=f5e252]:
+      - button "시트 추가" [ref=f5e253] [cursor=pointer]
+      - button "모든 시트" [ref=f5e258] [cursor=pointer]
+    - toolbar [ref=f5e265]:
+      - button "시트1" [ref=f5e266]:
+        - generic [ref=f5e270]: 시트1
+    - toolbar [ref=f5e274]
+  - generic [ref=f5e275]:
+    - textbox [active]
+  - link "스크린 리더 지원 사용 설정" [ref=f5e276] [cursor=pointer]:
+    - /url: "#"
+  - textbox [ref=f5e277]
+  - region [ref=f5e278]: 스크린 리더 기능을 사용하려면 ⌘+옵션+Z을(를) 누르세요. 키보드 단축키에 대해 알아보려면 ⌘슬래시을(를) 누르세요.
+  - generic [ref=f5e279]: 배너 숨겨짐
+  - region
+  - generic [ref=f5e280]: 추천이 업데이트되었습니다.
+  - complementary "Gemini" [ref=f5e281]:
+    - generic [ref=f5e285]:
+      - generic [ref=f5e286]:
+        - generic [ref=f5e287]:
+          - button "옵션 더보기" [ref=f5e288] [cursor=pointer]:
+            - img [ref=f5e292]
+          - tooltip [ref=f5e295]: 옵션 더보기
+        - heading "Gemini" [level=2] [ref=f5e297]
+        - generic [ref=f5e298]:
+          - generic [ref=f5e302]:
+            - button "보기" [ref=f5e303] [cursor=pointer]:
+              - img [ref=f5e306]
+              - img [ref=f5e309]
+            - tooltip [ref=f5e312]: 보기
+          - generic [ref=f5e313]:
+            - button "닫기" [ref=f5e314] [cursor=pointer]:
+              - img [ref=f5e317]
+            - tooltip [ref=f5e320]: 닫기
+      - generic [ref=f5e325]: "@ 기호를 입력해 소스를 참조하세요"
+      - generic [ref=f5e326]:
+        - generic [ref=f5e328]:
+          - combobox "Gemini에게 물어보기" [ref=f5e331]
+          - generic [ref=f5e332]:
+            - generic [ref=f5e337]:
+              - button "시트1" [ref=f5e338] [cursor=pointer]:
+                - img [ref=f5e341]
+                - img [ref=f5e344]
+              - tooltip [ref=f5e347]: 시트1
+            - generic [ref=f5e352]:
+              - button "빌드" [ref=f5e353] [cursor=pointer]:
+                - img [ref=f5e356]
+                - img [ref=f5e359]
+              - tooltip [ref=f5e362]: 시트 만들기 및 수정
+          - generic [ref=f5e364]:
+            - button "제출" [disabled] [ref=f5e365]:
+              - img [ref=f5e368]
+            - tooltip [ref=f5e371]: 제출
+        - generic [ref=f5e372]:
+          - text: Workspace의 Gemini 기능은 실수할 수 있습니다.
+          - link "자세히 알아보기" [ref=f5e373] [cursor=pointer]:
+            - /url: https://support.google.com/a/users?p=gw_gemini_responses
+  - iframe [ref=f5e375]:
+    
+  - dialog "빌드 사용해 보기" [ref=f5e381]:
+    - generic [ref=f5e382]:
+      - generic [ref=f5e384]:
+        - button "닫기" [ref=f5e385] [cursor=pointer]:
+          - img [ref=f5e388]
+        - tooltip [ref=f5e391]: 닫기
+      - generic [ref=f5e393]:
+        - heading "빌드 사용해 보기" [level=2] [ref=f5e394]:
+          - generic [ref=f5e395]: 빌드 사용해 보기
+        - generic [ref=f5e396]: 프롬프트를 강력한 스프레드시트로 변환해 보세요. Workspace 파일 및 웹의 데이터를 사용하여 몇 초 만에 분석 보고서와 트래커를 만들어 보세요.

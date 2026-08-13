@@ -1,0 +1,2178 @@
+- generic [ref=f5e12]:
+  - generic [ref=f5e15]:
+    - link "Meta 광고 라이브러리" [ref=f5e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f5e20]: Meta 광고 라이브러리
+    - generic [ref=f5e22]: 광고 라이브러리
+    - menuitem "광고 라이브러리 보고서" [ref=f5e24] [cursor=pointer]:
+      - generic [ref=f5e25]: 광고 라이브러리 보고서
+    - menuitem "광고 라이브러리 API" [ref=f5e27] [cursor=pointer]:
+      - generic [ref=f5e28]: 광고 라이브러리 API
+    - menuitem "브랜디드 콘텐츠" [ref=f5e30] [cursor=pointer]:
+      - generic [ref=f5e31]: 브랜디드 콘텐츠
+    - menuitem "Open navigation panel" [ref=f5e33] [cursor=pointer]
+  - generic [ref=f5e40]:
+    - combobox "대한민국" [ref=f5e44] [cursor=pointer]:
+      - generic [ref=f5e51]: 대한민국
+    - combobox "모든 광고" [ref=f5e57] [cursor=pointer]:
+      - generic [ref=f5e67]: 모든 광고
+    - generic [ref=f5e77]:
+      - generic [ref=f5e83]: 키워드 또는 광고주로 검색
+      - generic [ref=f5e89]:
+        - searchbox "키워드 또는 광고주로 검색" [ref=f5e95]: 병원마케팅
+        - button "지우기" [ref=f5e97] [cursor=pointer]
+  - dialog [ref=f5e99]:
+    - generic [ref=f5e100]:
+      - link [ref=f5e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f5e102]: 로그인
+      - menuitem [ref=f5e103] [cursor=pointer]
+    - generic [ref=f5e105]:
+      - generic [ref=f5e106]:
+        - heading [level=4] [ref=f5e108]: 광고 라이브러리
+        - menuitem [ref=f5e110] [cursor=pointer]:
+          - heading [level=4] [ref=f5e112]: 광고 라이브러리 보고서
+        - menuitem [ref=f5e114] [cursor=pointer]:
+          - heading [level=4] [ref=f5e116]: 광고 라이브러리 API
+        - menuitem [ref=f5e118] [cursor=pointer]:
+          - heading [level=4] [ref=f5e120]: 브랜디드 콘텐츠
+      - separator [ref=f5e121]
+      - generic [ref=f5e122]:
+        - menuitem [ref=f5e124] [cursor=pointer]:
+          - heading [level=4] [ref=f5e126]: 시스템 상태
+        - menuitem [ref=f5e128] [cursor=pointer]:
+          - heading [level=4] [ref=f5e130]: 이메일 업데이트 구독
+        - menuitem [ref=f5e132] [cursor=pointer]:
+          - heading [level=4] [ref=f5e134]: FAQ
+        - menuitem [ref=f5e136] [cursor=pointer]:
+          - heading [level=4] [ref=f5e138]: 광고 및 데이터 사용 정보
+        - menuitem [ref=f5e140] [cursor=pointer]:
+          - heading [level=4] [ref=f5e142]: 개인 정보 보호
+        - menuitem [ref=f5e144] [cursor=pointer]:
+          - heading [level=4] [ref=f5e146]: 이용 약관
+        - menuitem [ref=f5e148] [cursor=pointer]:
+          - heading [level=4] [ref=f5e150]: 쿠키
+  - generic [ref=f5e151]:
+    - generic [ref=f5e185]:
+      - generic [ref=f5e191]:
+        - heading "결과 ~53개" [level=3] [ref=f5e193]
+        - generic [ref=f5e195]:
+          - text: 이 결과에는
+          - strong [ref=f5e196]: 키워드 검색어
+          - text: 와 일치하는 광고가 포함됩니다.
+      - generic [ref=f5e197]:
+        - generic [ref=f5e207]:
+          - button "필터" [ref=f5e208] [cursor=pointer]:
+            - generic [ref=f5e213]: 필터
+          - generic [ref=f5e215]:
+            - generic [ref=f5e221]: 정렬
+            - combobox "정렬" [ref=f5e226] [cursor=pointer]:
+              - generic [ref=f5e233]: 정렬 기준
+        - generic [ref=f5e236]:
+          - generic [ref=f5e238]:
+            - generic [ref=f5e240]:
+              - generic [ref=f5e241]:
+                - generic [ref=f5e248]: 활성
+                - generic [ref=f5e251]: "라이브러리 ID: 1210549237724261"
+                - generic [ref=f5e253]: 2026. 1. 23.에 게재 시작함
+                - generic [ref=f5e255]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e264] [cursor=pointer]:
+                - generic [ref=f5e267]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e270] [cursor=pointer]:
+              - generic [ref=f5e274]: 광고 상세 정보 보기
+            - separator [ref=f5e275]
+            - generic [ref=f5e280]:
+              - generic [ref=f5e282]:
+                - img "Growly marketing" [ref=f5e283]
+                - generic [ref=f5e285]:
+                  - link "Growly marketing" [ref=f5e286] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61586862802945/
+                  - generic [ref=f5e290]:
+                    - strong [ref=f5e292]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e293]:
+                - 'button "구글맵 DM 주시면 실제 외국인 검색어 트래픽 자료 보내드립니다😊 외국인 마케팅의 핵심. 구글맵 셀프 상단 노출하는법 알려드림. 관련성, 유명도, 거리만 확실하게 잡아도 순위 5단계는는 확실히 올라감. 안되면 직접 고쳐드립니다! #병원마케팅 #구글맵마케팅 #반영구교육" [ref=f5e296]':
+                  - generic [ref=f5e299]:
+                    - text: 구글맵 DM 주시면 실제 외국인 검색어 트래픽 자료 보내드립니다😊
+                    - text: 외국인 마케팅의 핵심. 구글맵 셀프 상단 노출하는법 알려드림. 관련성, 유명도, 거리만 확실하게 잡아도 순위 5단계는는 확실히 올라감. 안되면 직접 고쳐드립니다!
+                    - text: "#병원마케팅 #구글맵마케팅 #반영구교육"
+                - group "Video player" [ref=f5e309]:
+                  - button "동영상 재생" [ref=f5e311] [cursor=pointer]
+                  - generic [ref=f5e313]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:50
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM Growly marketing Instagram 프로필 방문" [ref=f5e315] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fgrowly_marketing_&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e316]:
+                    - generic [ref=f5e317]:
+                      - button "INSTAGRAM.COM" [ref=f5e319]:
+                        - generic [ref=f5e320]: INSTAGRAM.COM
+                      - button "Growly marketing" [ref=f5e322]:
+                        - generic [ref=f5e323]: Growly marketing
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f5e325]:
+                      - generic [ref=f5e329]: Instagram 프로필 방문
+          - generic [ref=f5e331]:
+            - generic [ref=f5e333]:
+              - generic [ref=f5e334]:
+                - generic [ref=f5e341]: 활성
+                - generic [ref=f5e344]: "라이브러리 ID: 2010369879889227"
+                - generic [ref=f5e346]: 2026. 3. 7.에 게재 시작함
+                - generic [ref=f5e348]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e362] [cursor=pointer]:
+                - generic [ref=f5e365]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e368] [cursor=pointer]:
+              - generic [ref=f5e372]: 광고 상세 정보 보기
+            - separator [ref=f5e373]
+            - generic [ref=f5e378]:
+              - generic [ref=f5e380]:
+                - img "와이더뷰티" [ref=f5e381]
+                - generic [ref=f5e383]:
+                  - link "와이더뷰티" [ref=f5e384] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100092279083662/
+                  - generic [ref=f5e388]:
+                    - strong [ref=f5e390]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e391]:
+                - 'button "병원은 왜 병원마케팅에서 한발 늦을까요? 결정에 늦기 때문이에요 회의는 길고 체크 할 건 많고 결정은 자꾸 미뤄지고 그 사이에 다른 병원 광고는 나가고 😱 소비자는 먼저 보인 병원으로 갑니다 병원마케팅은 아이디어 싸움이 아닌 속도싸움이에요. 속도! @yejin.kk 팔로우하시면 더 많은 #병원마케팅 정보 받아보실 수 있어요 😉 📩 자세한 문의는 DM 또는 플러스친구 [ 와이더뷰티 ]로 주세요! #병원 #의사 #마케팅" [ref=f5e394]':
+                  - generic [ref=f5e397]:
+                    - text: 병원은 왜
+                    - text: 병원마케팅에서 한발 늦을까요?
+                    - text: 결정에 늦기 때문이에요
+                    - text: 회의는 길고
+                    - text: 체크 할 건 많고
+                    - text: 결정은 자꾸 미뤄지고
+                    - text: 그 사이에
+                    - text: 다른 병원 광고는 나가고 😱
+                    - text: 소비자는 먼저 보인 병원으로 갑니다
+                    - text: 병원마케팅은
+                    - text: 아이디어 싸움이 아닌
+                    - text: 속도싸움이에요. 속도!
+                    - text: "@yejin.kk 팔로우하시면"
+                    - text: "더 많은 #병원마케팅 정보 받아보실 수 있어요 😉"
+                    - text: 📩 자세한 문의는 DM 또는
+                    - text: 플러스친구 [ 와이더뷰티 ]로 주세요!
+                    - text: "#병원 #의사 #마케팅"
+                - group "Video player" [ref=f5e408]:
+                  - button "동영상 재생" [ref=f5e410] [cursor=pointer]
+                  - generic [ref=f5e412]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:18
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM 와이더뷰티 Instagram 프로필 방문" [ref=f5e414] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fyejin.kk&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e415]:
+                    - generic [ref=f5e416]:
+                      - button "INSTAGRAM.COM" [ref=f5e418]:
+                        - generic [ref=f5e419]: INSTAGRAM.COM
+                      - button "와이더뷰티" [ref=f5e421]:
+                        - generic [ref=f5e422]: 와이더뷰티
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f5e424]:
+                      - generic [ref=f5e428]: Instagram 프로필 방문
+          - generic [ref=f5e430]:
+            - generic [ref=f5e432]:
+              - generic [ref=f5e433]:
+                - generic [ref=f5e440]: 활성
+                - generic [ref=f5e443]: "라이브러리 ID: 2702046773497022"
+                - generic [ref=f5e445]: 2025. 11. 13.에 게재 시작함
+                - generic [ref=f5e447]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e461] [cursor=pointer]:
+                - generic [ref=f5e464]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e467] [cursor=pointer]:
+              - generic [ref=f5e471]: 광고 상세 정보 보기
+            - separator [ref=f5e472]
+            - generic [ref=f5e477]:
+              - generic [ref=f5e479]:
+                - img "이상한마케팅 아카데미" [ref=f5e480]
+                - generic [ref=f5e482]:
+                  - link "이상한마케팅 아카데미" [ref=f5e483] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100089098874318/
+                  - generic [ref=f5e487]:
+                    - strong [ref=f5e489]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e490]:
+                - button "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨] 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다. 📍 병원 마케팅 업계 1위 이상한마케팅 📍 누적 대행 & 교육 건수 376곳 이상 📍 지난 7년간 지역 불문, 과목 불문 매출 상승 “나는 왜 광고비만 날릴까?” “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..” 답답했던 마케팅 문제, 이 강의 하나로 시원하게 뚫어드리겠습니다. 👇 지금, 무료 강의 8편 바로 보기👇" [ref=f5e493]:
+                  - generic [ref=f5e496]:
+                    - text: "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨]"
+                    - text: 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다.
+                    - text: 📍 병원 마케팅 업계 1위 이상한마케팅
+                    - text: 📍 누적 대행 & 교육 건수 376곳 이상
+                    - text: 📍 지난 7년간 지역 불문, 과목 불문 매출 상승
+                    - text: “나는 왜 광고비만 날릴까?”
+                    - text: “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..”
+                    - text: 답답했던 마케팅 문제,
+                    - text: 이 강의 하나로 시원하게 뚫어드리겠습니다.
+                    - text: 👇 지금, 무료 강의 8편 바로 보기👇
+                - group "Video player" [ref=f5e507]:
+                  - button "동영상 재생" [ref=f5e509] [cursor=pointer]
+                  - generic [ref=f5e511]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:40
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "LMS.ISANGHANACADEMY.CO.KR [매출 2배 보장] 병원 마케팅 All-in-One 강의 더 알아보기" [ref=f5e513] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Flms.isanghanacademy.co.kr%2Fcourse%2F7%3Futm_source%3D%257B%257Bsite_source_name%257D%257D%26utm_medium%3Ddisplay%26utm_campaign%3Dconversion_online_hospital%26utm_content%3D251031_%25EB%25B3%2591%25EC%259B%2590%25EC%2598%25AC%25EC%259D%25B8%25EC%259B%2590_%25ED%258E%2598%25EC%259D%25B8%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8_%25EC%259D%2598%25EB%25A3%258C%25EA%25B4%2591%25EA%25B3%25A0%25EB%25B2%2595_%25EC%259D%2598%25EB%25A3%258C%25EB%25B2%2595%2520%25EC%259C%2584%25EB%25B0%2598%25EC%259C%25BC%25EB%25A1%259C%2520%25EB%25B3%2591%25EC%259B%2590%2520%25EB%25AC%25B8%25EB%258B%25AB%25EA%25B2%258C%2520%25EC%2583%259D%25EA%25B2%25BC%25EC%258A%25B5%25EB%258B%2588%25EB%258B%25A4..&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e514]:
+                    - generic [ref=f5e515]:
+                      - button "LMS.ISANGHANACADEMY.CO.KR" [ref=f5e517]:
+                        - generic [ref=f5e518]: LMS.ISANGHANACADEMY.CO.KR
+                      - button "[매출 2배 보장] 병원 마케팅 All-in-One 강의" [ref=f5e520]:
+                        - generic [ref=f5e521]: "[매출 2배 보장] 병원 마케팅 All-in-One 강의"
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e523]:
+                      - generic [ref=f5e527]: 더 알아보기
+          - generic [ref=f5e529]:
+            - generic [ref=f5e531]:
+              - generic [ref=f5e532]:
+                - generic [ref=f5e539]: 활성
+                - generic [ref=f5e542]: "라이브러리 ID: 1404566581436592"
+                - generic [ref=f5e544]: 2026. 5. 4.에 게재 시작함
+                - generic [ref=f5e546]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e560] [cursor=pointer]:
+                - generic [ref=f5e563]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e566] [cursor=pointer]:
+              - generic [ref=f5e570]: 광고 상세 정보 보기
+            - separator [ref=f5e571]
+            - generic [ref=f5e576]:
+              - generic [ref=f5e578]:
+                - img "와이더뷰티" [ref=f5e579]
+                - generic [ref=f5e581]:
+                  - link "와이더뷰티" [ref=f5e582] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100092279083662/
+                  - generic [ref=f5e586]:
+                    - strong [ref=f5e588]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e589]:
+                - 'button "“이제 잘 되니까 광고 끊어도 되겠지?” 이렇게 생각하시고 광고를 멈추신 원장님이 계셨습니다.😨 처음에는 괜찮았습니다. 기존 환자들이 있었거든요.😉 하지만...!!! [ 한 달 뒤 ] 신규 문의 0 [ 두 달 뒤 ] 예약률 급감 [ 세 달 뒤 ] 병원 분위기 완전히 하락 결국 다시 광고를 시작했지만 이미 흐름이 끊긴 상태라 회복하는 데 훨씬 더 오래 걸렸습니다. 🥺 병원마케팅은요, 잘될 때 멈추는 게 아니라 잘될 때 유지해야 하는 겁니다. 광고는 선택이 아니라 유지입니다 !! - @yejin.kk 팔로우하시면 더 많은 #병원마케팅 정보 받아보실 수 있어요 문의는 DM 또는 플러스친구 [ 와이더뷰티 ]로 주세요 #병원 #의사 #병원광고" [ref=f5e592]':
+                  - generic [ref=f5e595]:
+                    - text: “이제 잘 되니까 광고 끊어도 되겠지?”
+                    - text: 이렇게 생각하시고
+                    - text: 광고를 멈추신 원장님이 계셨습니다.😨
+                    - text: 처음에는 괜찮았습니다.
+                    - text: 기존 환자들이 있었거든요.😉
+                    - text: 하지만...!!!
+                    - text: "[ 한 달 뒤 ]"
+                    - text: 신규 문의 0
+                    - text: "[ 두 달 뒤 ]"
+                    - text: 예약률 급감
+                    - text: "[ 세 달 뒤 ]"
+                    - text: 병원 분위기 완전히 하락
+                    - text: 결국 다시 광고를 시작했지만
+                    - text: 이미 흐름이 끊긴 상태라
+                    - text: 회복하는 데 훨씬 더 오래 걸렸습니다. 🥺
+                    - text: 병원마케팅은요,
+                    - text: 잘될 때 멈추는 게 아니라
+                    - text: 잘될 때 유지해야 하는 겁니다.
+                    - text: 광고는 선택이 아니라
+                    - text: 유지입니다 !!
+                    - text: "-"
+                    - text: "@yejin.kk 팔로우하시면"
+                    - text: "더 많은 #병원마케팅 정보 받아보실 수 있어요"
+                    - text: 문의는 DM 또는
+                    - text: 플러스친구 [ 와이더뷰티 ]로 주세요
+                    - text: "#병원 #의사 #병원광고"
+                - group "Video player" [ref=f5e606]:
+                  - button "동영상 재생" [ref=f5e608] [cursor=pointer]
+                  - generic [ref=f5e610]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:25
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM 와이더뷰티 Instagram 프로필 방문" [ref=f5e612] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fyejin.kk&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e613]:
+                    - generic [ref=f5e614]:
+                      - button "INSTAGRAM.COM" [ref=f5e616]:
+                        - generic [ref=f5e617]: INSTAGRAM.COM
+                      - button "와이더뷰티" [ref=f5e619]:
+                        - generic [ref=f5e620]: 와이더뷰티
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f5e622]:
+                      - generic [ref=f5e626]: Instagram 프로필 방문
+          - generic [ref=f5e628]:
+            - generic [ref=f5e630]:
+              - generic [ref=f5e631]:
+                - generic [ref=f5e638]: 활성
+                - generic [ref=f5e641]: "라이브러리 ID: 1344457400518677"
+                - generic [ref=f5e643]: 2026. 7. 8.에 게재 시작함
+                - generic [ref=f5e645]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e674] [cursor=pointer]:
+                - generic [ref=f5e677]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e680] [cursor=pointer]:
+              - generic [ref=f5e684]: 광고 상세 정보 보기
+            - separator [ref=f5e685]
+            - generic [ref=f5e690]:
+              - generic [ref=f5e692]:
+                - img "700여개 카테고리 전문가 찾기, 크몽" [ref=f5e693]
+                - generic [ref=f5e695]:
+                  - link "700여개 카테고리 전문가 찾기, 크몽" [ref=f5e696] [cursor=pointer]:
+                    - /url: https://www.facebook.com/kmong.brand/
+                  - generic [ref=f5e700]:
+                    - strong [ref=f5e702]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e703]:
+                - button "블로그 따로, 플레이스 따로, 영상 촬영 따로...🤦‍♂️ 대행사 여러 군데 소통하느라 진료 시간까지 뺏기고 계시진 않나요? 실제 병원장님들의 까다로운 리뷰 기반 엄선된 상위 1% 병원 마케팅 전문가들에게 의뢰해 보세요. ✅ 블로그 & SNS 운영은 기본 ✅ 잠재 고객을 이끄는 플레이스 마케팅 ✅ 병원의 신뢰도를 높이는 홈페이지 제작 ✅ 환자의 마음을 움직이는 영상 기획 및 촬영까지!" [ref=f5e706]:
+                  - generic [ref=f5e709]:
+                    - text: 블로그 따로, 플레이스 따로, 영상 촬영 따로...🤦‍♂️
+                    - text: 대행사 여러 군데 소통하느라 진료 시간까지 뺏기고 계시진 않나요?
+                    - text: 실제 병원장님들의 까다로운 리뷰 기반
+                    - text: 엄선된 상위 1% 병원 마케팅 전문가들에게 의뢰해 보세요.
+                    - text: ✅ 블로그 & SNS 운영은 기본
+                    - text: ✅ 잠재 고객을 이끄는 플레이스 마케팅
+                    - text: ✅ 병원의 신뢰도를 높이는 홈페이지 제작
+                    - text: ✅ 환자의 마음을 움직이는 영상 기획 및 촬영까지!
+                - 'link "KMONG.COM 병원 마케팅의 모든 것, 크몽 전문가 (주)크몽서울시 서초구 사임당로 157, 3층대표 : 박현호, 김태헌사업자등록번호 : 613-81-65278사업자 정보확인통신판매업신고 : 2018-서울서초-2134유료직업소개사업등록번호 : 제2021-3210195-14-5-00035호고객센터 : 1544-6254호스팅 사업자: A... 더 알아보기" [ref=f5e711] [cursor=pointer]':
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabr.ge%2F%40kmong1%2Ffacebook.business%3Fad_creative%3D%257B%257Bad.name%257D%257D%26ad_creative_id%3D%257B%257Bad.id%257D%257D%26ad_group%3D%257B%257Badset.name%257D%257D%26ad_group_id%3D%257B%257Badset.id%257D%257D%26campaign%3D%257B%257Bcampaign.name%257D%257D%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26routing_short_id%3D6ywwcq%26sub_id%3D%257B%257Bsite_source_name%257D%257D%26sub_id_1%3D%257B%257Bplacement%257D%257D%26tracking_template_id%3Db30210f93c00062bf5a008b2a5fee46f%26ad_type%3Dclick&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e713]:
+                    - generic [ref=f5e714]:
+                      - button "KMONG.COM" [ref=f5e716]:
+                        - generic [ref=f5e717]: KMONG.COM
+                      - button "병원 마케팅의 모든 것, 크몽 전문가" [ref=f5e719]:
+                        - generic [ref=f5e720]: 병원 마케팅의 모든 것, 크몽 전문가
+                      - 'button "(주)크몽서울시 서초구 사임당로 157, 3층대표 : 박현호, 김태헌사업자등록번호 : 613-81-65278사업자 정보확인통신판매업신고 : 2018-서울서초-2134유료직업소개사업등록번호 : 제2021-3210195-14-5-00035호고객센터 : 1544-6254호스팅 사업자: A..." [ref=f5e722]':
+                        - generic [ref=f5e723]: "(주)크몽서울시 서초구 사임당로 157, 3층대표 : 박현호, 김태헌사업자등록번호 : 613-81-65278사업자 정보확인통신판매업신고 : 2018-서울서초-2134유료직업소개사업등록번호 : 제2021-3210195-14-5-00035호고객센터 : 1544-6254호스팅 사업자: A..."
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e725]:
+                      - generic [ref=f5e729]: 더 알아보기
+          - generic [ref=f5e731]:
+            - generic [ref=f5e733]:
+              - generic [ref=f5e734]:
+                - generic [ref=f5e741]: 활성
+                - generic [ref=f5e744]: "라이브러리 ID: 1154219570132137"
+                - generic [ref=f5e746]: 2025. 11. 13.에 게재 시작함
+                - generic [ref=f5e748]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e762] [cursor=pointer]:
+                - generic [ref=f5e765]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e768] [cursor=pointer]:
+              - generic [ref=f5e772]: 광고 상세 정보 보기
+            - separator [ref=f5e773]
+            - generic [ref=f5e778]:
+              - generic [ref=f5e780]:
+                - img "이상한마케팅 아카데미" [ref=f5e781]
+                - generic [ref=f5e783]:
+                  - link "이상한마케팅 아카데미" [ref=f5e784] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100089098874318/
+                  - generic [ref=f5e788]:
+                    - strong [ref=f5e790]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e791]:
+                - button "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨] 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다. 📍 병원 마케팅 업계 1위 이상한마케팅 📍 누적 대행 & 교육 건수 376곳 이상 📍 지난 7년간 지역 불문, 과목 불문 매출 상승 “나는 왜 광고비만 날릴까?” “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..” 답답했던 마케팅 문제, 이 강의 하나로 시원하게 뚫어드리겠습니다. 👇 지금, 무료 강의 8편 바로 보기👇" [ref=f5e794]:
+                  - generic [ref=f5e797]:
+                    - text: "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨]"
+                    - text: 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다.
+                    - text: 📍 병원 마케팅 업계 1위 이상한마케팅
+                    - text: 📍 누적 대행 & 교육 건수 376곳 이상
+                    - text: 📍 지난 7년간 지역 불문, 과목 불문 매출 상승
+                    - text: “나는 왜 광고비만 날릴까?”
+                    - text: “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..”
+                    - text: 답답했던 마케팅 문제,
+                    - text: 이 강의 하나로 시원하게 뚫어드리겠습니다.
+                    - text: 👇 지금, 무료 강의 8편 바로 보기👇
+                - group "Video player" [ref=f5e808]:
+                  - button "동영상 재생" [ref=f5e810] [cursor=pointer]
+                  - generic [ref=f5e812]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:43
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "LMS.ISANGHANACADEMY.CO.KR [매출 2배 보장] 병원 마케팅 All-in-One 강의 더 알아보기" [ref=f5e814] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Flms.isanghanacademy.co.kr%2Fcourse%2F7%3Futm_source%3D%257B%257Bsite_source_name%257D%257D%26utm_medium%3Ddisplay%26utm_campaign%3Dconversion_online_hospital%26utm_content%3D251031_%25EB%25B3%2591%25EC%259B%2590%25EC%2598%25AC%25EC%259D%25B8%25EC%259B%2590_usp_%25EA%25B0%2580%25EC%25B9%2598%25EC%259E%2585%25EC%25A6%259D_%25EC%2595%2584%25EB%258B%2588%25EC%2595%2584%25EB%258B%2588%2520%25ED%258C%258C%25ED%258A%25B8%25EC%259E%25A5%25EB%258B%2598&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e815]:
+                    - generic [ref=f5e816]:
+                      - button "LMS.ISANGHANACADEMY.CO.KR" [ref=f5e818]:
+                        - generic [ref=f5e819]: LMS.ISANGHANACADEMY.CO.KR
+                      - button "[매출 2배 보장] 병원 마케팅 All-in-One 강의" [ref=f5e821]:
+                        - generic [ref=f5e822]: "[매출 2배 보장] 병원 마케팅 All-in-One 강의"
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e824]:
+                      - generic [ref=f5e828]: 더 알아보기
+          - generic [ref=f5e830]:
+            - generic [ref=f5e832]:
+              - generic [ref=f5e833]:
+                - generic [ref=f5e840]: 활성
+                - generic [ref=f5e843]: "라이브러리 ID: 24465113666500014"
+                - generic [ref=f5e845]: 2025. 11. 14.에 게재 시작함
+                - generic [ref=f5e847]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e861] [cursor=pointer]:
+                - generic [ref=f5e864]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e867] [cursor=pointer]:
+              - generic [ref=f5e871]: 광고 상세 정보 보기
+            - separator [ref=f5e872]
+            - generic [ref=f5e877]:
+              - generic [ref=f5e879]:
+                - img "이상한마케팅 아카데미" [ref=f5e880]
+                - generic [ref=f5e882]:
+                  - link "이상한마케팅 아카데미" [ref=f5e883] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100089098874318/
+                  - generic [ref=f5e887]:
+                    - strong [ref=f5e889]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e890]:
+                - button "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨] 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다. 📍 병원 마케팅 업계 1위 이상한마케팅 📍 누적 대행 & 교육 건수 376곳 이상 📍 지난 7년간 지역 불문, 과목 불문 매출 상승 “나는 왜 광고비만 날릴까?” “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..” 답답했던 마케팅 문제, 이 강의 하나로 시원하게 뚫어드리겠습니다. 👇 지금, 무료 강의 8편 바로 보기👇" [ref=f5e893]:
+                  - generic [ref=f5e896]:
+                    - text: "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨]"
+                    - text: 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다.
+                    - text: 📍 병원 마케팅 업계 1위 이상한마케팅
+                    - text: 📍 누적 대행 & 교육 건수 376곳 이상
+                    - text: 📍 지난 7년간 지역 불문, 과목 불문 매출 상승
+                    - text: “나는 왜 광고비만 날릴까?”
+                    - text: “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..”
+                    - text: 답답했던 마케팅 문제,
+                    - text: 이 강의 하나로 시원하게 뚫어드리겠습니다.
+                    - text: 👇 지금, 무료 강의 8편 바로 보기👇
+                - group "Video player" [ref=f5e907]:
+                  - button "동영상 재생" [ref=f5e909] [cursor=pointer]
+                  - generic [ref=f5e911]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "LMS.ISANGHANACADEMY.CO.KR [매출 2배 보장] 병원 마케팅 All-in-One 강의 더 알아보기" [ref=f5e913] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Flms.isanghanacademy.co.kr%2Fcourse%2F7%3Futm_source%3D%257B%257Bsite_source_name%257D%257D%26utm_medium%3Ddisplay%26utm_campaign%3Dconversion_online_hospital%26utm_content%3D20250806_%25EB%25B3%2591%25EC%259B%2590%25EC%2598%25AC%25EC%259D%25B8%25EC%259B%2590_usp_%25ED%2595%25A0%25EC%259D%25B8_%25ED%2594%2584%25EB%25A1%259C%25EB%25AA%25A8%25EC%2585%2598_8.6~8.12%25ED%2595%259C%25EC%25A0%2595%2520%25EC%2598%25A4%25ED%2594%2588%25ED%258A%25B9%25EA%25B0%2580%25ED%2595%25A0%25EC%259D%25B8_[sw_7]&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e914]:
+                    - generic [ref=f5e915]:
+                      - button "LMS.ISANGHANACADEMY.CO.KR" [ref=f5e917]:
+                        - generic [ref=f5e918]: LMS.ISANGHANACADEMY.CO.KR
+                      - button "[매출 2배 보장] 병원 마케팅 All-in-One 강의" [ref=f5e920]:
+                        - generic [ref=f5e921]: "[매출 2배 보장] 병원 마케팅 All-in-One 강의"
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e923]:
+                      - generic [ref=f5e927]: 더 알아보기
+          - generic [ref=f5e929]:
+            - generic [ref=f5e931]:
+              - generic [ref=f5e932]:
+                - generic [ref=f5e939]: 활성
+                - generic [ref=f5e942]: "라이브러리 ID: 1564818541699833"
+                - generic [ref=f5e944]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f5e946]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e960] [cursor=pointer]:
+                - generic [ref=f5e963]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e966] [cursor=pointer]:
+              - generic [ref=f5e970]: 광고 상세 정보 보기
+            - separator [ref=f5e971]
+            - generic [ref=f5e976]:
+              - generic [ref=f5e978]:
+                - img "라온마케팅" [ref=f5e979]
+                - generic [ref=f5e981]:
+                  - link "라온마케팅" [ref=f5e982] [cursor=pointer]:
+                    - /url: https://www.facebook.com/laonmarketing/
+                  - generic [ref=f5e986]:
+                    - strong [ref=f5e988]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e989]:
+                - button "복잡한 AI 마케팅 점검, 딱 한 번으로 끝납니다." [ref=f5e992]:
+                  - generic [ref=f5e994]: 복잡한 AI 마케팅 점검, 딱 한 번으로 끝납니다.
+                - link "HTTPS://WWW.LAONMARKETING.CO.KR/ 우리 병원 AI 검색 노출 현황, 클릭 한 번으로 확인하세요. 복잡한 분석도, 긴 상담도 필요 없습니다. 라온마케팅의 병원마케팅 AI 진단은 딱 한 번의 신청으로 검색 노출 현황부터 개선 포인트까지 한 번에 확인할 수 있습니다. 지금 바로 무료로 받아보세요. 지금 신청하기" [ref=f5e995] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.laonmarketing.co.kr%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e997]:
+                    - generic [ref=f5e998]:
+                      - button "HTTPS://WWW.LAONMARKETING.CO.KR/" [ref=f5e1000]:
+                        - generic [ref=f5e1001]: HTTPS://WWW.LAONMARKETING.CO.KR/
+                      - button "우리 병원 AI 검색 노출 현황, 클릭 한 번으로 확인하세요." [ref=f5e1003]:
+                        - generic [ref=f5e1004]: 우리 병원 AI 검색 노출 현황, 클릭 한 번으로 확인하세요.
+                      - button "복잡한 분석도, 긴 상담도 필요 없습니다. 라온마케팅의 병원마케팅 AI 진단은 딱 한 번의 신청으로 검색 노출 현황부터 개선 포인트까지 한 번에 확인할 수 있습니다. 지금 바로 무료로 받아보세요." [ref=f5e1006]:
+                        - generic [ref=f5e1007]: 복잡한 분석도, 긴 상담도 필요 없습니다. 라온마케팅의 병원마케팅 AI 진단은 딱 한 번의 신청으로 검색 노출 현황부터 개선 포인트까지 한 번에 확인할 수 있습니다. 지금 바로 무료로 받아보세요.
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [ref=f5e1009]:
+                      - generic [ref=f5e1013]: 지금 신청하기
+          - generic [ref=f5e1015]:
+            - generic [ref=f5e1017]:
+              - generic [ref=f5e1018]:
+                - generic [ref=f5e1025]: 활성
+                - generic [ref=f5e1028]: "라이브러리 ID: 1010583828558411"
+                - generic [ref=f5e1030]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f5e1032]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1061] [cursor=pointer]:
+                - generic [ref=f5e1064]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1067] [cursor=pointer]:
+              - generic [ref=f5e1071]: 광고 상세 정보 보기
+            - separator [ref=f5e1072]
+            - generic [ref=f5e1077]:
+              - generic [ref=f5e1079]:
+                - img "BeyondClass" [ref=f5e1080]
+                - generic [ref=f5e1082]:
+                  - link "BeyondClass" [ref=f5e1083] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61590612303905/
+                  - generic [ref=f5e1087]:
+                    - strong [ref=f5e1089]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1090]:
+                - button "14년 차 실무진의 노하우를 흡수하고 고수익 마케터로 거듭나는 방법, 무료 특강으로 시작하세요." [ref=f5e1093]:
+                  - generic [ref=f5e1095]: 14년 차 실무진의 노하우를 흡수하고 고수익 마케터로 거듭나는 방법, 무료 특강으로 시작하세요.
+                - group "Video player" [ref=f5e1105]:
+                  - button "동영상 재생" [ref=f5e1107] [cursor=pointer]
+                  - generic [ref=f5e1109]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:27
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "WWW.BEYONDCLASS.CO.KR 바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행] 무료강의를 지금 바로 신청하세요! 지금 신청하기" [ref=f5e1111] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.beyondclass.co.kr%2Fcourse%2Fcourse_view.jsp%3Fid%3D204854%26cid%3D118390%23course-view-204854&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1112]:
+                    - generic [ref=f5e1113]:
+                      - button "WWW.BEYONDCLASS.CO.KR" [ref=f5e1115]:
+                        - generic [ref=f5e1116]: WWW.BEYONDCLASS.CO.KR
+                      - button "바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]" [ref=f5e1118]:
+                        - generic [ref=f5e1119]: 바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]
+                      - button "무료강의를 지금 바로 신청하세요!" [ref=f5e1121]:
+                        - generic [ref=f5e1122]: 무료강의를 지금 바로 신청하세요!
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [ref=f5e1124]:
+                      - generic [ref=f5e1128]: 지금 신청하기
+          - generic [ref=f5e1130]:
+            - generic [ref=f5e1132]:
+              - generic [ref=f5e1133]:
+                - generic [ref=f5e1140]: 활성
+                - generic [ref=f5e1143]: "라이브러리 ID: 1304411665109007"
+                - generic [ref=f5e1145]: 2026. 7. 10.에 게재 시작함
+                - generic [ref=f5e1147]: 플랫폼
+                - generic [ref=f5e1176]: 여러 버전이 있는 광고입니다
+              - button "드롭다운 열기" [ref=f5e1183] [cursor=pointer]:
+                - generic [ref=f5e1186]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1189] [cursor=pointer]:
+              - generic [ref=f5e1193]: 광고 상세 정보 보기
+            - separator [ref=f5e1194]
+            - generic [ref=f5e1199]:
+              - generic [ref=f5e1202]:
+                - img "(주)인사커뮤니케이션" [ref=f5e1203]
+                - generic [ref=f5e1205]:
+                  - link "(주)인사커뮤니케이션" [ref=f5e1206] [cursor=pointer]:
+                    - /url: https://www.facebook.com/insacommunication/
+                  - generic [ref=f5e1210]:
+                    - strong [ref=f5e1212]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1214]:
+                - button "📌 병원 마케팅 24년 경력 대행사❗ 병원 마케팅은 인사메디컴입니다. 24년간 의료마케팅 한 길을 걸어온 인사메디컴. 치과, 내과, 피부과, 이비인후과, 정형외과 등 다양한 진료과 성공 사례와 노하우를 보유하고 있습니다. ✨올인원 마케팅✨으로 까다로운 의료법과 의료심의까지 빈틈없이 책임집니다. 병원 마케팅, 핵심만 철저하게! ✔️ 24년 데이터 기반, 내 병원에 딱 맞춘 콘텐츠 기획 ✔️ 홈페이지 제작부터 철저한 유지보수까지 원스톱 ✔️ 검색 유저를 실제 예약과 내원으로 연결하는 구조 형성 ✔️ 상품만 선택하면 알아서 척척! 인사메디컴은 다릅니다❗ ✅ 온라인 병원 마케팅 24년의 독보적인 업력 ✅ 구글 공식 파트너 인증 대행사 ✅ 긴 세월 동안 검증된 확실한 신환 유입 결과 24년의 내공은 흉내 낼 수 없습니다. 이제 진짜 전문가에게 맡기세요!" [ref=f5e1217]:
+                  - generic [ref=f5e1220]:
+                    - text: 📌 병원 마케팅 24년 경력 대행사❗ 병원 마케팅은 인사메디컴입니다.
+                    - text: 24년간 의료마케팅 한 길을 걸어온 인사메디컴.
+                    - text: 치과, 내과, 피부과, 이비인후과, 정형외과 등 다양한 진료과 성공 사례와 노하우를 보유하고 있습니다.
+                    - text: ✨올인원 마케팅✨으로 까다로운 의료법과 의료심의까지 빈틈없이 책임집니다.
+                    - text: 병원 마케팅, 핵심만 철저하게!
+                    - text: ✔️ 24년 데이터 기반, 내 병원에 딱 맞춘 콘텐츠 기획
+                    - text: ✔️ 홈페이지 제작부터 철저한 유지보수까지 원스톱
+                    - text: ✔️ 검색 유저를 실제 예약과 내원으로 연결하는 구조 형성
+                    - text: ✔️ 상품만 선택하면 알아서 척척!
+                    - text: 인사메디컴은 다릅니다❗
+                    - text: ✅ 온라인 병원 마케팅 24년의 독보적인 업력
+                    - text: ✅ 구글 공식 파트너 인증 대행사
+                    - text: ✅ 긴 세월 동안 검증된 확실한 신환 유입 결과
+                    - text: 24년의 내공은 흉내 낼 수 없습니다. 이제 진짜 전문가에게 맡기세요!
+                - link "24년 경력 병원마케팅 대행사｜인사메디컴 클라이언트 평균 유지율 10년 이상이 증명하는 신뢰❗ 병원 마케팅은 인사메디컴 Learn More" [ref=f5e1221] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedi.insaweb.co.kr%2Fhome%2Findex.php&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1223]:
+                    - generic [ref=f5e1224]:
+                      - generic:
+                        - button
+                      - button "24년 경력 병원마케팅 대행사｜인사메디컴" [ref=f5e1226]:
+                        - generic [ref=f5e1227]: 24년 경력 병원마케팅 대행사｜인사메디컴
+                      - button "클라이언트 평균 유지율 10년 이상이 증명하는 신뢰❗ 병원 마케팅은 인사메디컴" [ref=f5e1229]:
+                        - generic [ref=f5e1230]: 클라이언트 평균 유지율 10년 이상이 증명하는 신뢰❗ 병원 마케팅은 인사메디컴
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=f5e1232]:
+                      - generic [ref=f5e1236]: Learn More
+          - generic [ref=f5e1238]:
+            - generic [ref=f5e1240]:
+              - generic [ref=f5e1241]:
+                - generic [ref=f5e1248]: 활성
+                - generic [ref=f5e1251]: "라이브러리 ID: 1884597868806727"
+                - generic [ref=f5e1253]: 2025. 11. 13.에 게재 시작함
+                - generic [ref=f5e1255]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1269] [cursor=pointer]:
+                - generic [ref=f5e1272]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1275] [cursor=pointer]:
+              - generic [ref=f5e1279]: 광고 상세 정보 보기
+            - separator [ref=f5e1280]
+            - generic [ref=f5e1285]:
+              - generic [ref=f5e1287]:
+                - img "이상한마케팅 아카데미" [ref=f5e1288]
+                - generic [ref=f5e1290]:
+                  - link "이상한마케팅 아카데미" [ref=f5e1291] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100089098874318/
+                  - generic [ref=f5e1295]:
+                    - strong [ref=f5e1297]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1298]:
+                - button "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨] 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다. 📍 병원 마케팅 업계 1위 이상한마케팅 📍 누적 대행 & 교육 건수 376곳 이상 📍 지난 7년간 지역 불문, 과목 불문 매출 상승 “나는 왜 광고비만 날릴까?” “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..” 답답했던 마케팅 문제, 이 강의 하나로 시원하게 뚫어드리겠습니다. 👇 지금, 무료 강의 8편 바로 보기👇" [ref=f5e1301]:
+                  - generic [ref=f5e1304]:
+                    - text: "[🚨 병원마케팅 All-in-One 무료 8강 공개 🚨]"
+                    - text: 병원 매출 2배 못 올리면 수강료 환불해드리겠습니다.
+                    - text: 📍 병원 마케팅 업계 1위 이상한마케팅
+                    - text: 📍 누적 대행 & 교육 건수 376곳 이상
+                    - text: 📍 지난 7년간 지역 불문, 과목 불문 매출 상승
+                    - text: “나는 왜 광고비만 날릴까?”
+                    - text: “진료는 잘하는데, 경쟁 병원에게 밀리는거같아..”
+                    - text: 답답했던 마케팅 문제,
+                    - text: 이 강의 하나로 시원하게 뚫어드리겠습니다.
+                    - text: 👇 지금, 무료 강의 8편 바로 보기👇
+                - group "Video player" [ref=f5e1315]:
+                  - button "동영상 재생" [ref=f5e1317] [cursor=pointer]
+                  - generic [ref=f5e1319]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "LMS.ISANGHANACADEMY.CO.KR [매출 2배 보장] 병원 마케팅 All-in-One 강의 더 알아보기" [ref=f5e1321] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Flms.isanghanacademy.co.kr%2Fcourse%2F7%3Futm_source%3D%257B%257Bsite_source_name%257D%257D%26utm_medium%3Ddisplay%26utm_campaign%3Dconversion_online_hospital%26utm_content%3D20250806_%25EB%25B3%2591%25EC%259B%2590%25EC%2598%25AC%25EC%259D%25B8%25EC%259B%2590_usp_%25EC%258A%25B9%25EC%259A%25B0%25ED%259C%25B4%25EB%25A8%25BC&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1322]:
+                    - generic [ref=f5e1323]:
+                      - button "LMS.ISANGHANACADEMY.CO.KR" [ref=f5e1325]:
+                        - generic [ref=f5e1326]: LMS.ISANGHANACADEMY.CO.KR
+                      - button "[매출 2배 보장] 병원 마케팅 All-in-One 강의" [ref=f5e1328]:
+                        - generic [ref=f5e1329]: "[매출 2배 보장] 병원 마케팅 All-in-One 강의"
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e1331]:
+                      - generic [ref=f5e1335]: 더 알아보기
+          - generic [ref=f5e1337]:
+            - generic [ref=f5e1339]:
+              - generic [ref=f5e1340]:
+                - generic [ref=f5e1347]: 활성
+                - generic [ref=f5e1350]: "라이브러리 ID: 1057841633582083"
+                - generic [ref=f5e1352]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f5e1354]: 플랫폼
+                - generic [ref=f5e1373]: 여러 버전이 있는 광고입니다
+              - button "드롭다운 열기" [ref=f5e1380] [cursor=pointer]:
+                - generic [ref=f5e1383]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1386] [cursor=pointer]:
+              - generic [ref=f5e1390]: 광고 상세 정보 보기
+            - separator [ref=f5e1391]
+            - generic [ref=f5e1396]:
+              - generic [ref=f5e1399]:
+                - img "신디마케팅" [ref=f5e1400]
+                - generic [ref=f5e1402]:
+                  - link "신디마케팅" [ref=f5e1403] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61577540349365/
+                  - generic [ref=f5e1407]:
+                    - strong [ref=f5e1409]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1411]:
+                - button "신환 안 늘어 고민이라면? 병원 마케팅 맡기세요" [ref=f5e1414]:
+                  - generic [ref=f5e1416]: 신환 안 늘어 고민이라면? 병원 마케팅 맡기세요
+                - link "병원 신환·매출, 마케팅으로 키우세요 의료법 준수부터 성과 중심 운영까지, 병원 전문 마케팅으로 신환 확보를 도와드립니다. 지금 상담 받아보세요. Apply Now" [ref=f5e1417] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1419]:
+                    - generic [ref=f5e1420]:
+                      - generic:
+                        - button
+                      - button "병원 신환·매출, 마케팅으로 키우세요" [ref=f5e1422]:
+                        - generic [ref=f5e1423]: 병원 신환·매출, 마케팅으로 키우세요
+                      - button "의료법 준수부터 성과 중심 운영까지, 병원 전문 마케팅으로 신환 확보를 도와드립니다. 지금 상담 받아보세요." [ref=f5e1425]:
+                        - generic [ref=f5e1426]: 의료법 준수부터 성과 중심 운영까지, 병원 전문 마케팅으로 신환 확보를 도와드립니다. 지금 상담 받아보세요.
+                      - generic:
+                        - button
+                    - button "Apply Now" [disabled] [ref=f5e1428]:
+                      - generic [ref=f5e1432]: Apply Now
+          - generic [ref=f5e1434]:
+            - generic [ref=f5e1436]:
+              - generic [ref=f5e1437]:
+                - generic [ref=f5e1444]: 활성
+                - generic [ref=f5e1447]: "라이브러리 ID: 4495461797340168"
+                - generic [ref=f5e1449]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f5e1451]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1465] [cursor=pointer]:
+                - generic [ref=f5e1468]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1471] [cursor=pointer]:
+              - generic [ref=f5e1475]: 광고 상세 정보 보기
+            - separator [ref=f5e1476]
+            - generic [ref=f5e1481]:
+              - generic [ref=f5e1483]:
+                - img "라온마케팅" [ref=f5e1484]
+                - generic [ref=f5e1486]:
+                  - link "라온마케팅" [ref=f5e1487] [cursor=pointer]:
+                    - /url: https://www.facebook.com/laonmarketing/
+                  - generic [ref=f5e1491]:
+                    - strong [ref=f5e1493]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1494]:
+                - button "AI 병원마케팅 진단, 진료과별 선착순 마감 중입니다." [ref=f5e1497]:
+                  - generic [ref=f5e1499]: AI 병원마케팅 진단, 진료과별 선착순 마감 중입니다.
+                - link "HTTPS://WWW.LAONMARKETING.CO.KR/ 피부과·성형외과는 이미 마감되었습니다. 지금 신청하지 않으면 우리 병원 차례가 없습니다. 피부과·성형외과는 이미 모집이 마감됐습니다. 지금 진행 중인 기타 진료과도 선별 점검 중으로, 아쉽게도 모든 병원이 진단을 받을 수 있는 건 아닙니다. 우리 병원이 대상인지, 지금 바로 확인해 보세요. 지금 신청하기" [ref=f5e1500] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.laonmarketing.co.kr%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1502]:
+                    - generic [ref=f5e1503]:
+                      - button "HTTPS://WWW.LAONMARKETING.CO.KR/" [ref=f5e1505]:
+                        - generic [ref=f5e1506]: HTTPS://WWW.LAONMARKETING.CO.KR/
+                      - button "피부과·성형외과는 이미 마감되었습니다. 지금 신청하지 않으면 우리 병원 차례가 없습니다." [ref=f5e1508]:
+                        - generic [ref=f5e1509]: 피부과·성형외과는 이미 마감되었습니다. 지금 신청하지 않으면 우리 병원 차례가 없습니다.
+                      - button "피부과·성형외과는 이미 모집이 마감됐습니다. 지금 진행 중인 기타 진료과도 선별 점검 중으로, 아쉽게도 모든 병원이 진단을 받을 수 있는 건 아닙니다. 우리 병원이 대상인지, 지금 바로 확인해 보세요." [ref=f5e1511]:
+                        - generic [ref=f5e1512]: 피부과·성형외과는 이미 모집이 마감됐습니다. 지금 진행 중인 기타 진료과도 선별 점검 중으로, 아쉽게도 모든 병원이 진단을 받을 수 있는 건 아닙니다. 우리 병원이 대상인지, 지금 바로 확인해 보세요.
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [ref=f5e1514]:
+                      - generic [ref=f5e1518]: 지금 신청하기
+          - generic [ref=f5e1520]:
+            - generic [ref=f5e1522]:
+              - generic [ref=f5e1523]:
+                - generic [ref=f5e1530]: 활성
+                - generic [ref=f5e1533]: "라이브러리 ID: 1713890759760553"
+                - generic [ref=f5e1535]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f5e1537]: 플랫폼
+                - generic [ref=f5e1556]: 여러 버전이 있는 광고입니다
+              - button "드롭다운 열기" [ref=f5e1563] [cursor=pointer]:
+                - generic [ref=f5e1566]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1569] [cursor=pointer]:
+              - generic [ref=f5e1573]: 광고 상세 정보 보기
+            - separator [ref=f5e1574]
+            - generic [ref=f5e1579]:
+              - generic [ref=f5e1582]:
+                - img "BeyondClass" [ref=f5e1583]
+                - generic [ref=f5e1585]:
+                  - link "BeyondClass" [ref=f5e1586] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61590612303905/
+                  - generic [ref=f5e1590]:
+                    - strong [ref=f5e1592]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1594]:
+                - button "병원에서 일하고 계시는데 병원마케팅은 왜 안 하세요?" [ref=f5e1597]:
+                  - generic [ref=f5e1599]: 병원에서 일하고 계시는데 병원마케팅은 왜 안 하세요?
+                - group "Video player" [ref=f5e1609]:
+                  - button "동영상 재생" [ref=f5e1611] [cursor=pointer]
+                  - generic [ref=f5e1613]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:28
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "[선착순] 병원마케팅 대행 무료 특강 신청 7/28(화) 19:30 무료강의 Apply Now" [ref=f5e1615] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1616]:
+                    - generic [ref=f5e1617]:
+                      - generic:
+                        - button
+                      - button "[선착순] 병원마케팅 대행 무료 특강 신청" [ref=f5e1619]:
+                        - generic [ref=f5e1620]: "[선착순] 병원마케팅 대행 무료 특강 신청"
+                      - button "7/28(화) 19:30 무료강의" [ref=f5e1622]:
+                        - generic [ref=f5e1623]: 7/28(화) 19:30 무료강의
+                      - generic:
+                        - button
+                    - button "Apply Now" [disabled] [ref=f5e1625]:
+                      - generic [ref=f5e1629]: Apply Now
+          - generic [ref=f5e1631]:
+            - generic [ref=f5e1633]:
+              - generic [ref=f5e1634]:
+                - generic [ref=f5e1641]: 활성
+                - generic [ref=f5e1644]: "라이브러리 ID: 1577005293773545"
+                - generic [ref=f5e1646]: 2026. 7. 7.에 게재 시작함
+                - generic [ref=f5e1648]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1662] [cursor=pointer]:
+                - generic [ref=f5e1665]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1668] [cursor=pointer]:
+              - generic [ref=f5e1672]: 광고 상세 정보 보기
+            - separator [ref=f5e1673]
+            - generic [ref=f5e1678]:
+              - generic [ref=f5e1680]:
+                - img "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e1681]
+                - generic [ref=f5e1683]:
+                  - link "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e1684] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61589407330183/
+                  - generic [ref=f5e1688]:
+                    - strong [ref=f5e1690]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1691]:
+                - 'button "요즘 잘나가는 병원들의 공통점, 알고 계신가요? 좋은 의료진과 좋은 진료만으로는 환자에게 선택받기 어려운 시대입니다. 월드베스트는 📍 플레이스 상위노출 📝 블로그 운영 및 상위노출 📱 SNS 콘텐츠 제작 및 관리 🎥 유튜브 기획 · 촬영 · 편집 🏥 메디컬 플랫폼 운영 🎨 온·오프라인 디자인 💻 병원 홈페이지 제작까지! 병원에 필요한 모든 마케팅을 하나의 서비스로 제공해 드립니다. 📩 우리 병원에는 어떤 마케팅이 필요할지 궁금하시다면 댓글 또는 DM 남겨주세요. 병원에 맞는 운영 방향을 함께 제안드리겠습니다. #병원마케팅 #피부과마케팅 #성형외과마케팅 #병원광고 #올인원마케팅" [ref=f5e1694]':
+                  - generic [ref=f5e1697]:
+                    - text: 요즘 잘나가는 병원들의 공통점, 알고 계신가요?
+                    - text: 좋은 의료진과 좋은 진료만으로는
+                    - text: 환자에게 선택받기 어려운 시대입니다.
+                    - text: 월드베스트는
+                    - text: 📍 플레이스 상위노출
+                    - text: 📝 블로그 운영 및 상위노출
+                    - text: 📱 SNS 콘텐츠 제작 및 관리
+                    - text: 🎥 유튜브 기획 · 촬영 · 편집
+                    - text: 🏥 메디컬 플랫폼 운영
+                    - text: 🎨 온·오프라인 디자인
+                    - text: 💻 병원 홈페이지 제작까지!
+                    - text: 병원에 필요한 모든 마케팅을
+                    - text: 하나의 서비스로 제공해 드립니다.
+                    - text: 📩 우리 병원에는 어떤 마케팅이 필요할지 궁금하시다면 댓글 또는 DM 남겨주세요.
+                    - text: 병원에 맞는 운영 방향을 함께 제안드리겠습니다.
+                    - text: "#병원마케팅 #피부과마케팅 #성형외과마케팅 #병원광고 #올인원마케팅"
+                - group "Video player" [ref=f5e1708]:
+                  - button "동영상 재생" [ref=f5e1710] [cursor=pointer]
+                  - generic [ref=f5e1712]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:52
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "FB.ME Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅 자세히 보기" [ref=f5e1714] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1715]:
+                    - generic [ref=f5e1716]:
+                      - button "FB.ME" [ref=f5e1718]:
+                        - generic [ref=f5e1719]: FB.ME
+                      - button "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e1721]:
+                        - generic [ref=f5e1722]: Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "자세히 보기" [disabled] [ref=f5e1724]:
+                      - generic [ref=f5e1728]: 자세히 보기
+          - generic [ref=f5e1730]:
+            - generic [ref=f5e1732]:
+              - generic [ref=f5e1733]:
+                - generic [ref=f5e1740]: 활성
+                - generic [ref=f5e1743]: "라이브러리 ID: 4347852202134056"
+                - generic [ref=f5e1745]: 2026. 7. 10.에 게재 시작함
+                - generic [ref=f5e1747]: 플랫폼
+                - generic [ref=f5e1775]:
+                  - strong [ref=f5e1776]: 광고 2개
+                  - text: 에서 이 크리에이티브 및 문구를 사용합니다
+              - button "드롭다운 열기" [ref=f5e1779] [cursor=pointer]:
+                - generic [ref=f5e1782]: 드롭다운 열기
+            - button "요약 세부 사항 보기" [ref=f5e1785] [cursor=pointer]:
+              - generic [ref=f5e1789]: 요약 세부 사항 보기
+            - separator [ref=f5e1790]
+            - generic [ref=f5e1795]:
+              - generic [ref=f5e1797]:
+                - img "BeyondClass" [ref=f5e1798]
+                - generic [ref=f5e1800]:
+                  - link "BeyondClass" [ref=f5e1801] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61590612303905/
+                  - generic [ref=f5e1805]:
+                    - strong [ref=f5e1807]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1808]:
+                - button "14년 차 실무진의 노하우를 흡수하고 고수익 마케터로 거듭나는 방법, 무료 특강으로 시작하세요." [ref=f5e1811]:
+                  - generic [ref=f5e1813]: 14년 차 실무진의 노하우를 흡수하고 고수익 마케터로 거듭나는 방법, 무료 특강으로 시작하세요.
+                - group "Video player" [ref=f5e1823]:
+                  - button "동영상 재생" [ref=f5e1825] [cursor=pointer]
+                  - generic [ref=f5e1827]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:49
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.beyondclass.co.kr%2Fcourse%2Fcourse_view.jsp%3Fid%3D204854%26cid%3D118390%23course-view-204854&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+          - generic [ref=f5e1829]:
+            - generic [ref=f5e1831]:
+              - generic [ref=f5e1832]:
+                - generic [ref=f5e1839]: 활성
+                - generic [ref=f5e1842]: "라이브러리 ID: 1687095365880680"
+                - generic [ref=f5e1844]: 2026. 6. 30.에 게재 시작함
+                - generic [ref=f5e1846]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1860] [cursor=pointer]:
+                - generic [ref=f5e1863]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1866] [cursor=pointer]:
+              - generic [ref=f5e1870]: 광고 상세 정보 보기
+            - separator [ref=f5e1871]
+            - generic [ref=f5e1876]:
+              - generic [ref=f5e1878]:
+                - img "와이더뷰티" [ref=f5e1879]
+                - generic [ref=f5e1881]:
+                  - link "와이더뷰티" [ref=f5e1882] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100092279083662/
+                  - generic [ref=f5e1886]:
+                    - strong [ref=f5e1888]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e1889]:
+                - 'button "병원매출, 월 2억 찍던 원장님이 이런 말씀을 하셨어요. “요즘 왜 이렇게 예약이 줄었죠?” 실제로 데이터를 확인해보니까 예약률만 떨어진 게 아니라 내원 방문율까지 함께 감소하고 있었습니다. 그런데 문제는 의외였습니다. ▪ 병원 광고 효율 문제도 아니고 ▪ 병원 위치나 상권 문제도 아니었습니다. 문제는 따로 있었습니다😨 원래 이 병원은 특정 시술로 인지도가 높았던 병원이었는데, ▪ 이것도 밀고 ▪ 저것도 밀고 다양한 시술 콘텐츠를 동시에 운영하면서 병원의 이미지도 같이 흐려진 겁니다. 결국 환자 입장에서는 “이 병원은 어떤 시술을 잘하는 병원이지?”가 이 인식 자체가 약해졌고, 검색 노출과 문의 전환율까지 함께 떨어지기 시작했습니다. 그래서 다시 정리했습니다. - 핵심 시술 중심 콘텐츠 집중 - 병원 브랜딩 방향 통일 - 검색 키워드 재정비 - 환자 상담 CS 구조 개선 결과는요? 📈 월 매출 3억 달성. 병원 마케팅은 많이 하는 게 아니라 ‘집중’하는 겁니다. - 팔로우하시면 더 많은 #병원마케팅 정보 받아보실 수 있어요 문의는 DM 또는 플러스친구 [ 와이더뷰티 ]로 주세요 #병원 #의사 #병원광고 #매출" [ref=f5e1892]':
+                  - generic [ref=f5e1895]:
+                    - text: 병원매출, 월 2억 찍던 원장님이
+                    - text: 이런 말씀을 하셨어요.
+                    - text: “요즘 왜 이렇게 예약이 줄었죠?”
+                    - text: 실제로 데이터를 확인해보니까
+                    - text: 예약률만 떨어진 게 아니라
+                    - text: 내원 방문율까지 함께 감소하고 있었습니다.
+                    - text: 그런데 문제는 의외였습니다.
+                    - text: ▪ 병원 광고 효율 문제도 아니고
+                    - text: ▪ 병원 위치나 상권 문제도 아니었습니다.
+                    - text: 문제는 따로 있었습니다😨
+                    - text: 원래 이 병원은
+                    - text: 특정 시술로 인지도가 높았던 병원이었는데,
+                    - text: ▪ 이것도 밀고
+                    - text: ▪ 저것도 밀고
+                    - text: 다양한 시술 콘텐츠를 동시에 운영하면서
+                    - text: 병원의 이미지도 같이 흐려진 겁니다.
+                    - text: 결국 환자 입장에서는
+                    - text: “이 병원은 어떤 시술을 잘하는 병원이지?”가
+                    - text: 이 인식 자체가 약해졌고,
+                    - text: 검색 노출과 문의 전환율까지 함께 떨어지기 시작했습니다.
+                    - text: 그래서 다시 정리했습니다.
+                    - text: "- 핵심 시술 중심 콘텐츠 집중"
+                    - text: "- 병원 브랜딩 방향 통일"
+                    - text: "- 검색 키워드 재정비"
+                    - text: "- 환자 상담 CS 구조 개선"
+                    - text: 결과는요?
+                    - text: 📈 월 매출 3억 달성.
+                    - text: 병원 마케팅은
+                    - text: 많이 하는 게 아니라
+                    - text: ‘집중’하는 겁니다.
+                    - text: "-"
+                    - text: 팔로우하시면
+                    - text: "더 많은 #병원마케팅 정보 받아보실 수 있어요"
+                    - text: 문의는 DM 또는
+                    - text: 플러스친구 [ 와이더뷰티 ]로 주세요
+                    - text: "#병원 #의사 #병원광고 #매출"
+                - group "Video player" [ref=f5e1906]:
+                  - button "동영상 재생" [ref=f5e1908] [cursor=pointer]
+                  - generic [ref=f5e1910]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "LITT.LY 와이더뷰티 더 알아보기" [ref=f5e1912] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Flitt.ly%2Fythebeauty&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e1913]:
+                    - generic [ref=f5e1914]:
+                      - button "LITT.LY" [ref=f5e1916]:
+                        - generic [ref=f5e1917]: LITT.LY
+                      - button "와이더뷰티" [ref=f5e1919]:
+                        - generic [ref=f5e1920]: 와이더뷰티
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e1922]:
+                      - generic [ref=f5e1926]: 더 알아보기
+          - generic [ref=f5e1928]:
+            - generic [ref=f5e1930]:
+              - generic [ref=f5e1931]:
+                - generic [ref=f5e1938]: 활성
+                - generic [ref=f5e1941]: "라이브러리 ID: 3066438783564676"
+                - generic [ref=f5e1943]: 2026. 7. 3.에 게재 시작함
+                - generic [ref=f5e1945]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e1954] [cursor=pointer]:
+                - generic [ref=f5e1957]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e1960] [cursor=pointer]:
+              - generic [ref=f5e1964]: 광고 상세 정보 보기
+            - separator [ref=f5e1965]
+            - generic [ref=f5e1970]:
+              - generic [ref=f5e1974]:
+                - link "MedirevivecoLtd" [ref=f5e1975] [cursor=pointer]:
+                  - /url: https://www.facebook.com/61569214827601/
+                - generic [ref=f5e1979]:
+                  - strong [ref=f5e1981]: 광고
+                  - generic:
+                    - strong
+              - generic [ref=f5e1982]:
+                - button "⚠️ 병원마케팅 업체에 대행 맡기신 원장님들, 지금 비상입니다. “OO동 임플란트 치과 추천해 줘” 환자들은 이제 네이버 블로그 체험단 후기를 뒤지는 대신, AI에게 문장으로 직접 묻고 있습니다. 화려하게 상위 노출되던 네이버 블로그 글들? 아쉽게도 외부 크롤러가 접근하기 힘든 '닫힌 세계'라, ChatGPT나 구글 AI가 답변을 만들 때 학습 소스로 쓰기 어렵습니다. 열심히 쓴 글들이 단기 노출 후 소멸되는 이유입니다. 💡 AI 검색에서 우리 병원이 '지역 유일 추천 병원'으로 살아남는 방법은? 구글과 AI 검색 엔진이 우리 병원 데이터를 쉽게 읽고 1 순위로 인용할 수 있도록 병원 디지털 자산의 토양 자체를 ‘글로벌 표준’(구글+워드프레스)으로 전환해야 합니다. 메디리바이브는 한국검색최적화협회(KSOA) 공식 회원사로서, 병원 특화 AEO/GEO 세팅을 통해 AI 답변의 강력한 추천 근거를 구축합니다. AI 시대에 선점하는 ‘디지털 병원 건물’에 대한 영구적인 투자입니다. 상위 1% 원장님들이 먼저 시작하고 계신 AI 검색 선점 기술, 우리 지역에서 가장 먼저 도입하세요. 👇 지금 바로 AI 시대의 병원 마케팅 정답을 확인하세요! ➡️ '무료 GEO 진단 및 상담 신청하기'💬 궁금한 점은 지금 바로 [DM] 주시면 전문 컨설턴트가 직접 안내해 드립니다!" [ref=f5e1985]:
+                  - generic [ref=f5e1988]:
+                    - text: ⚠️ 병원마케팅 업체에 대행 맡기신 원장님들, 지금 비상입니다.
+                    - text: “OO동 임플란트 치과 추천해 줘” 환자들은 이제 네이버 블로그 체험단 후기를 뒤지는 대신, AI에게 문장으로 직접 묻고 있습니다.
+                    - text: 화려하게 상위 노출되던 네이버 블로그 글들? 아쉽게도 외부 크롤러가 접근하기 힘든 '닫힌 세계'라, ChatGPT나 구글 AI가 답변을 만들 때 학습 소스로 쓰기 어렵습니다.
+                    - text: 열심히 쓴 글들이 단기 노출 후 소멸되는 이유입니다.
+                    - text: 💡 AI 검색에서 우리 병원이 '지역 유일 추천 병원'으로 살아남는 방법은?
+                    - text: 구글과 AI 검색 엔진이 우리 병원 데이터를 쉽게 읽고 1 순위로 인용할 수 있도록 병원 디지털 자산의 토양 자체를 ‘글로벌 표준’(구글+워드프레스)으로 전환해야 합니다.
+                    - text: 메디리바이브는 한국검색최적화협회(KSOA) 공식 회원사로서, 병원 특화 AEO/GEO 세팅을 통해 AI 답변의 강력한 추천 근거를 구축합니다.
+                    - text: AI 시대에 선점하는 ‘디지털 병원 건물’에 대한 영구적인 투자입니다. 상위 1% 원장님들이 먼저 시작하고 계신 AI 검색 선점 기술, 우리 지역에서 가장 먼저 도입하세요.
+                    - text: 👇 지금 바로 AI 시대의 병원 마케팅 정답을 확인하세요!
+                    - text: ➡️ '무료 GEO 진단 및 상담 신청하기'💬 궁금한 점은 지금 바로 [DM] 주시면 전문 컨설턴트가 직접 안내해 드립니다!
+                - group "Video player" [ref=f5e1998]:
+                  - button "동영상 재생" [ref=f5e2000] [cursor=pointer]
+                  - generic [ref=f5e2002]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM MedirevivecoLtd 메시지 보내기" [ref=f5e2004] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2005]:
+                    - generic [ref=f5e2006]:
+                      - button "INSTAGRAM.COM" [ref=f5e2008]:
+                        - generic [ref=f5e2009]: INSTAGRAM.COM
+                      - button "MedirevivecoLtd" [ref=f5e2011]:
+                        - generic [ref=f5e2012]: MedirevivecoLtd
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "메시지 보내기" [ref=f5e2014]:
+                      - generic [ref=f5e2018]: 메시지 보내기
+          - generic [ref=f5e2020]:
+            - generic [ref=f5e2022]:
+              - generic [ref=f5e2023]:
+                - generic [ref=f5e2030]: 활성
+                - generic [ref=f5e2033]: "라이브러리 ID: 1027249379778298"
+                - generic [ref=f5e2035]: 2026. 7. 9.에 게재 시작함
+                - generic [ref=f5e2037]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2046] [cursor=pointer]:
+                - generic [ref=f5e2049]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2052] [cursor=pointer]:
+              - generic [ref=f5e2056]: 광고 상세 정보 보기
+            - separator [ref=f5e2057]
+            - generic [ref=f5e2062]:
+              - generic [ref=f5e2064]:
+                - img "issueofficial2023" [ref=f5e2065]
+                - generic [ref=f5e2067]:
+                  - link "issueofficial2023" [ref=f5e2068] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fissueofficial2023&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2072]:
+                    - strong [ref=f5e2074]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e2075]:
+                - 'button "🎬 벨리셀의원: 공간의 무드 서울 강남에 자리한 벨리셀의원의 인테리어 감도와 브랜드 무드를 영상에 담아냈습니다. 머무는 순간부터 느껴지는 차분한 분위기와 세련된 공간감. 진료 전후의 경험까지 브랜드의 일부가 되도록. 벨리셀의원만의 독보적인 무드를 깊이감 있는 비주얼 콘텐츠로 표현했습니다. 병원 맞춤 브랜딩 콘텐츠 문의는 DM 주세요 💬 #벨리셀의원 #병원마케팅 #병원브랜딩 #메디컬마케팅 @" [ref=f5e2078]':
+                  - generic [ref=f5e2081]:
+                    - text: "🎬 벨리셀의원: 공간의 무드"
+                    - text: 서울 강남에 자리한 벨리셀의원의
+                    - text: 인테리어 감도와 브랜드 무드를
+                    - text: 영상에 담아냈습니다.
+                    - text: 머무는 순간부터 느껴지는
+                    - text: 차분한 분위기와 세련된 공간감.
+                    - text: 진료 전후의 경험까지
+                    - text: 브랜드의 일부가 되도록.
+                    - text: 벨리셀의원만의
+                    - text: 독보적인 무드를 깊이감 있는
+                    - text: 비주얼 콘텐츠로 표현했습니다.
+                    - text: 병원 맞춤 브랜딩 콘텐츠 문의는 DM 주세요 💬
+                    - text: "#벨리셀의원 #병원마케팅 #병원브랜딩 #메디컬마케팅"
+                    - text: "@"
+                - group "Video player" [ref=f5e2092]:
+                  - button "동영상 재생" [ref=f5e2094] [cursor=pointer]
+                  - generic [ref=f5e2096]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:22
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "GANGNAM.VELLICELLCLINIC.COM issueofficial2023 더 알아보기" [ref=f5e2098] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgangnam.vellicellclinic.com%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2099]:
+                    - generic [ref=f5e2100]:
+                      - button "GANGNAM.VELLICELLCLINIC.COM" [ref=f5e2102]:
+                        - generic [ref=f5e2103]: GANGNAM.VELLICELLCLINIC.COM
+                      - button "issueofficial2023" [ref=f5e2105]:
+                        - generic [ref=f5e2106]: issueofficial2023
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "더 알아보기" [ref=f5e2108]:
+                      - generic [ref=f5e2112]: 더 알아보기
+          - generic [ref=f5e2114]:
+            - generic [ref=f5e2116]:
+              - generic [ref=f5e2117]:
+                - generic [ref=f5e2124]: 활성
+                - generic [ref=f5e2127]: "라이브러리 ID: 1536256877880974"
+                - generic [ref=f5e2129]: 2026. 7. 13.에 게재 시작함
+                - generic [ref=f5e2131]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2160] [cursor=pointer]:
+                - generic [ref=f5e2163]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2166] [cursor=pointer]:
+              - generic [ref=f5e2170]: 광고 상세 정보 보기
+            - separator [ref=f5e2171]
+            - generic [ref=f5e2176]:
+              - generic [ref=f5e2178]:
+                - img "BeyondClass" [ref=f5e2179]
+                - generic [ref=f5e2181]:
+                  - link "BeyondClass" [ref=f5e2182] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61590612303905/
+                  - generic [ref=f5e2186]:
+                    - strong [ref=f5e2188]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e2189]:
+                - button "병원마케팅을 지금 시작해야 하는 이유 3가지! 블루오션, 고단가, 무자본도 가능!" [ref=f5e2192]:
+                  - generic [ref=f5e2194]: 병원마케팅을 지금 시작해야 하는 이유 3가지! 블루오션, 고단가, 무자본도 가능!
+                - group "Video player" [ref=f5e2204]:
+                  - button "동영상 재생" [ref=f5e2206] [cursor=pointer]
+                  - generic [ref=f5e2208]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "WWW.BEYONDCLASS.CO.KR 바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행] 무료강의 지금 바로 신청하세요! 지금 신청하기" [ref=f5e2210] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.beyondclass.co.kr%2Fcourse%2Fcourse_view.jsp%3Fid%3D204854%26cid%3D118390%23course-view-204854&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2211]:
+                    - generic [ref=f5e2212]:
+                      - button "WWW.BEYONDCLASS.CO.KR" [ref=f5e2214]:
+                        - generic [ref=f5e2215]: WWW.BEYONDCLASS.CO.KR
+                      - button "바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]" [ref=f5e2217]:
+                        - generic [ref=f5e2218]: 바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]
+                      - button "무료강의 지금 바로 신청하세요!" [ref=f5e2220]:
+                        - generic [ref=f5e2221]: 무료강의 지금 바로 신청하세요!
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [ref=f5e2223]:
+                      - generic [ref=f5e2227]: 지금 신청하기
+          - generic [ref=f5e2229]:
+            - generic [ref=f5e2231]:
+              - generic [ref=f5e2232]:
+                - generic [ref=f5e2239]: 활성
+                - generic [ref=f5e2242]: "라이브러리 ID: 1556095689641659"
+                - generic [ref=f5e2244]: 2026. 7. 3.에 게재 시작함
+                - generic [ref=f5e2246]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2255] [cursor=pointer]:
+                - generic [ref=f5e2258]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2261] [cursor=pointer]:
+              - generic [ref=f5e2265]: 광고 상세 정보 보기
+            - separator [ref=f5e2266]
+            - generic [ref=f5e2271]:
+              - generic [ref=f5e2276]:
+                - link "MedirevivecoLtd" [ref=f5e2277] [cursor=pointer]:
+                  - /url: https://www.facebook.com/61569214827601/
+                - generic [ref=f5e2281]:
+                  - strong [ref=f5e2283]: 광고
+                  - generic:
+                    - strong
+              - 'button "\"원장님은 진료에만 집중하세요. 유튜브 홍보는 AI 캐릭터가 전담합니다 🎥\" 매주 촬영 대본을 고민하고 카메라 앞에서 진을 빼는 시간, 이제 끝내셔도 됩니다. 우리 병원만의 전속 ''AI 캐릭터''가 원장님의 지식을 학습하여 지치지 않고 유튜브를 운영합니다. 🚀 메디리바이브 버추얼 유튜브 자동화: 📍 촬영 부담 제로: 카메라, 조명, 메이크업 없는 고효율 마케팅 시스템. 📍 신뢰의 복제: 원장님의 진료 철학을 텍스트로 입력하면 AI 캐릭터가 자연스럽게 말하는 영상으로 제작. 📍 24시간 마케팅: 원장님이 휴식하는 시간에도 AI 직원은 지역 환자들에게 병원의 전문성을 전파합니다. 어려운 기술은 메디리바이브가 책임집니다. 원장님은 오직 환자를 향한 ''진심''만 텍스트로 남겨주십시오. 가장 쉽고 강력한 유튜브 시스템을 구축해 드립니다. ✨ 우리 병원 전속 AI 캐릭터 도입 문의: 메세지 문의 #Medirevive #병원유튜브제작 #AI캐릭터 #버추얼인플루언서 #의사스타그램 #시스템경영 #병원마케팅 #자동화솔루션 #스마트클리닉" [ref=f5e2288]':
+                - generic [ref=f5e2291]:
+                  - text: "\"원장님은 진료에만 집중하세요. 유튜브 홍보는 AI 캐릭터가 전담합니다 🎥\""
+                  - text: 매주 촬영 대본을 고민하고 카메라 앞에서 진을 빼는 시간, 이제 끝내셔도 됩니다. 우리 병원만의 전속 'AI 캐릭터'가 원장님의 지식을 학습하여 지치지 않고 유튜브를 운영합니다.
+                  - text: "🚀 메디리바이브 버추얼 유튜브 자동화:"
+                  - text: "📍 촬영 부담 제로: 카메라, 조명, 메이크업 없는 고효율 마케팅 시스템."
+                  - text: "📍 신뢰의 복제: 원장님의 진료 철학을 텍스트로 입력하면 AI 캐릭터가 자연스럽게 말하는 영상으로 제작."
+                  - text: "📍 24시간 마케팅: 원장님이 휴식하는 시간에도 AI 직원은 지역 환자들에게 병원의 전문성을 전파합니다."
+                  - text: 어려운 기술은 메디리바이브가 책임집니다. 원장님은 오직 환자를 향한 '진심'만 텍스트로 남겨주십시오. 가장 쉽고 강력한 유튜브 시스템을 구축해 드립니다.
+                  - text: "✨ 우리 병원 전속 AI 캐릭터 도입 문의: 메세지 문의"
+                  - text: "#Medirevive #병원유튜브제작 #AI캐릭터 #버추얼인플루언서 #의사스타그램 #시스템경영 #병원마케팅 #자동화솔루션 #스마트클리닉"
+              - generic [ref=f5e2294]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f5e2297]:
+                  - generic [ref=f5e2301]:
+                    - link "INSTAGRAM.COM Send Message" [ref=f5e2302] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2304]:
+                        - generic [ref=f5e2305]:
+                          - button "INSTAGRAM.COM" [ref=f5e2307]:
+                            - generic [ref=f5e2308]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Send Message" [ref=f5e2310]:
+                          - generic [ref=f5e2314]: Send Message
+                    - button [ref=f5e2317]
+                  - generic [ref=f5e2323]:
+                    - link "INSTAGRAM.COM Send Message" [ref=f5e2324] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2326]:
+                        - generic [ref=f5e2327]:
+                          - button "INSTAGRAM.COM" [ref=f5e2329]:
+                            - generic [ref=f5e2330]: INSTAGRAM.COM
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Send Message" [ref=f5e2332]:
+                          - generic [ref=f5e2336]: Send Message
+                    - button [ref=f5e2339]
+                  - generic [ref=f5e2345]:
+                    - link [ref=f5e2346] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2348]:
+                        - button [ref=f5e2351]:
+                          - generic [ref=f5e2352]: INSTAGRAM.COM
+                        - button [ref=f5e2354]:
+                          - generic [ref=f5e2358]: Send Message
+                    - button [ref=f5e2361]
+                  - generic [ref=f5e2367]:
+                    - link [ref=f5e2368] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2370]:
+                        - button [ref=f5e2373]:
+                          - generic [ref=f5e2374]: INSTAGRAM.COM
+                        - button [ref=f5e2376]:
+                          - generic [ref=f5e2380]: Send Message
+                    - button [ref=f5e2383]
+                  - generic [ref=f5e2389]:
+                    - link [ref=f5e2390] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2392]:
+                        - button [ref=f5e2395]:
+                          - generic [ref=f5e2396]: INSTAGRAM.COM
+                        - button [ref=f5e2398]:
+                          - generic [ref=f5e2402]: Send Message
+                    - button [ref=f5e2405]
+                  - generic [ref=f5e2411]:
+                    - link [ref=f5e2412] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fmedirevivecoltd&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2414]:
+                        - button [ref=f5e2417]:
+                          - generic [ref=f5e2418]: INSTAGRAM.COM
+                        - button [ref=f5e2420]:
+                          - generic [ref=f5e2424]: Send Message
+                    - button [ref=f5e2427]
+                - button "다음 항목" [ref=f5e2431] [cursor=pointer]:
+                  - img [ref=f5e2432]
+          - generic [ref=f5e2435]:
+            - generic [ref=f5e2437]:
+              - generic [ref=f5e2438]:
+                - generic [ref=f5e2445]: 활성
+                - generic [ref=f5e2448]: "라이브러리 ID: 860893530067755"
+                - generic [ref=f5e2450]: 2026. 6. 30.에 게재 시작함
+                - generic [ref=f5e2452]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2476] [cursor=pointer]:
+                - generic [ref=f5e2479]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2482] [cursor=pointer]:
+              - generic [ref=f5e2486]: 광고 상세 정보 보기
+            - separator [ref=f5e2487]
+            - generic [ref=f5e2492]:
+              - generic [ref=f5e2494]:
+                - img "병원마케팅의 끝" [ref=f5e2495]
+                - generic [ref=f5e2497]:
+                  - link "병원마케팅의 끝" [ref=f5e2498] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61577522176097/
+                  - generic [ref=f5e2502]:
+                    - strong [ref=f5e2504]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e2505]:
+                - button "환자가 AI에게 물어봤을 때 우리 병원이 안 나오면? 그 환자는 영영 모릅니다. 우리 병원이 존재하는지. AI 검색에 대한 의문, 무료 PDF로 확인하세요" [ref=f5e2508]:
+                  - generic [ref=f5e2511]:
+                    - text: 환자가 AI에게 물어봤을 때
+                    - text: 우리 병원이 안 나오면?
+                    - text: 그 환자는 영영 모릅니다.
+                    - text: 우리 병원이 존재하는지.
+                    - text: AI 검색에 대한 의문,
+                    - text: 무료 PDF로 확인하세요
+                - link "HTTPS://METAM.IMWEB.ME/ 병원마케팅의 끝 병원마케팅 지금 신청하기" [ref=f5e2512] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetam.imweb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2514]:
+                    - generic [ref=f5e2515]:
+                      - button "HTTPS://METAM.IMWEB.ME/" [ref=f5e2517]:
+                        - generic [ref=f5e2518]: HTTPS://METAM.IMWEB.ME/
+                      - button "병원마케팅의 끝" [ref=f5e2520]:
+                        - generic [ref=f5e2521]: 병원마케팅의 끝
+                      - button "병원마케팅" [ref=f5e2523]:
+                        - generic [ref=f5e2524]: 병원마케팅
+                      - generic:
+                        - button
+                    - button "지금 신청하기" [ref=f5e2526]:
+                      - generic [ref=f5e2530]: 지금 신청하기
+          - generic [ref=f5e2532]:
+            - generic [ref=f5e2534]:
+              - generic [ref=f5e2535]:
+                - generic [ref=f5e2542]: 활성
+                - generic [ref=f5e2545]: "라이브러리 ID: 1005674515404457"
+                - generic [ref=f5e2547]: 2026. 7. 11.에 게재 시작함
+                - generic [ref=f5e2549]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2563] [cursor=pointer]:
+                - generic [ref=f5e2566]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2569] [cursor=pointer]:
+              - generic [ref=f5e2573]: 광고 상세 정보 보기
+            - separator [ref=f5e2574]
+            - generic [ref=f5e2579]:
+              - generic [ref=f5e2581]:
+                - img "와이더뷰티" [ref=f5e2582]
+                - generic [ref=f5e2584]:
+                  - link "와이더뷰티" [ref=f5e2585] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100092279083662/
+                  - generic [ref=f5e2589]:
+                    - strong [ref=f5e2591]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e2592]:
+                - 'button "병원브랜딩, 원장님 얼굴을 알려야 하는 이유 \"난 진료만 잘하면 되지, 얼굴까지 알려야 하나요?\" 원장님들이 정말 많이 하시는 말씀입니다. 하지만 환자는 원장님의 실력을 처음부터 알 수 없습니다. 검색해도 정보가 없고, 콘텐츠도 없다면 환자는 결국 더 많이 본 병원, 더 익숙한 병원을 선택합니다. 그래서 지금 병원마케팅은 병원을 알리는 것이 아니라 원장님을 알리는 것부터 시작합니다. 병원 SNS, 병원 릴스, 병원 유튜브를 통해 원장님의 진료 철학과 전문성을 꾸준히 보여주면 환자는 \"이 원장님이라면 믿고 상담받아보고 싶다.\" 라는 신뢰를 먼저 갖게 됩니다. 저 역시 원장님들 앞에서 방송과 강의를 시작한 이후 \"영상 보고 문의드렸어요.\" 라는 연락을 많이 받았습니다. 잘나서가 아니라 얼굴이 보이고, 생각이 전달되니 신뢰가 생긴 것입니다. 이제 병원브랜딩은 병원 간판이 아니라 원장님이 브랜드가 되는 시대입니다. 원장님의 얼굴과 콘텐츠는 병원의 가장 강력한 자산이 될 수 있습니다. 그리고, 와이더뷰티는 릴스콘텐츠, GEO + AEO, 병원브랜딩까지 #병원마케팅 통합적으로 설계합니다. 와이더뷰티 광고문의는 프로필 링크 클릭 후 편하게 남겨주세요 😉⭐ #병원광고 #병원릴스 #와이더뷰티" [ref=f5e2595]':
+                  - generic [ref=f5e2598]:
+                    - text: 병원브랜딩, 원장님 얼굴을 알려야 하는 이유
+                    - text: "\"난 진료만 잘하면 되지, 얼굴까지 알려야 하나요?\""
+                    - text: 원장님들이 정말 많이 하시는 말씀입니다.
+                    - text: 하지만 환자는 원장님의 실력을
+                    - text: 처음부터 알 수 없습니다.
+                    - text: 검색해도 정보가 없고,
+                    - text: 콘텐츠도 없다면
+                    - text: 환자는 결국 더 많이 본 병원, 더 익숙한 병원을 선택합니다.
+                    - text: 그래서 지금 병원마케팅은
+                    - text: 병원을 알리는 것이 아니라
+                    - text: 원장님을 알리는 것부터 시작합니다.
+                    - text: 병원 SNS,
+                    - text: 병원 릴스,
+                    - text: 병원 유튜브를 통해
+                    - text: 원장님의 진료 철학과 전문성을 꾸준히 보여주면
+                    - text: 환자는
+                    - text: "\"이 원장님이라면 믿고 상담받아보고 싶다.\""
+                    - text: 라는 신뢰를 먼저 갖게 됩니다.
+                    - text: 저 역시 원장님들 앞에서
+                    - text: 방송과 강의를 시작한 이후
+                    - text: "\"영상 보고 문의드렸어요.\""
+                    - text: 라는 연락을 많이 받았습니다.
+                    - text: 잘나서가 아니라
+                    - text: 얼굴이 보이고, 생각이 전달되니 신뢰가 생긴 것입니다.
+                    - text: 이제 병원브랜딩은
+                    - text: 병원 간판이 아니라
+                    - text: 원장님이 브랜드가 되는 시대입니다.
+                    - text: 원장님의 얼굴과 콘텐츠는
+                    - text: 병원의 가장 강력한 자산이 될 수 있습니다.
+                    - text: 그리고,
+                    - text: "와이더뷰티는 릴스콘텐츠, GEO + AEO, 병원브랜딩까지 #병원마케팅 통합적으로 설계합니다."
+                    - text: 와이더뷰티 광고문의는 프로필 링크 클릭 후 편하게 남겨주세요 😉⭐
+                    - text: "#병원광고 #병원릴스 #와이더뷰티"
+                - group "Video player" [ref=f5e2609]:
+                  - button "동영상 재생" [ref=f5e2611] [cursor=pointer]
+                  - generic [ref=f5e2613]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:26
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "INSTAGRAM.COM 와이더뷰티 Instagram 프로필 방문" [ref=f5e2615] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fkiyeon.kkk&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2616]:
+                    - generic [ref=f5e2617]:
+                      - button "INSTAGRAM.COM" [ref=f5e2619]:
+                        - generic [ref=f5e2620]: INSTAGRAM.COM
+                      - button "와이더뷰티" [ref=f5e2622]:
+                        - generic [ref=f5e2623]: 와이더뷰티
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Instagram 프로필 방문" [ref=f5e2625]:
+                      - generic [ref=f5e2629]: Instagram 프로필 방문
+          - generic [ref=f5e2631]:
+            - generic [ref=f5e2633]:
+              - generic [ref=f5e2634]:
+                - generic [ref=f5e2641]: 활성
+                - generic [ref=f5e2644]: "라이브러리 ID: 1347786384205213"
+                - generic [ref=f5e2646]: 2026. 7. 14.에 게재 시작함
+                - generic [ref=f5e2648]: 플랫폼
+                - generic [ref=f5e2667]: 여러 버전이 있는 광고입니다
+              - button "드롭다운 열기" [ref=f5e2674] [cursor=pointer]:
+                - generic [ref=f5e2677]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2680] [cursor=pointer]:
+              - generic [ref=f5e2684]: 광고 상세 정보 보기
+            - separator [ref=f5e2685]
+            - generic [ref=f5e2690]:
+              - generic [ref=f5e2693]:
+                - img "BeyondClass" [ref=f5e2694]
+                - generic [ref=f5e2696]:
+                  - link "BeyondClass" [ref=f5e2697] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61590612303905/
+                  - generic [ref=f5e2701]:
+                    - strong [ref=f5e2703]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e2705]:
+                - button "병원마케팅을 지금 시작해야 하는 이유 3가지! 블루오션, 고단가, 무자본도 가능!" [ref=f5e2708]:
+                  - generic [ref=f5e2710]: 병원마케팅을 지금 시작해야 하는 이유 3가지! 블루오션, 고단가, 무자본도 가능!
+                - group "Video player" [ref=f5e2720]:
+                  - button "동영상 재생" [ref=f5e2722] [cursor=pointer]
+                  - generic [ref=f5e2724]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행] 7/28(화) 19:30 무료강의 Apply Now" [ref=f5e2726] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2727]:
+                    - generic [ref=f5e2728]:
+                      - generic:
+                        - button
+                      - button "바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]" [ref=f5e2730]:
+                        - generic [ref=f5e2731]: 바보야, 핵심은 객단가야. 차원이 다른 [병원마케팅 대행]
+                      - button "7/28(화) 19:30 무료강의" [ref=f5e2733]:
+                        - generic [ref=f5e2734]: 7/28(화) 19:30 무료강의
+                      - generic:
+                        - button
+                    - button "Apply Now" [disabled] [ref=f5e2736]:
+                      - generic [ref=f5e2740]: Apply Now
+          - generic [ref=f5e2742]:
+            - generic [ref=f5e2744]:
+              - generic [ref=f5e2745]:
+                - generic [ref=f5e2752]: 활성
+                - generic [ref=f5e2755]: "라이브러리 ID: 2058652658086587"
+                - generic [ref=f5e2757]: 2026. 7. 2.에 게재 시작함
+                - generic [ref=f5e2759]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e2768] [cursor=pointer]:
+                - generic [ref=f5e2771]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e2774] [cursor=pointer]:
+              - generic [ref=f5e2778]: 광고 상세 정보 보기
+            - separator [ref=f5e2779]
+            - generic [ref=f5e2784]:
+              - generic [ref=f5e2787]:
+                - img "dr_square_seminar" [ref=f5e2788]
+                - generic [ref=f5e2790]:
+                  - link "dr_square_seminar" [ref=f5e2791] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdr_square_seminar&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e2795]:
+                    - strong [ref=f5e2797]: 광고
+                    - generic:
+                      - strong
+              - 'button "📢 [제81차 닥터스퀘어 개원세미나] 선착순 사전접수 중! \"의사를 원장으로 만드는 사람들\" 닥터스퀘어가 성공적인 병·의원 개원을 위한 8가지 핵심 필수 솔루션을 공개합니다. 📌 세미나 개요 일시: 2026년 08월 09일 (일) [선착순 사전마감] 장소: 서울 서초구 서초대로 48길 103 그린빌딩 2층 참석 대상: 어디서부터 개원을 시작해야 할지 막막한 예비 원장님 💡 닥터스퀘어가 검증된 이유 누적 참석 의사 수: 800명 이상 👥 실제 참석자 만족도: 4.5 / 5.0 ⭐ 실제 세미나 참석율: 87% 📈 ✏️ 한눈에 보는 핵심 강의 (8개 테마) 인테리어 · 의료소송 · 개원마케팅 · 제약산업 · 실손보험 · 입지컨설팅 · 절세 · 실전노무 각 분야 최고 전문가와 파트너사들이 실제 실패 사례와 실전 꿀팁을 직접 전해드립니다. 🎁 역대급 참석 혜택 전원 증정: 신세계 상품권 10만 원권 (전 강의 수강 시) 추첨 혜택: 세무 기장 3개월 무료권 / 맞춤형 상권 분석 서비스 / 가정용 적외선 조사기 ▼ 신청 방법 ▼ • 마지막 카드뉴스의 QR코드를 스캔하여 간편하게 접수하세요! • 프로필 링크를 통해서도 바로 신청 가능합니다. https://www.doctorsquare.co.kr/myreg/reg_02 #닥터스퀘어 #개원세미나 #의사스타그램 #병원개원 #개원준비 #의사세미나 #병원세무 #병원마케팅 #병원입지 #개원의 #봉직의 #공보의 #펠로우 #닥터스퀘어81차 #메디컬세미나 #병원마케팅 #병원인테리어 #개원입지" [ref=f5e2802]':
+                - generic [ref=f5e2805]:
+                  - text: 📢 [제81차 닥터스퀘어 개원세미나] 선착순 사전접수 중!
+                  - text: "\"의사를 원장으로 만드는 사람들\""
+                  - text: 닥터스퀘어가 성공적인 병·의원 개원을 위한 8가지 핵심 필수 솔루션을 공개합니다.
+                  - text: 📌 세미나 개요
+                  - text: "일시: 2026년 08월 09일 (일) [선착순 사전마감]"
+                  - text: "장소: 서울 서초구 서초대로 48길 103 그린빌딩 2층"
+                  - text: "참석 대상: 어디서부터 개원을 시작해야 할지 막막한 예비 원장님"
+                  - text: 💡 닥터스퀘어가 검증된 이유
+                  - text: "누적 참석 의사 수: 800명 이상 👥"
+                  - text: "실제 참석자 만족도: 4.5 / 5.0 ⭐"
+                  - text: "실제 세미나 참석율: 87% 📈"
+                  - text: ✏️ 한눈에 보는 핵심 강의 (8개 테마)
+                  - text: 인테리어 · 의료소송 · 개원마케팅 · 제약산업 · 실손보험 · 입지컨설팅 · 절세 · 실전노무
+                  - text: 각 분야 최고 전문가와 파트너사들이 실제 실패 사례와 실전 꿀팁을 직접 전해드립니다.
+                  - text: 🎁 역대급 참석 혜택
+                  - text: "전원 증정: 신세계 상품권 10만 원권 (전 강의 수강 시)"
+                  - text: "추첨 혜택: 세무 기장 3개월 무료권 / 맞춤형 상권 분석 서비스 / 가정용 적외선 조사기"
+                  - text: ▼ 신청 방법 ▼
+                  - text: • 마지막 카드뉴스의 QR코드를 스캔하여 간편하게 접수하세요!
+                  - text: • 프로필 링크를 통해서도 바로 신청 가능합니다.
+                  - link "https://www.doctorsquare.co.kr/myreg/reg_02" [ref=f5e2807] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - text: "#닥터스퀘어 #개원세미나 #의사스타그램 #병원개원 #개원준비 #의사세미나 #병원세무 #병원마케팅 #병원입지 #개원의 #봉직의 #공보의 #펠로우 #닥터스퀘어81차 #메디컬세미나 #병원마케팅 #병원인테리어 #개원입지"
+              - generic [ref=f5e2809]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f5e2812]:
+                  - generic [ref=f5e2816]:
+                    - link "DOCTORSQUARE.CO.KR 개원세미나 닥터스퀘어 세미나 사전접수 Learn More" [ref=f5e2817] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2819]:
+                        - generic [ref=f5e2820]:
+                          - button "DOCTORSQUARE.CO.KR" [ref=f5e2822]:
+                            - generic [ref=f5e2823]: DOCTORSQUARE.CO.KR
+                          - button "개원세미나 닥터스퀘어 세미나 사전접수" [ref=f5e2825]:
+                            - generic [ref=f5e2826]: 개원세미나 닥터스퀘어 세미나 사전접수
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f5e2828]:
+                          - generic [ref=f5e2832]: Learn More
+                    - button [ref=f5e2835]
+                  - generic [ref=f5e2841]:
+                    - link "DOCTORSQUARE.CO.KR 개원세미나 닥터스퀘어 세미나 사전접수 Learn More" [ref=f5e2842] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2844]:
+                        - generic [ref=f5e2845]:
+                          - button "DOCTORSQUARE.CO.KR" [ref=f5e2847]:
+                            - generic [ref=f5e2848]: DOCTORSQUARE.CO.KR
+                          - button "개원세미나 닥터스퀘어 세미나 사전접수" [ref=f5e2850]:
+                            - generic [ref=f5e2851]: 개원세미나 닥터스퀘어 세미나 사전접수
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=f5e2853]:
+                          - generic [ref=f5e2857]: Learn More
+                    - button [ref=f5e2860]
+                  - generic [ref=f5e2866]:
+                    - link [ref=f5e2867] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2869]:
+                        - generic [ref=f5e2870]:
+                          - button [ref=f5e2872]:
+                            - generic [ref=f5e2873]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e2875]:
+                            - generic [ref=f5e2876]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e2878]:
+                          - generic [ref=f5e2882]: Learn More
+                    - button [ref=f5e2885]
+                  - generic [ref=f5e2891]:
+                    - link [ref=f5e2892] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2894]:
+                        - generic [ref=f5e2895]:
+                          - button [ref=f5e2897]:
+                            - generic [ref=f5e2898]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e2900]:
+                            - generic [ref=f5e2901]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e2903]:
+                          - generic [ref=f5e2907]: Learn More
+                    - button [ref=f5e2910]
+                  - generic [ref=f5e2916]:
+                    - link [ref=f5e2917] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2919]:
+                        - generic [ref=f5e2920]:
+                          - button [ref=f5e2922]:
+                            - generic [ref=f5e2923]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e2925]:
+                            - generic [ref=f5e2926]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e2928]:
+                          - generic [ref=f5e2932]: Learn More
+                    - button [ref=f5e2935]
+                  - generic [ref=f5e2941]:
+                    - link [ref=f5e2942] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2944]:
+                        - generic [ref=f5e2945]:
+                          - button [ref=f5e2947]:
+                            - generic [ref=f5e2948]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e2950]:
+                            - generic [ref=f5e2951]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e2953]:
+                          - generic [ref=f5e2957]: Learn More
+                    - button [ref=f5e2960]
+                  - generic [ref=f5e2966]:
+                    - link [ref=f5e2967] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2969]:
+                        - generic [ref=f5e2970]:
+                          - button [ref=f5e2972]:
+                            - generic [ref=f5e2973]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e2975]:
+                            - generic [ref=f5e2976]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e2978]:
+                          - generic [ref=f5e2982]: Learn More
+                    - button [ref=f5e2985]
+                  - generic [ref=f5e2991]:
+                    - link [ref=f5e2992] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.doctorsquare.co.kr%2Fmyreg%2Freg_02&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                      - generic [ref=f5e2994]:
+                        - generic [ref=f5e2995]:
+                          - button [ref=f5e2997]:
+                            - generic [ref=f5e2998]: DOCTORSQUARE.CO.KR
+                          - button [ref=f5e3000]:
+                            - generic [ref=f5e3001]: 개원세미나 닥터스퀘어 세미나 사전접수
+                        - button [ref=f5e3003]:
+                          - generic [ref=f5e3007]: Learn More
+                    - button [ref=f5e3010]
+                - button "다음 항목" [ref=f5e3014] [cursor=pointer]:
+                  - img [ref=f5e3015]
+          - generic [ref=f5e3018]:
+            - generic [ref=f5e3020]:
+              - generic [ref=f5e3021]:
+                - generic [ref=f5e3028]: 활성
+                - generic [ref=f5e3031]: "라이브러리 ID: 1498595701567782"
+                - generic [ref=f5e3033]: 2026. 7. 11.에 게재 시작함
+                - generic [ref=f5e3035]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e3049] [cursor=pointer]:
+                - generic [ref=f5e3052]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e3055] [cursor=pointer]:
+              - generic [ref=f5e3059]: 광고 상세 정보 보기
+            - separator [ref=f5e3060]
+            - generic [ref=f5e3065]:
+              - generic [ref=f5e3067]:
+                - img "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e3068]
+                - generic [ref=f5e3070]:
+                  - link "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e3071] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61589407330183/
+                  - generic [ref=f5e3075]:
+                    - strong [ref=f5e3077]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e3078]:
+                - 'button "원장님들이 왜 저희 회사를 좋아하실까요? 저희는 그냥 광고만 돌리는 마케팅 회사가 아니에요. 원장님께 비용을 받고 일하는 입장인 만큼 더 책임감 있게, 더 유연하게 움직여야 한다고 생각합니다. 그래서 병원에 뭐가 필요한지 먼저 보고, 마케팅뿐 아니라 방향이나 운영 흐름까지 같이 봐드리려고 해요. 출퇴근 시간에 맞춰 일하는 구조가 아니다 보니 오히려 더 빠르게 대응하고, 필요한 일에 더 집중할 수 있는 것이 장점입니다 🏥병원 마케팅이 고민된다면 댓글이나 디엠 편하게 주세요! #병원마케팅 #피부과마케팅 #광고대행사 #성형외과마케팅 #병원광고" [ref=f5e3081]':
+                  - generic [ref=f5e3084]:
+                    - text: 원장님들이 왜 저희 회사를 좋아하실까요?
+                    - text: 저희는 그냥 광고만 돌리는 마케팅 회사가 아니에요.
+                    - text: 원장님께 비용을 받고 일하는 입장인 만큼
+                    - text: 더 책임감 있게, 더 유연하게 움직여야 한다고 생각합니다.
+                    - text: 그래서 병원에 뭐가 필요한지 먼저 보고,
+                    - text: 마케팅뿐 아니라 방향이나 운영 흐름까지 같이 봐드리려고 해요.
+                    - text: 출퇴근 시간에 맞춰 일하는 구조가 아니다 보니
+                    - text: 오히려 더 빠르게 대응하고,
+                    - text: 필요한 일에 더 집중할 수 있는 것이 장점입니다
+                    - text: 🏥병원 마케팅이 고민된다면
+                    - text: 댓글이나 디엠 편하게 주세요!
+                    - text: "#병원마케팅 #피부과마케팅 #광고대행사 #성형외과마케팅 #병원광고"
+                - group "Video player" [ref=f5e3095]:
+                  - button "동영상 재생" [ref=f5e3097] [cursor=pointer]
+                  - generic [ref=f5e3099]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "재생"
+                      - generic: 0:00 / 1:02
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "설정"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "전체 화면으로 보기"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "볼륨 조정"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "소리 켜기":
+                                - img
+                - link "FB.ME Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅 자세히 보기" [ref=f5e3101] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e3102]:
+                    - generic [ref=f5e3103]:
+                      - button "FB.ME" [ref=f5e3105]:
+                        - generic [ref=f5e3106]: FB.ME
+                      - button "Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅" [ref=f5e3108]:
+                        - generic [ref=f5e3109]: Worldbest marketingagency - 월드베스트 / 병원마케팅 /피부과마케팅/성형외과마케팅
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "자세히 보기" [disabled] [ref=f5e3111]:
+                      - generic [ref=f5e3115]: 자세히 보기
+          - generic [ref=f5e3117]:
+            - generic [ref=f5e3119]:
+              - generic [ref=f5e3120]:
+                - generic [ref=f5e3127]: 활성
+                - generic [ref=f5e3130]: "라이브러리 ID: 1558932085816734"
+                - generic [ref=f5e3132]: 2026. 7. 12.에 게재 시작함
+                - generic [ref=f5e3134]: 플랫폼
+              - button "드롭다운 열기" [ref=f5e3148] [cursor=pointer]:
+                - generic [ref=f5e3151]: 드롭다운 열기
+            - button "광고 상세 정보 보기" [ref=f5e3154] [cursor=pointer]:
+              - generic [ref=f5e3158]: 광고 상세 정보 보기
+            - separator [ref=f5e3159]
+            - generic [ref=f5e3164]:
+              - generic [ref=f5e3166]:
+                - img "바스메디" [ref=f5e3167]
+                - generic [ref=f5e3169]:
+                  - link "바스메디" [ref=f5e3170] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61591561890269/
+                  - generic [ref=f5e3174]:
+                    - strong [ref=f5e3176]: 광고
+                    - generic:
+                      - strong
+              - generic [ref=f5e3177]:
+                - 'button "💉 마운자로 처방 병원을 위한 프리미엄 컨디션 관리 프로그램 비만치료는 이제 처방만으로 끝나지 않습니다. 환자의 컨디션 관리까지 함께 제공하는 프리미엄 프로그램으로 병원의 경쟁력을 높여보세요. ✔ 전신디톡스온열돔 프리미엄 프로그램 ✔ 환자 만족도 향상 ✔ 병원 차별화 및 브랜드 가치 상승 ✔ 프리미엄 비급여 프로그램 운영 ✔ 병원 수익성 강화 🎁 병원 도입 지원금 최대 500만원 (선착순 한정 / 예산 소진 시 종료) 추천 병원 ✔ 비만클리닉 ✔ 내과 ✔ 가정의학과 ✔ 피부과(비만 프로그램 운영) ✔ 성형외과(비만·체형관리 운영) ✔ 재활의학과 📞 무료 상담 신청 DM 또는 프로필 링크를 통해 문의해 주세요. #마운자로 #비만클리닉 #비만치료 #병원 #병원마케팅 내과 가정의학과 피부과 성형외과 재활의학과 비급여프로그램 전신디톡스돔 바스메디 웰니스 병원의원 ." [ref=f5e3180]':
+                  - generic [ref=f5e3183]:
+                    - text: 💉 마운자로 처방 병원을 위한 프리미엄 컨디션 관리 프로그램
+                    - text: 비만치료는 이제 처방만으로 끝나지 않습니다.
+                    - text: 환자의 컨디션 관리까지 함께 제공하는 프리미엄 프로그램으로 병원의 경쟁력을 높여보세요.
+                    - text: ✔ 전신디톡스온열돔 프리미엄 프로그램
+                    - text: ✔ 환자 만족도 향상
+                    - text: ✔ 병원 차별화 및 브랜드 가치 상승
+                    - text: ✔ 프리미엄 비급여 프로그램 운영
+                    - text: ✔ 병원 수익성 강화
+                    - text: 🎁 병원 도입 지원금 최대 500만원
+                    - text: (선착순 한정 / 예산 소진 시 종료)
+                    - text: 추천 병원 ✔ 비만클리닉 ✔ 내과 ✔ 가정의학과 ✔ 피부과(비만 프로그램 운영) ✔ 성형외과(비만·체형관리 운영) ✔ 재활의학과
+                    - text: 📞 무료 상담 신청
+                    - text: DM 또는 프로필 링크를 통해 문의해 주세요.
+                    - text: "#마운자로 #비만클리닉 #비만치료 #병원 #병원마케팅 내과 가정의학과 피부과 성형외과 재활의학과 비급여프로그램 전신디톡스돔 바스메디 웰니스 병원의원"
+                    - text: .
+                - link "FB.ME 마운자로 프로그램의 완성, 전신온열 솔루션 병원 도입 . 상담 렌탈가능 .전국설치 더 알아보기" [ref=f5e3185] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffb.me%2F&h=AUCKfzFzcpCupsXIYMSM92KGf8mLcrsHu3rbf1owVb9IpJAxb2CoPr4qc-cVXrpskBbYzafP3DRvLsXPjdWP2Hfgn6wAa6BPTm5VMzeROUwHFey9XHYQpjpWPXC97A3EGcnaXuNG_iY--2AxegosL6n-GbE
+                  - generic [ref=f5e3187]:
+                    - generic [ref=f5e3188]:
+                      - button "FB.ME" [ref=f5e3190]:
+                        - generic [ref=f5e3191]: FB.ME
+                      - button "마운자로 프로그램의 완성, 전신온열 솔루션" [ref=f5e3193]:
+                        - generic [ref=f5e3194]: 마운자로 프로그램의 완성, 전신온열 솔루션
+                      - button "병원 도입 . 상담 렌탈가능 .전국설치" [ref=f5e3196]:
+                        - generic [ref=f5e3197]: 병원 도입 . 상담 렌탈가능 .전국설치
+                      - generic:
+                        - button
+                    - button "더 알아보기" [disabled] [ref=f5e3199]:
+                      - generic [ref=f5e3203]: 더 알아보기
+        - button "더 보기" [ref=f5e3204] [cursor=pointer]:
+          - generic [ref=f5e3205]: 더 보기
+    - generic [ref=f5e153]:
+      - generic [ref=f5e161]: 시스템 상태
+      - generic [ref=f5e165]:
+        - list [ref=f5e166]:
+          - listitem [ref=f5e167]:
+            - heading "광고 라이브러리 API" [level=3] [ref=f5e168]:
+              - link "광고 라이브러리 API" [ref=f5e169] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=f5e170]:
+            - heading "광고 및 데이터 사용 정보" [level=3] [ref=f5e171]:
+              - link "광고 및 데이터 사용 정보" [ref=f5e172] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=f5e173]:
+            - heading "개인정보처리방침" [level=3] [ref=f5e174]:
+              - link "개인정보처리방침" [ref=f5e175] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=f5e176]:
+            - heading "약관" [level=3] [ref=f5e177]:
+              - link "약관" [ref=f5e178] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=f5e179]:
+            - heading "쿠키" [level=3] [ref=f5e180]:
+              - link "쿠키" [ref=f5e181] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | 한국어" [level=3] [ref=f5e183]:
+          - text: Meta © 2026 |
+          - link "한국어" [ref=f5e184] [cursor=pointer]:
+            - /url: /language/

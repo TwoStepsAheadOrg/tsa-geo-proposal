@@ -1,0 +1,52 @@
+- generic [ref=f44e2]:
+  - banner [ref=f44e3]:
+    - link "LinkedIn 광고 라이브러리" [ref=f44e5] [cursor=pointer]:
+      - /url: /ad-library
+      - generic [ref=f44e18]: 광고 라이브러리
+  - main [ref=f44e20]:
+    - search [ref=f44e24]:
+      - generic [ref=f44e25]:
+        - generic [ref=f44e26]:
+          - generic [ref=f44e27]: 회사 또는 광고주
+          - searchbox "회사/광고주 이름으로 검색" [ref=f44e30]
+        - generic [ref=f44e31]:
+          - generic [ref=f44e32]: 결제자
+          - searchbox "결제자 이름으로 검색" [ref=f44e35]
+        - generic [ref=f44e36]:
+          - generic [ref=f44e37]: 키워드
+          - searchbox "단어나 구로 검색" [ref=f44e40]
+      - generic [ref=f44e41]:
+        - list [ref=f44e44]:
+          - listitem [ref=f44e45]:
+            - button "국가 필터. 이 버튼을 누르면 모든 국가 필터 옵션이 표시됩니다." [ref=f44e48] [cursor=pointer]: 국가
+          - listitem [ref=f44e52]:
+            - button "날짜 필터. 이 버튼을 누르면 모든 날짜 필터 옵션이 표시됩니다." [ref=f44e55] [cursor=pointer]: 날짜
+          - listitem [ref=f44e59]:
+            - button "더보기" [ref=f44e60] [cursor=pointer]
+        - button "검색" [disabled] [ref=f44e64]
+    - generic [ref=f44e65]:
+      - heading "로드하지 못함" [level=1] [ref=f44e67]
+      - paragraph [ref=f44e68]: 다시하기
+  - contentinfo [ref=f44e69]:
+    - list [ref=f44e70]:
+      - listitem [ref=f44e71]:
+        - link "정보" [ref=f44e72] [cursor=pointer]:
+          - /url: https://about.linkedin.com
+      - listitem [ref=f44e73]:
+        - link "쿠키정책" [ref=f44e74] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie_policy
+      - listitem [ref=f44e75]:
+        - link "개인정보 처리방침" [ref=f44e76] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy
+      - listitem [ref=f44e77]:
+        - link "캘리포니아 개인정보 보호법" [ref=f44e78] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/california-privacy-disclosure
+      - listitem [ref=f44e79]:
+        - link "사용자약관" [ref=f44e80] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement
+      - listitem [ref=f44e81]:
+        - link "접근성" [ref=f44e82] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility
+    - generic [ref=f44e83]:
+      - generic "LinkedIn 로고" [ref=f44e84]
+      - generic [ref=f44e100]: LinkedIn Corporation 2026

@@ -1,0 +1,125 @@
+- generic [active] [ref=f16e1]:
+  - banner [ref=f16e3]:
+    - generic [ref=f16e4]:
+      - link "Go to Ads Transparency Center home page." [ref=f16e8] [cursor=pointer]:
+        - /url: https://adstransparency.google.com/
+        - generic [ref=f16e10]: 광고 투명성 센터
+      - generic [ref=f16e12]:
+        - button "Google 앱" [ref=f16e16] [cursor=pointer]
+        - link "로그인" [ref=f16e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adstransparency.google.com/?region%3Danywhere%26domain%3Dpeec.ai&followup=https://adstransparency.google.com/?region%3Danywhere%26domain%3Dpeec.ai&ec=GAZAsQQ
+  - generic [ref=f16e24]:
+    - button "FAQ" [ref=f16e27] [cursor=pointer]
+    - search [ref=f16e31]:
+      - generic [ref=f16e32]:
+        - toolbar "주제 전환 버튼" [ref=f16e33]:
+          - button "모든 주제" [pressed] [ref=f16e34] [cursor=pointer]
+          - button "정치 광고" [ref=f16e37] [cursor=pointer]
+        - generic [ref=f16e42]:
+          - img [ref=f16e44]: search
+          - generic [ref=f16e48]:
+            - generic: 광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기
+            - textbox "광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기" [ref=f16e49]
+        - button "지역 선택 필터 버튼" [ref=f16e52] [cursor=pointer]:
+          - generic "지역 선택 필터 버튼" [ref=f16e53]:
+            - img [ref=f16e55]: check
+            - generic [ref=f16e56]: 전체에서 게재되는 광고
+            - img [ref=f16e58]: arrow_drop_down
+    - generic [ref=f16e60]:
+      - generic [ref=f16e61]:
+        - generic [ref=f16e62]: peec.ai
+        - generic [ref=f16e64]: 이 도메인에는 이 도메인을 가리키는 광고가 있는 여러 광고주 계정의 결과가 포함됩니다. 아래에서 개별 광고주를 기준으로 필터링할 수 있습니다.
+      - generic [ref=f16e66]:
+        - generic [ref=f16e67]: 광고 약 500개
+        - generic [ref=f16e73]:
+          - button "기간 필터 버튼" [ref=f16e76] [cursor=pointer]:
+            - generic "기간 필터 버튼" [ref=f16e77]:
+              - img [ref=f16e79]: calendar_today
+              - generic [ref=f16e80]: 전체 기간
+              - img [ref=f16e82]: arrow_drop_down
+          - 'button "플랫폼 필터 버튼: 모든 플랫폼 선택됨" [ref=f16e85] [cursor=pointer]':
+            - generic "플랫폼 필터" [ref=f16e86]:
+              - generic [ref=f16e87]: 모든 플랫폼
+              - img [ref=f16e89]: arrow_drop_down
+          - 'button "광고 형식 필터 버튼: 모든 형식 선택됨" [ref=f16e92] [cursor=pointer]':
+            - generic "광고 형식 필터" [ref=f16e93]:
+              - generic [ref=f16e94]: 모든 형식
+              - img [ref=f16e96]: arrow_drop_down
+      - generic [ref=f16e97]:
+        - generic [ref=f16e98]:
+          - link "광고(80개 중 1번째)" [ref=f16e99] [cursor=pointer]:
+            - /url: /advertiser/AR09306294506582179841/creative/CR15141815375647211521?region=anywhere
+            - button "광고(80개 중 1번째)" [ref=f16e102]
+          - generic [ref=f16e104]:
+            - generic [ref=f16e105]: Peec AI GmbH
+            - generic [ref=f16e106]: 인증
+        - generic [ref=f16e107]:
+          - link "광고(80개 중 2번째)" [ref=f16e108] [cursor=pointer]:
+            - /url: /advertiser/AR09306294506582179841/creative/CR07325387170837954561?region=anywhere
+            - button "광고(80개 중 2번째)" [ref=f16e111]
+          - generic [ref=f16e113]:
+            - generic [ref=f16e114]: Peec AI GmbH
+            - generic [ref=f16e115]: 인증
+        - generic [ref=f16e116]:
+          - link "광고(80개 중 3번째)" [ref=f16e117] [cursor=pointer]:
+            - /url: /advertiser/AR09306294506582179841/creative/CR10482587874594127873?region=anywhere
+            - button "광고(80개 중 3번째)" [ref=f16e120]
+          - generic [ref=f16e122]:
+            - generic [ref=f16e123]: Peec AI GmbH
+            - generic [ref=f16e124]: 인증
+        - generic [ref=f16e125]:
+          - link "광고(80개 중 4번째)" [ref=f16e126] [cursor=pointer]:
+            - /url: /advertiser/AR09306294506582179841/creative/CR02041266572739215361?region=anywhere
+            - button "광고(80개 중 4번째)" [ref=f16e129]
+          - generic [ref=f16e131]:
+            - generic [ref=f16e132]: Peec AI GmbH
+            - generic [ref=f16e133]: 인증
+      - button "See all ads" [ref=f16e134] [cursor=pointer]
+    - generic [ref=f16e137]: 관련 사이트에서 자세히 알아보기
+    - generic [ref=f16e138]:
+      - generic [ref=f16e139]:
+        - generic [ref=f16e140]: Google에 게재되는 정치 광고 캠페인 분석
+        - generic [ref=f16e141]: 전 세계의 선거 광고와 이러한 광고의 비용 출처, 목표 타겟 사용자 등에 대한 정보를 더욱 투명하게 공개합니다.
+        - link "Google에 게재된 정치 광고 살펴보기" [ref=f16e142] [cursor=pointer]:
+          - /url: https://adstransparency.google.com/political?topic=political
+      - generic [ref=f16e143]:
+        - generic [ref=f16e144]: 브랜드가 YouTube에서 유료 콘텐츠를 사용하는 방식 평가
+        - generic [ref=f16e145]: YouTube에 유료 PPL(제품 간접광고), 스폰서십, 직접광고가 표시됩니다.
+        - generic [ref=f16e146]:
+          - link "YouTube의 유료 프로모션 살펴보기" [ref=f16e147] [cursor=pointer]:
+            - /url: https://www.youtube.com/results?sv=1
+          - img [ref=f16e149]: arrow_outward
+      - generic [ref=f16e150]:
+        - generic [ref=f16e151]: 나에게 더 유용한 광고 표시
+        - generic [ref=f16e152]: Google 검색, YouTube, 디스커버에 표시되는 광고를 손쉽게 맞춤설정하고, 광고 개인 맞춤에 사용되는 정보를 관리할 수 있습니다.
+        - generic [ref=f16e153]:
+          - link "내 광고 센터로 이동" [ref=f16e154] [cursor=pointer]:
+            - /url: https://myadcenter.google.com/
+          - img [ref=f16e156]: arrow_outward
+    - generic [ref=f16e158]:
+      - generic [ref=f16e159]: Google이 온라인에서 사용자를 안전하게 보호하는 방법을 알아보세요
+      - generic [ref=f16e160]: 책임 있는 광고에 대한 Google의 노력에 대해 알아보고, 인터넷을 개인 정보가 보호되면서 개방적이고 안전한 공간으로 유지하기 위한 Google의 접근 방식에 대해 자세히 알아보세요.
+      - generic [ref=f16e161]:
+        - link "안전 센터를 방문하여 자세히 알아보기" [ref=f16e162] [cursor=pointer]:
+          - /url: https://safety.google/security-privacy/
+        - img [ref=f16e164]: arrow_outward
+    - contentinfo [ref=f16e165]:
+      - generic [ref=f16e166]:
+        - button "개인 정보 보호" [ref=f16e168] [cursor=pointer]
+        - generic [ref=f16e169]:
+          - text: •
+          - button "약관" [ref=f16e170] [cursor=pointer]
+        - generic [ref=f16e171]:
+          - text: •
+          - button "Google Ads 정책" [ref=f16e172] [cursor=pointer]
+        - generic [ref=f16e173]:
+          - text: •
+          - link "FAQ" [ref=f16e174] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=f16e175]:
+        - generic [ref=f16e176]:
+          - text: •
+          - button "원칙" [ref=f16e177] [cursor=pointer]
+        - generic [ref=f16e178]:
+          - text: •
+          - button "Google Ads 블로그" [ref=f16e179] [cursor=pointer]

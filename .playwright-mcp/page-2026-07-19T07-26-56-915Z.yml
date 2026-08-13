@@ -1,0 +1,520 @@
+- generic [active] [ref=f194e1]:
+  - banner [ref=f194e2]:
+    - generic [ref=f194e3]:
+      - generic [ref=f194e5]:
+        - generic [ref=f194e6] [cursor=pointer]:
+          - img [ref=f194e7]
+          - generic [ref=f194e8]: 위시켓
+        - generic [ref=f194e10] [cursor=pointer]:
+          - img [ref=f194e11]
+          - generic [ref=f194e12]: 요즘IT
+        - generic [ref=f194e14] [cursor=pointer]:
+          - img [ref=f194e15]
+          - generic [ref=f194e16]: AIDP - AX
+        - generic [ref=f194e18] [cursor=pointer]:
+          - img [ref=f194e19]
+          - generic [ref=f194e20]: Rise ERP
+      - generic [ref=f194e21]:
+        - link:
+          - /url: /
+        - generic [ref=f194e24]:
+          - link "프로젝트 찾기" [ref=f194e25] [cursor=pointer]:
+            - /url: /project/#clear
+            - generic [ref=f194e26]:
+              - text: 프로젝트 찾기
+              - img [ref=f194e28]
+          - link "파트너스 찾기" [ref=f194e29] [cursor=pointer]:
+            - /url: /partners/#clear
+            - generic [ref=f194e30]: 파트너스 찾기
+          - link "이용방법" [ref=f194e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+            - generic [ref=f194e32]:
+              - text: 이용방법
+              - img [ref=f194e34]
+          - link "포트폴리오" [ref=f194e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+            - generic [ref=f194e36]:
+              - text: 포트폴리오
+              - img [ref=f194e38]
+          - link "비즈니스 솔루션" [ref=f194e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+            - generic [ref=f194e41]:
+              - text: 비즈니스 솔루션
+              - generic [ref=f194e42]:
+                - img [ref=f194e43]
+                - img [ref=f194e44]
+        - generic [ref=f194e45]:
+          - link "내 프로필" [ref=f194e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - generic [ref=f194e47]: 내 프로필
+          - generic [ref=f194e50] [cursor=pointer]:
+            - text: 내 프로젝트 관리
+            - img [ref=f194e52]
+          - link [ref=f194e53] [cursor=pointer]:
+            - /url: /accounts/notifications/
+            - img [ref=f194e55]
+          - img "twostepsahead사진" [ref=f194e57] [cursor=pointer]
+      - generic [ref=f194e58]:
+        - generic [ref=f194e59]:
+          - generic [ref=f194e61]:
+            - link "프로젝트 찾기" [ref=f194e62] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f194e63] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f194e65]:
+            - link "이용방법" [ref=f194e66] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f194e67] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f194e68] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f194e69] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f194e70]:
+            - link "포트폴리오" [ref=f194e71] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f194e72] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f194e73]:
+            - link "솔루션 마켓" [ref=f194e74] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f194e75] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f194e76]:
+          - generic [ref=f194e77]: 프로필을 완성하고
+          - generic [ref=f194e78]:
+            - text: 더 많은 프로젝트를
+            - text: 수주받아보세요
+          - link "내 프로필 입력하기" [ref=f194e79] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - text: 내 프로필 입력하기
+            - img [ref=f194e80]
+          - img "광고 배너" [ref=f194e82]
+  - generic [ref=f194e83]:
+    - generic [ref=f194e88]:
+      - img "프로필 이미지" [ref=f194e90]
+      - generic [ref=f194e91]:
+        - generic [ref=f194e92]:
+          - text: twostepsahead
+          - img [ref=f194e93]
+        - generic [ref=f194e95]:
+          - img [ref=f194e96]
+          - text: 신원 미인증
+        - generic [ref=f194e98]:
+          - img [ref=f194e99]
+          - text: 활동 가능
+        - generic [ref=f194e100]: 회원가입일 2026.07.06.
+      - generic [ref=f194e101]:
+        - generic [ref=f194e102]:
+          - img [ref=f194e103]
+          - text: 개발
+        - generic [ref=f194e105]:
+          - img [ref=f194e106]
+          - text: 법인사업자
+        - generic [ref=f194e108]:
+          - img [ref=f194e109]
+          - text: 서울특별시 강남구
+        - generic [ref=f194e111]: 외주 선호
+        - generic [ref=f194e112]:
+          - link "업데이트 하기":
+            - /url: /partners/p/twostepsahead/info/update/
+            - generic [ref=f194e113] [cursor=pointer]: 업데이트 하기
+    - generic [ref=f194e114]:
+      - generic [ref=f194e115]:
+        - link "파트너 홈" [ref=f194e116] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/
+          - generic [ref=f194e117]: 파트너 홈
+        - link "파트너 소개" [ref=f194e119] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/introduction/
+          - generic [ref=f194e120]: 파트너 소개
+        - link "보유기술" [ref=f194e121] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/skill/
+          - generic [ref=f194e122]: 보유기술
+        - link "회사 연혁" [ref=f194e123] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/company_history/
+          - generic [ref=f194e124]: 회사 연혁
+        - link "협력업체 및 기관" [ref=f194e125] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/cooperative_company/
+          - generic [ref=f194e126]: 협력업체 및 기관
+        - link "수상이력" [ref=f194e127] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/prize/
+          - generic [ref=f194e128]: 수상이력
+        - link "포트폴리오 10" [ref=f194e130] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/portfolio/
+          - generic [ref=f194e131]:
+            - text: 포트폴리오
+            - generic [ref=f194e132]: "10"
+        - link "클라이언트의 평가" [ref=f194e134] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/evaluation/
+          - generic [ref=f194e135]: 클라이언트의 평가
+        - link "위시켓에서 진행한 프로젝트" [ref=f194e136] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/history/
+          - generic [ref=f194e137]: 위시켓에서 진행한 프로젝트
+        - link "레퍼런스 체크" [ref=f194e138] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/reference-check/
+          - generic [ref=f194e139]: 레퍼런스 체크
+      - generic [ref=f194e141]:
+        - generic [ref=f194e142]:
+          - generic [ref=f194e143]: 외주 평균 평점
+          - generic [ref=f194e144]:
+            - generic [ref=f194e152]: "0.00"
+            - generic [ref=f194e153]:
+              - img [ref=f194e154]
+              - text: 평가 0개
+          - paragraph
+          - generic [ref=f194e156]:
+            - generic [ref=f194e157]:
+              - generic [ref=f194e158]: 전문성
+              - generic [ref=f194e165]: "0.00"
+            - generic [ref=f194e166]:
+              - generic [ref=f194e167]: 적극성
+              - generic [ref=f194e174]: "0.00"
+            - generic [ref=f194e175]:
+              - generic [ref=f194e176]: 만족도
+              - generic [ref=f194e183]: "0.00"
+            - generic [ref=f194e184]:
+              - generic [ref=f194e185]: 일정 준수
+              - generic [ref=f194e192]: "0.00"
+            - generic [ref=f194e193]:
+              - generic [ref=f194e194]: 의사소통
+              - generic [ref=f194e201]: "0.00"
+            - generic [ref=f194e202]:
+              - generic [ref=f194e203]: 하자보수
+              - generic [ref=f194e210]: "0.00"
+        - generic [ref=f194e211]:
+          - generic [ref=f194e212]: 계약한 외주 프로젝트
+          - generic [ref=f194e213]: 0건
+          - link:
+            - /url: /partners/p/twostepsahead/history/
+          - paragraph
+          - generic [ref=f194e220]: • 진행한 프로젝트 없음
+      - generic [ref=f194e221]:
+        - generic [ref=f194e223]:
+          - generic [ref=f194e224]: 파트너 소개
+          - generic [ref=f194e225]:
+            - generic [ref=f194e226]:
+              - generic [ref=f194e227]: 회사 소개
+              - generic [ref=f194e228]: "'AI가 답을 만드는 시대'의 마케팅 데이터 인프라를 만드는 AI 테크 기업입니다. 서울 강남에 본사를 둔 법인으로, 자체 서비스를 직접 개발·운영하며 그 과정에서 검증된 기술로 클라이언트 프로젝트를 수행합니다. 【운영 서비스】 ■ 플루랭크(Plurank) — GEO(생성형 엔진 최적화) 데이터 인프라 SEO가 구글 순위를 측정했다면, 플루랭크는 ChatGPT·Perplexity·Gemini·AI Overview 등 7개 AI 플랫폼이 '누구를 인용하는지'를 측정합니다. 12개국 현지 IP 기반 실브라우저 관측 인프라를 매주 가동하고, 3천만 건 이상의 발행-인용 데이터로 학습한 자체 예측 모델 '플루오라("
+            - generic [ref=f194e229]:
+              - generic [ref=f194e230]:
+                - generic [ref=f194e231]: 주요 업무 분야 및 강점
+                - generic [ref=f194e232]: 【주요 업무 분야】 1. GEO/AEO(AI 검색 최적화) — AI 답변 인용 측정·분석, 콘텐츠 전략 수립과 실행, 성과 리포팅 2. 데이터 인프라 구축 — 12개국 분산 크...
+              - generic [ref=f194e233]:
+                - generic [ref=f194e234]: 직원 수
+                - text: 4명
+              - generic [ref=f194e235]:
+                - generic [ref=f194e236]: 회사 구성 및 인력소개
+                - generic [ref=f194e237]: ■ 대표/테크리드 1명 — 풀스택 개발자. 3회 창업과 3회 매각(EXIT) 경험. 12개국 분산 크롤링 인프라, 데이터 파이프라인, AI 예측 모델까지 직접 설계·구축했으며, 모...
+          - generic [ref=f194e240] [cursor=pointer]:
+            - text: 자세히 보기
+            - img [ref=f194e241]
+          - link "파트너 소개 업데이트 하기" [ref=f194e242] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/introduction/update/
+            - img [ref=f194e243]
+            - text: 파트너 소개 업데이트 하기
+        - generic [ref=f194e245]:
+          - generic [ref=f194e246]: 포트폴리오
+          - link "10개 모두 보기" [ref=f194e247] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/portfolio/
+            - text: 10개 모두 보기
+            - img [ref=f194e248]
+          - generic [ref=f194e249]:
+            - link "토쿠야마 상사(일본) — 일본 FMCG 유통 AI 검색 가시성(GEO) PoC 개발 웹 데이터 분석ㆍBI 외 1개 AWS Python" [ref=f194e250] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305734
+              - img [ref=f194e253]
+              - generic [ref=f194e254]:
+                - generic [ref=f194e255]: 토쿠야마 상사(일본) — 일본 FMCG 유통 AI 검색 가시성(GEO) PoC
+                - generic [ref=f194e256]:
+                  - generic [ref=f194e257]: 개발
+                  - generic [ref=f194e259]: 웹
+                - generic [ref=f194e261]: 데이터 분석ㆍBI 외 1개
+                - generic [ref=f194e262]:
+                  - generic [ref=f194e263]: AWS
+                  - generic [ref=f194e264]: Python
+            - link "Kozy.care(프랑스) — 유럽 웰니스 브랜드 AI 검색 가시성(GEO) PoC 개발 웹 데이터 분석ㆍBI 외 1개 AWS Python" [ref=f194e265] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305733
+              - img [ref=f194e268]
+              - generic [ref=f194e269]:
+                - generic [ref=f194e270]: Kozy.care(프랑스) — 유럽 웰니스 브랜드 AI 검색 가시성(GEO) PoC
+                - generic [ref=f194e271]:
+                  - generic [ref=f194e272]: 개발
+                  - generic [ref=f194e274]: 웹
+                - generic [ref=f194e276]: 데이터 분석ㆍBI 외 1개
+                - generic [ref=f194e277]:
+                  - generic [ref=f194e278]: AWS
+                  - generic [ref=f194e279]: Python
+            - link "BridgeLeaf(미국) — 북미 시장 AI 검색 가시성(GEO) PoC 개발 웹 데이터 분석ㆍBI 외 1개 AWS Python" [ref=f194e280] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305731
+              - img [ref=f194e283]
+              - generic [ref=f194e284]:
+                - generic [ref=f194e285]: BridgeLeaf(미국) — 북미 시장 AI 검색 가시성(GEO) PoC
+                - generic [ref=f194e286]:
+                  - generic [ref=f194e287]: 개발
+                  - generic [ref=f194e289]: 웹
+                - generic [ref=f194e291]: 데이터 분석ㆍBI 외 1개
+                - generic [ref=f194e292]:
+                  - generic [ref=f194e293]: AWS
+                  - generic [ref=f194e294]: Python
+            - paragraph
+          - link "포트폴리오 업데이트 하기" [ref=f194e295] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/portfolio/update/
+            - img [ref=f194e296]
+            - text: 포트폴리오 업데이트 하기
+        - generic [ref=f194e298]:
+          - generic [ref=f194e299]: 보유기술
+          - link "5개 모두 보기" [ref=f194e300] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/skill/
+            - text: 5개 모두 보기
+            - img [ref=f194e301]
+          - generic [ref=f194e302]:
+            - generic [ref=f194e303]:
+              - img [ref=f194e304]
+              - generic [ref=f194e305]:
+                - generic [ref=f194e306]: Python
+                - generic [ref=f194e307]: 5년 이상 10년 미만
+            - generic [ref=f194e308]:
+              - img [ref=f194e309]
+              - generic [ref=f194e310]:
+                - generic [ref=f194e311]: JavaScript
+                - generic [ref=f194e312]: 5년 이상 10년 미만
+            - generic [ref=f194e313]:
+              - img [ref=f194e314]
+              - generic [ref=f194e315]:
+                - generic [ref=f194e316]: AWS
+                - generic [ref=f194e317]: 5년 이상 10년 미만
+            - generic [ref=f194e318]:
+              - img [ref=f194e319]
+              - generic [ref=f194e320]:
+                - generic [ref=f194e321]: PostgreSQL
+                - generic [ref=f194e322]: 5년 이상 10년 미만
+            - generic [ref=f194e323]:
+              - img [ref=f194e324]
+              - generic [ref=f194e325]:
+                - generic [ref=f194e326]: 크롤링
+                - generic [ref=f194e327]: 5년 이상 10년 미만
+          - link "보유기술 업데이트 하기" [ref=f194e328] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/skill/update/
+            - img [ref=f194e329]
+            - text: 보유기술 업데이트 하기
+        - generic [ref=f194e331]:
+          - generic [ref=f194e332]: 회사 연혁
+          - link "7개 모두 보기" [ref=f194e333] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/company_history/
+            - text: 7개 모두 보기
+            - img [ref=f194e334]
+          - generic [ref=f194e335]:
+            - generic [ref=f194e338]:
+              - generic [ref=f194e339]: "2026"
+              - generic [ref=f194e340]: "07"
+              - generic [ref=f194e341]: 한국관광공사 제18회 초기관광벤처 선정 · 사업화 지원 협약(2026.07~11)
+            - generic [ref=f194e344]:
+              - generic [ref=f194e346]: "07"
+              - generic [ref=f194e347]: 인스타툰·브랜드툰 제작 서비스 '툰에이전트' 정식 출시
+            - generic [ref=f194e350]:
+              - generic [ref=f194e352]: "06"
+              - generic [ref=f194e353]: 창업기업 확인서 발급(서울지방중소벤처기업청) · 한국인공지능협회(KORAIA) 회원사 등록
+            - generic [ref=f194e356]:
+              - generic [ref=f194e358]: "05"
+              - generic [ref=f194e359]: 누적 계약 2억 원 달성(설립 6개월차) · 글로벌 대기업 계열 AI 검색 검증 프로젝트 GEO 데이터 공급 계약
+            - generic [ref=f194e362]:
+              - generic [ref=f194e364]: "05"
+              - generic [ref=f194e365]: 중소기업 확인서 발급(중소벤처기업부) · 인바운드 관광 AI 가시성 플랫폼 'K-Trip Voice' V1 출시
+            - generic [ref=f194e368]:
+              - generic [ref=f194e369]: "2025"
+              - generic [ref=f194e370]: "12"
+              - generic [ref=f194e371]: 설립 첫해 매출 발생 및 영업이익 흑자 달성
+            - generic [ref=f194e374]:
+              - generic [ref=f194e376]: "10"
+              - generic [ref=f194e377]: 법인 설립 (서울 강남구)
+          - link "회사 연혁 업데이트 하기" [ref=f194e378] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/company_history/update/
+            - img [ref=f194e379]
+            - text: 회사 연혁 업데이트 하기
+        - generic [ref=f194e381]:
+          - generic [ref=f194e382]: 협력업체 및 기관
+          - link "7개 모두 보기" [ref=f194e383] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/cooperative_company/
+            - text: 7개 모두 보기
+            - img [ref=f194e384]
+          - generic [ref=f194e385]:
+            - generic [ref=f194e387]:
+              - generic [ref=f194e388]: 한국관광공사
+              - generic [ref=f194e389]: 제18회 관광벤처사업 초기관광벤처 선정 기업으로 사업화 지원 협약 체결 (2026.07~11). 인바운드 관광 AI 가시성(GEO) 데이터 사업 수행.
+            - generic [ref=f194e391]:
+              - generic [ref=f194e392]: ㈜올댓아너스클럽 (K-Trip ONE)
+              - generic [ref=f194e393]: 인바운드 관광 플랫폼 'K-Trip ONE' 운영사. 협력확약 체결 — 인바운드 관광 AI 가시성 측정·진단 PoC 공동 수행, 다국어 AI 가시성 데이터 공유
+            - generic [ref=f194e395]:
+              - generic [ref=f194e396]: 어센트코리아 (Ascent Korea)
+              - generic [ref=f194e397]: 엔터프라이즈 데이터 마케팅 에이전시. GEO 데이터 연간 라이선스 계약 및 글로벌 대기업 계열 AI 검색 검증 프로젝트 공동 수행
+          - link "협력업체 및 기관 업데이트 하기" [ref=f194e398] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/cooperative_company/update/
+            - img [ref=f194e399]
+            - text: 협력업체 및 기관 업데이트 하기
+        - generic [ref=f194e401]:
+          - generic [ref=f194e402]: 수상이력
+          - link "6개 모두 보기" [ref=f194e403] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/prize/
+            - text: 6개 모두 보기
+            - img [ref=f194e404]
+          - generic [ref=f194e405]:
+            - generic [ref=f194e406]:
+              - img [ref=f194e407]
+              - generic [ref=f194e408]:
+                - generic [ref=f194e409]: 제18회 관광벤처사업 공모 초기관광벤처 선정
+                - generic [ref=f194e410]: 한국관광공사
+            - generic [ref=f194e411]:
+              - img [ref=f194e412]
+              - generic [ref=f194e413]:
+                - generic [ref=f194e414]: 창업기업 확인서 발급
+                - generic [ref=f194e415]:
+                  - text: 2026월 06월 24일
+                  - text: 서울지방중소벤처기업청
+            - generic [ref=f194e417]:
+              - img [ref=f194e418]
+              - generic [ref=f194e419]:
+                - generic [ref=f194e420]: 중소기업 확인서 발급
+                - generic [ref=f194e421]:
+                  - text: 2026월 05월 12일
+                  - text: 중소벤처기업부
+          - link "수상이력 업데이트 하기" [ref=f194e423] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/prize/update/
+            - img [ref=f194e424]
+            - text: 수상이력 업데이트 하기
+  - contentinfo [ref=f194e425]:
+    - generic [ref=f194e426]:
+      - generic [ref=f194e427]:
+        - generic [ref=f194e428]:
+          - generic [ref=f194e429]: 서비스 전체보기
+          - link "위시켓" [ref=f194e430] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+            - img [ref=f194e431]
+            - text: 위시켓
+          - link "요즘IT" [ref=f194e432] [cursor=pointer]:
+            - /url: /magazine/
+            - img [ref=f194e433]
+            - text: 요즘IT
+          - link "AIDP - AX" [ref=f194e434] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+            - img [ref=f194e435]
+            - text: AIDP - AX
+          - link "Rise ERP" [ref=f194e436] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+            - img [ref=f194e437]
+            - text: Rise ERP
+        - generic [ref=f194e438]:
+          - link [ref=f194e439] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+            - img [ref=f194e440]
+          - link [ref=f194e441] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+            - img [ref=f194e442]
+          - link [ref=f194e443] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+            - img [ref=f194e444]
+      - generic [ref=f194e445]:
+        - generic [ref=f194e446]:
+          - paragraph [ref=f194e447]:
+            - img [ref=f194e448]
+            - text: 고객 문의
+          - link "02-6925-4849" [ref=f194e449] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f194e450]:
+            - generic [ref=f194e451]: 10:00-18:00
+            - generic [ref=f194e452]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f194e453] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f194e454]:
+          - paragraph [ref=f194e455]: 위시켓
+          - link "위시켓 소개" [ref=f194e456] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f194e457] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f194e458]:
+          - paragraph [ref=f194e459]: 이용방법
+          - link "클라이언트 이용방법" [ref=f194e460] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f194e461] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f194e462] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f194e463] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f194e464]:
+          - paragraph [ref=f194e465]: 고객센터
+          - link "클라이언트 고객센터" [ref=f194e466] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f194e467] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f194e468]:
+          - link "뉴스센터" [ref=f194e469] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f194e470] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f194e471] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f194e472] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f194e473]:
+        - link "이용약관" [ref=f194e474] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f194e476] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f194e477]:
+        - generic [ref=f194e478]:
+          - generic [ref=f194e479]: ㈜위시켓
+          - generic [ref=f194e481]: "대표이사 : 박우범"
+          - generic [ref=f194e483]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f194e484]:
+          - generic [ref=f194e485]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f194e487]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f194e489]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f194e490]: © 2013 Wishket Corp.
+  - generic [ref=f194e491]:
+    - navigation [ref=f194e492]:
+      - generic [ref=f194e493]: 2026년 07월
+      - img [ref=f194e495] [cursor=pointer]
+    - generic [ref=f194e508]:
+      - generic [ref=f194e509]:
+        - generic [ref=f194e510]: 일
+        - generic [ref=f194e511]: 월
+        - generic [ref=f194e512]: 화
+        - generic [ref=f194e513]: 수
+        - generic [ref=f194e514]: 목
+        - generic [ref=f194e515]: 금
+        - generic [ref=f194e516]: 토
+      - generic [ref=f194e517]:
+        - generic [ref=f194e521]: "1"
+        - generic [ref=f194e522]: "2"
+        - generic [ref=f194e523]: "3"
+        - generic [ref=f194e524]: "4"
+        - generic [ref=f194e525]: "5"
+        - generic [ref=f194e526]: "6"
+        - generic [ref=f194e527]: "7"
+        - generic [ref=f194e528]: "8"
+        - generic [ref=f194e529]: "9"
+        - generic [ref=f194e530]: "10"
+        - generic [ref=f194e531]: "11"
+        - generic [ref=f194e532]: "12"
+        - generic [ref=f194e533]: "13"
+        - generic [ref=f194e534]: "14"
+        - generic [ref=f194e535]: "15"
+        - generic [ref=f194e536]: "16"
+        - generic [ref=f194e537]: "17"
+        - generic [ref=f194e538]: "18"
+        - generic [ref=f194e539] [cursor=pointer]: "19"
+        - generic [ref=f194e540] [cursor=pointer]: "20"
+        - generic [ref=f194e541] [cursor=pointer]: "21"
+        - generic [ref=f194e542] [cursor=pointer]: "22"
+        - generic [ref=f194e543] [cursor=pointer]: "23"
+        - generic [ref=f194e544] [cursor=pointer]: "24"
+        - generic [ref=f194e545] [cursor=pointer]: "25"
+        - generic [ref=f194e546] [cursor=pointer]: "26"
+        - generic [ref=f194e547] [cursor=pointer]: "27"
+        - generic [ref=f194e548] [cursor=pointer]: "28"
+        - generic [ref=f194e549] [cursor=pointer]: "29"
+        - generic [ref=f194e550] [cursor=pointer]: "30"
+        - generic [ref=f194e551] [cursor=pointer]: "31"
+  - button "위시켓(wishket) 상담 버튼" [ref=f194e554]:
+    - generic [ref=f194e555] [cursor=pointer]:
+      - generic [ref=f194e556]: 위시켓(wishket) 상담 버튼
+      - img [ref=f194e558]

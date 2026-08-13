@@ -1,0 +1,284 @@
+- generic [active] [ref=f7e1]:
+  - iframe [ref=f7e2]:
+    
+  - generic [ref=f7e3]:
+    - banner [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - link [ref=f7e387] [cursor=pointer]:
+          - /url: /home
+          - img [ref=f7e11]
+          - generic [ref=f7e12]: Apps Script
+        - generic [ref=f7e13]:
+          - generic [ref=f7e16]:
+            - button [ref=f7e388] [cursor=pointer]: 플루랭크 워룸 API
+            - generic [ref=f7e374]: cloud_done
+          - generic [ref=f7e26]:
+            - button [ref=f7e389] [cursor=pointer]:
+              - generic [ref=f7e34]:
+                - text: 배포
+                - generic [ref=f7e35]: 
+            - button [ref=f7e390] [cursor=pointer]:
+              - generic [ref=f7e40]: help_outline
+        - generic [ref=f7e42]:
+          - button [ref=f7e391] [cursor=pointer]:
+            - img [ref=f7e47]
+          - button [ref=f7e392] [cursor=pointer]:
+            - img [ref=f7e54]
+    - generic [ref=f7e56]:
+      - navigation [ref=f7e393]:
+        - link [ref=f7e394] [cursor=pointer]:
+          - generic [ref=f7e61]: info_outline
+          - generic [ref=f7e62]: 개요
+        - link [ref=f7e395] [cursor=pointer]:
+          - generic [ref=f7e65]: code
+          - generic [ref=f7e66]: 편집기
+        - link [ref=f7e396] [cursor=pointer]:
+          - generic [ref=f7e69]: history
+          - generic [ref=f7e70]: 프로젝트 기록
+        - link [ref=f7e397] [cursor=pointer]:
+          - generic [ref=f7e73]: alarm
+          - generic [ref=f7e74]: 트리거
+        - link [ref=f7e398] [cursor=pointer]:
+          - generic [ref=f7e77]: playlist_play
+          - generic [ref=f7e78]: 실행
+        - link [ref=f7e399] [cursor=pointer]:
+          - generic [ref=f7e81]: settings
+          - generic [ref=f7e82]: 프로젝트 설정
+      - generic [ref=f7e83]:
+        - heading [level=1] [ref=f7e400]: 편집기
+        - generic [ref=f7e85]:
+          - generic [ref=f7e87]:
+            - generic [ref=f7e88]:
+              - heading [level=2] [ref=f7e401]: 파일
+              - generic [ref=f7e91]:
+                - button [disabled] [ref=f7e402]:
+                  - generic [ref=f7e96]: sort_by_alpha
+                - button [ref=f7e403] [cursor=pointer]:
+                  - generic [ref=f7e101]: add
+            - listbox [ref=f7e404]:
+              - option [ref=f7e405] [cursor=pointer]:
+                - generic [ref=f7e406]: Code.gs
+                - button [ref=f7e407]:
+                  - button [ref=f7e408]:
+                    - generic [ref=f7e110]: 
+            - generic [ref=f7e111]:
+              - heading [level=2] [ref=f7e409]: 라이브러리
+              - button [ref=f7e410] [cursor=pointer]:
+                - generic [ref=f7e118]: add
+            - generic [ref=f7e119]:
+              - heading [level=2] [ref=f7e411]: 서비스
+              - button [ref=f7e412] [cursor=pointer]:
+                - generic [ref=f7e126]: add
+          - separator [ref=f7e413]
+          - generic [ref=f7e133]:
+            - region [ref=f7e134]:
+              - generic [ref=f7e135]:
+                - generic [ref=f7e136]:
+                  - generic [ref=f7e139]:
+                    - button [disabled]:
+                      - generic: undo
+                  - generic [ref=f7e142]:
+                    - button [disabled]:
+                      - generic: redo
+                - generic [ref=f7e146]:
+                  - button [disabled]:
+                    - img
+                - generic [ref=f7e147]:
+                  - button [ref=f7e414]:
+                    - generic [ref=f7e154]: play_arrow
+                    - generic [ref=f7e155]: 실행
+                  - button [ref=f7e415]:
+                    - img [ref=f7e162]
+                    - generic [ref=f7e165]: 디버그
+                  - listbox [ref=f7e416] [cursor=pointer]:
+                    - option [selected] [ref=f7e417]: doGet
+                - button [ref=f7e418]:
+                  - generic [ref=f7e177]: 실행 로그
+            - generic [ref=f7e179]:
+              - main [ref=f7e183]:
+                - generic [ref=f7e184]: .
+                - generic [ref=f7e186]:
+                  - iframe [ref=f7e187]:
+                    
+                  - code [ref=f7e189]:
+                    - generic [ref=f7e190]:
+                      - generic [ref=f7e193]:
+                        - generic [ref=f7e194]:
+                          - generic [ref=f7e196] [cursor=pointer]: 
+                          - generic [ref=f7e197]: "1"
+                        - generic [ref=f7e199]: "2"
+                        - generic [ref=f7e201]: "3"
+                        - generic [ref=f7e203]: "4"
+                        - generic [ref=f7e205]: "5"
+                        - generic [ref=f7e207]: "6"
+                        - generic [ref=f7e209]: "7"
+                        - generic [ref=f7e212]: "8"
+                        - generic [ref=f7e214]: "9"
+                        - generic [ref=f7e215]:
+                          - generic [ref=f7e216] [cursor=pointer]: 
+                          - generic [ref=f7e217]: "10"
+                        - generic [ref=f7e219]: "11"
+                        - generic [ref=f7e221]: "12"
+                        - generic [ref=f7e222]:
+                          - generic [ref=f7e223] [cursor=pointer]: 
+                          - generic [ref=f7e224]: "13"
+                        - generic [ref=f7e226]: "14"
+                        - generic [ref=f7e228]: "15"
+                        - generic [ref=f7e230]: "16"
+                        - generic [ref=f7e232]: "17"
+                        - generic [ref=f7e234]: "18"
+                        - generic [ref=f7e236]: "19"
+                        - generic [ref=f7e238]: "20"
+                        - generic [ref=f7e239]:
+                          - generic [ref=f7e240] [cursor=pointer]: 
+                          - generic [ref=f7e241]: "21"
+                        - generic [ref=f7e242]:
+                          - generic [ref=f7e243] [cursor=pointer]: 
+                          - generic [ref=f7e244]: "22"
+                        - generic [ref=f7e246]: "23"
+                        - generic [ref=f7e248]: "24"
+                        - generic [ref=f7e250]: "25"
+                        - generic [ref=f7e251]:
+                          - generic [ref=f7e252] [cursor=pointer]: 
+                          - generic [ref=f7e253]: "26"
+                        - generic [ref=f7e254]:
+                          - generic [ref=f7e255] [cursor=pointer]: 
+                          - generic [ref=f7e256]: "27"
+                        - generic [ref=f7e258]: "28"
+                      - generic [ref=f7e310]:
+                        - generic [ref=f7e312]: /**
+                        - generic [ref=f7e314]: "* 플루랭크 마케팅 워룸 — Apps Script 백엔드 (v3)"
+                        - generic [ref=f7e316]: "*/"
+                        - generic [ref=f7e318]: var ACCESS_KEY = 'wr-6f3f16580555';
+                        - generic [ref=f7e320]: var VER = 3;
+                        - generic [ref=f7e323]: var TASK_HEADERS = ['id','phase','order','title','goal','guide','channel','funnel','type','estMinutes',
+                        - generic [ref=f7e325]: "'successCriteria','icp','status','doneAt','memo'];"
+                        - generic [ref=f7e327]: var KPI_HEADERS = ['date','inquiries','consults','signups','payments','memo'];
+                        - generic [ref=f7e330]: "function sheet_(name, headers) {"
+                        - generic [ref=f7e332]: var ss = SpreadsheetApp.getActive();
+                        - generic [ref=f7e334]: var sh = ss.getSheetByName(name);
+                        - generic [ref=f7e336]: "if (!sh) {"
+                        - generic [ref=f7e338]: sh = ss.insertSheet(name);
+                        - generic [ref=f7e340]: sh.appendRow(headers);
+                        - generic [ref=f7e342]: sh.setFrozenRows(1);
+                        - generic [ref=f7e344]: "}"
+                        - generic [ref=f7e346]: return sh;
+                        - generic [ref=f7e348]: "}"
+                        - generic [ref=f7e351]: "function json_(obj) {"
+                        - generic [ref=f7e353]: return ContentService.createTextOutput(JSON.stringify(obj))
+                        - generic [ref=f7e355]: .setMimeType(ContentService.MimeType.JSON);
+                        - generic [ref=f7e357]: "}"
+                        - generic [ref=f7e360]: "function fmt_(v) {"
+                        - generic [ref=f7e362]: "if (v instanceof Date) {"
+                        - generic [ref=f7e364]: return Utilities.formatDate(v, SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'yyyy-MM-dd');
+                      - textbox [ref=f7e419]: /** * 플루랭크 마케팅 워룸 — Apps Script 백엔드 (v3) */ var ACCESS_KEY = 'wr-6f3f16580555'; var VER = 3; var TASK_HEADERS = ['id','phase','order','title','goal','guide','channel','funnel','type','estMinutes','successCriteria','icp','status','doneAt','memo']; var KPI_HEADERS = ['date','inquiries','consults','signups','payments','memo'];
+              - tooltip [ref=f7e370]: 실행 로그 닫기
+    - dialog "배포 관리" [ref=f7e421]:
+      - heading "배포 관리" [level=2] [ref=f7e422]
+      - generic [ref=f7e424]:
+        - generic [ref=f7e425]:
+          - generic [ref=f7e426]:
+            - generic [ref=f7e427]:
+              - generic [ref=f7e429]: 활성
+              - listbox "진행 중인 배포 목록" [ref=f7e432]:
+                - option "제목 없음" [ref=f7e433] [cursor=pointer]:
+                  - generic [ref=f7e434]: 제목 없음
+            - generic [ref=f7e435]:
+              - generic [ref=f7e437]: 보관처리됨
+              - listbox "보관처리된 배포 목록" [ref=f7e440]:
+                - option "warroom v1" [ref=f7e441] [cursor=pointer]:
+                  - generic [ref=f7e442]: warroom v1
+          - generic [ref=f7e443]:
+            - generic [ref=f7e444]:
+              - generic [ref=f7e445]: 구성
+              - generic [ref=f7e446]:
+                - generic [ref=f7e447] [cursor=pointer]:
+                  - generic [ref=f7e448]: help_outline
+                  - link "배포에 대해 자세히 알아보기" [ref=f7e449]:
+                    - /url: https://developers.google.com/apps-script/concepts/deployments
+                - tooltip [ref=f7e450]: 배포에 대해 자세히 알아보기
+              - generic [ref=f7e452]:
+                - button "수정" [ref=f7e453] [cursor=pointer]:
+                  - generic [ref=f7e454]: edit
+                - tooltip [ref=f7e455]: 수정
+              - generic [ref=f7e457]:
+                - button "배포 보관처리" [ref=f7e458] [cursor=pointer]:
+                  - generic [ref=f7e459]: archive
+                - tooltip [ref=f7e460]: 배포 보관처리
+            - generic [ref=f7e462]:
+              - generic [ref=f7e464]:
+                - generic:
+                  - combobox "버전 버전 2(2026. 7. 24., 오후 3:10)" [disabled]:
+                    - generic:
+                      - generic:
+                        - generic: 버전
+                    - generic:
+                      - generic: 버전 2(2026. 7. 24., 오후 3:10)
+                    - generic:
+                      - img
+              - generic [ref=f7e466]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 설명
+                  - textbox "설명" [disabled] [ref=f7e467]
+              - generic [ref=f7e469]:
+                - generic [ref=f7e470]: 배포 ID
+                - generic [ref=f7e471]:
+                  - generic [ref=f7e474]: AKfycbzht8xNPdM75g957WIcFGDPaG4qJHYKz26Jbfriaci8F7fh-zr4_gFxyJDmkRoep-L5
+                  - button "배포 ID 복사" [ref=f7e477]:
+                    - generic [ref=f7e480]: content_copy
+                    - generic [ref=f7e481]: 복사
+              - generic [ref=f7e483]:
+                - generic [ref=f7e484]: 웹 앱
+                - generic [ref=f7e485]:
+                  - generic [ref=f7e486]: URL
+                  - generic [ref=f7e487]:
+                    - link "https://script.google.com/macros/s/AKfycbzht8xNPdM75g957WIcFGDPaG4qJHYKz26Jbfriaci8F7fh-zr4_gFxyJDmkRoep-L5/exec" [ref=f7e491] [cursor=pointer]:
+                      - /url: https://script.google.com/macros/s/AKfycbzht8xNPdM75g957WIcFGDPaG4qJHYKz26Jbfriaci8F7fh-zr4_gFxyJDmkRoep-L5/exec
+                    - button "웹 앱 URL 복사" [ref=f7e494]:
+                      - generic [ref=f7e497]: content_copy
+                      - generic [ref=f7e498]: 복사
+                - generic [ref=f7e500]:
+                  - generic:
+                    - combobox "다음 사용자 인증 정보로 실행 나(glenn.kim@twostepsahead.co.kr)" [disabled]:
+                      - generic:
+                        - generic:
+                          - generic: 다음 사용자 인증 정보로 실행
+                      - generic:
+                        - generic: 나(glenn.kim@twostepsahead.co.kr)
+                      - generic:
+                        - img
+                - generic [ref=f7e501]: 웹 앱에서 내 계정 데이터를 사용하여 실행하도록 권한이 부여됩니다.
+                - generic [ref=f7e503]:
+                  - generic:
+                    - combobox "액세스 권한이 있는 사용자 모든 사용자" [disabled]:
+                      - generic:
+                        - generic:
+                          - generic: 액세스 권한이 있는 사용자
+                      - generic:
+                        - generic: 모든 사용자
+                      - generic:
+                        - img
+              - generic [ref=f7e504]:
+                - generic [ref=f7e505]: 라이브러리
+                - generic [ref=f7e507]:
+                  - generic [ref=f7e508]: URL
+                  - generic [ref=f7e509]:
+                    - link "https://script.google.com/macros/library/d/1rWz-KRILj8h_S_oloPWxDkM1d3MyRAGB13UqLcrrYjm_YzVzjRJBfsaI/2" [ref=f7e513] [cursor=pointer]:
+                      - /url: https://script.google.com/macros/library/d/1rWz-KRILj8h_S_oloPWxDkM1d3MyRAGB13UqLcrrYjm_YzVzjRJBfsaI/2
+                    - button "라이브러리 URL 복사" [ref=f7e516]:
+                      - generic [ref=f7e519]: content_copy
+                      - generic [ref=f7e520]: 복사
+                - generic [ref=f7e521]: 다른 사용자 및 그룹이 이 프로젝트를 라이브러리로 사용하도록 하려면 이 프로젝트를 해당 사용자 및 그룹과 공유하세요.
+        - generic [ref=f7e522]:
+          - button "취소" [ref=f7e524]:
+            - generic [ref=f7e527]: 취소
+          - generic [ref=f7e528]:
+            - button "배포" [disabled]:
+              - generic: 배포
+  - generic [ref=f7e371]:
+    - alert
+    - alert
+    - complementary
+    - complementary

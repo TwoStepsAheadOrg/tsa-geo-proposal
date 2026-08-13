@@ -1,0 +1,409 @@
+[     559ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[    2958ms] [WARNING] A router only supports one blocker at a time @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36
+[    2972ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[    4180ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://chatgpt.com/backend-api/calpico/chatgpt/profile/user-44UinwOUmZzv1kSmng5MdLlc:0
+[    5112ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:125
+[    7814ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[    9426ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://chatgpt.com/:0
+[   12603ms] Transition was skipped
+[   12865ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   14728ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; 경고! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.ssmGCyRI-bg.es5.O/am=EQUAAAADdSECgP___wMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFCXAiI2RFPYUyFP8eDdieGhsazXQ/dti=1/m=_b,_tp:550
+[   14728ms] [LOG] %c%s font-size: 18px; 이 콘솔을 사용하면 공격자가 Self-XSS라는 공격을 통해 내 신원을 도용하여 내 정보를 빼낼 수 있습니다.
+알지 못하는 코드를 입력하거나 붙여넣지 마세요. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.ssmGCyRI-bg.es5.O/am=EQUAAAADdSECgP___wMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFCXAiI2RFPYUyFP8eDdieGhsazXQ/dti=1/m=_b,_tp:550
+[   21252ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   21977ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24887ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24892ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24895ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24901ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24905ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24924ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24924ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24925ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24950ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24952ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24953ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   24954ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25214ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25215ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at pV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:16:110067)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25217ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25217ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at pV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:16:110067)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25218ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25218ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:19640)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25218ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at pV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:16:110067)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25249ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   25249ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:19640)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   29512ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   29512ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:19640)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   33626ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   33626ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:19640)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   34802ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwCode" for locale "ko-KR", using default message (KRW) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:14091)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   34802ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "currencyCodes.krwSign" for locale "ko-KR", using default message (₩) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at GV (https://chatgpt.com/cdn/assets/c2675c8c-oglhzgiposgnk5ye.js:20:19640)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Hd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125960)
+    at Vd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:125796) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[15655960ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27

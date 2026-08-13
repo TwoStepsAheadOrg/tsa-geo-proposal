@@ -1,0 +1,213 @@
+- generic [active] [ref=f1e1]:
+  - navigation [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Toon Agent home" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Toon Agent — Toon Creator Agency" [ref=f1e5]
+      - generic [ref=f1e6]:
+        - link "로그인" [ref=f1e7] [cursor=pointer]:
+          - /url: /billing
+        - link "상담 신청" [ref=f1e8] [cursor=pointer]:
+          - /url: "#consult"
+  - main [ref=f1e9]:
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13]: Toon Creator Agency
+        - generic [ref=f1e14]:
+          - generic [ref=f1e15]:
+            - img [ref=f1e16]
+            - generic [ref=f1e18]: 국내 유일 브랜드툰 전문 대행
+          - generic [ref=f1e19]:
+            - img [ref=f1e20]
+            - generic [ref=f1e23]: 한국관광공사 관광벤처사업 선정
+          - generic [ref=f1e24]:
+            - img [ref=f1e25]
+            - generic [ref=f1e29]: 그림체 유지 전문 AI 솔루션 보유
+        - heading "고객이 안 읽는 설명, 툰으로 먼저 이해시킵니다." [level=1] [ref=f1e30]:
+          - text: 고객이 안 읽는 설명,
+          - text: 툰으로 먼저 이해시킵니다.
+        - paragraph [ref=f1e31]: 병원, 변호사, 세무사, 동물병원, 식당처럼 설명할수록 길어지는 업종은 고객이 저장하고 넘겨보는 툰 콘텐츠가 필요합니다. Toon Agent는 기획, 대본, 컷 구성, 캐릭터·이미지 제작, 광고용 소재까지 한 번에 만듭니다.
+        - generic [ref=f1e32]:
+          - link "Toon Agent 상담 신청" [ref=f1e33] [cursor=pointer]:
+            - /url: "#consult"
+          - link "실제 작품 예시 보기" [ref=f1e34] [cursor=pointer]:
+            - /url: "#samples"
+        - generic "Toon Agent 기본 가격" [ref=f1e35]:
+          - generic [ref=f1e36]:
+            - generic [ref=f1e37]: Basic
+            - strong [ref=f1e38]: 4주 12편
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]: Fee
+            - strong [ref=f1e41]: 190만원
+          - generic [ref=f1e42]:
+            - generic [ref=f1e43]: Output
+            - strong [ref=f1e44]: 광고 소재 포함
+      - figure [ref=f1e45]:
+        - generic [ref=f1e46]: 변호사 · 개인 브랜딩
+        - img "법률 서비스는 회사의 규모와 상관없이 누구나 누릴 수 있어야 합니다 — Toon Agent 인스타툰 사례" [ref=f1e47]
+    - generic [ref=f1e49]:
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]:
+          - generic [ref=f1e52]: Why It Works
+          - heading "사람들은 설명을 읽기 전에, 상황을 먼저 봅니다." [level=2] [ref=f1e53]
+        - paragraph [ref=f1e54]: 툰은 서비스 설명을 “고객이 겪는 장면”으로 바꿉니다. 전문성이 필요한 업종일수록 정보 전달보다 먼저 필요한 것은 이해와 신뢰입니다.
+      - generic [ref=f1e55]:
+        - article [ref=f1e56]:
+          - generic [ref=f1e57]: 01 Hook
+          - heading "문제 상황이 한 컷에 보입니다" [level=3] [ref=f1e58]
+          - paragraph [ref=f1e59]: 긴 글의 첫 문장보다 고객의 고민 장면을 먼저 보여줘 스크롤을 멈추게 합니다.
+        - article [ref=f1e60]:
+          - generic [ref=f1e61]: 02 Save
+          - heading "저장되는 설명이 됩니다" [level=3] [ref=f1e62]
+          - paragraph [ref=f1e63]: 가격, 절차, FAQ, 사례를 컷으로 쪼개 고객이 다시 확인하기 쉬운 콘텐츠로 만듭니다.
+        - article [ref=f1e64]:
+          - generic [ref=f1e65]: 03 Ads
+          - heading "광고 소재로 바로 확장합니다" [level=3] [ref=f1e66]
+          - paragraph [ref=f1e67]: 피드 1장, 카드뉴스, 릴스·쇼츠 영상화까지 이어갈 수 있게 처음부터 광고 관점으로 설계합니다.
+    - generic [ref=f1e69]:
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]: Price Table
+          - heading "처음엔 12편으로 반응을 보고, 잘 먹히는 업종만 키웁니다." [level=2] [ref=f1e73]
+        - paragraph [ref=f1e74]: 제작 범위가 바로 보이도록 정리했습니다. 기본 파일럿 가격은 공개하고, 브랜드 협업형·영상화는 범위에 따라 상담으로 안내합니다.
+      - generic [ref=f1e75]:
+        - article [ref=f1e76]:
+          - generic [ref=f1e77]: Recommended
+          - heading "Toon Agent 파일럿" [level=3] [ref=f1e78]
+          - generic [ref=f1e79]: 190만원
+          - paragraph [ref=f1e80]: 4주 12편으로 업종별 반응을 먼저 확인하는 기본 패키지
+          - list [ref=f1e81]:
+            - listitem [ref=f1e82]: 업종 리서치 및 후킹 메시지 기획
+            - listitem [ref=f1e83]: 툰 콘텐츠 월 12편 제작
+            - listitem [ref=f1e84]: 피드 업로드용 이미지 파일 납품
+            - listitem [ref=f1e85]: 메타 광고용 1장 소재 문안 정리
+        - article [ref=f1e86]:
+          - generic [ref=f1e87]: Operation
+          - heading "월간 운영형" [level=3] [ref=f1e88]
+          - generic [ref=f1e89]: 상담 견적
+          - paragraph [ref=f1e90]: 툰을 매달 쌓고, 반응 좋은 컷을 광고 소재로 확장하는 운영형
+          - list [ref=f1e91]:
+            - listitem [ref=f1e92]: 월간 콘텐츠 캘린더 설계
+            - listitem [ref=f1e93]: 업종별 FAQ·사례·후기형 시리즈화
+            - listitem [ref=f1e94]: 카드뉴스·캐러셀 광고 소재 확장
+            - listitem [ref=f1e95]: 광고 반응 기반 다음 소재 개선
+        - article [ref=f1e96]:
+          - generic [ref=f1e97]: Brand Collab
+          - heading "브랜드 협업형" [level=3] [ref=f1e98]
+          - generic [ref=f1e99]: 상담 견적
+          - paragraph [ref=f1e100]: 캐릭터 세계관, 캠페인, 쇼츠·릴스까지 함께 쓰는 고관여 제작형
+          - list [ref=f1e101]:
+            - listitem [ref=f1e102]: 브랜드/업종 캐릭터 톤앤매너 설계
+            - listitem [ref=f1e103]: 캠페인형 스토리라인 및 시리즈 구성
+            - listitem [ref=f1e104]: 쇼츠·릴스 영상화 연계 가능
+            - listitem [ref=f1e105]: 광고 집행용 후킹 문구 패키지 포함
+      - paragraph [ref=f1e106]:
+        - strong [ref=f1e107]: "공통 안내:"
+        - text: 모든 금액은 VAT·광고비 별도입니다. 쇼츠·릴스 영상화, 음성, 캐릭터 고도화, 추가 편수는 제작 범위에 따라 별도 견적입니다.
+    - generic [ref=f1e109]:
+      - generic [ref=f1e110]:
+        - generic [ref=f1e111]:
+          - generic [ref=f1e112]: Client Cases
+          - heading "실제 대행 사례로 보여드립니다." [level=2] [ref=f1e113]
+        - paragraph [ref=f1e114]: Toon Agent를 통해 SNS 인스타툰 제작·운영을 맡긴 사례들입니다. 아래는 사례 속 장면들이에요.
+      - generic "Toon Agent 작품 컷 미리보기" [ref=f1e115]:
+        - generic [ref=f1e116]:
+          - img "작품 컷" [ref=f1e118]
+          - img "작품 컷" [ref=f1e120]
+          - img "작품 컷" [ref=f1e122]
+          - img "작품 컷" [ref=f1e124]
+          - img "작품 컷" [ref=f1e126]
+          - img "작품 컷" [ref=f1e128]
+          - img "작품 컷" [ref=f1e130]
+          - img "작품 컷" [ref=f1e132]
+          - img "작품 컷" [ref=f1e134]
+          - img "작품 컷" [ref=f1e136]
+          - img "작품 컷" [ref=f1e138]
+          - img "작품 컷" [ref=f1e140]
+      - link "웹툰들 보러가기 →" [ref=f1e154] [cursor=pointer]:
+        - /url: /works
+    - generic [ref=f1e156]:
+      - generic [ref=f1e157]:
+        - generic [ref=f1e158]:
+          - generic [ref=f1e159]: Production Flow
+          - heading "기획부터 광고 소재까지 한 번에 갑니다." [level=2] [ref=f1e160]
+        - paragraph [ref=f1e161]: 단순 그림 제작이 아니라, 광고에서 쓸 수 있는 후킹 메시지와 상담 CTA까지 포함해 만듭니다.
+      - generic [ref=f1e162]:
+        - article [ref=f1e163]:
+          - generic [ref=f1e164]: Step
+          - heading "업종 리서치" [level=3] [ref=f1e165]
+          - paragraph [ref=f1e166]: 고객 질문, 상담 전 오해, 자주 묻는 가격·절차를 뽑습니다.
+        - article [ref=f1e167]:
+          - generic [ref=f1e168]: Step
+          - heading "스토리 구성" [level=3] [ref=f1e169]
+          - paragraph [ref=f1e170]: 고객 상황, 대표님 설명, 해결 포인트, CTA 흐름으로 정리합니다.
+        - article [ref=f1e171]:
+          - generic [ref=f1e172]: Step
+          - heading "컷 제작" [level=3] [ref=f1e173]
+          - paragraph [ref=f1e174]: 브랜드 톤에 맞춘 캐릭터, 컷, 말풍선, 광고용 문구를 제작합니다.
+        - article [ref=f1e175]:
+          - generic [ref=f1e176]: Step
+          - heading "광고 확장" [level=3] [ref=f1e177]
+          - paragraph [ref=f1e178]: 1장 광고, 카드뉴스, 쇼츠·릴스 영상화까지 확장 가능한 파일로 납품합니다.
+      - img [ref=f1e180]
+      - generic [ref=f1e182]:
+        - generic [ref=f1e183]:
+          - heading "내 인스타툰을 숏폼으로 변환해보세요! 🎬" [level=3] [ref=f1e184]:
+            - text: 내 인스타툰을
+            - text: 숏폼으로 변환해보세요! 🎬
+          - paragraph [ref=f1e185]: 내 인스타툰을 유튜브 쇼츠 · 릴스 · 틱톡으로 만들어보세요!
+          - generic [ref=f1e186]:
+            - generic [ref=f1e187]:
+              - img [ref=f1e188]
+              - text: YouTube Shorts
+            - generic [ref=f1e191]:
+              - img [ref=f1e192]
+              - text: Instagram Reels
+            - generic [ref=f1e196]:
+              - img [ref=f1e197]
+              - text: TikTok
+            - generic [ref=f1e199]:
+              - img [ref=f1e200]
+              - text: Clip
+            - generic [ref=f1e203]:
+              - img [ref=f1e204]
+              - text: Facebook Reels
+          - generic [ref=f1e207]:
+            - generic [ref=f1e208]: Threads
+            - generic [ref=f1e209]: X
+            - generic [ref=f1e210]: 다음 오늘의 숏
+            - generic [ref=f1e211]: Snapchat
+        - generic [ref=f1e213]:
+          - figure "인스타툰" [ref=f1e214]:
+            - generic [ref=f1e216]: 인스타툰
+          - img [ref=f1e218]
+          - figure "영상" [ref=f1e220]:
+            - generic [ref=f1e223]: 영상
+    - generic [ref=f1e225]:
+      - strong [ref=f1e226]:
+        - text: 고객이 모르는 건 사지 않습니다.
+        - text: 먼저 이해시키면, 상담은 훨씬 쉬워집니다.
+      - paragraph [ref=f1e227]: 기본 Toon Agent는 4주 12편 190만원부터 시작합니다. 쇼츠·릴스 영상화는 제작 범위에 따라 추가 비용이 발생하며 상담 후 안내드립니다.
+    - generic [ref=f1e229]:
+      - generic [ref=f1e230]:
+        - generic [ref=f1e231]: Consulting
+        - heading "우리 업종에 맞는 툰 소재를 먼저 제안받아보세요." [level=2] [ref=f1e232]
+        - paragraph [ref=f1e233]: 업종, 현재 운영 중인 인스타그램, 원하는 상담 목표를 남겨주시면 제작 가능 범위와 추천 테스트 소재를 안내드립니다.
+      - generic [ref=f1e234]:
+        - textbox "회사명 또는 브랜드명" [ref=f1e235]
+        - textbox "담당자 이름" [ref=f1e236]
+        - textbox "이메일" [ref=f1e237]
+        - textbox "인스타그램 또는 웹사이트 URL" [ref=f1e238]
+        - 'textbox "업종, 목표, 현재 고민을 알려주세요. 예: 병원 예약 문의를 늘리고 싶습니다." [ref=f1e239]'
+        - button "상담 신청하기" [ref=f1e240] [cursor=pointer]
+  - contentinfo [ref=f1e242]:
+    - text: Toon Agent · TwoStepsAhead Inc ·
+    - link "glenn.kim@twostepsahead.co.kr" [ref=f1e243] [cursor=pointer]:
+      - /url: mailto:glenn.kim@twostepsahead.co.kr
+  - generic [ref=f1e244]:
+    - generic [ref=f1e245]: 🌐
+    - combobox "언어 선택 / Language" [ref=f1e246] [cursor=pointer]:
+      - option "한국어" [selected]
+      - option "English"
+      - option "日本語"
+      - option "简体中文"

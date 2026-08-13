@@ -1,0 +1,115 @@
+[     245ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_google" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[     245ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_microsoft" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[     245ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_apple" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[     245ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_email" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[     245ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_phone_number" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[     460ms] [WARNING] Datadog Browser SDK: Customer data exceeds the recommended 3KiB threshold. More details: https://docs.datadoghq.com/real_user_monitoring/browser/troubleshooting/#customer-data-exceeds-the-recommended-threshold-warning @ https://auth-cdn.oaistatic.com/assets/datadog-BTgRrIvw.js:6
+[    2649ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; 경고! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.08NnG0RC15A.es5.O/am=EQUAAADIoC9EAND___8AAAQQZDvgPQugCRAyAAAAAAAAAADAAgAANQII/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGAVXbKl-2JEkOEwYPvoSZ0zQJa5A/dti=1/m=_b,_tp:552
+[    2649ms] [LOG] %c%s font-size: 18px; 이 콘솔을 사용하면 공격자가 Self-XSS라는 공격을 통해 내 신원을 도용하여 내 정보를 빼낼 수 있습니다.
+알지 못하는 코드를 입력하거나 붙여넣지 마세요. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.08NnG0RC15A.es5.O/am=EQUAAADIoC9EAND___8AAAQQZDvgPQugCRAyAAAAAAAAAADAAgAANQII/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGAVXbKl-2JEkOEwYPvoSZ0zQJa5A/dti=1/m=_b,_tp:552
+[    6978ms] [WARNING] Datadog Browser SDK: Customer data exceeds the recommended 3KiB threshold. More details: https://docs.datadoghq.com/real_user_monitoring/browser/troubleshooting/#customer-data-exceeds-the-recommended-threshold-warning @ https://auth-cdn.oaistatic.com/assets/datadog-BTgRrIvw.js:6
+[   13866ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "codex_swic_new_workspace_picker" @ https://auth-cdn.oaistatic.com/assets/statsig-I35B3fDz.js:8
+[   25600ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/user_granular_consent:0
+[   25601ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/accounts/optimized/check:0
+[   25605ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/accounts/check/v4-2023-04-27?timezone_offset_min=-540:0
+[   25605ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106153&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=4&gz=1:0
+[   25606ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/me:0
+[   25606ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/settings/user:0
+[   25613ms] [ERROR] RequestError: Encountered invalidated oauth token for user, failing request
+    at xLe (https://chatgpt.com/cdn/assets/4813494d-n4y1vfdftd3wfhs7.js:25:54567)
+    at async queryFn (https://chatgpt.com/cdn/assets/4813494d-n4y1vfdftd3wfhs7.js:60:44653) {country: KR} @ https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:27
+[   25616ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106153&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=4&gz=1. NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106153&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=4&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+} NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106153&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=4&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+}
+    at e.default.<anonymous> (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:130495)
+    at Generator.next (<anonymous>)
+    at o (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:127571) @ https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:27
+[   25777ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   25779ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/amphora/notifications?limit=20:0
+[   25825ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106391&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=30&gz=1:0
+[   25825ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106391&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=30&gz=1. NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106391&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=30&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+} NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053106391&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=30&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+}
+    at e.default.<anonymous> (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:130495)
+    at Generator.next (<anonymous>)
+    at o (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:127571) @ https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:27
+[   26012ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/i:0
+[   26017ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/p:0
+[   26019ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26020ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26118ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26118ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/checkout_pricing_config/configs/KR:0
+[   26321ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26528ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26721ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   26972ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   27163ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   27370ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   27562ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   28547ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   28940ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   32546ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   33056ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   38508ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   38900ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   47284ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   47666ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   52423ms] [INFO] Launched external handler for 'codex://threads/new'. @ https://chatgpt.com/codex/open-app?source=login&app_brand=chatgpt:0
+[   60344ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   60744ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   79842ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[   80316ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[   85548ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053166126&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=19&gz=1:0
+[   85548ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053166126&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=19&gz=1. NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053166126&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=19&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+} NetworkError: NetworkError: https://chatgpt.com/ces/v1/rgstr?k=client-nb0qtYlZuy2tCMN5s5ncnuIBCJncjRViT0IzFm7GqST&st=javascript-client&sv=3.32.6&t=1785053166126&sid=720751c0-fbb3-4f8c-a961-f1764d923eef&ec=19&gz=1 {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+}
+    at e.default.<anonymous> (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:130495)
+    at Generator.next (<anonymous>)
+    at o (https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:29:127571) @ https://chatgpt.com/cdn/assets/2340486e-gh6s19h8ofjisiyk.js:27
+[   85721ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/sentinel/heartbeat:0
+[   86097ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[  108997ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/celsius/ws/user:0
+[  109382ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/ces/v1/t:0
+[  145730ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/sentinel/heartbeat:0

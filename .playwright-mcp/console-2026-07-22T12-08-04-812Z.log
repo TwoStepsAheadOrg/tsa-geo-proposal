@@ -1,0 +1,2 @@
+[     294ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://otool.kr/login:0
+[   23981ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.plurank.com/api/plurank/customer/blog/recommendations:0

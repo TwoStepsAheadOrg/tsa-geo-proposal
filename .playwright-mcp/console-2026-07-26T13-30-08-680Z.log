@@ -1,0 +1,9 @@
+[     481ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.4.0 @ https://a.slack-edge.com/bv1-13-br/rollup-core_required_libs.74a908cd0c361a51.min.js:128
+[    1261ms] [INFO] Jul-26 22:30:09.941 [BOOT] booted! pri:0 version:1785061323 start_ms:1785072609127 (814ms ago) @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1265ms] [WARNING] Jul-26 22:30:09.944 (T00000000) Clogger context could not be determined, using empty context @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1267ms] [INFO] Jul-26 22:30:09.946 [TRACER] Tracing is not sampled by default for this session. @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1275ms] [WARNING] Jul-26 22:30:09.954 TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1799ms] [INFO] Jul-26 22:30:10.478 [INFO] running without a user @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1800ms] [ERROR] Jul-26 22:30:10.479 No React component named AdminMegaphoneHeaderContainer found. @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    1803ms] [WARNING] Jul-26 22:30:10.482 TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720
+[    3667ms] [INFO] Jul-26 22:30:12.347 [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event @ https://a.slack-edge.com/bv1-13-br/modern.vendor.a3fefd6f0b449407.min.js:3720

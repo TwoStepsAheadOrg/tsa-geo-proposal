@@ -1,0 +1,45 @@
+[     287ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[     287ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[  194078ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[  194078ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[  199689ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[  199690ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[  199692ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-polyfill.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199693ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-common.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199694ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-progress-up.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199695ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-progress-dn.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199695ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-progress-cp.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199696ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-progress-ud.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199697ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-preview.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199698ms] [LOG] DX5: module loaded = https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-class-module-multi.js @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1722
+[  199720ms] [LOG] DX5: dextuploadx5-up-0 loaded @ https://touraz.kr/humanframe/global/assets/vendor/dx5/pop/dextuploadx5-up-0-app.js:0
+[  199729ms] [LOG] DX5: dextuploadx5-dn-0 loaded @ https://touraz.kr/humanframe/global/assets/vendor/dx5/pop/dextuploadx5-dn-0-app.js:0
+[  199730ms] [LOG] DX5: dextuploadx5-cp loaded @ https://touraz.kr/humanframe/global/assets/vendor/dx5/pop/dextuploadx5-cp-app.js:0
+[  199730ms] [LOG] DX5: dextuploadx5-ud loaded @ https://touraz.kr/humanframe/global/assets/vendor/dx5/pop/dextuploadx5-ud-app.js:0
+[  199737ms] [LOG] DX5: Start 3.5.2.0 @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199737ms] [LOG] DX5: Initialize variables. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199738ms] [LOG] DX5: Initialize engine. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199852ms] [LOG] DX5: Initialize resource bundle. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199852ms] [LOG] DX5: Initialize UI. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199854ms] [LOG] DX5: Initialize APIs. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  199906ms] [LOG] DX5: Precondition settings @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1394
+[  199907ms] [LOG] DX5: Event settings @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1410
+[  199907ms] [LOG] DX5: Helper settings @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1526
+[  199907ms] [LOG] DX5: Module loaded @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1733
+[  200008ms] [LOG] DX5: Call created event. @ https://touraz.kr/humanframe/global/assets/vendor/dx5/module/dextuploadx5-application-common.js:0
+[  200008ms] [LOG] function onDX5Created(id) {
+    var dx = dx5.get(id);	
+    dx.setMaxFileCount(10, true);
+    dx.setMaxFileSize(52428800);
+    dx.setMaxTotalSize(52428800, false);
+    dx.setExtensionFilter("*.png;*.jpg;*.jpeg;*.gif;*.pdf;*.zip;*.doc;*.docx;*.dot;*.pptx;*.ppt;*.xls;*.xlsx;*.hwp;*.hwpx");
+    dx.setAllowNoExtension(false);
+    
+    
+} @ https://touraz.kr/humanframe/global/assets/vendor/dx5/dextuploadx5.js:1232
+[  523111ms] [LOG] {result: SUCCESS, msg: 정상적으로 처리가 완료 되었습니다.} @ https://touraz.kr/humanframe/theme/global/_js/_common.js:3427
+[  581806ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[  581806ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[  876024ms] [LOG] data.isLogin : true @ https://touraz.kr/humanframe/global/assets/script/global.js:79
+[  876024ms] [LOG] isLoginForTimeout : true @ https://touraz.kr/humanframe/global/assets/script/global.js:82
+[  879446ms] [WARNING] Mixed Content: The page at 'https://touraz.kr/index' was loaded over HTTPS, but requested an insecure element 'http://touredu.visitkorea.or.kr/upload/images/pkgEdu_thumbnail_202607210421204831.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://touraz.kr/humanframe/theme/portal/assets/plugin/swiper/swiper.js:562

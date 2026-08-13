@@ -1,0 +1,12 @@
+[     302ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://elec-platform-seven.vercel.app/login:0
+[   56329ms] [LOG] [API CALL] POST /api/auth/admin/login @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56481ms] [LOG] [API CALL] GET /api/auth/me @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56589ms] [LOG] [API CALL] GET /api/dashboard/member-summary @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56590ms] [LOG] [API CALL] GET /api/revenue/daily?startDate=2026-07-13&endDate=2026-07-20 @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56590ms] [LOG] [API CALL] GET /api/sessions/active @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56591ms] [LOG] [API CALL] GET /api/error-monitor/summary @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56591ms] [LOG] [API CALL] GET /api/dashboard/stats @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56591ms] [LOG] [API CALL] GET /api/revenue/by-station?startDate=2026-01-01&endDate=2026-12-31 @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56592ms] [LOG] [API CALL] GET /api/faults/open @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   56592ms] [LOG] [API CALL] GET /api/revenue/by-payment-source?startDate=2026-06-20&endDate=2026-07-20 @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13
+[   86758ms] [LOG] [API CALL] GET /api/sessions/active @ https://elec-platform-seven.vercel.app/assets/index-Dz3Kzxgf.js:13

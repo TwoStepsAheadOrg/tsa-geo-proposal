@@ -1,0 +1,57 @@
+[      42ms] [INFO] Resource Sentinel initialized... @ https://app.notion.com/p/VID-YOU-bf1a4ee9f100822db51c812cd55d6e08?source=copy_link:0
+[     274ms] [INFO] 2026-07-20T21:13:28.087Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     498ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://app.notion.com/_assets/wasm-sqlite-worker-5992a271458cc7b6.js:0
+[     526ms] [INFO] 2026-07-20T21:13:28.338Z [info] appHelpers: shouldShowError {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     530ms] [INFO] 2026-07-20T21:13:28.342Z [info] appHelpers: shouldShowError {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     539ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://app.notion.com/_assets/mainApp-1f68e9dcf2debf49.js:37
+[     607ms] [INFO] 2026-07-20T21:13:28.419Z [info] PageLoader: loserAborted {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     778ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     780ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     836ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.notion.com/api/v3/getSubscriptionBanner:0
+[     837ms] [INFO] 2026-07-20T21:13:28.649Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     868ms] [INFO] 2026-07-20T21:13:28.680Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     920ms] [INFO] 2026-07-20T21:13:28.732Z [info] sqliteSchemaHelpers: attemptFastForwardMigration {data: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[     973ms] [INFO] 2026-07-20T21:13:28.785Z [info] sqliteSchemaHelpers: successfulFastForwardMigration {data: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1078ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1078ms] [INFO] 2026-07-20T21:13:28.890Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1207ms] [ERROR] HttpRequestError: Received HTTP 401
+    at d (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:121026)
+    at async m (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:122892)
+    at async r (https://app.notion.com/_assets/app-3523c8002216681d.js:1:142)
+    at async l (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:9949)
+    at async i (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:12738)
+    at async https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:180:602558
+    at async fetchingStore.U6.dontCacheUndefined [as fetchFn] (https://app.notion.com/_assets/96163-c7b268453da26fcc.js:1:24312)
+    at async l.fetch (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:167843) @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1207ms] [INFO] 2026-07-20T21:13:29.020Z [error] api: httpTrigger401 {data: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1566ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.notion.com/api/v3/getPasskeyMigrationStatus:0
+[    1569ms] [ERROR] HttpRequestError: Received HTTP 401
+    at d (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:121026)
+    at async m (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:122892)
+    at async r (https://app.notion.com/_assets/app-3523c8002216681d.js:1:142)
+    at async l (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:9949)
+    at async https://app.notion.com/_assets/59995-6554b8ccd35e59d8.js:1:10117 @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1569ms] [INFO] 2026-07-20T21:13:29.382Z [error] api: httpTrigger401 {data: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    3081ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0

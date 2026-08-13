@@ -1,0 +1,59 @@
+- generic [ref=f34e12]:
+  - generic [ref=f34e15]:
+    - link "Meta 광고 라이브러리" [ref=f34e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+    - generic [ref=f34e21]: 광고 라이브러리
+    - menuitem "광고 라이브러리 보고서" [ref=f34e24] [cursor=pointer]
+    - menuitem "광고 라이브러리 API" [ref=f34e27] [cursor=pointer]
+    - menuitem "브랜디드 콘텐츠" [ref=f34e30] [cursor=pointer]
+    - menuitem "Open navigation panel" [ref=f34e33] [cursor=pointer]
+  - generic [ref=f34e40]:
+    - combobox "모두" [ref=f34e44] [cursor=pointer]
+    - combobox "모든 광고" [ref=f34e57] [cursor=pointer]
+    - generic [ref=f34e77]:
+      - generic [ref=f34e78]: 키워드 또는 광고주로 검색
+      - generic [ref=f34e89]:
+        - searchbox "키워드 또는 광고주로 검색" [ref=f34e95]: peec ai
+        - button "지우기" [ref=f34e97] [cursor=pointer]
+  - dialog [ref=f34e99]:
+    - generic [ref=f34e100]:
+      - link [ref=f34e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f34e102]: 로그인
+      - menuitem [ref=f34e103] [cursor=pointer]
+    - generic [ref=f34e105]:
+      - generic [ref=f34e106]:
+        - heading [level=4] [ref=f34e108]: 광고 라이브러리
+        - menuitem [ref=f34e110] [cursor=pointer]:
+          - heading [level=4] [ref=f34e112]: 광고 라이브러리 보고서
+        - menuitem [ref=f34e114] [cursor=pointer]:
+          - heading [level=4] [ref=f34e116]: 광고 라이브러리 API
+        - menuitem [ref=f34e118] [cursor=pointer]:
+          - heading [level=4] [ref=f34e120]: 브랜디드 콘텐츠
+      - separator [ref=f34e121]
+      - generic [ref=f34e122]:
+        - menuitem [ref=f34e124] [cursor=pointer]:
+          - heading [level=4] [ref=f34e126]: 시스템 상태
+        - menuitem [ref=f34e128] [cursor=pointer]:
+          - heading [level=4] [ref=f34e130]: 이메일 업데이트 구독
+        - menuitem [ref=f34e132] [cursor=pointer]:
+          - heading [level=4] [ref=f34e134]: FAQ
+        - menuitem [ref=f34e136] [cursor=pointer]:
+          - heading [level=4] [ref=f34e138]: 광고 및 데이터 사용 정보
+        - menuitem [ref=f34e140] [cursor=pointer]:
+          - heading [level=4] [ref=f34e142]: 개인 정보 보호
+        - menuitem [ref=f34e144] [cursor=pointer]:
+          - heading [level=4] [ref=f34e146]: 이용 약관
+        - menuitem [ref=f34e148] [cursor=pointer]:
+          - heading [level=4] [ref=f34e150]: 쿠키
+  - generic [ref=f34e154]:
+    - progressbar [ref=f34e155]
+    - progressbar [ref=f34e156]
+    - progressbar [ref=f34e157]
+    - progressbar [ref=f34e158]
+    - progressbar [ref=f34e159]
+    - progressbar [ref=f34e160]
+    - progressbar [ref=f34e161]
+    - progressbar [ref=f34e162]
+    - progressbar [ref=f34e163]
+    - progressbar [ref=f34e164]

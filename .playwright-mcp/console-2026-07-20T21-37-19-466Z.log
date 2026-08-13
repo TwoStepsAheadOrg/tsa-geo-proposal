@@ -1,0 +1,61 @@
+[      12ms] [INFO] Resource Sentinel initialized... @ https://app.notion.com/p/VID-YOU-bf1a4ee9f100822db51c812cd55d6e08?source=copy_link:0
+[     186ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     186ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     188ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     214ms] [INFO] 2026-07-20T21:37:19.679Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     233ms] [INFO] 2026-07-20T21:37:19.698Z [info] appHelpers: shouldShowError {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     235ms] [INFO] 2026-07-20T21:37:19.701Z [info] appHelpers: shouldShowError {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     242ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://app.notion.com/_assets/mainApp-1f68e9dcf2debf49.js:37
+[     281ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://app.notion.com/_assets/wasm-sqlite-worker-5992a271458cc7b6.js:0
+[     379ms] [INFO] 2026-07-20T21:37:19.845Z [info] PageLoader: loserAborted {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     483ms] [INFO] 2026-07-20T21:37:19.949Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     507ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://app.notion.com/_assets/transport-support-2f7b2eceb57ecedd.js:0
+[     507ms] [INFO] 2026-07-20T21:37:19.972Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     511ms] [INFO] 2026-07-20T21:37:19.976Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[     797ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://app.notion.com/_assets/58544-7a149608a7691576.js:0
+[     864ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.notion.com/api/v3/getSubscriptionBanner:0
+[    1129ms] [ERROR] HttpRequestError: Received HTTP 401
+    at d (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:121026)
+    at async m (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:122892)
+    at async r (https://app.notion.com/_assets/app-3523c8002216681d.js:1:142)
+    at async l (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:9949)
+    at async i (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:12738)
+    at async https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:180:602558
+    at async l.fetchFn (https://app.notion.com/_assets/96163-c7b268453da26fcc.js:1:24312)
+    at async l.fetch (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:167843) @ https://app.notion.com/_assets/handleHttpFailure-a9572d4a7d29d0c7.js:0
+[    1129ms] [INFO] 2026-07-20T21:37:20.595Z [error] api: httpTrigger401 {data: Object} @ https://app.notion.com/_assets/app-3523c8002216681d.js:6
+[    1352ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.notion.com/api/v3/getPasskeyMigrationStatus:0
+[    1353ms] [ERROR] HttpRequestError: Received HTTP 401
+    at d (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:121026)
+    at async m (https://app.notion.com/_assets/ClientFramework-4e1fe4f7232ba658.js:1:122892)
+    at async r (https://app.notion.com/_assets/app-3523c8002216681d.js:1:142)
+    at async l (https://app.notion.com/_assets/UISpacePermissionGroupToken-fe42b024d523871a.js:1:9949)
+    at async https://app.notion.com/_assets/59995-6554b8ccd35e59d8.js:1:10117 @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    1353ms] [INFO] 2026-07-20T21:37:20.818Z [error] api: httpTrigger401 {data: Object} @ https://app.notion.com/_assets/4975-e801568a4e1be5ff.js:472
+[    2585ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0
+[ 2688341ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ chrome-error://chromewebdata/:0
+[ 2726008ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://codex-app-course.vercel.app/Part01/CH02-3#/1:0
+[ 2726027ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://codex-app-course.vercel.app/favicon.ico:0
+[ 2727304ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ chrome-error://chromewebdata/:0

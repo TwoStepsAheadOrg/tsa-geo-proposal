@@ -1,0 +1,1284 @@
+- generic [ref=f36e8]:
+  - generic [ref=f36e12]:
+    - generic [ref=f36e15]:
+      - link "Meta 광고 라이브러리" [ref=f36e18] [cursor=pointer]:
+        - /url: /ads/library/?source=fb-logo
+      - generic [ref=f36e21]: 광고 라이브러리
+      - menuitem "광고 라이브러리 보고서" [ref=f36e24] [cursor=pointer]
+      - menuitem "광고 라이브러리 API" [ref=f36e27] [cursor=pointer]
+      - menuitem "브랜디드 콘텐츠" [ref=f36e30] [cursor=pointer]
+      - menuitem "Open navigation panel" [ref=f36e33] [cursor=pointer]
+    - generic [ref=f36e40]:
+      - combobox "모두" [ref=f36e44] [cursor=pointer]
+      - combobox "모든 광고" [ref=f36e57] [cursor=pointer]
+      - generic [ref=f36e77]:
+        - generic [ref=f36e78]: 키워드 또는 광고주로 검색
+        - generic [ref=f36e89]:
+          - searchbox "키워드 또는 광고주로 검색" [active] [ref=f36e95]: Peec AIpeec
+          - button "지우기" [ref=f36e97] [cursor=pointer]
+    - dialog [ref=f36e99]:
+      - generic [ref=f36e100]:
+        - link [ref=f36e101] [cursor=pointer]:
+          - /url: /
+          - heading [level=4] [ref=f36e102]: 로그인
+        - menuitem [ref=f36e103] [cursor=pointer]
+      - generic [ref=f36e105]:
+        - generic [ref=f36e106]:
+          - heading [level=4] [ref=f36e108]: 광고 라이브러리
+          - menuitem [ref=f36e110] [cursor=pointer]:
+            - heading [level=4] [ref=f36e112]: 광고 라이브러리 보고서
+          - menuitem [ref=f36e114] [cursor=pointer]:
+            - heading [level=4] [ref=f36e116]: 광고 라이브러리 API
+          - menuitem [ref=f36e118] [cursor=pointer]:
+            - heading [level=4] [ref=f36e120]: 브랜디드 콘텐츠
+        - separator [ref=f36e121]
+        - generic [ref=f36e122]:
+          - menuitem [ref=f36e124] [cursor=pointer]:
+            - heading [level=4] [ref=f36e126]: 시스템 상태
+          - menuitem [ref=f36e128] [cursor=pointer]:
+            - heading [level=4] [ref=f36e130]: 이메일 업데이트 구독
+          - menuitem [ref=f36e132] [cursor=pointer]:
+            - heading [level=4] [ref=f36e134]: FAQ
+          - menuitem [ref=f36e136] [cursor=pointer]:
+            - heading [level=4] [ref=f36e138]: 광고 및 데이터 사용 정보
+          - menuitem [ref=f36e140] [cursor=pointer]:
+            - heading [level=4] [ref=f36e142]: 개인 정보 보호
+          - menuitem [ref=f36e144] [cursor=pointer]:
+            - heading [level=4] [ref=f36e146]: 이용 약관
+          - menuitem [ref=f36e148] [cursor=pointer]:
+            - heading [level=4] [ref=f36e150]: 쿠키
+    - generic [ref=f36e151]:
+      - generic [ref=f36e152]:
+        - generic [ref=f36e158]:
+          - heading "결과 ~1,500개" [level=3] [ref=f36e160]
+          - generic [ref=f36e162]:
+            - text: 이 결과에는
+            - strong [ref=f36e163]: 키워드 검색어
+            - text: 와 일치하는 광고가 포함됩니다.
+        - generic [ref=f36e164]:
+          - generic [ref=f36e174]:
+            - button "필터" [ref=f36e175] [cursor=pointer]
+            - generic [ref=f36e182]:
+              - generic [ref=f36e183]: 정렬
+              - combobox "정렬" [ref=f36e193] [cursor=pointer]:
+                - generic [ref=f36e194]: 정렬 기준
+          - generic [ref=f36e203]:
+            - generic [ref=f36e205]:
+              - generic [ref=f36e207]:
+                - generic [ref=f36e208]:
+                  - generic [ref=f36e209]: 활성
+                  - generic [ref=f36e216]: "라이브러리 ID: 1271019438496409"
+                  - generic [ref=f36e219]: 2026. 3. 31.에 게재 시작함
+                  - generic [ref=f36e221]: 플랫폼
+                  - generic [ref=f36e244]: 여러 버전이 있는 광고입니다
+                - button "드롭다운 열기" [ref=f36e253] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e259] [cursor=pointer]
+              - separator [ref=f36e264]
+              - generic [ref=f36e269]:
+                - generic [ref=f36e272]:
+                  - img "ОРАНТА НАСК" [ref=f36e273]
+                  - generic [ref=f36e275]:
+                    - link "ОРАНТА НАСК" [ref=f36e276] [cursor=pointer]:
+                      - /url: https://www.facebook.com/oranta/
+                    - generic [ref=f36e280]:
+                      - strong [ref=f36e282]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e284]:
+                  - button [ref=f36e287]:
+                    - generic [ref=f36e288]: 🚗 Надійна Автоцивілка для вашого авто.Збережіть свій час ⏰, подбайте про зручність з ORANTA Drive!Лише в застосунку 📱:• Кілька хвилин на оформлення• Жодних черг і зайвих паперів• Страховка завжди у смартфоні• Купа корисних фішок для водіївКупуйте Автоцивілку онлайн вже зараз! 🛒ОРАНТА - турбуємося про вас завжди!
+                  - link "Оформити Автоцивілку Install Now" [ref=f36e292] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.oranta.client&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e294]:
+                      - generic [ref=f36e295]:
+                        - generic:
+                          - button
+                        - button "Оформити Автоцивілку" [ref=f36e297]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Install Now" [ref=f36e300]
+            - generic [ref=f36e306]:
+              - generic [ref=f36e308]:
+                - generic [ref=f36e309]:
+                  - generic [ref=f36e310]: 비활성
+                  - generic [ref=f36e317]: "라이브러리 ID: 2179077559614625"
+                  - generic [ref=f36e320]: 2026. 4. 21.~2026. 5. 5.
+                  - generic [ref=f36e322]: 플랫폼
+                  - generic [ref=f36e340]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e349] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e355] [cursor=pointer]
+              - separator [ref=f36e360]
+              - generic [ref=f36e365]:
+                - generic [ref=f36e367]:
+                  - img "Caudalie" [ref=f36e368]
+                  - generic [ref=f36e370]:
+                    - link "Caudalie" [ref=f36e371] [cursor=pointer]:
+                      - /url: https://www.facebook.com/CaudalieFrance/
+                    - generic [ref=f36e375]:
+                      - strong [ref=f36e377]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e378]:
+                  - button "Découvrez Vinoperfect, notre collection best-seller, pour corriger et prévenir tous les types de taches pigmentaires - soleil, acné, âge, grossesse" [ref=f36e381]
+                  - link "FB.COM La solution anti-taches N°1 de l'anti-taches 더 알아보기" [ref=f36e384] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.com%2Fcanvas_doc%2F1246020114376504&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e386]:
+                      - generic [ref=f36e387]:
+                        - button "FB.COM" [ref=f36e389]
+                        - button "La solution anti-taches" [ref=f36e392]
+                        - button "N°1 de l'anti-taches" [ref=f36e395]
+                        - generic:
+                          - button
+                      - button "더 알아보기" [ref=f36e398]
+            - generic [ref=f36e404]:
+              - generic [ref=f36e406]:
+                - generic [ref=f36e407]:
+                  - generic [ref=f36e408]: 활성
+                  - generic [ref=f36e415]: "라이브러리 ID: 1305533614827841"
+                  - generic [ref=f36e418]: 2026. 4. 17.에 게재 시작함
+                  - generic [ref=f36e420]: 플랫폼
+                  - generic [ref=f36e443]: 여러 버전이 있는 광고입니다
+                - button "드롭다운 열기" [ref=f36e452] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e458] [cursor=pointer]
+              - separator [ref=f36e463]
+              - generic [ref=f36e468]:
+                - generic [ref=f36e471]:
+                  - img "ОРАНТА НАСК" [ref=f36e472]
+                  - generic [ref=f36e474]:
+                    - link "ОРАНТА НАСК" [ref=f36e475] [cursor=pointer]:
+                      - /url: https://www.facebook.com/oranta/
+                    - generic [ref=f36e479]:
+                      - strong [ref=f36e481]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e483]:
+                  - button [ref=f36e486]:
+                    - generic [ref=f36e487]: Вартість Автоцивілки знижено! 🔻🚗Збережіть свій час ⏰ та кошти 💰 з ORANTA Drive!Лише в застосунку 📱:• Найвигідніша ціна• Кілька хвилин на оформлення• Жодних черг і зайвих паперів• Страховка завжди у смартфоні• Купа корисних фішок для водіївКупуйте Автоцивілку онлайн вже зараз! 🛒ОРАНТА - турбуємося про вас завжди!
+                  - link "Оформити Автоцивілк Learn More" [ref=f36e491] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Foranta.ua%2Fproducts%2Favtotsivilka%3Futm_source%3Dfacebookx%26utm_medium%3Dcpc%26utm_campaign%3Davtotsivilka&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e493]:
+                      - generic [ref=f36e494]:
+                        - generic:
+                          - button
+                        - button "Оформити Автоцивілк" [ref=f36e496]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Learn More" [ref=f36e499]
+            - generic [ref=f36e505]:
+              - generic [ref=f36e507]:
+                - generic [ref=f36e508]:
+                  - generic [ref=f36e509]: 활성
+                  - generic [ref=f36e516]: "라이브러리 ID: 9955641341150885"
+                  - generic [ref=f36e519]: 2025. 6. 28.에 게재 시작함
+                  - generic [ref=f36e521]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e546] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e552] [cursor=pointer]
+              - separator [ref=f36e557]
+              - generic [ref=f36e562]:
+                - generic [ref=f36e565]:
+                  - img "Buildmate" [ref=f36e566]
+                  - generic [ref=f36e568]:
+                    - link "Buildmate" [ref=f36e569] [cursor=pointer]:
+                      - /url: https://www.facebook.com/buildmateofficialstore/
+                    - generic [ref=f36e573]:
+                      - strong [ref=f36e575]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e580]:
+                  - generic [ref=f36e581]: "Sa Buildmate sure Legit di ka papalpak 🎶 💪Tools na pang malakasan? ✅ Di ka mabibitin?💯 Sure ORIGINAL at subok na!Yan ba ang hanap mo? Andito na yan lahat sa Buildmate! Tara na sa BUILDMATE! visit us NOW!Katabi ng BOSS Gas Station at malapit sa Jollibee, Power Fill, at tapat ng Dunkin'!Visit our store:📍BUILDMATE one stop tool shop 568-A Quirino Hiway, Talipapa, Novaliches, Quezon CityOr call us at: 📞0908-584-4706🏪We are OPEN everyday!10am to 7pm"
+                - generic [ref=f36e586]:
+                  - generic:
+                    - button [disabled]
+                  - button "다음 항목" [ref=f36e676] [cursor=pointer]
+            - generic [ref=f36e680]:
+              - generic [ref=f36e682]:
+                - generic [ref=f36e683]:
+                  - generic [ref=f36e684]: 활성
+                  - generic [ref=f36e691]: "라이브러리 ID: 1024860866709339"
+                  - generic [ref=f36e694]: 2026. 6. 29.에 게재 시작함
+                  - generic [ref=f36e696]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e721] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e727] [cursor=pointer]
+              - separator [ref=f36e732]
+              - generic [ref=f36e737]:
+                - generic [ref=f36e739]:
+                  - img "ОРАНТА НАСК" [ref=f36e740]
+                  - generic [ref=f36e742]:
+                    - link "ОРАНТА НАСК" [ref=f36e743] [cursor=pointer]:
+                      - /url: https://www.facebook.com/oranta/
+                    - generic [ref=f36e747]:
+                      - strong [ref=f36e749]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e750]:
+                  - button [ref=f36e753]:
+                    - generic [ref=f36e754]: Автоцивілка 🚗 за кілька кліків в ORANTA Drive!Захист 🛡️ - краще, умови - комфортніші.Оформлення одразу в застосунку 📱:• Онлайн - без черг і паперів• Зручно й швидко• Поліс завжди під рукою• Три пакети страхового захисту на ваш вибір• Та безліч сервісів для комфорту водіяЗавантажуйте 📲 та користуйтеся перевагами вже зараз!
+                  - link "ORANTA.UA Оформити Автоцивілк Страхування авто в ОРАНТА. Ліміти до 500 000 грн, без франшизи, пряме врегулювання. Оформлення онлайн за 2 хвилини. Знижки пільговикам 50%. Надійна страхова з 1921 року! 더 알아보기" [ref=f36e758] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Foranta.ua%2Fproducts%2Favtotsivilka%3Futm_source%3Dfacebookx%26utm_medium%3Dcpc%26utm_campaign%3Davtotsivilka&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e760]:
+                      - generic [ref=f36e761]:
+                        - button "ORANTA.UA" [ref=f36e763]
+                        - button "Оформити Автоцивілк" [ref=f36e766]
+                        - button "Страхування авто в ОРАНТА. Ліміти до 500 000 грн, без франшизи, пряме врегулювання. Оформлення онлайн за 2 хвилини. Знижки пільговикам 50%. Надійна страхова з 1921 року!" [ref=f36e769]
+                        - generic:
+                          - button
+                      - button "더 알아보기" [ref=f36e772]
+            - generic [ref=f36e778]:
+              - generic [ref=f36e780]:
+                - generic [ref=f36e781]:
+                  - generic [ref=f36e782]: 비활성
+                  - generic [ref=f36e789]: "라이브러리 ID: 948857700992945"
+                  - generic [ref=f36e792]: 2026. 4. 1.~2026. 4. 22.
+                  - generic [ref=f36e794]: 플랫폼
+                  - generic [ref=f36e812]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e821] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e827] [cursor=pointer]
+              - separator [ref=f36e832]
+              - generic [ref=f36e837]:
+                - generic [ref=f36e839]:
+                  - img "Caudalie" [ref=f36e840]
+                  - generic [ref=f36e842]:
+                    - link "Caudalie" [ref=f36e843] [cursor=pointer]:
+                      - /url: https://www.facebook.com/CaudalieGermany/
+                    - generic [ref=f36e847]:
+                      - strong [ref=f36e849]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e850]:
+                  - button "Entdecken Sie Vinoperfect, unsere Bestseller-Kollektion zur Korrektur und Vorbeugung aller Arten von Pigmentflecken – Sonne, Akne, Alter, Schwangerschaft" [ref=f36e853]
+                  - link "FB.COM Die Lösung gegen alle Pigmentflecken N°1 de l'anti-taches 더 알아보기" [ref=f36e856] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.com%2Fcanvas_doc%2F2126856204770284&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e858]:
+                      - generic [ref=f36e859]:
+                        - button "FB.COM" [ref=f36e861]
+                        - button "Die Lösung gegen alle Pigmentflecken" [ref=f36e864]
+                        - button "N°1 de l'anti-taches" [ref=f36e867]
+                        - generic:
+                          - button
+                      - button "더 알아보기" [ref=f36e870]
+            - generic [ref=f36e876]:
+              - generic [ref=f36e878]:
+                - generic [ref=f36e879]:
+                  - generic [ref=f36e880]: 활성
+                  - generic [ref=f36e887]: "라이브러리 ID: 1590802879350194"
+                  - generic [ref=f36e890]: 2026. 7. 23.에 게재 시작함
+                  - generic [ref=f36e892]: 플랫폼
+                  - generic [ref=f36e905]: 여러 버전이 있는 광고입니다
+                - button "드롭다운 열기" [ref=f36e914] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e920] [cursor=pointer]
+              - separator [ref=f36e925]
+              - generic [ref=f36e930]:
+                - generic [ref=f36e933]:
+                  - img "Ощадбанк" [ref=f36e934]
+                  - generic [ref=f36e936]:
+                    - link "Ощадбанк" [ref=f36e937] [cursor=pointer]:
+                      - /url: https://www.facebook.com/oschadbank/
+                    - generic [ref=f36e941]:
+                      - strong [ref=f36e943]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e945]:
+                  - button [ref=f36e948]:
+                    - generic [ref=f36e949]: 👍 Кредити на стартапи, франшизи та агропроєкти для жінок-підприємиць від Ощаду!Почніть або масштабуйте свій бізнес на ексклюзивних умовах за програмою «Жіноча справа»:📉 Ставка — 5-7-9% річних💰 Сума — до 5 млн грн на франшизи та до 10 млн грн на агропроєкти⏳ Термін — до 120 місяців 🔥 Унікальна пільга — перший платіж лише з 7-го місяцяКеруйте впевнено, розвивайтеся сміливо, а про фінансування подбає Ощадбанк.➡️ Подавайте заявку онлайн
+                  - link "Програма «Жіноча справа» від Ощаду See Details" [ref=f36e952] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.oschadbank.ua%2Fmsb%2Fwoman-sprava%3Futm_source%3Dmeta%26utm_medium%3Dcpm%26utm_campaign%3Dwoman-sprava%26utm_content%3Dwoman-sprava_post_sprava2_aw_2607_73055448&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e954]:
+                      - generic [ref=f36e955]:
+                        - generic:
+                          - button
+                        - button "Програма «Жіноча справа» від Ощаду" [ref=f36e957]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "See Details" [ref=f36e960]
+            - generic [ref=f36e966]:
+              - generic [ref=f36e968]:
+                - generic [ref=f36e969]:
+                  - generic [ref=f36e970]: 활성
+                  - generic [ref=f36e977]: "라이브러리 ID: 2178784259645327"
+                  - generic [ref=f36e980]: 2026. 7. 22.에 게재 시작함
+                  - generic [ref=f36e982]: 플랫폼
+                  - generic [ref=f36e1000]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e1008]:
+                    - strong [ref=f36e1009]: 광고 5개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e1012] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e1018] [cursor=pointer]
+              - separator [ref=f36e1023]
+              - generic [ref=f36e1028]:
+                - generic [ref=f36e1031]:
+                  - img "ПриватБанк" [ref=f36e1032]
+                  - generic [ref=f36e1034]:
+                    - link "ПриватБанк" [ref=f36e1035] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privatbank/
+                    - generic [ref=f36e1039]:
+                      - strong [ref=f36e1041]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e1043]:
+                  - button [ref=f36e1046]:
+                    - generic [ref=f36e1047]: "Створили надійного фінансового помічника для вашої справи. Це – кредитна бізнес-картка для ФОП із лімітом «Підприємницький». З нею ви отримуєте:● Гарантований ліміт до 500 000 грн: затверджується на цілий рік або на квартал і не переглядається щомісяця, незалежно від вашої поточної активності чи змін у скорингу.● Майже два місяці пільгового періоду без відсотків. ● Універсальність для щоденних потреб: картка ідеально підходить для покриття поточних щоденних витрат: закупівель, оплати реклами, оренди тощо."
+                  - link "PRIVATBANK.UA Дізнатися розрахований ліміт від ПриватБанку See Details" [ref=f36e1051] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fprivatbank.ua%2Fbusiness%2Fkredytnyi-limit-pidpryiemnytskyi%3Futm_source%3Dmarketing_Meta%26utm_medium%3Dcpm%26utm_campaign%3DMC_PB_Business_credit_card%26utm_manager%3DMARKETING%26utm_comment%3DMeta_G2&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e1053]:
+                      - generic [ref=f36e1054]:
+                        - button "PRIVATBANK.UA" [ref=f36e1056]
+                        - button "Дізнатися розрахований ліміт від ПриватБанку" [ref=f36e1059]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "See Details" [ref=f36e1062]
+            - generic [ref=f36e1068]:
+              - generic [ref=f36e1070]:
+                - generic [ref=f36e1071]:
+                  - generic [ref=f36e1072]: 활성
+                  - generic [ref=f36e1079]: "라이브러리 ID: 864316519519809"
+                  - generic [ref=f36e1082]: 2026. 1. 4.에 게재 시작함
+                  - generic [ref=f36e1084]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e1099] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e1105] [cursor=pointer]
+              - separator [ref=f36e1110]
+              - generic [ref=f36e1115]:
+                - generic [ref=f36e1118]:
+                  - img "水管萬歲/清潔水管/水管漏水補漏/專業服務" [ref=f36e1119]
+                  - generic [ref=f36e1121]:
+                    - link "水管萬歲/清潔水管/水管漏水補漏/專業服務" [ref=f36e1122] [cursor=pointer]:
+                      - /url: https://www.facebook.com/waterpipelonglife/
+                    - generic [ref=f36e1126]:
+                      - strong [ref=f36e1128]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e1133]:
+                  - generic [ref=f36e1136]:
+                    - text: "💯--- 大樓(公寓)一律 3800 元 不另加價 ---💯💯--- 清洗水管 熱水器 老房子盡快預約 假日無休 ---💯📣 熱水器沒熱水 / 清洗水管 / 延長水管使用壽命📣📣 高週波清洗水管+清洗熱水器📣💓歡迎洽詢 LINE ID: a0982082200✔ 1.水管清潔 - 重金屬 ‧ 除垢 ‧ 殺菌 ‧ 消毒✔ 2.解決熱水器無法點火問題✔ 3.延長水管 ‧ 淨水器壽命🎯服務區域：台南，高雄，屏東🤳服務專線: 0982-082-200📌官方網站"
+                    - link "https://cleaning.2001ok.com" [ref=f36e1138] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcleaning.2001ok.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                - generic [ref=f36e1140]:
+                  - generic:
+                    - button [disabled]
+                  - generic [ref=f36e1143]:
+                    - generic [ref=f36e1147]:
+                      - link "CLEANING.2001OK.COM 清洗水管 / 大樓(公寓)一律 3800 元 Contact Us" [ref=f36e1148] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcleaning.2001ok.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1150]:
+                          - generic [ref=f36e1151]:
+                            - button "CLEANING.2001OK.COM" [ref=f36e1153]
+                            - button "清洗水管 / 大樓(公寓)一律 3800 元" [ref=f36e1156]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Contact Us" [ref=f36e1159]
+                      - button [ref=f36e1166]
+                    - generic [ref=f36e1172]:
+                      - link "CLEANING.2001OK.COM 清洗水管 / 大樓(公寓)一律 3800 元 Contact Us" [ref=f36e1173] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcleaning.2001ok.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1175]:
+                          - generic [ref=f36e1176]:
+                            - button "CLEANING.2001OK.COM" [ref=f36e1178]
+                            - button "清洗水管 / 大樓(公寓)一律 3800 元" [ref=f36e1181]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Contact Us" [ref=f36e1184]
+                      - button [ref=f36e1191]
+                  - button "다음 항목" [ref=f36e1195] [cursor=pointer]
+            - generic [ref=f36e1199]:
+              - generic [ref=f36e1201]:
+                - generic [ref=f36e1202]:
+                  - generic [ref=f36e1203]: 비활성
+                  - generic [ref=f36e1210]: "라이브러리 ID: 1537153934184487"
+                  - generic [ref=f36e1213]: 2025. 12. 17.~2025. 12. 31.
+                  - generic [ref=f36e1215]: 플랫폼
+                  - generic [ref=f36e1233]: 카테고리
+                  - generic [ref=f36e1239]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e1247]:
+                    - strong [ref=f36e1248]: 광고 4개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e1251] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e1257] [cursor=pointer]
+              - separator [ref=f36e1262]
+              - generic [ref=f36e1267]:
+                - generic [ref=f36e1270]:
+                  - img "ПриватБанк" [ref=f36e1271]
+                  - generic [ref=f36e1273]:
+                    - link "ПриватБанк" [ref=f36e1274] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privatbank/
+                    - generic [ref=f36e1278]:
+                      - strong [ref=f36e1280]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e1282]:
+                  - button [ref=f36e1285]
+                  - link "Активуйте 10% кешбеку Пропозиція в розділі «Привіт» Learn More" [ref=f36e1289] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fprivatbank.ua%2Fstrakhuvannia%2Fzelena-kartka%3Futm_type%3Dbusinessbanking%26utm_manager%3DMARKETING%26utm_source%3DMeta%26utm_medium%3Dcpm%26utm_campaign%3DMC_PB_Green_Card_Meta_CPM%26utm_comment%3DMC_PB_Green_Card_Meta_CPM%26%23green-cacheback&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e1291]:
+                      - generic [ref=f36e1292]:
+                        - generic:
+                          - button
+                        - button "Активуйте 10% кешбеку" [ref=f36e1294]
+                        - button "Пропозиція в розділі «Привіт»" [ref=f36e1297]
+                        - generic:
+                          - button
+                      - button "Learn More" [ref=f36e1300]
+            - generic [ref=f36e1306]:
+              - generic [ref=f36e1308]:
+                - generic [ref=f36e1309]:
+                  - generic [ref=f36e1310]: 활성
+                  - generic [ref=f36e1317]: "라이브러리 ID: 1746592736542315"
+                  - generic [ref=f36e1320]: 2026. 7. 26.에 게재 시작함
+                  - generic [ref=f36e1322]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e1337] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e1343] [cursor=pointer]
+              - separator [ref=f36e1348]
+              - generic [ref=f36e1353]:
+                - generic [ref=f36e1355]:
+                  - img "Ощадбанк" [ref=f36e1356]
+                  - generic [ref=f36e1358]:
+                    - link "Ощадбанк" [ref=f36e1359] [cursor=pointer]:
+                      - /url: https://www.facebook.com/oschadbank/
+                    - generic [ref=f36e1363]:
+                      - strong [ref=f36e1365]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e1366]:
+                  - button [ref=f36e1369]:
+                    - generic [ref=f36e1370]: "🚀 6 місяців без платежів по кредиту для розвитку вашого бізнесу: програма «Жіноча справа» від Ощаду.Головний страх під час запуску чи розширення бізнесу — кредитне навантаження в перші місяці, коли компанія ще не приносить стабільного доходу. Ощадбанк вирішив цю проблему для українських бізнес-леді! За нашою спеціальною програмою ви починаєте платити за кредитом лише з 7-го місяця роботи.📊 Фінансові параметри програми:- Ціль: розвиток франшиз, фінансування агробізнесу, запуск стартапів з нуля.- Суми: до 5 000 000 грн на франшизи та до 10 000 000 грн на агросектор.- Пільгова ставка: державна програма 5-7-9% або стандартні умови банку.- Термін кредитування: до 10 років.Програма створена спеціально для ФОП-жінок та юридичних осіб з жіночою участю в капіталі. Не відкладайте свій потенціал на завтра.➡️ Залишити заявку"
+                  - link "OSCHADBANK.UA Програма «Жіноча справа» від Ощаду 자세히 보기" [ref=f36e1373] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.oschadbank.ua%2Fmsb%2Fwoman-sprava%3Futm_source%3Dmeta%26utm_medium%3Dcpm%26utm_campaign%3Dwoman-sprava%26utm_content%3Dwoman-sprava_post_sprava2_aw_2607_73055448&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e1375]:
+                      - generic [ref=f36e1376]:
+                        - button "OSCHADBANK.UA" [ref=f36e1378]
+                        - button "Програма «Жіноча справа» від Ощаду" [ref=f36e1381]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "자세히 보기" [ref=f36e1384]
+            - generic [ref=f36e1390]:
+              - generic [ref=f36e1392]:
+                - generic [ref=f36e1393]:
+                  - generic [ref=f36e1394]: 비활성
+                  - generic [ref=f36e1401]: "라이브러리 ID: 1305899898200821"
+                  - generic [ref=f36e1404]: 2026. 7. 1.~2026. 7. 30.
+                  - generic [ref=f36e1406]: 플랫폼
+                  - generic [ref=f36e1429]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e1437]:
+                    - strong [ref=f36e1438]: 광고 2개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e1441] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e1447] [cursor=pointer]
+              - separator [ref=f36e1452]
+              - generic [ref=f36e1457]:
+                - generic [ref=f36e1460]:
+                  - img "Sunday Natural" [ref=f36e1461]
+                  - generic [ref=f36e1463]:
+                    - link "Sunday Natural" [ref=f36e1464] [cursor=pointer]:
+                      - /url: https://www.facebook.com/SundayDE/
+                    - generic [ref=f36e1468]:
+                      - strong [ref=f36e1470]: 광고
+                      - generic:
+                        - strong
+                - 'link "Schönheit braucht keine Schaufel. SunGlow® Luxe Cacao: Gold-Standard-Kollagenhydrolysat (hergestellt aus Kollagen Typ I & Typ III) für strahlende Haut. Aus >80% kleinstmolekularen Tripeptiden (500 Da) für direkte Aufnahme im Darm und effektive Signalgebung, abgerundet mit feinstem Criollo-Edelkakao-Pulver. Aus artgerechter... Learn More" [ref=f36e1473] [cursor=pointer]':
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.sunday.de%2Fkollagen-pulver-bag-sunglow-luxe-cacao.html%3Fwb_ad%3Dr1pihHI87TJQ&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                  - generic [ref=f36e1475]:
+                    - generic [ref=f36e1476]:
+                      - generic:
+                        - button
+                      - button "Schönheit braucht keine Schaufel." [ref=f36e1478]
+                      - 'button "SunGlow® Luxe Cacao: Gold-Standard-Kollagenhydrolysat (hergestellt aus Kollagen Typ I & Typ III) für strahlende Haut. Aus >80% kleinstmolekularen Tripeptiden (500 Da) für direkte Aufnahme im Darm und effektive Signalgebung, abgerundet mit feinstem Criollo-Edelkakao-Pulver. Aus artgerechter..." [ref=f36e1481]'
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=f36e1484]
+            - generic [ref=f36e1490]:
+              - generic [ref=f36e1492]:
+                - generic [ref=f36e1493]:
+                  - generic [ref=f36e1494]: 비활성
+                  - generic [ref=f36e1501]: "라이브러리 ID: 2919085354947977"
+                  - generic [ref=f36e1504]: 2026. 2. 4.~2026. 4. 2.
+                  - generic [ref=f36e1506]: 플랫폼
+                  - generic [ref=f36e1534]: 여러 버전이 있는 광고입니다
+                - button "드롭다운 열기" [ref=f36e1543] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e1549] [cursor=pointer]
+              - separator [ref=f36e1554]
+              - generic [ref=f36e1559]:
+                - generic [ref=f36e1562]:
+                  - img "Happiness Heroes" [ref=f36e1563]
+                  - generic [ref=f36e1565]:
+                    - link "Happiness Heroes" [ref=f36e1566] [cursor=pointer]:
+                      - /url: https://www.facebook.com/HappinessHeroes/
+                    - generic [ref=f36e1570]:
+                      - strong [ref=f36e1572]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e1574]:
+                  - button "Shopping for children can be difficult, but it doesn't have to be. We love these gifts gifts for birthdays, holidays and everything in between ❤️" [ref=f36e1577]
+                  - link "DEALS.SAVINGS.COM Our Fav Gifts For Children We cannot recommend these enough! Shop Now" [ref=f36e1580] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwentytwowords.com%2Famzdirectglobal%2F%3Fasin%3D1788245563%26market%3DUK&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e1582]:
+                      - generic [ref=f36e1583]:
+                        - button "DEALS.SAVINGS.COM" [ref=f36e1585]
+                        - button "Our Fav Gifts For Children" [ref=f36e1588]
+                        - button "We cannot recommend these enough!" [ref=f36e1591]
+                        - generic:
+                          - button
+                      - button "Shop Now" [ref=f36e1594]
+            - generic [ref=f36e1600]:
+              - generic [ref=f36e1602]:
+                - generic [ref=f36e1603]:
+                  - generic [ref=f36e1604]: 비활성
+                  - generic [ref=f36e1611]: "라이브러리 ID: 2750105568664078"
+                  - generic [ref=f36e1614]: 2025. 12. 22.~2026. 2. 1.
+                  - generic [ref=f36e1616]: 플랫폼
+                  - generic [ref=f36e1644]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e1652]:
+                    - strong [ref=f36e1653]: 광고 2개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e1656] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e1662] [cursor=pointer]
+              - separator [ref=f36e1667]
+              - generic [ref=f36e1672]:
+                - generic [ref=f36e1675]:
+                  - img "Möbel Peeck" [ref=f36e1676]
+                  - generic [ref=f36e1678]:
+                    - link "Möbel Peeck" [ref=f36e1679] [cursor=pointer]:
+                      - /url: https://www.facebook.com/moebelpeeck/
+                    - generic [ref=f36e1683]:
+                      - strong [ref=f36e1685]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e1687]:
+                  - button [ref=f36e1690]:
+                    - generic [ref=f36e1691]: Jetzt ist der perfekte Moment für ein Upgrade deiner Einrichtung. Während der Winterinventur erhältst du bis zu 66 % Rabatt auf viele Möbel und Küchen aus Ausstellung und Lager. 🛋️Außerdem kannst du dir 11 % auf Neubestellungen sichern!*
+                  - link "Möbel und Küchen mit bis zu 66 % Rabatt! Learn More" [ref=f36e1694] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmoebel-peeck.de%2Fpages%2Fausstellungsstuecke&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e1696]:
+                      - generic [ref=f36e1697]:
+                        - generic:
+                          - button
+                        - button "Möbel und Küchen mit bis zu 66 % Rabatt!" [ref=f36e1699]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Learn More" [ref=f36e1702]
+            - generic [ref=f36e1708]:
+              - generic [ref=f36e1710]:
+                - generic [ref=f36e1711]:
+                  - generic [ref=f36e1712]: 비활성
+                  - generic [ref=f36e1719]: "라이브러리 ID: 911702808447941"
+                  - generic [ref=f36e1722]: 2026. 3. 10.~2026. 8. 8.
+                  - generic [ref=f36e1724]: 플랫폼
+                  - generic [ref=f36e1742]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e1751] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e1757] [cursor=pointer]
+              - separator [ref=f36e1762]
+              - generic [ref=f36e1767]:
+                - generic [ref=f36e1770]:
+                  - img "Advice Hub" [ref=f36e1771]
+                  - generic [ref=f36e1773]:
+                    - link "Advice Hub" [ref=f36e1774] [cursor=pointer]:
+                      - /url: https://www.facebook.com/61562087198077/
+                    - generic [ref=f36e1778]:
+                      - strong [ref=f36e1780]: 광고
+                      - generic:
+                        - strong
+                - 'button "Many people don’t know: You can buy Restaurant Equipment from Police Impound auctions! Learn how it works:" [ref=f36e1785]'
+                - generic [ref=f36e1789]:
+                  - generic:
+                    - button [disabled]
+                  - generic [ref=f36e1792]:
+                    - generic [ref=f36e1796]:
+                      - link "GETHAPPYDAY.COM Police Impound Restaurant Equipment - learn more Learn More" [ref=f36e1797] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1799]:
+                          - generic [ref=f36e1800]:
+                            - button "GETHAPPYDAY.COM" [ref=f36e1802]
+                            - button "Police Impound Restaurant Equipment - learn more" [ref=f36e1805]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e1808]
+                      - button [ref=f36e1815]
+                    - generic [ref=f36e1821]:
+                      - link "GETHAPPYDAY.COM Police Impound Restaurant Equipment - learn more Learn More" [ref=f36e1822] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1824]:
+                          - generic [ref=f36e1825]:
+                            - button "GETHAPPYDAY.COM" [ref=f36e1827]
+                            - button "Police Impound Restaurant Equipment - learn more" [ref=f36e1830]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e1833]
+                      - button [ref=f36e1840]
+                    - generic [ref=f36e1846]:
+                      - link [ref=f36e1847] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1849]:
+                          - generic [ref=f36e1850]:
+                            - button [ref=f36e1852]:
+                              - generic [ref=f36e1853]: GETHAPPYDAY.COM
+                            - button [ref=f36e1855]:
+                              - generic [ref=f36e1856]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1858]:
+                            - generic [ref=f36e1859]: Learn More
+                      - button [ref=f36e1865]
+                    - generic [ref=f36e1871]:
+                      - link [ref=f36e1872] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1874]:
+                          - generic [ref=f36e1875]:
+                            - button [ref=f36e1877]:
+                              - generic [ref=f36e1878]: GETHAPPYDAY.COM
+                            - button [ref=f36e1880]:
+                              - generic [ref=f36e1881]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1883]:
+                            - generic [ref=f36e1884]: Learn More
+                      - button [ref=f36e1890]
+                    - generic [ref=f36e1896]:
+                      - link [ref=f36e1897] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1899]:
+                          - generic [ref=f36e1900]:
+                            - button [ref=f36e1902]:
+                              - generic [ref=f36e1903]: GETHAPPYDAY.COM
+                            - button [ref=f36e1905]:
+                              - generic [ref=f36e1906]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1908]:
+                            - generic [ref=f36e1909]: Learn More
+                      - button [ref=f36e1915]
+                    - generic [ref=f36e1921]:
+                      - link [ref=f36e1922] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1924]:
+                          - generic [ref=f36e1925]:
+                            - button [ref=f36e1927]:
+                              - generic [ref=f36e1928]: GETHAPPYDAY.COM
+                            - button [ref=f36e1930]:
+                              - generic [ref=f36e1931]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1933]:
+                            - generic [ref=f36e1934]: Learn More
+                      - button [ref=f36e1940]
+                    - generic [ref=f36e1946]:
+                      - link [ref=f36e1947] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1949]:
+                          - generic [ref=f36e1950]:
+                            - button [ref=f36e1952]:
+                              - generic [ref=f36e1953]: GETHAPPYDAY.COM
+                            - button [ref=f36e1955]:
+                              - generic [ref=f36e1956]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1958]:
+                            - generic [ref=f36e1959]: Learn More
+                      - button [ref=f36e1965]
+                    - generic [ref=f36e1971]:
+                      - link [ref=f36e1972] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1974]:
+                          - generic [ref=f36e1975]:
+                            - button [ref=f36e1977]:
+                              - generic [ref=f36e1978]: GETHAPPYDAY.COM
+                            - button [ref=f36e1980]:
+                              - generic [ref=f36e1981]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e1983]:
+                            - generic [ref=f36e1984]: Learn More
+                      - button [ref=f36e1990]
+                    - generic [ref=f36e1996]:
+                      - link [ref=f36e1997] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgethappyday.com%2Fasrsearch%3Fsearch%3Dpolice%2520impound%2520restaurant%2520equipment%26utm_source%3D110%26campaign_id%3D%257B%257Bcampaign.id%257D%257D%26adset_id%3D%257B%257Badset.id%257D%257D%26ad_id%3D%257B%257Bad.id%257D%257D%26source%3Dfacebook%26account_id%3D2302634013525544%26cid%3Dch27052%2520ch7934%26pixel_id%3D840455538279291%26event%3DPURCHASE%26lang%3Den&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e1999]:
+                          - generic [ref=f36e2000]:
+                            - button [ref=f36e2002]:
+                              - generic [ref=f36e2003]: GETHAPPYDAY.COM
+                            - button [ref=f36e2005]:
+                              - generic [ref=f36e2006]: Police Impound Restaurant Equipment - learn more
+                          - button [ref=f36e2008]:
+                            - generic [ref=f36e2009]: Learn More
+                      - button [ref=f36e2015]
+                  - button "다음 항목" [ref=f36e2019] [cursor=pointer]
+            - generic [ref=f36e2023]:
+              - generic [ref=f36e2025]:
+                - generic [ref=f36e2026]:
+                  - generic [ref=f36e2027]: 활성
+                  - generic [ref=f36e2034]: "라이브러리 ID: 1036234595928613"
+                  - generic [ref=f36e2037]: 2026. 7. 13.에 게재 시작함
+                  - generic [ref=f36e2039]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e2069] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2075] [cursor=pointer]
+              - separator [ref=f36e2080]
+              - generic [ref=f36e2085]:
+                - generic [ref=f36e2088]:
+                  - img "Lezhin Comics ES" [ref=f36e2089]
+                  - generic [ref=f36e2091]:
+                    - link "Lezhin Comics ES" [ref=f36e2092] [cursor=pointer]:
+                      - /url: https://www.facebook.com/lezhines.coingee/
+                    - generic [ref=f36e2096]:
+                      - strong [ref=f36e2098]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e2103]:
+                  - generic [ref=f36e2106]:
+                    - text: ¡¡Quiero aparearme!! 😽Ver gratis 👉
+                    - link "bit.ly/babycat_ww_c3" [ref=f36e2107] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2Fbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - text: "#BL #Comedia #Sobrenatural"
+                - generic [ref=f36e2109]:
+                  - generic:
+                    - button [disabled]
+                  - generic [ref=f36e2112]:
+                    - generic [ref=f36e2116]:
+                      - link "LEZHIN.ES ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻 Learn More" [ref=f36e2117] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2119]:
+                          - generic [ref=f36e2120]:
+                            - button "LEZHIN.ES" [ref=f36e2122]
+                            - button "¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻" [ref=f36e2125]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e2128]
+                      - button [ref=f36e2135]
+                    - generic [ref=f36e2141]:
+                      - link "LEZHIN.ES ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻 Learn More" [ref=f36e2142] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2144]:
+                          - generic [ref=f36e2145]:
+                            - button "LEZHIN.ES" [ref=f36e2147]
+                            - button "¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻" [ref=f36e2150]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e2153]
+                      - button [ref=f36e2160]
+                    - generic [ref=f36e2166]:
+                      - link [ref=f36e2167] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2169]:
+                          - generic [ref=f36e2170]:
+                            - button [ref=f36e2172]:
+                              - generic [ref=f36e2173]: LEZHIN.ES
+                            - button [ref=f36e2175]:
+                              - generic [ref=f36e2176]: ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻
+                          - button [ref=f36e2178]:
+                            - generic [ref=f36e2179]: Learn More
+                      - button [ref=f36e2185]
+                    - generic [ref=f36e2191]:
+                      - link [ref=f36e2192] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2194]:
+                          - generic [ref=f36e2195]:
+                            - button [ref=f36e2197]:
+                              - generic [ref=f36e2198]: LEZHIN.ES
+                            - button [ref=f36e2200]:
+                              - generic [ref=f36e2201]: ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻
+                          - button [ref=f36e2203]:
+                            - generic [ref=f36e2204]: Learn More
+                      - button [ref=f36e2210]
+                    - generic [ref=f36e2216]:
+                      - link [ref=f36e2217] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2219]:
+                          - generic [ref=f36e2220]:
+                            - button [ref=f36e2222]:
+                              - generic [ref=f36e2223]: LEZHIN.ES
+                            - button [ref=f36e2225]:
+                              - generic [ref=f36e2226]: ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻
+                          - button [ref=f36e2228]:
+                            - generic [ref=f36e2229]: Learn More
+                      - button [ref=f36e2235]
+                    - generic [ref=f36e2241]:
+                      - link [ref=f36e2242] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.lezhin.es%2Fdetail%2Fesa-colita-sera-mia%3Fporch%3Dbabycat_ww_c3&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2244]:
+                          - generic [ref=f36e2245]:
+                            - button [ref=f36e2247]:
+                              - generic [ref=f36e2248]: LEZHIN.ES
+                            - button [ref=f36e2250]:
+                              - generic [ref=f36e2251]: ¡𝗘𝘀𝗮 𝗰𝗼𝗹𝗶𝘁𝗮 𝘀𝗲𝗿𝗮́ 𝗺𝗶́𝗮! 😻
+                          - button [ref=f36e2253]:
+                            - generic [ref=f36e2254]: Learn More
+                      - button [ref=f36e2260]
+                  - button "다음 항목" [ref=f36e2264] [cursor=pointer]
+            - generic [ref=f36e2268]:
+              - generic [ref=f36e2270]:
+                - generic [ref=f36e2271]:
+                  - generic [ref=f36e2272]: 비활성
+                  - generic [ref=f36e2279]: "라이브러리 ID: 942271375461105"
+                  - generic [ref=f36e2282]: 2026. 4. 30.~2026. 5. 6.
+                  - generic [ref=f36e2284]: 플랫폼
+                  - generic [ref=f36e2302]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e2311] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2317] [cursor=pointer]
+              - separator [ref=f36e2322]
+              - generic [ref=f36e2327]:
+                - generic [ref=f36e2329]:
+                  - img "Caudalie" [ref=f36e2330]
+                  - generic [ref=f36e2332]:
+                    - link "Caudalie" [ref=f36e2333] [cursor=pointer]:
+                      - /url: https://www.facebook.com/CaudalieBelgique/
+                    - generic [ref=f36e2337]:
+                      - strong [ref=f36e2339]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e2340]:
+                  - button "Découvrez Vinoperfect, notre collection best-seller, pour corriger et prévenir tous les types de taches pigmentaires - soleil, acné, âge, grossesse" [ref=f36e2343]
+                  - link "FB.COM La solution anti-taches N°1 de l'anti-taches 더 알아보기" [ref=f36e2346] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.com%2Fcanvas_doc%2F1246020114376504&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e2348]:
+                      - generic [ref=f36e2349]:
+                        - button "FB.COM" [ref=f36e2351]
+                        - button "La solution anti-taches" [ref=f36e2354]
+                        - button "N°1 de l'anti-taches" [ref=f36e2357]
+                        - generic:
+                          - button
+                      - button "더 알아보기" [ref=f36e2360]
+            - generic [ref=f36e2366]:
+              - generic [ref=f36e2368]:
+                - generic [ref=f36e2369]:
+                  - generic [ref=f36e2370]: 비활성
+                  - generic [ref=f36e2377]: "라이브러리 ID: 954733676928875"
+                  - generic [ref=f36e2380]: 2026. 3. 27.~2026. 4. 18.
+                  - generic [ref=f36e2382]: 플랫폼
+                  - generic [ref=f36e2400]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e2409] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2415] [cursor=pointer]
+              - separator [ref=f36e2420]
+              - generic [ref=f36e2425]:
+                - generic [ref=f36e2428]:
+                  - img "BRIÓ SHOP" [ref=f36e2429]
+                  - generic [ref=f36e2431]:
+                    - link "BRIÓ SHOP" [ref=f36e2432] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100068504822258/
+                    - generic [ref=f36e2436]:
+                      - strong [ref=f36e2438]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e2443]:
+                  - generic [ref=f36e2446]:
+                    - text: "VOLANTINO BUONA PASQUA😍SFOGLIA ORA👉:"
+                    - link "https://brioshop.promoviamo.it/" [ref=f36e2447] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fbrioshop.promoviamo.it%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - text: "È arrivato il NUOVO VOLANTINO, valido dal 28 Marzo AL 11 Aprile; con tantissimi sconti in tutti i nostri reparti: Detersivi, Casalinghi, Profumeria, Pet food, Profumeria e tanto altro....🛒🤩I nostri STORE sono: 📍GALATINA, VIA GUIDANO 26;📍SURBO, VIA G.LEONE ANG.VIA MAESTRI DEL LAVORO"
+                - generic [ref=f36e2450]:
+                  - generic:
+                    - button [disabled]
+                  - button "다음 항목" [ref=f36e2515] [cursor=pointer]
+            - generic [ref=f36e2519]:
+              - generic [ref=f36e2521]:
+                - generic [ref=f36e2522]:
+                  - generic [ref=f36e2523]: 비활성
+                  - generic [ref=f36e2530]: "라이브러리 ID: 926294226588195"
+                  - generic [ref=f36e2533]: 2026. 2. 18.~2026. 2. 23.
+                  - generic [ref=f36e2535]: 플랫폼
+                  - generic [ref=f36e2563]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e2570]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e2579] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2585] [cursor=pointer]
+              - separator [ref=f36e2590]
+              - generic [ref=f36e2595]:
+                - generic [ref=f36e2598]:
+                  - img "Fnac" [ref=f36e2599]
+                  - generic [ref=f36e2601]:
+                    - link "Fnac" [ref=f36e2602] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Fnac/
+                    - generic [ref=f36e2606]:
+                      - strong [ref=f36e2608]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e2610]:
+                  - button [ref=f36e2613]:
+                    - generic [ref=f36e2614]: 🔴 OFFRE DE REMBOURSEMENT FNAC – Profitez d’une image spectaculaire avec la TV TCL QD-Mini LED Série C89K 📺✨🌈 Technologie QD-Mini LED pour des contrastes précis et une luminosité optimale🎬 Image 4K immersive, idéale pour films, sport et divertissement🎮 Fluidité et performances adaptées au gaming🏆 Grand format pour une expérience cinéma à domicile💰 Jusqu’à 200€ remboursés par la marque (voir conditions).📍 Disponible sur notre site et en magasin⏳ Offre valable dans la limite des stocks disponibles
+                  - link "FNAC.COM TCL | FNAC TV Tcl QD-Mini LED 55C89K 138 cm 2025 Shop Now" [ref=f36e2618] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feultech.fnac.com%2Fdynclick%2Ffnac%2F%3Fead-publisher%3Dfacebook%26ead-name%3Dfacebook-DPA_Trade%26ead-location%3Dfacebook%26ead-creative%3DDPA%26ead-creativetype%3DDPA%26eurl%3Dhttps%253A%252F%252Fwww.fnac.com%252FTV-QD-Mini-LED-Tcl-55C89K-138-cm-4K-UHD-2025-Aluminium-brosse%252Fa21546074%252Fw-4%26Origin%3DRS_FB_DPA_TRADE&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e2620]:
+                      - generic [ref=f36e2621]:
+                        - button "FNAC.COM" [ref=f36e2623]
+                        - button "TCL | FNAC" [ref=f36e2626]
+                        - button "TV Tcl QD-Mini LED 55C89K 138 cm 2025" [ref=f36e2629]
+                        - generic:
+                          - button
+                      - button "Shop Now" [ref=f36e2632]
+            - generic [ref=f36e2638]:
+              - generic [ref=f36e2640]:
+                - generic [ref=f36e2641]:
+                  - generic [ref=f36e2642]: 비활성
+                  - generic [ref=f36e2649]: "라이브러리 ID: 1538230047166124"
+                  - generic [ref=f36e2652]: 2026. 6. 30.~2026. 7. 8.
+                  - generic [ref=f36e2654]: 플랫폼
+                  - generic [ref=f36e2662]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e2671] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2677] [cursor=pointer]
+              - separator [ref=f36e2682]
+              - generic [ref=f36e2687]:
+                - generic [ref=f36e2690]:
+                  - img "Beauty" [ref=f36e2691]
+                  - generic [ref=f36e2693]:
+                    - generic [ref=f36e2694]:
+                      - link "Beauty" [ref=f36e2695] [cursor=pointer]:
+                        - /url: https://www.facebook.com/Beauty113285041018253/
+                      - text: 페이지는
+                      - link "essence cosmetics" [ref=f36e2696] [cursor=pointer]:
+                        - /url: https://www.facebook.com/essence.cosmetica.italia/
+                      - text: 과(와) 함께합니다
+                    - generic [ref=f36e2700]:
+                      - strong [ref=f36e2702]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e2707]:
+                  - generic [ref=f36e2708]: "#adv @essence.cosmetics.italia 💅🏻OGNI STRAIGHT GIRL HA BISOGNO DELLA SUA QUEER PERSON💅🏻Chi ha detto che per essere anime gemelle bisogna essere identiche? A volte la complicità più grande si nasconde nelle nostre differenze. Quella sintonia unica tra chi si capisce con uno sguardo, si scambia segreti di stile e costruisce un porto sicuro per essere liberamente sé stessi💖 Insieme a @essence.cosmetics.italia celebriamo l'inclusività, la libertà di esprimere la propria personalità e la bellezza di essere autenticamente sé stessi. Perché il make-up è un modo per raccontarsi, senza etichette, valorizzando ciò che rende ogni persona unica. ✨ E tu quale sei? 👇🏼 #thewombeauty #essence #pride #pridemonth #makeup #bestfriends"
+                - generic [ref=f36e2713]:
+                  - generic:
+                    - button [disabled]
+                  - generic [ref=f36e2716]:
+                    - generic [ref=f36e2720]:
+                      - 'link "ESSENCE.EU Essence Cosmetics: Affordable Drugstore Makeup & Beauty Products Learn More" [ref=f36e2721] [cursor=pointer]':
+                        - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.essence.eu%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2723]:
+                          - generic [ref=f36e2724]:
+                            - button "ESSENCE.EU" [ref=f36e2726]
+                            - 'button "Essence Cosmetics: Affordable Drugstore Makeup & Beauty Products" [ref=f36e2729]'
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e2732]
+                      - button [ref=f36e2739]
+                    - generic [ref=f36e2745]:
+                      - 'link "ESSENCE.EU Essence Cosmetics: Affordable Drugstore Makeup & Beauty Products Learn More" [ref=f36e2746] [cursor=pointer]':
+                        - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.essence.eu%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e2748]:
+                          - generic [ref=f36e2749]:
+                            - button "ESSENCE.EU" [ref=f36e2751]
+                            - 'button "Essence Cosmetics: Affordable Drugstore Makeup & Beauty Products" [ref=f36e2754]'
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Learn More" [ref=f36e2757]
+                      - button [ref=f36e2764]
+                  - button "다음 항목" [ref=f36e2768] [cursor=pointer]
+            - generic [ref=f36e2772]:
+              - generic [ref=f36e2774]:
+                - generic [ref=f36e2775]:
+                  - generic [ref=f36e2776]: 활성
+                  - generic [ref=f36e2783]: "라이브러리 ID: 1294961942751999"
+                  - generic [ref=f36e2786]: 2026. 5. 8.에 게재 시작함
+                  - generic [ref=f36e2788]: 플랫폼
+                  - generic [ref=f36e2816]: 여러 버전이 있는 광고입니다
+                - button "드롭다운 열기" [ref=f36e2825] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e2831] [cursor=pointer]
+              - separator [ref=f36e2836]
+              - generic [ref=f36e2841]:
+                - generic [ref=f36e2844]:
+                  - img "Blackline Car Care" [ref=f36e2845]
+                  - generic [ref=f36e2847]:
+                    - link "Blackline Car Care" [ref=f36e2848] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100078296889361/
+                    - generic [ref=f36e2852]:
+                      - strong [ref=f36e2854]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e2856]:
+                  - button [ref=f36e2859]:
+                    - generic [ref=f36e2860]: 🔥Your car doesn’t deserve average. It deserves BLACKLINE.The Blackline Clay Towel gives you the power of a clay bar without the hassle. Designed to glide fast, lift stubborn contaminants, and leave your paint silky smooth in half the time. No marring. No mess. Just pro-level prep, simplified.
+                  - link "BLACKLINECARCARE.COM BLACKLINE® SPEED GLOSS QUICK DETAILER Shop Now" [ref=f36e2863] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblacklinecarcare.com%2Fproducts%2Fspeed-gloss%3Futm_content%3DFacebook_UA%26utm_source%3Dfacebook%26variant%3D43985120100572&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e2865]:
+                      - generic [ref=f36e2866]:
+                        - button "BLACKLINECARCARE.COM" [ref=f36e2868]
+                        - button "BLACKLINE® SPEED GLOSS QUICK DETAILER" [ref=f36e2871]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Shop Now" [ref=f36e2874]
+            - generic [ref=f36e2880]:
+              - generic [ref=f36e2882]:
+                - generic [ref=f36e2883]:
+                  - generic [ref=f36e2884]: 활성
+                  - generic [ref=f36e2891]: "라이브러리 ID: 1731014257913975"
+                  - generic [ref=f36e2894]: 2026. 7. 1.에 게재 시작함
+                  - generic [ref=f36e2896]: 플랫폼
+                  - generic [ref=f36e2925]:
+                    - strong [ref=f36e2926]: 광고 3개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e2929] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e2935] [cursor=pointer]
+              - separator [ref=f36e2940]
+              - generic [ref=f36e2945]:
+                - generic [ref=f36e2947]:
+                  - img "British Council Thailand" [ref=f36e2948]
+                  - generic [ref=f36e2950]:
+                    - link "British Council Thailand" [ref=f36e2951] [cursor=pointer]:
+                      - /url: https://www.facebook.com/BritishCouncilThailand/
+                    - generic [ref=f36e2955]:
+                      - strong [ref=f36e2957]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e2958]:
+                  - button [ref=f36e2961]:
+                    - generic [ref=f36e2962]: 📍 สอบ IELTS ที่ภูเก็ตง่ายกว่าที่เคย 🌴💻ตอนนี้ภูเก็ตมีสอบ IELTS on Computer แล้ว ที่ Phuket English Examination Center (PEEC) 💙ไม่ต้องเสียเวลาเดินทางไกล ก็สอบได้ใกล้บ้านแบบสบาย ๆ ✨🗓 สอบทุกวันเสาร์ ⚡ รู้ผลเร็วใน 1-2 วัน 🎁 ฟรี IELTS Ready Premium มูลค่า 5,500 บาทพร้อมฝึกครบทุกทักษะก่อนสอบจริง 📚🔥จะยื่นมหาลัย เรียนต่อ หรือทำงานต่างประเทศ 🌍 เริ่มต้นง่าย ๆ ได้ที่ภูเก็ตเลย
+                  - link [ref=f36e2966] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.britishcouncil.or.th%2Fexam-ielts-british-council-special-offer%3Futm_source%3Dmeta%26utm_medium%3Dpaid%26utm_campaign%3D%257B%257Bcampaign.name%257D%257D&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+            - generic [ref=f36e2969]:
+              - generic [ref=f36e2971]:
+                - generic [ref=f36e2972]:
+                  - generic [ref=f36e2973]: 활성
+                  - generic [ref=f36e2980]: "라이브러리 ID: 4325289651119273"
+                  - generic [ref=f36e2983]: 2026. 4. 29.에 게재 시작함
+                  - generic [ref=f36e2985]: 플랫폼
+                  - generic [ref=f36e3008]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e3017] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e3023] [cursor=pointer]
+              - separator [ref=f36e3028]
+              - generic [ref=f36e3033]:
+                - generic [ref=f36e3035]:
+                  - img "Advokat Novitska Maryna" [ref=f36e3036]
+                  - generic [ref=f36e3038]:
+                    - link "Advokat Novitska Maryna" [ref=f36e3039] [cursor=pointer]:
+                      - /url: https://www.facebook.com/61554724477107/
+                    - generic [ref=f36e3043]:
+                      - strong [ref=f36e3045]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e3046]:
+                  - button [ref=f36e3049]:
+                    - generic [ref=f36e3050]: 📩Якщо ви перебуваєте за кордоном 🌏 і плануєте розірвати шлюб в Україні без особистої присутності та потребуєте адвоката для професійного, швидкого та позитивного вирішення справи, пишіть в особисті повідомлення або телефонуйте за номером☎️+380967748827 ☎️+48739110908 Telegram, Viber, Whatsupp Я особисто відповідаю на кожен дзвінок та повідомлення. Мене звати Марина Новіцька я адвокат, спеціалізуюсь на цивільному, сімейному та спадковому праві.Незалежно від країни вашого перебування, я як адвокат, можу бути вашим представником в Україні під час розгляду справи про розлучення.
+                  - generic [ref=f36e3055]:
+                    - generic [ref=f36e3056]:
+                      - generic:
+                        - button
+                      - button "Advokat Novitska Maryna" [ref=f36e3058]
+                      - button "Lawyer" [ref=f36e3061]
+                      - generic:
+                        - button
+                    - button "메시지 보내기" [disabled] [ref=f36e3064]
+            - generic [ref=f36e3070]:
+              - generic [ref=f36e3072]:
+                - generic [ref=f36e3073]:
+                  - generic [ref=f36e3074]: 활성
+                  - generic [ref=f36e3081]: "라이브러리 ID: 1335780305391272"
+                  - generic [ref=f36e3084]: 2026. 7. 21.에 게재 시작함
+                  - generic [ref=f36e3086]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e3116] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e3122] [cursor=pointer]
+              - separator [ref=f36e3127]
+              - generic [ref=f36e3132]:
+                - generic [ref=f36e3134]:
+                  - img "Proxy-Cheap" [ref=f36e3135]
+                  - generic [ref=f36e3137]:
+                    - link "Proxy-Cheap" [ref=f36e3138] [cursor=pointer]:
+                      - /url: https://www.facebook.com/proxycheapcom/
+                    - generic [ref=f36e3142]:
+                      - strong [ref=f36e3144]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e3145]:
+                  - button "Route your torrent client through reliable SOCKS5 proxies with simple setup and flexible locations." [ref=f36e3148]
+                  - link "PROXY-CHEAP.COM Private routing for P2P workflows Every peer in a torrent swarm can see the IP address of every other peer — including yours. Torrenting Proxies provide reliable anonymity with 125+ locations and 10M+ IPs, helping you access torrents quickly and securely. 지금 구매하기" [ref=f36e3151] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.proxy-cheap.com%2Fuse-cases%2Fproxies-for-torrenting&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e3153]:
+                      - generic [ref=f36e3154]:
+                        - button "PROXY-CHEAP.COM" [ref=f36e3156]
+                        - button "Private routing for P2P workflows" [ref=f36e3159]
+                        - button "Every peer in a torrent swarm can see the IP address of every other peer — including yours. Torrenting Proxies provide reliable anonymity with 125+ locations and 10M+ IPs, helping you access torrents quickly and securely." [ref=f36e3162]
+                        - generic:
+                          - button
+                      - button "지금 구매하기" [ref=f36e3165]
+            - generic [ref=f36e3171]:
+              - generic [ref=f36e3173]:
+                - generic [ref=f36e3174]:
+                  - generic [ref=f36e3175]: 활성
+                  - generic [ref=f36e3182]: "라이브러리 ID: 1504109284279285"
+                  - generic [ref=f36e3185]: 2026. 7. 15.에 게재 시작함
+                  - generic [ref=f36e3187]: 플랫폼
+                - button "드롭다운 열기" [ref=f36e3217] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e3223] [cursor=pointer]
+              - separator [ref=f36e3228]
+              - generic [ref=f36e3233]:
+                - generic [ref=f36e3236]:
+                  - img "Pablo Culzoni Soluciones para obras" [ref=f36e3237]
+                  - generic [ref=f36e3239]:
+                    - link "Pablo Culzoni Soluciones para obras" [ref=f36e3240] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100063681693126/
+                    - generic [ref=f36e3244]:
+                      - strong [ref=f36e3246]: 광고
+                      - generic:
+                        - strong
+                - button [ref=f36e3251]:
+                  - generic [ref=f36e3252]: 🎨 3 pinturerías en Rafaela, para que siempre tengas una cerca.Pinturas, revestimientos, accesorios y soluciones para cada proyecto, con atención personalizada.👉 Entrá a nuestro perfil y descubrí todo lo que tenemos para vos.
+                - generic [ref=f36e3256]:
+                  - generic:
+                    - button [disabled]
+                  - generic [ref=f36e3259]:
+                    - generic [ref=f36e3263]:
+                      - link "INSTAGRAM.COM Av. Luis Fanti 1102 Send Message" [ref=f36e3264] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e3266]:
+                          - generic [ref=f36e3267]:
+                            - button "INSTAGRAM.COM" [ref=f36e3269]
+                            - button "Av. Luis Fanti 1102" [ref=f36e3272]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Send Message" [ref=f36e3275]
+                      - button [ref=f36e3282]
+                    - generic [ref=f36e3288]:
+                      - link "INSTAGRAM.COM Av. Santa Fe 1243 Send Message" [ref=f36e3289] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e3291]:
+                          - generic [ref=f36e3292]:
+                            - button "INSTAGRAM.COM" [ref=f36e3294]
+                            - button "Av. Santa Fe 1243" [ref=f36e3297]
+                            - generic:
+                              - button
+                            - generic:
+                              - button
+                          - button "Send Message" [ref=f36e3300]
+                      - button [ref=f36e3307]
+                    - generic [ref=f36e3313]:
+                      - link [ref=f36e3314] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                        - generic [ref=f36e3316]:
+                          - generic [ref=f36e3317]:
+                            - button [ref=f36e3319]:
+                              - generic [ref=f36e3320]: INSTAGRAM.COM
+                            - button [ref=f36e3322]:
+                              - generic [ref=f36e3323]: L. Marchini 636
+                          - button [ref=f36e3325]:
+                            - generic [ref=f36e3326]: Send Message
+                      - button [ref=f36e3332]
+                  - button "다음 항목" [ref=f36e3336] [cursor=pointer]
+            - generic [ref=f36e3340]:
+              - generic [ref=f36e3342]:
+                - generic [ref=f36e3343]:
+                  - generic [ref=f36e3344]: 비활성
+                  - generic [ref=f36e3351]: "라이브러리 ID: 809938725056314"
+                  - generic [ref=f36e3354]: 2025. 9. 19.~2025. 11. 1.
+                  - generic [ref=f36e3356]: 플랫폼
+                  - generic [ref=f36e3374]: 카테고리
+                  - generic [ref=f36e3380]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e3388]:
+                    - strong [ref=f36e3389]: 광고 8개
+                    - text: 에서 이 크리에이티브 및 문구를 사용합니다
+                - button "드롭다운 열기" [ref=f36e3392] [cursor=pointer]
+              - button "요약 세부 사항 보기" [ref=f36e3398] [cursor=pointer]
+              - separator [ref=f36e3403]
+              - generic [ref=f36e3408]:
+                - generic [ref=f36e3411]:
+                  - img "ПриватБанк" [ref=f36e3412]
+                  - generic [ref=f36e3414]:
+                    - link "ПриватБанк" [ref=f36e3415] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privatbank/
+                    - generic [ref=f36e3419]:
+                      - strong [ref=f36e3421]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e3423]:
+                  - 'button "Для українців за кордоном ПриватБанк доставляє картки безкоштовно. Доставлення країнами Європи: адресне та до відділень пошти. Замовляйте за кілька кліків 💚" [ref=f36e3426]'
+                  - link "Доставка карток ПриватБанку Learn More" [ref=f36e3429] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fprivatbank.ua%2Fcard-delivery%3Futm_source%3Dfacebook_instagram%26utm_medium%3Dcpm%26utm_campaign%3D11694_Visa_Privat_Money_Cards_delivery_abroad_Sep-Oct%26utm_content%3Dall_placements&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e3431]:
+                      - generic [ref=f36e3432]:
+                        - generic:
+                          - button
+                        - button "Доставка карток ПриватБанку" [ref=f36e3434]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Learn More" [ref=f36e3437]
+            - generic [ref=f36e3443]:
+              - generic [ref=f36e3445]:
+                - generic [ref=f36e3446]:
+                  - generic [ref=f36e3447]: 비활성
+                  - generic [ref=f36e3454]: "라이브러리 ID: 1017280287398262"
+                  - generic [ref=f36e3457]: 2026. 5. 14.~2026. 5. 31.
+                  - generic [ref=f36e3459]: 플랫폼
+                  - generic [ref=f36e3487]: 여러 버전이 있는 광고입니다
+                  - generic [ref=f36e3494]: EU 투명성
+                - button "드롭다운 열기" [ref=f36e3503] [cursor=pointer]
+              - button "광고 상세 정보 보기" [ref=f36e3509] [cursor=pointer]
+              - separator [ref=f36e3514]
+              - generic [ref=f36e3519]:
+                - generic [ref=f36e3522]:
+                  - img "MediaMarkt Polska" [ref=f36e3523]
+                  - generic [ref=f36e3525]:
+                    - link "MediaMarkt Polska" [ref=f36e3526] [cursor=pointer]:
+                      - /url: https://www.facebook.com/MediaMarktPolska/
+                    - generic [ref=f36e3530]:
+                      - strong [ref=f36e3532]: 광고
+                      - generic:
+                        - strong
+                - generic [ref=f36e3534]:
+                  - button [ref=f36e3537]:
+                    - generic [ref=f36e3538]: 🎨 Sztuka fotografii w Twojej kieszeni! 🎨Nowy smartfon z ikonicznym systemem kamer Hasselblad to przełom! Skandynawski design + 200 MP główny obiektyw + 10× zoom optyczny = fotografie na poziomie profesjonalisty.✨ Ekran 144 Hz 2K ProXDR ⚡ Snapdragon 8 Elite Gen 5 🔋 Bateria 7050 mAhSprzedaż właśnie się zaczęła! 🚀 Odkryj szczegóły w MediaMarkt! 👈
+                  - link "🎨 Sztuka fotografii w Twoim kieszeni! 🎨 Shop Now" [ref=f36e3542] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmediamarkt.pl%2Fpl%2Fspecials%2Fpremiera-oppo-find-x9-ultra%3Futm_source%3Dmeta-paid%26utm_medium%3Dv2-soc%26utm_campaign%3Dpl%257Cmm%257Crt%257Cv2-soc%257Ccon%257Cstm%257Ctm20260428gsm%2520oppo%2520findx%257CCID25LCSUP%257Ctr%257Ctm20260428gsm%2520oppo%2520findx%257COSB0003T9G%26utm_term%3Ds22%26utm_content%3DOSB0003T9G-OSE00057TH-TCID%257B%257Bcampaign.id%257D%257D-TAID%257B%257Badset.id%257D%257D&h=AUDTgEYwTffdTVARbZyjeVqbywzlNVbgzrkMGB3FDUoFF6SKk0oTah_DAO_LoSMwzChckydXRJmoQySOMC4sbDQmE1FLG5N9fS5gkLOgx3UC4wfOrzHaKv4KEmNUK6rWx1uzPMz3Zyk4s2_Cu_X3R414afA
+                    - generic [ref=f36e3544]:
+                      - generic [ref=f36e3545]:
+                        - generic:
+                          - button
+                        - button "🎨 Sztuka fotografii w Twoim kieszeni! 🎨" [ref=f36e3547]
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Shop Now" [ref=f36e3550]
+          - button "더 보기" [ref=f36e3555] [cursor=pointer]
+      - generic [ref=f36e3559]:
+        - generic [ref=f36e3560]: 시스템 상태
+        - generic [ref=f36e3571]:
+          - list [ref=f36e3572]:
+            - listitem [ref=f36e3573]:
+              - heading [level=3] [ref=f36e3574]:
+                - link "광고 라이브러리 API" [ref=f36e3575] [cursor=pointer]:
+                  - /url: /ads/library/api/?source=archive-landing-page
+            - listitem [ref=f36e3576]:
+              - heading [level=3] [ref=f36e3577]:
+                - link "광고 및 데이터 사용 정보" [ref=f36e3578] [cursor=pointer]:
+                  - /url: /ads/about/?entry_product=ad_library
+            - listitem [ref=f36e3579]:
+              - heading [level=3] [ref=f36e3580]:
+                - link "개인정보처리방침" [ref=f36e3581] [cursor=pointer]:
+                  - /url: /privacy/center/?entry_point=privacy_basics_redirect
+            - listitem [ref=f36e3582]:
+              - heading [level=3] [ref=f36e3583]:
+                - link "약관" [ref=f36e3584] [cursor=pointer]:
+                  - /url: /policies/
+            - listitem [ref=f36e3585]:
+              - heading [level=3] [ref=f36e3586]:
+                - link "쿠키" [ref=f36e3587] [cursor=pointer]:
+                  - /url: /policies/cookies/
+          - heading [level=3] [ref=f36e3589]:
+            - text: Meta © 2026 |
+            - link "한국어" [ref=f36e3590] [cursor=pointer]:
+              - /url: /language/
+  - listbox "추천 검색 4개" [ref=f36e3596]:
+    - listitem [ref=f36e3598]:
+      - list [ref=f36e3599]:
+        - option "정확한 구문 Peec AIpeec 검색 \"Peec AIpeec\" 이 구문 검색" [ref=f36e3601]:
+          - generic [ref=f36e3606] [cursor=pointer]:
+            - button "정확한 구문 Peec AIpeec 검색" [ref=f36e3608]
+            - generic [ref=f36e3610]:
+              - generic [ref=f36e3611]: "\"Peec AIpeec\""
+              - generic [ref=f36e3612]: 이 구문 검색
+    - generic:
+      - listitem
+    - generic:
+      - listitem
+    - generic:
+      - listitem

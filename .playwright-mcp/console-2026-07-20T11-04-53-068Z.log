@@ -1,0 +1,8 @@
+[     135ms] [WARNING] Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md @ https://prompick.vercel.app/_expo/static/js/web/entry-f01c61cf67644b8aeb83a66fab4d739a.js:231
+[     259ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://prompick.vercel.app/auth:0
+[   18909ms] [WARNING] Tried to use the icon 'open-in-new' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons @ https://prompick.vercel.app/_expo/static/js/web/entry-f01c61cf67644b8aeb83a66fab4d739a.js:183

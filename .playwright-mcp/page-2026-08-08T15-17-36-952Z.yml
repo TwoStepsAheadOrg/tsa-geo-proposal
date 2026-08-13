@@ -1,0 +1,239 @@
+- generic [active] [ref=f43e1]:
+  - banner [ref=f43e2]:
+    - generic [ref=f43e3]:
+      - generic [ref=f43e5]:
+        - generic [ref=f43e6] [cursor=pointer]: 위시켓
+        - generic [ref=f43e10] [cursor=pointer]: 요즘IT
+        - generic [ref=f43e14] [cursor=pointer]: AIDP - AX
+        - generic [ref=f43e18] [cursor=pointer]: Rise ERP
+      - generic [ref=f43e21]:
+        - link:
+          - /url: /
+        - generic [ref=f43e24]:
+          - link [ref=f43e25] [cursor=pointer]:
+            - /url: /project/#clear
+          - link "파트너스 찾기" [ref=f43e29] [cursor=pointer]:
+            - /url: /partners/#clear
+          - link [ref=f43e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link [ref=f43e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+          - link [ref=f43e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+        - generic [ref=f43e45]:
+          - link "내 프로필" [ref=f43e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+          - generic [ref=f43e49]: 내 프로젝트 관리
+          - link [ref=f43e54] [cursor=pointer]:
+            - /url: /accounts/notifications/
+          - img "twostepsahead사진" [ref=f43e58] [cursor=pointer]
+      - generic [ref=f43e59]:
+        - generic [ref=f43e60]:
+          - generic [ref=f43e62]:
+            - link "프로젝트 찾기" [ref=f43e63] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f43e64] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f43e66]:
+            - link "이용방법" [ref=f43e67] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f43e68] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f43e69] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f43e70] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f43e71]:
+            - link "포트폴리오" [ref=f43e72] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f43e73] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f43e74]:
+            - link "솔루션 마켓" [ref=f43e75] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f43e76] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f43e77]:
+          - generic [ref=f43e78]: 프로필을 완성하고
+          - generic [ref=f43e79]: 더 많은 프로젝트를수주받아보세요
+          - link "내 프로필 입력하기" [ref=f43e80] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+          - img "광고 배너" [ref=f43e83]
+  - generic [ref=f43e84]:
+    - generic [ref=f43e89]:
+      - img "프로필 이미지" [ref=f43e91]
+      - generic [ref=f43e94]:
+        - text: twostepsahead
+        - generic [ref=f43e95]: 신원 인증
+        - generic [ref=f43e98]: 활동 가능
+        - generic [ref=f43e101]: 회원가입일 2026.07.06.
+      - generic [ref=f43e102]:
+        - generic [ref=f43e103]: 개발
+        - generic [ref=f43e106]: 법인사업자
+        - generic [ref=f43e109]: 서울특별시 강남구
+        - generic [ref=f43e112]: 외주 선호
+        - generic [ref=f43e113]:
+          - link "업데이트 하기":
+            - /url: /partners/p/twostepsahead/info/update/
+    - generic [ref=f43e115]:
+      - generic [ref=f43e116]:
+        - link "파트너 홈" [ref=f43e117] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/
+        - link "파트너 소개" [ref=f43e120] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/introduction/
+        - link "보유기술" [ref=f43e122] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/skill/
+        - link "회사 연혁" [ref=f43e124] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/company_history/
+        - link "협력업체 및 기관" [ref=f43e126] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/cooperative_company/
+        - link "수상이력" [ref=f43e128] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/prize/
+        - link "포트폴리오 12" [ref=f43e131] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/portfolio/
+          - generic [ref=f43e132]:
+            - text: 포트폴리오
+            - generic [ref=f43e133]: "12"
+        - link "클라이언트의 평가" [ref=f43e135] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/evaluation/
+        - link "위시켓에서 진행한 프로젝트" [ref=f43e137] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/history/
+        - link "레퍼런스 체크" [ref=f43e139] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/reference-check/
+      - generic [ref=f43e141]:
+        - generic [ref=f43e143]:
+          - text: 파트너 소개
+          - button "업데이트 하기" [ref=f43e144] [cursor=pointer]
+        - generic [ref=f43e145]:
+          - generic [ref=f43e146]: 회사 소개
+          - generic [ref=f43e147]: 저희는 기업의 AI 전환(AX)과 디지털 전환(DX) 도입을 설계부터 구축·운영까지 함께하는 IT 기업입니다. 서울 강남에 본사를 둔 법인으로, 자체 AI 서비스를 직접 개발·운영하며 그 과정에서 검증한 기술로 클라이언트의 AX·DX·AICX를 실현합니다.【핵심 역량】■ AX (AI 전환) — 업무·제품에 생성형 AI를 실제로 이식LLM 응용 서비스 개발, RAG·자체 예측 AI 모델, 대규모 크롤링·데이터 파이프라인, 생성형 AI 검색 가시성(GEO)까지. 단순 '도구 도입'을 넘어 데이터로 성과가 나는 AI 전환을 설계·구현합니다.■ DX (디지털 전환) — 제품·플랫폼을 프론트부터 백엔드까지 구축전기차 충전소 통합 관제 SaaS(React 19·NestJS·OCPP 1.6/2.0.1 — 관리자 87개 화면·실시간 원격제어·결제/로밍 자동정산), 한국식품 이커머스 쇼핑몰, B2B 아웃리치·CRM 플랫폼, 모바일 앱까지 웹·앱·백엔드를 아우르는 풀스택 구축·운영.■ AICX (AI 고객경험) — 상담·응대·CS를 AI로 전환Claude Tool Use 기반 24시간 AI 상담, 실시간 STT·상담 자동요약·감정분석·금지어 감지, AI 캐릭터 대화 등 고객 접점을 AI로 자동화하는 AICX를 구현합니다.【자체 운영 서비스】 (개발력 검증)· 플루랭크(Plurank) — 생성형 AI 검색 가시성(GEO) 데이터 SaaS. 7개 AI 플랫폼×12개국 실측, 3천만 건+ 데이터로 학습한 자체 예측모델(플루오라, 평균 예측오차 8.6%).· 툰에이전트(ToonAgent) — 브랜드 인스타툰/웹툰 제작.· 레비타로 — AI 사주·타로 운세 & AI 캐릭터 대화 앱.【실적】법인 설립 6개월 만에 누적 계약 2억 원 이상 달성. 전기차 충전 사업자, 엔터프라이즈 데이터 마케팅, 강남 의료기관, 인바운드 관광 플랫폼, 글로벌 대기업 계열 등 15개 이상 국내외 클라이언트와 협업했으며 미국·프랑스·일본 글로벌 PoC도 진행 중입니다.【일하는 방식】대표가 직접 설계·개발하는 테크리드 체제로 의사결정과 개발 사이에 간극이 없습니다. 문제 정의부터 데이터 검증, 배포·운영까지 끝까지 책임지며, Claude Code 등 AI 코딩 도구를 프로덕션에 상시 활용하는 AI-native 팀입니다.
+          - generic [ref=f43e148]: 주요 업무 분야 및 강점
+          - generic [ref=f43e149]: 【주요 업무 분야】■ AX · AI 전환· LLM/생성형 AI 응용 서비스 개발, RAG·자체 예측 모델· 생성형 AI 검색 최적화(GEO/AEO) — AI 답변 인용 측정·개선· 대규모 크롤링·데이터 수집·파이프라인 구축■ DX · 디지털 전환· SaaS·플랫폼·이커머스·모바일 앱 풀스택 구축·운영· React·Next.js·TypeScript·NestJS·React Native 기반 프론트~백엔드~배포■ AICX · AI 고객경험· AI 상담봇(Claude Tool Use)·AI 캐릭터 대화· 실시간 STT·상담 자동요약·감정분석 등 CS 자동화【강점】· 자체 서비스로 검증한 실전 개발력 — 기획→개발→배포→운영 원스톱· 대표 테크리드가 직접 설계·개발 · AI-native 워크플로우(Claude Code 상시 활용)
+          - generic [ref=f43e150]: 직원 수
+          - generic [ref=f43e151]: 4명
+          - generic [ref=f43e152]: 회사 구성 및 인력소개
+          - generic [ref=f43e153]: ■ 대표/테크리드 1명 — 풀스택 개발자. 3회 창업과 3회 매각(EXIT) 경험. 12개국 분산 크롤링 인프라, 데이터 파이프라인, AI 예측 모델까지 직접 설계·구축했으며, 모든 프로젝트의 기술 총괄을 대표가 직접 맡습니다.■ COO 1명 — B2B 운영 8년. 스타트업 CSO로 시리즈 A·B 투자 유치를 이끈 경험. 프로젝트 관리와 클라이언트 커뮤니케이션을 담당합니다.■ 프로덕트 디자이너 1명 — UX/UI 12년 경력. 데이터 대시보드·SaaS 프로덕트 디자인 전문.■ 어드바이저 — 글로벌 전략 컨설팅펌 출신. 사업 전략 자문.브랜드툰/인스타툰 제작은 검증된 전문 작가 네트워크와의 협업 체제로 운영하여, 규모 대비 높은 제작 캐파를 유지합니다.
+  - contentinfo [ref=f43e154]:
+    - generic [ref=f43e155]:
+      - generic [ref=f43e156]:
+        - generic [ref=f43e157]:
+          - generic [ref=f43e158]: 서비스 전체보기
+          - link "위시켓" [ref=f43e159] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+          - link "요즘IT" [ref=f43e161] [cursor=pointer]:
+            - /url: /magazine/
+          - link "AIDP - AX" [ref=f43e163] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+          - link "Rise ERP" [ref=f43e165] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+        - generic [ref=f43e167]:
+          - link [ref=f43e168] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+          - link [ref=f43e170] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+          - link [ref=f43e172] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+      - generic [ref=f43e174]:
+        - generic [ref=f43e175]:
+          - paragraph [ref=f43e176]: 고객 문의
+          - link "02-6925-4849" [ref=f43e178] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f43e179]:
+            - generic [ref=f43e180]: 10:00-18:00
+            - generic [ref=f43e181]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f43e182] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f43e183]:
+          - paragraph [ref=f43e184]: 위시켓
+          - link "위시켓 소개" [ref=f43e185] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f43e186] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f43e187]:
+          - paragraph [ref=f43e188]: 이용방법
+          - link "클라이언트 이용방법" [ref=f43e189] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f43e190] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f43e191] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f43e192] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f43e193]:
+          - paragraph [ref=f43e194]: 고객센터
+          - link "클라이언트 고객센터" [ref=f43e195] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f43e196] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f43e197]:
+          - link "뉴스센터" [ref=f43e198] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f43e199] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f43e200] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f43e201] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f43e202]:
+        - link "이용약관" [ref=f43e203] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f43e205] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f43e206]:
+        - generic [ref=f43e207]:
+          - generic [ref=f43e208]: ㈜위시켓
+          - generic [ref=f43e210]: "대표이사 : 박우범"
+          - generic [ref=f43e212]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f43e213]:
+          - generic [ref=f43e214]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f43e216]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f43e218]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f43e219]: © 2013 Wishket Corp.
+  - generic [ref=f43e220]:
+    - navigation [ref=f43e221]:
+      - generic [ref=f43e222]: 2026년 08월
+    - generic [ref=f43e237]:
+      - generic [ref=f43e238]:
+        - generic [ref=f43e239]: 일
+        - generic [ref=f43e240]: 월
+        - generic [ref=f43e241]: 화
+        - generic [ref=f43e242]: 수
+        - generic [ref=f43e243]: 목
+        - generic [ref=f43e244]: 금
+        - generic [ref=f43e245]: 토
+      - generic [ref=f43e246]:
+        - generic [ref=f43e253]: "1"
+        - generic [ref=f43e254]: "2"
+        - generic [ref=f43e255]: "3"
+        - generic [ref=f43e256]: "4"
+        - generic [ref=f43e257]: "5"
+        - generic [ref=f43e258]: "6"
+        - generic [ref=f43e259]: "7"
+        - generic [ref=f43e260]: "8"
+        - generic [ref=f43e261] [cursor=pointer]: "9"
+        - generic [ref=f43e262] [cursor=pointer]: "10"
+        - generic [ref=f43e263] [cursor=pointer]: "11"
+        - generic [ref=f43e264] [cursor=pointer]: "12"
+        - generic [ref=f43e265] [cursor=pointer]: "13"
+        - generic [ref=f43e266] [cursor=pointer]: "14"
+        - generic [ref=f43e267] [cursor=pointer]: "15"
+        - generic [ref=f43e268] [cursor=pointer]: "16"
+        - generic [ref=f43e269] [cursor=pointer]: "17"
+        - generic [ref=f43e270] [cursor=pointer]: "18"
+        - generic [ref=f43e271] [cursor=pointer]: "19"
+        - generic [ref=f43e272] [cursor=pointer]: "20"
+        - generic [ref=f43e273] [cursor=pointer]: "21"
+        - generic [ref=f43e274] [cursor=pointer]: "22"
+        - generic [ref=f43e275] [cursor=pointer]: "23"
+        - generic [ref=f43e276] [cursor=pointer]: "24"
+        - generic [ref=f43e277] [cursor=pointer]: "25"
+        - generic [ref=f43e278] [cursor=pointer]: "26"
+        - generic [ref=f43e279] [cursor=pointer]: "27"
+        - generic [ref=f43e280] [cursor=pointer]: "28"
+        - generic [ref=f43e281] [cursor=pointer]: "29"
+        - generic [ref=f43e282] [cursor=pointer]: "30"
+        - generic [ref=f43e283] [cursor=pointer]: "31"
+  - button "위시켓(wishket) 상담 버튼 , there are unread messages" [ref=f43e290]:
+    - generic [ref=f43e291] [cursor=pointer]:
+      - generic [ref=f43e292]: 위시켓(wishket) 상담 버튼
+      - status ", there are unread messages" [ref=f43e296]

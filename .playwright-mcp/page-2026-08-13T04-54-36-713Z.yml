@@ -1,0 +1,93 @@
+- generic [active] [ref=f61e1]:
+  - banner [ref=f61e3]:
+    - generic [ref=f61e4]:
+      - link "Go to Ads Transparency Center home page." [ref=f61e8] [cursor=pointer]:
+        - /url: https://adstransparency.google.com/
+        - generic [ref=f61e10]: 광고 투명성 센터
+      - generic [ref=f61e12]:
+        - button "Google 앱" [ref=f61e16] [cursor=pointer]
+        - link "로그인" [ref=f61e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adstransparency.google.com/?region%3Danywhere%26domain%3Dpeec.ai&followup=https://adstransparency.google.com/?region%3Danywhere%26domain%3Dpeec.ai&ec=GAZAsQQ
+  - generic [ref=f61e24]:
+    - button "FAQ" [ref=f61e27] [cursor=pointer]
+    - search [ref=f61e31]:
+      - generic [ref=f61e32]:
+        - toolbar "주제 전환 버튼" [ref=f61e33]:
+          - button "모든 주제" [pressed] [ref=f61e34] [cursor=pointer]
+          - button "정치 광고" [ref=f61e37] [cursor=pointer]
+        - generic [ref=f61e42]:
+          - img [ref=f61e44]: search
+          - generic [ref=f61e48]:
+            - generic: 광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기
+            - textbox "광고주 이름 또는 웹사이트로 검색하여 내가 본 광고 찾기" [ref=f61e49]
+        - button "지역 선택 필터 버튼" [ref=f61e52] [cursor=pointer]:
+          - generic "지역 선택 필터 버튼" [ref=f61e53]:
+            - img [ref=f61e55]: check
+            - generic [ref=f61e56]: 전체에서 게재되는 광고
+            - img [ref=f61e58]: arrow_drop_down
+    - generic [ref=f61e60]:
+      - generic [ref=f61e61]:
+        - generic [ref=f61e62]: peec.ai
+        - generic [ref=f61e64]: 이 도메인에는 이 도메인을 가리키는 광고가 있는 여러 광고주 계정의 결과가 포함됩니다. 아래에서 개별 광고주를 기준으로 필터링할 수 있습니다.
+      - generic [ref=f61e71]:
+        - button "기간 필터 버튼" [ref=f61e74] [cursor=pointer]:
+          - generic "기간 필터 버튼" [ref=f61e75]:
+            - img [ref=f61e77]: calendar_today
+            - generic [ref=f61e78]: 전체 기간
+            - img [ref=f61e80]: arrow_drop_down
+        - 'button "플랫폼 필터 버튼: 모든 플랫폼 선택됨" [ref=f61e83] [cursor=pointer]':
+          - generic "플랫폼 필터" [ref=f61e84]:
+            - generic [ref=f61e85]: 모든 플랫폼
+            - img [ref=f61e87]: arrow_drop_down
+        - 'button "광고 형식 필터 버튼: 모든 형식 선택됨" [ref=f61e90] [cursor=pointer]':
+          - generic "광고 형식 필터" [ref=f61e91]:
+            - generic [ref=f61e92]: 모든 형식
+            - img [ref=f61e94]: arrow_drop_down
+    - generic [ref=f61e101]: 관련 사이트에서 자세히 알아보기
+    - generic [ref=f61e102]:
+      - generic [ref=f61e103]:
+        - generic [ref=f61e104]: Google에 게재되는 정치 광고 캠페인 분석
+        - generic [ref=f61e105]: 전 세계의 선거 광고와 이러한 광고의 비용 출처, 목표 타겟 사용자 등에 대한 정보를 더욱 투명하게 공개합니다.
+        - link "Google에 게재된 정치 광고 살펴보기" [ref=f61e106] [cursor=pointer]:
+          - /url: https://adstransparency.google.com/political?topic=political
+      - generic [ref=f61e107]:
+        - generic [ref=f61e108]: 브랜드가 YouTube에서 유료 콘텐츠를 사용하는 방식 평가
+        - generic [ref=f61e109]: YouTube에 유료 PPL(제품 간접광고), 스폰서십, 직접광고가 표시됩니다.
+        - generic [ref=f61e110]:
+          - link "YouTube의 유료 프로모션 살펴보기" [ref=f61e111] [cursor=pointer]:
+            - /url: https://www.youtube.com/results?sv=1
+          - img [ref=f61e113]: arrow_outward
+      - generic [ref=f61e114]:
+        - generic [ref=f61e115]: 나에게 더 유용한 광고 표시
+        - generic [ref=f61e116]: Google 검색, YouTube, 디스커버에 표시되는 광고를 손쉽게 맞춤설정하고, 광고 개인 맞춤에 사용되는 정보를 관리할 수 있습니다.
+        - generic [ref=f61e117]:
+          - link "내 광고 센터로 이동" [ref=f61e118] [cursor=pointer]:
+            - /url: https://myadcenter.google.com/
+          - img [ref=f61e120]: arrow_outward
+    - generic [ref=f61e122]:
+      - generic [ref=f61e123]: Google이 온라인에서 사용자를 안전하게 보호하는 방법을 알아보세요
+      - generic [ref=f61e124]: 책임 있는 광고에 대한 Google의 노력에 대해 알아보고, 인터넷을 개인 정보가 보호되면서 개방적이고 안전한 공간으로 유지하기 위한 Google의 접근 방식에 대해 자세히 알아보세요.
+      - generic [ref=f61e125]:
+        - link "안전 센터를 방문하여 자세히 알아보기" [ref=f61e126] [cursor=pointer]:
+          - /url: https://safety.google/security-privacy/
+        - img [ref=f61e128]: arrow_outward
+    - contentinfo [ref=f61e129]:
+      - generic [ref=f61e130]:
+        - button "개인 정보 보호" [ref=f61e132] [cursor=pointer]
+        - generic [ref=f61e133]:
+          - text: •
+          - button "약관" [ref=f61e134] [cursor=pointer]
+        - generic [ref=f61e135]:
+          - text: •
+          - button "Google Ads 정책" [ref=f61e136] [cursor=pointer]
+        - generic [ref=f61e137]:
+          - text: •
+          - link "FAQ" [ref=f61e138] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=f61e139]:
+        - generic [ref=f61e140]:
+          - text: •
+          - button "원칙" [ref=f61e141] [cursor=pointer]
+        - generic [ref=f61e142]:
+          - text: •
+          - button "Google Ads 블로그" [ref=f61e143] [cursor=pointer]

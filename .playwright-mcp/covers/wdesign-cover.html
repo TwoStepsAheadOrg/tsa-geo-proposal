@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Gothic+A1:wght@400;500;700;800;900&family=Archivo:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15120d; --ink2:#221d15; --panel:#211b12; --panelhi:#2c2419;
+    --brass:#c9a24b; --brass2:#e6c877; --brasssoft:#b8924a;
+    --cream:#f4eee1; --cream2:#e8dfca; --muted:#a99a7c; --line:#3a3020;
+    --green:#7fae6b; --rose:#c98f7a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:1200px;overflow:hidden}
+  body{
+    font-family:"Gothic A1",sans-serif; color:var(--cream); position:relative;
+    background:
+      radial-gradient(120% 100% at 50% -12%, #2a2216 0%, #1b160e 46%, #120f0a 100%);
+  }
+  .grain{position:absolute;inset:0;opacity:.05;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+  .glow{position:absolute;width:720px;height:720px;right:-200px;top:-220px;border-radius:50%;
+    background:radial-gradient(circle,rgba(201,162,75,.28),transparent 62%);filter:blur(30px)}
+  .frame{position:absolute;inset:32px;border:1.5px solid var(--brasssoft);border-radius:4px;
+    box-shadow:inset 0 0 0 6px rgba(20,16,10,.6), 0 24px 60px rgba(0,0,0,.5)}
+  .frame::before,.frame::after{content:"";position:absolute;width:38px;height:38px;border:2px solid var(--brass)}
+  .frame::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+  .frame::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+  .stage{position:absolute;inset:32px;padding:52px 60px;display:flex;flex-direction:column}
+
+  .top{display:flex;justify-content:space-between;align-items:center}
+  .mono{display:flex;align-items:center;gap:18px}
+  .w{width:70px;height:70px;border:2px solid var(--brass);border-radius:3px;display:grid;place-items:center;
+    font-family:"Cormorant Garamond";font-weight:700;font-size:48px;color:var(--brass2);
+    background:linear-gradient(160deg,#241d12,#191309);box-shadow:0 6px 18px rgba(0,0,0,.4)}
+  .kicker{font-family:"Archivo";font-weight:700;letter-spacing:5px;font-size:13px;color:var(--brass);text-transform:uppercase}
+  .estd{font-family:"Cormorant Garamond";font-weight:600;font-size:19px;color:var(--muted);letter-spacing:1px;margin-top:2px}
+  .badge{display:inline-flex;align-items:center;gap:9px;border:1.5px solid var(--brass);color:var(--brass2);
+    font-weight:800;font-size:15px;padding:9px 17px;border-radius:30px;letter-spacing:.5px}
+  .badge .d{width:7px;height:7px;border-radius:50%;background:var(--brass2)}
+
+  .title{margin-top:26px}
+  .title .ko{font-family:"Cormorant Garamond";font-weight:700;font-size:110px;line-height:.92;color:var(--cream);letter-spacing:-1px}
+  .title .en{font-family:"Archivo";font-weight:700;font-size:25px;letter-spacing:3px;color:var(--brass);margin-top:6px}
+  .rule{height:1.5px;background:linear-gradient(90deg,var(--brass),transparent);margin:16px 0 0}
+  .sub{margin-top:16px;font-weight:700;font-size:24px;color:var(--cream2);line-height:1.4}
+  .sub .hl{color:var(--brass2)}
+
+  .mock{margin-top:26px;flex:1;display:grid;grid-template-columns:1.25fr 1fr;gap:22px}
+  .panel{background:linear-gradient(165deg,var(--panelhi),var(--panel));border:1.5px solid var(--line);border-radius:10px;
+    padding:18px 18px 16px;display:flex;flex-direction:column;box-shadow:0 14px 30px rgba(0,0,0,.35)}
+  .panel .cap{font-family:"Archivo";font-weight:700;font-size:13px;letter-spacing:1.5px;color:var(--brass);text-transform:uppercase;display:flex;align-items:center;gap:8px;margin-bottom:14px}
+
+  /* room status grid */
+  .rooms{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;flex:1}
+  .room{border:1.5px solid var(--line);border-radius:8px;padding:9px 8px;background:rgba(20,15,9,.5);display:flex;flex-direction:column;justify-content:space-between;min-height:66px}
+  .room .no{font-family:"Cormorant Garamond";font-weight:700;font-size:20px;color:var(--cream)}
+  .room .st{font-size:11px;font-weight:800;letter-spacing:.2px;margin-top:auto}
+  .room.booked{border-color:var(--brasssoft);background:rgba(201,162,75,.12)}
+  .room.booked .st{color:var(--brass2)}
+  .room.stay .st{color:var(--green)}
+  .room.stay{border-color:rgba(127,174,107,.5)}
+  .room.clean .st{color:var(--rose)}
+  .room.open .st{color:var(--muted)}
+  .rate{display:flex;justify-content:space-between;align-items:center;margin-top:12px;border-top:1px solid var(--line);padding-top:11px}
+  .rate .lb{font-size:12px;color:var(--muted);font-weight:700}
+  .rate .vl{font-family:"Archivo";font-weight:800;font-size:15px;color:var(--brass2)}
+  .rate .tag{font-size:11px;font-weight:800;color:var(--ink);background:var(--brass2);border-radius:20px;padding:3px 9px}
+
+  /* sync flow */
+  .sync{display:flex;flex-direction:column;gap:11px;flex:1;justify-content:center}
+  .node{display:flex;align-items:center;gap:11px;border:1.5px solid var(--line);border-radius:9px;padding:11px 12px;background:rgba(20,15,9,.5)}
+  .node .ic{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;font-size:17px;flex-shrink:0;
+    background:linear-gradient(160deg,#2e2617,#1a140c);border:1px solid var(--brasssoft)}
+  .node .tx{font-weight:800;font-size:14px;color:var(--cream)}
+  .node .tx small{display:block;font-size:11px;color:var(--muted);font-weight:700;margin-top:1px}
+  .down{text-align:center;color:var(--brass);font-size:16px;line-height:.5;margin:-3px 0}
+
+  .feats{margin-top:22px;display:flex;gap:11px}
+  .chip{flex:1;border:1.5px solid var(--brasssoft);border-radius:8px;padding:12px 8px;text-align:center;background:rgba(201,162,75,.06)}
+  .chip .ic{font-size:18px}
+  .chip .tx{font-weight:900;font-size:13px;margin-top:5px;color:var(--cream2);letter-spacing:-.2px}
+  .chip .tx .a{color:var(--brass2)}
+  .chip:nth-child(1){background:rgba(201,162,75,.16)}
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="grain"></div>
+  <div class="frame"></div>
+  <div class="stage">
+    <div class="top">
+      <div class="mono">
+        <div class="w">W</div>
+        <div>
+          <div class="kicker">Boutique Design Hotel</div>
+          <div class="estd">설립 · 운영 — 온라인 예약 × 호텔 현장</div>
+        </div>
+      </div>
+      <span class="badge"><span class="d"></span>직접 설립 · 운영</span>
+    </div>
+
+    <div class="title">
+      <div class="ko">더블유디자인호텔</div>
+      <div class="en">W DESIGN HOTEL</div>
+    </div>
+    <div class="rule"></div>
+    <div class="sub">객실·요금·예약·체크인·취소를 매일 운영 — <span class="hl">온라인 예약이 현장에 정확히 반영</span>되는 흐름을 직접 경험</div>
+
+    <div class="mock">
+      <div class="panel">
+        <div class="cap">◆ 객실 운영 보드 · 날짜별 재고·요금</div>
+        <div class="rooms">
+          <div class="room booked"><div class="no">201</div><div class="st">● 예약</div></div>
+          <div class="room stay"><div class="no">202</div><div class="st">● 투숙</div></div>
+          <div class="room open"><div class="no">203</div><div class="st">○ 공실</div></div>
+          <div class="room booked"><div class="no">205</div><div class="st">● 예약</div></div>
+          <div class="room stay"><div class="no">301</div><div class="st">● 투숙</div></div>
+          <div class="room clean"><div class="no">302</div><div class="st">◐ 청소</div></div>
+          <div class="room booked"><div class="no">303</div><div class="st">● 예약</div></div>
+          <div class="room open"><div class="no">305</div><div class="st">○ 공실</div></div>
+        </div>
+        <div class="rate">
+          <span class="lb">디럭스 · 주말 요금</span>
+          <span><span class="tag">성수기</span> &nbsp;<span class="vl">₩228,000</span></span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="cap">◆ 예약 ↔ 현장 동기화</div>
+        <div class="sync">
+          <div class="node"><span class="ic">🌐</span><span class="tx">온라인 예약<small>객실·날짜·요금</small></span></div>
+          <div class="down">▼</div>
+          <div class="node"><span class="ic">🛎️</span><span class="tx">프런트 반영<small>실제 객실 상태 일치</small></span></div>
+          <div class="down">▼</div>
+          <div class="node"><span class="ic">🔑</span><span class="tx">체크인·변경·취소<small>수기 실수 최소화</small></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feats">
+      <div class="chip"><div class="ic">🏨</div><div class="tx">객실·<span class="a">요금 운영</span></div></div>
+      <div class="chip"><div class="ic">🔄</div><div class="tx">예약↔<span class="a">현장 동기화</span></div></div>
+      <div class="chip"><div class="ic">🔑</div><div class="tx">체크인·<span class="a">변경·취소</span></div></div>
+      <div class="chip"><div class="ic">🎀</div><div class="tx">프로모션·<span class="a">패키지</span></div></div>
+    </div>
+  </div>
+</body>
+</html>

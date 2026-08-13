@@ -1,0 +1,43 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: PLURANK
+      - generic [ref=e6]: 마케팅 워룸
+      - generic "동기화 상태" [ref=e7]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - text: "0"
+        - generic [ref=e10]: /100
+      - generic [ref=e12]: 0%
+  - generic [ref=e13]:
+    - generic [ref=e14]: 전과 — 누적 성과
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: 무료 진단 신청
+        - generic [ref=e18]: "0"
+      - generic [ref=e19]:
+        - generic [ref=e20]: 상담
+        - generic [ref=e21]: "0"
+      - generic [ref=e22]:
+        - generic [ref=e23]: 가입
+        - generic [ref=e24]: "0"
+      - generic [ref=e25]:
+        - generic [ref=e26]: 결제
+        - generic [ref=e27]: "0"
+    - button "+ 주간 기록" [ref=e28] [cursor=pointer]
+  - heading "오늘의 작전 — 다음 실행 순서" [level=2] [ref=e30]
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - combobox [ref=e33]:
+        - option "채널 전체" [selected]
+      - combobox [ref=e34]:
+        - option "퍼널 전체" [selected]
+      - combobox [ref=e35]:
+        - option "상태 전체" [selected]
+        - option "미완료"
+        - option "완료"
+      - searchbox "검색…" [ref=e36]
+  - main
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]: PLURANK WAR ROOM · 주식회사 투스텝스어헤드
+    - button "새로고침" [ref=e39] [cursor=pointer]

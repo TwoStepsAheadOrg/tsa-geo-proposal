@@ -1,125 +1,82 @@
-import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
-import test from "node:test";
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import test from 'node:test';
 
-const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
-const instaToonHtml = await readFile(new URL("../content/insta-toon/index.html", import.meta.url), "utf8");
-const shortsHtml = await readFile(new URL("../content/youtube-shorts/index.html", import.meta.url), "utf8");
-const instaToonFlatHtml = await readFile(new URL("../content/insta-toon.html", import.meta.url), "utf8");
-const shortsFlatHtml = await readFile(new URL("../content/youtube-shorts.html", import.meta.url), "utf8");
-const privacyHtml = await readFile(new URL("../privacy/index.html", import.meta.url), "utf8");
-const pageTransitionCss = await readFile(new URL("../assets/plurank-page-transition.css", import.meta.url), "utf8");
-const pageTransitionJs = await readFile(new URL("../assets/plurank-page-transition.js", import.meta.url), "utf8");
+/**
+ * 2026-08-13 랜딩 전면 개편(AI 검색 분석 포지셔닝) 기준 산출물 검증.
+ * 소스는 plurank_landing 리포이며, 여기서는 배포되는 프리렌더 결과물을 본다.
+ */
+const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+const ko = await readFile(new URL('../ko.html', import.meta.url), 'utf8');
 
-test("Plurank service switch lands cleanly on the full content section", () => {
-  assert.match(html, /plurank-page-transition\.css/);
-  assert.match(html, /plurank-page-transition\.js/);
-  assert.match(pageTransitionJs, /ABOUT_OFFSET = 86/);
-  assert.match(pageTransitionJs, /xp-route--plurank/);
-  assert.match(pageTransitionJs, /window\.scrollTo\(\{ top: targetTop, behavior: "auto" \}\)/);
-  assert.match(pageTransitionCss, /\.xp-hero--plurank \.xp-hero-laptop\s*{\s*opacity: 0\.5;/);
+test('히어로가 새 포지셔닝을 담고 있다', () => {
+  assert.match(html, /마케팅팀을 위한/);
+  assert.match(html, /AI 검색 분석/);
+  assert.match(html, /가시성·포지션·감성/);
 });
 
-test("homepage overlays the enlarged Plurank service button on the laptop", () => {
-  assert.match(pageTransitionJs, /Plurank 서비스 바로가기/);
-  assert.match(pageTransitionJs, /https:\/\/marketing\.plurank\.com\//);
-  assert.match(pageTransitionCss, /width: 204px;/);
-  assert.match(pageTransitionCss, /height: 62px;/);
-  assert.match(pageTransitionCss, /font-family: "Pretendard"/);
-  assert.match(pageTransitionCss, /font-size: 16px;/);
-  assert.match(pageTransitionCss, /calc\(-50% - 20px\)/);
-  assert.match(pageTransitionCss, /\.xp-nav \.xp-nav__cta\s*{\s*display: none !important;/);
-});
-test("homepage keeps the production AI Discovery AdTech positioning", () => {
-  assert.match(html, /AI Discovery AdTech/);
-  assert.match(html, /AI 검색 시대의 마케팅,/);
-  assert.match(html, /Plurank가 끝까지 맡습니다\./);
-  assert.match(html, /질문을 찾고,\s*AI가 참고할 출처를 만들고/);
-  assert.match(html, /브랜드가 발견되고 문의로 이어지는 흐름을 운영합니다\./);
-});
-
-test("homepage shows the Playad-inspired hero motion layer on the existing scene", () => {
-  for (const label of ["hero-source-rail", "hero-product-loop", "splitHeroHeading", "setupScrollMotion", "motion-enabled", "data-parallax-layer"]) {
-    assert.match(html, new RegExp(label));
-  }
-  for (const source of ["ChatGPT", "Gemini", "Perplexity", "YouTube", "Instagram", "Reddit", "Quora"]) {
-    assert.match(html, new RegExp(source));
-  }
-  assert.match(html, /id="discovery-canvas"/);
-  assert.match(html, /Live Signal Graph/);
-});
-
-test("homepage makes Plurank's execution loop visible near the top", () => {
-  for (const label of ["질문 분석", "출처 설계", "콘텐츠 생성", "채널 배포", "답변 추적", "리드 확인"]) {
-    assert.match(html, new RegExp(label));
-  }
-  for (const label of ["Question Map", "Content Engine", "Distribution", "Plurank Lead", "End-to-End Ops"]) {
-    assert.match(html, new RegExp(label));
-  }
-  assert.match(html, /분석에서 끝나지 않고,\s*AI가 참고할 콘텐츠를 실제로 만듭니다\./);
-});
-
-test("homepage splits CTA and service guide by brand and agency", () => {
-  for (const label of ["브랜드 AI 마케팅 맡기기", "에이전시 GEO 데이터 제휴"]) {
-    assert.match(html, new RegExp(label));
-  }
-  assert.match(html, /data-pl-open="brand"/);
-  assert.match(html, /data-pl-open="agency"/);
-  assert.match(html, /브랜드용 상세 소개서 받기/);
-  assert.match(html, /에이전시용 상세 소개서 받기/);
-  assert.match(html, /name="type" value="brand-brochure"/);
-  assert.match(html, /name="type" value="agency-brochure"/);
-});
-
-test("homepage surfaces portfolio and outcome proof", () => {
-  for (const company of ["Ascent Korea", "Samsung 계열", "강남 의료기관 3곳", "Tokuyama Shoji", "Kozy.care"]) {
-    assert.match(html, new RegExp(company));
-  }
-  for (const proof of ["15\\+", "30M\\+", "12", "Lead"]) {
-    assert.match(html, new RegExp(proof));
+test('구 포지셔닝(콘텐츠 발행 도구) 문구가 남아 있지 않다', () => {
+  for (const stale of ['다채널 콘텐츠를 발행하는 도구', 'AI 최적화 콘텐츠를 발행', '툰에이전트', 'ToonAgent']) {
+    assert.equal(html.includes(stale), false, `잔존 문구: ${stale}`);
   }
 });
 
-test("homepage exposes the Content service navigation", () => {
-  assert.match(html, /href="\/content\/insta-toon"/);
-  assert.match(html, /Insta Toon/);
-  assert.match(html, /Youtube Shorts/);
-  assert.match(html, /href="\/privacy"/);
-});
-
-test("content landing pages include price, examples, and consultation forms", () => {
-  assert.equal(instaToonFlatHtml, instaToonHtml);
-  assert.equal(shortsFlatHtml, shortsHtml);
-
-  assert.match(instaToonHtml, /4주 15편/);
-  assert.doesNotMatch(instaToonHtml, /4주 8편|월 8편|instatoon_4w8/);
-  assert.match(instaToonHtml, /190만원/);
-  assert.match(instaToonHtml, /Price Table/);
-  assert.match(instaToonHtml, /월간 운영형/);
-  assert.match(instaToonHtml, /브랜드 협업형/);
-  for (const sample of [
-    "sample-clinic-care.png",
-    "sample-vet-care.png",
-    "sample-restaurant-story.png",
-    "sample-professional-trust.png",
-    "sample-education-parent.png",
-  ]) {
-    assert.match(instaToonHtml, new RegExp(sample.replace(".", "\\.")));
+test('핵심 섹션 앵커가 모두 있다', () => {
+  for (const id of ['diagnosis', 'metrics', 'features', 'coverage', 'naver', 'prediction', 'method', 'clients', 'contact', 'faq']) {
+    assert.match(html, new RegExp(`id="${id}"`), `누락된 섹션: ${id}`);
   }
-  assert.doesNotMatch(instaToonHtml, /clinic-story-safe|vet-story-safe|restaurant-story-safe/);
-  assert.match(instaToonHtml, /name="type" value="instatoon-consulting"/);
-
-  assert.match(shortsHtml, /쇼츠·릴스 영상화/);
-  assert.match(shortsHtml, /4주 15편/);
-  assert.doesNotMatch(shortsHtml, /4주 8편|월 8편|instatoon_4w8/);
-  assert.match(shortsHtml, /Video Add-on/);
-  assert.match(shortsHtml, /광고 집행 패키지/);
-  assert.match(shortsHtml, /restaurant-instatoon-shorts\.mp4/);
-  assert.match(shortsHtml, /name="type" value="shorts-consulting"/);
 });
 
-test("privacy policy is available for lead ads", () => {
-  assert.match(privacyHtml, /개인정보처리방침/);
-  assert.match(privacyHtml, /광고 리드폼/);
-  assert.match(privacyHtml, /glenn\.kim@twostepsahead\.co\.kr/);
+test('무료 진단 게이트가 렌더된다', () => {
+  assert.match(html, /무료 진단 신청/);
+  assert.match(html, /7일치 관측/);
+});
+
+test('네이버 커버리지를 명시한다', () => {
+  assert.match(html, /네이버 AI 브리핑/);
+});
+
+test('예측 모델 수치에 검증 조건이 병기돼 있다', () => {
+  assert.match(html, /8\.6%/);
+  assert.match(html, /홀드아웃/);
+  assert.match(html, /업종·언어·질의 유형에 따라/);
+});
+
+test('GEO는 풀네임을 병기한다 (지역 혼동 방지)', () => {
+  assert.match(html, /GEO\(생성형 엔진 최적화\)/);
+});
+
+test('구조화 데이터 3종이 들어 있다 (peec.ai 결함 공략)', () => {
+  assert.match(html, /"@type":\s*"Organization"/);
+  assert.match(html, /"@type":\s*"SoftwareApplication"/);
+  assert.match(html, /"@type":\s*"FAQPage"/);
+});
+
+test('FAQ 6문항이 JSON-LD와 본문에 모두 있다', () => {
+  assert.equal((html.match(/<details/g) || []).length, 6);
+  assert.equal((html.match(/"@type":\s*"Question"/g) || []).length, 6);
+});
+
+test('법인 정보와 통신판매업신고가 푸터에 있다', () => {
+  assert.match(html, /주식회사 투스텝스어헤드/);
+  assert.match(html, /319-87-03770/);
+  assert.match(html, /2025-서울강남-05963/);
+});
+
+test('트래킹과 canonical이 보존돼 있다', () => {
+  assert.match(html, /AW-18267771264/);
+  assert.match(html, /_vercel\/insights\/script\.js/);
+  assert.match(html, /<link rel="canonical" href="https:\/\/www\.plurank\.com\/">/);
+});
+
+test('고객사는 기공개 실명만 노출한다', () => {
+  assert.match(html, /어센트코리아/);
+  // 익명 유지 대상이 실명으로 새어나오지 않아야 한다
+  for (const secret of ['라움', 'raum-clinic', '삼성']) {
+    assert.equal(html.includes(secret), false, `노출되면 안 되는 값: ${secret}`);
+  }
+});
+
+test('ko.html이 index.html과 동일하다', () => {
+  assert.equal(ko, html);
 });

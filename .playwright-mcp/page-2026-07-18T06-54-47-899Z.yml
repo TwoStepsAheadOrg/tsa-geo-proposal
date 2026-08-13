@@ -1,0 +1,82 @@
+- generic [ref=f2e12]:
+  - generic [ref=f2e15]:
+    - link "Meta 광고 라이브러리" [ref=f2e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f2e20]: Meta 광고 라이브러리
+    - generic [ref=f2e22]: 광고 라이브러리
+    - menuitem "광고 라이브러리 보고서" [ref=f2e24] [cursor=pointer]:
+      - generic [ref=f2e25]: 광고 라이브러리 보고서
+    - menuitem "광고 라이브러리 API" [ref=f2e27] [cursor=pointer]:
+      - generic [ref=f2e28]: 광고 라이브러리 API
+    - menuitem "브랜디드 콘텐츠" [ref=f2e30] [cursor=pointer]:
+      - generic [ref=f2e31]: 브랜디드 콘텐츠
+    - menuitem "Open navigation panel" [ref=f2e33] [cursor=pointer]
+  - generic [ref=f2e40]:
+    - combobox "대한민국" [ref=f2e44] [cursor=pointer]:
+      - generic [ref=f2e51]: 대한민국
+    - combobox "모든 광고" [ref=f2e57] [cursor=pointer]:
+      - generic [ref=f2e67]: 모든 광고
+    - generic [ref=f2e77]:
+      - generic [ref=f2e83]: 키워드 또는 광고주로 검색
+      - generic [ref=f2e89]:
+        - searchbox "키워드 또는 광고주로 검색" [ref=f2e95]: "\"인스타툰 제작\""
+        - button "지우기" [ref=f2e97] [cursor=pointer]
+  - dialog [ref=f2e99]:
+    - generic [ref=f2e100]:
+      - link [ref=f2e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f2e102]: 로그인
+      - menuitem [ref=f2e103] [cursor=pointer]
+    - generic [ref=f2e105]:
+      - generic [ref=f2e106]:
+        - heading [level=4] [ref=f2e108]: 광고 라이브러리
+        - menuitem [ref=f2e110] [cursor=pointer]:
+          - heading [level=4] [ref=f2e112]: 광고 라이브러리 보고서
+        - menuitem [ref=f2e114] [cursor=pointer]:
+          - heading [level=4] [ref=f2e116]: 광고 라이브러리 API
+        - menuitem [ref=f2e118] [cursor=pointer]:
+          - heading [level=4] [ref=f2e120]: 브랜디드 콘텐츠
+      - separator [ref=f2e121]
+      - generic [ref=f2e122]:
+        - menuitem [ref=f2e124] [cursor=pointer]:
+          - heading [level=4] [ref=f2e126]: 시스템 상태
+        - menuitem [ref=f2e128] [cursor=pointer]:
+          - heading [level=4] [ref=f2e130]: 이메일 업데이트 구독
+        - menuitem [ref=f2e132] [cursor=pointer]:
+          - heading [level=4] [ref=f2e134]: FAQ
+        - menuitem [ref=f2e136] [cursor=pointer]:
+          - heading [level=4] [ref=f2e138]: 광고 및 데이터 사용 정보
+        - menuitem [ref=f2e140] [cursor=pointer]:
+          - heading [level=4] [ref=f2e142]: 개인 정보 보호
+        - menuitem [ref=f2e144] [cursor=pointer]:
+          - heading [level=4] [ref=f2e146]: 이용 약관
+        - menuitem [ref=f2e148] [cursor=pointer]:
+          - heading [level=4] [ref=f2e150]: 쿠키
+  - generic [ref=f2e153]:
+    - generic [ref=f2e161]: 시스템 상태
+    - generic [ref=f2e165]:
+      - list [ref=f2e166]:
+        - listitem [ref=f2e167]:
+          - heading "광고 라이브러리 API" [level=3] [ref=f2e168]:
+            - link "광고 라이브러리 API" [ref=f2e169] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f2e170]:
+          - heading "광고 및 데이터 사용 정보" [level=3] [ref=f2e171]:
+            - link "광고 및 데이터 사용 정보" [ref=f2e172] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f2e173]:
+          - heading "개인정보처리방침" [level=3] [ref=f2e174]:
+            - link "개인정보처리방침" [ref=f2e175] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f2e176]:
+          - heading "약관" [level=3] [ref=f2e177]:
+            - link "약관" [ref=f2e178] [cursor=pointer]:
+              - /url: /policies/
+        - listitem [ref=f2e179]:
+          - heading "쿠키" [level=3] [ref=f2e180]:
+            - link "쿠키" [ref=f2e181] [cursor=pointer]:
+              - /url: /policies/cookies/
+      - heading "Meta © 2026 | 한국어" [level=3] [ref=f2e183]:
+        - text: Meta © 2026 |
+        - link "한국어" [ref=f2e184] [cursor=pointer]:
+          - /url: /language/

@@ -1,0 +1,28 @@
+[     410ms] [INFO] 框架和 SDK 输出的日志默认不展示，可在框架配置文件中设置开启，详见 https://doc.weixin.qq.com/doc/w3_AWkASAb9APAr8IdJI5VS0OyqetUE6?scode=ANAAyQcbAAgB8qKjm9AWkASAb9APA @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[     434ms] [LOG] Error @ :2
+[     457ms] [ERROR] [apm] region is required! @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[     469ms] [LOG] Error @ :2
+[     484ms] [LOG] Error @ :2
+[     628ms] [ERROR] Hydration completed but contains mismatches. @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/library-vue.987332a8.js:0
+[     653ms] [LOG] Error @ :2
+[     662ms] [LOG] Error @ :2
+[     663ms] [LOG] Error @ :2
+[     678ms] [LOG] Service Worker registered success with scope: https://www.xiaohongshu.com/ @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[     933ms] [LOG] Error @ :2
+[    1094ms] [ERROR] TypeError: i is not a function
+    at https://www.xiaohongshu.com/user/profile/59e229536b645516e1f1d63f?channel_type=web_note_detail_r10&parent_page_channel_type=web_profile_board&xsec_token=ABP2A-dHBAUCKNZ7Ao1e1tczZUnfNFpbklQHIuZ5KUSFM=&xsec_source=pc_note:1:4919 @ https://www.xiaohongshu.com/user/profile/59e229536b645516e1f1d63f?channel_type=web_note_detail_r10&parent_page_channel_type=web_profile_board&xsec_token=ABP2A-dHBAUCKNZ7Ao1e1tczZUnfNFpbklQHIuZ5KUSFM=&xsec_source=pc_note:0
+[    1104ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.xiaohongshu.com/user/profile/59e229536b645516e1f1d63f?xsec_token=ABP2A-dHBAUCKNZ7Ao1e1tczZUnfNFpbklQHIuZ5KUSFM=&xsec_source=pc_note:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    1751ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2087ms] [LOG] {measurement_name: paintTiming, measurement_data: Object} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[    3707ms] [LOG] Error @ :2
+[  120604ms] [LOG] Error @ :2
+[  120612ms] [LOG] Error @ :2
+[  720797ms] [LOG] Error @ :2
+[  720805ms] [LOG] Error @ :2

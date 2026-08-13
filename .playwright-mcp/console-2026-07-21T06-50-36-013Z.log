@@ -1,0 +1,71 @@
+[     586ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://chatgpt.com/?no_universal_links=1#settings:0
+[    4857ms] Transition was skipped
+[    5106ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[    5347ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:86
+[    7283ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; 경고! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.ssmGCyRI-bg.es5.O/am=EQUAAAADdSECgP___wMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFCXAiI2RFPYUyFP8eDdieGhsazXQ/dti=1/m=_b,_tp:550
+[    7283ms] [LOG] %c%s font-size: 18px; 이 콘솔을 사용하면 공격자가 Self-XSS라는 공격을 통해 내 신원을 도용하여 내 정보를 빼낼 수 있습니다.
+알지 못하는 코드를 입력하거나 붙여넣지 마세요. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.ko.ssmGCyRI-bg.es5.O/am=EQUAAAADdSECgP___wMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFCXAiI2RFPYUyFP8eDdieGhsazXQ/dti=1/m=_b,_tp:550
+[   12507ms] [WARNING] Datadog Browser SDK: Customer data exceeds the recommended 3KiB threshold. More details: https://docs.datadoghq.com/real_user_monitoring/browser/troubleshooting/#customer-data-exceeds-the-recommended-threshold-warning @ https://auth-cdn.oaistatic.com/assets/datadog-BTgRrIvw.js:6
+[   34635ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   36218ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://chatgpt.com/backend-api/calpico/chatgpt/profile/user-44UinwOUmZzv1kSmng5MdLlc:0
+[   36906ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   37380ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   37711ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://chatgpt.com/backend-api/accounts/87f262f2-12d1-45af-92c5-2a7a03f9931f/workspace_policy:0
+[   37821ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://chatgpt.com/backend-api/rbac/workspace/87f262f2-12d1-45af-92c5-2a7a03f9931f/roles?account_id=87f262f2-12d1-45af-92c5-2a7a03f9931f&consistency=strong:0
+[   43552ms] [ERROR] Kt: [@formatjs/intl Error MISSING_TRANSLATION] Missing message: "meta.description.Jul2026Update" for locale "ko-KR", using default message (Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.) as fallback.
+
+    at new Kt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:20:79)
+    at Xt (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:287)
+    at Fn (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:24:5318)
+    at k5e (https://chatgpt.com/cdn/assets/4813494d-fwc98srcx5jfpxqd.js:60:18079)
+    at Yo (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:48770)
+    at Hc (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:71449)
+    at sl (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:82099)
+    at Gd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126899)
+    at Wd (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126872)
+    at Ud (https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:36:126731) @ https://chatgpt.com/cdn/assets/2340486e-dndlwhxa5s7p8x6d.js:27
+[   63493ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://chatgpt.com/:0

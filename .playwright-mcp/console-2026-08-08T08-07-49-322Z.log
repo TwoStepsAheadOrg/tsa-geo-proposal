@@ -1,0 +1,3 @@
+[    2547ms] [INFO] Truste userPreference local storage item was not found @ https://web-assets.bcg.com/resource/0000018f-e39d-d615-a5df-f39fa8390000/styleguide/All.min.2310111cc18efe4c136ed0465b58a3d2.gz.js?v=z7+z04vcwjvI:1
+[    2653ms] [LOG] called the custom function @ https://consent.trustarc.com/notice?domain=bcg.com&c=teconsent&text=true&pcookie=true&cdn=1&gtm=true&js=bb&noticeType=bb&privacypolicylink=https%3A%2F%2Fwww.bcg.com%2Fabout%2Fprivacy-policy%3Fsrc%3Dcmp&cookieLink=https%3A%2F%2Fwww.bcg.com%2Fabout%2Fprivacy-policy%3Fsrc%3Dcmp:0
+[    3678ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://logon.bcg.com/api/v1/sessions/me:0

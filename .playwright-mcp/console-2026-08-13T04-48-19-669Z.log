@@ -1,0 +1,6 @@
+[     110ms] [LOG] [peec] script loaded @ https://peec.ai/pricing:592
+[     138ms] [WARNING] [PostHog.js] You have already initialized PostHog with a different project token! Re-initializing is a no-op, so events will keep going to the project this instance was initialized with. To capture into a second project, load PostHog once, then initialize a named instance after the SDK has loaded, e.g. posthog.init('phc_dK4ybo7i7IPKBqESmPiv8TzOz686PV27oWVzQMbWTgt', { ... }, 'project2') @ https://t.peec.ai/static/array.js:0
+[     963ms] [ERROR] Load failed, error in settings @ https://cdn.vector.co/pixel.js:1
+[     963ms] [ERROR] No visitor ID available. Load may have failed. @ https://cdn.vector.co/pixel.js:1
+[    1422ms] [WARNING] Blocked message from unauthorized origin: https://api.vector.co @ https://import-cdn.default.com/gtm.js:0
+[    2006ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.X52GTSIN.mjs:0

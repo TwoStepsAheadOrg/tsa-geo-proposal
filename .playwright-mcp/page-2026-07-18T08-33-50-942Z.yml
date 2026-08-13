@@ -1,0 +1,1301 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Plurank home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Plurank AI Discovery AdTech" [ref=e5]
+      - generic [ref=e6]:
+        - link "Question" [ref=e7] [cursor=pointer]:
+          - /url: "#market"
+        - link "Signals" [ref=e8] [cursor=pointer]:
+          - /url: "#fan-out"
+        - link "Content" [ref=e10] [cursor=pointer]:
+          - /url: /content/insta-toon
+        - link "Pluora" [ref=e11] [cursor=pointer]:
+          - /url: "#how"
+        - link "Global" [ref=e12] [cursor=pointer]:
+          - /url: "#global"
+        - link "진단" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Blog" [ref=e14] [cursor=pointer]:
+          - /url: /blog/
+        - link "HR" [ref=e15] [cursor=pointer]:
+          - /url: /hr
+      - generic [ref=e16]:
+        - link "KO" [ref=e17] [cursor=pointer]:
+          - /url: /ko.html
+        - generic [ref=e18]: ·
+        - link "EN" [ref=e19] [cursor=pointer]:
+          - /url: /en
+        - generic [ref=e20]: ·
+        - link "JA" [ref=e21] [cursor=pointer]:
+          - /url: /ja
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: AI Discovery AdTech
+      - generic "AI answer and source platforms" [ref=e27]:
+        - generic [ref=e28]: ChatGPT
+        - generic [ref=e29]: Gemini
+        - generic [ref=e30]: Perplexity
+        - generic [ref=e31]: YouTube
+        - generic [ref=e32]: Instagram
+        - generic [ref=e33]: Reddit
+        - generic [ref=e34]: Quora
+        - generic [ref=e35]: Publisher
+      - heading "AI 검색 시대의 마케팅, Plurank가 끝까지 맡습니다." [level=1] [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: A
+            - generic [ref=e40]: I
+          - generic [ref=e41]:
+            - generic [ref=e42]: 검
+            - generic [ref=e43]: 색
+          - generic [ref=e44]:
+            - generic [ref=e45]: 시
+            - generic [ref=e46]: 대
+            - generic [ref=e47]: 의
+          - generic [ref=e48]:
+            - generic [ref=e49]: 마
+            - generic [ref=e50]: 케
+            - generic [ref=e51]: 팅
+            - generic [ref=e52]: ","
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: P
+            - generic [ref=e56]: l
+            - generic [ref=e57]: u
+            - generic [ref=e58]: r
+            - generic [ref=e59]: a
+            - generic [ref=e60]: "n"
+            - generic [ref=e61]: k
+            - generic [ref=e62]: 가
+          - generic [ref=e63]:
+            - generic [ref=e64]: 끝
+            - generic [ref=e65]: 까
+            - generic [ref=e66]: 지
+          - generic [ref=e67]:
+            - generic [ref=e68]: 맡
+            - generic [ref=e69]: 습
+            - generic [ref=e70]: 니
+            - generic [ref=e71]: 다
+            - generic [ref=e72]: .
+      - paragraph [ref=e73]:
+        - text: 질문을 찾고, AI가 참고할 출처를 만들고, 웹·뉴스·SNS·커뮤니티에 콘텐츠를 배포합니다. 이후 AI 답변 변화와
+        - strong [ref=e74]: Plurank Lead 방문 신호
+        - text: 까지 추적해 브랜드가 발견되고 문의로 이어지는 흐름을 운영합니다.
+      - generic "Plurank execution loop" [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: "01"
+          - strong [ref=e78]: 질문 분석
+          - generic [ref=e79]: 구매·비교·추천 질의 발굴
+        - generic [ref=e80]:
+          - generic [ref=e81]: "02"
+          - strong [ref=e82]: 출처 설계
+          - generic [ref=e83]: AI가 참고할 근거 구조화
+        - generic [ref=e84]:
+          - generic [ref=e85]: "03"
+          - strong [ref=e86]: 콘텐츠 생성
+          - generic [ref=e87]: 채널별 원고·영상·커뮤니티 소재
+        - generic [ref=e88]:
+          - generic [ref=e89]: "04"
+          - strong [ref=e90]: 채널 배포
+          - generic [ref=e91]: 웹·SNS·PR·커뮤니티 실행
+        - generic [ref=e92]:
+          - generic [ref=e93]: "05"
+          - strong [ref=e94]: 답변 추적
+          - generic [ref=e95]: 인용·추천·경쟁 변화 확인
+        - generic [ref=e96]:
+          - generic [ref=e97]: "06"
+          - strong [ref=e98]: 리드 확인
+          - generic [ref=e99]: 방문 기업과 관심 신호 연결
+      - generic "AI Discovery AdTech positioning" [ref=e100]:
+        - generic [ref=e101]: Question Map
+        - generic [ref=e102]: Source Builder
+        - generic [ref=e103]: Content Engine
+        - generic [ref=e104]: End-to-End Ops
+      - generic [ref=e105]:
+        - link "브랜드 AI 마케팅 맡기기" [ref=e106] [cursor=pointer]:
+          - /url: "#"
+          - text: 브랜드 AI 마케팅 맡기기
+          - img [ref=e107]
+        - link "에이전시 GEO 데이터 제휴" [ref=e109] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - strong [ref=e112]: 15+
+          - text: Client Projects
+        - generic [ref=e113]:
+          - strong [ref=e114]: "12"
+          - text: Countries
+        - generic [ref=e115]:
+          - strong [ref=e116]: 30M+
+          - text: Training Data
+        - generic [ref=e117]:
+          - strong [ref=e118]: Lead
+          - text: Visitor Tracking
+    - complementary "AI Discovery AdTech 3D signal map" [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e122]: Live Signal Graph
+        - generic [ref=e123]:
+          - generic [ref=e124]: A customer asks AI
+          - strong [ref=e125]: "\"민감성 피부에 좋은 한국 스킨케어 브랜드"
+        - generic [ref=e127]:
+          - text: Owned
+          - strong [ref=e128]: Website · FAQ · Blog
+        - generic [ref=e129]:
+          - text: Earned
+          - strong [ref=e130]: News · Review · PR
+        - generic [ref=e131]:
+          - text: Social
+          - strong [ref=e132]: YouTube · Instagram · Threads
+        - generic [ref=e133]:
+          - text: Community
+          - strong [ref=e134]: Reddit · Quora · Wiki
+        - generic [ref=e135]:
+          - generic [ref=e136]: AI Answer Inclusion
+          - strong [ref=e137]: 0.0%
+          - paragraph [ref=e138]: 질문 분석, 출처 설계, 콘텐츠 실행이 함께 움직일 때 답변 안의 선택지가 바뀝니다.
+        - generic "Source signal analysis" [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: Owned Signal
+            - strong [ref=e142]: FAQ · Comparison · llms.txt
+            - emphasis [ref=e143]: —
+            - emphasis [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e146]: Earned Signal
+            - strong [ref=e147]: Review · PR · Publisher
+            - emphasis [ref=e148]: —
+            - emphasis [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e151]: Community Signal
+            - strong [ref=e152]: Reddit · Quora · Wiki
+            - emphasis [ref=e153]: —
+            - emphasis [ref=e154]
+          - generic [ref=e155]:
+            - generic [ref=e156]: Social Signal
+            - strong [ref=e157]: YouTube · Instagram · Threads
+            - emphasis [ref=e158]: —
+            - emphasis [ref=e159]
+  - region "Portfolio" [ref=e160]:
+    - generic [ref=e161]: PORTFOLIO · 주요 고객사 및 파트너 — 15+ 프로젝트 / 해외 3개국
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - generic [ref=e165]: Ascent Korea
+        - generic [ref=e167]: Enterprise Data Marketing
+      - generic [ref=e168]:
+        - generic [ref=e169]: Samsung 계열
+        - generic [ref=e171]: AI Search Validation
+      - generic [ref=e172]:
+        - generic [ref=e173]: 강남 의료기관 3곳
+        - generic [ref=e175]: Dermatology · Clinic
+      - generic [ref=e176]:
+        - generic [ref=e177]: All That Honors Club
+        - generic [ref=e179]: Inbound Travel
+      - generic [ref=e180]:
+        - generic [ref=e181]: ourconsulting
+        - generic [ref=e183]: Agency Reseller
+      - generic [ref=e184]:
+        - generic [ref=e185]: Hansol MS
+        - generic [ref=e187]: EV Charging
+      - generic [ref=e188]:
+        - generic [ref=e189]: Tokuyama Shoji
+        - generic [ref=e191]: Japan FMCG
+      - generic [ref=e192]:
+        - generic [ref=e193]: Kozy.care
+        - generic [ref=e195]: France Wellness
+      - generic [ref=e196]:
+        - generic [ref=e197]: BridgeLeaf
+        - generic [ref=e199]: US GTM Partner
+      - generic [ref=e200]:
+        - generic [ref=e201]: 국내 Top 광고대행사
+        - generic [ref=e203]: Negotiating
+      - generic [ref=e204]:
+        - generic [ref=e205]: 국내 로컬 SME PoC
+        - generic [ref=e207]: Multi Industry
+      - generic [ref=e208]:
+        - generic [ref=e209]: Ascent Korea
+        - generic [ref=e211]: Enterprise Data Marketing
+      - generic [ref=e212]:
+        - generic [ref=e213]: Samsung 계열
+        - generic [ref=e215]: AI Search Validation
+      - generic [ref=e216]:
+        - generic [ref=e217]: 강남 의료기관 3곳
+        - generic [ref=e219]: Dermatology · Clinic
+      - generic [ref=e220]:
+        - generic [ref=e221]: All That Honors Club
+        - generic [ref=e223]: Inbound Travel
+      - generic [ref=e224]:
+        - generic [ref=e225]: ourconsulting
+        - generic [ref=e227]: Agency Reseller
+      - generic [ref=e228]:
+        - generic [ref=e229]: Hansol MS
+        - generic [ref=e231]: EV Charging
+      - generic [ref=e232]:
+        - generic [ref=e233]: Tokuyama Shoji
+        - generic [ref=e235]: Japan FMCG
+      - generic [ref=e236]:
+        - generic [ref=e237]: Kozy.care
+        - generic [ref=e239]: France Wellness
+      - generic [ref=e240]:
+        - generic [ref=e241]: BridgeLeaf
+        - generic [ref=e243]: US GTM Partner
+      - generic [ref=e244]:
+        - generic [ref=e245]: 국내 Top 광고대행사
+        - generic [ref=e247]: Negotiating
+      - generic [ref=e248]:
+        - generic [ref=e249]: 국내 로컬 SME PoC
+        - generic [ref=e251]: Multi Industry
+  - region "Plurank output loop" [ref=e252]:
+    - generic [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]: What Plurank Ships
+          - heading "분석에서 끝나지 않고, AI가 참고할 콘텐츠를 실제로 만듭니다." [level=2] [ref=e257]
+        - paragraph [ref=e258]: GEO 데이터로 질문과 출처의 빈틈을 찾고, 그 빈틈을 채우는 콘텐츠를 채널별로 제작합니다. 이후 답변 변화와 방문 기업 신호까지 확인해 다음 실행 우선순위를 정합니다.
+      - generic [ref=e259]:
+        - article [ref=e260]:
+          - generic [ref=e261]: Question Map
+          - strong [ref=e262]: 어떤 질문에서 빠지는지
+          - paragraph [ref=e263]: 구매, 비교, 추천, 지역, 국가별 질문을 묶어 브랜드가 들어가야 할 답변 지점을 찾습니다.
+        - article [ref=e264]:
+          - generic [ref=e265]: Content Engine
+          - strong [ref=e266]: 무엇을 발행해야 하는지
+          - paragraph [ref=e267]: FAQ, 비교 페이지, 블로그, 리뷰 유도, 숏폼·커뮤니티 원고까지 채널별 소재로 변환합니다.
+        - article [ref=e268]:
+          - generic [ref=e269]: Distribution
+          - strong [ref=e270]: 어디에 쌓아야 하는지
+          - paragraph [ref=e271]: 웹사이트, 뉴스, SNS, YouTube, 커뮤니티, 위키형 출처까지 질문에 맞춰 배포합니다.
+        - article [ref=e272]:
+          - generic [ref=e273]: Plurank Lead
+          - strong [ref=e274]: 누가 관심을 보였는지
+          - paragraph [ref=e275]: AI 답변과 콘텐츠를 보고 들어온 방문 기업을 식별하고 Slack·CRM 액션으로 연결합니다.
+  - generic [ref=e277]:
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - generic [ref=e280]: Question-led Discovery
+        - heading "사용자는 이제 질문 하나로 브랜드를 비교합니다." [level=2] [ref=e281]:
+          - text: 사용자는 이제
+          - generic [ref=e282]:
+            - emphasis [ref=e283]: 질문 하나로 브랜드를 비교합니다
+            - text: .
+      - paragraph [ref=e284]:
+        - text: 예전에는 이런 질문이 검색 결과 페이지에서 여러 링크를 비교하는 과정으로 이어졌습니다. 지금은 답변 안에서 후보와 이유가 함께 요약됩니다. 그 답변에 포함되는지가 브랜드 발견의
+        - strong [ref=e285]: 출발점
+        - text: 이 됩니다.
+    - generic [ref=e286]:
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - generic [ref=e290]: Beauty · Global
+          - paragraph [ref=e291]: "\"민감성 피부에 좋은 한국 스킨케어 브랜드 추천해줘.\""
+        - generic [ref=e292]:
+          - generic [ref=e293]: SaaS · B2B
+          - paragraph [ref=e294]: "\"일본 진출을 준비하는 스타트업에 맞는 마케팅 자동화 툴은?\""
+        - generic [ref=e295]:
+          - generic [ref=e296]: Healthcare · Local
+          - paragraph [ref=e297]: "\"서울에서 외국인이 믿고 갈 수 있는 피부과는 어디야?\""
+        - generic [ref=e298]:
+          - generic [ref=e299]: Commerce · Comparison
+          - paragraph [ref=e300]: "\"가성비 좋은 프리미엄 커피 브랜드를 비교해줘.\""
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - generic [ref=e304]: "01"
+          - generic [ref=e305]:
+            - heading "Question" [level=3] [ref=e306]
+            - paragraph [ref=e307]: 사용자는 키워드가 아니라 상황, 목적, 예산, 국가, 비교 조건이 섞인 문장으로 묻습니다.
+        - generic [ref=e308]:
+          - generic [ref=e309]: "02"
+          - generic [ref=e310]:
+            - heading "Signals" [level=3] [ref=e311]
+            - paragraph [ref=e312]: 공식 홈페이지뿐 아니라 뉴스, 영상, 리뷰, 커뮤니티, SNS, 위키성 콘텐츠가 함께 반영됩니다.
+        - generic [ref=e313]:
+          - generic [ref=e314]: "03"
+          - generic [ref=e315]:
+            - heading "Answer" [level=3] [ref=e316]
+            - paragraph [ref=e317]: 여러 신호가 하나의 답변으로 요약되고, 브랜드는 그 안에서 비교되거나 제외됩니다.
+        - generic [ref=e318]:
+          - generic [ref=e319]: "04"
+          - generic [ref=e320]:
+            - heading "Recommendation" [level=3] [ref=e321]
+            - paragraph [ref=e322]: 추천된 브랜드는 다음 클릭, 비교, 문의, 구매 후보로 이어집니다.
+  - generic [ref=e325]:
+    - generic [ref=e326]:
+      - generic [ref=e327]: Category · AI Discovery AdTech
+      - heading "브랜드가 AI 답변에 등장할 근거를 쌓습니다." [level=2] [ref=e328]:
+        - text: 브랜드가 AI 답변에
+        - generic [ref=e329]:
+          - emphasis [ref=e330]: 등장할 근거
+          - text: 를 쌓습니다.
+      - generic [ref=e331]: 투스텝스어헤드의 독보적인 GEO 솔루션, Plurank
+    - generic [ref=e332]:
+      - paragraph [ref=e333]:
+        - strong [ref=e334]: AI Discovery AdTech
+        - text: 는 AI 답변에서 브랜드가 어떻게 보이고, 어떤 출처를 근거로 인용되는지 데이터로 관리하고 콘텐츠 실행까지 연결하는 마케팅 인프라입니다. 검색 광고가 검색 결과의 클릭을 운영했다면, Plurank는
+        - strong [ref=e335]: 답변이 만들어지기 전에 필요한 신뢰 신호와 채널별 콘텐츠를 운영합니다.
+      - paragraph [ref=e336]:
+        - text: 해외에서는 AI visibility, citation tracking, content activation, AI advertising이 하나의 실행 시장으로 붙고 있습니다. Plurank는 여기서 한 걸음 더 나아가
+        - strong [ref=e337]: 한국·일본·미국 등 로컬 소스 분석과 실제 콘텐츠 제작·배포
+        - text: 까지 연결합니다. 리포트만 제공하는 툴이 아니라, AI 답변에 반영될 만한 출처에 브랜드 근거를 쌓는 운영형 애드테크입니다.
+      - generic "AI Discovery AdTech category ladder" [ref=e338]:
+        - generic [ref=e339]:
+          - generic [ref=e340]: 01 · SEO
+          - strong [ref=e341]: Rank Links
+          - paragraph [ref=e342]: 검색 결과에서 웹페이지 순위를 올리는 기존 검색 최적화.
+        - generic [ref=e343]:
+          - generic [ref=e344]: 02 · AEO/GEO
+          - strong [ref=e345]: Track Answers
+          - paragraph [ref=e346]: AI 답변 안의 브랜드 언급, 위치, 인용 출처를 추적.
+        - generic [ref=e347]:
+          - generic [ref=e348]: 03 · Source Activation
+          - strong [ref=e349]: Shape Signals
+          - paragraph [ref=e350]: 웹사이트, 리뷰, PR, 커뮤니티, SNS, 위키성 소스별로 필요한 콘텐츠를 배치.
+        - generic [ref=e351]:
+          - generic [ref=e352]: 04 · Plurank
+          - strong [ref=e353]: AI Discovery AdTech
+          - paragraph [ref=e354]: 답변 데이터, 콘텐츠 실행, Pluora 학습을 하나의 운영 루프로 연결.
+      - generic [ref=e355]:
+        - generic [ref=e356]:
+          - generic [ref=e357]: "01"
+          - generic [ref=e358]:
+            - heading "관측 Observe" [level=4] [ref=e359]:
+              - text: 관측
+              - emphasis [ref=e360]: Observe
+            - paragraph [ref=e361]: 질문·답변·인용·경쟁사·국가별 AI Visibility 추적
+        - generic [ref=e362]:
+          - generic [ref=e363]: "02"
+          - generic [ref=e364]:
+            - heading "정렬 Align" [level=4] [ref=e365]:
+              - text: 정렬
+              - emphasis [ref=e366]: Align
+            - paragraph [ref=e367]: Owned·Earned·Social·Community 신호의 메시지 일관성 설계
+        - generic [ref=e368]:
+          - generic [ref=e369]: "03"
+          - generic [ref=e370]:
+            - heading "실행 Activate" [level=4] [ref=e371]:
+              - text: 실행
+              - emphasis [ref=e372]: Activate
+            - paragraph [ref=e373]: SEO·PR·영상·SNS·커뮤니티·리뷰 콘텐츠를 데이터 기반으로 제작·배포
+        - generic [ref=e374]:
+          - generic [ref=e375]: "04"
+          - generic [ref=e376]:
+            - heading "학습 Learn" [level=4] [ref=e377]:
+              - text: 학습
+              - emphasis [ref=e378]: Learn
+            - paragraph [ref=e379]: 실행 결과와 AI 답변 변화를 Pluora 예측 모델에 다시 반영
+  - generic [ref=e381]:
+    - generic [ref=e382]:
+      - generic [ref=e383]:
+        - generic [ref=e384]: How AI Answers
+        - heading "AI 답변은 한 페이지에서 나오지 않습니다. 여러 출처의 신호가 함께 반영됩니다." [level=2] [ref=e385]:
+          - text: AI 답변은 한 페이지에서 나오지 않습니다.
+          - generic [ref=e386]:
+            - emphasis [ref=e387]: 여러 출처의 신호
+            - text: 가 함께 반영됩니다.
+      - paragraph [ref=e388]:
+        - text: 같은 질문이라도 어떤 출처가 함께 반영되느냐에 따라 답변은 달라집니다. Plurank는 웹사이트, 뉴스, 소셜, 커뮤니티, 로컬 소스를 함께 추적하고, 각 채널에 어떤 콘텐츠가 필요한지
+        - strong [ref=e389]: 실행 단위로
+        - text: 정리합니다.
+    - generic [ref=e390]:
+      - generic [ref=e391]:
+        - heading "Question" [level=3] [ref=e392]
+        - paragraph [ref=e393]: 사용자의 질문은 제품명보다 상황과 의도를 더 많이 담습니다. 먼저 질문의 구조를 읽어야 합니다.
+        - generic [ref=e394]:
+          - generic [ref=e395]: Intent
+          - generic [ref=e396]: Persona
+          - generic [ref=e397]: Country
+          - generic [ref=e398]: Funnel
+      - generic [ref=e399]: →
+      - generic [ref=e400]:
+        - heading "Source Signals" [level=3] [ref=e401]
+        - paragraph [ref=e402]: 답변에 반영되는 신호는 자사 콘텐츠 밖에도 있습니다. Plurank는 브랜드가 관리해야 할 출처와 우선순위를 정리합니다.
+        - generic [ref=e403]:
+          - generic [ref=e404]: Owned
+          - generic [ref=e405]: Earned
+          - generic [ref=e406]: Social
+          - generic [ref=e407]: Community
+          - generic [ref=e408]: Local
+      - generic [ref=e409]: →
+      - generic [ref=e410]:
+        - heading "AI Answer" [level=3] [ref=e411]
+        - paragraph [ref=e412]: 근거가 충분히 쌓이면 브랜드는 답변의 본문, 비교표, 추천 목록, 인용 출처 안에 등장합니다.
+        - generic [ref=e413]:
+          - generic [ref=e414]: Mention
+          - generic [ref=e415]: Citation
+          - generic [ref=e416]: Position
+          - generic [ref=e417]: Recommendation
+  - generic [ref=e419]:
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e422]: Why This Matters
+        - heading "검색 순위만으로는 발견을 설명하기 어려워졌습니다." [level=2] [ref=e423]:
+          - generic [ref=e424]:
+            - text: 검색
+            - generic [ref=e425]:
+              - text: 순위만으로는
+              - emphasis [ref=e426]: 발견을
+            - emphasis [ref=e427]: 설명하기 어려워졌습니다
+            - text: .
+      - paragraph [ref=e428]:
+        - text: 브랜드는 더 이상 검색 결과의 링크 순위만 경쟁하지 않습니다. AI 답변, 추천 피드, 커뮤니티 인용, 에이전트 커머스까지 사용자의 발견 경로가 늘어났습니다. 이 경로 전체가 다음
+        - strong [ref=e429]: 퍼포먼스 채널
+        - text: 이 됩니다.
+    - generic [ref=e430]:
+      - generic [ref=e431]:
+        - generic [ref=e432]: 70%
+        - generic [ref=e433]:
+          - text: YouTube 시청시간의 상당 부분을
+          - strong [ref=e434]: 추천 알고리즘
+          - text: 이 좌우
+        - generic [ref=e435]: YouTube CPO
+      - generic [ref=e436]:
+        - generic [ref=e437]: 90%+
+        - generic [ref=e438]:
+          - text: TikTok FYP 도달, 비팔로워
+          - strong [ref=e439]: 알고리즘
+        - generic [ref=e440]: Sotrender
+      - generic [ref=e441]:
+        - generic [ref=e442]:
+          - emphasis [ref=e443]: −58
+          - text: "%"
+        - generic [ref=e444]:
+          - text: AI Overview 노출 후
+          - strong [ref=e445]: Organic CTR
+          - text: 하락
+        - generic [ref=e446]: Ahrefs · 2025
+      - generic [ref=e447]:
+        - generic [ref=e448]: 9억
+        - generic [ref=e449]:
+          - text: ChatGPT 주간 활성,
+          - strong [ref=e450]: 검색 대체
+        - generic [ref=e451]: OpenAI · 2026.02
+      - generic [ref=e452]:
+        - generic [ref=e453]: 65%
+        - generic [ref=e454]:
+          - text: CMO가 보는
+          - strong [ref=e455]: AI 기반 역할 변화
+        - generic [ref=e456]: Gartner · 2025
+    - generic [ref=e457]:
+      - generic [ref=e458]: AI 게이트키퍼가 단계마다 누적된다
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - generic [ref=e461]: "2010"
+          - generic [ref=e462]:
+            - text: SEO
+            - emphasis [ref=e463]: 검색 알고리즘
+        - generic [ref=e464]: →
+        - generic [ref=e465]:
+          - generic [ref=e466]: "2015"
+          - generic [ref=e467]:
+            - text: Social Algo
+            - emphasis [ref=e468]: 추천 피드
+        - generic [ref=e469]: →
+        - generic [ref=e470]:
+          - generic [ref=e471]: "2023"
+          - generic [ref=e472]:
+            - text: LLM Search
+            - emphasis [ref=e473]: AI 답변
+        - generic [ref=e474]: →
+        - generic [ref=e475]:
+          - generic [ref=e476]: 2026+
+          - emphasis [ref=e478]: Agentic Commerce
+    - generic [ref=e479]:
+      - generic [ref=e480]: Our Hypothesis
+      - generic [ref=e481]:
+        - text: AI 검색, 소셜 추천, 커뮤니티 신호, 에이전트 커머스까지 연결해
+        - strong [ref=e482]: 노출·인용·추천 가능성
+        - text: 을 예측하는 데이터 모델이 마케팅 인프라로 자리잡을 것입니다. Plurank는 이 영역을
+        - strong [ref=e483]: AI Discovery AdTech
+        - text: 라는 카테고리로 제품화합니다.
+  - generic [ref=e485]:
+    - generic [ref=e486]:
+      - generic [ref=e487]:
+        - generic [ref=e488]: Build vs Plurank · 비용·시간 비교
+        - heading "직접 만들면 1년, Plurank로는 다음 주부터." [level=2] [ref=e489]:
+          - generic [ref=e490]:
+            - text: 직접 만들면
+            - emphasis [ref=e491]: 1년
+            - text: ","
+          - generic [ref=e492]:
+            - text: Plurank로는
+            - emphasis [ref=e493]: 다음 주
+            - text: 부터.
+      - paragraph [ref=e494]:
+        - text: 12국 12채널을 자체 운영하려면 워커 인프라 · 12국 ISP · 248개 피처 정규화 · 재학습 파이프라인까지 필요합니다. ML 팀이 6~12개월 투입해야 하는 인프라를
+        - strong [ref=e495]: Plurank는 구독형 서비스로 대체합니다.
+    - generic [ref=e496]:
+      - generic [ref=e497]:
+        - generic [ref=e498]: 직접 구축
+        - generic [ref=e499]: Plurank
+      - generic [ref=e500]:
+        - generic [ref=e501]: 준비 기간
+        - generic [ref=e502]: 6~12개월
+        - generic [ref=e503]:
+          - strong [ref=e504]: 다음 주
+          - text: 부터
+      - generic [ref=e505]:
+        - generic [ref=e506]: 연간 비용
+        - generic [ref=e507]: 3~5억원
+        - generic [ref=e508]: 구독료 (키워드 단위)
+      - generic [ref=e509]:
+        - generic [ref=e510]: 전담 인원
+        - generic [ref=e511]: 2~3명 (ML 엔지니어 포함)
+        - strong [ref=e513]: 0명
+      - generic [ref=e514]:
+        - generic [ref=e515]: 12국 ISP IP 인프라
+        - generic [ref=e516]: 별도 구축
+        - generic [ref=e517]: 기본 포함
+      - generic [ref=e518]:
+        - generic [ref=e519]: 주간 자동 갱신 · 재학습
+        - generic [ref=e520]: 별도 파이프라인
+        - generic [ref=e521]: 기본 포함
+  - generic [ref=e523]:
+    - generic [ref=e524]:
+      - generic [ref=e525]:
+        - generic [ref=e526]: 5 Lens · Plurank가 답하는 질문
+        - heading "AI 답변에서 봐야 할 5가지 기준." [level=2] [ref=e527]:
+          - text: AI 답변에서
+          - generic [ref=e528]:
+            - text: 봐야 할
+            - emphasis [ref=e529]: 5가지 기준
+            - text: .
+      - paragraph [ref=e530]: 단순히 노출 여부만 세지 않습니다. 어떤 질문, 출처, 국가, 플랫폼에서 브랜드가 어떻게 다뤄지는지 보고, 무엇을 보강해야 하는지까지 정리합니다.
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - generic [ref=e533]: "01"
+        - heading "CitationLens" [level=3] [ref=e534]
+        - generic [ref=e535]: 어디에, 어떤 문맥으로 언급되는가?
+        - paragraph [ref=e536]: 7가지 AI 답변에서 브랜드가 어떤 문맥, 위치, 출처로 언급되는지 매주 확인합니다.
+      - generic [ref=e537]:
+        - generic [ref=e538]: "02"
+        - heading "PlatformLens Only Plurank" [level=3] [ref=e539]:
+          - text: PlatformLens
+          - generic [ref=e540]: Only Plurank
+        - generic [ref=e541]: 어떤 플랫폼에서 발견되는가?
+        - paragraph [ref=e542]: ChatGPT, Gemini, Perplexity, YouTube, Instagram, Reddit 중 어디가 브랜드 발견에 더 큰 영향을 주는지 봅니다.
+      - generic [ref=e543]:
+        - generic [ref=e544]: "03"
+        - heading "GeoLens Only Plurank" [level=3] [ref=e545]:
+          - text: GeoLens
+          - generic [ref=e546]: Only Plurank
+        - generic [ref=e547]: 국가마다 왜 다르게 답하는가?
+        - paragraph [ref=e548]: 한국에서 보이는 브랜드가 일본에서 사라지는 이유, 미국에서 경쟁사가 앞서는 출처를 국가별로 비교합니다.
+      - generic [ref=e549]:
+        - generic [ref=e550]: "04"
+        - heading "SourceLens" [level=3] [ref=e551]
+        - generic [ref=e552]: 답변의 근거가 되는 출처는 무엇인가?
+        - paragraph [ref=e553]: 뉴스, Reddit, Quora, G2, 리뷰, 위키형 콘텐츠 등 답변에 자주 쓰이는 소스 우선순위를 찾습니다.
+      - generic [ref=e554]:
+        - generic [ref=e555]: "05"
+        - heading "BoostLens" [level=3] [ref=e556]
+        - generic [ref=e557]: 무엇을 보강해야 위치가 달라지는가?
+        - paragraph [ref=e558]: 발행 전 초안을 입력하면 비교표, FAQ, 출처, 구조 보강으로 GEO Score가 얼마나 오를지 시뮬레이션합니다.
+  - generic [ref=e560]:
+    - generic [ref=e561]:
+      - generic [ref=e562]:
+        - generic [ref=e563]: From Insight To Action
+        - heading "분석에서 끝나지 않고 다음 액션까지 제안합니다." [level=2] [ref=e564]:
+          - text: 분석에서 끝나지 않고
+          - generic [ref=e565]:
+            - emphasis [ref=e566]: 다음 액션
+            - text: 까지 제안합니다.
+      - paragraph [ref=e567]:
+        - text: Plurank는 단순 모니터링 대시보드가 아닙니다. 어떤 콘텐츠를 만들고, 어느 채널에 발행하고, 어떤 출처를 확보해야 브랜드 위치가 개선되는지
+        - strong [ref=e568]: 실행 우선순위와 제작 브리프
+        - text: 로 제안합니다.
+    - generic [ref=e569]:
+      - generic [ref=e570]:
+        - generic [ref=e571]: "01"
+        - heading "Question Mapping" [level=3] [ref=e572]
+        - paragraph [ref=e573]: 고객이 실제로 던질 핵심 질문과 구매 여정별 질의를 발굴합니다.
+      - generic [ref=e574]:
+        - generic [ref=e575]: "02"
+        - heading "Source Intelligence" [level=3] [ref=e576]
+        - paragraph [ref=e577]: 답변에 자주 쓰이는 뉴스, 커뮤니티, 영상, 리뷰, 로컬 출처를 분석합니다.
+      - generic [ref=e578]:
+        - generic [ref=e579]: "03"
+        - heading "GEO Activation" [level=3] [ref=e580]
+        - paragraph [ref=e581]: SEO 콘텐츠, 비교 페이지, FAQ, PR, SNS, 커뮤니티 답변까지 채널별 콘텐츠를 만듭니다.
+      - generic [ref=e582]:
+        - generic [ref=e583]: "04"
+        - heading "Performance Check" [level=3] [ref=e584]
+        - paragraph [ref=e585]: 실행 후 답변 내 언급률, 인용률, 위치, 경쟁사 대비 점유율 변화를 측정합니다.
+      - generic [ref=e586]:
+        - generic [ref=e587]: "05"
+        - heading "Pluora Learning" [level=3] [ref=e588]
+        - paragraph [ref=e589]: 실행 결과를 다시 학습해 다음 콘텐츠의 인용 가능성을 예측합니다.
+  - generic [ref=e591]:
+    - generic [ref=e592]:
+      - generic [ref=e593]:
+        - generic [ref=e594]: Channel Content Activation
+        - heading "채널마다 필요한 콘텐츠가 다릅니다." [level=2] [ref=e595]:
+          - text: 채널마다
+          - generic [ref=e596]:
+            - emphasis [ref=e597]: 필요한 콘텐츠
+            - text: 가 다릅니다.
+      - paragraph [ref=e598]:
+        - text: Plurank는 GEO 점수만 보여주지 않습니다. 질문 데이터와 출처 데이터를 바탕으로 웹사이트, SNS, 영상, 커뮤니티, PR에 각각 필요한 콘텐츠를 설계하고 제작합니다. 우리는
+        - strong [ref=e599]: 콘텐츠 실행까지 포함한 AI 애드테크
+        - text: 입니다.
+    - generic [ref=e600]:
+      - generic [ref=e601]:
+        - heading "Owned Media" [level=3] [ref=e602]
+        - paragraph [ref=e603]: 브랜드가 직접 운영하는 채널은 사실 관계를 확인하는 기준점이 됩니다. 비교표, FAQ, 제품 근거, 스키마를 답변에 인용되기 쉬운 구조로 만듭니다.
+        - generic [ref=e604]:
+          - generic [ref=e605]: SEO/GEO Article
+          - generic [ref=e606]: FAQ · Comparison Page
+          - generic [ref=e607]: Schema · llms.txt
+      - generic [ref=e608]:
+        - heading "Social & Video" [level=3] [ref=e609]
+        - paragraph [ref=e610]: 영상과 SNS는 최신 반응, 사용 장면, 표현 언어를 보여주는 채널입니다. YouTube, Shorts, Reels, Threads에 맞는 후킹과 스크립트를 데이터로 설계합니다.
+        - generic [ref=e611]:
+          - generic [ref=e612]: YouTube Script
+          - generic [ref=e613]: Shorts · Reels Hook
+          - generic [ref=e614]: Threads · X Post Set
+      - generic [ref=e615]:
+        - heading "Community" [level=3] [ref=e616]
+        - paragraph [ref=e617]: Reddit, Quora, 포럼, 위키성 문서는 사용자 관점의 근거가 쌓이는 곳입니다. 질문별 반론, 비교, 실제 사용 맥락을 과장 없이 정리합니다.
+        - generic [ref=e618]:
+          - generic [ref=e619]: Reddit · Quora Answer
+          - generic [ref=e620]: Forum Seeding Guide
+          - generic [ref=e621]: Wiki-style Source Draft
+      - generic [ref=e622]:
+        - heading "Earned & Local" [level=3] [ref=e623]
+        - paragraph [ref=e624]: 언론, 리뷰, 리스트형 매체, 로컬 플랫폼은 신뢰도를 보강하는 외부 신호입니다. 국가별로 필요한 출처와 메시지를 따로 설계합니다.
+        - generic [ref=e625]:
+          - generic [ref=e626]: PR Angle · Review Brief
+          - generic [ref=e627]: Publisher Outreach Map
+          - generic [ref=e628]: Local Source Package
+  - generic [ref=e630]:
+    - generic [ref=e631]:
+      - generic [ref=e632]:
+        - generic [ref=e633]: Meet Pluora
+        - heading "Pluora는 발행 전에 인용 가능성을 예측합니다." [level=2] [ref=e634]:
+          - text: Pluora는 발행 전에
+          - generic [ref=e635]:
+            - emphasis [ref=e636]: 인용 가능성
+            - text: 을 예측합니다.
+      - paragraph [ref=e637]:
+        - text: Pluora는 AI 답변, 인용 출처, 콘텐츠 구조, 플랫폼별 노출 결과를 함께 학습합니다. 콘텐츠를 만든 뒤 기다리는 대신, 발행 전에
+        - strong [ref=e638]: GEO Score와 개선 방향
+        - text: 을 확인합니다.
+    - generic [ref=e639]:
+      - generic [ref=e640]:
+        - generic [ref=e641]:
+          - generic [ref=e642]: Citation Probability
+          - generic [ref=e643]: 콘텐츠 인용 확률
+        - generic [ref=e644]:
+          - img [ref=e645]:
+            - generic [ref=e648]: 0.0%
+          - generic [ref=e649]: 발행 후 7일 내 인용 확률
+        - generic [ref=e650]:
+          - generic [ref=e651]: 최근 발행 콘텐츠 추이
+          - img [ref=e652]
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - generic [ref=e658]: Pluora
+          - generic [ref=e659]: v0.8 · GEO Score
+        - img [ref=e660]:
+          - generic [ref=e693]: INPUT
+          - generic [ref=e694]: FEATURES
+          - generic [ref=e695]: LATENT
+          - generic [ref=e696]: OUT
+        - generic [ref=e697]:
+          - strong [ref=e698]: Pluora
+          - text: — Plurank의 자체 인용 예측 AI 모델. URL 입력 → 7 AI 플랫폼 인용 확률 출력.
+        - generic [ref=e699]:
+          - generic [ref=e700]:
+            - generic [ref=e701]: 예측 지평
+            - strong [ref=e702]: 7일
+          - generic [ref=e703]:
+            - generic [ref=e704]: 학습 주기
+            - strong [ref=e705]: 주 1회
+          - generic [ref=e706]:
+            - generic [ref=e707]: MAPE
+            - strong [ref=e708]: 8.6%
+      - generic [ref=e709]:
+        - generic [ref=e710]:
+          - generic [ref=e711]: Real-time Data Foundation
+          - generic [ref=e712]: 12개국 · 7 플랫폼
+        - generic [ref=e713]:
+          - generic [ref=e714]:
+            - generic [ref=e715]: "192"
+            - generic [ref=e716]: 발행↔인용 실증
+          - generic [ref=e717]:
+            - generic [ref=e718]: 30M+
+            - generic [ref=e719]: BigQuery 학습 데이터
+          - generic [ref=e720]:
+            - generic [ref=e721]: "12"
+            - generic [ref=e722]: 국가 (실제 ISP IP)
+          - generic [ref=e723]:
+            - generic [ref=e724]: "97.1"
+            - generic [ref=e725]: 평균 GEO 점수
+  - generic [ref=e727]:
+    - generic [ref=e728]:
+      - generic [ref=e729]:
+        - generic [ref=e730]: Why Plurank
+        - heading "AI 답변은 매번 달라집니다. 반복 측정해야 패턴이 보입니다." [level=2] [ref=e731]:
+          - text: AI 답변은 매번 달라집니다.
+          - generic [ref=e732]:
+            - text: 반복 측정해야
+            - emphasis [ref=e733]: 패턴
+            - text: 이 보입니다.
+      - paragraph [ref=e734]:
+        - text: Plurank는 API 추정값이 아니라 실제 국가 환경에서 AI 답변을 반복 측정합니다. 그래서 단발성 스크린샷이 아니라
+        - strong [ref=e735]: 브랜드 발견 가능성의 분포와 추세
+        - text: 를 봅니다.
+    - generic [ref=e736]:
+      - generic [ref=e737]:
+        - img [ref=e739]
+        - heading "실제 브라우저 데이터" [level=3] [ref=e742]:
+          - text: 실제
+          - emphasis [ref=e743]: 브라우저
+          - text: 데이터
+        - paragraph [ref=e744]:
+          - text: API 추정값이나 스크래핑이 아닌
+          - strong [ref=e745]: 12개국 ISP IP에서 실제 사용자 환경의 화면
+          - text: 을 캡처합니다.
+        - generic [ref=e746]: 스크린샷 인증 · 192건 실증
+      - generic [ref=e747]:
+        - img [ref=e749]
+        - heading "7 플랫폼 × 12 국가" [level=3] [ref=e751]
+        - paragraph [ref=e752]:
+          - strong [ref=e753]: ChatGPT · Claude · Perplexity · Gemini · AI Overview · AI Mode · DeepSeek
+          - text: 를 5개 워커 세트, 60대 EC2로 동시 측정.
+        - generic [ref=e754]: 주 1회 정기 + 일일 트렌드
+      - generic [ref=e755]:
+        - img [ref=e757]
+        - heading "Pluora — 발행 전 예측" [level=3] [ref=e760]:
+          - text: Pluora —
+          - emphasis [ref=e761]: 발행 전
+          - text: 예측
+        - paragraph [ref=e762]:
+          - text: 30M+ 발행↔인용 데이터로 학습된
+          - strong [ref=e763]: Pluora
+          - text: 가 발행 전에 콘텐츠의 AI 인용 가능성을 점수로 보여줍니다.
+        - generic [ref=e764]: AI 검색의 Surfer SEO · MAPE 8.6%
+  - generic [ref=e766]:
+    - generic [ref=e767]:
+      - generic [ref=e768]:
+        - generic [ref=e769]: How It Works
+        - heading "수집부터 예측까지 4단계로 운영합니다." [level=2] [ref=e770]:
+          - text: 수집부터 예측까지
+          - generic [ref=e771]:
+            - emphasis [ref=e772]: 4단계
+            - text: 로 운영합니다.
+      - paragraph [ref=e773]: 매주 자동으로 데이터를 수집하고, 모델로 학습하며, 다음 주 가시성을 예측합니다.
+    - generic [ref=e774]:
+      - generic [ref=e775]:
+        - generic [ref=e776]: 01 · Collect
+        - heading "실제 브라우저 캡처" [level=3] [ref=e777]
+        - paragraph [ref=e778]: 12개국 ISP IP에서 7 AI 플랫폼 답변을 실제 브라우저로 캡처하고, 매주 60대 워커 EC2로 자동화합니다.
+        - generic [ref=e779]: 매주 화요일 03:00 KST
+      - generic [ref=e780]:
+        - generic [ref=e781]: 02 · Label
+        - heading "스크린샷 + 인용 추출" [level=3] [ref=e782]
+        - paragraph [ref=e783]: 스크린샷·출처 URL·순위·텍스트 토큰을 BigQuery에 적재하고, 248개 피처로 정규화합니다.
+        - generic [ref=e784]: 학습 데이터 30M+ 누적
+      - generic [ref=e785]:
+        - generic [ref=e786]: 03 · Train
+        - heading "Pluora 재학습" [level=3] [ref=e787]:
+          - emphasis [ref=e788]: Pluora
+          - text: 재학습
+        - paragraph [ref=e789]: Pluora가 발행↔인용 패턴을 학습하고, 매주 1회 가중치를 업데이트합니다. 현재 MAPE는 8.6%입니다.
+        - generic [ref=e790]: v1 출시 예정 · 2026 H2
+      - generic [ref=e791]:
+        - generic [ref=e792]: 04 · Predict
+        - heading "인용 확률 + 가이드" [level=3] [ref=e793]
+        - paragraph [ref=e794]: URL을 입력하면 7 AI별 인용 확률(GEO Score)을 출력합니다. 점수가 낮으면 어떤 부분을 보강해야 할지 제안합니다.
+        - generic [ref=e795]: 실시간 + 매주 월 09:00 리포트
+  - generic [ref=e797]:
+    - generic [ref=e798]:
+      - generic [ref=e799]:
+        - generic [ref=e800]: Data Foundation
+        - heading "학습 데이터가 Plurank의 기준입니다." [level=2] [ref=e801]:
+          - generic [ref=e802]:
+            - emphasis [ref=e803]: 학습 데이터
+            - text: 가
+          - text: Plurank의 기준입니다.
+      - paragraph [ref=e804]:
+        - text: 매주 화요일 새벽, 12개국 60대 워커 EC2가 7 AI 플랫폼을 동시에 캡처해 BigQuery로 적재합니다. 이 데이터가 다음 예측 모델의
+        - strong [ref=e805]: 학습 기반
+        - text: 이 됩니다.
+    - generic [ref=e806]:
+      - generic [ref=e807]:
+        - generic [ref=e808]: "192"
+        - generic [ref=e809]: 발행↔AI 인용 실증
+        - generic [ref=e810]: 12업체 블로그 → AI 검색 인용까지 추적한 케이스
+      - generic [ref=e811]:
+        - generic [ref=e812]: 30M+
+        - generic [ref=e813]: BigQuery 학습 데이터
+        - generic [ref=e814]: 스크린샷 · 출처 · 순위 · 텍스트 토큰 · 메타데이터
+      - generic [ref=e815]:
+        - generic [ref=e816]: "12"
+        - generic [ref=e817]: 국가 (실제 IP)
+        - generic [ref=e818]: US · UK · JP · KR · DE · FR · ES · IT · IN · BR · ID · AE
+      - generic [ref=e819]:
+        - generic [ref=e820]: "97.1"
+        - generic [ref=e821]: 평균 GEO 점수
+        - generic [ref=e822]: 12개 카테고리 · 192건 발행 콘텐츠
+    - generic [ref=e823]:
+      - generic [ref=e824]: Global · 함께하는 파트너
+      - generic [ref=e825]:
+        - generic [ref=e826]:
+          - generic [ref=e827]: 🇰🇷
+          - generic [ref=e828]:
+            - strong [ref=e829]: 한국 15+ 파트너
+            - generic [ref=e830]: 어센트 AI · Samsung 계열 · 의료기관 외
+        - generic [ref=e831]:
+          - generic [ref=e832]: 🇯🇵
+          - generic [ref=e833]:
+            - strong [ref=e834]: 토쿠야마 상사
+            - generic [ref=e835]: 일본 소비재 유통 거점
+        - generic [ref=e836]:
+          - generic [ref=e837]: 🇫🇷
+          - generic [ref=e838]:
+            - strong [ref=e839]: Kozy.care
+            - generic [ref=e840]: 유럽 웰니스 시장
+        - generic [ref=e841]:
+          - generic [ref=e842]: 🇺🇸
+          - generic [ref=e843]:
+            - strong [ref=e844]: BridgeLeaf
+            - generic [ref=e845]: 미국 GTM 파트너
+  - generic [ref=e847]:
+    - generic [ref=e848]:
+      - generic [ref=e849]:
+        - generic [ref=e850]: Global GEO
+        - heading "AI 검색은 글로벌하지만, 답변에 쓰이는 출처는 국가마다 다릅니다." [level=2] [ref=e851]:
+          - text: AI 검색은 글로벌하지만,
+          - generic [ref=e852]:
+            - emphasis [ref=e853]: 답변에 쓰이는 출처는 국가마다 다릅니다
+            - text: .
+      - paragraph [ref=e854]:
+        - text: 같은 질문도 한국, 일본, 미국, 동남아에서 서로 다른 답변으로 나타납니다. Plurank는 국가별 AI 답변, 로컬 미디어, 커뮤니티, SNS, 리뷰 생태계를 분석해
+        - strong [ref=e855]: 시장별 AI Discovery Map
+        - text: 을 만듭니다.
+    - generic [ref=e856]:
+      - generic [ref=e857]:
+        - heading "한국" [level=3] [ref=e858]
+        - paragraph [ref=e859]: 네이버·뉴스·커뮤니티·나무위키성 정보와 글로벌 AI 답변의 연결 지점을 분석합니다.
+        - generic [ref=e860]: KR Source Map
+      - generic [ref=e861]:
+        - heading "일본" [level=3] [ref=e862]
+        - paragraph [ref=e863]: 일본어 질문, 현지 리뷰, 유통 파트너, 로컬 미디어 신호를 분리해 GTM 전략에 반영합니다.
+        - generic [ref=e864]: Japan GTM
+      - generic [ref=e865]:
+        - heading "미국" [level=3] [ref=e866]
+        - paragraph [ref=e867]: Reddit, Quora, G2, PR, 비교형 콘텐츠처럼 답변에 자주 쓰이는 오픈웹 신호를 추적합니다.
+        - generic [ref=e868]: US Discovery
+      - generic [ref=e869]:
+        - heading "동남아" [level=3] [ref=e870]
+        - paragraph [ref=e871]: 플랫폼별 소셜 추천, 크리에이터 콘텐츠, 커머스 리뷰가 AI 답변에 미치는 영향을 봅니다.
+        - generic [ref=e872]: SEA Social
+      - generic [ref=e873]:
+        - heading "유럽" [level=3] [ref=e874]
+        - paragraph [ref=e875]: 언어권별 출처, 규제 민감도, 신뢰 신호 차이를 반영해 국가별 콘텐츠 구조를 만듭니다.
+        - generic [ref=e876]: EU Localization
+  - generic [ref=e878]:
+    - generic [ref=e879]:
+      - generic [ref=e880]:
+        - generic [ref=e881]: How We Think About GEO
+        - heading "데이터로 확인한 6가지 전제." [level=2] [ref=e882]:
+          - text: 데이터로 확인한
+          - generic [ref=e883]:
+            - emphasis [ref=e884]: 6가지
+            - text: 전제.
+      - paragraph [ref=e885]: 매주 쌓이는 발행↔인용 데이터에서 반복적으로 보이는 패턴입니다. GEO를 시작할 때 먼저 확인해야 할 기준입니다.
+    - generic [ref=e886]:
+      - article [ref=e887]:
+        - generic [ref=e888]: "01"
+        - heading "AI 검색은 링크 목록보다 답변을 먼저 보여줍니다." [level=3] [ref=e889]:
+          - text: AI 검색은 링크 목록보다
+          - emphasis [ref=e890]: 답변을 먼저 보여줍니다
+          - text: .
+        - paragraph [ref=e891]:
+          - text: 사용자는 여러 결과를 직접 비교하기보다 요약된 답변에서 후보를 확인합니다. 그래서
+          - strong [ref=e892]: 인용된 출처가 곧 가시성
+          - text: 이 됩니다.
+        - generic [ref=e893]: → 7 AI × 12국에서 어떤 출처가 들어갔는지 매주 추적
+      - article [ref=e894]:
+        - generic [ref=e895]: "02"
+        - heading "한 줄 언급과 핵심 근거는 다릅니다." [level=3] [ref=e896]:
+          - text: 한 줄 언급과 핵심 근거는
+          - emphasis [ref=e897]: 다릅니다
+          - text: .
+        - paragraph [ref=e898]:
+          - text: 같은 한 줄도
+          - strong [ref=e899]: 각주에만 들어가는지, 본문 근거로 쓰이는지
+          - text: 에 따라 의미가 달라집니다. 단순 언급만으론 부족합니다.
+        - generic [ref=e900]: → GEO Score는 위치·컨텍스트·정확성을 가중치로 반영
+      - article [ref=e901]:
+        - generic [ref=e902]: "03"
+        - heading "사람들은 키워드보다 상황으로 묻습니다." [level=3] [ref=e903]:
+          - text: 사람들은 키워드보다
+          - emphasis [ref=e904]: 상황
+          - text: 으로 묻습니다.
+        - paragraph [ref=e905]:
+          - text: SEO는 "Mercedes E-Class 가격" 같은 키워드를 봤다면, GEO는
+          - strong [ref=e906]: "\"내 가족 4명에게 맞는 프리미엄 세단\""
+          - text: 처럼 맥락이 들어간 질문을 봅니다.
+        - generic [ref=e907]: → 페르소나 클러스터로 분리해 인용 패턴 학습
+      - article [ref=e908]:
+        - generic [ref=e909]: "04"
+        - heading "브랜드 사이트 밖의 신호도 함께 봐야 합니다." [level=3] [ref=e910]:
+          - text: 브랜드 사이트 밖의 신호도
+          - emphasis [ref=e911]: 함께 봐야 합니다
+          - text: .
+        - paragraph [ref=e912]:
+          - text: 답변은 도메인 한 곳만으로 만들어지지 않습니다.
+          - strong [ref=e913]: 리뷰·커뮤니티·언론 인용
+          - text: 까지 함께 관리해야 신뢰도가 쌓입니다.
+        - generic [ref=e914]: → 80+ 매체 + 5대 커뮤니티 mention 주간 트래킹
+      - article [ref=e915]:
+        - generic [ref=e916]: "05"
+        - heading "인용되기 쉬운 콘텐츠에는 구조가 있습니다." [level=3] [ref=e917]:
+          - text: 인용되기 쉬운 콘텐츠에는
+          - emphasis [ref=e918]: 구조
+          - text: 가 있습니다.
+        - paragraph [ref=e919]:
+          - text: 콘텐츠 양보다 중요하게 봐야 할 것은
+          - strong [ref=e920]: 답변에 반영되기 쉬운 형식
+          - text: 입니다. 스키마, FAQ, 명확한 출처가 인용 가능성을 높입니다.
+        - generic [ref=e921]: → 보강 항목별 예상 상승 폭을 시뮬레이션
+      - article [ref=e922]:
+        - generic [ref=e923]: "06"
+        - heading "추천 다음에는 구매 실행이 붙습니다." [level=3] [ref=e924]:
+          - text: 추천 다음에는
+          - emphasis [ref=e925]: 구매 실행
+          - text: 이 붙습니다.
+        - paragraph [ref=e926]: AI 기반 경험이 비교와 결제 과정까지 연결되면, 노출의 의미는 인지(awareness)를 넘어 행동(action)으로 옮겨갑니다.
+        - generic [ref=e927]: → ChatGPT Operator · Perplexity Shopping 측정 포함
+  - generic [ref=e929]:
+    - generic [ref=e930]:
+      - generic [ref=e931]:
+        - generic [ref=e932]: What You Get · Every Monday
+        - heading "매주 받는 실행 패키지." [level=2] [ref=e933]:
+          - text: 매주 받는
+          - generic [ref=e934]:
+            - emphasis [ref=e935]: 실행 패키지
+            - text: .
+      - paragraph [ref=e936]: 발행 전 인용 확률, 발행 후 모니터링, 소스 분석, 채널별 콘텐츠 제작 가이드까지 한 번에 제공합니다. 매주 데이터가 쌓일수록 Pluora의 예측과 실행 우선순위도 더 정교해집니다.
+    - generic [ref=e937]:
+      - generic [ref=e938]:
+        - generic [ref=e939]: "01"
+        - heading "주간 가시성 리포트" [level=3] [ref=e940]:
+          - text: 주간 가시성
+          - emphasis [ref=e941]: 리포트
+        - paragraph [ref=e942]:
+          - text: 7 AI 플랫폼 × 12개국에서 브랜드의
+          - strong [ref=e943]: 인용·위치·점유율
+          - text: 을 매주 자동 산출합니다. 경쟁사 5사 비교가 기본 포함되며, 카테고리별 SOV(Share of Voice)까지 한 화면에 정리됩니다.
+        - list [ref=e944]:
+          - listitem [ref=e945]: — 플랫폼별 평균 순위 + 인용 횟수
+          - listitem [ref=e946]: — 국가별 점유율 히트맵
+          - listitem [ref=e947]: — 경쟁사 5사 SOV 비교
+      - generic [ref=e949]:
+        - generic [ref=e950]:
+          - generic [ref=e951]: Week 17 · 2026-04-21
+          - generic [ref=e952]: +5.2pt
+        - generic [ref=e953]:
+          - generic [ref=e954]:
+            - generic [ref=e955]: ChatGPT
+            - generic [ref=e959]: "82% · #1"
+          - generic [ref=e960]:
+            - generic [ref=e961]: Claude
+            - generic [ref=e965]: "71% · #2"
+          - generic [ref=e966]:
+            - generic [ref=e967]: Perplexity
+            - generic [ref=e971]: "68% · #3"
+          - generic [ref=e972]:
+            - generic [ref=e973]: AI Mode
+            - generic [ref=e977]: "63% · #4"
+          - generic [ref=e978]:
+            - generic [ref=e979]: DeepSeek
+            - generic [ref=e983]: "58% · #5"
+          - generic [ref=e984]:
+            - generic [ref=e985]: Gemini
+            - generic [ref=e989]: "54% · #6"
+          - generic [ref=e990]:
+            - generic [ref=e991]: AI Overview
+            - generic [ref=e995]: "42% · #7"
+        - generic [ref=e996]:
+          - generic [ref=e997]: 전체 평균 점유율
+          - strong [ref=e998]: 62.6%
+    - generic [ref=e999]:
+      - generic [ref=e1000]:
+        - generic [ref=e1001]: "02"
+        - heading "인용 확률 + 개선 시뮬레이터" [level=3] [ref=e1002]:
+          - text: 인용 확률 +
+          - emphasis [ref=e1003]: 개선 시뮬레이터
+        - paragraph [ref=e1004]:
+          - text: 발행 예정 콘텐츠 URL이나 초안을 입력하면
+          - strong [ref=e1005]: Pluora
+          - text: 가
+          - strong [ref=e1006]: 7 AI 플랫폼별 인용 확률
+          - text: 을 출력합니다. 점수가 낮으면 어떤 부분(스키마·출처·구조)을 보강해야 확률이 오를지 시뮬레이터로 미리 확인할 수 있습니다.
+        - list [ref=e1007]:
+          - listitem [ref=e1008]: — 7 AI 플랫폼별 인용 확률 (0–100%)
+          - listitem [ref=e1009]: — "무엇을 고치면 +N pt" 개선 시뮬레이션
+          - listitem [ref=e1010]: — MAPE 8.6% (예측 정확도 표준 메트릭)
+      - generic [ref=e1012]:
+        - generic [ref=e1013]:
+          - generic [ref=e1014]: /blog/post-2026-04
+          - generic [ref=e1015]: + Simulator
+        - img [ref=e1016]:
+          - generic [ref=e1017]: "90"
+          - generic [ref=e1018]: "60"
+          - generic [ref=e1019]: "30"
+          - generic [ref=e1020]: 현재 콘텐츠
+          - generic [ref=e1030]: "78.2"
+          - generic [ref=e1031]: 초기
+          - generic [ref=e1032]: + 출처
+          - generic [ref=e1033]: + FAQ
+          - generic [ref=e1034]: + 비교표
+          - generic [ref=e1035]: + 스키마
+        - generic [ref=e1037]:
+          - text: SUGGEST비교표 + Schema markup 추가 시 인용 확률
+          - strong [ref=e1038]: +18pt
+          - text: 예상
+    - generic [ref=e1039]:
+      - generic [ref=e1040]:
+        - generic [ref=e1041]: "03"
+        - heading "채널별 콘텐츠 실행안" [level=3] [ref=e1042]:
+          - text: 채널별
+          - emphasis [ref=e1043]: 콘텐츠 실행안
+        - paragraph [ref=e1044]:
+          - text: 어떤 채널에 어떤 콘텐츠를 발행해야 인용 가능성이 높아지는지 정리합니다. SEO 글, 비교 페이지, FAQ, PR 앵글, YouTube 스크립트, SNS 포스트, 커뮤니티 답변까지
+          - strong [ref=e1045]: 채널 문법에 맞춘 제작 방향
+          - text: 으로 제공합니다.
+        - list [ref=e1046]:
+          - listitem [ref=e1047]: — 채널별 콘텐츠 브리프 자동 생성
+          - listitem [ref=e1048]: — 예상 임팩트와 제작 난이도 표시
+          - listitem [ref=e1049]: — 글로벌·로컬 채널별 메시지 분리
+      - generic [ref=e1051]:
+        - generic [ref=e1052]:
+          - generic [ref=e1053]: Content Actions · 4건
+          - generic [ref=e1054]: 실행 시 +8.4pt 예상
+        - generic [ref=e1055]:
+          - generic [ref=e1056]:
+            - generic [ref=e1057]: P1
+            - generic [ref=e1058]:
+              - strong [ref=e1059]: 공식 비교 페이지 발행
+              - generic [ref=e1060]: Perplexity가 비교 콘텐츠를 자주 인용 — 경쟁사 대비 근거 공개
+            - generic [ref=e1061]:
+              - generic [ref=e1062]: +3.2pt
+              - text: 2일
+          - generic [ref=e1063]:
+            - generic [ref=e1064]: P1
+            - generic [ref=e1065]:
+              - strong [ref=e1066]: YouTube 리뷰 스크립트 제작
+              - generic [ref=e1067]: 사용 장면과 비교 포인트를 90초 영상 문법으로 재구성
+            - generic [ref=e1068]:
+              - generic [ref=e1069]: +2.8pt
+              - text: 4시간
+          - generic [ref=e1070]:
+            - generic [ref=e1071]: P2
+            - generic [ref=e1072]:
+              - strong [ref=e1073]: 커뮤니티 답변 패키지
+              - generic [ref=e1074]: Reddit·Quora 질문별 반론과 근거를 중립 문장으로 정리
+            - generic [ref=e1075]:
+              - generic [ref=e1076]: +1.6pt
+              - text: 1주
+          - generic [ref=e1077]:
+            - generic [ref=e1078]: P3
+            - generic [ref=e1079]:
+              - strong [ref=e1080]: 로컬 PR 앵글 보강
+              - generic [ref=e1081]: JP/US 시장에서 인용될 만한 출처와 메시지 분리
+            - generic [ref=e1082]:
+              - generic [ref=e1083]: +0.8pt
+              - text: 1일
+    - generic [ref=e1084]:
+      - generic [ref=e1085]:
+        - generic [ref=e1086]: "04"
+        - heading "답변 스크린샷" [level=3] [ref=e1087]:
+          - text: 답변
+          - emphasis [ref=e1088]: 스크린샷
+        - paragraph [ref=e1089]:
+          - text: 실제 AI가 답변한 화면을
+          - strong [ref=e1090]: 그대로 캡처
+          - text: 해 첨부합니다. 인용된 출처가 highlight 되어, 보고서·임원 회의용 시각 자료로 즉시 사용 가능합니다.
+        - list [ref=e1091]:
+          - listitem [ref=e1092]: — 7 AI × 12국 = 매주 84+ 스크린샷
+          - listitem [ref=e1093]: — 인용 출처 자동 highlight
+          - listitem [ref=e1094]: — PNG · PDF · BigQuery 직접 다운로드
+      - generic [ref=e1096]:
+        - generic [ref=e1102]: chatgpt.com · US · Apr 21
+        - generic [ref=e1103]:
+          - generic [ref=e1104]: Mercedes-Benz E-Class에 대해 알려줘
+          - generic [ref=e1105]:
+            - text: 메르세데스-벤츠 E-Class는 독일 슈투트가르트 기반 프리미엄 세단으로,
+            - mark [ref=e1106]: 2026년형 모델
+            - text: 은 마일드 하이브리드 기술과
+            - mark [ref=e1107]: MBUX 슈퍼스크린
+            - text: 을 도입했습니다. 동급 경쟁 차종 BMW 5시리즈, Audi A6 대비
+            - mark [ref=e1108]: 승차감과 인테리어 마감
+            - text: 에서 우위를 보입니다.
+            - generic [ref=e1109]:
+              - generic [ref=e1110]:
+                - generic [ref=e1111]: "1"
+                - text: mercedes-benz.com
+              - generic [ref=e1112]:
+                - generic [ref=e1113]: "2"
+                - text: motortrend.com
+              - generic [ref=e1114]:
+                - generic [ref=e1115]: "3"
+                - text: mbusa.com/e-class
+  - generic [ref=e1117]:
+    - generic [ref=e1118]:
+      - generic [ref=e1119]:
+        - generic [ref=e1120]: Who Uses Plurank
+        - heading "AI 검색을 관리 채널로 보는 팀들." [level=2] [ref=e1121]:
+          - text: AI 검색을
+          - generic [ref=e1122]:
+            - text: 관리 채널로 보는
+            - emphasis [ref=e1123]: 팀들
+            - text: .
+      - paragraph [ref=e1124]: Plurank는 GEO 담당자만을 위한 툴이 아닙니다. 글로벌 브랜드, 콘텐츠 팀, 에이전시, GTM 팀이 AI 답변 안에서 브랜드의 발견 가능성을 관리하는 공통 데이터 레이어입니다.
+    - generic [ref=e1125]:
+      - generic [ref=e1126]:
+        - heading "Global Brand" [level=3] [ref=e1127]
+        - paragraph [ref=e1128]: 국가별 AI 검색 가시성과 경쟁사 위치를 한 화면에서 비교합니다.
+        - generic [ref=e1129]: Country Gap
+      - generic [ref=e1130]:
+        - heading "SEO/GEO Team" [level=3] [ref=e1131]
+        - paragraph [ref=e1132]: 검색 순위 너머 AI 답변 안의 언급률, 인용률, 추천 위치를 KPI로 관리합니다.
+        - generic [ref=e1133]: AI Visibility
+      - generic [ref=e1134]:
+        - heading "Content Team" [level=3] [ref=e1135]
+        - paragraph [ref=e1136]: 발행 전 콘텐츠가 AI에 인용될 가능성과 보강 포인트를 확인합니다.
+        - generic [ref=e1137]: Pre-publish Score
+      - generic [ref=e1138]:
+        - heading "Agency" [level=3] [ref=e1139]
+        - paragraph [ref=e1140]: 고객사별 AI Visibility 리포트와 실행 전략을 데이터 기반으로 제안합니다.
+        - generic [ref=e1141]: White-label Report
+      - generic [ref=e1142]:
+        - heading "Commerce/GTM" [level=3] [ref=e1143]
+        - paragraph [ref=e1144]: AI 추천과 구매 여정이 매출, 문의, 브랜드 검색에 미치는 영향을 추적합니다.
+        - generic [ref=e1145]: AI-led Demand
+    - generic [ref=e1146]:
+      - generic [ref=e1147]:
+        - generic [ref=e1148]: Connected Product · Citora Lead
+        - heading "AI가 만든 관심을 영업 신호로 이어갑니다." [level=3] [ref=e1149]:
+          - text: AI가 만든 관심을
+          - emphasis [ref=e1150]: 영업 신호
+          - text: 로 이어갑니다.
+        - paragraph [ref=e1151]: Plurank가 AI 답변과 멀티채널 콘텐츠로 발견 경로를 만들면, Citora Lead는 웹사이트를 방문한 회사를 식별하고 관심 페이지, 연락 후보, 다음 액션을 Slack과 CRM으로 전달합니다.
+        - generic [ref=e1152]:
+          - link "Citora Lead 소개 보기" [ref=e1153] [cursor=pointer]:
+            - /url: https://lead.plurank.com/early-access
+          - generic [ref=e1154]: 1줄 픽셀 · 방문 기업 식별 · Slack/HubSpot 액션
+      - generic "Plurank and Citora Lead operating flow" [ref=e1155]:
+        - generic [ref=e1156]:
+          - generic [ref=e1157]: "01"
+          - generic [ref=e1158]:
+            - strong [ref=e1159]: AI Discovery
+            - generic [ref=e1160]: AI 답변에 인용될 콘텐츠와 소스 신호를 만듭니다.
+        - generic [ref=e1161]:
+          - generic [ref=e1162]: "02"
+          - generic [ref=e1163]:
+            - strong [ref=e1164]: Website Intent
+            - generic [ref=e1165]: 가격표, 데모, 비교 페이지를 본 방문 회사를 식별합니다.
+        - generic [ref=e1166]:
+          - generic [ref=e1167]: "03"
+          - generic [ref=e1168]:
+            - strong [ref=e1169]: Sales Action
+            - generic [ref=e1170]: 영업팀 Slack과 HubSpot에 관심 점수와 추천 연락처를 전달합니다.
+  - generic [ref=e1172]:
+    - generic [ref=e1173]:
+      - generic [ref=e1174]:
+        - generic [ref=e1175]: How We Work · 함께하는 4가지 방법
+        - heading "컨설팅으로 시작해 제품과 데이터로 확장합니다." [level=2] [ref=e1176]:
+          - text: 컨설팅으로 시작해
+          - generic [ref=e1177]:
+            - emphasis [ref=e1178]: 제품과 데이터
+            - text: 로 확장합니다.
+      - paragraph [ref=e1179]:
+        - text: 팀 규모와 목표에 맞춰
+        - strong [ref=e1180]: 컨설팅 · SaaS · API · AI 에이전트
+        - text: 4개 진입점을 단계별로 제공합니다.
+    - generic [ref=e1181]:
+      - generic [ref=e1182]:
+        - generic [ref=e1183]: Live · 지금 시작
+        - heading "Consulting" [level=3] [ref=e1184]
+        - paragraph [ref=e1185]: 엔터프라이즈 · 글로벌 브랜드
+        - paragraph [ref=e1186]:
+          - text: TwoStepsAhead 팀이 직접
+          - strong [ref=e1187]: 5 Lens 분석 + 채널별 콘텐츠 실행안
+          - text: 을 매주 전달합니다. 빠르게 PoC를 시작하고 싶은 팀에 맞습니다.
+        - generic [ref=e1188]: 초기 6,000만 + 월 700~800만
+      - generic [ref=e1189]:
+        - generic [ref=e1190]: 2026 H2
+        - heading "Plurank.app · SaaS" [level=3] [ref=e1191]
+        - paragraph [ref=e1192]: 중견 · 중소 / 마케팅 팀
+        - paragraph [ref=e1193]: 5 Lens를 셀프서비스로 사용합니다. 질문을 입력하면 점수, 원인, 콘텐츠 보강안이 자동 출력됩니다.
+        - generic [ref=e1194]: 월 구독 (Entry · Growth · Enterprise)
+      - generic [ref=e1195]:
+        - generic [ref=e1196]: "2027"
+        - heading "Plurank API + MCP · DaaS" [level=3] [ref=e1197]
+        - paragraph [ref=e1198]: 대기업 / AI 엔지니어링 팀
+        - paragraph [ref=e1199]: 인용·추천 데이터를 사내 AI 시스템에 직접 공급합니다. 전사 인텔리전스 레이어로 활용할 수 있습니다.
+        - generic [ref=e1200]: 별도 견적
+      - generic [ref=e1201]:
+        - generic [ref=e1202]: "2028"
+        - heading "Plurank.AI / .TEAM · Agent" [level=3] [ref=e1203]
+        - paragraph [ref=e1204]: 모든 기업
+        - paragraph [ref=e1205]: 분석, 시뮬레이션, 콘텐츠 초안 생성을 에이전트가 수행합니다. 마케팅 팀의 실행 속도를 높이는 CMO Agent입니다.
+        - generic [ref=e1206]: 사전 등록
+  - generic [ref=e1208]:
+    - generic [ref=e1210]:
+      - generic [ref=e1211]: FAQ · 자주 묻는 질문
+      - heading "Plurank에 대해 가장 많이 묻는 6가지." [level=2] [ref=e1212]:
+        - generic [ref=e1213]:
+          - emphasis [ref=e1214]: Plurank
+          - text: 에 대해
+        - text: 가장 많이 묻는 6가지.
+    - generic [ref=e1215]:
+      - group [ref=e1216]:
+        - generic "GEO가 SEO와 어떻게 다른가요? +" [ref=e1217] [cursor=pointer]
+      - group [ref=e1218]:
+        - generic "Pluora 모델의 정확도는 어느 정도인가요? +" [ref=e1219] [cursor=pointer]
+      - group [ref=e1220]:
+        - generic "왜 12개국을 동시에 측정하나요? +" [ref=e1221] [cursor=pointer]
+      - group [ref=e1222]:
+        - generic "Brandwatch · Profound · 어센트와 무엇이 다른가요? +" [ref=e1223] [cursor=pointer]
+      - group [ref=e1224]:
+        - generic "도입까지 얼마나 걸리나요? +" [ref=e1225] [cursor=pointer]
+      - group [ref=e1226]:
+        - generic "무료 진단은 무엇인가요? +" [ref=e1227] [cursor=pointer]
+  - generic [ref=e1230]:
+    - generic [ref=e1231]: Start With Plurank
+    - heading "브랜드는 마케팅 운영을 맡기고, 에이전시는 GEO 데이터를 납품받으세요." [level=2] [ref=e1232]:
+      - text: 브랜드는 마케팅 운영을 맡기고,
+      - emphasis [ref=e1234]: 에이전시는 GEO 데이터를 납품받으세요.
+    - paragraph [ref=e1235]: 브랜드에게는 질문 분석부터 콘텐츠 제작, 채널 배포, 리드 추적까지 운영합니다. 에이전시에게는 클라이언트 제안과 월간 보고에 바로 쓸 수 있는 GEO 데이터와 리포트를 제공합니다.
+    - generic [ref=e1236]:
+      - link "브랜드 AI 마케팅 맡기기" [ref=e1237] [cursor=pointer]:
+        - /url: "#"
+        - text: 브랜드 AI 마케팅 맡기기
+        - img [ref=e1238]
+      - link "에이전시 GEO 데이터 제휴" [ref=e1240] [cursor=pointer]:
+        - /url: "#"
+  - contentinfo [ref=e1241]:
+    - generic [ref=e1242]: Plurank — 투스텝스어헤드(주)의 독보적인 GEO 솔루션
+    - text: © 2026 TwoStepsAhead Inc ·
+    - link "glenn.kim@twostepsahead.co.kr" [ref=e1243] [cursor=pointer]:
+      - /url: mailto:glenn.kim@twostepsahead.co.kr
+    - text: ·
+    - link "개인정보처리방침" [ref=e1244] [cursor=pointer]:
+      - /url: /privacy
+  - dialog:
+    - generic:
+      - button: ✕
+      - generic:
+        - generic: SERVICE GUIDE · 신청 유형 선택
+        - heading [level=3]: 어떤 방식으로 Plurank를 쓰고 싶으신가요?
+        - paragraph: 브랜드는 Full 스펙 마케팅 운영, 에이전시는 GEO 데이터 납품과 제휴 구조를 먼저 확인할 수 있습니다.
+        - generic:
+          - button:
+            - generic: 에이전시 GEO 데이터 제휴
+            - generic: 클라이언트 제안과 월간 보고에 쓸 AI 노출·인용·경쟁사 데이터를 납품받습니다.
+          - button:
+            - generic: 브랜드 AI 마케팅 맡기기
+            - generic: 질문 분석부터 콘텐츠 제작, 채널 배포, AI 답변 추적, 리드 확인까지 운영을 맡깁니다.
+      - text: ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓

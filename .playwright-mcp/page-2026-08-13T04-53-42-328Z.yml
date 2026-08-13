@@ -1,0 +1,93 @@
+- generic [active] [ref=f47e1]:
+  - banner [ref=f47e3]:
+    - generic [ref=f47e4]:
+      - link "Go to Ads Transparency Center home page." [ref=f47e8] [cursor=pointer]:
+        - /url: https://adstransparency.google.com/
+        - generic [ref=f47e10]: 광고 투명성 센터
+      - generic [ref=f47e12]:
+        - button "Google 앱" [ref=f47e16] [cursor=pointer]
+        - link "로그인" [ref=f47e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adstransparency.google.com/advertiser/AR09306294506582179841/creative/CR18365701485397803009?region%3Danywhere&followup=https://adstransparency.google.com/advertiser/AR09306294506582179841/creative/CR18365701485397803009?region%3Danywhere&ec=GAZAsQQ
+  - generic [ref=f47e24]:
+    - generic [ref=f47e25]:
+      - generic [ref=f47e26]:
+        - button "홈" [ref=f47e27] [cursor=pointer]
+        - generic [ref=f47e30] [cursor=pointer]:
+          - img [ref=f47e32]: keyboard_arrow_right
+          - button "Peec AI GmbH" [ref=f47e34]
+        - generic [ref=f47e37]:
+          - img [ref=f47e39]: keyboard_arrow_right
+          - generic [ref=f47e40]: 광고 세부정보
+      - button "FAQ" [ref=f47e43] [cursor=pointer]
+    - generic [ref=f47e47]:
+      - generic [ref=f47e48]:
+        - generic [ref=f47e49]:
+          - generic [ref=f47e50]: 광고 세부정보
+          - generic "Peec AI GmbH 광고주 페이지로 연결되는 링크" [ref=f47e53]: Peec AI GmbH
+          - generic [ref=f47e54]:
+            - generic [ref=f47e55]: 이 광고에 관한 정보는 지역에 따라 다를 수 있습니다.
+            - generic [ref=f47e58]:
+              - button "지역 선택 필터 버튼" [ref=f47e60] [cursor=pointer]:
+                - generic [ref=f47e61]: 전체에 게재됨
+              - button [ref=f47e63]:
+                - img [ref=f47e64]: arrow_drop_down
+        - generic [ref=f47e65]:
+          - generic [ref=f47e67]:
+            - generic [ref=f47e68]:
+              - strong [ref=f47e69]: "마지막 게재일:"
+              - text: 2026년 8월 12일
+            - generic [ref=f47e70]:
+              - strong [ref=f47e71]: "형식:"
+              - text: 동영상
+          - generic [ref=f47e72]:
+            - button "이 광고 신고" [ref=f47e75] [cursor=pointer]:
+              - generic [ref=f47e76]:
+                - img [ref=f47e78]: flag
+                - generic [ref=f47e79]: 이 광고 신고
+            - generic [ref=f47e81]:
+              - button "이전 대안" [disabled] [ref=f47e83]:
+                - generic:
+                  - generic:
+                    - img: chevron_left
+              - iframe [ref=f47e92]:
+                - generic [ref=f50e2]:
+                  - generic [ref=f50e4]:
+                    - generic [ref=f50e7]:
+                      - button [ref=f50e8] [cursor=pointer]
+                      - button [ref=f50e9] [cursor=pointer]
+                      - button [ref=f50e10] [cursor=pointer]
+                    - generic [ref=f50e11]:
+                      - progressbar
+                      - slider [ref=f50e12] [cursor=pointer]: "0"
+                  - generic [ref=f50e14]:
+                    - generic "Advertisement" [ref=f50e15]
+                    - iframe [ref=f50e17]:
+                      - button "Skip Ad Countdown" [ref=f54e4]:
+                        - generic "Skip Ad Countdown" [ref=f54e5]: "5"
+              - button "다음 대안" [ref=f47e94] [cursor=pointer]:
+                - img [ref=f47e97]: chevron_right
+              - generic [ref=f47e99]: 대안 1/2
+        - button "이 광고주의 광고 더보기" [ref=f47e102] [cursor=pointer]:
+          - generic [ref=f47e103]:
+            - generic [ref=f47e104]: 이 광고주의 광고 더보기
+            - img [ref=f47e106]: arrow_forward
+      - contentinfo [ref=f47e108]:
+        - generic [ref=f47e109]:
+          - button "개인 정보 보호" [ref=f47e111] [cursor=pointer]
+          - generic [ref=f47e112]:
+            - text: •
+            - button "약관" [ref=f47e113] [cursor=pointer]
+          - generic [ref=f47e114]:
+            - text: •
+            - button "Google Ads 정책" [ref=f47e115] [cursor=pointer]
+          - generic [ref=f47e116]:
+            - text: •
+            - link "FAQ" [ref=f47e117] [cursor=pointer]:
+              - /url: /faq
+        - generic [ref=f47e118]:
+          - generic [ref=f47e119]:
+            - text: •
+            - button "원칙" [ref=f47e120] [cursor=pointer]
+          - generic [ref=f47e121]:
+            - text: •
+            - button "Google Ads 블로그" [ref=f47e122] [cursor=pointer]

@@ -1,0 +1,615 @@
+- generic [ref=f167e1]:
+  - banner [ref=f167e2]:
+    - generic [ref=f167e3]:
+      - generic [ref=f167e5]:
+        - generic [ref=f167e6] [cursor=pointer]:
+          - img [ref=f167e7]
+          - generic [ref=f167e8]: 위시켓
+        - generic [ref=f167e10] [cursor=pointer]:
+          - img [ref=f167e11]
+          - generic [ref=f167e12]: 요즘IT
+        - generic [ref=f167e14] [cursor=pointer]:
+          - img [ref=f167e15]
+          - generic [ref=f167e16]: AIDP - AX
+        - generic [ref=f167e18] [cursor=pointer]:
+          - img [ref=f167e19]
+          - generic [ref=f167e20]: Rise ERP
+      - generic [ref=f167e21]:
+        - link:
+          - /url: /
+        - generic [ref=f167e24]:
+          - link "프로젝트 찾기" [ref=f167e25] [cursor=pointer]:
+            - /url: /project/#clear
+            - generic [ref=f167e26]:
+              - text: 프로젝트 찾기
+              - img [ref=f167e28]
+          - link "파트너스 찾기" [ref=f167e29] [cursor=pointer]:
+            - /url: /partners/#clear
+            - generic [ref=f167e30]: 파트너스 찾기
+          - link "이용방법" [ref=f167e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+            - generic [ref=f167e32]:
+              - text: 이용방법
+              - img [ref=f167e34]
+          - link "포트폴리오" [ref=f167e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+            - generic [ref=f167e36]:
+              - text: 포트폴리오
+              - img [ref=f167e38]
+          - link "비즈니스 솔루션" [ref=f167e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+            - generic [ref=f167e41]:
+              - text: 비즈니스 솔루션
+              - generic [ref=f167e42]:
+                - img [ref=f167e43]
+                - img [ref=f167e44]
+        - generic [ref=f167e45]:
+          - link "내 프로필" [ref=f167e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - generic [ref=f167e47]: 내 프로필
+          - generic [ref=f167e50] [cursor=pointer]:
+            - text: 내 프로젝트 관리
+            - img [ref=f167e52]
+          - link [ref=f167e53] [cursor=pointer]:
+            - /url: /accounts/notifications/
+            - img [ref=f167e55]
+          - img "twostepsahead사진" [ref=f167e57] [cursor=pointer]
+      - generic [ref=f167e58]:
+        - generic [ref=f167e59]:
+          - generic [ref=f167e61]:
+            - link "프로젝트 찾기" [ref=f167e62] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f167e63] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f167e65]:
+            - link "이용방법" [ref=f167e66] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f167e67] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f167e68] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f167e69] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f167e70]:
+            - link "포트폴리오" [ref=f167e71] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f167e72] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f167e73]:
+            - link "솔루션 마켓" [ref=f167e74] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f167e75] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f167e76]:
+          - generic [ref=f167e77]: 프로필을 완성하고
+          - generic [ref=f167e78]:
+            - text: 더 많은 프로젝트를
+            - text: 수주받아보세요
+          - link "내 프로필 입력하기" [ref=f167e79] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - text: 내 프로필 입력하기
+            - img [ref=f167e80]
+          - img "광고 배너" [ref=f167e82]
+  - generic [ref=f167e85]:
+    - generic [ref=f167e86]:
+      - generic [ref=f167e88]:
+        - generic [ref=f167e89]:
+          - generic [ref=f167e90]:
+            - text: 포트폴리오 등록
+            - generic [ref=f167e91] [cursor=pointer]: 임시 저장 불러오기
+          - generic [ref=f167e92]:
+            - generic [ref=f167e93]:
+              - generic [ref=f167e94]: 포트폴리오 제목 *
+              - textbox "예) LMS와 연동 AI 챗봇 구축으로 대응 시간 단축" [ref=f167e96]: 토쿠야마 상사(일본) — 일본 FMCG 유통 AI 검색 가시성(GEO) PoC
+            - generic [ref=f167e97]: 프로젝트의 핵심을 나타낼 수 있는 제목을 작성해 주세요.
+            - generic [ref=f167e99]:
+              - generic [ref=f167e101] [cursor=pointer]:
+                - generic [ref=f167e102]:
+                  - checkbox "위시켓에서 진행한 프로젝트입니다."
+                  - img [ref=f167e104]
+                - generic [ref=f167e108]: 위시켓에서 진행한 프로젝트입니다.
+              - img [ref=f167e110] [cursor=pointer]
+            - generic [ref=f167e111]:
+              - generic [ref=f167e112]:
+                - text: 포트폴리오 표지 이미지 등록
+                - generic [ref=f167e113]: 표지는 파트너 홈과 프로젝트 지원서 등에 노출됩니다. 신뢰감을 줄 수 있는 포트폴리오를 완성해 보세요.
+              - generic [ref=f167e114]:
+                - generic [ref=f167e115]:
+                  - button "포트폴리오 표지 이미지 등록" [ref=f167e116] [cursor=pointer]
+                  - paragraph [ref=f167e117]: "포트폴리오 표지 규격: 480x480px"
+                  - paragraph [ref=f167e118]: 이미지 파일 등록 가능 (JPG, JEPG, PNG)
+                  - generic [ref=f167e121]: 프로젝트 설명에 추가한 이미지가 없으면 위시켓에서 제공하는 기본 이미지가 적용
+                - generic [ref=f167e123]:
+                  - img [ref=f167e126] [cursor=pointer]
+                  - generic [ref=f167e128]:
+                    - generic [ref=f167e129]: 포트폴리오 제목 샘플
+                    - generic [ref=f167e130]: 카테고리 샘플|분야 샘플
+                    - generic [ref=f167e131]: 관련 기술 샘플
+                    - generic [ref=f167e132]: 관련 기술 샘플
+                - paragraph
+            - generic [ref=f167e133]:
+              - generic [ref=f167e134]: 업무 범위 및 분야 *
+              - generic [ref=f167e135]:
+                - generic [ref=f167e136]:
+                  - generic [ref=f167e137]: 업무 범위 *
+                  - generic [ref=f167e138]:
+                    - generic [ref=f167e140] [cursor=pointer]:
+                      - generic [ref=f167e141]:
+                        - checkbox "개발" [checked]
+                        - img [ref=f167e143]
+                      - generic [ref=f167e146]: 개발
+                    - generic [ref=f167e148] [cursor=pointer]:
+                      - generic [ref=f167e149]:
+                        - checkbox "디자인"
+                        - img [ref=f167e151]
+                      - generic [ref=f167e154]: 디자인
+                    - generic [ref=f167e156] [cursor=pointer]:
+                      - generic [ref=f167e157]:
+                        - checkbox "기획"
+                        - img [ref=f167e159]
+                      - generic [ref=f167e162]: 기획
+                  - generic [ref=f167e163]:
+                    - generic [ref=f167e164]: 카테고리 *
+                    - generic [ref=f167e165]:
+                      - generic [ref=f167e169] [cursor=pointer]: 웹
+                      - generic [ref=f167e174] [cursor=pointer]: 안드로이드
+                      - generic [ref=f167e179] [cursor=pointer]: iOS
+                      - generic [ref=f167e184] [cursor=pointer]: PC 프로그램
+                      - generic [ref=f167e189] [cursor=pointer]: 임베디드
+                      - generic [ref=f167e194] [cursor=pointer]: 기타
+                  - generic [ref=f167e196]:
+                    - generic [ref=f167e197]:
+                      - text: 포트폴리오 분야 *
+                      - generic [ref=f167e198]: 정확한 매칭 추천을 위해 프로젝트 성격에 맞는 분야를 선택하세요.(최대 3개)
+                    - generic [ref=f167e199]:
+                      - generic [ref=f167e200]:
+                        - generic [ref=f167e640]:
+                          - generic [ref=f167e642]: 대표 분야 1개를 설정할 수 있습니다.
+                          - img [ref=f167e643]
+                        - generic [ref=f167e644]:
+                          - generic [ref=f167e645]:
+                            - generic [ref=f167e646]: 데이터 분석ㆍBI
+                            - img [ref=f167e648] [cursor=pointer]
+                          - generic [ref=f167e649]:
+                            - generic [ref=f167e650]: Gen AI 서비스
+                            - img [ref=f167e652] [cursor=pointer]
+                        - generic [ref=f167e201] [cursor=pointer]:
+                          - img [ref=f167e202]
+                          - generic [ref=f167e203]: 분야 선택
+                      - generic [ref=f167e204]:
+                        - generic [ref=f167e205]:
+                          - img [ref=f167e206]
+                          - generic [ref=f167e207]: 추천 분야
+                        - generic [ref=f167e208]:
+                          - generic [ref=f167e210] [cursor=pointer]: 중개ㆍ매칭 플랫폼
+                          - generic [ref=f167e213] [cursor=pointer]: SaaSㆍ솔루션
+                          - generic [ref=f167e216] [cursor=pointer]: CRM 고객관리
+                          - generic [ref=f167e219] [cursor=pointer]: ERP 전사자원관리
+                          - generic [ref=f167e222] [cursor=pointer]: 데이터 분석ㆍBI
+                          - generic [ref=f167e225] [cursor=pointer]: Gen AI 서비스
+                          - generic [ref=f167e228] [cursor=pointer]: ChatGPTㆍ챗봇
+                          - generic [ref=f167e231] [cursor=pointer]: 기타
+                      - generic [ref=f167e233] [cursor=pointer]:
+                        - img [ref=f167e234]
+                        - generic [ref=f167e235]: 딱 맞는 분야 찾기
+                  - generic [ref=f167e236]:
+                    - generic [ref=f167e237]: 관련 기술 *
+                    - generic [ref=f167e240]:
+                      - generic [ref=f167e687]: Python
+                      - textbox "예) React, Node.js, Figma" [active] [ref=f167e241]: AWS
+                      - generic [ref=f167e1268]:
+                        - generic [ref=f167e1270] [cursor=pointer]:
+                          - img [ref=f167e1271]
+                          - generic [ref=f167e1272]: AWS
+                        - generic [ref=f167e1273]:
+                          - generic [ref=f167e1274] [cursor=pointer]: AWS EC2 3,776
+                          - generic [ref=f167e1275] [cursor=pointer]: AWS S3 2,317
+                          - generic [ref=f167e1276] [cursor=pointer]: aws rds 1,093
+                          - generic [ref=f167e1277] [cursor=pointer]: aws lambda 894
+                          - generic [ref=f167e1278] [cursor=pointer]: AWS Route53 571
+                          - generic [ref=f167e1279] [cursor=pointer]: AWS CloudFront 303
+                          - generic [ref=f167e1280] [cursor=pointer]: aws ecs 191
+                          - generic [ref=f167e1281] [cursor=pointer]: AWS API Gateway 123
+                          - generic [ref=f167e1282] [cursor=pointer]: AWS Amplify 117
+                          - generic [ref=f167e1283] [cursor=pointer]: AWS cloud 115
+                          - generic [ref=f167e1284] [cursor=pointer]: AWS SES 115
+                          - generic [ref=f167e1285] [cursor=pointer]: AWS EKS 109
+                          - generic [ref=f167e1286] [cursor=pointer]: aws SQS 104
+                          - generic [ref=f167e1287] [cursor=pointer]: AWS Elasticbeanstalk 96
+                          - generic [ref=f167e1288] [cursor=pointer]: AWS Lamda 93
+                          - generic [ref=f167e1289] [cursor=pointer]: AWS 82
+                          - generic [ref=f167e1290] [cursor=pointer]: AWS Lightsail 77
+                          - generic [ref=f167e1291] [cursor=pointer]: AWS RDS(MySql) 77
+                          - generic [ref=f167e1292] [cursor=pointer]: AWS Dynamo 76
+                          - generic [ref=f167e1293] [cursor=pointer]: aws dynamodb 70
+                          - generic [ref=f167e1294] [cursor=pointer]: AWS CodePipeline 67
+                          - generic [ref=f167e1295] [cursor=pointer]: AWS CodeDeploy 66
+                          - generic [ref=f167e1296] [cursor=pointer]: AWS SNS 66
+                          - generic [ref=f167e1297] [cursor=pointer]: AWS Cognito 65
+                          - generic [ref=f167e1298] [cursor=pointer]: aws aurora 62
+                          - generic [ref=f167e1299] [cursor=pointer]: AWS CloudWatch 62
+                          - generic [ref=f167e1300] [cursor=pointer]: AWS iot 58
+                          - generic [ref=f167e1301] [cursor=pointer]: AWS ECR 53
+                          - generic [ref=f167e1302] [cursor=pointer]: AWS CodeBuild 47
+                          - generic [ref=f167e1303] [cursor=pointer]: AWS(EC2, RDS, S3) 39
+                        - generic [ref=f167e1306] [cursor=pointer]: "'AWS' 선택"
+                    - paragraph [ref=f167e242]: 기술명 입력 후, 해당하는 기술을 선택하거나 엔터키를 눌러 추가해 주세요.
+                - generic [ref=f167e244] [cursor=pointer]:
+                  - generic [ref=f167e245]:
+                    - checkbox "상주(기간제)로 진행한 프로젝트입니다."
+                    - img [ref=f167e247]
+                  - generic [ref=f167e250]: 상주(기간제)로 진행한 프로젝트입니다.
+            - generic [ref=f167e251]:
+              - generic [ref=f167e252]: 참여 기간 *
+              - generic [ref=f167e254]:
+                - generic [ref=f167e255]:
+                  - generic [ref=f167e256]: 참여 기간 *
+                  - generic [ref=f167e258]:
+                    - textbox "YYYY.MM." [ref=f167e259]: 2026.04.
+                    - generic: 시작 연월 *
+                  - generic [ref=f167e261]:
+                    - textbox "YYYY.MM." [ref=f167e262]: 2026.06.
+                    - generic: 종료 연월 *
+                  - generic [ref=f167e264]:
+                    - textbox "100" [ref=f167e265]
+                    - generic: 참여율 *
+                    - generic [ref=f167e266]: "%"
+                  - img [ref=f167e269] [cursor=pointer]
+                - generic [ref=f167e270]:
+                  - generic [ref=f167e271]:
+                    - text: 고객사 및 역할
+                    - generic [ref=f167e272]: 고객사와 프로젝트에서 담당한 역할을 작성해 주세요.
+                  - generic [ref=f167e274]:
+                    - textbox [ref=f167e275]: 토쿠야마 상사 (일본, 소비재 유통)
+                    - generic: 고객사
+                  - generic [ref=f167e277]:
+                    - textbox [ref=f167e278]: 일본 GEO PoC·데이터 분석
+                    - generic: 역할
+                - generic [ref=f167e279]:
+                  - generic [ref=f167e280]: 결과물 URL
+                  - generic [ref=f167e281]:
+                    - textbox "예) https://play.google.com/store/" [ref=f167e283]: https://www.plurank.com
+                    - paragraph [ref=f167e284]: 서비스 링크(웹·앱 스토어), 시연 영상, GitHub 등 URL을 입력해 주세요.
+            - generic [ref=f167e285]:
+              - generic [ref=f167e286]: 프로젝트 상세 *
+              - generic [ref=f167e288]:
+                - generic [ref=f167e289]: 프로젝트 상세 *
+                - textbox "해당 프로젝트의 배경, 과정, 기술적 이슈, 해결 방안 등을 자유롭게 소개해 주세요. (TIP) 정량적 지표나 성공 사례를 포함하면 더욱 좋습니다." [ref=f167e293]:
+                  - /placeholder: "해당 프로젝트의 배경, 과정, 기술적 이슈, 해결 방안 등을 자유롭게 소개해 주세요.\n(TIP) 정량적 지표나 성공 사례를 포함하면 더욱 좋습니다."
+                  - text: "1) 프로젝트 소개: 일본 소비재(FMCG) 유통사 토쿠야마 상사와 진행한 일본 시장 GEO PoC(개념 검증)입니다. 2) 작업 범위: 일본 현지 IP 기반 AI 검색 인용 측정, 일본어 검색 질문 패턴 분석, FMCG 카테고리 가시성 진단. 3) 주안점: 일본어권 생성형 AI에서의 브랜드 인용 현황을 현지 실측 데이터로 측정. 4) 단계: PoC(개념 검증)로 일본 FMCG 유통 채널 진출 데이터 확보."
+                - generic [ref=f167e294]: 포트폴리오 이미지 등록 *
+                - generic [ref=f167e295]:
+                  - generic [ref=f167e296]:
+                    - img [ref=f167e297]
+                    - generic [ref=f167e298]: 시각 자료를 통해 프로젝트 완성도를 증명하고, 클라이언트가 더욱 신뢰할 수 있습니다.
+                  - generic [ref=f167e302] [cursor=pointer]:
+                    - img [ref=f167e303]
+                    - generic [ref=f167e304]: 포트폴리오 이미지 등록
+                    - generic [ref=f167e305]: 프로젝트 주요 화면 이미지를 업로드해 주세요.
+                    - generic [ref=f167e306]:
+                      - generic [ref=f167e307]: · 최대 10장의 이미지 등록 가능 (파일당 최대 8MB)
+                      - generic [ref=f167e308]: "· 포트폴리오 이미지 최적 사이즈 : 가로 736px"
+                      - generic [ref=f167e309]: · 이미지 파일 등록 가능 (JPG, JEPG, PNG, GIF 등)
+                  - generic [ref=f167e310] [cursor=pointer]:
+                    - img [ref=f167e311]
+                    - text: 이미지 추가
+            - generic [ref=f167e314]:
+              - generic [ref=f167e315]: 포트폴리오 플러스
+              - generic [ref=f167e316]:
+                - generic [ref=f167e317]:
+                  - img [ref=f167e318]
+                  - text: 포트폴리오 플러스는 클라이언트의 의뢰를 이끌어내는 업그레이드된 포트폴리오입니다.
+                - generic [ref=f167e319]:
+                  - img [ref=f167e320]
+                  - text: 위시켓 AI 추천 및 외부 마케팅에 활용되고 더 많은 수주 기회를 얻을 수 있습니다.
+              - img [ref=f167e321]
+            - generic [ref=f167e322]:
+              - generic [ref=f167e323]:
+                - generic [ref=f167e324]:
+                  - text: 프로젝트 배경
+                  - img [ref=f167e325]
+                - generic [ref=f167e326]: 프로젝트를 통해 해결하려는 문제나 달성하고자 한 목표를 적어주세요.
+              - 'textbox "1) 문제점 - 사내 문서가 여러 채널에 분산되어 있어 정보 검색이 어려움 - 내용이 같아도 파일명이 달라 검색이 불가능해 비효율 발생 - 개인 PC에 저장된 문서는 퇴사나 부서 이동 시 유실되어 업무 연속성에 영향 2) 프로젝트 목표 - 통합 검색: 여러 저장소의 문서를 한 번에 검색할 수 있는 기능 개발 - AI 기반 답변: 문서 분석을 통해 사용자 질문에 답하는 기능 개발 - 문서 유실 방지: 퇴사나 부서 이동 시 문서 유실 없이 보존하는 시스템 구축 3) 주안점 - 유사 파일명 및 내용 분석을 통한 정확한 검색 결과 제공 - 업무 연속성을 위한 문서 중앙화 및 접근성 개선 - 보안 강화를 위한 문서 접근 권한 관리" [ref=f167e330]':
+                - /placeholder: "1) 문제점\n- 사내 문서가 여러 채널에 분산되어 있어 정보 검색이 어려움\n- 내용이 같아도 파일명이 달라 검색이 불가능해 비효율 발생\n- 개인 PC에 저장된 문서는 퇴사나 부서 이동 시 유실되어 업무 연속성에 영향\n\n2) 프로젝트 목표\n- 통합 검색: 여러 저장소의 문서를 한 번에 검색할 수 있는 기능 개발\n- AI 기반 답변: 문서 분석을 통해 사용자 질문에 답하는 기능 개발\n- 문서 유실 방지: 퇴사나 부서 이동 시 문서 유실 없이 보존하는 시스템 구축\n\n3) 주안점\n- 유사 파일명 및 내용 분석을 통한 정확한 검색 결과 제공\n- 업무 연속성을 위한 문서 중앙화 및 접근성 개선\n- 보안 강화를 위한 문서 접근 권한 관리"
+            - generic [ref=f167e331]:
+              - generic [ref=f167e332]:
+                - generic [ref=f167e333]:
+                  - text: 프로젝트 성과
+                  - img [ref=f167e334]
+                - generic [ref=f167e335]: 주요 성과나 수치를 구체적으로 작성하여, 성과를 명확히 전달할 수 있습니다.
+              - generic [ref=f167e337]:
+                - img "정렬" [ref=f167e339] [cursor=pointer]
+                - generic [ref=f167e340]:
+                  - generic [ref=f167e343]:
+                    - textbox "예) 1:1 응답 처리 건수 50% 감소" [ref=f167e344]
+                    - generic: 성과명
+                  - generic [ref=f167e347]:
+                    - generic [ref=f167e348]: 설명
+                    - generic [ref=f167e349]: 0/120
+                    - textbox "예) 주당 300건 발생하던 응답 건수가 벨루가 AI 기반 솔루션 도입 후 150건으로 감소" [ref=f167e351]
+                    - generic [ref=f167e352]: 성과에 대한 설명을 입력해 주세요.
+              - generic [ref=f167e353] [cursor=pointer]:
+                - img "추가" [ref=f167e354]
+                - generic [ref=f167e355]: 프로젝트 성과 추가
+            - generic [ref=f167e356]:
+              - generic [ref=f167e357]:
+                - generic [ref=f167e358]:
+                  - text: 진행 단계
+                  - img [ref=f167e359]
+                - generic [ref=f167e360]: 프로젝트가 어떤 단계를 거쳐 완료되었는지, 타임라인 방식으로 작성해 주세요.
+                - generic [ref=f167e361]:
+                  - text: 예)
+                  - generic [ref=f167e362]:
+                    - text: 기획
+                    - img [ref=f167e363]
+                    - text: 디자인
+                    - img [ref=f167e364]
+                    - text: 개발
+                    - img [ref=f167e365]
+                    - text: 테스트
+                    - img [ref=f167e366]
+                    - text: 런칭
+              - generic [ref=f167e368]:
+                - img "정렬" [ref=f167e370] [cursor=pointer]
+                - generic [ref=f167e371]:
+                  - generic [ref=f167e372]:
+                    - generic [ref=f167e374]:
+                      - textbox "예) 기획 및 요구사항 정의" [ref=f167e375]
+                      - generic: 진행 단계
+                    - generic [ref=f167e377]:
+                      - textbox "YYYY.MM." [ref=f167e378]
+                      - generic: 시작 연월
+                  - generic [ref=f167e381]:
+                    - generic [ref=f167e382]: 설명
+                    - generic [ref=f167e383]: 0/120
+                    - 'textbox "예) ‘과목별 AI 튜터’ 범위 확정 : 문제 제출, 강의 요약, 교안 Q&A" [ref=f167e385]'
+                    - generic [ref=f167e386]: 진행 단계에 대한 설명을 입력해 주세요.
+              - generic [ref=f167e387] [cursor=pointer]:
+                - img "추가" [ref=f167e388]
+                - generic [ref=f167e389]: 진행 단계 추가
+            - generic [ref=f167e390]:
+              - generic [ref=f167e391]:
+                - generic [ref=f167e392]:
+                  - text: 핵심 기능
+                  - img [ref=f167e393]
+                - generic [ref=f167e394]: 프로젝트의 핵심이 되는 주요 기능, 특징을 작성해 주세요.
+              - generic [ref=f167e396]:
+                - img "정렬" [ref=f167e398] [cursor=pointer]
+                - generic [ref=f167e399]:
+                  - generic [ref=f167e402]:
+                    - textbox "예) 실시간 문제 제출 및 AI 피드백" [ref=f167e403]
+                    - generic: 기능명
+                  - generic [ref=f167e406]:
+                    - generic [ref=f167e407]: 설명
+                    - generic [ref=f167e408]: 0/120
+                    - textbox "예) 학생이 과제나 질문을 LMS에 업로드하면, AI가 1차 피드백을 실시간 제공" [ref=f167e410]
+                    - generic [ref=f167e411]: 기능에 대한 설명을 입력해 주세요.
+                  - generic [ref=f167e413]:
+                    - generic [ref=f167e415] [cursor=pointer]:
+                      - img "이미지 추가" [ref=f167e416]
+                      - generic [ref=f167e417]:
+                        - generic [ref=f167e418]: "0"
+                        - img [ref=f167e419]
+                        - generic [ref=f167e421]: "3"
+                    - generic [ref=f167e422]: JPG, JEPG, PNG, GIF 파일 등록 가능 (최대 8MB)
+              - generic [ref=f167e423] [cursor=pointer]:
+                - img "추가" [ref=f167e424]
+                - generic [ref=f167e425]: 핵심 기능 추가
+        - generic [ref=f167e426]:
+          - note [ref=f167e428]:
+            - img [ref=f167e430]
+            - paragraph [ref=f167e433]:
+              - text: 이메일, 전화번호, 회사명, 회사 홈페이지 등 외부 연락 수단을 게시하면
+              - text: 해당 내용은 삭제되며, 서비스 이용이 제한될 수 있습니다.
+          - generic [ref=f167e434]:
+            - generic [ref=f167e435]:
+              - generic [ref=f167e436] [cursor=pointer]: 공개
+              - generic [ref=f167e437] [cursor=pointer]: 나만 보기
+            - generic [ref=f167e633]:
+              - img [ref=f167e634]
+              - generic [ref=f167e635]: 임시 저장됨
+            - generic [ref=f167e438]:
+              - button "취소" [ref=f167e439] [cursor=pointer]
+              - button "등록" [ref=f167e440] [cursor=pointer]
+          - paragraph
+      - generic [ref=f167e442]:
+        - note [ref=f167e444]:
+          - img [ref=f167e446]
+          - paragraph [ref=f167e449]:
+            - text: 이메일, 전화번호, 회사명, 회사 홈페이지 등 외부 연락 수단을 게시하면
+            - text: 해당 내용은 삭제되며, 서비스 이용이 제한될 수 있습니다.
+        - generic [ref=f167e450]:
+          - generic [ref=f167e451]:
+            - generic [ref=f167e452] [cursor=pointer]: 공개
+            - generic [ref=f167e453] [cursor=pointer]: 나만 보기
+          - generic [ref=f167e637]:
+            - img [ref=f167e638]
+            - generic [ref=f167e639]: 임시 저장됨
+          - generic [ref=f167e454]:
+            - button "취소" [ref=f167e455] [cursor=pointer]
+            - button "등록" [ref=f167e456] [cursor=pointer]
+    - generic [ref=f167e457]:
+      - generic [ref=f167e458]:
+        - generic [ref=f167e459]:
+          - generic [ref=f167e460]:
+            - text: 포트폴리오 완성도
+            - generic [ref=f167e461]: "40"
+            - img [ref=f167e462]
+          - img [ref=f167e467]
+        - generic [ref=f167e468]:
+          - generic [ref=f167e469]: 기본
+          - generic [ref=f167e470]:
+            - generic [ref=f167e471] [cursor=pointer]:
+              - text: 포트폴리오 제목
+              - img [ref=f167e660]
+            - generic [ref=f167e473] [cursor=pointer]:
+              - text: 포트폴리오 표지
+              - img [ref=f167e474]
+            - generic [ref=f167e475] [cursor=pointer]:
+              - text: 업무 범위 및 분야
+              - img [ref=f167e1267]
+            - generic [ref=f167e477] [cursor=pointer]:
+              - text: 참여 기간
+              - img [ref=f167e686]
+            - generic [ref=f167e479] [cursor=pointer]:
+              - text: 프로젝트 상세
+              - img [ref=f167e661]
+        - generic [ref=f167e481]:
+          - generic [ref=f167e482]:
+            - text: 포트폴리오 플러스
+            - img [ref=f167e483]
+          - generic [ref=f167e484]:
+            - generic [ref=f167e485] [cursor=pointer]:
+              - text: 프로젝트 배경
+              - img [ref=f167e486]
+            - generic [ref=f167e487] [cursor=pointer]:
+              - text: 프로젝트 성과
+              - img [ref=f167e488]
+            - generic [ref=f167e489] [cursor=pointer]:
+              - text: 진행 단계
+              - img [ref=f167e490]
+            - generic [ref=f167e491] [cursor=pointer]:
+              - text: 핵심 기능
+              - img [ref=f167e492]
+      - generic [ref=f167e493] [cursor=pointer]:
+        - generic [ref=f167e495]: 다른 파트너의 포트폴리오가 궁금하다면?
+        - img [ref=f167e496]
+  - contentinfo [ref=f167e497]:
+    - generic [ref=f167e498]:
+      - generic [ref=f167e499]:
+        - generic [ref=f167e500]:
+          - generic [ref=f167e501]: 서비스 전체보기
+          - link "위시켓" [ref=f167e502] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+            - img [ref=f167e503]
+            - text: 위시켓
+          - link "요즘IT" [ref=f167e504] [cursor=pointer]:
+            - /url: /magazine/
+            - img [ref=f167e505]
+            - text: 요즘IT
+          - link "AIDP - AX" [ref=f167e506] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+            - img [ref=f167e507]
+            - text: AIDP - AX
+          - link "Rise ERP" [ref=f167e508] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+            - img [ref=f167e509]
+            - text: Rise ERP
+        - generic [ref=f167e510]:
+          - link [ref=f167e511] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+            - img [ref=f167e512]
+          - link [ref=f167e513] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+            - img [ref=f167e514]
+          - link [ref=f167e515] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+            - img [ref=f167e516]
+      - generic [ref=f167e517]:
+        - generic [ref=f167e518]:
+          - paragraph [ref=f167e519]:
+            - img [ref=f167e520]
+            - text: 고객 문의
+          - link "02-6925-4849" [ref=f167e521] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f167e522]:
+            - generic [ref=f167e523]: 10:00-18:00
+            - generic [ref=f167e524]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f167e525] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f167e526]:
+          - paragraph [ref=f167e527]: 위시켓
+          - link "위시켓 소개" [ref=f167e528] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f167e529] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f167e530]:
+          - paragraph [ref=f167e531]: 이용방법
+          - link "클라이언트 이용방법" [ref=f167e532] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f167e533] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f167e534] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f167e535] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f167e536]:
+          - paragraph [ref=f167e537]: 고객센터
+          - link "클라이언트 고객센터" [ref=f167e538] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f167e539] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f167e540]:
+          - link "뉴스센터" [ref=f167e541] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f167e542] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f167e543] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f167e544] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f167e545]:
+        - link "이용약관" [ref=f167e546] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f167e548] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f167e549]:
+        - generic [ref=f167e550]:
+          - generic [ref=f167e551]: ㈜위시켓
+          - generic [ref=f167e553]: "대표이사 : 박우범"
+          - generic [ref=f167e555]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f167e556]:
+          - generic [ref=f167e557]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f167e559]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f167e561]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f167e562]: © 2013 Wishket Corp.
+  - text: · ·
+  - generic [ref=f167e563]:
+    - navigation [ref=f167e564]:
+      - generic [ref=f167e565]: 2026년 07월
+      - img [ref=f167e567] [cursor=pointer]
+    - generic [ref=f167e580]:
+      - generic [ref=f167e581]:
+        - generic [ref=f167e582]: 일
+        - generic [ref=f167e583]: 월
+        - generic [ref=f167e584]: 화
+        - generic [ref=f167e585]: 수
+        - generic [ref=f167e586]: 목
+        - generic [ref=f167e587]: 금
+        - generic [ref=f167e588]: 토
+      - generic [ref=f167e589]:
+        - generic [ref=f167e593]: "1"
+        - generic [ref=f167e594]: "2"
+        - generic [ref=f167e595]: "3"
+        - generic [ref=f167e596]: "4"
+        - generic [ref=f167e597]: "5"
+        - generic [ref=f167e598]: "6"
+        - generic [ref=f167e599]: "7"
+        - generic [ref=f167e600]: "8"
+        - generic [ref=f167e601]: "9"
+        - generic [ref=f167e602]: "10"
+        - generic [ref=f167e603]: "11"
+        - generic [ref=f167e604]: "12"
+        - generic [ref=f167e605]: "13"
+        - generic [ref=f167e606]: "14"
+        - generic [ref=f167e607]: "15"
+        - generic [ref=f167e608]: "16"
+        - generic [ref=f167e609]: "17"
+        - generic [ref=f167e610] [cursor=pointer]: "18"
+        - generic [ref=f167e611] [cursor=pointer]: "19"
+        - generic [ref=f167e612] [cursor=pointer]: "20"
+        - generic [ref=f167e613] [cursor=pointer]: "21"
+        - generic [ref=f167e614] [cursor=pointer]: "22"
+        - generic [ref=f167e615] [cursor=pointer]: "23"
+        - generic [ref=f167e616] [cursor=pointer]: "24"
+        - generic [ref=f167e617] [cursor=pointer]: "25"
+        - generic [ref=f167e618] [cursor=pointer]: "26"
+        - generic [ref=f167e619] [cursor=pointer]: "27"
+        - generic [ref=f167e620] [cursor=pointer]: "28"
+        - generic [ref=f167e621] [cursor=pointer]: "29"
+        - generic [ref=f167e622] [cursor=pointer]: "30"
+        - generic [ref=f167e623] [cursor=pointer]: "31"
+  - button "위시켓(wishket) 상담 버튼" [ref=f167e626]:
+    - generic [ref=f167e627] [cursor=pointer]:
+      - generic [ref=f167e628]: 위시켓(wishket) 상담 버튼
+      - img [ref=f167e630]

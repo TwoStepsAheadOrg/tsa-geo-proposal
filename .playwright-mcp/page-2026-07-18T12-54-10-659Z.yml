@@ -1,0 +1,1157 @@
+- generic [ref=f127e1]:
+  - banner [ref=f127e2]:
+    - generic [ref=f127e3]:
+      - generic [ref=f127e5]:
+        - generic [ref=f127e6] [cursor=pointer]:
+          - img [ref=f127e7]
+          - generic [ref=f127e8]: 위시켓
+        - generic [ref=f127e10] [cursor=pointer]:
+          - img [ref=f127e11]
+          - generic [ref=f127e12]: 요즘IT
+        - generic [ref=f127e14] [cursor=pointer]:
+          - img [ref=f127e15]
+          - generic [ref=f127e16]: AIDP - AX
+        - generic [ref=f127e18] [cursor=pointer]:
+          - img [ref=f127e19]
+          - generic [ref=f127e20]: Rise ERP
+      - generic [ref=f127e21]:
+        - link:
+          - /url: /
+        - generic [ref=f127e24]:
+          - link "프로젝트 찾기" [ref=f127e25] [cursor=pointer]:
+            - /url: /project/#clear
+            - generic [ref=f127e26]:
+              - text: 프로젝트 찾기
+              - img [ref=f127e28]
+          - link "파트너스 찾기" [ref=f127e29] [cursor=pointer]:
+            - /url: /partners/#clear
+            - generic [ref=f127e30]: 파트너스 찾기
+          - link "이용방법" [ref=f127e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+            - generic [ref=f127e32]:
+              - text: 이용방법
+              - img [ref=f127e34]
+          - link "포트폴리오" [ref=f127e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+            - generic [ref=f127e36]:
+              - text: 포트폴리오
+              - img [ref=f127e38]
+          - link "비즈니스 솔루션" [ref=f127e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+            - generic [ref=f127e41]:
+              - text: 비즈니스 솔루션
+              - generic [ref=f127e42]:
+                - img [ref=f127e43]
+                - img [ref=f127e44]
+        - generic [ref=f127e45]:
+          - link "내 프로필" [ref=f127e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - generic [ref=f127e47]: 내 프로필
+          - generic [ref=f127e50] [cursor=pointer]:
+            - text: 내 프로젝트 관리
+            - img [ref=f127e52]
+          - link [ref=f127e53] [cursor=pointer]:
+            - /url: /accounts/notifications/
+            - img [ref=f127e55]
+          - img "twostepsahead사진" [ref=f127e57] [cursor=pointer]
+      - generic [ref=f127e58]:
+        - generic [ref=f127e59]:
+          - generic [ref=f127e61]:
+            - link "프로젝트 찾기" [ref=f127e62] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f127e63] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f127e65]:
+            - link "이용방법" [ref=f127e66] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f127e67] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f127e68] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f127e69] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f127e70]:
+            - link "포트폴리오" [ref=f127e71] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f127e72] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f127e73]:
+            - link "솔루션 마켓" [ref=f127e74] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f127e75] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f127e76]:
+          - generic [ref=f127e77]: 프로필을 완성하고
+          - generic [ref=f127e78]:
+            - text: 더 많은 프로젝트를
+            - text: 수주받아보세요
+          - link "내 프로필 입력하기" [ref=f127e79] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - text: 내 프로필 입력하기
+            - img [ref=f127e80]
+          - img "광고 배너" [ref=f127e82]
+  - generic [ref=f127e85]:
+    - generic [ref=f127e86]:
+      - generic [ref=f127e88]:
+        - generic [ref=f127e89]:
+          - generic [ref=f127e90]:
+            - text: 포트폴리오 등록
+            - generic [ref=f127e91] [cursor=pointer]: 임시 저장 불러오기
+          - generic [ref=f127e92]:
+            - generic [ref=f127e93]:
+              - generic [ref=f127e94]: 포트폴리오 제목 *
+              - textbox "예) LMS와 연동 AI 챗봇 구축으로 대응 시간 단축" [ref=f127e96]: 올댓아너스클럽(K-Trip ONE) — 인바운드 관광 AI 가시성(TouriGEO)
+            - generic [ref=f127e97]: 프로젝트의 핵심을 나타낼 수 있는 제목을 작성해 주세요.
+            - generic [ref=f127e99]:
+              - generic [ref=f127e101] [cursor=pointer]:
+                - generic [ref=f127e102]:
+                  - checkbox "위시켓에서 진행한 프로젝트입니다."
+                  - img [ref=f127e104]
+                - generic [ref=f127e108]: 위시켓에서 진행한 프로젝트입니다.
+              - img [ref=f127e110] [cursor=pointer]
+            - generic [ref=f127e111]:
+              - generic [ref=f127e112]:
+                - text: 포트폴리오 표지 이미지 등록
+                - generic [ref=f127e113]: 표지는 파트너 홈과 프로젝트 지원서 등에 노출됩니다. 신뢰감을 줄 수 있는 포트폴리오를 완성해 보세요.
+              - generic [ref=f127e114]:
+                - generic [ref=f127e115]:
+                  - button "포트폴리오 표지 이미지 등록" [ref=f127e116] [cursor=pointer]
+                  - paragraph [ref=f127e117]: "포트폴리오 표지 규격: 480x480px"
+                  - paragraph [ref=f127e118]: 이미지 파일 등록 가능 (JPG, JEPG, PNG)
+                  - generic [ref=f127e121]: 프로젝트 설명에 추가한 이미지가 없으면 위시켓에서 제공하는 기본 이미지가 적용
+                - generic [ref=f127e123]:
+                  - img [ref=f127e126] [cursor=pointer]
+                  - generic [ref=f127e128]:
+                    - generic [ref=f127e129]: 포트폴리오 제목 샘플
+                    - generic [ref=f127e130]: 카테고리 샘플|분야 샘플
+                    - generic [ref=f127e131]: 관련 기술 샘플
+                    - generic [ref=f127e132]: 관련 기술 샘플
+                - paragraph
+            - generic [ref=f127e133]:
+              - generic [ref=f127e134]: 업무 범위 및 분야 *
+              - generic [ref=f127e135]:
+                - generic [ref=f127e136]:
+                  - generic [ref=f127e137]: 업무 범위 *
+                  - generic [ref=f127e138]:
+                    - generic [ref=f127e140] [cursor=pointer]:
+                      - generic [ref=f127e141]:
+                        - checkbox "개발" [checked]
+                        - img [ref=f127e143]
+                      - generic [ref=f127e146]: 개발
+                    - generic [ref=f127e148] [cursor=pointer]:
+                      - generic [ref=f127e149]:
+                        - checkbox "디자인"
+                        - img [ref=f127e151]
+                      - generic [ref=f127e154]: 디자인
+                    - generic [ref=f127e156] [cursor=pointer]:
+                      - generic [ref=f127e157]:
+                        - checkbox "기획"
+                        - img [ref=f127e159]
+                      - generic [ref=f127e162]: 기획
+                  - generic [ref=f127e163]:
+                    - generic [ref=f127e164]: 카테고리 *
+                    - generic [ref=f127e165]:
+                      - generic [ref=f127e169] [cursor=pointer]: 웹
+                      - generic [ref=f127e174] [cursor=pointer]: 안드로이드
+                      - generic [ref=f127e179] [cursor=pointer]: iOS
+                      - generic [ref=f127e184] [cursor=pointer]: PC 프로그램
+                      - generic [ref=f127e189] [cursor=pointer]: 임베디드
+                      - generic [ref=f127e194] [cursor=pointer]: 기타
+                  - generic [ref=f127e196]:
+                    - generic [ref=f127e197]:
+                      - text: 포트폴리오 분야 *
+                      - generic [ref=f127e198]: 정확한 매칭 추천을 위해 프로젝트 성격에 맞는 분야를 선택하세요.(최대 3개)
+                    - generic [ref=f127e199]:
+                      - generic [ref=f127e200]:
+                        - generic [ref=f127e640]:
+                          - generic [ref=f127e642]: 대표 분야 1개를 설정할 수 있습니다.
+                          - img [ref=f127e643]
+                        - generic [ref=f127e644]:
+                          - generic [ref=f127e645]:
+                            - generic [ref=f127e646]: 데이터 분석ㆍBI
+                            - img [ref=f127e648] [cursor=pointer]
+                          - generic [ref=f127e649]:
+                            - generic [ref=f127e650]: Gen AI 서비스
+                            - img [ref=f127e652] [cursor=pointer]
+                        - generic [ref=f127e201] [cursor=pointer]:
+                          - img [ref=f127e202]
+                          - generic [ref=f127e203]: 분야 선택
+                      - generic [ref=f127e204]:
+                        - generic [ref=f127e205]:
+                          - img [ref=f127e206]
+                          - generic [ref=f127e207]: 추천 분야
+                        - generic [ref=f127e208]:
+                          - generic [ref=f127e210] [cursor=pointer]: 중개ㆍ매칭 플랫폼
+                          - generic [ref=f127e213] [cursor=pointer]: SaaSㆍ솔루션
+                          - generic [ref=f127e216] [cursor=pointer]: CRM 고객관리
+                          - generic [ref=f127e219] [cursor=pointer]: ERP 전사자원관리
+                          - generic [ref=f127e222] [cursor=pointer]: 데이터 분석ㆍBI
+                          - generic [ref=f127e225] [cursor=pointer]: Gen AI 서비스
+                          - generic [ref=f127e228] [cursor=pointer]: ChatGPTㆍ챗봇
+                          - generic [ref=f127e231] [cursor=pointer]: 기타
+                      - generic [ref=f127e233] [cursor=pointer]:
+                        - img [ref=f127e234]
+                        - generic [ref=f127e235]: 딱 맞는 분야 찾기
+                  - generic [ref=f127e236]:
+                    - generic [ref=f127e237]: 관련 기술 *
+                    - generic [ref=f127e240]:
+                      - generic [ref=f127e687]: Python
+                      - textbox "예) React, Node.js, Figma" [active] [ref=f127e241]
+                      - generic [ref=f127e662]:
+                        - generic [ref=f127e689]:
+                          - generic [ref=f127e690] [cursor=pointer]: A
+                          - generic [ref=f127e691] [cursor=pointer]: B
+                          - generic [ref=f127e692] [cursor=pointer]: C
+                          - generic [ref=f127e693] [cursor=pointer]: D
+                          - generic [ref=f127e694] [cursor=pointer]: E
+                          - generic [ref=f127e695] [cursor=pointer]: F
+                          - generic [ref=f127e696] [cursor=pointer]: G
+                          - generic [ref=f127e697] [cursor=pointer]: H
+                          - generic [ref=f127e698] [cursor=pointer]: I
+                          - generic [ref=f127e699] [cursor=pointer]: J
+                          - generic [ref=f127e700] [cursor=pointer]: K
+                          - generic [ref=f127e701] [cursor=pointer]: L
+                          - generic [ref=f127e702] [cursor=pointer]: M
+                          - generic [ref=f127e703] [cursor=pointer]: "N"
+                          - generic [ref=f127e704] [cursor=pointer]: O
+                          - generic [ref=f127e705] [cursor=pointer]: P
+                          - generic [ref=f127e706] [cursor=pointer]: Q
+                          - generic [ref=f127e707] [cursor=pointer]: R
+                          - generic [ref=f127e708] [cursor=pointer]: S
+                          - generic [ref=f127e709] [cursor=pointer]: T
+                          - generic [ref=f127e710] [cursor=pointer]: U
+                          - generic [ref=f127e711] [cursor=pointer]: V
+                          - generic [ref=f127e712] [cursor=pointer]: W
+                          - generic [ref=f127e713] [cursor=pointer]: X
+                          - generic [ref=f127e714] [cursor=pointer]: "Y"
+                          - generic [ref=f127e715] [cursor=pointer]: Z
+                        - generic [ref=f127e717]:
+                          - generic [ref=f127e718] [cursor=pointer]:
+                            - img [ref=f127e719]
+                            - generic [ref=f127e720]: .Net
+                          - generic [ref=f127e721] [cursor=pointer]:
+                            - img [ref=f127e722]
+                            - generic [ref=f127e723]: 3dsMax
+                          - generic [ref=f127e724] [cursor=pointer]:
+                            - img [ref=f127e725]
+                            - generic [ref=f127e726]: Adobe Photoshop
+                          - generic [ref=f127e727] [cursor=pointer]:
+                            - img [ref=f127e728]
+                            - generic [ref=f127e729]: AfterEffect
+                          - generic [ref=f127e730] [cursor=pointer]:
+                            - img [ref=f127e731]
+                            - generic [ref=f127e732]: Ajax
+                          - generic [ref=f127e733] [cursor=pointer]:
+                            - img [ref=f127e734]
+                            - generic [ref=f127e735]: Android
+                          - generic [ref=f127e736] [cursor=pointer]:
+                            - img [ref=f127e737]
+                            - generic [ref=f127e738]: Angular
+                          - generic [ref=f127e739] [cursor=pointer]:
+                            - img [ref=f127e740]
+                            - generic [ref=f127e741]: Apache
+                          - generic [ref=f127e742] [cursor=pointer]:
+                            - img [ref=f127e743]
+                            - generic [ref=f127e744]: Arduino
+                          - generic [ref=f127e745] [cursor=pointer]:
+                            - img [ref=f127e746]
+                            - generic [ref=f127e747]: ASP
+                          - generic [ref=f127e748] [cursor=pointer]:
+                            - img [ref=f127e749]
+                            - generic [ref=f127e750]: ASP.NET
+                          - generic [ref=f127e751] [cursor=pointer]:
+                            - img [ref=f127e752]
+                            - generic [ref=f127e753]: AutoCAD
+                          - generic [ref=f127e754] [cursor=pointer]:
+                            - img [ref=f127e755]
+                            - generic [ref=f127e756]: AWS
+                          - generic [ref=f127e757] [cursor=pointer]:
+                            - img [ref=f127e758]
+                            - generic [ref=f127e759]: Azure
+                          - generic [ref=f127e760] [cursor=pointer]:
+                            - img [ref=f127e761]
+                            - generic [ref=f127e762]: BLE
+                          - generic [ref=f127e763] [cursor=pointer]:
+                            - img [ref=f127e764]
+                            - generic [ref=f127e765]: Bluetooth
+                          - generic [ref=f127e766] [cursor=pointer]:
+                            - img [ref=f127e767]
+                            - generic [ref=f127e768]: Bootstrap
+                          - generic [ref=f127e769] [cursor=pointer]:
+                            - img [ref=f127e770]
+                            - generic [ref=f127e771]: C
+                          - generic [ref=f127e772] [cursor=pointer]:
+                            - img [ref=f127e773]
+                            - generic [ref=f127e774]: C#
+                          - generic [ref=f127e775] [cursor=pointer]:
+                            - img [ref=f127e776]
+                            - generic [ref=f127e777]: C++
+                          - generic [ref=f127e778] [cursor=pointer]:
+                            - img [ref=f127e779]
+                            - generic [ref=f127e780]: CAD
+                          - generic [ref=f127e781] [cursor=pointer]:
+                            - img [ref=f127e782]
+                            - generic [ref=f127e783]: Cafe24
+                          - generic [ref=f127e784] [cursor=pointer]:
+                            - img [ref=f127e785]
+                            - generic [ref=f127e786]: CentOS
+                          - generic [ref=f127e787] [cursor=pointer]:
+                            - img [ref=f127e788]
+                            - generic [ref=f127e789]: CINEMA 4D
+                          - generic [ref=f127e790] [cursor=pointer]:
+                            - img [ref=f127e791]
+                            - generic [ref=f127e792]: Cocos2dx
+                          - generic [ref=f127e793] [cursor=pointer]:
+                            - img [ref=f127e794]
+                            - generic [ref=f127e795]: CodeIgniter
+                          - generic [ref=f127e796] [cursor=pointer]:
+                            - img [ref=f127e797]
+                            - generic [ref=f127e798]: Cordova
+                          - generic [ref=f127e799] [cursor=pointer]:
+                            - img [ref=f127e800]
+                            - generic [ref=f127e801]: CSS
+                          - generic [ref=f127e802] [cursor=pointer]:
+                            - img [ref=f127e803]
+                            - generic [ref=f127e804]: D3.js
+                          - generic [ref=f127e805] [cursor=pointer]:
+                            - img [ref=f127e806]
+                            - generic [ref=f127e807]: Dart
+                          - generic [ref=f127e808] [cursor=pointer]:
+                            - img [ref=f127e809]
+                            - generic [ref=f127e810]: DB2
+                          - generic [ref=f127e811] [cursor=pointer]:
+                            - img [ref=f127e812]
+                            - generic [ref=f127e813]: Delphi
+                          - generic [ref=f127e814] [cursor=pointer]:
+                            - img [ref=f127e815]
+                            - generic [ref=f127e816]: DevExpress
+                          - generic [ref=f127e817] [cursor=pointer]:
+                            - img [ref=f127e818]
+                            - generic [ref=f127e819]: DirectX
+                          - generic [ref=f127e820] [cursor=pointer]:
+                            - img [ref=f127e821]
+                            - generic [ref=f127e822]: Django
+                          - generic [ref=f127e823] [cursor=pointer]:
+                            - img [ref=f127e824]
+                            - generic [ref=f127e825]: Docker
+                          - generic [ref=f127e826] [cursor=pointer]:
+                            - img [ref=f127e827]
+                            - generic [ref=f127e828]: Dreamweaver
+                          - generic [ref=f127e829] [cursor=pointer]:
+                            - img [ref=f127e830]
+                            - generic [ref=f127e831]: E-GOV
+                          - generic [ref=f127e832] [cursor=pointer]:
+                            - img [ref=f127e833]
+                            - generic [ref=f127e834]: EC2
+                          - generic [ref=f127e835] [cursor=pointer]:
+                            - img [ref=f127e836]
+                            - generic [ref=f127e837]: Eclipse
+                          - generic [ref=f127e838] [cursor=pointer]:
+                            - img [ref=f127e839]
+                            - generic [ref=f127e840]: Elasticsearch
+                          - generic [ref=f127e841] [cursor=pointer]:
+                            - img [ref=f127e842]
+                            - generic [ref=f127e843]: Electron
+                          - generic [ref=f127e844] [cursor=pointer]:
+                            - img [ref=f127e845]
+                            - generic [ref=f127e846]: Ethereum
+                          - generic [ref=f127e847] [cursor=pointer]:
+                            - img [ref=f127e848]
+                            - generic [ref=f127e849]: Excel
+                          - generic [ref=f127e850] [cursor=pointer]:
+                            - img [ref=f127e851]
+                            - generic [ref=f127e852]: Express
+                          - generic [ref=f127e853] [cursor=pointer]:
+                            - img [ref=f127e854]
+                            - generic [ref=f127e855]: ExtJS
+                          - generic [ref=f127e856] [cursor=pointer]:
+                            - img [ref=f127e857]
+                            - generic [ref=f127e858]: FFmpeg
+                          - generic [ref=f127e859] [cursor=pointer]:
+                            - img [ref=f127e860]
+                            - generic [ref=f127e861]: Figma
+                          - generic [ref=f127e862] [cursor=pointer]:
+                            - img [ref=f127e863]
+                            - generic [ref=f127e864]: FinalCut
+                          - generic [ref=f127e865] [cursor=pointer]:
+                            - img [ref=f127e866]
+                            - generic [ref=f127e867]: Firebase
+                          - generic [ref=f127e868] [cursor=pointer]:
+                            - img [ref=f127e869]
+                            - generic [ref=f127e870]: Flash
+                          - generic [ref=f127e871] [cursor=pointer]:
+                            - img [ref=f127e872]
+                            - generic [ref=f127e873]: Flask
+                          - generic [ref=f127e874] [cursor=pointer]:
+                            - img [ref=f127e875]
+                            - generic [ref=f127e876]: Flex
+                          - generic [ref=f127e877] [cursor=pointer]:
+                            - img [ref=f127e878]
+                            - generic [ref=f127e879]: Flutter
+                          - generic [ref=f127e880] [cursor=pointer]:
+                            - img [ref=f127e881]
+                            - generic [ref=f127e882]: Fusion360
+                          - generic [ref=f127e883] [cursor=pointer]:
+                            - img [ref=f127e884]
+                            - generic [ref=f127e885]: GCP
+                          - generic [ref=f127e886] [cursor=pointer]:
+                            - img [ref=f127e887]
+                            - generic [ref=f127e888]: Git
+                          - generic [ref=f127e889] [cursor=pointer]:
+                            - img [ref=f127e890]
+                            - generic [ref=f127e891]: GitHub
+                          - generic [ref=f127e892] [cursor=pointer]:
+                            - img [ref=f127e893]
+                            - generic [ref=f127e894]: Go
+                          - generic [ref=f127e895] [cursor=pointer]:
+                            - img [ref=f127e896]
+                            - generic [ref=f127e897]: GoogleAnalytics
+                          - generic [ref=f127e898] [cursor=pointer]:
+                            - img [ref=f127e899]
+                            - generic [ref=f127e900]: Gradle
+                          - generic [ref=f127e901] [cursor=pointer]:
+                            - img [ref=f127e902]
+                            - generic [ref=f127e903]: GraphQL
+                          - generic [ref=f127e904] [cursor=pointer]:
+                            - img [ref=f127e905]
+                            - generic [ref=f127e906]: Gulp
+                          - generic [ref=f127e907] [cursor=pointer]:
+                            - img [ref=f127e908]
+                            - generic [ref=f127e909]: Hadoop
+                          - generic [ref=f127e910] [cursor=pointer]:
+                            - img [ref=f127e911]
+                            - generic [ref=f127e912]: Hibernate
+                          - generic [ref=f127e913] [cursor=pointer]:
+                            - img [ref=f127e914]
+                            - generic [ref=f127e915]: HTML
+                          - generic [ref=f127e916] [cursor=pointer]:
+                            - img [ref=f127e917]
+                            - generic [ref=f127e918]: iBATIS
+                          - generic [ref=f127e919] [cursor=pointer]:
+                            - img [ref=f127e920]
+                            - generic [ref=f127e921]: IIS
+                          - generic [ref=f127e922] [cursor=pointer]:
+                            - img [ref=f127e923]
+                            - generic [ref=f127e924]: Illustrator
+                          - generic [ref=f127e925] [cursor=pointer]:
+                            - img [ref=f127e926]
+                            - generic [ref=f127e927]: Indesign
+                          - generic [ref=f127e928] [cursor=pointer]:
+                            - img [ref=f127e929]
+                            - generic [ref=f127e930]: InVision
+                          - generic [ref=f127e931] [cursor=pointer]:
+                            - img [ref=f127e932]
+                            - generic [ref=f127e933]: Ionic
+                          - generic [ref=f127e934] [cursor=pointer]:
+                            - img [ref=f127e935]
+                            - generic [ref=f127e936]: iOS
+                          - generic [ref=f127e937] [cursor=pointer]:
+                            - img [ref=f127e938]
+                            - generic [ref=f127e939]: Java
+                          - generic [ref=f127e940] [cursor=pointer]:
+                            - img [ref=f127e941]
+                            - generic [ref=f127e942]: JavaScript
+                          - generic [ref=f127e943] [cursor=pointer]:
+                            - img [ref=f127e944]
+                            - generic [ref=f127e945]: Jenkins
+                          - generic [ref=f127e946] [cursor=pointer]:
+                            - img [ref=f127e947]
+                            - generic [ref=f127e948]: JEUS
+                          - generic [ref=f127e949] [cursor=pointer]:
+                            - img [ref=f127e950]
+                            - generic [ref=f127e951]: jQuery
+                          - generic [ref=f127e952] [cursor=pointer]:
+                            - img [ref=f127e953]
+                            - generic [ref=f127e954]: JSON
+                          - generic [ref=f127e955] [cursor=pointer]:
+                            - img [ref=f127e956]
+                            - generic [ref=f127e957]: JSP
+                          - generic [ref=f127e958] [cursor=pointer]:
+                            - img [ref=f127e959]
+                            - generic [ref=f127e960]: Kafka
+                          - generic [ref=f127e961] [cursor=pointer]:
+                            - img [ref=f127e962]
+                            - generic [ref=f127e963]: Keras
+                          - generic [ref=f127e964] [cursor=pointer]:
+                            - img [ref=f127e965]
+                            - generic [ref=f127e966]: Keynote
+                          - generic [ref=f127e967] [cursor=pointer]:
+                            - img [ref=f127e968]
+                            - generic [ref=f127e969]: KeyShot
+                          - generic [ref=f127e970] [cursor=pointer]:
+                            - img [ref=f127e971]
+                            - generic [ref=f127e972]: Kotlin
+                          - generic [ref=f127e973] [cursor=pointer]:
+                            - img [ref=f127e974]
+                            - generic [ref=f127e975]: Kubernetes
+                          - generic [ref=f127e976] [cursor=pointer]:
+                            - img [ref=f127e977]
+                            - generic [ref=f127e978]: Laravel
+                          - generic [ref=f127e979] [cursor=pointer]:
+                            - img [ref=f127e980]
+                            - generic [ref=f127e981]: Less.js
+                          - generic [ref=f127e982] [cursor=pointer]:
+                            - img [ref=f127e983]
+                            - generic [ref=f127e984]: Lightroom
+                          - generic [ref=f127e985] [cursor=pointer]:
+                            - img [ref=f127e986]
+                            - generic [ref=f127e987]: Linux
+                          - generic [ref=f127e988] [cursor=pointer]:
+                            - img [ref=f127e989]
+                            - generic [ref=f127e990]: Lua
+                          - generic [ref=f127e991] [cursor=pointer]:
+                            - img [ref=f127e992]
+                            - generic [ref=f127e993]: macOS
+                          - generic [ref=f127e994] [cursor=pointer]:
+                            - img [ref=f127e995]
+                            - generic [ref=f127e996]: MariaDB
+                          - generic [ref=f127e997] [cursor=pointer]:
+                            - img [ref=f127e998]
+                            - generic [ref=f127e999]: MATLAB
+                          - generic [ref=f127e1000] [cursor=pointer]:
+                            - img [ref=f127e1001]
+                            - generic [ref=f127e1002]: Maven
+                          - generic [ref=f127e1003] [cursor=pointer]:
+                            - img [ref=f127e1004]
+                            - generic [ref=f127e1005]: Maya
+                          - generic [ref=f127e1006] [cursor=pointer]:
+                            - img [ref=f127e1007]
+                            - generic [ref=f127e1008]: MFC
+                          - generic [ref=f127e1009] [cursor=pointer]:
+                            - img [ref=f127e1010]
+                            - generic [ref=f127e1011]: Microsoft365
+                          - generic [ref=f127e1012] [cursor=pointer]:
+                            - img [ref=f127e1013]
+                            - generic [ref=f127e1014]: MiPlatform
+                          - generic [ref=f127e1015] [cursor=pointer]:
+                            - img [ref=f127e1016]
+                            - generic [ref=f127e1017]: MongoDB
+                          - generic [ref=f127e1018] [cursor=pointer]:
+                            - img [ref=f127e1019]
+                            - generic [ref=f127e1020]: MSSQL
+                          - generic [ref=f127e1021] [cursor=pointer]:
+                            - img [ref=f127e1022]
+                            - generic [ref=f127e1023]: MyBatis
+                          - generic [ref=f127e1024] [cursor=pointer]:
+                            - img [ref=f127e1025]
+                            - generic [ref=f127e1026]: MySQL
+                          - generic [ref=f127e1027] [cursor=pointer]:
+                            - img [ref=f127e1028]
+                            - generic [ref=f127e1029]: Nexacro
+                          - generic [ref=f127e1030] [cursor=pointer]:
+                            - img [ref=f127e1031]
+                            - generic [ref=f127e1032]: Nginx
+                          - generic [ref=f127e1033] [cursor=pointer]:
+                            - img [ref=f127e1034]
+                            - generic [ref=f127e1035]: Node.js
+                          - generic [ref=f127e1036] [cursor=pointer]:
+                            - img [ref=f127e1037]
+                            - generic [ref=f127e1038]: NX
+                          - generic [ref=f127e1039] [cursor=pointer]:
+                            - img [ref=f127e1040]
+                            - generic [ref=f127e1041]: Objective-C
+                          - generic [ref=f127e1042] [cursor=pointer]:
+                            - img [ref=f127e1043]
+                            - generic [ref=f127e1044]: OpenCV
+                          - generic [ref=f127e1045] [cursor=pointer]:
+                            - img [ref=f127e1046]
+                            - generic [ref=f127e1047]: OpenGL
+                          - generic [ref=f127e1048] [cursor=pointer]:
+                            - img [ref=f127e1049]
+                            - generic [ref=f127e1050]: Oracle
+                          - generic [ref=f127e1051] [cursor=pointer]:
+                            - img [ref=f127e1052]
+                            - generic [ref=f127e1053]: OrCAD
+                          - generic [ref=f127e1054] [cursor=pointer]:
+                            - img [ref=f127e1055]
+                            - generic [ref=f127e1056]: OZReport
+                          - generic [ref=f127e1057] [cursor=pointer]:
+                            - img [ref=f127e1058]
+                            - generic [ref=f127e1059]: Perl
+                          - generic [ref=f127e1060] [cursor=pointer]:
+                            - img [ref=f127e1061]
+                            - generic [ref=f127e1062]: PhoneGap
+                          - generic [ref=f127e1063] [cursor=pointer]:
+                            - img [ref=f127e1064]
+                            - generic [ref=f127e1065]: PHP
+                          - generic [ref=f127e1066] [cursor=pointer]:
+                            - img [ref=f127e1067]
+                            - generic [ref=f127e1068]: PostgreSQL
+                          - generic [ref=f127e1069] [cursor=pointer]:
+                            - img [ref=f127e1070]
+                            - generic [ref=f127e1071]: PowerBuilder
+                          - generic [ref=f127e1072] [cursor=pointer]:
+                            - img [ref=f127e1073]
+                            - generic [ref=f127e1074]: PowerPoint
+                          - generic [ref=f127e1075] [cursor=pointer]:
+                            - img [ref=f127e1076]
+                            - generic [ref=f127e1077]: PremierePro
+                          - generic [ref=f127e1078] [cursor=pointer]:
+                            - img [ref=f127e1079]
+                            - generic [ref=f127e1080]: ProtoPie
+                          - generic [ref=f127e1081] [cursor=pointer]:
+                            - img [ref=f127e1082]
+                            - generic [ref=f127e1083]: PyTorch
+                          - generic [ref=f127e1084] [cursor=pointer]:
+                            - img [ref=f127e1085]
+                            - generic [ref=f127e1086]: Qt
+                          - generic [ref=f127e1087] [cursor=pointer]:
+                            - img [ref=f127e1088]
+                            - generic [ref=f127e1089]: RabbitMQ
+                          - generic [ref=f127e1090] [cursor=pointer]:
+                            - img [ref=f127e1091]
+                            - generic [ref=f127e1092]: RaspberryPi
+                          - generic [ref=f127e1093] [cursor=pointer]:
+                            - img [ref=f127e1094]
+                            - generic [ref=f127e1095]: React
+                          - generic [ref=f127e1096] [cursor=pointer]:
+                            - img [ref=f127e1097]
+                            - generic [ref=f127e1098]: React Native
+                          - generic [ref=f127e1099] [cursor=pointer]:
+                            - img [ref=f127e1100]
+                            - generic [ref=f127e1101]: Redis
+                          - generic [ref=f127e1102] [cursor=pointer]:
+                            - img [ref=f127e1103]
+                            - generic [ref=f127e1104]: Redux
+                          - generic [ref=f127e1105] [cursor=pointer]:
+                            - img [ref=f127e1106]
+                            - generic [ref=f127e1107]: Rhino
+                          - generic [ref=f127e1108] [cursor=pointer]:
+                            - img [ref=f127e1109]
+                            - generic [ref=f127e1110]: Ruby
+                          - generic [ref=f127e1111] [cursor=pointer]:
+                            - img [ref=f127e1112]
+                            - generic [ref=f127e1113]: Ruby on Rails
+                          - generic [ref=f127e1114] [cursor=pointer]:
+                            - img [ref=f127e1115]
+                            - generic [ref=f127e1116]: S3
+                          - generic [ref=f127e1117] [cursor=pointer]:
+                            - img [ref=f127e1118]
+                            - generic [ref=f127e1119]: Sass
+                          - generic [ref=f127e1120] [cursor=pointer]:
+                            - img [ref=f127e1121]
+                            - generic [ref=f127e1122]: Scala
+                          - generic [ref=f127e1123] [cursor=pointer]:
+                            - img [ref=f127e1124]
+                            - generic [ref=f127e1125]: SCSS
+                          - generic [ref=f127e1126] [cursor=pointer]:
+                            - img [ref=f127e1127]
+                            - generic [ref=f127e1128]: Sketch
+                          - generic [ref=f127e1129] [cursor=pointer]:
+                            - img [ref=f127e1130]
+                            - generic [ref=f127e1131]: Solidity
+                          - generic [ref=f127e1132] [cursor=pointer]:
+                            - img [ref=f127e1133]
+                            - generic [ref=f127e1134]: SolidWorks
+                          - generic [ref=f127e1135] [cursor=pointer]:
+                            - img [ref=f127e1136]
+                            - generic [ref=f127e1137]: Spark
+                          - generic [ref=f127e1138] [cursor=pointer]:
+                            - img [ref=f127e1139]
+                            - generic [ref=f127e1140]: Spring
+                          - generic [ref=f127e1141] [cursor=pointer]:
+                            - img [ref=f127e1142]
+                            - generic [ref=f127e1143]: Spring Boot
+                          - generic [ref=f127e1144] [cursor=pointer]:
+                            - img [ref=f127e1145]
+                            - generic [ref=f127e1146]: SQLite
+                          - generic [ref=f127e1147] [cursor=pointer]:
+                            - img [ref=f127e1148]
+                            - generic [ref=f127e1149]: Struts
+                          - generic [ref=f127e1150] [cursor=pointer]:
+                            - img [ref=f127e1151]
+                            - generic [ref=f127e1152]: Substance
+                          - generic [ref=f127e1153] [cursor=pointer]:
+                            - img [ref=f127e1154]
+                            - generic [ref=f127e1155]: SVN
+                          - generic [ref=f127e1156] [cursor=pointer]:
+                            - img [ref=f127e1157]
+                            - generic [ref=f127e1158]: Swift
+                          - generic [ref=f127e1159] [cursor=pointer]:
+                            - img [ref=f127e1160]
+                            - generic [ref=f127e1161]: TensorFlow
+                          - generic [ref=f127e1162] [cursor=pointer]:
+                            - img [ref=f127e1163]
+                            - generic [ref=f127e1164]: Tibero
+                          - generic [ref=f127e1165] [cursor=pointer]:
+                            - img [ref=f127e1166]
+                            - generic [ref=f127e1167]: Tomcat
+                          - generic [ref=f127e1168] [cursor=pointer]:
+                            - img [ref=f127e1169]
+                            - generic [ref=f127e1170]: TypeScript
+                          - generic [ref=f127e1171] [cursor=pointer]:
+                            - img [ref=f127e1172]
+                            - generic [ref=f127e1173]: Ubuntu
+                          - generic [ref=f127e1174] [cursor=pointer]:
+                            - img [ref=f127e1175]
+                            - generic [ref=f127e1176]: Unity
+                          - generic [ref=f127e1177] [cursor=pointer]:
+                            - img [ref=f127e1178]
+                            - generic [ref=f127e1179]: Unix
+                          - generic [ref=f127e1180] [cursor=pointer]:
+                            - img [ref=f127e1181]
+                            - generic [ref=f127e1182]: UnrealEngine
+                          - generic [ref=f127e1183] [cursor=pointer]:
+                            - img [ref=f127e1184]
+                            - generic [ref=f127e1185]: VC++
+                          - generic [ref=f127e1186] [cursor=pointer]:
+                            - img [ref=f127e1187]
+                            - generic [ref=f127e1188]: VisualBasic
+                          - generic [ref=f127e1189] [cursor=pointer]:
+                            - img [ref=f127e1190]
+                            - generic [ref=f127e1191]: VisualStudio
+                          - generic [ref=f127e1192] [cursor=pointer]:
+                            - img [ref=f127e1193]
+                            - generic [ref=f127e1194]: Vue.js
+                          - generic [ref=f127e1195] [cursor=pointer]:
+                            - img [ref=f127e1196]
+                            - generic [ref=f127e1197]: WCF
+                          - generic [ref=f127e1198] [cursor=pointer]:
+                            - img [ref=f127e1199]
+                            - generic [ref=f127e1200]: WebGL
+                          - generic [ref=f127e1201] [cursor=pointer]:
+                            - img [ref=f127e1202]
+                            - generic [ref=f127e1203]: WebLogic
+                          - generic [ref=f127e1204] [cursor=pointer]:
+                            - img [ref=f127e1205]
+                            - generic [ref=f127e1206]: Webpack
+                          - generic [ref=f127e1207] [cursor=pointer]:
+                            - img [ref=f127e1208]
+                            - generic [ref=f127e1209]: WebRTC
+                          - generic [ref=f127e1210] [cursor=pointer]:
+                            - img [ref=f127e1211]
+                            - generic [ref=f127e1212]: WebSquare
+                          - generic [ref=f127e1213] [cursor=pointer]:
+                            - img [ref=f127e1214]
+                            - generic [ref=f127e1215]: Wi-Fi
+                          - generic [ref=f127e1216] [cursor=pointer]:
+                            - img [ref=f127e1217]
+                            - generic [ref=f127e1218]: Win32
+                          - generic [ref=f127e1219] [cursor=pointer]:
+                            - img [ref=f127e1220]
+                            - generic [ref=f127e1221]: WinCE
+                          - generic [ref=f127e1222] [cursor=pointer]:
+                            - img [ref=f127e1223]
+                            - generic [ref=f127e1224]: Windows
+                          - generic [ref=f127e1225] [cursor=pointer]:
+                            - img [ref=f127e1226]
+                            - generic [ref=f127e1227]: Windows Server
+                          - generic [ref=f127e1228] [cursor=pointer]:
+                            - img [ref=f127e1229]
+                            - generic [ref=f127e1230]: Word
+                          - generic [ref=f127e1231] [cursor=pointer]:
+                            - img [ref=f127e1232]
+                            - generic [ref=f127e1233]: WordPress
+                          - generic [ref=f127e1234] [cursor=pointer]:
+                            - img [ref=f127e1235]
+                            - generic [ref=f127e1236]: WPF
+                          - generic [ref=f127e1237] [cursor=pointer]:
+                            - img [ref=f127e1238]
+                            - generic [ref=f127e1239]: Xamarin
+                          - generic [ref=f127e1240] [cursor=pointer]:
+                            - img [ref=f127e1241]
+                            - generic [ref=f127e1242]: Xcode
+                          - generic [ref=f127e1243] [cursor=pointer]:
+                            - img [ref=f127e1244]
+                            - generic [ref=f127e1245]: XD
+                          - generic [ref=f127e1246] [cursor=pointer]:
+                            - img [ref=f127e1247]
+                            - generic [ref=f127e1248]: XPLATFORM
+                          - generic [ref=f127e1249] [cursor=pointer]:
+                            - img [ref=f127e1250]
+                            - generic [ref=f127e1251]: ZBrush
+                          - generic [ref=f127e1252] [cursor=pointer]:
+                            - img [ref=f127e1253]
+                            - generic [ref=f127e1254]: Zeplin
+                          - generic [ref=f127e1255] [cursor=pointer]:
+                            - img [ref=f127e1256]
+                            - generic [ref=f127e1257]: 그누보드
+                          - generic [ref=f127e1258] [cursor=pointer]:
+                            - img [ref=f127e1259]
+                            - generic [ref=f127e1260]: 델파이
+                          - generic [ref=f127e1261] [cursor=pointer]:
+                            - img [ref=f127e1262]
+                            - generic [ref=f127e1263]: 전자정부프레임워크
+                          - generic [ref=f127e1264] [cursor=pointer]:
+                            - img [ref=f127e1265]
+                            - generic [ref=f127e1266]: 한글
+                    - paragraph [ref=f127e242]: 기술명 입력 후, 해당하는 기술을 선택하거나 엔터키를 눌러 추가해 주세요.
+                - generic [ref=f127e244] [cursor=pointer]:
+                  - generic [ref=f127e245]:
+                    - checkbox "상주(기간제)로 진행한 프로젝트입니다."
+                    - img [ref=f127e247]
+                  - generic [ref=f127e250]: 상주(기간제)로 진행한 프로젝트입니다.
+            - generic [ref=f127e251]:
+              - generic [ref=f127e252]: 참여 기간 *
+              - generic [ref=f127e254]:
+                - generic [ref=f127e255]:
+                  - generic [ref=f127e256]: 참여 기간 *
+                  - generic [ref=f127e258]:
+                    - textbox "YYYY.MM." [ref=f127e259]: 2026.04.
+                    - generic: 시작 연월 *
+                  - generic [ref=f127e261]:
+                    - textbox "YYYY.MM." [ref=f127e262]: 2026.07.
+                    - generic: 종료 연월 *
+                  - generic [ref=f127e264]:
+                    - textbox "100" [ref=f127e265]
+                    - generic: 참여율 *
+                    - generic [ref=f127e266]: "%"
+                  - img [ref=f127e269] [cursor=pointer]
+                - generic [ref=f127e270]:
+                  - generic [ref=f127e271]:
+                    - text: 고객사 및 역할
+                    - generic [ref=f127e272]: 고객사와 프로젝트에서 담당한 역할을 작성해 주세요.
+                  - generic [ref=f127e274]:
+                    - textbox [ref=f127e275]: 올댓아너스클럽 (K-Trip ONE 운영)
+                    - generic: 고객사
+                  - generic [ref=f127e277]:
+                    - textbox [ref=f127e278]: 인바운드 관광 GEO 측정·진단 총괄
+                    - generic: 역할
+                - generic [ref=f127e279]:
+                  - generic [ref=f127e280]: 결과물 URL
+                  - generic [ref=f127e281]:
+                    - textbox "예) https://play.google.com/store/" [ref=f127e283]: https://www.plurank.com
+                    - paragraph [ref=f127e284]: 서비스 링크(웹·앱 스토어), 시연 영상, GitHub 등 URL을 입력해 주세요.
+            - generic [ref=f127e285]:
+              - generic [ref=f127e286]: 프로젝트 상세 *
+              - generic [ref=f127e288]:
+                - generic [ref=f127e289]: 프로젝트 상세 *
+                - textbox "해당 프로젝트의 배경, 과정, 기술적 이슈, 해결 방안 등을 자유롭게 소개해 주세요. (TIP) 정량적 지표나 성공 사례를 포함하면 더욱 좋습니다." [ref=f127e293]:
+                  - /placeholder: "해당 프로젝트의 배경, 과정, 기술적 이슈, 해결 방안 등을 자유롭게 소개해 주세요.\n(TIP) 정량적 지표나 성공 사례를 포함하면 더욱 좋습니다."
+                  - text: "1) 프로젝트 소개: 인바운드 관광 플랫폼 올댓아너스클럽(K-Trip ONE)과 진행한 관광 AI 가시성(TouriGEO) 프로젝트입니다. 외국인 관광객이 생성형 AI에 한국 여행을 물을 때 콘텐츠가 인용되는지 다국어로 측정·진단했습니다. 2) 작업 범위: 12개국 IP 기반으로 국가별 관광 검색 질문 차이 분석, TouriGEO Score 측정, 다국어 AI 가시성 데이터 공유(MOU 체결). 3) 성과: 한국관광공사 제18회 초기관광벤처 선정으로 이어진 협력 사례, 12개월 협력. 4) 주안점: 인바운드 관광 GEO 표준을 공동으로 정립하고, 국가별로 다른 관광 검색 패턴을 데이터로 규명."
+                - generic [ref=f127e294]: 포트폴리오 이미지 등록 *
+                - generic [ref=f127e295]:
+                  - generic [ref=f127e296]:
+                    - img [ref=f127e297]
+                    - generic [ref=f127e298]: 시각 자료를 통해 프로젝트 완성도를 증명하고, 클라이언트가 더욱 신뢰할 수 있습니다.
+                  - generic [ref=f127e302] [cursor=pointer]:
+                    - img [ref=f127e303]
+                    - generic [ref=f127e304]: 포트폴리오 이미지 등록
+                    - generic [ref=f127e305]: 프로젝트 주요 화면 이미지를 업로드해 주세요.
+                    - generic [ref=f127e306]:
+                      - generic [ref=f127e307]: · 최대 10장의 이미지 등록 가능 (파일당 최대 8MB)
+                      - generic [ref=f127e308]: "· 포트폴리오 이미지 최적 사이즈 : 가로 736px"
+                      - generic [ref=f127e309]: · 이미지 파일 등록 가능 (JPG, JEPG, PNG, GIF 등)
+                  - generic [ref=f127e310] [cursor=pointer]:
+                    - img [ref=f127e311]
+                    - text: 이미지 추가
+            - generic [ref=f127e314]:
+              - generic [ref=f127e315]: 포트폴리오 플러스
+              - generic [ref=f127e316]:
+                - generic [ref=f127e317]:
+                  - img [ref=f127e318]
+                  - text: 포트폴리오 플러스는 클라이언트의 의뢰를 이끌어내는 업그레이드된 포트폴리오입니다.
+                - generic [ref=f127e319]:
+                  - img [ref=f127e320]
+                  - text: 위시켓 AI 추천 및 외부 마케팅에 활용되고 더 많은 수주 기회를 얻을 수 있습니다.
+              - img [ref=f127e321]
+            - generic [ref=f127e322]:
+              - generic [ref=f127e323]:
+                - generic [ref=f127e324]:
+                  - text: 프로젝트 배경
+                  - img [ref=f127e325]
+                - generic [ref=f127e326]: 프로젝트를 통해 해결하려는 문제나 달성하고자 한 목표를 적어주세요.
+              - 'textbox "1) 문제점 - 사내 문서가 여러 채널에 분산되어 있어 정보 검색이 어려움 - 내용이 같아도 파일명이 달라 검색이 불가능해 비효율 발생 - 개인 PC에 저장된 문서는 퇴사나 부서 이동 시 유실되어 업무 연속성에 영향 2) 프로젝트 목표 - 통합 검색: 여러 저장소의 문서를 한 번에 검색할 수 있는 기능 개발 - AI 기반 답변: 문서 분석을 통해 사용자 질문에 답하는 기능 개발 - 문서 유실 방지: 퇴사나 부서 이동 시 문서 유실 없이 보존하는 시스템 구축 3) 주안점 - 유사 파일명 및 내용 분석을 통한 정확한 검색 결과 제공 - 업무 연속성을 위한 문서 중앙화 및 접근성 개선 - 보안 강화를 위한 문서 접근 권한 관리" [ref=f127e330]':
+                - /placeholder: "1) 문제점\n- 사내 문서가 여러 채널에 분산되어 있어 정보 검색이 어려움\n- 내용이 같아도 파일명이 달라 검색이 불가능해 비효율 발생\n- 개인 PC에 저장된 문서는 퇴사나 부서 이동 시 유실되어 업무 연속성에 영향\n\n2) 프로젝트 목표\n- 통합 검색: 여러 저장소의 문서를 한 번에 검색할 수 있는 기능 개발\n- AI 기반 답변: 문서 분석을 통해 사용자 질문에 답하는 기능 개발\n- 문서 유실 방지: 퇴사나 부서 이동 시 문서 유실 없이 보존하는 시스템 구축\n\n3) 주안점\n- 유사 파일명 및 내용 분석을 통한 정확한 검색 결과 제공\n- 업무 연속성을 위한 문서 중앙화 및 접근성 개선\n- 보안 강화를 위한 문서 접근 권한 관리"
+            - generic [ref=f127e331]:
+              - generic [ref=f127e332]:
+                - generic [ref=f127e333]:
+                  - text: 프로젝트 성과
+                  - img [ref=f127e334]
+                - generic [ref=f127e335]: 주요 성과나 수치를 구체적으로 작성하여, 성과를 명확히 전달할 수 있습니다.
+              - generic [ref=f127e337]:
+                - img "정렬" [ref=f127e339] [cursor=pointer]
+                - generic [ref=f127e340]:
+                  - generic [ref=f127e343]:
+                    - textbox "예) 1:1 응답 처리 건수 50% 감소" [ref=f127e344]
+                    - generic: 성과명
+                  - generic [ref=f127e347]:
+                    - generic [ref=f127e348]: 설명
+                    - generic [ref=f127e349]: 0/120
+                    - textbox "예) 주당 300건 발생하던 응답 건수가 벨루가 AI 기반 솔루션 도입 후 150건으로 감소" [ref=f127e351]
+                    - generic [ref=f127e352]: 성과에 대한 설명을 입력해 주세요.
+              - generic [ref=f127e353] [cursor=pointer]:
+                - img "추가" [ref=f127e354]
+                - generic [ref=f127e355]: 프로젝트 성과 추가
+            - generic [ref=f127e356]:
+              - generic [ref=f127e357]:
+                - generic [ref=f127e358]:
+                  - text: 진행 단계
+                  - img [ref=f127e359]
+                - generic [ref=f127e360]: 프로젝트가 어떤 단계를 거쳐 완료되었는지, 타임라인 방식으로 작성해 주세요.
+                - generic [ref=f127e361]:
+                  - text: 예)
+                  - generic [ref=f127e362]:
+                    - text: 기획
+                    - img [ref=f127e363]
+                    - text: 디자인
+                    - img [ref=f127e364]
+                    - text: 개발
+                    - img [ref=f127e365]
+                    - text: 테스트
+                    - img [ref=f127e366]
+                    - text: 런칭
+              - generic [ref=f127e368]:
+                - img "정렬" [ref=f127e370] [cursor=pointer]
+                - generic [ref=f127e371]:
+                  - generic [ref=f127e372]:
+                    - generic [ref=f127e374]:
+                      - textbox "예) 기획 및 요구사항 정의" [ref=f127e375]
+                      - generic: 진행 단계
+                    - generic [ref=f127e377]:
+                      - textbox "YYYY.MM." [ref=f127e378]
+                      - generic: 시작 연월
+                  - generic [ref=f127e381]:
+                    - generic [ref=f127e382]: 설명
+                    - generic [ref=f127e383]: 0/120
+                    - 'textbox "예) ‘과목별 AI 튜터’ 범위 확정 : 문제 제출, 강의 요약, 교안 Q&A" [ref=f127e385]'
+                    - generic [ref=f127e386]: 진행 단계에 대한 설명을 입력해 주세요.
+              - generic [ref=f127e387] [cursor=pointer]:
+                - img "추가" [ref=f127e388]
+                - generic [ref=f127e389]: 진행 단계 추가
+            - generic [ref=f127e390]:
+              - generic [ref=f127e391]:
+                - generic [ref=f127e392]:
+                  - text: 핵심 기능
+                  - img [ref=f127e393]
+                - generic [ref=f127e394]: 프로젝트의 핵심이 되는 주요 기능, 특징을 작성해 주세요.
+              - generic [ref=f127e396]:
+                - img "정렬" [ref=f127e398] [cursor=pointer]
+                - generic [ref=f127e399]:
+                  - generic [ref=f127e402]:
+                    - textbox "예) 실시간 문제 제출 및 AI 피드백" [ref=f127e403]
+                    - generic: 기능명
+                  - generic [ref=f127e406]:
+                    - generic [ref=f127e407]: 설명
+                    - generic [ref=f127e408]: 0/120
+                    - textbox "예) 학생이 과제나 질문을 LMS에 업로드하면, AI가 1차 피드백을 실시간 제공" [ref=f127e410]
+                    - generic [ref=f127e411]: 기능에 대한 설명을 입력해 주세요.
+                  - generic [ref=f127e413]:
+                    - generic [ref=f127e415] [cursor=pointer]:
+                      - img "이미지 추가" [ref=f127e416]
+                      - generic [ref=f127e417]:
+                        - generic [ref=f127e418]: "0"
+                        - img [ref=f127e419]
+                        - generic [ref=f127e421]: "3"
+                    - generic [ref=f127e422]: JPG, JEPG, PNG, GIF 파일 등록 가능 (최대 8MB)
+              - generic [ref=f127e423] [cursor=pointer]:
+                - img "추가" [ref=f127e424]
+                - generic [ref=f127e425]: 핵심 기능 추가
+        - generic [ref=f127e426]:
+          - note [ref=f127e428]:
+            - img [ref=f127e430]
+            - paragraph [ref=f127e433]:
+              - text: 이메일, 전화번호, 회사명, 회사 홈페이지 등 외부 연락 수단을 게시하면
+              - text: 해당 내용은 삭제되며, 서비스 이용이 제한될 수 있습니다.
+          - generic [ref=f127e434]:
+            - generic [ref=f127e435]:
+              - generic [ref=f127e436] [cursor=pointer]: 공개
+              - generic [ref=f127e437] [cursor=pointer]: 나만 보기
+            - generic [ref=f127e633]:
+              - img [ref=f127e634]
+              - generic [ref=f127e635]: 임시 저장됨
+            - generic [ref=f127e438]:
+              - button "취소" [ref=f127e439] [cursor=pointer]
+              - button "등록" [ref=f127e440] [cursor=pointer]
+          - paragraph
+      - generic [ref=f127e442]:
+        - note [ref=f127e444]:
+          - img [ref=f127e446]
+          - paragraph [ref=f127e449]:
+            - text: 이메일, 전화번호, 회사명, 회사 홈페이지 등 외부 연락 수단을 게시하면
+            - text: 해당 내용은 삭제되며, 서비스 이용이 제한될 수 있습니다.
+        - generic [ref=f127e450]:
+          - generic [ref=f127e451]:
+            - generic [ref=f127e452] [cursor=pointer]: 공개
+            - generic [ref=f127e453] [cursor=pointer]: 나만 보기
+          - generic [ref=f127e637]:
+            - img [ref=f127e638]
+            - generic [ref=f127e639]: 임시 저장됨
+          - generic [ref=f127e454]:
+            - button "취소" [ref=f127e455] [cursor=pointer]
+            - button "등록" [ref=f127e456] [cursor=pointer]
+    - generic [ref=f127e457]:
+      - generic [ref=f127e458]:
+        - generic [ref=f127e459]:
+          - generic [ref=f127e460]:
+            - text: 포트폴리오 완성도
+            - generic [ref=f127e461]: "40"
+            - img [ref=f127e462]
+          - img [ref=f127e467]
+        - generic [ref=f127e468]:
+          - generic [ref=f127e469]: 기본
+          - generic [ref=f127e470]:
+            - generic [ref=f127e471] [cursor=pointer]:
+              - text: 포트폴리오 제목
+              - img [ref=f127e660]
+            - generic [ref=f127e473] [cursor=pointer]:
+              - text: 포트폴리오 표지
+              - img [ref=f127e474]
+            - generic [ref=f127e475] [cursor=pointer]:
+              - text: 업무 범위 및 분야
+              - img [ref=f127e1267]
+            - generic [ref=f127e477] [cursor=pointer]:
+              - text: 참여 기간
+              - img [ref=f127e686]
+            - generic [ref=f127e479] [cursor=pointer]:
+              - text: 프로젝트 상세
+              - img [ref=f127e661]
+        - generic [ref=f127e481]:
+          - generic [ref=f127e482]:
+            - text: 포트폴리오 플러스
+            - img [ref=f127e483]
+          - generic [ref=f127e484]:
+            - generic [ref=f127e485] [cursor=pointer]:
+              - text: 프로젝트 배경
+              - img [ref=f127e486]
+            - generic [ref=f127e487] [cursor=pointer]:
+              - text: 프로젝트 성과
+              - img [ref=f127e488]
+            - generic [ref=f127e489] [cursor=pointer]:
+              - text: 진행 단계
+              - img [ref=f127e490]
+            - generic [ref=f127e491] [cursor=pointer]:
+              - text: 핵심 기능
+              - img [ref=f127e492]
+      - generic [ref=f127e493] [cursor=pointer]:
+        - generic [ref=f127e495]: 다른 파트너의 포트폴리오가 궁금하다면?
+        - img [ref=f127e496]
+  - contentinfo [ref=f127e497]:
+    - generic [ref=f127e498]:
+      - generic [ref=f127e499]:
+        - generic [ref=f127e500]:
+          - generic [ref=f127e501]: 서비스 전체보기
+          - link "위시켓" [ref=f127e502] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+            - img [ref=f127e503]
+            - text: 위시켓
+          - link "요즘IT" [ref=f127e504] [cursor=pointer]:
+            - /url: /magazine/
+            - img [ref=f127e505]
+            - text: 요즘IT
+          - link "AIDP - AX" [ref=f127e506] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+            - img [ref=f127e507]
+            - text: AIDP - AX
+          - link "Rise ERP" [ref=f127e508] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+            - img [ref=f127e509]
+            - text: Rise ERP
+        - generic [ref=f127e510]:
+          - link [ref=f127e511] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+            - img [ref=f127e512]
+          - link [ref=f127e513] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+            - img [ref=f127e514]
+          - link [ref=f127e515] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+            - img [ref=f127e516]
+      - generic [ref=f127e517]:
+        - generic [ref=f127e518]:
+          - paragraph [ref=f127e519]:
+            - img [ref=f127e520]
+            - text: 고객 문의
+          - link "02-6925-4849" [ref=f127e521] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f127e522]:
+            - generic [ref=f127e523]: 10:00-18:00
+            - generic [ref=f127e524]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f127e525] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f127e526]:
+          - paragraph [ref=f127e527]: 위시켓
+          - link "위시켓 소개" [ref=f127e528] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f127e529] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f127e530]:
+          - paragraph [ref=f127e531]: 이용방법
+          - link "클라이언트 이용방법" [ref=f127e532] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f127e533] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f127e534] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f127e535] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f127e536]:
+          - paragraph [ref=f127e537]: 고객센터
+          - link "클라이언트 고객센터" [ref=f127e538] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f127e539] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f127e540]:
+          - link "뉴스센터" [ref=f127e541] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f127e542] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f127e543] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f127e544] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f127e545]:
+        - link "이용약관" [ref=f127e546] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f127e548] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f127e549]:
+        - generic [ref=f127e550]:
+          - generic [ref=f127e551]: ㈜위시켓
+          - generic [ref=f127e553]: "대표이사 : 박우범"
+          - generic [ref=f127e555]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f127e556]:
+          - generic [ref=f127e557]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f127e559]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f127e561]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f127e562]: © 2013 Wishket Corp.
+  - text: · ·
+  - generic [ref=f127e563]:
+    - navigation [ref=f127e564]:
+      - generic [ref=f127e565]: 2026년 07월
+      - img [ref=f127e567] [cursor=pointer]
+    - generic [ref=f127e580]:
+      - generic [ref=f127e581]:
+        - generic [ref=f127e582]: 일
+        - generic [ref=f127e583]: 월
+        - generic [ref=f127e584]: 화
+        - generic [ref=f127e585]: 수
+        - generic [ref=f127e586]: 목
+        - generic [ref=f127e587]: 금
+        - generic [ref=f127e588]: 토
+      - generic [ref=f127e589]:
+        - generic [ref=f127e593]: "1"
+        - generic [ref=f127e594]: "2"
+        - generic [ref=f127e595]: "3"
+        - generic [ref=f127e596]: "4"
+        - generic [ref=f127e597]: "5"
+        - generic [ref=f127e598]: "6"
+        - generic [ref=f127e599]: "7"
+        - generic [ref=f127e600]: "8"
+        - generic [ref=f127e601]: "9"
+        - generic [ref=f127e602]: "10"
+        - generic [ref=f127e603]: "11"
+        - generic [ref=f127e604]: "12"
+        - generic [ref=f127e605]: "13"
+        - generic [ref=f127e606]: "14"
+        - generic [ref=f127e607]: "15"
+        - generic [ref=f127e608]: "16"
+        - generic [ref=f127e609]: "17"
+        - generic [ref=f127e610] [cursor=pointer]: "18"
+        - generic [ref=f127e611] [cursor=pointer]: "19"
+        - generic [ref=f127e612] [cursor=pointer]: "20"
+        - generic [ref=f127e613] [cursor=pointer]: "21"
+        - generic [ref=f127e614] [cursor=pointer]: "22"
+        - generic [ref=f127e615] [cursor=pointer]: "23"
+        - generic [ref=f127e616] [cursor=pointer]: "24"
+        - generic [ref=f127e617] [cursor=pointer]: "25"
+        - generic [ref=f127e618] [cursor=pointer]: "26"
+        - generic [ref=f127e619] [cursor=pointer]: "27"
+        - generic [ref=f127e620] [cursor=pointer]: "28"
+        - generic [ref=f127e621] [cursor=pointer]: "29"
+        - generic [ref=f127e622] [cursor=pointer]: "30"
+        - generic [ref=f127e623] [cursor=pointer]: "31"
+  - button "위시켓(wishket) 상담 버튼" [ref=f127e626]:
+    - generic [ref=f127e627] [cursor=pointer]:
+      - generic [ref=f127e628]: 위시켓(wishket) 상담 버튼
+      - img [ref=f127e630]

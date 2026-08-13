@@ -1,0 +1,572 @@
+- generic [ref=e1]:
+  - banner:
+    - link "Skip to Main" [ref=e2] [cursor=pointer]:
+      - /url: "#Page-content"
+    - generic [ref=e3]:
+      - button "Link to open BCG site menu" [ref=e4] [cursor=pointer]
+      - link "Link to BCG home page" [ref=e8] [cursor=pointer]:
+        - /url: https://www.bcg.com/
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - button "Open BCG site search input" [ref=e14]
+        - generic:
+          - group:
+            - generic [ref=e19]:
+              - textbox "Type to search" [ref=e20]
+              - listbox "menu-options"
+      - button "Link to login" [ref=e23] [cursor=pointer]:
+        - generic: Log in
+  - region [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "We’re Building Tomorrow" [level=1] [ref=e27]
+        - generic [ref=e28]: BCG X is the tech build and design unit of BCG.
+      - button "pause" [ref=e32] [cursor=pointer]
+  - main [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - heading "We disrupt the present and create the future by building bold new products, services, and businesses." [level=4] [ref=e39]
+        - paragraph
+        - paragraph [ref=e40]: Tomorrow belongs to those who build it. Turbocharging BCG’s deep industry and functional expertise, we bring together advanced tech knowledge and ambitious entrepreneurship to help organizations launch their next big bets and enable innovation at scale. We are technologists, scientists, programmers, engineers, and human-centered designers who build to address the world’s most important challenges and opportunities. We are BCG X.
+      - link "Contact Us" [ref=e42] [cursor=pointer]:
+        - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=QkNHWG1hcmtldGluZ0BiY2cuY29t&isContactFormLink=true');
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: 3000+
+        - generic [ref=e48]: nearly 3000 experts
+      - generic [ref=e49]:
+        - generic [ref=e50]: "80"
+        - generic [ref=e51]: cities
+      - generic [ref=e52]:
+        - generic [ref=e53]: 82+
+        - generic [ref=e54]: patents and patents pending
+      - generic [ref=e55]:
+        - generic [ref=e56]: 30+
+        - generic [ref=e57]: tech and business partnerships
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - heading "What We Do" [level=2] [ref=e62]
+          - generic [ref=e63]: BCG X unites 3,000+ tech builders, designers, and entrepreneurs to deliver integrated, end-to-end solutions that maximize impact at scale. With our deep industry knowledge and world-class expertise in technology, AI and GenAI, and design, we enable clients to comprehensively transform their organizations and rapidly build game-changing new products, services, and businesses that are ready to run from day one.
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - img "Lottie animation" [ref=e72]
+            - generic [ref=e75]:
+              - heading "AI & GENAI" [level=3] [ref=e76]
+              - paragraph [ref=e78]: We harness the value of predictive AI and GenAI to deliver transformative business impact. Powered by our suite of proprietary AI assets, we help clients deploy solutions at scale, reshape critical functions end to end, and build new AI-driven experiences, offerings, and business models.
+              - paragraph [ref=e80]:
+                - text: Led by
+                - link "Nicolas de Bellefonds" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.bcg.com/about/people/experts/nicolas-de-bellefonds
+              - link "Contact us" [ref=e83] [cursor=pointer]:
+                - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=QkNHWG1hcmtldGluZ0BiY2cuY29t&isContactFormLink=true');
+          - generic: CX for Growth
+          - generic: Delivery
+          - generic: Large platforms
+          - generic: Business Builds
+      - generic [ref=e89]:
+        - link "BCG X AI Science Institute" [ref=e91] [cursor=pointer]:
+          - /url: https://www.bcg.com/x/bcg-x-ai-science-institute
+        - generic [ref=e92]: In partnership with universities, industry experts, and leading R&D teams, the BCG X AI Science Institute drives progress by leveraging AI to advance scientific research and accelerate breakthroughs from innovation to impact.
+        - link "Discover what's next" [ref=e94] [cursor=pointer]:
+          - /url: https://www.bcg.com/x/bcg-x-ai-science-institute
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - heading "Our Impact" [level=2] [ref=e98]
+          - generic [ref=e99]: Together with BCG, we partner with clients to build, operate, scale, and transfer capabilities and solutions that generate the greatest amount of impact for business and society. We create the critical mass needed to help organizations mark their breakthrough moments.
+          - link "Explore Client Stories" [ref=e102] [cursor=pointer]:
+            - /url: https://www.bcg.com/x/mark-your-moment
+        - generic [ref=e104]:
+          - navigation "Carousel carousel-2" [ref=e105]:
+            - generic [ref=e106]:
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Client Impact
+                  - link "How Reckitt Reinvented Innovation-to-Launch with AI" [ref=e119] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/mark-your-moment/global-consumer-goods-leader-finds-efficiency-gains-with-genai-platform
+                - generic [ref=e120]: Global consumer goods leader has partnered with BCG X to implement a GenAI platform which has fueled a 60% efficiency boost.
+                - link "Learn More" [ref=e124] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/mark-your-moment/global-consumer-goods-leader-finds-efficiency-gains-with-genai-platform
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Client Impact
+                  - link "Optimizing Scheduling with AI at Rio Tinto" [ref=e137] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai
+                - generic [ref=e138]: Discover how a major mining operation in Western Australia partnered with BCG X to revolutionize its processes using a cutting-edge AI scheduling platform, boosting productivity and operational efficiency.
+                - link "Learn More" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai
+          - generic [ref=e143]:
+            - button "View slide 1" [ref=e144] [cursor=pointer]
+            - button "View slide 2" [ref=e145] [cursor=pointer]
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "BCG X Product Library" [level=2] [ref=e148]
+          - generic [ref=e149]: Our industry-grade solutions are designed for high-value use cases, empowering clients to maximize impact and redefine industries for the future. Find a selection of our products below, or discover the full portfolio.
+          - link "Explore product library" [ref=e152] [cursor=pointer]:
+            - /url: https://www.bcg.com/x/product-library
+        - generic [ref=e154]:
+          - navigation "Carousel carousel-3" [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e159]:
+                - img "DeepCustomerEngagementAI_Logo_Dark_RGB 1.svg" [ref=e163]
+                - generic [ref=e168]:
+                  - link "Deep Customer Engagement AI by BCG X" [ref=e170] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/deep-ai-powered-customer-management
+                  - generic [ref=e171]: By integrating AI in customer experience management, companies can increase customer acquisition, upselling & cross-selling and decrease churn.
+                  - link "Deep Customer Engagement AI by BCG X" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/deep-ai-powered-customer-management
+                - link "Deep Customer Engagement AI by BCG X" [ref=e179] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/deep-ai-powered-customer-management
+              - generic [ref=e182]:
+                - img "FabriqPersonalizationAI_Logo_Dark_RGB.svg" [ref=e186]
+                - generic [ref=e191]:
+                  - link "Fabriq Personalization AI by BCG X" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/fabriq-marketing-personalization-platform
+                  - generic [ref=e194]: Fast-track your customized marketing efforts with Fabriq Personalization AI by BCG X. Read more to find out how to unleash the power of data driven marketing.
+                  - link "Fabriq Personalization AI by BCG X" [ref=e197] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/fabriq-marketing-personalization-platform
+                - link "Fabriq Personalization AI by BCG X" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/fabriq-marketing-personalization-platform
+              - generic [ref=e205]:
+                - img "RetailAI_Logo_Dark_RGB.svg" [ref=e209]
+                - generic [ref=e214]:
+                  - link "Retail AI by BCG X" [ref=e216] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/retail-ai
+                  - generic [ref=e217]: BCG X’s retail AI software leverages customer data and establishes competitive advantage by unlocking key advantages in pricing, operations, supply chain and more.
+                  - link "Retail AI by BCG X" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/retail-ai
+                - link "Retail AI by BCG X" [ref=e225] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/retail-ai
+              - generic [ref=e228]:
+                - img "SupplyChainAI Logo Dark | BCG X" [ref=e232]
+                - generic [ref=e237]:
+                  - link "Supply Chain AI by BCG X" [ref=e239] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/supply-chain-ai
+                  - generic [ref=e240]: Supply Chain AI by BCG X takes a holistic approach to transforming a company’s supply chain, from strategy and design through integrated planning and optimized execution. Backed by a unique set of AI solutions from BCG X, we enhance seven key supply chain capabilities while developing the plans, processes, skills, and culture that fuel and accelerate transformation.
+                  - link "Supply Chain AI by BCG X" [ref=e243] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/supply-chain-ai
+                - link "Supply Chain AI by BCG X" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/supply-chain-ai
+              - generic [ref=e251]:
+                - img "SmartBankingAI Logo Dark | BCG X" [ref=e255]
+                - generic [ref=e260]:
+                  - link "Smart Banking AI by BCG X" [ref=e262] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/ai-in-financial-services
+                  - generic [ref=e263]: The use of AI in financial services can enable banks to build deeper customer relationships by delivering bespoke solutions. Learn about Smart Banking AI by BCG X here.
+                  - link "Smart Banking AI by BCG X" [ref=e266] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/ai-in-financial-services
+                - link "Smart Banking AI by BCG X" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/ai-in-financial-services
+              - generic [ref=e274]:
+                - generic [ref=e282]:
+                  - link "Auto AI by BCG X" [ref=e284] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/auto-ai
+                  - generic [ref=e285]: BCG X auto AI solutions combines business and technology expertise to tackle challenges phased when implementing AI in the automotive industry.
+                  - link "Auto AI by BCG X" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.bcg.com/x/product-library/auto-ai
+                - link "Auto AI by BCG X" [ref=e293] [cursor=pointer]:
+                  - /url: https://www.bcg.com/x/product-library/auto-ai
+          - generic [ref=e294]:
+            - button "View slide 1" [ref=e295] [cursor=pointer]
+            - button "View slide 2" [ref=e296] [cursor=pointer]
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - heading "Products That Made Us" [level=2] [ref=e300]
+          - generic [ref=e301]: Go behind the scenes of BCG X’s industry-leading AI solutions—and meet the people and ideas that brought them to life.
+        - generic [ref=e307]:
+          - button "Play Video" [ref=e311] [cursor=pointer]:
+            - 'img "A Catalyst for Action: The Power of Climate & Sustainability AI by BCG X" [ref=e313]'
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e317]:
+                - generic [ref=e318]: Video
+                - generic [ref=e319]: June 8, 2026
+              - generic [ref=e320]: "A Catalyst for Action: The Power of Climate & Sustainability AI by BCG X"
+            - generic [ref=e321]: Hamid Maher discusses the vision behind Climate & Sustainability AI by BCG X and the role AI can play in helping organizations navigate climate risk.
+            - button "Play Video" [ref=e325] [cursor=pointer]
+      - link "Watch More" [ref=e333] [cursor=pointer]:
+        - /url: https://www.bcg.com/x/products-that-made-us
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "News and Insights" [level=2] [ref=e337]
+          - generic [ref=e338]: We dig deep to uncover the latest insights in an ever-changing landscape. Read the current ideas and perspectives on the challenges and opportunities facing CEOs and senior world leaders—both today and tomorrow.
+        - generic [ref=e341]:
+          - navigation "Carousel carousel-5" [ref=e342]:
+            - generic [ref=e343]:
+              - generic [ref=e346]:
+                - generic [ref=e350]: Personalization
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - generic [ref=e355]:
+                      - generic [ref=e356]: Article
+                      - generic [ref=e357]: July 2, 2026
+                    - link "The End of Marketing Campaigns as We Know Them" [ref=e359] [cursor=pointer]:
+                      - /url: https://www.bcg.com/publications/2026/agent-native-marketing-operating-model
+                  - generic [ref=e360]: The technology and the science needed to transition to agent-native next-best action are already available. The hardest remaining task is to change the prevailing ways of working.
+              - generic [ref=e364]:
+                - img "The Science Behind Next-Best Action| Rectangle" [ref=e368]
+                - generic [ref=e369]: Personalization
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: Article
+                      - generic [ref=e376]: June 17, 2026
+                    - link "The Science Behind Next-Best Action" [ref=e378] [cursor=pointer]:
+                      - /url: https://www.bcg.com/publications/2026/the-science-behind-next-best-action-programs
+                  - generic [ref=e379]: Agent-native NBA requires models capable of exploring pathways that humans never designed, as well as learning loops that operate without human intervention and an architecture that encompasses different classes of algorithms.
+              - generic [ref=e383]:
+                - generic [ref=e387]: Artificial Intelligence
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - generic [ref=e392]:
+                      - generic [ref=e393]: Slideshow
+                      - generic [ref=e394]: June 3, 2026
+                    - 'link "AI at Work: Strategy Matters More Than Tools" [ref=e396] [cursor=pointer]':
+                      - /url: https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+                  - generic [ref=e397]: Our fourth annual global survey reveals that AI is changing jobs faster than companies are redesigning operations to keep up—and strategic clarity is crucial to long-term success.
+              - generic [ref=e401]:
+                - generic [ref=e405]: Generative AI
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Article
+                      - generic [ref=e412]: May 29, 2026
+                    - link "Want Consumer Insights Faster? AI Can Help." [ref=e414] [cursor=pointer]:
+                      - /url: https://www.bcg.com/publications/2026/want-consumer-insights-faster-ai-can-help
+                  - generic [ref=e415]: Synthetic, GenAI-based tools let companies test concepts, pricing, and other factors, with results that are nearly as insightful and accurate as if they came from real people.
+              - generic [ref=e419]:
+                - generic [ref=e423]: Artificial Intelligence
+                - generic [ref=e425]:
+                  - generic [ref=e426]:
+                    - generic [ref=e428]:
+                      - generic [ref=e429]: Article
+                      - generic [ref=e430]: May 26, 2026
+                    - link "Your AI Won’t Scale Without a Shared Language" [ref=e432] [cursor=pointer]:
+                      - /url: https://www.bcg.com/publications/2026/your-ai-wont-scale-without-a-shared-language
+                  - generic [ref=e433]: Ontology is the missing layer in enterprise data architecture—the secret for taking AI beyond isolated pilots and hype. It transforms knowledge into business impact.
+              - generic [ref=e437]:
+                - generic [ref=e441]: Responsible AI
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e446]:
+                      - generic [ref=e447]: Article
+                      - generic [ref=e448]: March 26, 2026
+                    - link "AI Risk Management Needs a Better Model" [ref=e450] [cursor=pointer]:
+                      - /url: https://www.bcg.com/publications/2026/ai-risk-management-needs-a-better-model
+                  - generic [ref=e451]: Companies need a new approach to managing AI risk—one that is fast and fluid for familiar uses but thorough and deep for novel uses.
+          - generic [ref=e453]:
+            - button "View slide 1" [ref=e454] [cursor=pointer]
+            - button "View slide 2" [ref=e455] [cursor=pointer]
+      - generic [ref=e457]:
+        - 'link "The Multiplier: BCG X’s Official Blog" [ref=e459] [cursor=pointer]':
+          - /url: https://www.bcg.com/x/the-multiplier
+        - generic [ref=e460]: At the intersection of innovation and experience, BCG X experts navigate the trends and technologies transforming business and society.
+        - link "Visit The Blog" [ref=e462] [cursor=pointer]:
+          - /url: https://www.bcg.com/x/the-multiplier
+      - generic [ref=e463]:
+        - generic [ref=e464]:
+          - heading "Our Experts" [level=2] [ref=e465]
+          - generic [ref=e466]: BCG X is the workplace destination for tech, design, and entrepreneurial minds. We invest in ingenuity, empower collaboration, and bring together a focused breadth and depth of diverse talent to multiply our collective impact.
+        - list [ref=e471]:
+          - listitem [ref=e472]:
+            - generic [ref=e473]:
+              - generic [ref=e474]:
+                - generic [ref=e475]: Heidi Kim
+                - generic [ref=e476]: Managing Director and Partner Formerly of Zest AI
+              - img "Headshot of BCG expert Heidi Kim" [ref=e479]
+              - generic [ref=e480]: “I’m passionate about bringing world-class customer experience to government services and helping governments better spend taxpayer dollars by applying lean, startup methodologies.”
+          - listitem [ref=e481]:
+            - generic [ref=e482]:
+              - generic [ref=e483]:
+                - generic [ref=e484]: Nick Cristea
+                - generic [ref=e485]: Vice President - Experience Design Formerly of AllofUS
+              - img "BCG X Nick Cristea" [ref=e488]
+              - generic [ref=e489]: “As a veteran design leader, I’m excited to lead BCG X’s world-class talent as we accelerate change in health care and cleantech.”
+          - listitem [ref=e490]:
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - generic [ref=e493]: Yong Zhao
+                - generic [ref=e494]: Principal - AI Engineering Formerly of Meta
+              - img "BCG X Yong Zhao" [ref=e497]
+              - generic [ref=e498]: "“I returned to BCG X after spending a year at Meta. I’m thrilled to be back: its client exposure and fast-paced, collaborative environment make BCG X one of a kind.”"
+          - listitem [ref=e499]:
+            - generic [ref=e500]:
+              - generic [ref=e501]:
+                - generic [ref=e502]: André Heeg
+                - generic [ref=e503]: Managing Director & Partner Formerly of Sandoz, Zocdoc
+              - img "Headshot of BCG expert André Heeg" [ref=e506]
+              - generic [ref=e507]: “There is so much potential in the health care sector. At BCG X, we’re helping corporations leverage their resources to unlock it.”
+          - listitem [ref=e508]:
+            - generic [ref=e509]:
+              - generic [ref=e510]:
+                - generic [ref=e511]: Heidi Kim
+                - generic [ref=e512]: Managing Director and Partner Formerly of Zest AI
+              - img "Headshot of BCG expert Heidi Kim" [ref=e515]
+              - generic [ref=e516]: “I’m passionate about bringing world-class customer experience to government services and helping governments better spend taxpayer dollars by applying lean, startup methodologies.”
+          - listitem [ref=e517]:
+            - generic [ref=e518]:
+              - generic [ref=e519]:
+                - generic [ref=e520]: Nick Cristea
+                - generic [ref=e521]: Vice President - Experience Design Formerly of AllofUS
+              - img "BCG X Nick Cristea" [ref=e524]
+              - generic [ref=e525]: “As a veteran design leader, I’m excited to lead BCG X’s world-class talent as we accelerate change in health care and cleantech.”
+          - listitem [ref=e526]:
+            - generic [ref=e527]:
+              - generic [ref=e528]:
+                - generic [ref=e529]: Yong Zhao
+                - generic [ref=e530]: Principal - AI Engineering Formerly of Meta
+              - img "BCG X Yong Zhao" [ref=e533]
+              - generic [ref=e534]: "“I returned to BCG X after spending a year at Meta. I’m thrilled to be back: its client exposure and fast-paced, collaborative environment make BCG X one of a kind.”"
+          - listitem [ref=e535]:
+            - generic [ref=e536]:
+              - generic [ref=e537]:
+                - generic [ref=e538]: André Heeg
+                - generic [ref=e539]: Managing Director & Partner Formerly of Sandoz, Zocdoc
+              - img "Headshot of BCG expert André Heeg" [ref=e542]
+              - generic [ref=e543]: “There is so much potential in the health care sector. At BCG X, we’re helping corporations leverage their resources to unlock it.”
+          - listitem [ref=e544]:
+            - generic [ref=e545]:
+              - generic [ref=e546]:
+                - generic [ref=e547]: Heidi Kim
+                - generic [ref=e548]: Managing Director and Partner Formerly of Zest AI
+              - img "Headshot of BCG expert Heidi Kim" [ref=e551]
+              - generic [ref=e552]: “I’m passionate about bringing world-class customer experience to government services and helping governments better spend taxpayer dollars by applying lean, startup methodologies.”
+          - listitem [ref=e553]:
+            - generic [ref=e554]:
+              - generic [ref=e555]:
+                - generic [ref=e556]: Nick Cristea
+                - generic [ref=e557]: Vice President - Experience Design Formerly of AllofUS
+              - img "BCG X Nick Cristea" [ref=e560]
+              - generic [ref=e561]: “As a veteran design leader, I’m excited to lead BCG X’s world-class talent as we accelerate change in health care and cleantech.”
+          - listitem [ref=e562]:
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - generic [ref=e565]: Yong Zhao
+                - generic [ref=e566]: Principal - AI Engineering Formerly of Meta
+              - img "BCG X Yong Zhao" [ref=e569]
+              - generic [ref=e570]: "“I returned to BCG X after spending a year at Meta. I’m thrilled to be back: its client exposure and fast-paced, collaborative environment make BCG X one of a kind.”"
+          - listitem [ref=e571]:
+            - generic [ref=e572]:
+              - generic [ref=e573]:
+                - generic [ref=e574]: André Heeg
+                - generic [ref=e575]: Managing Director & Partner Formerly of Sandoz, Zocdoc
+              - img "Headshot of BCG expert André Heeg" [ref=e578]
+              - generic [ref=e579]: “There is so much potential in the health care sector. At BCG X, we’re helping corporations leverage their resources to unlock it.”
+        - generic [ref=e581]:
+          - button "pause autoplay" [ref=e582] [cursor=pointer]
+          - button "go to previous slide" [ref=e585] [cursor=pointer]
+          - button "go to next slide" [ref=e588] [cursor=pointer]
+      - generic "Author Information" [ref=e591]:
+        - generic [ref=e592]:
+          - heading "Our Leadership" [level=2] [ref=e593]
+          - generic [ref=e594]: We’re led by a global team of BCG Xers who thrive on helping our clients achieve their goals. Let’s talk about how we can build tomorrow, together.
+        - generic [ref=e597]:
+          - generic [ref=e602]:
+            - paragraph [ref=e603]:
+              - link "Sylvain Duranton" [ref=e604] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/sylvain-duranton
+            - generic [ref=e605]:
+              - generic [ref=e606]: Managing Director & Senior Partner; Global Leader of BCG X
+              - generic [ref=e607]: Paris
+            - link "Send an email to Sylvain Duranton" [ref=e608] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=bWFya2V0aW5nLnNhbGVzQGJjZy5jb20%3D&isContactFormLink=true');
+          - generic [ref=e615]:
+            - paragraph [ref=e616]:
+              - link "Jon Ferris" [ref=e617] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/jon-ferris
+            - generic [ref=e618]:
+              - generic [ref=e619]: Managing Director & Partner; Chief Financial Officer, BCG X
+              - generic [ref=e620]: Boston
+            - link "Send an email to Jon Ferris" [ref=e621] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=RmVycmlzLkpvbkBiY2cuY29t&isContactFormLink=true');
+          - generic [ref=e628]:
+            - paragraph [ref=e629]: Yvette Bellamy
+            - generic [ref=e630]:
+              - generic [ref=e631]: Chief Operating Officer, BCG X
+              - generic [ref=e632]: Paris
+            - link "Send an email to Yvette Bellamy" [ref=e633] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=QmVsbGFteS5ZdmV0dGVAYmNnLmNvbQ%3D%3D&isContactFormLink=true');
+          - generic [ref=e640]:
+            - paragraph [ref=e641]:
+              - link "Jessica Apotheker" [ref=e642] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/jessica-apotheker
+            - generic [ref=e643]:
+              - generic [ref=e644]: CMO, Managing Director & Senior Partner
+              - generic [ref=e645]: Paris
+            - link "Send an email to Jessica Apotheker" [ref=e646] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=QXBvdGhla2VyLkplc3NpY2FAYmNnLmNvbQ%3D%3D&isContactFormLink=true');
+          - generic [ref=e653]:
+            - paragraph [ref=e654]:
+              - link "Peter Cho" [ref=e655] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/peter-cho
+            - generic [ref=e656]:
+              - generic [ref=e657]: Managing Director & Partner
+              - generic [ref=e658]: Singapore
+            - link "Send an email to Peter Cho" [ref=e659] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=Q2hvLlBldGVyQGJjZy5jb20%3D&isContactFormLink=true');
+          - generic [ref=e666]:
+            - paragraph [ref=e667]:
+              - link "Tristan Hoag" [ref=e668] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/hoag-tristan
+            - generic [ref=e669]:
+              - generic [ref=e670]: Managing Director & Senior Partner; North America Cochair, BCG X
+              - generic [ref=e671]: Chicago
+            - link "Send an email to Tristan Hoag" [ref=e672] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=SG9hZy5UcmlzdGFuQGJjZ3BsYXRpbmlvbi5jb20%3D&isContactFormLink=true');
+          - generic [ref=e679]:
+            - paragraph [ref=e680]:
+              - link "Olivier Bouffault" [ref=e681] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/olivier-bouffault
+            - generic [ref=e682]:
+              - generic [ref=e683]: Managing Director & Senior Partner; Europe, Middle East, South America, and Africa Chair, BCG X
+              - generic [ref=e684]: Paris
+            - link "Send an email to Olivier Bouffault" [ref=e685] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=Y29uc3VtZXJwcm9kdWN0c0BiY2cuY29t&isContactFormLink=true');
+          - generic [ref=e692]:
+            - paragraph [ref=e693]:
+              - link "Romain de Laubier" [ref=e694] [cursor=pointer]:
+                - /url: https://www.bcg.com/about/people/experts/romain-de-laubier
+            - generic [ref=e695]:
+              - generic [ref=e696]: Managing Director & Partner; Asia-Pacific Chair, BCG X
+              - generic [ref=e697]: Singapore
+            - link "Send an email to Romain de Laubier" [ref=e698] [cursor=pointer]:
+              - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=TWFkb2d1Y2hpLWdycDBAYmNnLmNvbQ%3D%3D&isContactFormLink=true');
+      - link "Contact Us" [ref=e706] [cursor=pointer]:
+        - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=QkNHWG1hcmtldGluZ0BiY2cuY29t&isContactFormLink=true');
+    - generic [ref=e708]:
+      - heading "Follow Us" [level=2] [ref=e709]
+      - generic [ref=e710]: Follow us on LinkedIn, Instagram or X for our latest updates.
+      - generic [ref=e711]:
+        - link "Link to linkedin" [ref=e713] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/bcg-x
+        - link "Link to instagram" [ref=e717] [cursor=pointer]:
+          - /url: https://www.instagram.com/bcgx__/
+        - link "Link to twitter" [ref=e721] [cursor=pointer]:
+          - /url: https://twitter.com/bcgx_
+    - generic [ref=e724]:
+      - heading "Explore Related Expertise" [level=2] [ref=e726]
+      - generic [ref=e728]:
+        - generic [ref=e730]:
+          - link "The Multiplier Blog by BCG X" [ref=e732] [cursor=pointer]:
+            - /url: https://www.bcg.com/x/the-multiplier
+          - generic [ref=e734]:
+            - generic [ref=e735]: Blog
+            - link "The Multiplier Blog by BCG X" [ref=e737] [cursor=pointer]:
+              - /url: https://www.bcg.com/x/the-multiplier
+        - generic [ref=e739]:
+          - link "Artificial Intelligence" [ref=e741] [cursor=pointer]:
+            - /url: https://www.bcg.com/capabilities/artificial-intelligence
+            - img "AI V2 Hero Video" [ref=e743]
+          - generic [ref=e744]:
+            - generic [ref=e745]: Capability
+            - link "Artificial Intelligence" [ref=e747] [cursor=pointer]:
+              - /url: https://www.bcg.com/capabilities/artificial-intelligence
+        - generic [ref=e749]:
+          - link "Digital, Technology, and Data" [ref=e751] [cursor=pointer]:
+            - /url: https://www.bcg.com/capabilities/digital-technology-data/overview
+          - generic [ref=e753]:
+            - generic [ref=e754]: Capability
+            - link "Digital, Technology, and Data" [ref=e756] [cursor=pointer]:
+              - /url: https://www.bcg.com/capabilities/digital-technology-data/overview
+  - contentinfo [ref=e757]:
+    - generic [ref=e758]:
+      - generic [ref=e759]: Unlocking the Potential of Those Who Advance the World
+      - list [ref=e760]:
+        - listitem [ref=e761]:
+          - link "Careers" [ref=e762] [cursor=pointer]:
+            - /url: https://careers.bcg.com
+        - listitem [ref=e763]:
+          - link "Alumni" [ref=e764] [cursor=pointer]:
+            - /url: https://www.bcg.com/alumni
+        - listitem [ref=e765]:
+          - link "Offices" [ref=e766] [cursor=pointer]:
+            - /url: https://www.bcg.com/offices/default
+        - listitem [ref=e767]:
+          - link "Subscribe" [ref=e768] [cursor=pointer]:
+            - /url: https://www.bcg.com/subscription
+        - listitem [ref=e769]:
+          - link "About" [ref=e770] [cursor=pointer]:
+            - /url: https://www.bcg.com/about/overview
+      - generic [ref=e771]:
+        - link "How can we assist you?" [ref=e773] [cursor=pointer]:
+          - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=YmNnY29udGFjdHVzQGJjZy5jb20%3D&isContactFormLink=true');
+        - generic [ref=e774]: We value the opportunity to connect with you. Please submit your inquiries and feedback, and our experienced professionals are ready to assist you.
+        - link "Contact Us" [ref=e777] [cursor=pointer]:
+          - /url: javascript:bcgContactForm('https://www.bcg.com/x/ContactUs?recipientEmail=YmNnY29udGFjdHVzQGJjZy5jb20%3D&isContactFormLink=true');
+    - generic [ref=e780]:
+      - list [ref=e783]:
+        - listitem [ref=e784] [cursor=pointer]: en|
+        - listitem [ref=e785] [cursor=pointer]: ja
+      - generic [ref=e786]:
+        - link "Link to BCG home page" [ref=e788] [cursor=pointer]:
+          - /url: https://www.bcg.com/
+        - generic [ref=e791]:
+          - generic [ref=e792]: Follow Us
+          - list [ref=e793]:
+            - listitem [ref=e794]:
+              - link "Link to linkedin" [ref=e795] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/boston-consulting-group
+            - listitem [ref=e798]:
+              - link "Link to facebook" [ref=e799] [cursor=pointer]:
+                - /url: https://www.facebook.com/BostonConsultingGroup
+            - listitem [ref=e802]:
+              - link "Link to twitter" [ref=e803] [cursor=pointer]:
+                - /url: https://x.com/BCG
+            - listitem [ref=e806]:
+              - link "Link to instagram" [ref=e807] [cursor=pointer]:
+                - /url: https://www.instagram.com/bcg/?hl=en
+            - listitem [ref=e810]:
+              - link "Link to youtube" [ref=e811] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/TheBCGVideo
+            - listitem [ref=e814]:
+              - link "Link to tiktok" [ref=e815] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@bcg_careers?
+        - list [ref=e818]:
+          - listitem [ref=e819]:
+            - link "Privacy Policy" [ref=e820] [cursor=pointer]:
+              - /url: https://www.bcg.com/about/privacy-policy
+          - listitem [ref=e821]:
+            - link "Terms Of Use" [ref=e822] [cursor=pointer]:
+              - /url: https://www.bcg.com/about/terms-of-use
+          - listitem [ref=e823]:
+            - link "Sitemap" [ref=e824] [cursor=pointer]:
+              - /url: https://www.bcg.com/sitemap
+          - listitem [ref=e825]:
+            - link "Responsible Disclosure" [ref=e826] [cursor=pointer]:
+              - /url: https://www.bcg.com/responsible-disclosure-program-terms-of-use
+          - listitem [ref=e827]:
+            - link "Cookie Preferences" [ref=e828] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=e830]:
+        - text: Boston Consulting Group is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, sexual orientation, gender identity / expression, national origin, protected veteran status, or any other characteristic protected under federal, state or local law, where applicable, and those with criminal histories will be considered in a manner consistent with applicable state and local laws.Pursuant to Transparency in Coverage final rules (85 FR 72158) set forth in the United States by The Departments of the Treasury, Labor, and Health and Human Services click
+        - link "here" [ref=e831] [cursor=pointer]:
+          - /url: https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?searchTerm=263232&lock=true
+        - text: to access required Machine Readable Files or
+        - link "here" [ref=e832] [cursor=pointer]:
+          - /url: https://www.aetna.com/individuals-families/member-rights-resources/rights/federal-no-surprises-act.html
+        - text: to access the Federal No Surprises Bill Act Disclosure.
+      - generic [ref=e833]: © 2026 Boston Consulting Group
+  - dialog "Your choices regarding the use of cookies on this site" [ref=e843]:
+    - generic [ref=e846]:
+      - generic "Your Choices Regarding Cookies on this Site bcg_logo_monogram_green" [ref=e847]:
+        - generic [ref=e848]:
+          - generic [ref=e849]:
+            - heading "We value your privacy" [level=2] [ref=e850]
+            - paragraph [ref=e851]: "Please provide your consent for cookie usage on BCG.com. We use the following cookie types:"
+            - list [ref=e852]:
+              - listitem [ref=e853]:
+                - strong [ref=e854]: Essential Cookies
+                - text: are necessary for the site to function and are always active. These cookies also remember the choices you make and provide a secure and enhanced experience.
+              - listitem [ref=e855]:
+                - strong [ref=e856]: Performance Cookies
+                - text: are used to provide a better user experience on the site, such as by measuring interactions with particular content so we can continue to offer you more relevant articles.
+              - listitem [ref=e857]:
+                - strong [ref=e858]: Advertising or Targeting Cookies
+                - text: on our site don’t store any of your direct personal information but identify a unique browser or device, and are used to potentially surface relevant material from other sites, and are primarily used by select social media and other partners.
+            - paragraph
+          - generic:
+            - button "Accept all and Close" [ref=e860] [cursor=pointer]
+            - button "Essential Cookies Only" [ref=e861] [cursor=pointer]
+            - button "View Details" [ref=e862] [cursor=pointer]
+      - link "Privacy Policy" [ref=e865] [cursor=pointer]:
+        - /url: https://www.bcg.com/about/privacy-policy?src=cmp

@@ -54,6 +54,12 @@ function cookieHeader(lang) {
 }
 
 export default function middleware(request) {
+  // 2026-08-13 랜딩 전면 개편으로 자동 언어 리다이렉트 비활성화.
+  // /en·/ja는 아직 구 디자인이라, 해외 방문자를 그쪽으로 보내면 새 랜딩을 못 본다.
+  // 두 페이지를 새 디자인으로 이관하면 아래 return을 지워 되살린다. (/en·/ja 직접 접근은 계속 가능)
+  return;
+
+  // eslint-disable-next-line no-unreachable
   if (request.method !== 'GET' && request.method !== 'HEAD') return;
 
   const url = new URL(request.url);

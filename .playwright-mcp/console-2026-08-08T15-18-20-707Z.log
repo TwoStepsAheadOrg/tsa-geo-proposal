@@ -1,0 +1,15 @@
+[     446ms] ReferenceError: mixpanel is not defined
+    at <anonymous>:1:19
+    at <anonymous>:1:223
+    at https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:974:429
+    at dT (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:976:31)
+    at Md.cT (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:973:92)
+    at Md.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:362:187)
+    at l.apply (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:283:465)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:246:711)
+    at fb (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:246:462)
+    at Md.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-NBHDMPB:307:473)
+[     456ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://auth.wishket.com/login?next=/partners/p/twostepsahead/cooperative_company/:0
+[   15346ms] [ERROR] Access to fetch at 'https://www.wishket.com/partners/p/twostepsahead/cooperative_company/' from origin 'https://auth.wishket.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://auth.wishket.com/login?next=/partners/p/twostepsahead/cooperative_company/:0
+[   15346ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.wishket.com/partners/p/twostepsahead/cooperative_company/:0
+[   15346ms] [ERROR] {"status":"warn","extra":{"message":"ClientAuth getAccessToken error","detail":{"error":{},"stack":"TypeError: Failed to fetch\n    at a (https://auth.wishket.com/_next/static/chunks/03l_kt0j-fdy~.js:4:7237)\n    at I (https://auth.wishket.com/_next/static/chunks/0.636t5m33j3w.js:1:100708)"}}} @ https://auth.wishket.com/_next/static/chunks/03l_kt0j-fdy~.js:3

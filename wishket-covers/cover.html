@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1280, initial-scale=1" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<script>
+  (function(){ var d=(new URLSearchParams(location.search)).get('d')||'hansol';
+    document.write('<scr'+'ipt src="data-'+d.replace(/[^a-z0-9_-]/gi,'')+'.js"></scr'+'ipt>'); })();
+</script>
+<style>
+  :root{ --accent:#463cc0; --accent2:#6d63e6; --ink:#1c1830; --sub:#6b6880; --line:#eceaf4; --bg:#f6f5fb; --card:#ffffff; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ font-family:'Pretendard','Hiragino Kaku Gothic ProN','Noto Sans JP',system-ui,sans-serif; color:var(--ink); background:#e9e7f3; -webkit-font-smoothing:antialiased; }
+  #shot{ width:1280px; height:720px; background:var(--bg); display:flex; overflow:hidden; }
+  .side{ width:236px; flex:0 0 236px; background:#fbfbfe; border-right:1px solid var(--line); padding:18px 14px; display:flex; flex-direction:column; gap:14px; }
+  .logo{ font-weight:800; font-size:18px; letter-spacing:-.3px; display:flex; align-items:center; gap:7px; padding:4px 6px; }
+  .logo b{ color:var(--accent); font-weight:800; }
+  .logo .dot{ font-size:9px; color:#fff; background:var(--accent); border-radius:999px; padding:3px 7px; font-weight:700; letter-spacing:.5px; }
+  .newbtn{ border:1px solid var(--line); border-radius:11px; padding:11px 12px; font-weight:700; font-size:13.5px; color:#2a2540; background:#fff; }
+  .nav{ display:flex; flex-direction:column; gap:3px; margin-top:2px; }
+  .nav a{ display:flex; align-items:center; gap:9px; padding:9px 11px; border-radius:9px; font-size:14px; color:#4a4660; font-weight:600; text-decoration:none; }
+  .nav a.on{ background:#efedfb; color:var(--accent); }
+  .hgroup{ margin-top:8px; }
+  .hgroup .cap{ font-size:11px; color:#a7a4bb; font-weight:700; padding:6px 10px 4px; letter-spacing:.2px; }
+  .hgroup .it{ font-size:12.5px; color:#6b6880; padding:6px 10px; border-radius:8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .side .foot{ margin-top:auto; font-size:11px; color:#b6b3c8; padding:6px 8px; }
+  .main{ flex:1; padding:30px 34px; overflow:hidden; }
+  .top{ display:flex; justify-content:space-between; align-items:flex-start; }
+  .h1{ font-size:26px; font-weight:800; letter-spacing:-.5px; }
+  .sub{ margin-top:7px; font-size:14.5px; color:var(--sub); }
+  .sub b{ color:#3a3550; font-weight:700; }
+  .newana{ border:1px solid var(--line); background:#fff; border-radius:9px; padding:8px 14px; font-size:12.5px; color:#6b6880; font-weight:600; white-space:nowrap; }
+  .kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:22px; }
+  .kpi{ background:var(--card); border:1px solid var(--line); border-radius:15px; padding:16px 18px; }
+  .kpi .l{ font-size:12.5px; color:var(--sub); font-weight:600; }
+  .kpi .v{ font-size:29px; font-weight:800; margin-top:9px; letter-spacing:-.5px; display:flex; align-items:baseline; gap:8px; }
+  .kpi .v small{ font-size:14px; color:#9a97ae; font-weight:600; }
+  .kpi .d{ font-size:12px; font-weight:700; color:#12a150; background:#e7f7ee; border-radius:999px; padding:2px 8px; align-self:center; }
+  .seclab{ margin-top:26px; font-size:12.5px; color:#9a97ae; font-weight:700; }
+  .recs{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:12px; }
+  .rec{ background:var(--card); border:1px solid var(--line); border-radius:15px; padding:17px 18px; }
+  .rec .ic{ font-size:19px; }
+  .rec .t{ font-size:14.5px; font-weight:800; margin-top:9px; letter-spacing:-.2px; }
+  .rec .b{ font-size:12.7px; color:var(--sub); margin-top:7px; line-height:1.55; }
+  .rec .c{ margin-top:13px; font-size:12.5px; font-weight:700; color:var(--accent); }
+  .brow{ display:grid; grid-template-columns:1.35fr 1fr; gap:14px; margin-top:16px; }
+  .panel{ background:var(--card); border:1px solid var(--line); border-radius:15px; padding:17px 20px; }
+  .panel .ph{ font-size:14px; font-weight:800; letter-spacing:-.2px; }
+  .bars{ display:flex; align-items:flex-end; gap:16px; height:150px; margin-top:20px; padding:0 4px; }
+  .bars .col{ flex:1; display:flex; flex-direction:column; align-items:center; gap:8px; height:100%; justify-content:flex-end; }
+  .bars .bar{ width:64%; border-radius:8px 8px 3px 3px; background:linear-gradient(180deg,var(--accent2),var(--accent)); }
+  .bars .dl{ font-size:11.5px; color:#9a97ae; font-weight:600; }
+  .mix{ margin-top:16px; display:flex; flex-direction:column; gap:13px; }
+  .mrow{ display:grid; grid-template-columns:104px 1fr 42px; align-items:center; gap:10px; }
+  .mrow .ml{ font-size:12.7px; color:#4a4660; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mrow .mb{ height:9px; background:#efedf6; border-radius:999px; overflow:hidden; }
+  .mrow .mb span{ display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
+  .mrow .mp{ font-size:12.3px; color:#6b6880; font-weight:700; text-align:right; }
+</style>
+</head>
+<body>
+  <div id="shot">
+    <aside class="side">
+      <div class="logo">Plurank<b>Agent</b> <span class="dot">GEO</span></div>
+      <div class="newbtn" id="newbtn"></div>
+      <nav class="nav" id="nav"></nav>
+      <div class="hgroup"><div class="cap" id="cToday"></div><div class="it" id="h0"></div></div>
+      <div class="hgroup"><div class="cap" id="cYest"></div><div class="it" id="h1"></div><div class="it" id="h2"></div></div>
+      <div class="hgroup"><div class="cap" id="cLast"></div><div class="it" id="h3"></div><div class="it" id="h4"></div></div>
+      <div class="foot" id="foot"></div>
+    </aside>
+    <main class="main">
+      <div class="top">
+        <div>
+          <div class="h1" id="greet"></div>
+          <div class="sub"><span id="subtext"></span> — <b id="domain"></b><span id="subsuffix"></span></div>
+        </div>
+        <div class="newana" id="newana"></div>
+      </div>
+      <div class="kpis" id="kpis"></div>
+      <div class="seclab" id="seclab"></div>
+      <div class="recs" id="recs"></div>
+      <div class="brow">
+        <div class="panel"><div class="ph" id="trendTitle"></div><div class="bars" id="bars"></div></div>
+        <div class="panel"><div class="ph" id="mixTitle"></div><div class="mix" id="mix"></div></div>
+      </div>
+    </main>
+  </div>
+<script>
+  const KO = {
+    newAnalysis:"＋ 새 분석", nav:["💬 에이전트","📊 대시보드","🗂️ 콘텐츠"],
+    today:"오늘", yesterday:"어제", last7:"지난 7일", footer:"작업 내역은 데모 예시입니다",
+    greet:(b)=>`안녕하세요, ${b}님 👋`, subSuffix:"의 AI 답변 엔진 가시성과 성과예요.",
+    recsTitle:"오늘의 AI 추천", trendTitle:"최근 7일 GEO 노출 추이", mixTitle:"채널별 노출 점유율",
+    days:["월","화","수","목","금","토","일"]
+  };
+  const EN = {
+    newAnalysis:"＋ New analysis", nav:["💬 Agent","📊 Dashboard","🗂️ Content"],
+    today:"Today", yesterday:"Yesterday", last7:"Last 7 days", footer:"History shown is demo data",
+    greet:(b)=>`Welcome, ${b} 👋`, subSuffix:" — AI answer-engine visibility & performance.",
+    recsTitle:"Today's AI recommendations", trendTitle:"GEO visibility, last 7 days", mixTitle:"Share of voice by channel",
+    days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+  };
+  const FR = {
+    newAnalysis:"＋ Nouvelle analyse", nav:["💬 Agent","📊 Tableau de bord","🗂️ Contenu"],
+    today:"Aujourd'hui", yesterday:"Hier", last7:"7 derniers jours", footer:"Historique : données de démo",
+    greet:(b)=>`Bonjour, ${b} 👋`, subSuffix:" — visibilité et performance sur les moteurs de réponse IA.",
+    recsTitle:"Recommandations IA du jour", trendTitle:"Visibilité GEO, 7 derniers jours", mixTitle:"Répartition par canal",
+    days:["Lun","Mar","Mer","Jeu","Ven","Sam","Dim"]
+  };
+  const JA = {
+    newAnalysis:"＋ 新規分析", nav:["💬 エージェント","📊 ダッシュボード","🗂️ コンテンツ"],
+    today:"今日", yesterday:"昨日", last7:"過去7日", footer:"表示は デモデータです",
+    greet:(b)=>`こんにちは、${b}様 👋`, subSuffix:" のAI回答エンジンでの可視性と成果です。",
+    recsTitle:"本日のAIレコメンド", trendTitle:"直近7日のGEO露出推移", mixTitle:"チャネル別 露出シェア",
+    days:["月","火","水","木","金","土","日"]
+  };
+  const LOCALES = { ko:KO, en:EN, fr:FR, ja:JA };
+  const D = window.__DATA__ || {};
+  const L = LOCALES[D.locale || 'ko'] || KO;
+  const $ = (id)=>document.getElementById(id);
+  document.documentElement.lang = D.locale || 'ko';
+  $('newbtn').textContent = L.newAnalysis; $('newana').textContent = L.newAnalysis;
+  $('nav').innerHTML = L.nav.map((n,i)=>`<a class="${i===1?'on':''}">${n}</a>`).join('');
+  $('cToday').textContent=L.today; $('cYest').textContent=L.yesterday; $('cLast').textContent=L.last7; $('foot').textContent=L.footer;
+  $('greet').innerHTML = L.greet(D.brand);
+  $('subtext').textContent = D.subtext; $('domain').textContent = D.domain; $('subsuffix').textContent = L.subSuffix;
+  $('seclab').textContent=L.recsTitle; $('trendTitle').textContent=L.trendTitle; $('mixTitle').textContent=L.mixTitle;
+  D.history.forEach((h,i)=>{ const el=$('h'+i); if(el) el.textContent=h; });
+  $('kpis').innerHTML = D.kpis.map(k=>`<div class="kpi"><div class="l">${k.l}</div><div class="v">${k.v}${k.unit?`<small>${k.unit}</small>`:''} ${k.d?`<span class="d">+${k.d}</span>`:''}</div></div>`).join('');
+  $('recs').innerHTML = D.recs.map(r=>`<div class="rec"><div class="ic">${r.ic}</div><div class="t">${r.t}</div><div class="b">${r.b}</div><div class="c">${r.c} →</div></div>`).join('');
+  const mx = Math.max(...D.trend);
+  $('bars').innerHTML = D.trend.map((v,i)=>`<div class="col"><div class="bar" style="height:${Math.round(v/mx*100)}%"></div><div class="dl">${L.days[i]}</div></div>`).join('');
+  const cmx = Math.max(...D.channels.map(c=>c.p));
+  $('mix').innerHTML = D.channels.map(c=>`<div class="mrow"><span class="ml">${c.l}</span><span class="mb"><span style="width:${Math.round(c.p/cmx*100)}%"></span></span><span class="mp">${c.p}%</span></div>`).join('');
+</script>
+</body>
+</html>

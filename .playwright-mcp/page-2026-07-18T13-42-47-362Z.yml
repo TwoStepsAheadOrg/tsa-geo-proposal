@@ -1,0 +1,100 @@
+- generic [active] [ref=f185e1]:
+  - banner [ref=f185e2]:
+    - generic [ref=f185e3]:
+      - link "Toon Agent Studio 홈" [ref=f185e4] [cursor=pointer]:
+        - /url: /
+        - img "Toon Agent Studio" [ref=f185e5]
+      - navigation [ref=f185e6]:
+        - link "로그인" [ref=f185e7] [cursor=pointer]:
+          - /url: https://app.plurank.com
+  - generic [ref=f185e9]:
+    - generic [ref=f185e10]: ✦ AI 웹툰 · 인스타툰 자동 생성
+    - heading "캐릭터 한 번 만들면, 웹툰은 자동으로." [level=1] [ref=f185e11]:
+      - text: 캐릭터 한 번 만들면,
+      - text: 웹툰은 자동으로.
+    - paragraph [ref=f185e12]:
+      - text: 그림 실력은 필요 없어요.
+      - text: 대사만 넣으면 캐릭터·배경·컷이 알아서 완성됩니다.
+    - link "지금 만들기 →" [ref=f185e14] [cursor=pointer]:
+      - /url: https://app.plurank.com
+  - generic [ref=f185e16]:
+    - generic [ref=f185e17]:
+      - generic [ref=f185e18]: SHOWCASE
+      - heading "Toon Agent Studio로 만든 실제 웹툰" [level=2] [ref=f185e19]
+    - generic [ref=f185e22]:
+      - img "Toon Agent Studio로 만든 웹툰 예시 1컷" [ref=f185e24]
+      - img "Toon Agent Studio로 만든 웹툰 예시 2컷" [ref=f185e26]
+      - img "Toon Agent Studio로 만든 웹툰 예시 3컷" [ref=f185e28]
+      - img "Toon Agent Studio로 만든 웹툰 예시 4컷" [ref=f185e30]
+      - img "Toon Agent Studio로 만든 웹툰 예시 5컷" [ref=f185e32]
+      - img "Toon Agent Studio로 만든 웹툰 예시 6컷" [ref=f185e34]
+      - img "Toon Agent Studio로 만든 웹툰 예시 7컷" [ref=f185e36]
+      - img [ref=f185e38]
+      - img [ref=f185e40]
+      - img [ref=f185e42]
+      - img [ref=f185e44]
+      - img [ref=f185e46]
+      - img [ref=f185e48]
+      - img [ref=f185e50]
+    - link "웹툰 보러가기 →" [ref=f185e52] [cursor=pointer]:
+      - /url: /webtoons
+  - generic [ref=f185e54]:
+    - generic [ref=f185e55]:
+      - heading "캐릭터부터 쇼츠까지, 5단계" [level=2] [ref=f185e56]
+      - paragraph [ref=f185e57]: 그림 실력 없이도 웹툰 한 편이 완성되는 과정.
+    - generic [ref=f185e58]:
+      - generic [ref=f185e59]:
+        - generic [ref=f185e60]: "01"
+        - generic [ref=f185e61]:
+          - heading "🎭 캐릭터 만들기" [level=3] [ref=f185e62]
+          - paragraph [ref=f185e63]:
+            - text: 외형만 설명하면 AI가 앞·옆·뒤 캐릭터를 그려줘요.
+            - strong [ref=f185e64]: 모든 컷에서 똑같이
+            - text: 유지됩니다.
+      - generic [ref=f185e65]:
+        - generic [ref=f185e66]: "02"
+        - generic [ref=f185e67]:
+          - heading "🏞️ 배경 만들기" [level=3] [ref=f185e68]
+          - paragraph [ref=f185e69]: 사진을 올리고 그림체만 고르면 웹툰 배경으로 변환돼요.
+      - generic [ref=f185e70]:
+        - generic [ref=f185e71]: "03"
+        - generic [ref=f185e72]:
+          - heading "👋 제스처 만들기" [level=3] [ref=f185e73]
+          - paragraph [ref=f185e74]: 원하는 포즈·표정만 적으면 컷마다 생동감을 더해줍니다.
+      - generic [ref=f185e75]:
+        - generic [ref=f185e76]: "04"
+        - generic [ref=f185e77]:
+          - heading "📖 툰 만들기" [level=3] [ref=f185e78]
+          - paragraph [ref=f185e79]:
+            - text: 스토리만 넣으면 캐릭터·배경·제스처가 반영된
+            - strong [ref=f185e80]: 웹툰 한 편
+            - text: 이 완성돼요.
+      - generic [ref=f185e81]:
+        - generic [ref=f185e82]: "05"
+        - generic [ref=f185e83]:
+          - heading "🎬 툰으로 쇼츠 만들기 Beta" [level=3] [ref=f185e84]:
+            - text: 🎬 툰으로 쇼츠 만들기
+            - generic [ref=f185e85]: Beta
+          - paragraph [ref=f185e86]: 완성한 웹툰을 세로형 쇼츠 영상으로 변환합니다. (곧 정식 출시)
+  - generic [ref=f185e88]:
+    - heading "지금 첫 웹툰을 만들어 보세요" [level=2] [ref=f185e89]
+    - paragraph [ref=f185e90]:
+      - text: 가입하고 바로 시작하세요.
+      - text: 그림 실력은 필요 없습니다.
+    - link "지금 만들기 →" [ref=f185e92] [cursor=pointer]:
+      - /url: https://app.plurank.com
+  - contentinfo [ref=f185e93]:
+    - generic [ref=f185e94]:
+      - generic [ref=f185e95]:
+        - img "Toon Agent Studio" [ref=f185e97]
+        - paragraph [ref=f185e98]: © 2026 Two Steps Ahead, Inc. All rights reserved.
+      - generic [ref=f185e99]:
+        - paragraph [ref=f185e100]: (주)투스텝스어헤드 | 대표 김건희 | 사업자등록번호 319-87-03770
+        - paragraph [ref=f185e101]:
+          - text: "이메일 :"
+          - link "glenn.kim@twostepsahead.co.kr" [ref=f185e102] [cursor=pointer]:
+            - /url: mailto:glenn.kim@twostepsahead.co.kr
+          - text: "| 연락처 :"
+          - link "010-9990-7868" [ref=f185e103] [cursor=pointer]:
+            - /url: tel:01099907868
+        - paragraph [ref=f185e104]: "주소 : 서울특별시 강남구 압구정로 306, 지하1층 4-s 10호(신사동)"

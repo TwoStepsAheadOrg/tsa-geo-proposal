@@ -1,0 +1,47 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]:
+        - img "Plurank" [ref=f4e7]
+        - generic [ref=f4e8]: Plurank
+      - generic [ref=f4e9]:
+        - generic [ref=f4e10]:
+          - generic [ref=f4e11]: 이메일
+          - textbox [active] [ref=f4e12]
+        - generic [ref=f4e13]:
+          - generic [ref=f4e14]: 비밀번호
+          - textbox [ref=f4e15]
+        - button "로그인" [ref=f4e16] [cursor=pointer]
+        - generic [ref=f4e19]: 또는
+        - button "카카오로 시작하기" [ref=f4e21] [cursor=pointer]:
+          - img [ref=f4e22]
+          - text: 카카오로 시작하기
+        - generic [ref=f4e24]:
+          - text: 계정이 없으신가요?
+          - link "회원가입" [ref=f4e25] [cursor=pointer]:
+            - /url: /register
+          - text: ·
+          - link "비밀번호 찾기" [ref=f4e26] [cursor=pointer]:
+            - /url: /forgot-password
+    - contentinfo [ref=f4e27]:
+      - generic [ref=f4e29]:
+        - paragraph [ref=f4e30]:
+          - link "이용약관" [ref=f4e31] [cursor=pointer]:
+            - /url: /terms
+          - text: ·
+          - link "개인정보처리방침" [ref=f4e32] [cursor=pointer]:
+            - /url: /privacy
+          - text: ·
+          - link "환불정책" [ref=f4e33] [cursor=pointer]:
+            - /url: /refund
+        - paragraph [ref=f4e34]: (주)투스텝스어헤드|대표 김건희|사업자등록번호 319-87-03770
+        - paragraph [ref=f4e35]: "주소 : 서울특별시 강남구 압구정로 306, 지하1층 4-s 10호(신사동)"
+        - paragraph [ref=f4e36]:
+          - text: "이메일 :"
+          - link "glenn.kim@twostepsahead.co.kr" [ref=f4e37] [cursor=pointer]:
+            - /url: mailto:glenn.kim@twostepsahead.co.kr
+          - text: "|연락처 :"
+          - link "010-9990-7868" [ref=f4e38] [cursor=pointer]:
+            - /url: tel:01099907868
+        - paragraph [ref=f4e39]: © 2026 TwoStepsAhead Co., Ltd. All rights reserved.
+  - region "Notifications alt+T"

@@ -1,0 +1,1253 @@
+- generic [ref=f1e11]:
+  - banner [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - generic [ref=f1e52]: PLURANK
+      - generic [ref=f1e53]: 마케팅 워룸
+      - generic "동기화됨" [ref=f1e59]
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]:
+        - text: "0"
+        - generic [ref=f1e16]: /100
+      - generic [ref=f1e17]: 0%
+  - generic [ref=f1e18]:
+    - generic [ref=f1e19]: 전과 — 누적 성과
+    - generic [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]: 무료 진단 신청
+        - generic [ref=f1e23]: "0"
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]: 상담
+        - generic [ref=f1e26]: "0"
+      - generic [ref=f1e27]:
+        - generic [ref=f1e28]: 가입
+        - generic [ref=f1e29]: "0"
+      - generic [ref=f1e30]:
+        - generic [ref=f1e31]: 결제
+        - generic [ref=f1e32]: "0"
+    - button "+ 주간 기록" [ref=f1e33] [cursor=pointer]
+  - generic [ref=f1e42]:
+    - heading "오늘의 작전 — 다음 실행 순서" [level=2] [ref=f1e43]
+    - generic [ref=f1e60]:
+      - generic [ref=f1e61] [cursor=pointer]:
+        - generic [ref=f1e62]: "#001"
+        - generic [ref=f1e63]:
+          - generic [ref=f1e64]: GEO 경쟁사·레퍼런스 12곳 조사 시트 만들기
+          - generic [ref=f1e65]: 리서치 · 인지 · ~150분
+      - generic [ref=f1e66] [cursor=pointer]:
+        - generic [ref=f1e67]: "#002"
+        - generic [ref=f1e68]:
+          - generic [ref=f1e69]: 메시지 하우스 작성 — 의료·소상공인·브랜드 핵심 카피 3종
+          - generic [ref=f1e70]: 콘텐츠/카피 · 인지 · ~150분
+      - generic [ref=f1e71] [cursor=pointer]:
+        - generic [ref=f1e72]: "#003"
+        - generic [ref=f1e73]:
+          - generic [ref=f1e74]: UTM 명명 규칙 수립 + 마스터 링크 시트 구축
+          - generic [ref=f1e75]: 트래킹 · 유입 · ~60분
+      - generic [ref=f1e76] [cursor=pointer]:
+        - generic [ref=f1e77]: "#004"
+        - generic [ref=f1e78]:
+          - generic [ref=f1e79]: 무료진단 신청 추적 검증 — 테스트 제출로 GA4 이벤트 확인
+          - generic [ref=f1e80]: 트래킹 · 리드 · ~90분
+  - navigation [ref=f1e44]:
+    - generic [ref=f1e81]:
+      - button "전체 100" [ref=f1e82] [cursor=pointer]
+      - button "P0 기반 구축 12" [ref=f1e83] [cursor=pointer]
+      - button "P1 검색 자산 20" [ref=f1e84] [cursor=pointer]
+      - button "P2 콘텐츠 엔진 28" [ref=f1e85] [cursor=pointer]
+      - button "P3 아웃바운드 25" [ref=f1e86] [cursor=pointer]
+      - button "P4 전환·증폭 15" [ref=f1e87] [cursor=pointer]
+    - generic [ref=f1e45]:
+      - combobox [ref=f1e46]:
+        - option "채널 전체" [selected]
+        - option "리서치"
+        - option "콘텐츠/카피"
+        - option "트래킹"
+        - option "트래킹/리포팅"
+        - option "제품(셀프서브)"
+        - option "아웃바운드(리스트)"
+        - option "AI검색(증거수집)"
+        - option "노션(내부 기반작업)"
+        - option "링크드인"
+        - option "전채널"
+        - option "위키백과"
+        - option "AI 검색 플랫폼(리서치)"
+        - option "플루랭크(자사 데이터)"
+        - option "나무위키"
+        - option "네이버 블로그"
+        - option "브런치"
+        - option "자사 블로그+SNS"
+        - option "아이보스"
+        - option "콘텐츠 자산(Google Slides)"
+        - option "Threads"
+        - option "인스타그램"
+        - option "웹(Tally 폼)"
+        - option "콘텐츠 자산(미리캔버스)"
+        - option "블로그(plurank.com/blog)"
+        - option "인스타그램·쓰레드"
+        - option "인스타그램·쓰레드 + Tally"
+        - option "콜드메일"
+        - option "전 채널(대응 루틴)"
+        - option "네이버 카페"
+        - option "쓰레드·인스타 DM"
+        - option "쓰레드 DM"
+        - option "인스타 DM"
+        - option "전화·이메일(오프라인 단체)"
+        - option "디스콰이엇"
+        - option "GeekNews"
+        - option "세일즈 자산(Google Slides·Docs)"
+        - option "세일즈 운영(캘린들리·Google Sheets)"
+        - option "Google Sheets·GA4(내부 운영)"
+        - option "Google Slides(내부 제작물)"
+        - option "이메일(자동화)"
+        - option "이메일"
+        - option "이메일·전화"
+        - option "이메일(스티비)"
+        - option "전화·카카오톡"
+        - option "카카오톡·이메일 + 랜딩·리포트"
+        - option "블로그(plurank.com)"
+        - option "카카오톡·이메일"
+        - option "제품(셀프서브 QA)"
+        - option "이메일·인앱(스티비)"
+        - option "블로그·GSC·Threads"
+        - option "Google Sheets(내부 운영)"
+      - combobox [ref=f1e47]:
+        - option "퍼널 전체" [selected]
+        - option "인지"
+        - option "유입"
+        - option "리드"
+        - option "전환"
+        - option "유지"
+      - combobox [ref=f1e48]:
+        - option "상태 전체" [selected]
+        - option "미완료"
+        - option "완료"
+      - searchbox "검색…" [ref=f1e49]
+  - main [ref=f1e56]:
+    - generic [ref=f1e88]:
+      - generic [ref=f1e89]:
+        - generic [ref=f1e90]: P0
+        - generic [ref=f1e91]: 기반 구축
+        - generic [ref=f1e92]: 0/12
+      - article [ref=f1e93]:
+        - generic [ref=f1e94] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e95]: ✓
+          - generic [ref=f1e96]:
+            - text: "T001 · #001"
+            - generic [ref=f1e97]: GEO 경쟁사·레퍼런스 12곳 조사 시트 만들기
+            - generic [ref=f1e98]:
+              - generic [ref=f1e99]: 리서치
+              - generic [ref=f1e100]: 인지
+              - generic [ref=f1e101]: 1회성
+          - generic [ref=f1e102]: ~150분
+      - article [ref=f1e103]:
+        - generic [ref=f1e104] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e105]: ✓
+          - generic [ref=f1e106]:
+            - text: "T002 · #002"
+            - generic [ref=f1e107]: 메시지 하우스 작성 — 의료·소상공인·브랜드 핵심 카피 3종
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]: 콘텐츠/카피
+              - generic [ref=f1e110]: 인지
+              - generic [ref=f1e111]: 1회성
+          - generic [ref=f1e112]: ~150분
+      - article [ref=f1e113]:
+        - generic [ref=f1e114] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e115]: ✓
+          - generic [ref=f1e116]:
+            - text: "T003 · #003"
+            - generic [ref=f1e117]: UTM 명명 규칙 수립 + 마스터 링크 시트 구축
+            - generic [ref=f1e118]:
+              - generic [ref=f1e119]: 트래킹
+              - generic [ref=f1e120]: 유입
+              - generic [ref=f1e121]: 1회성
+          - generic [ref=f1e122]: ~60분
+      - article [ref=f1e123]:
+        - generic [ref=f1e124] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e125]: ✓
+          - generic [ref=f1e126]:
+            - text: "T004 · #004"
+            - generic [ref=f1e127]: 무료진단 신청 추적 검증 — 테스트 제출로 GA4 이벤트 확인
+            - generic [ref=f1e128]:
+              - generic [ref=f1e129]: 트래킹
+              - generic [ref=f1e130]: 리드
+              - generic [ref=f1e131]: 1회성
+          - generic [ref=f1e132]: ~90분
+      - article [ref=f1e133]:
+        - generic [ref=f1e134] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e135]: ✓
+          - generic [ref=f1e136]:
+            - text: "T005 · #005"
+            - generic [ref=f1e137]: 주간 지표 대시보드 구축 + 금요일 기록 루틴 시작
+            - generic [ref=f1e138]:
+              - generic [ref=f1e139]: 트래킹/리포팅
+              - generic [ref=f1e140]: 전환
+              - generic [ref=f1e141]: 루틴시작
+          - generic [ref=f1e142]: ~90분
+      - article [ref=f1e143]:
+        - generic [ref=f1e144] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e145]: ✓
+          - generic [ref=f1e146]:
+            - text: "T006 · #006"
+            - generic [ref=f1e147]: app.plurank.com 셀프서브 온보딩 경로 직접 점검
+            - generic [ref=f1e148]:
+              - generic [ref=f1e149]: 제품(셀프서브)
+              - generic [ref=f1e150]: 전환
+              - generic [ref=f1e151]: 1회성
+          - generic [ref=f1e152]: ~90분
+      - article [ref=f1e153]:
+        - generic [ref=f1e154] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e155]: ✓
+          - generic [ref=f1e156]:
+            - text: "T007 · #007"
+            - generic [ref=f1e157]: T1 타깃 시드 — 서울 병원 30곳 리스트 구축
+            - generic [ref=f1e158]:
+              - generic [ref=f1e159]: 아웃바운드(리스트)
+              - generic [ref=f1e160]: 리드
+              - generic [ref=f1e161]: 1회성
+          - generic [ref=f1e162]: ~150분
+      - article [ref=f1e163]:
+        - generic [ref=f1e164] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e165]: ✓
+          - generic [ref=f1e166]:
+            - text: "T008 · #008"
+            - generic [ref=f1e167]: T1 타깃 시드 — 서울 호텔 10곳·브랜드 10곳 리스트 구축
+            - generic [ref=f1e168]:
+              - generic [ref=f1e169]: 아웃바운드(리스트)
+              - generic [ref=f1e170]: 리드
+              - generic [ref=f1e171]: 1회성
+          - generic [ref=f1e172]: ~120분
+      - article [ref=f1e173]:
+        - generic [ref=f1e174] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e175]: ✓
+          - generic [ref=f1e176]:
+            - text: "T009 · #009"
+            - generic [ref=f1e177]: 타깃 20곳 AI 검색 노출 스크린샷 뱅크 구축
+            - generic [ref=f1e178]:
+              - generic [ref=f1e179]: AI검색(증거수집)
+              - generic [ref=f1e180]: 리드
+              - generic [ref=f1e181]: 1회성
+          - generic [ref=f1e182]: ~120분
+      - article [ref=f1e183]:
+        - generic [ref=f1e184] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e185]: ✓
+          - generic [ref=f1e186]:
+            - text: "T010 · #010"
+            - generic [ref=f1e187]: "콘텐츠 소재 뱅크 구축: AI 인용 데이터 스니펫 팩 만들기"
+            - generic [ref=f1e188]:
+              - generic [ref=f1e189]: 노션(내부 기반작업)
+              - generic [ref=f1e190]: 인지
+              - generic [ref=f1e191]: 1회성
+          - generic [ref=f1e192]: ~150분
+      - article [ref=f1e193]:
+        - generic [ref=f1e194] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e195]: ✓
+          - generic [ref=f1e196]:
+            - text: "T011 · #011"
+            - generic [ref=f1e197]: 링크드인 회사 페이지·대표 프로필 정비 + 첫 포스트
+            - generic [ref=f1e198]:
+              - generic [ref=f1e199]: 링크드인
+              - generic [ref=f1e200]: 인지
+              - generic [ref=f1e201]: 1회성
+          - generic [ref=f1e202]: ~120분
+      - article [ref=f1e203]:
+        - generic [ref=f1e204] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e205]: ✓
+          - generic [ref=f1e206]:
+            - text: "T012 · #012"
+            - generic [ref=f1e207]: 4채널 2주 콘텐츠 캘린더 수립
+            - generic [ref=f1e208]:
+              - generic [ref=f1e209]: 전채널
+              - generic [ref=f1e210]: 인지
+              - generic [ref=f1e211]: 루틴시작
+          - generic [ref=f1e212]: ~60분
+    - generic [ref=f1e213]:
+      - generic [ref=f1e214]:
+        - generic [ref=f1e215]: P1
+        - generic [ref=f1e216]: 검색 자산
+        - generic [ref=f1e217]: 0/20
+      - article [ref=f1e218]:
+        - generic [ref=f1e219] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e220]: ✓
+          - generic [ref=f1e221]:
+            - text: "T013 · #013"
+            - generic [ref=f1e222]: 한국어 위키백과 계정 생성 + 자동인증 요건(4일·10회 편집) 충족 시작
+            - generic [ref=f1e223]:
+              - generic [ref=f1e224]: 위키백과
+              - generic [ref=f1e225]: 인지
+              - generic [ref=f1e226]: 1회성
+          - generic [ref=f1e227]: ~90분
+      - article [ref=f1e228]:
+        - generic [ref=f1e229] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e230]: ✓
+          - generic [ref=f1e231]:
+            - text: "T014 · #014"
+            - generic [ref=f1e232]: AI 답변 현장 검증 — 7개 플랫폼에 GEO 질의 35건 던지고 인용 소스 아카이브 만들기
+            - generic [ref=f1e233]:
+              - generic [ref=f1e234]: AI 검색 플랫폼(리서치)
+              - generic [ref=f1e235]: 인지
+              - generic [ref=f1e236]: 실험
+          - generic [ref=f1e237]: ~180분
+      - article [ref=f1e238]:
+        - generic [ref=f1e239] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e240]: ✓
+          - generic [ref=f1e241]:
+            - text: "T015 · #015"
+            - generic [ref=f1e242]: 플루랭크 자사 데이터로 인용 도메인 맵 크로스체크
+            - generic [ref=f1e243]:
+              - generic [ref=f1e244]: 플루랭크(자사 데이터)
+              - generic [ref=f1e245]: 인지
+              - generic [ref=f1e246]: 1회성
+          - generic [ref=f1e247]: ~60분
+      - article [ref=f1e248]:
+        - generic [ref=f1e249] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e250]: ✓
+          - generic [ref=f1e251]:
+            - text: "T016 · #016"
+            - generic [ref=f1e252]: 한국어 위키백과 '생성 엔진 최적화' 문서 초안 작성(영문 문서 번역 기반)
+            - generic [ref=f1e253]:
+              - generic [ref=f1e254]: 위키백과
+              - generic [ref=f1e255]: 인지
+              - generic [ref=f1e256]: 1회성
+          - generic [ref=f1e257]: ~180분
+      - article [ref=f1e258]:
+        - generic [ref=f1e259] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e260]: ✓
+          - generic [ref=f1e261]:
+            - text: "T017 · #017"
+            - generic [ref=f1e262]: 나무위키 GEO 서술 현황 감사 + 신설 vs 문단 추가 판단
+            - generic [ref=f1e263]:
+              - generic [ref=f1e264]: 나무위키
+              - generic [ref=f1e265]: 인지
+              - generic [ref=f1e266]: 1회성
+          - generic [ref=f1e267]: ~60분
+      - article [ref=f1e268]:
+        - generic [ref=f1e269] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e270]: ✓
+          - generic [ref=f1e271]:
+            - text: "T018 · #018"
+            - generic [ref=f1e272]: 네이버 공식 블로그 개설 및 C-Rank 대응 기본 세팅
+            - generic [ref=f1e273]:
+              - generic [ref=f1e274]: 네이버 블로그
+              - generic [ref=f1e275]: 인지
+              - generic [ref=f1e276]: 1회성
+          - generic [ref=f1e277]: ~90분
+      - article [ref=f1e278]:
+        - generic [ref=f1e279] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e280]: ✓
+          - generic [ref=f1e281]:
+            - text: "T019 · #019"
+            - generic [ref=f1e282]: AI 검색 관련 네이버 키워드 맵 50개 구축
+            - generic [ref=f1e283]:
+              - generic [ref=f1e284]: 네이버 블로그
+              - generic [ref=f1e285]: 유입
+              - generic [ref=f1e286]: 1회성
+          - generic [ref=f1e287]: ~120분
+      - article [ref=f1e288]:
+        - generic [ref=f1e289] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e290]: ✓
+          - generic [ref=f1e291]:
+            - text: "T020 · #020"
+            - generic [ref=f1e292]: "기둥글 발행: \"사장님, ChatGPT에 우리 가게 나오나요?\""
+            - generic [ref=f1e293]:
+              - generic [ref=f1e294]: 네이버 블로그
+              - generic [ref=f1e295]: 유입
+              - generic [ref=f1e296]: 1회성
+          - generic [ref=f1e297]: ~180분
+      - article [ref=f1e298]:
+        - generic [ref=f1e299] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e300]: ✓
+          - generic [ref=f1e301]:
+            - text: "T021 · #021"
+            - generic [ref=f1e302]: 위키백과 문서 게시 + 이해관계 공개 + 7일 생존 모니터링
+            - generic [ref=f1e303]:
+              - generic [ref=f1e304]: 위키백과
+              - generic [ref=f1e305]: 인지
+              - generic [ref=f1e306]: 1회성
+          - generic [ref=f1e307]: ~60분
+      - article [ref=f1e308]:
+        - generic [ref=f1e309] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e310]: ✓
+          - generic [ref=f1e311]:
+            - text: "T022 · #022"
+            - generic [ref=f1e312]: 나무위키 '검색 엔진 최적화' 문서에 GEO 문단 추가
+            - generic [ref=f1e313]:
+              - generic [ref=f1e314]: 나무위키
+              - generic [ref=f1e315]: 인지
+              - generic [ref=f1e316]: 실험
+          - generic [ref=f1e317]: ~120분
+      - article [ref=f1e318]:
+        - generic [ref=f1e319] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e320]: ✓
+          - generic [ref=f1e321]:
+            - text: "T023 · #023"
+            - generic [ref=f1e322]: 나무위키 '생성형 엔진 최적화' 독립 문서 신규 작성
+            - generic [ref=f1e323]:
+              - generic [ref=f1e324]: 나무위키
+              - generic [ref=f1e325]: 인지
+              - generic [ref=f1e326]: 1회성
+          - generic [ref=f1e327]: ~180분
+      - article [ref=f1e328]:
+        - generic [ref=f1e329] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e330]: ✓
+          - generic [ref=f1e331]:
+            - text: "T024 · #024"
+            - generic [ref=f1e332]: 위키·시딩 자산 인용 추적 주간 루틴 시작
+            - generic [ref=f1e333]:
+              - generic [ref=f1e334]: 플루랭크(자사 데이터)
+              - generic [ref=f1e335]: 유지
+              - generic [ref=f1e336]: 루틴시작
+          - generic [ref=f1e337]: ~60분
+      - article [ref=f1e338]:
+        - generic [ref=f1e339] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e340]: ✓
+          - generic [ref=f1e341]:
+            - text: "T025 · #025"
+            - generic [ref=f1e342]: 자사 블로그 51글 네이버 재발행 파이프라인 가동 (주 2회)
+            - generic [ref=f1e343]:
+              - generic [ref=f1e344]: 네이버 블로그
+              - generic [ref=f1e345]: 유입
+              - generic [ref=f1e346]: 루틴시작
+          - generic [ref=f1e347]: ~180분
+      - article [ref=f1e348]:
+        - generic [ref=f1e349] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e350]: ✓
+          - generic [ref=f1e351]:
+            - text: "T026 · #026"
+            - generic [ref=f1e352]: "의료 업종 공략글 발행: \"chatgpt 병원 추천\" 검색어 선점"
+            - generic [ref=f1e353]:
+              - generic [ref=f1e354]: 네이버 블로그
+              - generic [ref=f1e355]: 유입
+              - generic [ref=f1e356]: 1회성
+          - generic [ref=f1e357]: ~150분
+      - article [ref=f1e358]:
+        - generic [ref=f1e359] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e360]: ✓
+          - generic [ref=f1e361]:
+            - text: "T027 · #027"
+            - generic [ref=f1e362]: 브런치 작가 신청 + GEO 대표 글 1편 리라이트
+            - generic [ref=f1e363]:
+              - generic [ref=f1e364]: 브런치
+              - generic [ref=f1e365]: 유입
+              - generic [ref=f1e366]: 루틴시작
+          - generic [ref=f1e367]: ~150분
+      - article [ref=f1e368]:
+        - generic [ref=f1e369] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e370]: ✓
+          - generic [ref=f1e371]:
+            - text: "T028 · #028"
+            - generic [ref=f1e372]: "리드젠 실험: \"상호 남기면 AI 노출 무료 체크\" 댓글 이벤트"
+            - generic [ref=f1e373]:
+              - generic [ref=f1e374]: 네이버 블로그
+              - generic [ref=f1e375]: 리드
+              - generic [ref=f1e376]: 실험
+          - generic [ref=f1e377]: ~90분
+      - article [ref=f1e378]:
+        - generic [ref=f1e379] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e380]: ✓
+          - generic [ref=f1e381]:
+            - text: "T029 · #029"
+            - generic [ref=f1e382]: 메타 케이스스터디 발행 — 'GEO 업체가 GEO 키워드를 직접 먹은 4주 기록'
+            - generic [ref=f1e383]:
+              - generic [ref=f1e384]: 자사 블로그+SNS
+              - generic [ref=f1e385]: 리드
+              - generic [ref=f1e386]: 1회성
+          - generic [ref=f1e387]: ~180분
+      - article [ref=f1e388]:
+        - generic [ref=f1e389] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e390]: ✓
+          - generic [ref=f1e391]:
+            - text: "T030 · #030"
+            - generic [ref=f1e392]: 아이보스에 실험기 공유해 마케터 커뮤니티 확산
+            - generic [ref=f1e393]:
+              - generic [ref=f1e394]: 아이보스
+              - generic [ref=f1e395]: 리드
+              - generic [ref=f1e396]: 실험
+          - generic [ref=f1e397]: ~90분
+      - article [ref=f1e398]:
+        - generic [ref=f1e399] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e400]: ✓
+          - generic [ref=f1e401]:
+            - text: "T031 · #031"
+            - generic [ref=f1e402]: 강남 의료 3곳 성과를 익명 케이스 원페이저 1종으로 제작
+            - generic [ref=f1e403]:
+              - generic [ref=f1e404]: 콘텐츠 자산(Google Slides)
+              - generic [ref=f1e405]: 리드
+              - generic [ref=f1e406]: 1회성
+          - generic [ref=f1e407]: ~150분
+      - article [ref=f1e408]:
+        - generic [ref=f1e409] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e410]: ✓
+          - generic [ref=f1e411]:
+            - text: "T032 · #032"
+            - generic [ref=f1e412]: 인바운드 여행·브랜드(Ascent Korea 등) 케이스 원페이저 2종 제작
+            - generic [ref=f1e413]:
+              - generic [ref=f1e414]: 콘텐츠 자산(Google Slides)
+              - generic [ref=f1e415]: 리드
+              - generic [ref=f1e416]: 1회성
+          - generic [ref=f1e417]: ~180분
+    - generic [ref=f1e418]:
+      - generic [ref=f1e419]:
+        - generic [ref=f1e420]: P2
+        - generic [ref=f1e421]: 콘텐츠 엔진
+        - generic [ref=f1e422]: 0/28
+      - article [ref=f1e423]:
+        - generic [ref=f1e424] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e425]: ✓
+          - generic [ref=f1e426]:
+            - text: "T033 · #033"
+            - generic [ref=f1e427]: Threads 프로필·링크·고정 포스트 세팅
+            - generic [ref=f1e428]:
+              - generic [ref=f1e429]: Threads
+              - generic [ref=f1e430]: 유입
+              - generic [ref=f1e431]: 1회성
+          - generic [ref=f1e432]: ~60분
+      - article [ref=f1e433]:
+        - generic [ref=f1e434] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e435]: ✓
+          - generic [ref=f1e436]:
+            - text: "T034 · #034"
+            - generic [ref=f1e437]: 인스타 계정 감사 + 프로필 리라이트
+            - generic [ref=f1e438]:
+              - generic [ref=f1e439]: 인스타그램
+              - generic [ref=f1e440]: 유입
+              - generic [ref=f1e441]: 1회성
+          - generic [ref=f1e442]: ~60분
+      - article [ref=f1e443]:
+        - generic [ref=f1e444] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e445]: ✓
+          - generic [ref=f1e446]:
+            - text: "T035 · #035"
+            - generic [ref=f1e447]: 링크인바이오 페이지 구축 (2-CTA + UTM 규칙)
+            - generic [ref=f1e448]:
+              - generic [ref=f1e449]: 인스타그램
+              - generic [ref=f1e450]: 리드
+              - generic [ref=f1e451]: 1회성
+          - generic [ref=f1e452]: ~60분
+      - article [ref=f1e453]:
+        - generic [ref=f1e454] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e455]: ✓
+          - generic [ref=f1e456]:
+            - text: "T036 · #036"
+            - generic [ref=f1e457]: 타깃 100계정 발굴·팔로우 리스트 시트 구축
+            - generic [ref=f1e458]:
+              - generic [ref=f1e459]: Threads
+              - generic [ref=f1e460]: 인지
+              - generic [ref=f1e461]: 1회성
+          - generic [ref=f1e462]: ~150분
+      - article [ref=f1e463]:
+        - generic [ref=f1e464] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e465]: ✓
+          - generic [ref=f1e466]:
+            - text: "T037 · #037"
+            - generic [ref=f1e467]: 포맷 5종 템플릿·훅 라이브러리 15개 제작
+            - generic [ref=f1e468]:
+              - generic [ref=f1e469]: Threads
+              - generic [ref=f1e470]: 인지
+              - generic [ref=f1e471]: 1회성
+          - generic [ref=f1e472]: ~120분
+      - article [ref=f1e473]:
+        - generic [ref=f1e474] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e475]: ✓
+          - generic [ref=f1e476]:
+            - text: "T038 · #038"
+            - generic [ref=f1e477]: 타깃 계정 '가치 댓글' 데일리 루틴 시작
+            - generic [ref=f1e478]:
+              - generic [ref=f1e479]: Threads
+              - generic [ref=f1e480]: 인지
+              - generic [ref=f1e481]: 루틴시작
+          - generic [ref=f1e482]: ~30분
+      - article [ref=f1e483]:
+        - generic [ref=f1e484] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e485]: ✓
+          - generic [ref=f1e486]:
+            - text: "T039 · #039"
+            - generic [ref=f1e487]: 포맷① 첫 '진단 충격 스크린샷' 포스트 발행
+            - generic [ref=f1e488]:
+              - generic [ref=f1e489]: Threads
+              - generic [ref=f1e490]: 인지
+              - generic [ref=f1e491]: 실험
+          - generic [ref=f1e492]: ~90분
+      - article [ref=f1e493]:
+        - generic [ref=f1e494] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e495]: ✓
+          - generic [ref=f1e496]:
+            - text: "T040 · #040"
+            - generic [ref=f1e497]: 포맷② 첫 '데이터 드랍' 포스트 발행
+            - generic [ref=f1e498]:
+              - generic [ref=f1e499]: Threads
+              - generic [ref=f1e500]: 인지
+              - generic [ref=f1e501]: 실험
+          - generic [ref=f1e502]: ~90분
+      - article [ref=f1e503]:
+        - generic [ref=f1e504] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e505]: ✓
+          - generic [ref=f1e506]:
+            - text: "T041 · #041"
+            - generic [ref=f1e507]: 카드뉴스 마스터 템플릿 2종 제작 (Canva)
+            - generic [ref=f1e508]:
+              - generic [ref=f1e509]: 인스타그램
+              - generic [ref=f1e510]: 인지
+              - generic [ref=f1e511]: 1회성
+          - generic [ref=f1e512]: ~120분
+      - article [ref=f1e513]:
+        - generic [ref=f1e514] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e515]: ✓
+          - generic [ref=f1e516]:
+            - text: "T042 · #042"
+            - generic [ref=f1e517]: 블로그 51편 → 카드뉴스 백로그 10건 기획
+            - generic [ref=f1e518]:
+              - generic [ref=f1e519]: 인스타그램
+              - generic [ref=f1e520]: 인지
+              - generic [ref=f1e521]: 1회성
+          - generic [ref=f1e522]: ~90분
+      - article [ref=f1e523]:
+        - generic [ref=f1e524] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e525]: ✓
+          - generic [ref=f1e526]:
+            - text: "T043 · #043"
+            - generic [ref=f1e527]: "카드뉴스 1호 발행: 'AI에 물어봤더니 — 강남 피부과 편'"
+            - generic [ref=f1e528]:
+              - generic [ref=f1e529]: 인스타그램
+              - generic [ref=f1e530]: 인지
+              - generic [ref=f1e531]: 루틴시작
+          - generic [ref=f1e532]: ~120분
+      - article [ref=f1e533]:
+        - generic [ref=f1e534] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e535]: ✓
+          - generic [ref=f1e536]:
+            - text: "T044 · #044"
+            - generic [ref=f1e537]: "릴스 1호 제작: 'ChatGPT에 우리 동네 카페 검색' 15초 화면녹화"
+            - generic [ref=f1e538]:
+              - generic [ref=f1e539]: 인스타그램
+              - generic [ref=f1e540]: 인지
+              - generic [ref=f1e541]: 루틴시작
+          - generic [ref=f1e542]: ~90분
+      - article [ref=f1e543]:
+        - generic [ref=f1e544] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e545]: ✓
+          - generic [ref=f1e546]:
+            - text: "T045 · #045"
+            - generic [ref=f1e547]: 타깃 계정 40개 리스트업 + 일일 댓글 인게이지 루틴
+            - generic [ref=f1e548]:
+              - generic [ref=f1e549]: 인스타그램
+              - generic [ref=f1e550]: 인지
+              - generic [ref=f1e551]: 루틴시작
+          - generic [ref=f1e552]: ~120분
+      - article [ref=f1e553]:
+        - generic [ref=f1e554] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e555]: ✓
+          - generic [ref=f1e556]:
+            - text: "T046 · #046"
+            - generic [ref=f1e557]: 포맷④ GEO 개념 5연작 스레드 발행
+            - generic [ref=f1e558]:
+              - generic [ref=f1e559]: Threads
+              - generic [ref=f1e560]: 유입
+              - generic [ref=f1e561]: 실험
+          - generic [ref=f1e562]: ~90분
+      - article [ref=f1e563]:
+        - generic [ref=f1e564] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e565]: ✓
+          - generic [ref=f1e566]:
+            - text: "T047 · #047"
+            - generic [ref=f1e567]: 포맷③ 첫 사례 스토리 포스트 발행
+            - generic [ref=f1e568]:
+              - generic [ref=f1e569]: Threads
+              - generic [ref=f1e570]: 리드
+              - generic [ref=f1e571]: 실험
+          - generic [ref=f1e572]: ~120분
+      - article [ref=f1e573]:
+        - generic [ref=f1e574] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e575]: ✓
+          - generic [ref=f1e576]:
+            - text: "T048 · #048"
+            - generic [ref=f1e577]: 포맷⑤ 소상공인 무료 팁 + 셀프서브 연결 포스트 발행
+            - generic [ref=f1e578]:
+              - generic [ref=f1e579]: Threads
+              - generic [ref=f1e580]: 전환
+              - generic [ref=f1e581]: 실험
+          - generic [ref=f1e582]: ~60분
+      - article [ref=f1e583]:
+        - generic [ref=f1e584] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e585]: ✓
+          - generic [ref=f1e586]:
+            - text: "T049 · #049"
+            - generic [ref=f1e587]: 데일리 발행 루틴 + 성과 트래킹 시트 가동
+            - generic [ref=f1e588]:
+              - generic [ref=f1e589]: Threads
+              - generic [ref=f1e590]: 인지
+              - generic [ref=f1e591]: 루틴시작
+          - generic [ref=f1e592]: ~45분
+      - article [ref=f1e593]:
+        - generic [ref=f1e594] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e595]: ✓
+          - generic [ref=f1e596]:
+            - text: "T050 · #050"
+            - generic [ref=f1e597]: "\"우리 가게 AI 검색 성적표\" 셀프체크 폼 제작 (Tally)"
+            - generic [ref=f1e598]:
+              - generic [ref=f1e599]: 웹(Tally 폼)
+              - generic [ref=f1e600]: 리드
+              - generic [ref=f1e601]: 1회성
+          - generic [ref=f1e602]: ~150분
+      - article [ref=f1e603]:
+        - generic [ref=f1e604] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e605]: ✓
+          - generic [ref=f1e606]:
+            - text: "T051 · #051"
+            - generic [ref=f1e607]: AI 검색 성적표 1장 리포트 템플릿 제작 (미리캔버스)
+            - generic [ref=f1e608]:
+              - generic [ref=f1e609]: 콘텐츠 자산(미리캔버스)
+              - generic [ref=f1e610]: 리드
+              - generic [ref=f1e611]: 1회성
+          - generic [ref=f1e612]: ~90분
+      - article [ref=f1e613]:
+        - generic [ref=f1e614] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e615]: ✓
+          - generic [ref=f1e616]:
+            - text: "T052 · #052"
+            - generic [ref=f1e617]: "실측 콘텐츠 1호 발행: \"성수동 카페를 ChatGPT에 물어봤다\""
+            - generic [ref=f1e618]:
+              - generic [ref=f1e619]: 블로그(plurank.com/blog)
+              - generic [ref=f1e620]: 유입
+              - generic [ref=f1e621]: 1회성
+          - generic [ref=f1e622]: ~150분
+      - article [ref=f1e623]:
+        - generic [ref=f1e624] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e625]: ✓
+          - generic [ref=f1e626]:
+            - text: "T053 · #053"
+            - generic [ref=f1e627]: 실측 콘텐츠를 인스타 카루셀·쓰레드로 재가공 배포
+            - generic [ref=f1e628]:
+              - generic [ref=f1e629]: 인스타그램·쓰레드
+              - generic [ref=f1e630]: 인지
+              - generic [ref=f1e631]: 1회성
+          - generic [ref=f1e632]: ~90분
+      - article [ref=f1e633]:
+        - generic [ref=f1e634] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e635]: ✓
+          - generic [ref=f1e636]:
+            - text: "T054 · #054"
+            - generic [ref=f1e637]: 카페 사장님용 '5분 AI 검색 시작 가이드' 발행
+            - generic [ref=f1e638]:
+              - generic [ref=f1e639]: 블로그(plurank.com/blog)
+              - generic [ref=f1e640]: 유입
+              - generic [ref=f1e641]: 1회성
+          - generic [ref=f1e642]: ~120분
+      - article [ref=f1e643]:
+        - generic [ref=f1e644] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e645]: ✓
+          - generic [ref=f1e646]:
+            - text: "T055 · #055"
+            - generic [ref=f1e647]: 미용실·식당·병의원 5분 가이드 3종 발행
+            - generic [ref=f1e648]:
+              - generic [ref=f1e649]: 블로그(plurank.com/blog)
+              - generic [ref=f1e650]: 유입
+              - generic [ref=f1e651]: 1회성
+          - generic [ref=f1e652]: ~180분
+      - article [ref=f1e653]:
+        - generic [ref=f1e654] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e655]: ✓
+          - generic [ref=f1e656]:
+            - text: "T056 · #056"
+            - generic [ref=f1e657]: 반응 계정 대상 개인화 DM→무료 진단 연결 루틴
+            - generic [ref=f1e658]:
+              - generic [ref=f1e659]: Threads
+              - generic [ref=f1e660]: 리드
+              - generic [ref=f1e661]: 루틴시작
+          - generic [ref=f1e662]: ~40분
+      - article [ref=f1e663]:
+        - generic [ref=f1e664] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e665]: ✓
+          - generic [ref=f1e666]:
+            - text: "T057 · #057"
+            - generic [ref=f1e667]: "카드뉴스 2호 발행 + CTA 슬라이드 전환 실험: 소상공인 편"
+            - generic [ref=f1e668]:
+              - generic [ref=f1e669]: 인스타그램
+              - generic [ref=f1e670]: 유입
+              - generic [ref=f1e671]: 실험
+          - generic [ref=f1e672]: ~120분
+      - article [ref=f1e673]:
+        - generic [ref=f1e674] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e675]: ✓
+          - generic [ref=f1e676]:
+            - text: "T058 · #058"
+            - generic [ref=f1e677]: 스토리 '무료 AI 검색 진단' DM 키워드 오퍼 실험
+            - generic [ref=f1e678]:
+              - generic [ref=f1e679]: 인스타그램
+              - generic [ref=f1e680]: 리드
+              - generic [ref=f1e681]: 실험
+          - generic [ref=f1e682]: ~90분
+      - article [ref=f1e683]:
+        - generic [ref=f1e684] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e685]: ✓
+          - generic [ref=f1e686]:
+            - text: "T059 · #059"
+            - generic [ref=f1e687]: 릴스 업종 시리즈 3편 배치 제작 (미용실·치과·게스트하우스)
+            - generic [ref=f1e688]:
+              - generic [ref=f1e689]: 인스타그램
+              - generic [ref=f1e690]: 인지
+              - generic [ref=f1e691]: 1회성
+          - generic [ref=f1e692]: ~150분
+      - article [ref=f1e693]:
+        - generic [ref=f1e694] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e695]: ✓
+          - generic [ref=f1e696]:
+            - text: "T060 · #060"
+            - generic [ref=f1e697]: "원포인트 무료 진단 이벤트 오픈: \"선착순 10곳 AI 성적표 무료 발급\""
+            - generic [ref=f1e698]:
+              - generic [ref=f1e699]: 인스타그램·쓰레드 + Tally
+              - generic [ref=f1e700]: 리드
+              - generic [ref=f1e701]: 실험
+          - generic [ref=f1e702]: ~300분
+    - generic [ref=f1e703]:
+      - generic [ref=f1e704]:
+        - generic [ref=f1e705]: P3
+        - generic [ref=f1e706]: 아웃바운드
+        - generic [ref=f1e707]: 0/25
+      - article [ref=f1e708]:
+        - generic [ref=f1e709] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e710]: ✓
+          - generic [ref=f1e711]:
+            - text: "T061 · #061"
+            - generic [ref=f1e712]: 콜드메일 발송 계정·전달성 인프라 세팅
+            - generic [ref=f1e713]:
+              - generic [ref=f1e714]: 콜드메일
+              - generic [ref=f1e715]: 리드
+              - generic [ref=f1e716]: 1회성
+          - generic [ref=f1e717]: ~90분
+      - article [ref=f1e718]:
+        - generic [ref=f1e719] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e720]: ✓
+          - generic [ref=f1e721]:
+            - text: "T062 · #062"
+            - generic [ref=f1e722]: 아웃바운드 리드 마스터 시트 구축
+            - generic [ref=f1e723]:
+              - generic [ref=f1e724]: 콜드메일
+              - generic [ref=f1e725]: 리드
+              - generic [ref=f1e726]: 1회성
+          - generic [ref=f1e727]: ~60분
+      - article [ref=f1e728]:
+        - generic [ref=f1e729] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e730]: ✓
+          - generic [ref=f1e731]:
+            - text: "T063 · #063"
+            - generic [ref=f1e732]: 커뮤니티 반응 대응·리드 라우팅 데일리 루틴 시작
+            - generic [ref=f1e733]:
+              - generic [ref=f1e734]: 전 채널(대응 루틴)
+              - generic [ref=f1e735]: 리드
+              - generic [ref=f1e736]: 루틴시작
+          - generic [ref=f1e737]: ~30분
+      - article [ref=f1e738]:
+        - generic [ref=f1e739] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e740]: ✓
+          - generic [ref=f1e741]:
+            - text: "T064 · #064"
+            - generic [ref=f1e742]: "아프니까 사장이다' 카페 침투: 등업 후 답변형 기여 루틴"
+            - generic [ref=f1e743]:
+              - generic [ref=f1e744]: 네이버 카페
+              - generic [ref=f1e745]: 인지
+              - generic [ref=f1e746]: 루틴시작
+          - generic [ref=f1e747]: ~45분
+      - article [ref=f1e748]:
+        - generic [ref=f1e749] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e750]: ✓
+          - generic [ref=f1e751]:
+            - text: "T065 · #065"
+            - generic [ref=f1e752]: 업종별 AI 진단 질의 세트 15개 제작
+            - generic [ref=f1e753]:
+              - generic [ref=f1e754]: 콜드메일
+              - generic [ref=f1e755]: 리드
+              - generic [ref=f1e756]: 1회성
+          - generic [ref=f1e757]: ~90분
+      - article [ref=f1e758]:
+        - generic [ref=f1e759] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e760]: ✓
+          - generic [ref=f1e761]:
+            - text: "T066 · #066"
+            - generic [ref=f1e762]: 1차 발송 배치 20곳 진단 훅 생성
+            - generic [ref=f1e763]:
+              - generic [ref=f1e764]: 콜드메일
+              - generic [ref=f1e765]: 리드
+              - generic [ref=f1e766]: 1회성
+          - generic [ref=f1e767]: ~120분
+      - article [ref=f1e768]:
+        - generic [ref=f1e769] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e770]: ✓
+          - generic [ref=f1e771]:
+            - text: "T067 · #067"
+            - generic [ref=f1e772]: 시퀀스 1통차(초안) 카피 3종 작성
+            - generic [ref=f1e773]:
+              - generic [ref=f1e774]: 콜드메일
+              - generic [ref=f1e775]: 리드
+              - generic [ref=f1e776]: 1회성
+          - generic [ref=f1e777]: ~120분
+      - article [ref=f1e778]:
+        - generic [ref=f1e779] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e780]: ✓
+          - generic [ref=f1e781]:
+            - text: "T068 · #068"
+            - generic [ref=f1e782]: 시퀀스 2통차(리마인드)·3통차(가치추가) 카피 작성
+            - generic [ref=f1e783]:
+              - generic [ref=f1e784]: 콜드메일
+              - generic [ref=f1e785]: 리드
+              - generic [ref=f1e786]: 1회성
+          - generic [ref=f1e787]: ~90분
+      - article [ref=f1e788]:
+        - generic [ref=f1e789] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e790]: ✓
+          - generic [ref=f1e791]:
+            - text: "T069 · #069"
+            - generic [ref=f1e792]: 무료 진단 리포트 샘플 1페이지 제작
+            - generic [ref=f1e793]:
+              - generic [ref=f1e794]: 콜드메일
+              - generic [ref=f1e795]: 전환
+              - generic [ref=f1e796]: 1회성
+          - generic [ref=f1e797]: ~120분
+      - article [ref=f1e798]:
+        - generic [ref=f1e799] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e800]: ✓
+          - generic [ref=f1e801]:
+            - text: "T070 · #070"
+            - generic [ref=f1e802]: 회신 처리 스크립트북 작성
+            - generic [ref=f1e803]:
+              - generic [ref=f1e804]: 콜드메일
+              - generic [ref=f1e805]: 전환
+              - generic [ref=f1e806]: 1회성
+          - generic [ref=f1e807]: ~90분
+      - article [ref=f1e808]:
+        - generic [ref=f1e809] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e810]: ✓
+          - generic [ref=f1e811]:
+            - text: "T071 · #071"
+            - generic [ref=f1e812]: 테스트 발송·스팸함 점검
+            - generic [ref=f1e813]:
+              - generic [ref=f1e814]: 콜드메일
+              - generic [ref=f1e815]: 리드
+              - generic [ref=f1e816]: 1회성
+          - generic [ref=f1e817]: ~60분
+      - article [ref=f1e818]:
+        - generic [ref=f1e819] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e820]: ✓
+          - generic [ref=f1e821]:
+            - text: "T072 · #072"
+            - generic [ref=f1e822]: 1차 배치 20통 발송 및 회신 대응
+            - generic [ref=f1e823]:
+              - generic [ref=f1e824]: 콜드메일
+              - generic [ref=f1e825]: 리드
+              - generic [ref=f1e826]: 1회성
+          - generic [ref=f1e827]: ~90분
+      - article [ref=f1e828]:
+        - generic [ref=f1e829] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e830]: ✓
+          - generic [ref=f1e831]:
+            - text: "T073 · #073"
+            - generic [ref=f1e832]: 주간 20통 발송·팔로업 루틴 확립
+            - generic [ref=f1e833]:
+              - generic [ref=f1e834]: 콜드메일
+              - generic [ref=f1e835]: 리드
+              - generic [ref=f1e836]: 루틴시작
+          - generic [ref=f1e837]: ~60분
+      - article [ref=f1e838]:
+        - generic [ref=f1e839] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e840]: ✓
+          - generic [ref=f1e841]:
+            - text: "T074 · #074"
+            - generic [ref=f1e842]: DM 스크립트 트리 작성 (첫 DM + 응답 4분기)
+            - generic [ref=f1e843]:
+              - generic [ref=f1e844]: 쓰레드·인스타 DM
+              - generic [ref=f1e845]: 리드
+              - generic [ref=f1e846]: 1회성
+          - generic [ref=f1e847]: ~90분
+      - article [ref=f1e848]:
+        - generic [ref=f1e849] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e850]: ✓
+          - generic [ref=f1e851]:
+            - text: "T075 · #075"
+            - generic [ref=f1e852]: 쓰레드 마케팅·자영업 고민글 작성자 50명 리스트업 루틴 시작
+            - generic [ref=f1e853]:
+              - generic [ref=f1e854]: 쓰레드 DM
+              - generic [ref=f1e855]: 리드
+              - generic [ref=f1e856]: 루틴시작
+          - generic [ref=f1e857]: ~150분
+      - article [ref=f1e858]:
+        - generic [ref=f1e859] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e860]: ✓
+          - generic [ref=f1e861]:
+            - text: "T076 · #076"
+            - generic [ref=f1e862]: 선 가치제공 DM 첫 10건 발송 (워밍업)
+            - generic [ref=f1e863]:
+              - generic [ref=f1e864]: 쓰레드·인스타 DM
+              - generic [ref=f1e865]: 리드
+              - generic [ref=f1e866]: 실험
+          - generic [ref=f1e867]: ~60분
+      - article [ref=f1e868]:
+        - generic [ref=f1e869] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e870]: ✓
+          - generic [ref=f1e871]:
+            - text: "T077 · #077"
+            - generic [ref=f1e872]: 매일 아침 30분 DM 응답·48시간 팔로업 루틴 시작
+            - generic [ref=f1e873]:
+              - generic [ref=f1e874]: 쓰레드·인스타 DM
+              - generic [ref=f1e875]: 전환
+              - generic [ref=f1e876]: 루틴시작
+          - generic [ref=f1e877]: ~45분
+      - article [ref=f1e878]:
+        - generic [ref=f1e879] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e880]: ✓
+          - generic [ref=f1e881]:
+            - text: "T078 · #078"
+            - generic [ref=f1e882]: 서울 병의원 인스타 20곳 리스트업 + 개인화 DM 15건 발송
+            - generic [ref=f1e883]:
+              - generic [ref=f1e884]: 인스타 DM
+              - generic [ref=f1e885]: 리드
+              - generic [ref=f1e886]: 루틴시작
+          - generic [ref=f1e887]: ~150분
+      - article [ref=f1e888]:
+        - generic [ref=f1e889] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e890]: ✓
+          - generic [ref=f1e891]:
+            - text: "T079 · #079"
+            - generic [ref=f1e892]: 로컬 매장(카페·식당·뷰티샵) 셀프서브 오퍼 DM 루틴 시작
+            - generic [ref=f1e893]:
+              - generic [ref=f1e894]: 인스타 DM
+              - generic [ref=f1e895]: 리드
+              - generic [ref=f1e896]: 루틴시작
+          - generic [ref=f1e897]: ~90분
+      - article [ref=f1e898]:
+        - generic [ref=f1e899] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e900]: ✓
+          - generic [ref=f1e901]:
+            - text: "T080 · #080"
+            - generic [ref=f1e902]: 마케팅 에이전시 대표 10명 재판매 제안 DM 발송
+            - generic [ref=f1e903]:
+              - generic [ref=f1e904]: 쓰레드·인스타 DM
+              - generic [ref=f1e905]: 리드
+              - generic [ref=f1e906]: 실험
+          - generic [ref=f1e907]: ~90분
+      - article [ref=f1e908]:
+        - generic [ref=f1e909] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e910]: ✓
+          - generic [ref=f1e911]:
+            - text: "T081 · #081"
+            - generic [ref=f1e912]: 지역 소상공인 단체·상인회 3곳 접촉 (특강+단체 진단 제안)
+            - generic [ref=f1e913]:
+              - generic [ref=f1e914]: 전화·이메일(오프라인 단체)
+              - generic [ref=f1e915]: 리드
+              - generic [ref=f1e916]: 1회성
+          - generic [ref=f1e917]: ~120분
+      - article [ref=f1e918]:
+        - generic [ref=f1e919] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e920]: ✓
+          - generic [ref=f1e921]:
+            - text: "T082 · #082"
+            - generic [ref=f1e922]: 디스콰이엇에 플루랭크 프로덕트 등록·소개글 발행
+            - generic [ref=f1e923]:
+              - generic [ref=f1e924]: 디스콰이엇
+              - generic [ref=f1e925]: 유입
+              - generic [ref=f1e926]: 1회성
+          - generic [ref=f1e927]: ~90분
+      - article [ref=f1e928]:
+        - generic [ref=f1e929] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e930]: ✓
+          - generic [ref=f1e931]:
+            - text: "T083 · #083"
+            - generic [ref=f1e932]: GeekNews에 Show GN 글 발행
+            - generic [ref=f1e933]:
+              - generic [ref=f1e934]: GeekNews
+              - generic [ref=f1e935]: 유입
+              - generic [ref=f1e936]: 1회성
+          - generic [ref=f1e937]: ~120분
+      - article [ref=f1e938]:
+        - generic [ref=f1e939] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e940]: ✓
+          - generic [ref=f1e941]:
+            - text: "T084 · #084"
+            - generic [ref=f1e942]: 상담용 세일즈 덱·제안서 템플릿 제작 + 가격·패키지·견적서 표준화
+            - generic [ref=f1e943]:
+              - generic [ref=f1e944]: 세일즈 자산(Google Slides·Docs)
+              - generic [ref=f1e945]: 전환
+              - generic [ref=f1e946]: 1회성
+          - generic [ref=f1e947]: ~180분
+      - article [ref=f1e948]:
+        - generic [ref=f1e949] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e950]: ✓
+          - generic [ref=f1e951]:
+            - text: "T085 · #085"
+            - generic [ref=f1e952]: 캘린들리 상담 예약 링크 세팅 + 상담 전 리드 브리핑 시트 루틴 시작
+            - generic [ref=f1e953]:
+              - generic [ref=f1e954]: 세일즈 운영(캘린들리·Google Sheets)
+              - generic [ref=f1e955]: 전환
+              - generic [ref=f1e956]: 루틴시작
+          - generic [ref=f1e957]: ~90분
+    - generic [ref=f1e958]:
+      - generic [ref=f1e959]:
+        - generic [ref=f1e960]: P4
+        - generic [ref=f1e961]: 전환·증폭
+        - generic [ref=f1e962]: 0/15
+      - article [ref=f1e963]:
+        - generic [ref=f1e964] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e965]: ✓
+          - generic [ref=f1e966]:
+            - text: "T086 · #086"
+            - generic [ref=f1e967]: 주간 KPI 회고 심화 — 채널별 전환 기여 분석·킬/확대 판정 체계로 확장
+            - generic [ref=f1e968]:
+              - generic [ref=f1e969]: Google Sheets·GA4(내부 운영)
+              - generic [ref=f1e970]: 전환
+              - generic [ref=f1e971]: 루틴시작
+          - generic [ref=f1e972]: ~90분
+      - article [ref=f1e973]:
+        - generic [ref=f1e974] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e975]: ✓
+          - generic [ref=f1e976]:
+            - text: "T087 · #087"
+            - generic [ref=f1e977]: 무료 진단 리포트 템플릿 표준화 (24시간 발송 체계)
+            - generic [ref=f1e978]:
+              - generic [ref=f1e979]: Google Slides(내부 제작물)
+              - generic [ref=f1e980]: 전환
+              - generic [ref=f1e981]: 1회성
+          - generic [ref=f1e982]: ~210분
+      - article [ref=f1e983]:
+        - generic [ref=f1e984] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e985]: ✓
+          - generic [ref=f1e986]:
+            - text: "T088 · #088"
+            - generic [ref=f1e987]: 진단 신청 즉시 자동 확인 메일 세팅
+            - generic [ref=f1e988]:
+              - generic [ref=f1e989]: 이메일(자동화)
+              - generic [ref=f1e990]: 전환
+              - generic [ref=f1e991]: 1회성
+          - generic [ref=f1e992]: ~60분
+      - article [ref=f1e993]:
+        - generic [ref=f1e994] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e995]: ✓
+          - generic [ref=f1e996]:
+            - text: "T089 · #089"
+            - generic [ref=f1e997]: 리포트 전달 + 상담 제안 메일 스크립트 확정
+            - generic [ref=f1e998]:
+              - generic [ref=f1e999]: 이메일
+              - generic [ref=f1e1000]: 전환
+              - generic [ref=f1e1001]: 1회성
+          - generic [ref=f1e1002]: ~90분
+      - article [ref=f1e1003]:
+        - generic [ref=f1e1004] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1005]: ✓
+          - generic [ref=f1e1006]:
+            - text: "T090 · #090"
+            - generic [ref=f1e1007]: 리포트 발송 3일 후 무응답 팔로업 스크립트 작성·가동
+            - generic [ref=f1e1008]:
+              - generic [ref=f1e1009]: 이메일·전화
+              - generic [ref=f1e1010]: 전환
+              - generic [ref=f1e1011]: 1회성
+          - generic [ref=f1e1012]: ~60분
+      - article [ref=f1e1013]:
+        - generic [ref=f1e1014] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1015]: ✓
+          - generic [ref=f1e1016]:
+            - text: "T091 · #091"
+            - generic [ref=f1e1017]: 셀프체크 제출자 자동 후속 메일 3통 세팅 (스티비)
+            - generic [ref=f1e1018]:
+              - generic [ref=f1e1019]: 이메일(스티비)
+              - generic [ref=f1e1020]: 전환
+              - generic [ref=f1e1021]: 1회성
+          - generic [ref=f1e1022]: ~150분
+      - article [ref=f1e1023]:
+        - generic [ref=f1e1024] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1025]: ✓
+          - generic [ref=f1e1026]:
+            - text: "T092 · #092"
+            - generic [ref=f1e1027]: 미전환 리드 2주 재접촉 루틴 시작 (데이터 훅 메일)
+            - generic [ref=f1e1028]:
+              - generic [ref=f1e1029]: 이메일
+              - generic [ref=f1e1030]: 전환
+              - generic [ref=f1e1031]: 루틴시작
+          - generic [ref=f1e1032]: ~60분
+      - article [ref=f1e1033]:
+        - generic [ref=f1e1034] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1035]: ✓
+          - generic [ref=f1e1036]:
+            - text: "T093 · #093"
+            - generic [ref=f1e1037]: 첫 고객 인터뷰 섭외 및 질문지 준비
+            - generic [ref=f1e1038]:
+              - generic [ref=f1e1039]: 전화·카카오톡
+              - generic [ref=f1e1040]: 전환
+              - generic [ref=f1e1041]: 1회성
+          - generic [ref=f1e1042]: ~60분
+      - article [ref=f1e1043]:
+        - generic [ref=f1e1044] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1045]: ✓
+          - generic [ref=f1e1046]:
+            - text: "T094 · #094"
+            - generic [ref=f1e1047]: 고객 후기 3건 확보 및 랜딩·리포트 반영
+            - generic [ref=f1e1048]:
+              - generic [ref=f1e1049]: 카카오톡·이메일 + 랜딩·리포트
+              - generic [ref=f1e1050]: 전환
+              - generic [ref=f1e1051]: 1회성
+          - generic [ref=f1e1052]: ~90분
+      - article [ref=f1e1053]:
+        - generic [ref=f1e1054] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1055]: ✓
+          - generic [ref=f1e1056]:
+            - text: "T095 · #095"
+            - generic [ref=f1e1057]: 비포애프터 고객 사례 블로그 글 발행
+            - generic [ref=f1e1058]:
+              - generic [ref=f1e1059]: 블로그(plurank.com)
+              - generic [ref=f1e1060]: 리드
+              - generic [ref=f1e1061]: 1회성
+          - generic [ref=f1e1062]: ~180분
+      - article [ref=f1e1063]:
+        - generic [ref=f1e1064] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1065]: ✓
+          - generic [ref=f1e1066]:
+            - text: "T096 · #096"
+            - generic [ref=f1e1067]: 고객 추천(리퍼럴) 요청 시스템 구축
+            - generic [ref=f1e1068]:
+              - generic [ref=f1e1069]: 카카오톡·이메일
+              - generic [ref=f1e1070]: 리드
+              - generic [ref=f1e1071]: 1회성
+          - generic [ref=f1e1072]: ~90분
+      - article [ref=f1e1073]:
+        - generic [ref=f1e1074] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1075]: ✓
+          - generic [ref=f1e1076]:
+            - text: "T097 · #097"
+            - generic [ref=f1e1077]: app.plurank.com 무료→유료 결제 플로우 완주 테스트 및 마찰 로그 작성
+            - generic [ref=f1e1078]:
+              - generic [ref=f1e1079]: 제품(셀프서브 QA)
+              - generic [ref=f1e1080]: 전환
+              - generic [ref=f1e1081]: 1회성
+          - generic [ref=f1e1082]: ~90분
+      - article [ref=f1e1083]:
+        - generic [ref=f1e1084] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1085]: ✓
+          - generic [ref=f1e1086]:
+            - text: "T098 · #098"
+            - generic [ref=f1e1087]: 무료 한도 도달 업그레이드 넛지 시퀀스(메일 3통+인앱 배너) 가동
+            - generic [ref=f1e1088]:
+              - generic [ref=f1e1089]: 이메일·인앱(스티비)
+              - generic [ref=f1e1090]: 전환
+              - generic [ref=f1e1091]: 루틴시작
+          - generic [ref=f1e1092]: ~150분
+      - article [ref=f1e1093]:
+        - generic [ref=f1e1094] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1095]: ✓
+          - generic [ref=f1e1096]:
+            - text: "T099 · #099"
+            - generic [ref=f1e1097]: 블로그 51글 성과 분석 → 상위 콘텐츠 재활용 루틴
+            - generic [ref=f1e1098]:
+              - generic [ref=f1e1099]: 블로그·GSC·Threads
+              - generic [ref=f1e1100]: 유입
+              - generic [ref=f1e1101]: 루틴시작
+          - generic [ref=f1e1102]: ~180분
+      - article [ref=f1e1103]:
+        - generic [ref=f1e1104] [cursor=pointer]:
+          - button "완료 체크" [ref=f1e1105]: ✓
+          - generic [ref=f1e1106]:
+            - text: "T100 · #100"
+            - generic [ref=f1e1107]: 4주 데이터 기반 다음 100개 태스크 백로그 작성
+            - generic [ref=f1e1108]:
+              - generic [ref=f1e1109]: Google Sheets(내부 운영)
+              - generic [ref=f1e1110]: 전환
+              - generic [ref=f1e1111]: 1회성
+          - generic [ref=f1e1112]: ~180분
+  - contentinfo [ref=f1e50]:
+    - generic [ref=f1e58]: PLURANK WAR ROOM · 주식회사 투스텝스어헤드
+    - button "새로고침" [ref=f1e51] [cursor=pointer]

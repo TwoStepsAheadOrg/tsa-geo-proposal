@@ -1,0 +1,147 @@
+[      95ms] [WARNING] Mixed Content: The page at 'https://www.xiaohongshu.com/discovery/item/69cdd6cd000000002301c6c8?app_platform=ios&app_version=9.36&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBmcjhXhXOJp1CqrOICS2Bqk_vFW3iNoO9-IAzvM2fCWw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz9HMjU-OTw8STs2Pj0xPEs0TzhIOzlP&apptime=1782813152&share_id=899786f282fc4a2bbb2f32615a74070a' was loaded over HTTPS, but requested an insecure element 'http://sns-webpic-qc.xhscdn.com/202607181549/9f58645034b77101c74f171164680b7d/1040g2sg31uemh5qgiae049tha5kl7lhvin6dueo!nd_prv_wgth_webp_3'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://www.xiaohongshu.com/discovery/item/69cdd6cd000000002301c6c8?app_platform=ios&app_version=9.36&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBmcjhXhXOJp1CqrOICS2Bqk_vFW3iNoO9-IAzvM2fCWw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz9HMjU-OTw8STs2Pj0xPEs0TzhIOzlP&apptime=1782813152&share_id=899786f282fc4a2bbb2f32615a74070a:4500
+[     452ms] [INFO] 框架和 SDK 输出的日志默认不展示，可在框架配置文件中设置开启，详见 https://doc.weixin.qq.com/doc/w3_AWkASAb9APAr8IdJI5VS0OyqetUE6?scode=ANAAyQcbAAgB8qKjm9AWkASAb9APA @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[     488ms] [LOG] Error @ :2
+[     539ms] [ERROR] [apm] region is required! @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[     553ms] [LOG] Error @ :2
+[     560ms] [LOG] Error @ :2
+[     764ms] [LOG] Error @ :2
+[     864ms] [LOG] Error @ :2
+[     946ms] [LOG] player eventName:::: volume_change {volume: 0.00} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:0
+[     963ms] [LOG] Service Worker registered success with scope: https://www.xiaohongshu.com/ @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[     966ms] [WARNING] Tribute was already bound to P @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/async/6399.1ac57d49.js:0
+[     967ms] [LOG] [ Timer worker init ] @ blob:https://www.xiaohongshu.com/e4833caa-a33b-41d5-9c9d-4f5d48fb676b:0
+[     980ms] [ERROR] [loginStatusInterceptor] Response error: HTTPServerError: 无登录信息，或登录信息为空
+    at fulfilled (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196805)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197334 {data: Object, status: 401, statusText: , headers: Object, config: Object} {url: //edith.xiaohongshu.com/api/sns/web/v2/user/me, method: get, headers: Object, transformRequest: Array(1), transformResponse: Array(1)} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[     980ms] [ERROR] [loginStatusInterceptor] Response error: HTTPServerError: 无登录信息，或登录信息为空
+    at fulfilled (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196805)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197334 {data: Object, status: 401, statusText: , headers: Object, config: Object} {url: //edith.xiaohongshu.com/api/sns/web/v1/system/config, method: get, headers: Object, transformRequest: Array(1), transformResponse: Array(1)} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[     981ms] [ERROR] [loginStatusInterceptor] Response error: HTTPServerError: 无登录信息，或登录信息为空
+    at fulfilled (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196805)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197334 {data: Object, status: 401, statusText: , headers: Object, config: Object} {url: //edith.xiaohongshu.com/api/sns/web/v2/widgets, method: post, data: {"note_id":"69cdd6cd000000002301c6c8","scene":"web…,"exp_flags":{"web_support_related_search":true}}, headers: Object, transformRequest: Array(1)} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[     986ms] [ERROR] [loginStatusInterceptor] Response error: HTTPServerError: 无登录信息，或登录信息为空
+    at fulfilled (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196805)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197334 {data: Object, status: 401, statusText: , headers: Object, config: Object} {url: //edith.xiaohongshu.com/api/sns/web/v1/config, method: post, headers: Object, transformRequest: Array(1), transformResponse: Array(1)} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[    1424ms] [LOG] Error @ :2
+[    1439ms] [LOG] Error @ :2
+[    1533ms] [ERROR] TypeError: i is not a function
+    at https://www.xiaohongshu.com/discovery/item/69cdd6cd000000002301c6c8?app_platform=ios&app_version=9.36&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBmcjhXhXOJp1CqrOICS2Bqk_vFW3iNoO9-IAzvM2fCWw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz9HMjU-OTw8STs2Pj0xPEs0TzhIOzlP&apptime=1782813152&share_id=899786f282fc4a2bbb2f32615a74070a:1:4919 @ https://www.xiaohongshu.com/discovery/item/69cdd6cd000000002301c6c8?app_platform=ios&app_version=9.36&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBmcjhXhXOJp1CqrOICS2Bqk_vFW3iNoO9-IAzvM2fCWw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz9HMjU-OTw8STs2Pj0xPEs0TzhIOzlP&apptime=1782813152&share_id=899786f282fc4a2bbb2f32615a74070a:0
+[    1550ms] [LOG] player eventName:::: volume_change {volume: 0.00} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:0
+[    1593ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.xiaohongshu.com/explore/69cdd6cd000000002301c6c8?app_platform=ios&app_version=9.36&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBmcjhXhXOJp1CqrOICS2Bqk_vFW3iNoO9-IAzvM2fCWw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz9HMjU-OTw8STs2Pj0xPEs0TzhIOzlP&apptime=1782813152&share_id=899786f282fc4a2bbb2f32615a74070a:0
+[    1641ms] [LOG] Error @ :2
+[    1647ms] [LOG] Error @ :2
+[    1834ms] [LOG] Error @ :2
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    2523ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    3913ms] [LOG] Error @ :2
+[    4042ms] [LOG] Error @ :2
+[    6400ms] [LOG] {measurement_name: paintTiming, measurement_data: Object} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[   13559ms] [LOG] Error @ :2
+[   27579ms] [LOG] Error @ :2
+[  120872ms] [LOG] Error @ :2
+[  300963ms] [LOG] Error @ :2
+[  901386ms] [LOG] Error @ :2
+[ 1321504ms] [LOG] Error @ :2
+[ 1807031ms] [LOG] Error @ :2
+[ 2107450ms] [LOG] Error @ :2
+[ 2407727ms] [LOG] Error @ :2
+[ 2522269ms] [LOG] Error @ :2
+[ 2522275ms] [LOG] Error @ :2
+[ 2707951ms] [LOG] Error @ :2
+[ 3008253ms] [LOG] Error @ :2
+[ 3014260ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[ 3074264ms] [LOG] Error @ :2
+[ 3122406ms] [LOG] Error @ :2
+[ 3374440ms] [LOG] Error @ :2
+[ 3722651ms] [LOG] Error @ :2
+[ 3722659ms] [LOG] Error @ :2
+[ 3812735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://apm-fe.xiaohongshu.com/api/data:0
+[ 3974979ms] [LOG] Error @ :2
+[ 4275174ms] [LOG] Error @ :2
+[ 4922800ms] [LOG] Error @ :2
+[ 4922804ms] [LOG] Error @ :2
+[ 5175970ms] [LOG] Error @ :2
+[ 5481196ms] [LOG] Error @ :2
+[ 5522896ms] [LOG] Error @ :2
+[ 6091855ms] [LOG] Error @ :2
+[ 6123117ms] [LOG] Error @ :2
+[ 6723202ms] [LOG] Error @ :2
+[ 7007839ms] [LOG] Error @ :2
+[ 7313506ms] [LOG] Error @ :2
+[ 7323249ms] [LOG] Error @ :2
+[ 7323254ms] [LOG] Error @ :2
+[ 7923523ms] [LOG] Error @ :2
+[ 7923529ms] [LOG] Error @ :2
+[ 7925078ms] [LOG] Error @ :2
+[ 8523721ms] [LOG] Error @ :2
+[ 8523726ms] [LOG] Error @ :2
+[ 9135915ms] [LOG] Error @ :2
+[ 9724141ms] [LOG] Error @ :2
+[11525485ms] [LOG] Error @ :2
+[11525496ms] [LOG] Error @ :2
+[11538271ms] [LOG] Error @ :2
+[11838407ms] [LOG] Error @ :2
+[12125666ms] [LOG] Error @ :2
+[12125673ms] [LOG] Error @ :2
+[12139156ms] [LOG] Error @ :2
+[12726033ms] [LOG] Error @ :2
+[12744492ms] [LOG] Error @ :2
+[13049590ms] [LOG] Error @ :2
+[13650340ms] [LOG] Error @ :2
+[13926438ms] [LOG] Error @ :2
+[13926444ms] [LOG] Error @ :2
+[14852048ms] [LOG] Error @ :2
+[15126925ms] [LOG] Error @ :2
+[15452806ms] [LOG] Error @ :2
+[15753022ms] [LOG] Error @ :2
+[16327373ms] [LOG] Error @ :2
+[16327381ms] [LOG] Error @ :2
+[16653603ms] [LOG] Error @ :2
+[16958810ms] [LOG] Error @ :2
+[17258947ms] [LOG] Error @ :2
+[17559177ms] [LOG] Error @ :2
+[17859721ms] [LOG] Error @ :2
+[18128323ms] [LOG] Error @ :2
+[18128329ms] [LOG] Error @ :2
+[18460085ms] [LOG] Error @ :2
+[18728848ms] [LOG] Error @ :2
+[19060534ms] [LOG] Error @ :2
+[19329026ms] [LOG] Error @ :2
+[19660987ms] [LOG] Error @ :2
+[20261491ms] [LOG] Error @ :2
+[20529932ms] [LOG] Error @ :2
+[20561699ms] [LOG] Error @ :2
+[21136070ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21144084ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21152092ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21168123ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21228126ms] [LOG] Error @ :2
+[21234139ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21300149ms] [ERROR] [loginStatusInterceptor] Response error: HTTPClientError: 薯队长遇到了点小麻烦
+    at rejected (https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:196880)
+    at https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:1:197403 null undefined @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:24
+[21731573ms] [LOG] Error @ :2
+[21960370ms] [LOG] Error @ :2
+[22260889ms] [LOG] Error @ :2
+[22331699ms] [LOG] Error @ :2
+[22333259ms] [LOG] player eventName:::: video_stop {} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/index.cdd4076a.js:0
+[22333443ms] [LOG] {measurement_name: interactiveTiming, measurement_data: Object} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0
+[22333443ms] [LOG] {measurement_name: visualStability, measurement_data: Object} @ https://fe-static.xhscdn.com/formula-static/xhs-pc-web/public/resource/js/vendor-dynamic.e4278394.js:0

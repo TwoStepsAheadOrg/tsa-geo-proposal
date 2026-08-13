@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@400;500;700;800;900&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#17130f; --ink2:#2a2420; --paper:#f4e9cf; --paper2:#efe0bd;
+    --vermil:#ff4526; --vermil2:#e5361a; --amber:#ffb400; --blue:#2b53ff; --blueglow:#5f80ff;
+    --cream:#fff7e6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:1200px;overflow:hidden}
+  body{
+    font-family:"Gothic A1",sans-serif; color:var(--ink); position:relative;
+    background:var(--paper);
+    background-image:
+      radial-gradient(circle at 50% 42%, #fff8ea 0%, var(--paper) 46%, var(--paper2) 100%);
+  }
+  /* halftone dot texture */
+  .halftone{position:absolute;inset:0;pointer-events:none;opacity:.5;
+    background-image:radial-gradient(var(--ink) 1.4px, transparent 1.6px);
+    background-size:16px 16px; mask-image:radial-gradient(120% 100% at 50% 40%, transparent 30%, #000 100%);
+    -webkit-mask-image:radial-gradient(120% 100% at 50% 40%, transparent 30%, #000 100%);}
+  .halftone.v{opacity:.22;background-image:radial-gradient(var(--vermil) 1.6px, transparent 1.8px);background-size:20px 20px}
+  /* comic burst behind title */
+  .burst{position:absolute;top:-230px;left:50%;transform:translateX(-50%);width:1100px;height:900px;opacity:.9;
+    background:conic-gradient(from 0deg, var(--cream) 0 6deg, transparent 6deg 12deg);
+    -webkit-mask:radial-gradient(closest-side, #000 62%, transparent 63%);
+    mask:radial-gradient(closest-side, #000 62%, transparent 63%);}
+  /* panel frame */
+  .frame{position:absolute;inset:30px;border:6px solid var(--ink);border-radius:10px;
+    box-shadow:0 0 0 5px var(--paper), 0 0 0 10px var(--ink), 14px 16px 0 rgba(23,19,15,.14);}
+  .stage{position:absolute;inset:30px;padding:56px 62px;display:flex;flex-direction:column}
+
+  /* header */
+  .top{display:flex;justify-content:space-between;align-items:flex-start}
+  .pill{display:inline-flex;align-items:center;gap:9px;background:var(--ink);color:var(--cream);
+    font-weight:800;font-size:19px;letter-spacing:.5px;padding:9px 18px;border-radius:40px;transform:rotate(-2deg)}
+  .pill .dot{width:9px;height:9px;border-radius:50%;background:var(--vermil);box-shadow:0 0 0 3px rgba(255,69,38,.3)}
+  .cat{font-weight:800;font-size:16px;color:var(--ink2);text-align:right;line-height:1.5;opacity:.8}
+  .cat b{color:var(--vermil2)}
+
+  .title{margin-top:20px;position:relative}
+  .title .ko{font-family:"Black Han Sans";font-size:158px;line-height:.9;color:var(--ink);
+    letter-spacing:-1px;text-shadow:7px 7px 0 var(--vermil), 7px 7px 0 var(--vermil);position:relative;z-index:2}
+  .title .en{font-family:"Archivo Black";font-size:40px;letter-spacing:2px;color:var(--ink);margin-top:6px;
+    display:flex;align-items:center;gap:16px}
+  .title .en .tag{font-family:"Gothic A1";font-weight:900;font-size:22px;color:var(--cream);
+    background:var(--vermil);padding:6px 14px;border-radius:8px;transform:rotate(-1.5deg);box-shadow:3px 3px 0 var(--ink)}
+  .sub{margin-top:14px;font-weight:800;font-size:26px;color:var(--ink2)}
+  .sub .hl{color:var(--vermil2)}
+
+  /* pipeline */
+  .pipe{margin-top:30px;flex:1;display:grid;grid-template-columns:1fr 44px 1.15fr 44px 1.5fr;align-items:center;gap:0}
+  .node{background:var(--cream);border:4px solid var(--ink);border-radius:16px;padding:20px 18px 18px;
+    box-shadow:8px 9px 0 rgba(23,19,15,.16);height:100%;display:flex;flex-direction:column}
+  .node .lbl{font-family:"Black Han Sans";font-size:23px;color:var(--ink);display:flex;align-items:center;gap:9px;margin-bottom:4px}
+  .node .lbl .num{font-family:"Archivo Black";font-size:16px;color:var(--cream);background:var(--ink);
+    width:30px;height:30px;border-radius:50%;display:grid;place-items:center}
+  .node .desc{font-weight:700;font-size:15.5px;color:var(--ink2);line-height:1.35}
+  .arrow{display:grid;place-items:center;color:var(--vermil);font-size:40px;font-weight:900}
+  .arrow span{transform:translateY(-2px)}
+
+  /* input node */
+  .seed{margin-top:auto;display:flex;align-items:center;gap:14px;padding-top:16px}
+  .swatches{display:flex;flex-direction:column;gap:7px}
+  .swatches i{display:block;width:52px;height:15px;border-radius:4px;border:2px solid var(--ink)}
+  .face{width:74px;height:74px;border-radius:50% 50% 48% 48%;background:var(--amber);border:3px solid var(--ink);position:relative;flex-shrink:0}
+  .face::before{content:"";position:absolute;top:-14px;left:14px;width:30px;height:26px;background:var(--ink);
+    border-radius:60% 60% 0 0;transform:rotate(-12deg)}
+  .face .eye{position:absolute;top:34px;width:8px;height:11px;background:var(--ink);border-radius:50%}
+  .face .eye.l{left:20px}.face .eye.r{right:20px}
+  .face .mo{position:absolute;bottom:15px;left:50%;transform:translateX(-50%);width:22px;height:11px;
+    border:3px solid var(--ink);border-top:0;border-radius:0 0 40px 40px}
+
+  /* engine node */
+  .engine{border-color:var(--ink);background:linear-gradient(160deg,#1b1631,#241a12);position:relative;overflow:hidden}
+  .engine .lbl{color:var(--cream)}
+  .engine .lbl .num{background:var(--vermil)}
+  .engine .desc{color:#f4e2c0}
+  .core{margin:14px auto 10px;width:132px;height:132px;position:relative;display:grid;place-items:center}
+  .core .hex{width:112px;height:112px;background:
+      radial-gradient(circle at 50% 45%, var(--blueglow) 0%, var(--blue) 42%, #1a2db3 100%);
+    clip-path:polygon(50% 2%,93% 25%,93% 75%,50% 98%,7% 75%,7% 25%);
+    box-shadow:0 0 40px 6px rgba(95,128,255,.6);display:grid;place-items:center}
+  .core .hex b{font-family:"Black Han Sans";color:#fff;font-size:30px;text-shadow:0 2px 6px rgba(0,0,0,.4)}
+  .core .ring{position:absolute;inset:-6px;border:2px dashed rgba(255,180,0,.7);border-radius:50%}
+  .core .spark{position:absolute;width:11px;height:11px;background:var(--amber);border-radius:50%;box-shadow:0 0 10px 2px var(--amber)}
+  .core .s1{top:2px;left:8px}.core .s2{bottom:6px;right:6px}.core .s3{top:44%;right:-2px}
+  .chk{margin-top:auto;background:rgba(255,255,255,.1);border:2px solid rgba(255,180,0,.55);border-radius:9px;
+    padding:8px 10px;color:#ffe6a8;font-weight:800;font-size:14.5px;display:flex;align-items:center;gap:8px}
+  .chk .t{color:var(--amber)}
+
+  /* output node */
+  .out{display:flex;gap:14px;align-items:stretch}
+  .grid4{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:7px}
+  .cell{position:relative;border:3px solid var(--ink);border-radius:7px;overflow:hidden;background:var(--cream);min-height:78px}
+  .cell .ht{position:absolute;inset:0;opacity:.5;background-image:radial-gradient(var(--c,#ff4526) 1.5px,transparent 1.7px);background-size:9px 9px}
+  .cell .hero{position:absolute;bottom:-6px;left:50%;transform:translateX(-50%);width:46px;height:46px;border-radius:50% 50% 46% 46%;background:var(--amber);border:2.5px solid var(--ink)}
+  .cell .hero::before{content:"";position:absolute;top:-8px;left:8px;width:20px;height:16px;background:var(--ink);border-radius:60% 60% 0 0;transform:rotate(-12deg)}
+  .cell .hero .e{position:absolute;top:20px;width:5px;height:7px;background:var(--ink);border-radius:50%}
+  .cell .hero .e.l{left:12px}.cell .hero .e.r{right:12px}
+  .cell .bub{position:absolute;top:7px;right:7px;background:#fff;border:2.5px solid var(--ink);border-radius:50%;
+    width:26px;height:26px;display:grid;place-items:center;font-family:"Black Han Sans";font-size:15px;color:var(--vermil2)}
+  .cell.c1{background:#ffe1cf}.cell.c2{background:#d9e5ff}.cell.c3{background:#e6f7d6}.cell.c4{background:#ffd9ec}
+  .phone{width:118px;border:4px solid var(--ink);border-radius:20px;background:#0e0b16;padding:9px 8px;
+    display:flex;flex-direction:column;box-shadow:8px 9px 0 rgba(23,19,15,.16);position:relative}
+  .phone .notch{width:38px;height:6px;background:#3a3350;border-radius:6px;margin:2px auto 8px}
+  .phone .scr{flex:1;border-radius:10px;background:linear-gradient(180deg,#ff4526,#7a1fd0);position:relative;overflow:hidden}
+  .phone .scr .p{position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);width:52px;height:52px;border-radius:50% 50% 46% 46%;background:var(--amber);border:2.5px solid #0e0b16}
+  .phone .scr .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);width:0;height:0;
+    border-left:20px solid #fff;border-top:13px solid transparent;border-bottom:13px solid transparent;filter:drop-shadow(0 2px 4px rgba(0,0,0,.4))}
+  .phone .cap{color:#fff;font-weight:800;font-size:12.5px;text-align:center;padding:7px 0 3px;letter-spacing:.3px}
+  .phone .cap b{color:var(--amber)}
+
+  /* features */
+  .feats{margin-top:24px;display:flex;gap:12px}
+  .chip{flex:1;background:var(--ink);color:var(--cream);border-radius:12px;padding:14px 10px;text-align:center;
+    box-shadow:5px 6px 0 rgba(23,19,15,.18);transform:rotate(var(--r,0deg))}
+  .chip .ic{font-size:22px;line-height:1}
+  .chip .tx{font-weight:900;font-size:15px;margin-top:6px;letter-spacing:-.2px}
+  .chip .tx .a{color:var(--amber)}
+  .chip:nth-child(1){--r:-1.5deg}.chip:nth-child(2){--r:1deg}.chip:nth-child(3){--r:-1deg}.chip:nth-child(4){--r:1.5deg;background:var(--vermil);color:#fff}
+  .chip:nth-child(4) .tx .a{color:#fff2c9}
+</style>
+</head>
+<body>
+  <div class="halftone"></div>
+  <div class="burst"></div>
+  <div class="halftone v"></div>
+  <div class="frame"></div>
+  <div class="stage">
+    <div class="top">
+      <span class="pill"><span class="dot"></span>자체 개발·운영 SaaS</span>
+      <div class="cat">브랜드 웹툰 <b>생성 자동화</b> 플랫폼<br>Generative AI · Webtoon Pipeline</div>
+    </div>
+
+    <div class="title">
+      <div class="ko">툰에이전트</div>
+      <div class="en">ToonAgent <span class="tag">AI 생성 엔진</span></div>
+    </div>
+    <div class="sub">브랜드 톤을 학습해 <span class="hl">그림체·캐릭터 일관성</span>을 유지하며 인스타툰을 자동 생성</div>
+
+    <div class="pipe">
+      <div class="node">
+        <div class="lbl"><span class="num">1</span>입력</div>
+        <div class="desc">브랜드 톤 · 전용 캐릭터 시드 · 대본</div>
+        <div class="seed">
+          <div class="swatches"><i style="background:var(--vermil)"></i><i style="background:var(--blue)"></i><i style="background:var(--amber)"></i></div>
+          <div class="face"><span class="eye l"></span><span class="eye r"></span><span class="mo"></span></div>
+        </div>
+      </div>
+      <div class="arrow"><span>▶</span></div>
+      <div class="node engine">
+        <div class="lbl"><span class="num">2</span>AI 생성 엔진</div>
+        <div class="desc">그림체 학습 · 캐릭터 일관성 유지</div>
+        <div class="core">
+          <div class="ring"></div>
+          <div class="hex"><b>AI</b></div>
+          <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+        </div>
+        <div class="chk"><span class="t">✓</span> 동일 캐릭터·화풍 자동 유지</div>
+      </div>
+      <div class="arrow"><span>▶</span></div>
+      <div class="node">
+        <div class="lbl"><span class="num">3</span>출력</div>
+        <div class="desc">인스타툰 컷 → 숏폼(릴스·쇼츠) 자동 변환</div>
+        <div class="out" style="margin-top:12px;flex:1">
+          <div class="grid4">
+            <div class="cell c1"><div class="ht" style="--c:#ff4526"></div><div class="bub">!</div><div class="hero"><span class="e l"></span><span class="e r"></span></div></div>
+            <div class="cell c2"><div class="ht" style="--c:#2b53ff"></div><div class="bub">?</div><div class="hero"><span class="e l"></span><span class="e r"></span></div></div>
+            <div class="cell c3"><div class="ht" style="--c:#3aa80a"></div><div class="bub">★</div><div class="hero"><span class="e l"></span><span class="e r"></span></div></div>
+            <div class="cell c4"><div class="ht" style="--c:#ff2e88"></div><div class="bub">♥</div><div class="hero"><span class="e l"></span><span class="e r"></span></div></div>
+          </div>
+          <div class="phone">
+            <div class="notch"></div>
+            <div class="scr"><div class="play"></div><div class="p"></div></div>
+            <div class="cap"><b>▶ 릴스·쇼츠</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feats">
+      <div class="chip"><div class="ic">🎨</div><div class="tx">그림체·<span class="a">캐릭터 일관성</span></div></div>
+      <div class="chip"><div class="ic">⚙️</div><div class="tx">자동 <span class="a">생성 파이프라인</span></div></div>
+      <div class="chip"><div class="ic">🎬</div><div class="tx">숏폼 <span class="a">자동 변환</span></div></div>
+      <div class="chip"><div class="ic">🛡️</div><div class="tx">규제업종 <span class="a">심의 대응</span></div></div>
+    </div>
+  </div>
+</body>
+</html>

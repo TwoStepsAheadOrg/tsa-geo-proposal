@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: PLURANK
+      - generic [ref=e6]: 마케팅 워룸
+      - generic "동기화됨" [ref=e7]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - text: "1"
+        - generic [ref=e10]: /2
+      - generic [ref=e13]: 50%
+  - generic [ref=e14]: 이 100개는 결국, 사람들이 ChatGPT에 물었을 때 우리 고객이 답에 등장하게 만들고 — 그래서 플루랭크에 돈 내는 고객을 늘리려고 하는 거예요.
+  - generic [ref=e15]:
+    - generic [ref=e16]: 전과 — 누적 성과
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: 무료 진단 신청
+        - generic [ref=e20]: "0"
+      - generic [ref=e21]:
+        - generic [ref=e22]: 상담
+        - generic [ref=e23]: "0"
+      - generic [ref=e24]:
+        - generic [ref=e25]: 가입
+        - generic [ref=e26]: "0"
+      - generic [ref=e27]:
+        - generic [ref=e28]: 결제
+        - generic [ref=e29]: "0"
+    - button "+ 주간 기록" [ref=e30] [cursor=pointer]
+  - generic [ref=e31]:
+    - heading "오늘의 작전 — 다음 실행 순서" [level=2] [ref=e32]
+    - generic [ref=e34] [cursor=pointer]:
+      - generic [ref=e35]: "#001"
+      - generic [ref=e36]:
+        - generic [ref=e37]: GEO 경쟁사·레퍼런스 12곳 조사 시트 만들기
+        - generic [ref=e38]: 리서치 · 인지 · 2~3시간
+  - navigation [ref=e39]:
+    - generic [ref=e40]:
+      - button "전체 1" [ref=e41] [cursor=pointer]
+      - button "P0 기반 구축 1" [ref=e42] [cursor=pointer]
+      - button "P1 검색 자산" [ref=e43] [cursor=pointer]
+      - button "P2 콘텐츠 엔진" [ref=e44] [cursor=pointer]
+      - button "P3 아웃바운드" [ref=e45] [cursor=pointer]
+      - button "P4 전환·증폭" [ref=e46] [cursor=pointer]
+    - generic [ref=e47]:
+      - combobox [ref=e48]:
+        - option "채널 전체" [selected]
+        - option "리서치"
+        - option "콘텐츠/카피"
+      - combobox [ref=e49]:
+        - option "퍼널 전체" [selected]
+        - option "인지"
+      - combobox [ref=e50]:
+        - option "상태 전체" [selected]
+        - option "미완료"
+        - option "완료"
+      - searchbox "검색…" [ref=e51]
+  - main [ref=e52]:
+    - generic [ref=e53]:
+      - button "P0 기반 구축 이 단계 왜 하냐면 ▼ 1/2" [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]: P0
+        - generic [ref=e56]: 기반 구축
+        - generic [ref=e57]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e58]: 1/2
+      - article [ref=e59]:
+        - generic [ref=e60] [cursor=pointer]:
+          - button "완료 체크" [ref=e61]: ✓
+          - generic [ref=e62]:
+            - text: "T001 · #001"
+            - generic [ref=e63]: GEO 경쟁사·레퍼런스 12곳 조사 시트 만들기
+            - generic [ref=e64]:
+              - generic [ref=e65]: 리서치
+              - generic [ref=e66]: 인지
+              - generic [ref=e67]: 1회성
+          - generic [ref=e68]: 2~3시간
+      - article [ref=e69]:
+        - generic [ref=e70] [cursor=pointer]:
+          - button "완료 체크" [ref=e71]: ✓
+          - generic [ref=e72]:
+            - text: "T002 · #002"
+            - generic [ref=e73]: 메시지 하우스 작성 — 핵심 카피 3종
+            - generic [ref=e74]:
+              - generic [ref=e75]: 콘텐츠/카피
+              - generic [ref=e76]: 인지
+              - generic [ref=e77]: 1회성
+              - generic [ref=e78]: 메모
+              - generic [ref=e79]: ✓ 2026-07-26
+          - generic [ref=e80]: 반나절(3~4시간)
+  - contentinfo [ref=e81]:
+    - generic [ref=e82]: PLURANK WAR ROOM · 주식회사 투스텝스어헤드
+    - button "새로고침" [ref=e83] [cursor=pointer]

@@ -1,0 +1,120 @@
+[     540ms] [ERROR] Product widget set failed: Error: X
+    at Bi (https://adstransparency.google.com/advertiser/AR09306294506582179841?region=anywhere:212:337)
+    at new X (https://adstransparency.google.com/advertiser/AR09306294506582179841?region=anywhere:221:500)
+    at https://adstransparency.google.com/advertiser/AR09306294506582179841?region=anywhere:228:218
+    at https://adstransparency.google.com/advertiser/AR09306294506582179841?region=anywhere:240:3 @ https://adstransparency.google.com/advertiser/AR09306294506582179841?region=anywhere:3176
+[    1054ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://feedback-pa.clients6.google.com/v1/survey/startup_config?key=AIzaSyCB6OnnfuitFnaYWu4BvtGKaoLFk4cm-GE:0
+[    1702ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://play.google.com/log?format=json&hasfast=true:0
+[    1814ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://scone-pa.clients6.google.com/v1/survey/trigger?key=AIzaSyAKBAnMpt9xLMfPUEi-Dlo0ngVr4EJNbSk:0
+[   33952ms] [WARNING] [PostHog.js] You have already initialized PostHog with a different project token! Re-initializing is a no-op, so events will keep going to the project this instance was initialized with. To capture into a second project, load PostHog once, then initialize a named instance after the SDK has loaded, e.g. posthog.init('phc_dK4ybo7i7IPKBqESmPiv8TzOz686PV27oWVzQMbWTgt', { ... }, 'project2') @ https://t.peec.ai/static/array.js:0
+[   34024ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34024ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   34025ms] [LOG] [peec] script loaded @ https://peec.ai/:783
+[   34028ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34028ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   34485ms] [WARNING] Blocked message from unauthorized origin: https://peec.ai @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   34486ms] [WARNING] Blocked message from unauthorized origin: https://peec.ai @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   34783ms] [ERROR] Load failed, error in settings @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   34783ms] [ERROR] No visitor ID available. Load may have failed. @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   35144ms] [WARNING] Blocked message from unauthorized origin: https://api.vector.co @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   35634ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.X52GTSIN.mjs:0
+[   45891ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:700
+[   45891ms] [LOG] [peec] script loaded @ https://peec.ai/:783
+[   45897ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <filter> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <mask> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute x: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute y: Expected length, "-Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute width: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45897ms] [ERROR] Error: <rect> attribute height: Expected length, "Infinity%". @ https://peec.ai/:957
+[   45914ms] [WARNING] [PostHog.js] You have already initialized PostHog with a different project token! Re-initializing is a no-op, so events will keep going to the project this instance was initialized with. To capture into a second project, load PostHog once, then initialize a named instance after the SDK has loaded, e.g. posthog.init('phc_dK4ybo7i7IPKBqESmPiv8TzOz686PV27oWVzQMbWTgt', { ... }, 'project2') @ https://t.peec.ai/static/array.js:0
+[   46290ms] [WARNING] Blocked message from unauthorized origin: https://peec.ai @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   46290ms] [WARNING] Blocked message from unauthorized origin: https://peec.ai @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   46616ms] [ERROR] Load failed, error in settings @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   46616ms] [ERROR] No visitor ID available. Load may have failed. @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   46968ms] [WARNING] Blocked message from unauthorized origin: https://api.vector.co @ https://t.peec.ai/static/posthog-recorder.js?v=1.416.0:0
+[   47438ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.X52GTSIN.mjs:0

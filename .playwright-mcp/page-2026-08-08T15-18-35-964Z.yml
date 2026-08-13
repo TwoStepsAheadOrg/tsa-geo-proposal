@@ -1,0 +1,63 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: 위시켓, 국내 최대 IT 매칭 플랫폼
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: 12만 +
+            - generic [ref=e12]: 누적 이용 기업
+          - generic [ref=e13]:
+            - generic [ref=e14]: 15만 +
+            - generic [ref=e15]: 활동 중인 전문가
+          - generic [ref=e16]:
+            - generic [ref=e17]: 9,600억 +
+            - generic [ref=e18]: 누적 거래액
+          - generic [ref=e19]:
+            - generic [ref=e20]: 97%
+            - generic [ref=e21]: 유저 만족도
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - separator [ref=e24]
+            - img "위시켓을 이용 중인 기업" [ref=e25]
+            - separator [ref=e27]
+          - generic [ref=e28]: 10만+ 기업이 믿고 사용 중인 국내 1위 IT 프로젝트 플랫폼
+    - generic [ref=e30]:
+      - generic [ref=e31]: 로그인
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: 아이디 또는 이메일
+              - textbox "아이디 또는 이메일" [ref=e40]: glenn.kim@twostepsahead.co.kr
+            - generic [ref=e44]:
+              - generic [ref=e45]: 비밀번호
+              - generic [ref=e46]:
+                - textbox "비밀번호" [ref=e47]: Roodo102@@
+                - button [ref=e48] [cursor=pointer]
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - checkbox "로그인 상태 유지" [ref=e55] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: 로그인 상태 유지
+            - link "비밀번호 찾기" [ref=e60] [cursor=pointer]:
+              - /url: /settings/password/find
+          - button "로그인" [active] [ref=e63] [cursor=pointer]
+        - generic [ref=e66]:
+          - separator [ref=e67]
+          - generic [ref=e68]: 또는
+          - separator [ref=e69]
+        - generic [ref=e70]:
+          - button "구글로 로그인" [ref=e71] [cursor=pointer]
+          - button "페이스북으로 로그인" [ref=e80] [cursor=pointer]
+      - generic [ref=e86]:
+        - generic [ref=e87]: 아직 위시켓 통합회원이 아니신가요?
+        - link "회원가입" [ref=e88] [cursor=pointer]:
+          - /url: /signup?next=%2Fpartners%2Fp%2Ftwostepsahead%2Fcooperative_company%2F
+  - generic [ref=e105]:
+    - generic [ref=e106]: 로그인 중입니다.
+    - status "로딩 중" [ref=e107]
+  - alert [ref=e90]
+  - button "위시켓(wishket) 상담 버튼 , there are unread messages" [ref=e113]:
+    - generic [ref=e114] [cursor=pointer]:
+      - generic [ref=e115]: 위시켓(wishket) 상담 버튼
+      - status ", there are unread messages" [ref=e119]

@@ -1,0 +1,1256 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: PLURANK
+      - generic "저장 대기 중…" [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - text: "0"
+        - generic [ref=e9]: /100
+      - generic [ref=e11]: 0%
+  - generic [ref=e12]: 네이버 플레이스 사장님이 '우리 가게가 AI 검색에 잘 나오는지'를 무료로 확인하고, 옆집과 비교해보고, 돈 내고 계속 지켜보게 만들기 — 이 100개의 끝은 결국 우리의 첫 유료 고객 한 명을 만드는 거예요.
+  - generic [ref=e13]:
+    - generic [ref=e14]: 전과 — 누적 성과
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: 무료 진단 신청
+        - generic [ref=e18]: "0"
+      - generic [ref=e19]:
+        - generic [ref=e20]: 상담
+        - generic [ref=e21]: "0"
+      - generic [ref=e22]:
+        - generic [ref=e23]: 가입
+        - generic [ref=e24]: "0"
+      - generic [ref=e25]:
+        - generic [ref=e26]: 결제
+        - generic [ref=e27]: "0"
+    - button "+ 주간 기록" [ref=e28] [cursor=pointer]
+  - generic [ref=e29]:
+    - heading "오늘의 작전 — 다음 실행 순서" [level=2] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: "#001"
+        - generic [ref=e34]:
+          - generic [ref=e35]: 리스닝 베이스캠프 만들기 (커뮤니티 5곳 가입 + 언어사전 시트)
+          - generic [ref=e36]: 네이버 카페·당근·구글시트 · 인지 · 40분
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: "#002"
+        - generic [ref=e39]:
+          - generic [ref=e40]: 사장님 진짜 말 30개 모으기 — 카페 리스닝
+          - generic [ref=e41]: 네이버 카페·소상공인 커뮤니티 · 인지 · 혼자 90분
+      - generic [ref=e42] [cursor=pointer]:
+        - generic [ref=e43]: "#003"
+        - generic [ref=e44]:
+          - generic [ref=e45]: 아프니까사장이다에서 '옆집만 뜬다' 불만 원문 20개 긁어오기
+          - generic [ref=e46]: 네이버 카페(아프니까사장이다) · 인지 · 60분
+      - generic [ref=e47] [cursor=pointer]:
+        - generic [ref=e48]: "#004"
+        - generic [ref=e49]:
+          - generic [ref=e50]: 인스타 프로페셔널 전환 + 프로필 3초 정비
+          - generic [ref=e51]: 인스타그램 · 유입 · 40분
+  - navigation [ref=e52]:
+    - generic [ref=e53]:
+      - button "전체 100" [ref=e54] [cursor=pointer]
+      - button "P0 리스닝·기반 14" [ref=e55] [cursor=pointer]
+      - button "P1 콘텐츠(진단 알리기) 28" [ref=e56] [cursor=pointer]
+      - button "P2 커뮤니티·초기사용자 24" [ref=e57] [cursor=pointer]
+      - button "P3 전환·구독·실행 19" [ref=e58] [cursor=pointer]
+      - button "P4 측정·검증·확장 15" [ref=e59] [cursor=pointer]
+    - generic [ref=e60]:
+      - combobox [ref=e61]:
+        - option "채널 전체" [selected]
+        - option "네이버 카페·당근·구글시트"
+        - option "네이버 카페·소상공인 커뮤니티"
+        - option "네이버 카페(아프니까사장이다)"
+        - option "인스타그램"
+        - option "Threads"
+        - option "GA4·유입추적"
+        - option "무료진단 페이지"
+        - option "네이버 검색·지식iN·유튜브"
+        - option "네이버 카페·지식iN"
+        - option "구글시트"
+        - option "랜딩페이지"
+        - option "인스타 릴스"
+        - option "ChatGPT·Perplexity·네이버 지도"
+        - option "Threads·인스타"
+        - option "인스타그램 릴스"
+        - option "이메일·카톡(컨시어지)"
+        - option "ChatGPT/Perplexity/뤼튼 + 구글시트"
+        - option "당근마켓 동네생활"
+        - option "네이버지도/스마트플레이스 + 구글시트"
+        - option "인스타 DM / 네이버 블로그 이웃 / 네이버 톡톡"
+        - option "Threads DM·카카오톡"
+        - option "인스타 DM / 네이버 톡톡"
+        - option "인스타그램 DM"
+        - option "카카오톡·대면·전화(지인 한정)"
+        - option "구글폼·카카오 오픈채팅"
+        - option "구글독스/캔바 → 카톡·DM 전달"
+        - option "결과지 첨부 / DM"
+        - option "대행 오퍼 문서 + 상담(카톡/전화)"
+        - option "상담(카톡/전화) + 다지점 비교표"
+        - option "상담·후속 메시지 스크립트(내부 문구고)"
+        - option "직접 실행(컨시어지) + 네이버 플레이스 관리"
+        - option "Threads + 인스타그램(카드/릴스)"
+        - option "캔바 → DM/릴스/Threads"
+        - option "무료 진단 결과 페이지(자사 제품)"
+        - option "카카오톡(알림톡)/문자 — 동의자 대상"
+        - option "무료 진단 결과 페이지(또는 후속 메시지)"
+        - option "카카오톡(알림톡) + 재분석 결과 페이지"
+        - option "노션 / 캘린더"
+        - option "GA4 / Looker Studio / 스프레드시트"
+        - option "노션/스프레드시트"
+        - option "Microsoft Clarity"
+        - option "Tally / GA4 이벤트"
+        - option "구글폼 / 문자·카톡"
+        - option "줌 / 전화 인터뷰"
+        - option "스프레드시트 / GA4"
+        - option "노션 / 스프레드시트"
+        - option "인스타 릴스 / 스레드 / 네이버 카페"
+        - option "카카오톡(알림톡)/문자 — 구독자 대상"
+        - option "카카오톡/대면 — 구독자 대상 + 소개 링크"
+      - combobox [ref=e62]:
+        - option "퍼널 전체" [selected]
+        - option "인지"
+        - option "유입"
+        - option "리드"
+        - option "전환"
+        - option "유지"
+      - combobox [ref=e63]:
+        - option "상태 전체" [selected]
+        - option "미완료"
+        - option "완료"
+      - searchbox "검색…" [ref=e64]
+  - main [ref=e65]:
+    - generic [ref=e66]:
+      - button "P0 리스닝·기반 이 단계 왜 하냐면 ▼ 0/14" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: P0
+        - generic [ref=e69]: 리스닝·기반
+        - generic [ref=e70]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e71]: 0/14
+      - article [ref=e72]:
+        - generic [ref=e73] [cursor=pointer]:
+          - button "완료 체크" [ref=e74]: ✓
+          - generic [ref=e75]:
+            - text: "T001 · #001"
+            - generic [ref=e76]: 리스닝 베이스캠프 만들기 (커뮤니티 5곳 가입 + 언어사전 시트)
+            - generic [ref=e77]:
+              - generic [ref=e78]: 네이버 카페·당근·구글시트
+              - generic [ref=e79]: 인지
+              - generic [ref=e80]: 루틴시작
+          - generic [ref=e81]: 40분
+      - article [ref=e82]:
+        - generic [ref=e83] [cursor=pointer]:
+          - button "완료 체크" [ref=e84]: ✓
+          - generic [ref=e85]:
+            - text: "T002 · #002"
+            - generic [ref=e86]: 사장님 진짜 말 30개 모으기 — 카페 리스닝
+            - generic [ref=e87]:
+              - generic [ref=e88]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e89]: 인지
+              - generic [ref=e90]: 루틴시작
+          - generic [ref=e91]: 혼자 90분
+      - article [ref=e92]:
+        - generic [ref=e93] [cursor=pointer]:
+          - button "완료 체크" [ref=e94]: ✓
+          - generic [ref=e95]:
+            - text: "T003 · #003"
+            - generic [ref=e96]: 아프니까사장이다에서 '옆집만 뜬다' 불만 원문 20개 긁어오기
+            - generic [ref=e97]:
+              - generic [ref=e98]: 네이버 카페(아프니까사장이다)
+              - generic [ref=e99]: 인지
+              - generic [ref=e100]: 루틴시작
+          - generic [ref=e101]: 60분
+      - article [ref=e102]:
+        - generic [ref=e103] [cursor=pointer]:
+          - button "완료 체크" [ref=e104]: ✓
+          - generic [ref=e105]:
+            - text: "T004 · #004"
+            - generic [ref=e106]: 인스타 프로페셔널 전환 + 프로필 3초 정비
+            - generic [ref=e107]:
+              - generic [ref=e108]: 인스타그램
+              - generic [ref=e109]: 유입
+              - generic [ref=e110]: 1회성
+          - generic [ref=e111]: 40분
+      - article [ref=e112]:
+        - generic [ref=e113] [cursor=pointer]:
+          - button "완료 체크" [ref=e114]: ✓
+          - generic [ref=e115]:
+            - text: "T005 · #005"
+            - generic [ref=e116]: Threads 빌드인퍼블릭 계정 세팅 + 첫 소개글
+            - generic [ref=e117]:
+              - generic [ref=e118]: Threads
+              - generic [ref=e119]: 인지
+              - generic [ref=e120]: 루틴시작
+          - generic [ref=e121]: 40분
+      - article [ref=e122]:
+        - generic [ref=e123] [cursor=pointer]:
+          - button "완료 체크" [ref=e124]: ✓
+          - generic [ref=e125]:
+            - text: "T006 · #006"
+            - generic [ref=e126]: UTM 이름 규칙 표준화 + GA4 이벤트 정의
+            - generic [ref=e127]:
+              - generic [ref=e128]: GA4·유입추적
+              - generic [ref=e129]: 유입
+              - generic [ref=e130]: 1회성
+          - generic [ref=e131]: 1시간 10분
+      - article [ref=e132]:
+        - generic [ref=e133] [cursor=pointer]:
+          - button "완료 체크" [ref=e134]: ✓
+          - generic [ref=e135]:
+            - text: "T007 · #007"
+            - generic [ref=e136]: 컨시어지 손진단 로그 표준화(제품 전 소재·리드 확보)
+            - generic [ref=e137]:
+              - generic [ref=e138]: 무료진단 페이지
+              - generic [ref=e139]: 리드
+              - generic [ref=e140]: 루틴시작
+          - generic [ref=e141]: 45분
+      - article [ref=e142]:
+        - generic [ref=e143] [cursor=pointer]:
+          - button "완료 체크" [ref=e144]: ✓
+          - generic [ref=e145]:
+            - text: "T008 · #008"
+            - generic [ref=e146]: 사장님 '진짜 검색어' 사전 만들기 (지식iN·유튜브·자동완성)
+            - generic [ref=e147]:
+              - generic [ref=e148]: 네이버 검색·지식iN·유튜브
+              - generic [ref=e149]: 유입
+              - generic [ref=e150]: 1회성
+          - generic [ref=e151]: 60분
+      - article [ref=e152]:
+        - generic [ref=e153] [cursor=pointer]:
+          - button "완료 체크" [ref=e154]: ✓
+          - generic [ref=e155]:
+            - text: "T009 · #009"
+            - generic [ref=e156]: 무료 진단 앞에서 사장님이 겁내는 이유 12개 모으기
+            - generic [ref=e157]:
+              - generic [ref=e158]: 네이버 카페·지식iN
+              - generic [ref=e159]: 리드
+              - generic [ref=e160]: 1회성
+          - generic [ref=e161]: 45분
+      - article [ref=e162]:
+        - generic [ref=e163] [cursor=pointer]:
+          - button "완료 체크" [ref=e164]: ✓
+          - generic [ref=e165]:
+            - text: "T010 · #010"
+            - generic [ref=e166]: 수집한 사장님 말 → 언어사전 v1로 번역·정리
+            - generic [ref=e167]:
+              - generic [ref=e168]: 구글시트
+              - generic [ref=e169]: 인지
+              - generic [ref=e170]: 1회성
+          - generic [ref=e171]: 60분
+      - article [ref=e172]:
+        - generic [ref=e173] [cursor=pointer]:
+          - button "완료 체크" [ref=e174]: ✓
+          - generic [ref=e175]:
+            - text: "T011 · #011"
+            - generic [ref=e176]: 랜딩 첫 화면 문구 만들기 — 헤드라인·보조·버튼 3안
+            - generic [ref=e177]:
+              - generic [ref=e178]: 랜딩페이지
+              - generic [ref=e179]: 유입
+              - generic [ref=e180]: 1회성
+          - generic [ref=e181]: 혼자 75분
+      - article [ref=e182]:
+        - generic [ref=e183] [cursor=pointer]:
+          - button "완료 체크" [ref=e184]: ✓
+          - generic [ref=e185]:
+            - text: "T012 · #012"
+            - generic [ref=e186]: 결과화면 점수 설명 한 줄 쓰기 — '이 점수 뭐예요?'
+            - generic [ref=e187]:
+              - generic [ref=e188]: 랜딩페이지
+              - generic [ref=e189]: 전환
+              - generic [ref=e190]: 1회성
+          - generic [ref=e191]: 혼자 60분
+      - article [ref=e192]:
+        - generic [ref=e193] [cursor=pointer]:
+          - button "완료 체크" [ref=e194]: ✓
+          - generic [ref=e195]:
+            - text: "T013 · #013"
+            - generic [ref=e196]: 개선과제 3개 기본형 쓰기 — 오늘 바로 할 일로
+            - generic [ref=e197]:
+              - generic [ref=e198]: 랜딩페이지
+              - generic [ref=e199]: 전환
+              - generic [ref=e200]: 1회성
+          - generic [ref=e201]: 혼자 60분
+      - article [ref=e202]:
+        - generic [ref=e203] [cursor=pointer]:
+          - button "완료 체크" [ref=e204]: ✓
+          - generic [ref=e205]:
+            - text: "T014 · #014"
+            - generic [ref=e206]: 무료 vs 유료 구분 안내 문구 쓰기 — 오해 없이, 과장 없이
+            - generic [ref=e207]:
+              - generic [ref=e208]: 랜딩페이지
+              - generic [ref=e209]: 전환
+              - generic [ref=e210]: 1회성
+          - generic [ref=e211]: 혼자 45분
+    - generic [ref=e212]:
+      - button "P1 콘텐츠(진단 알리기) 이 단계 왜 하냐면 ▼ 0/28" [ref=e213] [cursor=pointer]:
+        - generic [ref=e214]: P1
+        - generic [ref=e215]: 콘텐츠(진단 알리기)
+        - generic [ref=e216]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e217]: 0/28
+      - article [ref=e218]:
+        - generic [ref=e219] [cursor=pointer]:
+          - button "완료 체크" [ref=e220]: ✓
+          - generic [ref=e221]:
+            - text: "T015 · #015"
+            - generic [ref=e222]: "'사장님 3분 자가진단' 카드뉴스 템플릿 1벌 만들기"
+            - generic [ref=e223]:
+              - generic [ref=e224]: 인스타그램
+              - generic [ref=e225]: 유입
+              - generic [ref=e226]: 루틴시작
+          - generic [ref=e227]: 90분 한 번
+      - article [ref=e228]:
+        - generic [ref=e229] [cursor=pointer]:
+          - button "완료 체크" [ref=e230]: ✓
+          - generic [ref=e231]:
+            - text: "T016 · #016"
+            - generic [ref=e232]: 업종별 해시태그 세트 5벌 미리 저장해두기
+            - generic [ref=e233]:
+              - generic [ref=e234]: 인스타그램
+              - generic [ref=e235]: 인지
+              - generic [ref=e236]: 루틴시작
+          - generic [ref=e237]: 50분 한 번
+      - article [ref=e238]:
+        - generic [ref=e239] [cursor=pointer]:
+          - button "완료 체크" [ref=e240]: ✓
+          - generic [ref=e241]:
+            - text: "T017 · #017"
+            - generic [ref=e242]: Threads 빌드인퍼블릭 티저 3편 — '사장님 가게 AI한테 물어봤더니'
+            - generic [ref=e243]:
+              - generic [ref=e244]: Threads
+              - generic [ref=e245]: 인지
+              - generic [ref=e246]: 루틴시작
+          - generic [ref=e247]: 혼자 50분
+      - article [ref=e248]:
+        - generic [ref=e249] [cursor=pointer]:
+          - button "완료 체크" [ref=e250]: ✓
+          - generic [ref=e251]:
+            - text: "T018 · #018"
+            - generic [ref=e252]: 빌드인퍼블릭 데일리 포스팅 7일 루틴 시작하기
+            - generic [ref=e253]:
+              - generic [ref=e254]: Threads
+              - generic [ref=e255]: 인지
+              - generic [ref=e256]: 루틴시작
+          - generic [ref=e257]: 사람 40분(첫 3일치)
+      - article [ref=e258]:
+        - generic [ref=e259] [cursor=pointer]:
+          - button "완료 체크" [ref=e260]: ✓
+          - generic [ref=e261]:
+            - text: "T019 · #019"
+            - generic [ref=e262]: 네이버 플레이스 쓰는 사장님 팔로우·진심 대댓글 루틴 시작
+            - generic [ref=e263]:
+              - generic [ref=e264]: Threads
+              - generic [ref=e265]: 유입
+              - generic [ref=e266]: 루틴시작
+          - generic [ref=e267]: 사람 하루 30분
+      - article [ref=e268]:
+        - generic [ref=e269] [cursor=pointer]:
+          - button "완료 체크" [ref=e270]: ✓
+          - generic [ref=e271]:
+            - text: "T020 · #020"
+            - generic [ref=e272]: 업종 로테이션 주간 촬영 루틴 세팅하기
+            - generic [ref=e273]:
+              - generic [ref=e274]: 인스타 릴스
+              - generic [ref=e275]: 유입
+              - generic [ref=e276]: 루틴시작
+          - generic [ref=e277]: 50분 (한 자리)
+      - article [ref=e278]:
+        - generic [ref=e279] [cursor=pointer]:
+          - button "완료 체크" [ref=e280]: ✓
+          - generic [ref=e281]:
+            - text: "T021 · #021"
+            - generic [ref=e282]: 릴스 마지막 3초 + 캡션에 공유·저장 장치 심기
+            - generic [ref=e283]:
+              - generic [ref=e284]: 인스타 릴스
+              - generic [ref=e285]: 유입
+              - generic [ref=e286]: 루틴시작
+          - generic [ref=e287]: 40분 (한 자리)
+      - article [ref=e288]:
+        - generic [ref=e289] [cursor=pointer]:
+          - button "완료 체크" [ref=e290]: ✓
+          - generic [ref=e291]:
+            - text: "T022 · #022"
+            - generic [ref=e292]: "1편: 미용실 사장님 '우리 가게 AI가 추천하나' 3분 자가진단 카드뉴스"
+            - generic [ref=e293]:
+              - generic [ref=e294]: 인스타그램
+              - generic [ref=e295]: 인지
+              - generic [ref=e296]: 루틴시작
+          - generic [ref=e297]: 70분 한 번
+      - article [ref=e298]:
+        - generic [ref=e299] [cursor=pointer]:
+          - button "완료 체크" [ref=e300]: ✓
+          - generic [ref=e301]:
+            - text: "T023 · #023"
+            - generic [ref=e302]: "2편: 애견미용실용 3분 자가진단 카드뉴스 (템플릿 재활용)"
+            - generic [ref=e303]:
+              - generic [ref=e304]: 인스타그램
+              - generic [ref=e305]: 인지
+              - generic [ref=e306]: 루틴시작
+          - generic [ref=e307]: 45분 한 번
+      - article [ref=e308]:
+        - generic [ref=e309] [cursor=pointer]:
+          - button "완료 체크" [ref=e310]: ✓
+          - generic [ref=e311]:
+            - text: "T024 · #024"
+            - generic [ref=e312]: 매주 1편 업종 순환 발행 루틴 + 다음편 예고로 재방문 만들기
+            - generic [ref=e313]:
+              - generic [ref=e314]: 인스타그램
+              - generic [ref=e315]: 유지
+              - generic [ref=e316]: 루틴시작
+          - generic [ref=e317]: 40분 한 번
+      - article [ref=e318]:
+        - generic [ref=e319] [cursor=pointer]:
+          - button "완료 체크" [ref=e320]: ✓
+          - generic [ref=e321]:
+            - text: "T025 · #025"
+            - generic [ref=e322]: Threads 빌드인퍼블릭 — '손으로 AI 점수 내주는 중' 티저 3편
+            - generic [ref=e323]:
+              - generic [ref=e324]: Threads
+              - generic [ref=e325]: 인지
+              - generic [ref=e326]: 루틴시작
+          - generic [ref=e327]: 약 45분
+      - article [ref=e328]:
+        - generic [ref=e329] [cursor=pointer]:
+          - button "완료 체크" [ref=e330]: ✓
+          - generic [ref=e331]:
+            - text: "T026 · #026"
+            - generic [ref=e332]: Threads 빌드인퍼블릭 — '사장님들 만나며 배운 것' 연재 시작
+            - generic [ref=e333]:
+              - generic [ref=e334]: Threads
+              - generic [ref=e335]: 인지
+              - generic [ref=e336]: 루틴시작
+          - generic [ref=e337]: 회당 40분, 주 3회
+      - article [ref=e338]:
+        - generic [ref=e339] [cursor=pointer]:
+          - button "완료 체크" [ref=e340]: ✓
+          - generic [ref=e341]:
+            - text: "T027 · #027"
+            - generic [ref=e342]: "'진단 까보기' 릴스 포맷·훅·자막·CTA 템플릿 만들기"
+            - generic [ref=e343]:
+              - generic [ref=e344]: 인스타 릴스
+              - generic [ref=e345]: 인지
+              - generic [ref=e346]: 1회성
+          - generic [ref=e347]: 60분 (한 자리)
+      - article [ref=e348]:
+        - generic [ref=e349] [cursor=pointer]:
+          - button "완료 체크" [ref=e350]: ✓
+          - generic [ref=e351]:
+            - text: "T028 · #028"
+            - generic [ref=e352]: 사장님 언어 자막 스와이프 파일 만들기 (전문용어 금지 사전)
+            - generic [ref=e353]:
+              - generic [ref=e354]: 인스타 릴스
+              - generic [ref=e355]: 유입
+              - generic [ref=e356]: 1회성
+          - generic [ref=e357]: 45분 (한 자리)
+      - article [ref=e358]:
+        - generic [ref=e359] [cursor=pointer]:
+          - button "완료 체크" [ref=e360]: ✓
+          - generic [ref=e361]:
+            - text: "T029 · #029"
+            - generic [ref=e362]: 업종별 '진짜 손님 검색어' 사전 만들기 (촬영 대본용)
+            - generic [ref=e363]:
+              - generic [ref=e364]: 인스타 릴스
+              - generic [ref=e365]: 유입
+              - generic [ref=e366]: 1회성
+          - generic [ref=e367]: 50분 (한 자리)
+      - article [ref=e368]:
+        - generic [ref=e369] [cursor=pointer]:
+          - button "완료 체크" [ref=e370]: ✓
+          - generic [ref=e371]:
+            - text: "T030 · #030"
+            - generic [ref=e372]: "'AI가 우리 가게를 추천하나' 직접 시연·캡처 20장 모으기"
+            - generic [ref=e373]:
+              - generic [ref=e374]: ChatGPT·Perplexity·네이버 지도
+              - generic [ref=e375]: 인지
+              - generic [ref=e376]: 실험
+          - generic [ref=e377]: 60분
+      - article [ref=e378]:
+        - generic [ref=e379] [cursor=pointer]:
+          - button "완료 체크" [ref=e380]: ✓
+          - generic [ref=e381]:
+            - text: "T031 · #031"
+            - generic [ref=e382]: "파일럿 릴스: 우리 동네 미용실 5곳 AI 점수 손으로 까보기"
+            - generic [ref=e383]:
+              - generic [ref=e384]: 인스타 릴스
+              - generic [ref=e385]: 유입
+              - generic [ref=e386]: 실험
+          - generic [ref=e387]: 이틀 x 60분
+      - article [ref=e388]:
+        - generic [ref=e389] [cursor=pointer]:
+          - button "완료 체크" [ref=e390]: ✓
+          - generic [ref=e391]:
+            - text: "T032 · #032"
+            - generic [ref=e392]: "'옆집은 나오는데 우리는 왜?' 앵글 릴스 — 반려동물 미용편"
+            - generic [ref=e393]:
+              - generic [ref=e394]: 인스타 릴스
+              - generic [ref=e395]: 유입
+              - generic [ref=e396]: 실험
+          - generic [ref=e397]: 90분 (한 자리 집중)
+      - article [ref=e398]:
+        - generic [ref=e399] [cursor=pointer]:
+          - button "완료 체크" [ref=e400]: ✓
+          - generic [ref=e401]:
+            - text: "T033 · #033"
+            - generic [ref=e402]: "'만드는 중' 비하인드 릴스 1편 만들기"
+            - generic [ref=e403]:
+              - generic [ref=e404]: 인스타 릴스
+              - generic [ref=e405]: 인지
+              - generic [ref=e406]: 1회성
+          - generic [ref=e407]: 사람 75분
+      - article [ref=e408]:
+        - generic [ref=e409] [cursor=pointer]:
+          - button "완료 체크" [ref=e410]: ✓
+          - generic [ref=e411]:
+            - text: "T034 · #034"
+            - generic [ref=e412]: 컨시어지 진단 결과를 익명 '전·후' 사례글로 만들기
+            - generic [ref=e413]:
+              - generic [ref=e414]: Threads·인스타
+              - generic [ref=e415]: 유입
+              - generic [ref=e416]: 1회성
+          - generic [ref=e417]: 사람 40분
+      - article [ref=e418]:
+        - generic [ref=e419] [cursor=pointer]:
+          - button "완료 체크" [ref=e420]: ✓
+          - generic [ref=e421]:
+            - text: "T035 · #035"
+            - generic [ref=e422]: 실제 카페 손진단 결과를 익명 비교 카드뉴스로 만들기
+            - generic [ref=e423]:
+              - generic [ref=e424]: 인스타그램
+              - generic [ref=e425]: 리드
+              - generic [ref=e426]: 실험
+          - generic [ref=e427]: 80분 한 번
+      - article [ref=e428]:
+        - generic [ref=e429] [cursor=pointer]:
+          - button "완료 체크" [ref=e430]: ✓
+          - generic [ref=e431]:
+            - text: "T036 · #036"
+            - generic [ref=e432]: "'왜 옆집만 AI가 추천할까?' 궁금증 자극 비교 카드뉴스"
+            - generic [ref=e433]:
+              - generic [ref=e434]: 인스타그램
+              - generic [ref=e435]: 리드
+              - generic [ref=e436]: 실험
+          - generic [ref=e437]: 70분 한 번
+      - article [ref=e438]:
+        - generic [ref=e439] [cursor=pointer]:
+          - button "완료 체크" [ref=e440]: ✓
+          - generic [ref=e441]:
+            - text: "T037 · #037"
+            - generic [ref=e442]: "'AI 검색에 우리 가게 잘 나오게 하는 5가지' 저장각 체크리스트 카드뉴스"
+            - generic [ref=e443]:
+              - generic [ref=e444]: 인스타그램
+              - generic [ref=e445]: 인지
+              - generic [ref=e446]: 1회성
+          - generic [ref=e447]: 60분 한 번
+      - article [ref=e448]:
+        - generic [ref=e449] [cursor=pointer]:
+          - button "완료 체크" [ref=e450]: ✓
+          - generic [ref=e451]:
+            - text: "T038 · #038"
+            - generic [ref=e452]: 폰으로 '3분 자가진단'하는 장면 릴스 15초 찍기
+            - generic [ref=e453]:
+              - generic [ref=e454]: 인스타그램 릴스
+              - generic [ref=e455]: 인지
+              - generic [ref=e456]: 실험
+          - generic [ref=e457]: 60분 한 번
+      - article [ref=e458]:
+        - generic [ref=e459] [cursor=pointer]:
+          - button "완료 체크" [ref=e460]: ✓
+          - generic [ref=e461]:
+            - text: "T039 · #039"
+            - generic [ref=e462]: "'댓글로 링크 주면 다음 편에 까드려요' 참여형 리드 릴스 (컨시어지)"
+            - generic [ref=e463]:
+              - generic [ref=e464]: 인스타 릴스
+              - generic [ref=e465]: 리드
+              - generic [ref=e466]: 실험
+          - generic [ref=e467]: 60분 (댓글·DM 응대 포함)
+      - article [ref=e468]:
+        - generic [ref=e469] [cursor=pointer]:
+          - button "완료 체크" [ref=e470]: ✓
+          - generic [ref=e471]:
+            - text: "T040 · #040"
+            - generic [ref=e472]: "'AI가 손님한테 이렇게 답해요' 화면녹화 릴스 — 카페·병의원 로테이션"
+            - generic [ref=e473]:
+              - generic [ref=e474]: 인스타 릴스
+              - generic [ref=e475]: 인지
+              - generic [ref=e476]: 실험
+          - generic [ref=e477]: 90분 (한 자리 집중)
+      - article [ref=e478]:
+        - generic [ref=e479] [cursor=pointer]:
+          - button "완료 체크" [ref=e480]: ✓
+          - generic [ref=e481]:
+            - text: "T041 · #041"
+            - generic [ref=e482]: "'이렇게 바꿔봤어요' 개선 과제 릴스 — 법률사무소·하수구 로테이션"
+            - generic [ref=e483]:
+              - generic [ref=e484]: 인스타 릴스
+              - generic [ref=e485]: 리드
+              - generic [ref=e486]: 실험
+          - generic [ref=e487]: 90분 (한 자리 집중)
+      - article [ref=e488]:
+        - generic [ref=e489] [cursor=pointer]:
+          - button "완료 체크" [ref=e490]: ✓
+          - generic [ref=e491]:
+            - text: "T042 · #042"
+            - generic [ref=e492]: 인스타 릴스 티저 — 'AI한테 우리 동네 추천받으면 누가 나올까' 1편
+            - generic [ref=e493]:
+              - generic [ref=e494]: 인스타 릴스
+              - generic [ref=e495]: 유입
+              - generic [ref=e496]: 실험
+          - generic [ref=e497]: 약 75분
+    - generic [ref=e498]:
+      - button "P2 커뮤니티·초기사용자 이 단계 왜 하냐면 ▼ 0/24" [ref=e499] [cursor=pointer]:
+        - generic [ref=e500]: P2
+        - generic [ref=e501]: 커뮤니티·초기사용자
+        - generic [ref=e502]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e503]: 0/24
+      - article [ref=e504]:
+        - generic [ref=e505] [cursor=pointer]:
+          - button "완료 체크" [ref=e506]: ✓
+          - generic [ref=e507]:
+            - text: "T043 · #043"
+            - generic [ref=e508]: 우리 사장님들이 모여있는 카페·커뮤니티 지도부터 만들기
+            - generic [ref=e509]:
+              - generic [ref=e510]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e511]: 인지
+              - generic [ref=e512]: 1회성
+          - generic [ref=e513]: 80분
+      - article [ref=e514]:
+        - generic [ref=e515] [cursor=pointer]:
+          - button "완료 체크" [ref=e516]: ✓
+          - generic [ref=e517]:
+            - text: "T044 · #044"
+            - generic [ref=e518]: 광고 찍히기 전에 '진짜 회원' 되기 — 등업 & 신뢰 쌓기
+            - generic [ref=e519]:
+              - generic [ref=e520]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e521]: 인지
+              - generic [ref=e522]: 루틴시작
+          - generic [ref=e523]: 회당 50분, 1~2주 반복
+      - article [ref=e524]:
+        - generic [ref=e525] [cursor=pointer]:
+          - button "완료 체크" [ref=e526]: ✓
+          - generic [ref=e527]:
+            - text: "T045 · #045"
+            - generic [ref=e528]: 컨시어지 진단 리포트 템플릿 만들기 — 손으로 줄 결과지
+            - generic [ref=e529]:
+              - generic [ref=e530]: 이메일·카톡(컨시어지)
+              - generic [ref=e531]: 리드
+              - generic [ref=e532]: 루틴시작
+          - generic [ref=e533]: 혼자 75분
+      - article [ref=e534]:
+        - generic [ref=e535] [cursor=pointer]:
+          - button "완료 체크" [ref=e536]: ✓
+          - generic [ref=e537]:
+            - text: "T046 · #046"
+            - generic [ref=e538]: 수동 진단 '점수 내는 법' 나만의 채점표 만들기
+            - generic [ref=e539]:
+              - generic [ref=e540]: ChatGPT/Perplexity/뤼튼 + 구글시트
+              - generic [ref=e541]: 리드
+              - generic [ref=e542]: 루틴시작
+          - generic [ref=e543]: 약 75분
+      - article [ref=e544]:
+        - generic [ref=e545] [cursor=pointer]:
+          - button "완료 체크" [ref=e546]: ✓
+          - generic [ref=e547]:
+            - text: "T047 · #047"
+            - generic [ref=e548]: 질문글에 '사장님 편 답변' 달기 — 주 3회 루틴 시작
+            - generic [ref=e549]:
+              - generic [ref=e550]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e551]: 유입
+              - generic [ref=e552]: 루틴시작
+          - generic [ref=e553]: 주 3회, 회당 40분
+      - article [ref=e554]:
+        - generic [ref=e555] [cursor=pointer]:
+          - button "완료 체크" [ref=e556]: ✓
+          - generic [ref=e557]:
+            - text: "T048 · #048"
+            - generic [ref=e558]: 당근마켓 동네생활 & 지역 카페에 '도움글'로 존재감 만들기
+            - generic [ref=e559]:
+              - generic [ref=e560]: 당근마켓 동네생활
+              - generic [ref=e561]: 인지
+              - generic [ref=e562]: 루틴시작
+          - generic [ref=e563]: 회당 45분, 주 2회
+      - article [ref=e564]:
+        - generic [ref=e565] [cursor=pointer]:
+          - button "완료 체크" [ref=e566]: ✓
+          - generic [ref=e567]:
+            - text: "T049 · #049"
+            - generic [ref=e568]: 사장님이 실제로 쓰는 말 100개 모으기 (고객언어 수집)
+            - generic [ref=e569]:
+              - generic [ref=e570]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e571]: 인지
+              - generic [ref=e572]: 루틴시작
+          - generic [ref=e573]: 첫 세팅 60분 + 이후 주 20분
+      - article [ref=e574]:
+        - generic [ref=e575] [cursor=pointer]:
+          - button "완료 체크" [ref=e576]: ✓
+          - generic [ref=e577]:
+            - text: "T050 · #050"
+            - generic [ref=e578]: 여러 업종 '첫 사장님' 후보 30명 리스트 만들기
+            - generic [ref=e579]:
+              - generic [ref=e580]: 네이버지도/스마트플레이스 + 구글시트
+              - generic [ref=e581]: 리드
+              - generic [ref=e582]: 루틴시작
+          - generic [ref=e583]: 약 80분
+      - article [ref=e584]:
+        - generic [ref=e585] [cursor=pointer]:
+          - button "완료 체크" [ref=e586]: ✓
+          - generic [ref=e587]:
+            - text: "T051 · #051"
+            - generic [ref=e588]: 개인화 DM 아웃리치 스크립트 만들고 하루 10명 보내기
+            - generic [ref=e589]:
+              - generic [ref=e590]: 인스타 DM / 네이버 블로그 이웃 / 네이버 톡톡
+              - generic [ref=e591]: 리드
+              - generic [ref=e592]: 루틴시작
+          - generic [ref=e593]: 하루 약 50분(루틴)
+      - article [ref=e594]:
+        - generic [ref=e595] [cursor=pointer]:
+          - button "완료 체크" [ref=e596]: ✓
+          - generic [ref=e597]:
+            - text: "T052 · #052"
+            - generic [ref=e598]: 매주 '이번 주 진행 숫자' 투명하게 공개하는 글 루틴 시작
+            - generic [ref=e599]:
+              - generic [ref=e600]: Threads
+              - generic [ref=e601]: 유지
+              - generic [ref=e602]: 루틴시작
+          - generic [ref=e603]: 사람 주 30분
+      - article [ref=e604]:
+        - generic [ref=e605] [cursor=pointer]:
+          - button "완료 체크" [ref=e606]: ✓
+          - generic [ref=e607]:
+            - text: "T053 · #053"
+            - generic [ref=e608]: 반응 준 사장님 10명 '초기 팬 리스트' 만들고 개인적으로 챙기기
+            - generic [ref=e609]:
+              - generic [ref=e610]: Threads DM·카카오톡
+              - generic [ref=e611]: 유지
+              - generic [ref=e612]: 루틴시작
+          - generic [ref=e613]: 사람 30분
+      - article [ref=e614]:
+        - generic [ref=e615] [cursor=pointer]:
+          - button "완료 체크" [ref=e616]: ✓
+          - generic [ref=e617]:
+            - text: "T054 · #054"
+            - generic [ref=e618]: 진단 후 3일 뒤 후속 챙기고 후기 3건 받기
+            - generic [ref=e619]:
+              - generic [ref=e620]: 인스타 DM / 네이버 톡톡
+              - generic [ref=e621]: 유지
+              - generic [ref=e622]: 루틴시작
+          - generic [ref=e623]: 약 40분
+      - article [ref=e624]:
+        - generic [ref=e625] [cursor=pointer]:
+          - button "완료 체크" [ref=e626]: ✓
+          - generic [ref=e627]:
+            - text: "T055 · #055"
+            - generic [ref=e628]: "'내 가게도 봐주세요' 댓글·DM 손진단 응대 스크립트 만들기"
+            - generic [ref=e629]:
+              - generic [ref=e630]: 인스타그램 DM
+              - generic [ref=e631]: 리드
+              - generic [ref=e632]: 루틴시작
+          - generic [ref=e633]: 40분 한 번
+      - article [ref=e634]:
+        - generic [ref=e635] [cursor=pointer]:
+          - button "완료 체크" [ref=e636]: ✓
+          - generic [ref=e637]:
+            - text: "T056 · #056"
+            - generic [ref=e638]: 진단 1건 직접 해보며 채점표 검증(파일럿)
+            - generic [ref=e639]:
+              - generic [ref=e640]: ChatGPT/Perplexity/뤼튼 + 구글시트
+              - generic [ref=e641]: 리드
+              - generic [ref=e642]: 실험
+          - generic [ref=e643]: 약 60분
+      - article [ref=e644]:
+        - generic [ref=e645] [cursor=pointer]:
+          - button "완료 체크" [ref=e646]: ✓
+          - generic [ref=e647]:
+            - text: "T057 · #057"
+            - generic [ref=e648]: 손으로 직접 점수 내주기 — 컨시어지 무료 점검 (제품 없이 오늘 가능)
+            - generic [ref=e649]:
+              - generic [ref=e650]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e651]: 리드
+              - generic [ref=e652]: 실험
+          - generic [ref=e653]: 제안글 20분 + 점검 1건당 20분
+      - article [ref=e654]:
+        - generic [ref=e655] [cursor=pointer]:
+          - button "완료 체크" [ref=e656]: ✓
+          - generic [ref=e657]:
+            - text: "T058 · #058"
+            - generic [ref=e658]: 컨시어지 인터뷰 — 사장님 3명에게 직접 점수 내주고 반응 녹취
+            - generic [ref=e659]:
+              - generic [ref=e660]: 카카오톡·대면·전화(지인 한정)
+              - generic [ref=e661]: 리드
+              - generic [ref=e662]: 실험
+          - generic [ref=e663]: 90분(3명, 이동 제외)
+      - article [ref=e664]:
+        - generic [ref=e665] [cursor=pointer]:
+          - button "완료 체크" [ref=e666]: ✓
+          - generic [ref=e667]:
+            - text: "T059 · #059"
+            - generic [ref=e668]: 실제 사장님 5곳, 손으로 AI 진단해 리포트 보내기
+            - generic [ref=e669]:
+              - generic [ref=e670]: 이메일·카톡(컨시어지)
+              - generic [ref=e671]: 리드
+              - generic [ref=e672]: 실험
+          - generic [ref=e673]: 혼자 90분(1차 5곳)
+      - article [ref=e674]:
+        - generic [ref=e675] [cursor=pointer]:
+          - button "완료 체크" [ref=e676]: ✓
+          - generic [ref=e677]:
+            - text: "T060 · #060"
+            - generic [ref=e678]: "컨시어지 무료 진단: 사장님 3명 플레이스 링크 손으로 진단해주기"
+            - generic [ref=e679]:
+              - generic [ref=e680]: Threads DM·카카오톡
+              - generic [ref=e681]: 리드
+              - generic [ref=e682]: 실험
+          - generic [ref=e683]: 사람 90분(3명)
+      - article [ref=e684]:
+        - generic [ref=e685] [cursor=pointer]:
+          - button "완료 체크" [ref=e686]: ✓
+          - generic [ref=e687]:
+            - text: "T061 · #061"
+            - generic [ref=e688]: "\"손님이 챗GPT 보고 왔대요\" — 미용실 카페 정보성 글 1편 쓰기"
+            - generic [ref=e689]:
+              - generic [ref=e690]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e691]: 인지
+              - generic [ref=e692]: 1회성
+          - generic [ref=e693]: 70분
+      - article [ref=e694]:
+        - generic [ref=e695] [cursor=pointer]:
+          - button "완료 체크" [ref=e696]: ✓
+          - generic [ref=e697]:
+            - text: "T062 · #062"
+            - generic [ref=e698]: 업종 바꿔서 정보성 글 2편 — 반려동물미용 · 카페 순환
+            - generic [ref=e699]:
+              - generic [ref=e700]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e701]: 인지
+              - generic [ref=e702]: 1회성
+          - generic [ref=e703]: 70분 (글 2편)
+      - article [ref=e704]:
+        - generic [ref=e705] [cursor=pointer]:
+          - button "완료 체크" [ref=e706]: ✓
+          - generic [ref=e707]:
+            - text: "T063 · #063"
+            - generic [ref=e708]: 생활서비스 업종(하수구·청소·수리) 커뮤니티 정보성 글 쓰기
+            - generic [ref=e709]:
+              - generic [ref=e710]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e711]: 인지
+              - generic [ref=e712]: 1회성
+          - generic [ref=e713]: 60분
+      - article [ref=e714]:
+        - generic [ref=e715] [cursor=pointer]:
+          - button "완료 체크" [ref=e716]: ✓
+          - generic [ref=e717]:
+            - text: "T064 · #064"
+            - generic [ref=e718]: 진단받은 사장님께 피드백 요청 DM 보내고 1:1 대화하기
+            - generic [ref=e719]:
+              - generic [ref=e720]: Threads DM·카카오톡
+              - generic [ref=e721]: 리드
+              - generic [ref=e722]: 실험
+          - generic [ref=e723]: 사람 40분
+      - article [ref=e724]:
+        - generic [ref=e725] [cursor=pointer]:
+          - button "완료 체크" [ref=e726]: ✓
+          - generic [ref=e727]:
+            - text: "T065 · #065"
+            - generic [ref=e728]: 초기 사용자 혜택 설계하고 모집 글 올리기
+            - generic [ref=e729]:
+              - generic [ref=e730]: Threads·인스타
+              - generic [ref=e731]: 리드
+              - generic [ref=e732]: 1회성
+          - generic [ref=e733]: 사람 50분
+      - article [ref=e734]:
+        - generic [ref=e735] [cursor=pointer]:
+          - button "완료 체크" [ref=e736]: ✓
+          - generic [ref=e737]:
+            - text: "T066 · #066"
+            - generic [ref=e738]: 무료 진단 대기자 명단 만들고 초대 흐름 세팅하기
+            - generic [ref=e739]:
+              - generic [ref=e740]: 구글폼·카카오 오픈채팅
+              - generic [ref=e741]: 리드
+              - generic [ref=e742]: 1회성
+          - generic [ref=e743]: 사람 45분
+    - generic [ref=e744]:
+      - button "P3 전환·구독·실행 이 단계 왜 하냐면 ▼ 0/19" [ref=e745] [cursor=pointer]:
+        - generic [ref=e746]: P3
+        - generic [ref=e747]: 전환·구독·실행
+        - generic [ref=e748]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e749]: 0/19
+      - article [ref=e750]:
+        - generic [ref=e751] [cursor=pointer]:
+          - button "완료 체크" [ref=e752]: ✓
+          - generic [ref=e753]:
+            - text: "T067 · #067"
+            - generic [ref=e754]: 첫 사장님 파이프라인 트래커 시트 만들기
+            - generic [ref=e755]:
+              - generic [ref=e756]: 구글시트
+              - generic [ref=e757]: 리드
+              - generic [ref=e758]: 1회성
+          - generic [ref=e759]: 약 40분
+      - article [ref=e760]:
+        - generic [ref=e761] [cursor=pointer]:
+          - button "완료 체크" [ref=e762]: ✓
+          - generic [ref=e763]:
+            - text: "T068 · #068"
+            - generic [ref=e764]: 진단 결과지 '사장님 언어'로 전달하는 템플릿 만들기
+            - generic [ref=e765]:
+              - generic [ref=e766]: 구글독스/캔바 → 카톡·DM 전달
+              - generic [ref=e767]: 전환
+              - generic [ref=e768]: 1회성
+          - generic [ref=e769]: 약 70분
+      - article [ref=e770]:
+        - generic [ref=e771] [cursor=pointer]:
+          - button "완료 체크" [ref=e772]: ✓
+          - generic [ref=e773]:
+            - text: "T069 · #069"
+            - generic [ref=e774]: 정식 출시 '첫 사장님 한정' 얼리버드 혜택 제안 만들기
+            - generic [ref=e775]:
+              - generic [ref=e776]: 결과지 첨부 / DM
+              - generic [ref=e777]: 전환
+              - generic [ref=e778]: 1회성
+          - generic [ref=e779]: 약 45분
+      - article [ref=e780]:
+        - generic [ref=e781] [cursor=pointer]:
+          - button "완료 체크" [ref=e782]: ✓
+          - generic [ref=e783]:
+            - text: "T070 · #070"
+            - generic [ref=e784]: 전문가 실행 대행 '오퍼' 만들기 — 뭘·얼마에·어디까지
+            - generic [ref=e785]:
+              - generic [ref=e786]: 대행 오퍼 문서 + 상담(카톡/전화)
+              - generic [ref=e787]: 전환
+              - generic [ref=e788]: 1회성
+          - generic [ref=e789]: 약 60분
+      - article [ref=e790]:
+        - generic [ref=e791] [cursor=pointer]:
+          - button "완료 체크" [ref=e792]: ✓
+          - generic [ref=e793]:
+            - text: "T071 · #071"
+            - generic [ref=e794]: 다지점·여러 가게 사장님 전용 오퍼 — 한번에 비교·관리
+            - generic [ref=e795]:
+              - generic [ref=e796]: 상담(카톡/전화) + 다지점 비교표
+              - generic [ref=e797]: 전환
+              - generic [ref=e798]: 실험
+          - generic [ref=e799]: 약 55분
+      - article [ref=e800]:
+        - generic [ref=e801] [cursor=pointer]:
+          - button "완료 체크" [ref=e802]: ✓
+          - generic [ref=e803]:
+            - text: "T072 · #072"
+            - generic [ref=e804]: 구독 망설임 5가지 반박 문구고(Objection FAQ) 만들기
+            - generic [ref=e805]:
+              - generic [ref=e806]: 상담·후속 메시지 스크립트(내부 문구고)
+              - generic [ref=e807]: 전환
+              - generic [ref=e808]: 1회성
+          - generic [ref=e809]: 약 45분
+      - article [ref=e810]:
+        - generic [ref=e811] [cursor=pointer]:
+          - button "완료 체크" [ref=e812]: ✓
+          - generic [ref=e813]:
+            - text: "T073 · #073"
+            - generic [ref=e814]: "컨시어지: 사장님 5곳 개선과제 직접 해주고 점수 전후 기록"
+            - generic [ref=e815]:
+              - generic [ref=e816]: 직접 실행(컨시어지) + 네이버 플레이스 관리
+              - generic [ref=e817]: 전환
+              - generic [ref=e818]: 실험
+          - generic [ref=e819]: 곳당 약 90분 × 5곳(2~4주 분산)
+      - article [ref=e820]:
+        - generic [ref=e821] [cursor=pointer]:
+          - button "완료 체크" [ref=e822]: ✓
+          - generic [ref=e823]:
+            - text: "T074 · #074"
+            - generic [ref=e824]: 전후 사례를 Threads·인스타 '솔직 사례 카드'로 만들기
+            - generic [ref=e825]:
+              - generic [ref=e826]: Threads + 인스타그램(카드/릴스)
+              - generic [ref=e827]: 인지
+              - generic [ref=e828]: 루틴시작
+          - generic [ref=e829]: 약 60분
+      - article [ref=e830]:
+        - generic [ref=e831] [cursor=pointer]:
+          - button "완료 체크" [ref=e832]: ✓
+          - generic [ref=e833]:
+            - text: "T075 · #075"
+            - generic [ref=e834]: 첫 후기 3건을 신뢰 카드(before/after)로 정리하기
+            - generic [ref=e835]:
+              - generic [ref=e836]: 캔바 → DM/릴스/Threads
+              - generic [ref=e837]: 전환
+              - generic [ref=e838]: 1회성
+          - generic [ref=e839]: 약 60분
+      - article [ref=e840]:
+        - generic [ref=e841] [cursor=pointer]:
+          - button "완료 체크" [ref=e842]: ✓
+          - generic [ref=e843]:
+            - text: "T076 · #076"
+            - generic [ref=e844]: 자체광고 규정 지키며 무료 진단 자연스럽게 소개하기 (진단 페이지 열린 뒤)
+            - generic [ref=e845]:
+              - generic [ref=e846]: 네이버 카페·소상공인 커뮤니티
+              - generic [ref=e847]: 유입
+              - generic [ref=e848]: 1회성
+          - generic [ref=e849]: 60분
+      - article [ref=e850]:
+        - generic [ref=e851] [cursor=pointer]:
+          - button "완료 체크" [ref=e852]: ✓
+          - generic [ref=e853]:
+            - text: "T077 · #077"
+            - generic [ref=e854]: (무료 진단 페이지가 열린 뒤) '직접 넣어보세요' 무료진단 유도 릴스
+            - generic [ref=e855]:
+              - generic [ref=e856]: 인스타 릴스
+              - generic [ref=e857]: 유입
+              - generic [ref=e858]: 루틴시작
+          - generic [ref=e859]: 60분 (한 자리)
+      - article [ref=e860]:
+        - generic [ref=e861] [cursor=pointer]:
+          - button "완료 체크" [ref=e862]: ✓
+          - generic [ref=e863]:
+            - text: "T078 · #078"
+            - generic [ref=e864]: (무료 진단 페이지가 열린 뒤) 무료 진단으로 데려오는 릴스 만들기
+            - generic [ref=e865]:
+              - generic [ref=e866]: 인스타 릴스
+              - generic [ref=e867]: 유입
+              - generic [ref=e868]: 실험
+          - generic [ref=e869]: 사람 60분
+      - article [ref=e870]:
+        - generic [ref=e871] [cursor=pointer]:
+          - button "완료 체크" [ref=e872]: ✓
+          - generic [ref=e873]:
+            - text: "T079 · #079"
+            - generic [ref=e874]: (진단 페이지 오픈 후) 무료 진단 실제 결과 카드뉴스로 유입 만들기
+            - generic [ref=e875]:
+              - generic [ref=e876]: 인스타그램
+              - generic [ref=e877]: 유입
+              - generic [ref=e878]: 루틴시작
+          - generic [ref=e879]: 60분 한 번
+      - article [ref=e880]:
+        - generic [ref=e881] [cursor=pointer]:
+          - button "완료 체크" [ref=e882]: ✓
+          - generic [ref=e883]:
+            - text: "T080 · #080"
+            - generic [ref=e884]: 무료 결과 화면에 '구독 넛지' 문구·위치·시점 잡기
+            - generic [ref=e885]:
+              - generic [ref=e886]: 무료 진단 결과 페이지(자사 제품)
+              - generic [ref=e887]: 전환
+              - generic [ref=e888]: 1회성
+          - generic [ref=e889]: 약 60분
+      - article [ref=e890]:
+        - generic [ref=e891] [cursor=pointer]:
+          - button "완료 체크" [ref=e892]: ✓
+          - generic [ref=e893]:
+            - text: "T081 · #081"
+            - generic [ref=e894]: 무료→구독 후속 메시지 3통 시퀀스 쓰기(동의 기반)
+            - generic [ref=e895]:
+              - generic [ref=e896]: 카카오톡(알림톡)/문자 — 동의자 대상
+              - generic [ref=e897]: 전환
+              - generic [ref=e898]: 루틴시작
+          - generic [ref=e899]: 약 70분
+      - article [ref=e900]:
+        - generic [ref=e901] [cursor=pointer]:
+          - button "완료 체크" [ref=e902]: ✓
+          - generic [ref=e903]:
+            - text: "T082 · #082"
+            - generic [ref=e904]: (무료 진단 페이지가 열린 뒤) 릴스→무료진단→구독 흐름 릴스 + 유입 점검
+            - generic [ref=e905]:
+              - generic [ref=e906]: 인스타 릴스
+              - generic [ref=e907]: 전환
+              - generic [ref=e908]: 실험
+          - generic [ref=e909]: 60분 (제작+점검)
+      - article [ref=e910]:
+        - generic [ref=e911] [cursor=pointer]:
+          - button "완료 체크" [ref=e912]: ✓
+          - generic [ref=e913]:
+            - text: "T083 · #083"
+            - generic [ref=e914]: 전환 문구 A/B 실험 — 넛지 2가지 프레이밍 비교
+            - generic [ref=e915]:
+              - generic [ref=e916]: 무료 진단 결과 페이지(또는 후속 메시지)
+              - generic [ref=e917]: 전환
+              - generic [ref=e918]: 실험
+          - generic [ref=e919]: 세팅 40분 + 1~2주 관찰
+      - article [ref=e920]:
+        - generic [ref=e921] [cursor=pointer]:
+          - button "완료 체크" [ref=e922]: ✓
+          - generic [ref=e923]:
+            - text: "T084 · #084"
+            - generic [ref=e924]: 무료만 보고 안 넘어온 사장님 되돌리기(윈백) 1통
+            - generic [ref=e925]:
+              - generic [ref=e926]: 카카오톡(알림톡)/문자 — 동의자 대상
+              - generic [ref=e927]: 전환
+              - generic [ref=e928]: 실험
+          - generic [ref=e929]: 약 40분
+      - article [ref=e930]:
+        - generic [ref=e931] [cursor=pointer]:
+          - button "완료 체크" [ref=e932]: ✓
+          - generic [ref=e933]:
+            - text: "T085 · #085"
+            - generic [ref=e934]: "'한 달 뒤 다시 재보기' 재방문·재분석 리마인더 설계"
+            - generic [ref=e935]:
+              - generic [ref=e936]: 카카오톡(알림톡) + 재분석 결과 페이지
+              - generic [ref=e937]: 유지
+              - generic [ref=e938]: 루틴시작
+          - generic [ref=e939]: 약 50분
+    - generic [ref=e940]:
+      - button "P4 측정·검증·확장 이 단계 왜 하냐면 ▼ 0/15" [ref=e941] [cursor=pointer]:
+        - generic [ref=e942]: P4
+        - generic [ref=e943]: 측정·검증·확장
+        - generic [ref=e944]: 이 단계 왜 하냐면 ▼
+        - generic [ref=e945]: 0/15
+      - article [ref=e946]:
+        - generic [ref=e947] [cursor=pointer]:
+          - button "완료 체크" [ref=e948]: ✓
+          - generic [ref=e949]:
+            - text: "T086 · #086"
+            - generic [ref=e950]: 주간 지표 리뷰 30분 루틴 만들기
+            - generic [ref=e951]:
+              - generic [ref=e952]: 노션 / 캘린더
+              - generic [ref=e953]: 전환
+              - generic [ref=e954]: 루틴시작
+          - generic [ref=e955]: 30분
+      - article [ref=e956]:
+        - generic [ref=e957] [cursor=pointer]:
+          - button "완료 체크" [ref=e958]: ✓
+          - generic [ref=e959]:
+            - text: "T087 · #087"
+            - generic [ref=e960]: GA4 + 스프레드시트로 퍼널 대시보드 한 장 만들기
+            - generic [ref=e961]:
+              - generic [ref=e962]: GA4 / Looker Studio / 스프레드시트
+              - generic [ref=e963]: 전환
+              - generic [ref=e964]: 루틴시작
+          - generic [ref=e965]: 1시간 30분
+      - article [ref=e966]:
+        - generic [ref=e967] [cursor=pointer]:
+          - button "완료 체크" [ref=e968]: ✓
+          - generic [ref=e969]:
+            - text: "T088 · #088"
+            - generic [ref=e970]: 주간 채널·업종 성과 리포트 템플릿 만들기
+            - generic [ref=e971]:
+              - generic [ref=e972]: GA4·유입추적
+              - generic [ref=e973]: 유지
+              - generic [ref=e974]: 루틴시작
+          - generic [ref=e975]: 50분
+      - article [ref=e976]:
+        - generic [ref=e977] [cursor=pointer]:
+          - button "완료 체크" [ref=e978]: ✓
+          - generic [ref=e979]:
+            - text: "T089 · #089"
+            - generic [ref=e980]: 진단 퍼널 6단계 '무엇을 셀지' 정의서부터 못박기
+            - generic [ref=e981]:
+              - generic [ref=e982]: 노션/스프레드시트
+              - generic [ref=e983]: 전환
+              - generic [ref=e984]: 1회성
+          - generic [ref=e985]: 45분
+      - article [ref=e986]:
+        - generic [ref=e987] [cursor=pointer]:
+          - button "완료 체크" [ref=e988]: ✓
+          - generic [ref=e989]:
+            - text: "T090 · #090"
+            - generic [ref=e990]: Microsoft Clarity로 '사장님이 어디서 손 놓는지' 두 눈으로 보기
+            - generic [ref=e991]:
+              - generic [ref=e992]: Microsoft Clarity
+              - generic [ref=e993]: 유입
+              - generic [ref=e994]: 실험
+          - generic [ref=e995]: 1시간
+      - article [ref=e996]:
+        - generic [ref=e997] [cursor=pointer]:
+          - button "완료 체크" [ref=e998]: ✓
+          - generic [ref=e999]:
+            - text: "T091 · #091"
+            - generic [ref=e1000]: 결과 페이지 끝에 '한 줄 만족도' 마이크로 설문 붙이기
+            - generic [ref=e1001]:
+              - generic [ref=e1002]: Tally / GA4 이벤트
+              - generic [ref=e1003]: 유지
+              - generic [ref=e1004]: 실험
+          - generic [ref=e1005]: 45분
+      - article [ref=e1006]:
+        - generic [ref=e1007] [cursor=pointer]:
+          - button "완료 체크" [ref=e1008]: ✓
+          - generic [ref=e1009]:
+            - text: "T092 · #092"
+            - generic [ref=e1010]: 무료진단 어뷰징·비용 이상신호 모니터링 규칙 + 알림
+            - generic [ref=e1011]:
+              - generic [ref=e1012]: GA4·유입추적
+              - generic [ref=e1013]: 유입
+              - generic [ref=e1014]: 실험
+          - generic [ref=e1015]: 1시간
+      - article [ref=e1016]:
+        - generic [ref=e1017] [cursor=pointer]:
+          - button "완료 체크" [ref=e1018]: ✓
+          - generic [ref=e1019]:
+            - text: "T093 · #093"
+            - generic [ref=e1020]: 인터뷰 해줄 사장님 5명 모으기 (제품 안에서 정중히 부탁)
+            - generic [ref=e1021]:
+              - generic [ref=e1022]: 구글폼 / 문자·카톡
+              - generic [ref=e1023]: 리드
+              - generic [ref=e1024]: 루틴시작
+          - generic [ref=e1025]: 40분
+      - article [ref=e1026]:
+        - generic [ref=e1027] [cursor=pointer]:
+          - button "완료 체크" [ref=e1028]: ✓
+          - generic [ref=e1029]:
+            - text: "T094 · #094"
+            - generic [ref=e1030]: "'왜 돈을 낼까 / 어디서 막힐까' 심층 인터뷰 진행하기"
+            - generic [ref=e1031]:
+              - generic [ref=e1032]: 줌 / 전화 인터뷰
+              - generic [ref=e1033]: 전환
+              - generic [ref=e1034]: 루틴시작
+          - generic [ref=e1035]: 2시간(나눠서)
+      - article [ref=e1036]:
+        - generic [ref=e1037] [cursor=pointer]:
+          - button "완료 체크" [ref=e1038]: ✓
+          - generic [ref=e1039]:
+            - text: "T095 · #095"
+            - generic [ref=e1040]: 결과는 봤는데 구독 안 한 사장님 5명, '왜 안 냈는지' 듣기
+            - generic [ref=e1041]:
+              - generic [ref=e1042]: 줌 / 전화 인터뷰
+              - generic [ref=e1043]: 전환
+              - generic [ref=e1044]: 실험
+          - generic [ref=e1045]: 1시간 30분
+      - article [ref=e1046]:
+        - generic [ref=e1047] [cursor=pointer]:
+          - button "완료 체크" [ref=e1048]: ✓
+          - generic [ref=e1049]:
+            - text: "T096 · #096"
+            - generic [ref=e1050]: 업종별 반응 비교표 만들기 (누가 제일 뜨거운지)
+            - generic [ref=e1051]:
+              - generic [ref=e1052]: 스프레드시트 / GA4
+              - generic [ref=e1053]: 유입
+              - generic [ref=e1054]: 1회성
+          - generic [ref=e1055]: 1시간
+      - article [ref=e1056]:
+        - generic [ref=e1057] [cursor=pointer]:
+          - button "완료 체크" [ref=e1058]: ✓
+          - generic [ref=e1059]:
+            - text: "T097 · #097"
+            - generic [ref=e1060]: 계속하냐 / 방향 트냐 — 판단 기준표(문지방 숫자) 확정
+            - generic [ref=e1061]:
+              - generic [ref=e1062]: 노션 / 스프레드시트
+              - generic [ref=e1063]: 전환
+              - generic [ref=e1064]: 1회성
+          - generic [ref=e1065]: 1시간
+      - article [ref=e1066]:
+        - generic [ref=e1067] [cursor=pointer]:
+          - button "완료 체크" [ref=e1068]: ✓
+          - generic [ref=e1069]:
+            - text: "T098 · #098"
+            - generic [ref=e1070]: 잘 되는 업종에 화력 몰기 — 승자 업종 더블다운 플랜
+            - generic [ref=e1071]:
+              - generic [ref=e1072]: 인스타 릴스 / 스레드 / 네이버 카페
+              - generic [ref=e1073]: 유입
+              - generic [ref=e1074]: 1회성
+          - generic [ref=e1075]: 1시간
+      - article [ref=e1076]:
+        - generic [ref=e1077] [cursor=pointer]:
+          - button "완료 체크" [ref=e1078]: ✓
+          - generic [ref=e1079]:
+            - text: "T099 · #099"
+            - generic [ref=e1080]: 신규 구독자 첫 주 온보딩 — '첫 실행 완료' 빠른 성공 주기
+            - generic [ref=e1081]:
+              - generic [ref=e1082]: 카카오톡(알림톡)/문자 — 구독자 대상
+              - generic [ref=e1083]: 유지
+              - generic [ref=e1084]: 루틴시작
+          - generic [ref=e1085]: 약 55분
+      - article [ref=e1086]:
+        - generic [ref=e1087] [cursor=pointer]:
+          - button "완료 체크" [ref=e1088]: ✓
+          - generic [ref=e1089]:
+            - text: "T100 · #100"
+            - generic [ref=e1090]: 만족한 구독 사장님 → 아는 사장님 소개(추천) 흐름 만들기
+            - generic [ref=e1091]:
+              - generic [ref=e1092]: 카카오톡/대면 — 구독자 대상 + 소개 링크
+              - generic [ref=e1093]: 유입
+              - generic [ref=e1094]: 실험
+          - generic [ref=e1095]: 약 40분
+  - contentinfo [ref=e1096]:
+    - generic [ref=e1097]: PLURANK WAR ROOM · 주식회사 투스텝스어헤드
+    - button "새로고침" [ref=e1098] [cursor=pointer]

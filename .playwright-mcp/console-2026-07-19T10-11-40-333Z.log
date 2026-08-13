@@ -1,0 +1,12 @@
+[   15664ms] TypeError: Cannot read properties of null (reading 'length')
+    at Object.acquireContext (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:85892)
+    at Qe.construct (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:102279)
+    at new Qe (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:102037)
+    at https://www.adlog.kr/theme/sb-admin2.0.1/js/chart-area-demo.js:32:19
+[   15664ms] TypeError: Cannot read properties of null (reading 'length')
+    at Object.acquireContext (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:85892)
+    at Qe.construct (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:102279)
+    at new Qe (https://www.adlog.kr/theme/sb-admin2.0.1/vendor/chart.js/Chart.min.js:7:102037)
+    at https://www.adlog.kr/theme/sb-admin2.0.1/js/chart-pie-demo.js:7:18
+[   15668ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.adlog.kr/:0
+[   19311ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.adlog.kr/bbs/login.php?url=%2Fadlog%2F:0

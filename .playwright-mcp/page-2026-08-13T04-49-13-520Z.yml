@@ -1,0 +1,1146 @@
+- generic [active] [ref=f82e1]:
+  - generic [ref=f82e3]:
+    - navigation [ref=f82e6]:
+      - generic [ref=f82e7]:
+        - link [ref=f82e9] [cursor=pointer]:
+          - /url: ./
+        - generic [ref=f82e11]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: Not sure which is right for you?
+                  - generic:
+                    - paragraph:
+                      - link "Talk to us":
+                        - /url: ./demo
+          - generic [ref=f82e12]:
+            - link [ref=f82e14] [cursor=pointer]:
+              - /url: ./
+              - paragraph [ref=f82e16]: Product
+            - link [ref=f82e18] [cursor=pointer]:
+              - /url: ./pricing
+              - paragraph [ref=f82e20]: Pricing
+            - paragraph [ref=f82e24] [cursor=pointer]: Resources
+            - link [ref=f82e26] [cursor=pointer]:
+              - /url: ./partnerships
+              - paragraph [ref=f82e28]: Partnerships
+          - link [ref=f82e31] [cursor=pointer]:
+            - /url: ./careers
+            - paragraph [ref=f82e33]: Careers
+        - generic [ref=f82e35]:
+          - link [ref=f82e37] [cursor=pointer]:
+            - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+            - paragraph [ref=f82e41]: Log in
+          - link [ref=f82e43] [cursor=pointer]:
+            - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+            - paragraph [ref=f82e45]: Sign up
+    - generic [ref=f82e47]:
+      - generic [ref=f82e48]:
+        - generic [ref=f82e51]:
+          - generic [ref=f82e52]:
+            - generic [ref=f82e53]:
+              - link [ref=f82e56] [cursor=pointer]:
+                - /url: ./careers
+                - paragraph [ref=f82e60]: We are hiring
+              - heading "AI search analytics for marketing teams" [level=1] [ref=f82e63]
+              - generic [ref=f82e64]:
+                - paragraph [ref=f82e67]: Track, analyze, and improve brand performance on AI search platforms
+                - generic [ref=f82e68]:
+                  - paragraph [ref=f82e70]: through key metrics like
+                  - generic [ref=f82e73]:
+                    - paragraph [ref=f82e81]:
+                      - generic [ref=f82e82]: Visibility
+                    - generic [ref=f82e83]:
+                      - paragraph [ref=f82e85]: ","
+                      - paragraph [ref=f82e93]:
+                        - generic [ref=f82e94]: Position
+                    - generic [ref=f82e95]:
+                      - paragraph [ref=f82e97]: ", and"
+                      - paragraph [ref=f82e105]:
+                        - generic [ref=f82e106]: Sentiment
+            - generic [ref=f82e107]:
+              - link [ref=f82e111] [cursor=pointer]:
+                - /url: ./demo
+                - paragraph [ref=f82e117]: Talk to Sales
+              - link [ref=f82e120] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - paragraph [ref=f82e122]: Start Free Trial
+          - generic [ref=f82e129]:
+            - generic [ref=f82e132]:
+              - generic [ref=f82e133]:
+                - paragraph [ref=f82e141]: Attio’s Dashboard
+                - generic [ref=f82e142]:
+                  - paragraph [ref=f82e150]: Quick Actions
+                  - paragraph [ref=f82e153]: Pages
+                  - generic [ref=f82e154]:
+                    - paragraph [ref=f82e161]: Overview
+                    - paragraph [ref=f82e168]: Prompts
+                    - paragraph [ref=f82e173]: Sources
+                    - paragraph [ref=f82e179]: Models
+                    - paragraph [ref=f82e187]: Settings
+              - generic [ref=f82e188]:
+                - generic [ref=f82e189]:
+                  - generic [ref=f82e190]:
+                    - paragraph [ref=f82e195]: Attio
+                    - paragraph [ref=f82e202]: Last 7 days
+                    - paragraph [ref=f82e206]: All tags
+                    - paragraph [ref=f82e214]: All Models
+                  - paragraph [ref=f82e227]: Export
+                - generic [ref=f82e228]:
+                  - generic [ref=f82e229]:
+                    - generic [ref=f82e230]:
+                      - paragraph [ref=f82e234]: Overview
+                      - paragraph [ref=f82e237]: Attio’s Visibility trending up by 5.2% this month
+                    - generic [ref=f82e238]:
+                      - paragraph [ref=f82e240]: "Visibility:"
+                      - paragraph [ref=f82e242]: 3/14
+                    - generic [ref=f82e249]:
+                      - paragraph [ref=f82e251]: "Sentiment:"
+                      - paragraph [ref=f82e253]: 2/14
+                    - generic [ref=f82e259]:
+                      - paragraph [ref=f82e261]: "Position:"
+                      - paragraph [ref=f82e263]: 5/14
+                  - generic [ref=f82e269]:
+                    - generic [ref=f82e271]:
+                      - generic [ref=f82e273]:
+                        - paragraph [ref=f82e280]: Visibility
+                        - paragraph [ref=f82e287]: Sentiment
+                        - paragraph [ref=f82e294]: Position
+                      - generic [ref=f82e308]:
+                        - paragraph [ref=f82e318]: Jan
+                        - paragraph [ref=f82e328]: Feb
+                        - paragraph [ref=f82e338]: Mar
+                        - paragraph [ref=f82e348]: Apr
+                        - paragraph [ref=f82e358]: May
+                        - paragraph [ref=f82e368]: Jun
+                        - generic [ref=f82e370]:
+                          - paragraph [ref=f82e372]: April 2025
+                          - generic [ref=f82e373]:
+                            - generic [ref=f82e374]:
+                              - paragraph [ref=f82e380]: Salesforce
+                              - paragraph [ref=f82e385]: 62%
+                            - generic [ref=f82e386]:
+                              - paragraph [ref=f82e394]: Attio
+                              - paragraph [ref=f82e399]: 47%
+                            - generic [ref=f82e400]:
+                              - paragraph [ref=f82e405]: Monday
+                              - paragraph [ref=f82e410]: 65%
+                            - generic [ref=f82e411]:
+                              - paragraph [ref=f82e417]: Zero
+                              - paragraph [ref=f82e422]: 32%
+                            - generic [ref=f82e423]:
+                              - paragraph [ref=f82e429]: Pipedrive
+                              - paragraph [ref=f82e434]: 21%
+                    - paragraph [ref=f82e448]: Recent Chats
+            - generic [ref=f82e453]:
+              - generic [ref=f82e460]:
+                - paragraph [ref=f82e462]: Add your own prompts
+                - paragraph [ref=f82e464]: Organize prompts with tags
+                - paragraph [ref=f82e466]: Track across all countries
+                - paragraph [ref=f82e468]: Add your own prompts
+              - paragraph [ref=f82e475]: No tags
+        - generic [ref=f82e482]:
+          - paragraph [ref=f82e485]: Trusted by 3000+ brands and agencies
+          - generic [ref=f82e487]:
+            - paragraph [ref=f82e492]:
+              - generic [ref=f82e493]: Brands
+            - paragraph [ref=f82e538]:
+              - generic [ref=f82e539]: Agencies
+      - generic [ref=f82e577]:
+        - generic [ref=f82e580]:
+          - paragraph [ref=f82e593]:
+            - generic [ref=f82e594]: AI Search Metrics
+          - generic [ref=f82e595]:
+            - heading "Understand how AI sees your brand" [level=2] [ref=f82e597]
+            - paragraph [ref=f82e599]: We’ve set up tracking for the most important metrics within AI search.
+        - generic [ref=f82e605]:
+          - generic [ref=f82e606]:
+            - generic [ref=f82e613] [cursor=pointer]:
+              - paragraph [ref=f82e617]: Visibility
+              - paragraph [ref=f82e619]: See the share of chats where your brand is mentioned and understand how often you show up in conversations.
+            - generic [ref=f82e626] [cursor=pointer]:
+              - paragraph [ref=f82e630]: Position
+              - paragraph [ref=f82e632]: Understand your brand’s position within AI search results and uncover opportunities to improve your ranking.
+            - generic [ref=f82e639] [cursor=pointer]:
+              - paragraph [ref=f82e643]: Sentiment
+              - paragraph [ref=f82e645]: Find out how your brand is perceived by AI, what’s going well, and what requires improvements.
+          - generic [ref=f82e649]:
+            - paragraph [ref=f82e653]: What are the best CRMs for Startups?
+            - generic [ref=f82e662]:
+              - paragraph [ref=f82e664]: Choosing the right CRM really comes down to how your startup sells, grows, and automates. Here's a curated breakdown of the top CRM platforms for startups in 2025.
+              - generic [ref=f82e666]:
+                - paragraph [ref=f82e671]: Monday
+                - paragraph [ref=f82e674]:
+                  - text: Monday offers a
+                  - generic [ref=f82e675]: strong free tier
+                  - text: with contact management, email tracking, reporting, and integrations with many integrations. It
+                  - generic [ref=f82e676]: easily expands
+                  - text: into Sales, Marketing, or Service Hubs as you grow. Paid plans
+                  - generic [ref=f82e677]: can become expensive, and some advanced features are locked
+                  - text: behind higher tiers.
+              - generic [ref=f82e678]:
+                - generic [ref=f82e679]:
+                  - paragraph [ref=f82e683]: Attio
+                  - generic [ref=f82e684]:
+                    - paragraph [ref=f82e689]: Attio
+                    - generic [ref=f82e691]:
+                      - generic [ref=f82e692]:
+                        - paragraph [ref=f82e694]: Visibility
+                        - paragraph [ref=f82e698]: 63%
+                      - generic [ref=f82e699]:
+                        - paragraph [ref=f82e701]: Sentiment
+                        - paragraph [ref=f82e706] [cursor=pointer]: "90"
+                      - generic [ref=f82e707]:
+                        - paragraph [ref=f82e709]: Position
+                        - paragraph [ref=f82e713]: "2.6"
+                - paragraph [ref=f82e716]:
+                  - text: Attio is a
+                  - generic [ref=f82e717]: flexible modern
+                  - text: CRM that works like a relational database, letting you design pipelines, views, and workflows around your process. It
+                  - generic [ref=f82e718]: intergrates smoothly
+                  - text: with tools like Slack, Notion, and Segment, with a clean interface and transparent pricing.
+              - generic [ref=f82e719]:
+                - generic [ref=f82e720]:
+                  - generic [ref=f82e721]:
+                    - paragraph [ref=f82e725]: Zero
+                    - generic [ref=f82e726]:
+                      - paragraph [ref=f82e729]: Position
+                      - generic [ref=f82e735]:
+                        - paragraph [ref=f82e739]: "1"
+                        - paragraph [ref=f82e744]: Hubspot
+                      - generic [ref=f82e745]:
+                        - paragraph [ref=f82e749]: "2"
+                        - paragraph [ref=f82e754]: Attio
+                      - generic [ref=f82e755]:
+                        - paragraph [ref=f82e759]: "3"
+                        - paragraph [ref=f82e764]: Zero
+                  - generic [ref=f82e765]:
+                    - paragraph [ref=f82e768]: Positive Sentiment
+                    - paragraph [ref=f82e778]: "95"
+                    - paragraph [ref=f82e780]: Positive endorsement of Zero as a fast, simple, and efficient CRM for founders.
+                - paragraph [ref=f82e783]:
+                  - text: Zero is built for founders who want a
+                  - generic [ref=f82e784]: streamlined CRM without the usual bloat.
+                  - text: It focuses on speed, simplicity, and essential deal tracking while still offering automation and integrations with tools like Google Workspace, Slack, and Zapier.
+      - generic [ref=f82e795]:
+        - generic [ref=f82e798]:
+          - paragraph [ref=f82e804]:
+            - generic [ref=f82e805]: Key features
+          - generic [ref=f82e806]:
+            - heading "Turn AI search insights into new customers with Peec AI" [level=2] [ref=f82e808]
+            - paragraph [ref=f82e812]: Identify the prompts that matter, monitor your rankings, and act before your competitors do.
+        - generic [ref=f82e816]:
+          - generic [ref=f82e817]:
+            - generic [ref=f82e822]:
+              - heading "Set up Prompts" [level=3] [ref=f82e824]
+              - paragraph [ref=f82e826]: Prompts are the foundation of your AI search strategy. Uncover and organize the prompts that matter most for your AI search strategy.
+            - generic [ref=f82e833]:
+              - heading "Use Data to Pick Winners" [level=3] [ref=f82e835]
+              - paragraph [ref=f82e837]: Leverage AI-suggested prompts and search volumes to focus on the biggest opportunities.
+          - generic [ref=f82e851]:
+            - generic [ref=f82e856] [cursor=pointer]:
+              - heading "Add Brands" [level=3] [ref=f82e858]
+              - paragraph [ref=f82e860]: See how you rank against the players that matter in your market.
+            - generic [ref=f82e874]:
+              - heading "Choose AI Models" [level=3] [ref=f82e876]
+              - paragraph [ref=f82e878]: Track rankings across the models that drive the most traffic and visibility.
+          - generic [ref=f82e881]:
+            - generic [ref=f82e883]:
+              - generic [ref=f82e884]:
+                - heading "Find Key Sources" [level=3] [ref=f82e886]
+                - paragraph [ref=f82e888]: Spot the citations shaping your visibility and refine your GEO strategy.
+              - generic [ref=f82e891]:
+                - paragraph [ref=f82e901]: You have 5 strategy recommendations
+                - generic [ref=f82e908]:
+                  - paragraph [ref=f82e912]: Prompt Added
+                  - paragraph [ref=f82e916]: View
+                - generic [ref=f82e922]:
+                  - paragraph [ref=f82e926]: Prompt Added
+                  - paragraph [ref=f82e930]: View
+            - generic [ref=f82e935]:
+              - generic [ref=f82e936]:
+                - heading "Act on Insights" [level=3] [ref=f82e938]
+                - paragraph [ref=f82e940]: Use recommendations to capture high-impact opportunities and boost your ranking.
+              - generic [ref=f82e944]:
+                - generic [ref=f82e947]:
+                  - paragraph [ref=f82e949]: The review websites G2 is regularly cited
+                  - paragraph [ref=f82e951]: Make sure you have a profile with reviews
+                - generic [ref=f82e958]:
+                  - paragraph [ref=f82e960]: LinkedIn is a common source
+                  - paragraph [ref=f82e962]: Consider joining the conversation
+                - generic [ref=f82e969]:
+                  - paragraph [ref=f82e971]: Join r/CRM subreddit discussions
+                  - paragraph [ref=f82e973]: Discussions show frequently in sources.
+                - generic [ref=f82e980]:
+                  - paragraph [ref=f82e982]: Articles from NYT regularly show up in sources
+                  - paragraph [ref=f82e984]: Consider placing a story via digital PR
+                - generic [ref=f82e991]:
+                  - paragraph [ref=f82e993]: Consider investing into Digital PR
+                  - paragraph [ref=f82e995]: Editorial domain are often cited.
+          - generic [ref=f82e1001]:
+            - paragraph [ref=f82e1004]:
+              - generic [ref=f82e1005]: Metrics
+              - generic [ref=f82e1006]: like
+              - generic [ref=f82e1007]: brand
+              - generic [ref=f82e1008]: mentions,
+              - generic [ref=f82e1009]: impressions,
+              - generic [ref=f82e1010]: and
+              - generic [ref=f82e1011]: sentiment
+              - generic [ref=f82e1012]: are
+              - generic [ref=f82e1013]: hard
+              - generic [ref=f82e1014]: to
+              - generic [ref=f82e1015]: track
+              - generic [ref=f82e1016]: "-"
+              - generic [ref=f82e1017]: which
+              - generic [ref=f82e1018]: is
+              - generic [ref=f82e1019]: why
+              - generic [ref=f82e1020]: Peec
+              - generic [ref=f82e1021]: AI
+              - generic [ref=f82e1022]: is
+              - generic [ref=f82e1023]: so
+              - generic [ref=f82e1024]: "powerful:"
+              - generic [ref=f82e1025]: it
+              - generic [ref=f82e1026]: shows
+              - generic [ref=f82e1027]: how
+              - generic [ref=f82e1028]: LLMs
+              - generic [ref=f82e1029]: are
+              - generic [ref=f82e1030]: framing
+              - generic [ref=f82e1031]: our
+              - generic [ref=f82e1032]: brand.
+            - generic [ref=f82e1038]:
+              - heading "Lily Ray" [level=3] [ref=f82e1040]
+              - paragraph [ref=f82e1042]: VP SEO Strategy, Amsive
+      - generic [ref=f82e1053]:
+        - generic [ref=f82e1054]:
+          - heading "Peec MCP is live." [level=3] [ref=f82e1056]
+          - paragraph [ref=f82e1058]: Connect Peec to Claude, Cursor, n8n, and any tool in your stack through MCP and API. Build custom workflows with your AI visibility data.
+        - link [ref=f82e1062] [cursor=pointer]:
+          - /url: ./mcp
+          - paragraph [ref=f82e1065]: Learn more →
+      - generic [ref=f82e1079]:
+        - generic [ref=f82e1082]:
+          - paragraph [ref=f82e1088]:
+            - generic [ref=f82e1089]: Integrations
+          - generic [ref=f82e1090]:
+            - heading "Create powerful reports" [level=2] [ref=f82e1092]
+            - paragraph [ref=f82e1094]: Turn complex AI search data into simple, shareable reports for your team and clients.
+        - generic [ref=f82e1100]:
+          - generic [ref=f82e1101]:
+            - generic [ref=f82e1102]:
+              - generic [ref=f82e1103]:
+                - paragraph [ref=f82e1111]: Sentiment
+                - generic [ref=f82e1112]:
+                  - paragraph [ref=f82e1114]: "0.0"
+                  - paragraph [ref=f82e1116]: "0.1"
+                  - paragraph [ref=f82e1118]: "0.2"
+                  - paragraph [ref=f82e1120]: "0.3"
+                  - paragraph [ref=f82e1122]: "0.4"
+                  - paragraph [ref=f82e1124]: "0.5"
+                  - paragraph [ref=f82e1126]: "0.6"
+                  - paragraph [ref=f82e1128]: "0.7"
+                  - paragraph [ref=f82e1130]: "0.8"
+                  - paragraph [ref=f82e1132]: "0.9"
+                  - paragraph [ref=f82e1134]: "1.0"
+              - generic [ref=f82e1137]:
+                - generic [ref=f82e1138]:
+                  - paragraph [ref=f82e1141]: Niche Players
+                  - paragraph [ref=f82e1144]: Brands
+                  - paragraph [ref=f82e1149]: Leaders
+                - generic [ref=f82e1150]:
+                  - generic [ref=f82e1151]:
+                    - generic [ref=f82e1153] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Notion
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 44%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "57"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1157] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Close
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 19%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "52"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1161] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Zero
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 25%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "85"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                  - generic [ref=f82e1165]:
+                    - generic [ref=f82e1167] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Hubspot
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 25%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "75"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1171] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Pipedrive
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 58%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "68"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1175] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Gong
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 58%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "53"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1179] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Attio
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 47%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "89"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                - generic [ref=f82e1183]:
+                  - generic [ref=f82e1184]:
+                    - paragraph [ref=f82e1187]: Laggers
+                    - generic [ref=f82e1189] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Copper
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 38%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "44"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1193] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Nutshell
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 40%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "29"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                  - generic [ref=f82e1196]:
+                    - paragraph [ref=f82e1199]: Controversial
+                    - generic [ref=f82e1201] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Salesforce
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 68%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "37"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+                    - generic [ref=f82e1205] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Apollo
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Visibility
+                            - generic:
+                              - generic:
+                                - paragraph: 55%
+                          - generic:
+                            - generic:
+                              - paragraph: Sentiment
+                            - generic:
+                              - generic:
+                                - paragraph: "33"
+                          - generic:
+                            - generic:
+                              - paragraph: Position
+                            - generic:
+                              - generic:
+                                - paragraph: "3.6"
+            - generic [ref=f82e1208]:
+              - generic [ref=f82e1210]:
+                - paragraph [ref=f82e1212]: 0%
+                - paragraph [ref=f82e1214]: 10%
+                - paragraph [ref=f82e1216]: 20%
+                - paragraph [ref=f82e1218]: 30%
+                - paragraph [ref=f82e1220]: 40%
+                - paragraph [ref=f82e1222]: 50%
+                - paragraph [ref=f82e1224]: 60%
+                - paragraph [ref=f82e1226]: 70%
+                - paragraph [ref=f82e1228]: 80%
+                - paragraph [ref=f82e1230]: 90%
+                - paragraph [ref=f82e1232]: 100%
+              - paragraph [ref=f82e1240]: Visibility
+          - generic [ref=f82e1243]:
+            - generic [ref=f82e1246]:
+              - heading "Powerful exports" [level=3] [ref=f82e1248]
+              - paragraph [ref=f82e1250]: Export clean .csv files in seconds to share insights or build flexible reports in the tools you already use.
+            - generic [ref=f82e1253]:
+              - heading "Looker Studio" [level=3] [ref=f82e1255]
+              - paragraph [ref=f82e1257]: Use our Peec AI community connector to pull data across all your projects and create client-ready dashboards.
+            - generic [ref=f82e1260]:
+              - heading "API" [level=3] [ref=f82e1262]
+              - paragraph [ref=f82e1264]: Connect through our API to automate reporting, streamline workflows, and fit Peec AI into your stack.
+      - generic [ref=f82e1273]:
+        - heading "AI platforms are becoming the new search engines. Track the prompts that define your brand's relevance." [level=2] [ref=f82e1275]
+        - generic [ref=f82e1278]:
+          - list [ref=f82e1281]:
+            - listitem [ref=f82e1282]:
+              - link [ref=f82e1284] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1286]:
+                  - paragraph [ref=f82e1288]:
+                    - generic [ref=f82e1289]: How does HubSpot usability differ on desktop versus mobile?
+                  - paragraph [ref=f82e1293]:
+                    - generic [ref=f82e1294]: Track Prompt
+            - listitem [ref=f82e1295]:
+              - link [ref=f82e1297] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1299]:
+                  - paragraph [ref=f82e1301]:
+                    - generic [ref=f82e1302]: How easy is it to set up a CRM for the first time?
+                  - paragraph [ref=f82e1306]:
+                    - generic [ref=f82e1307]: Track Prompt
+            - listitem [ref=f82e1308]:
+              - link [ref=f82e1310] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1312]:
+                  - paragraph [ref=f82e1314]:
+                    - generic [ref=f82e1315]: What training or tutorials are included with Attio?
+                  - paragraph [ref=f82e1319]:
+                    - generic [ref=f82e1320]: Track Prompt
+            - listitem [ref=f82e1321]:
+              - link [ref=f82e1323] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1325]:
+                  - paragraph [ref=f82e1327]:
+                    - generic [ref=f82e1328]: How does HubSpot usability differ on desktop versus mobile?
+                  - paragraph [ref=f82e1332]:
+                    - generic [ref=f82e1333]: Track Prompt
+            - listitem [ref=f82e1334]:
+              - link [ref=f82e1336] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1338]:
+                  - paragraph [ref=f82e1340]:
+                    - generic [ref=f82e1341]: How easy is it to set up a CRM for the first time?
+                  - paragraph [ref=f82e1345]:
+                    - generic [ref=f82e1346]: Track Prompt
+            - listitem [ref=f82e1347]:
+              - link [ref=f82e1349] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1351]:
+                  - paragraph [ref=f82e1353]:
+                    - generic [ref=f82e1354]: What training or tutorials are included with Attio?
+                  - paragraph [ref=f82e1358]:
+                    - generic [ref=f82e1359]: Track Prompt
+            - listitem [ref=f82e1360]:
+              - link [ref=f82e1362] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1364]:
+                  - paragraph [ref=f82e1366]:
+                    - generic [ref=f82e1367]: How does HubSpot usability differ on desktop versus mobile?
+                  - paragraph [ref=f82e1371]:
+                    - generic [ref=f82e1372]: Track Prompt
+            - listitem [ref=f82e1373]:
+              - link [ref=f82e1375] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1377]:
+                  - paragraph [ref=f82e1379]:
+                    - generic [ref=f82e1380]: How easy is it to set up a CRM for the first time?
+                  - paragraph [ref=f82e1384]:
+                    - generic [ref=f82e1385]: Track Prompt
+            - listitem [ref=f82e1386]:
+              - link [ref=f82e1388] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1390]:
+                  - paragraph [ref=f82e1392]:
+                    - generic [ref=f82e1393]: What training or tutorials are included with Attio?
+                  - paragraph [ref=f82e1397]:
+                    - generic [ref=f82e1398]: Track Prompt
+            - listitem [ref=f82e1399]:
+              - link [ref=f82e1401] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1403]:
+                  - paragraph [ref=f82e1405]:
+                    - generic [ref=f82e1406]: How does HubSpot usability differ on desktop versus mobile?
+                  - paragraph [ref=f82e1410]:
+                    - generic [ref=f82e1411]: Track Prompt
+            - listitem [ref=f82e1412]:
+              - link [ref=f82e1414] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1416]:
+                  - paragraph [ref=f82e1418]:
+                    - generic [ref=f82e1419]: How easy is it to set up a CRM for the first time?
+                  - paragraph [ref=f82e1423]:
+                    - generic [ref=f82e1424]: Track Prompt
+            - listitem [ref=f82e1425]:
+              - link [ref=f82e1427] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1429]:
+                  - paragraph [ref=f82e1431]:
+                    - generic [ref=f82e1432]: What training or tutorials are included with Attio?
+                  - paragraph [ref=f82e1436]:
+                    - generic [ref=f82e1437]: Track Prompt
+          - list [ref=f82e1440]:
+            - listitem [ref=f82e1441]:
+              - link [ref=f82e1443] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1445]:
+                  - paragraph [ref=f82e1447]:
+                    - generic [ref=f82e1448]: What core features should a CRM include?
+                  - paragraph [ref=f82e1452]:
+                    - generic [ref=f82e1453]: Track Prompt
+            - listitem [ref=f82e1454]:
+              - link [ref=f82e1456] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1458]:
+                  - paragraph [ref=f82e1460]:
+                    - generic [ref=f82e1461]: How do CRMs handle customer service or support workflows?
+                  - paragraph [ref=f82e1465]:
+                    - generic [ref=f82e1466]: Track Prompt
+            - listitem [ref=f82e1467]:
+              - link [ref=f82e1469] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1471]:
+                  - paragraph [ref=f82e1473]:
+                    - generic [ref=f82e1474]: What integrations are available with popular CRMs?
+                  - paragraph [ref=f82e1478]:
+                    - generic [ref=f82e1479]: Track Prompt
+            - listitem [ref=f82e1480]:
+              - link [ref=f82e1482] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1484]:
+                  - paragraph [ref=f82e1486]:
+                    - generic [ref=f82e1487]: How does a CRM compare to spreadsheets or manual tracking?
+                  - paragraph [ref=f82e1491]:
+                    - generic [ref=f82e1492]: Track Prompt
+            - listitem [ref=f82e1493]:
+              - link [ref=f82e1495] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1497]:
+                  - paragraph [ref=f82e1499]:
+                    - generic [ref=f82e1500]: What core features should a CRM include?
+                  - paragraph [ref=f82e1504]:
+                    - generic [ref=f82e1505]: Track Prompt
+            - listitem [ref=f82e1506]:
+              - link [ref=f82e1508] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1510]:
+                  - paragraph [ref=f82e1512]:
+                    - generic [ref=f82e1513]: How do CRMs handle customer service or support workflows?
+                  - paragraph [ref=f82e1517]:
+                    - generic [ref=f82e1518]: Track Prompt
+            - listitem [ref=f82e1519]:
+              - link [ref=f82e1521] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1523]:
+                  - paragraph [ref=f82e1525]:
+                    - generic [ref=f82e1526]: What integrations are available with popular CRMs?
+                  - paragraph [ref=f82e1530]:
+                    - generic [ref=f82e1531]: Track Prompt
+            - listitem [ref=f82e1532]:
+              - link [ref=f82e1534] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1536]:
+                  - paragraph [ref=f82e1538]:
+                    - generic [ref=f82e1539]: How does a CRM compare to spreadsheets or manual tracking?
+                  - paragraph [ref=f82e1543]:
+                    - generic [ref=f82e1544]: Track Prompt
+            - listitem [ref=f82e1545]:
+              - link [ref=f82e1547] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1549]:
+                  - paragraph [ref=f82e1551]:
+                    - generic [ref=f82e1552]: What core features should a CRM include?
+                  - paragraph [ref=f82e1556]:
+                    - generic [ref=f82e1557]: Track Prompt
+            - listitem [ref=f82e1558]:
+              - link [ref=f82e1560] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1562]:
+                  - paragraph [ref=f82e1564]:
+                    - generic [ref=f82e1565]: How do CRMs handle customer service or support workflows?
+                  - paragraph [ref=f82e1569]:
+                    - generic [ref=f82e1570]: Track Prompt
+            - listitem [ref=f82e1571]:
+              - link [ref=f82e1573] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1575]:
+                  - paragraph [ref=f82e1577]:
+                    - generic [ref=f82e1578]: What integrations are available with popular CRMs?
+                  - paragraph [ref=f82e1582]:
+                    - generic [ref=f82e1583]: Track Prompt
+            - listitem [ref=f82e1584]:
+              - link [ref=f82e1586] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1588]:
+                  - paragraph [ref=f82e1590]:
+                    - generic [ref=f82e1591]: How does a CRM compare to spreadsheets or manual tracking?
+                  - paragraph [ref=f82e1595]:
+                    - generic [ref=f82e1596]: Track Prompt
+          - list [ref=f82e1599]:
+            - listitem [ref=f82e1600]:
+              - link [ref=f82e1602] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1604]:
+                  - paragraph [ref=f82e1606]:
+                    - generic [ref=f82e1607]: Do CRMs provide API access for custom integrations?
+                  - paragraph [ref=f82e1611]:
+                    - generic [ref=f82e1612]: Track Prompt
+            - listitem [ref=f82e1613]:
+              - link [ref=f82e1615] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1617]:
+                  - paragraph [ref=f82e1619]:
+                    - generic [ref=f82e1620]: How easy is CRM data migration from another system?
+                  - paragraph [ref=f82e1624]:
+                    - generic [ref=f82e1625]: Track Prompt
+            - listitem [ref=f82e1626]:
+              - link [ref=f82e1628] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1630]:
+                  - paragraph [ref=f82e1632]:
+                    - generic [ref=f82e1633]: What security certifications do CRMs typically have?
+                  - paragraph [ref=f82e1637]:
+                    - generic [ref=f82e1638]: Track Prompt
+            - listitem [ref=f82e1639]:
+              - link [ref=f82e1641] [cursor=pointer]:
+                - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+                - generic [ref=f82e1643]:
+                  - paragraph [ref=f82e1645]:
+                    - generic [ref=f82e1646]: How do CRMs handle GDPR or HIPAA compliance?
+                  - paragraph [ref=f82e1650]:
+                    - generic [ref=f82e1651]: Track Prompt
+            - listitem [ref=f82e1652]:
+              - link [ref=f82e1654] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1656]:
+                  - paragraph [ref=f82e1658]:
+                    - generic [ref=f82e1659]: Do CRMs provide API access for custom integrations?
+                  - paragraph [ref=f82e1663]:
+                    - generic [ref=f82e1664]: Track Prompt
+            - listitem [ref=f82e1665]:
+              - link [ref=f82e1667] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1669]:
+                  - paragraph [ref=f82e1671]:
+                    - generic [ref=f82e1672]: How easy is CRM data migration from another system?
+                  - paragraph [ref=f82e1676]:
+                    - generic [ref=f82e1677]: Track Prompt
+            - listitem [ref=f82e1678]:
+              - link [ref=f82e1680] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1682]:
+                  - paragraph [ref=f82e1684]:
+                    - generic [ref=f82e1685]: What security certifications do CRMs typically have?
+                  - paragraph [ref=f82e1689]:
+                    - generic [ref=f82e1690]: Track Prompt
+            - listitem [ref=f82e1691]:
+              - link [ref=f82e1693] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1695]:
+                  - paragraph [ref=f82e1697]:
+                    - generic [ref=f82e1698]: How do CRMs handle GDPR or HIPAA compliance?
+                  - paragraph [ref=f82e1702]:
+                    - generic [ref=f82e1703]: Track Prompt
+            - listitem [ref=f82e1704]:
+              - link [ref=f82e1706] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1708]:
+                  - paragraph [ref=f82e1710]:
+                    - generic [ref=f82e1711]: Do CRMs provide API access for custom integrations?
+                  - paragraph [ref=f82e1715]:
+                    - generic [ref=f82e1716]: Track Prompt
+            - listitem [ref=f82e1717]:
+              - link [ref=f82e1719] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1721]:
+                  - paragraph [ref=f82e1723]:
+                    - generic [ref=f82e1724]: How easy is CRM data migration from another system?
+                  - paragraph [ref=f82e1728]:
+                    - generic [ref=f82e1729]: Track Prompt
+            - listitem [ref=f82e1730]:
+              - link [ref=f82e1732] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1734]:
+                  - paragraph [ref=f82e1736]:
+                    - generic [ref=f82e1737]: What security certifications do CRMs typically have?
+                  - paragraph [ref=f82e1741]:
+                    - generic [ref=f82e1742]: Track Prompt
+            - listitem [ref=f82e1743]:
+              - link [ref=f82e1745] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1747]:
+                  - paragraph [ref=f82e1749]:
+                    - generic [ref=f82e1750]: How do CRMs handle GDPR or HIPAA compliance?
+                  - paragraph [ref=f82e1754]:
+                    - generic [ref=f82e1755]: Track Prompt
+            - listitem [ref=f82e1756]:
+              - link [ref=f82e1758] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1760]:
+                  - paragraph [ref=f82e1762]:
+                    - generic [ref=f82e1763]: Do CRMs provide API access for custom integrations?
+                  - paragraph [ref=f82e1767]:
+                    - generic [ref=f82e1768]: Track Prompt
+            - listitem [ref=f82e1769]:
+              - link [ref=f82e1771] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1773]:
+                  - paragraph [ref=f82e1775]:
+                    - generic [ref=f82e1776]: How easy is CRM data migration from another system?
+                  - paragraph [ref=f82e1780]:
+                    - generic [ref=f82e1781]: Track Prompt
+            - listitem [ref=f82e1782]:
+              - link [ref=f82e1784] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1786]:
+                  - paragraph [ref=f82e1788]:
+                    - generic [ref=f82e1789]: What security certifications do CRMs typically have?
+                  - paragraph [ref=f82e1793]:
+                    - generic [ref=f82e1794]: Track Prompt
+            - listitem [ref=f82e1795]:
+              - link [ref=f82e1797] [cursor=pointer]:
+                - /url: https://app.peec.ai/
+                - generic [ref=f82e1799]:
+                  - paragraph [ref=f82e1801]:
+                    - generic [ref=f82e1802]: How do CRMs handle GDPR or HIPAA compliance?
+                  - paragraph [ref=f82e1806]:
+                    - generic [ref=f82e1807]: Track Prompt
+      - generic [ref=f82e1810]:
+        - generic [ref=f82e1813]:
+          - paragraph [ref=f82e1819]:
+            - generic [ref=f82e1820]: Testimonials
+          - heading "Check what the best marketers say about Peec AI." [level=2] [ref=f82e1823]
+        - generic [ref=f82e1824]:
+          - generic [ref=f82e1825]:
+            - generic [ref=f82e1831]:
+              - paragraph [ref=f82e1833]: Peec AI offers key insights on AI visibility, helping brands stay at the forefront of discovery in the age of AI and generative search. As ChatGPT, Perplexity, and Deepseek drive traffic and conversions, Peec.ai measures the growth.
+              - generic [ref=f82e1838]:
+                - paragraph [ref=f82e1840]: Crystal Carter
+                - paragraph [ref=f82e1842]: Head of SEO Comms
+            - generic [ref=f82e1848]:
+              - paragraph [ref=f82e1850]: Peec allows us to pinpoint the exact types of content that are surfaced in specific LLMs. With that visibility, we’ve been able to prioritize our content strategy and drive a 5x year-over-year increase in traffic and demo requests from LLMs.
+              - generic [ref=f82e1855]:
+                - paragraph [ref=f82e1857]: Jon Gitlin
+                - paragraph [ref=f82e1859]: SEO Strategist
+          - generic [ref=f82e1864]:
+            - generic [ref=f82e1870]:
+              - paragraph [ref=f82e1872]: Peec avoids the issues we see with other SEO/AEO platforms, where there’s often an overload of features and information that isn't of primary importance. It keeps things simple - set up your prompts, see your AI visibility, and act on top citations.
+              - generic [ref=f82e1877]:
+                - paragraph [ref=f82e1879]: Ethan Smith
+                - paragraph [ref=f82e1881]: CEO
+            - generic [ref=f82e1887]:
+              - paragraph [ref=f82e1889]: Peec AI gave us a data-informed view of our LLMO strategy at Glide - virtually overnight. With its insights, our blog posts started ranking for targeted ChatGPT and Perplexity prompts within 24 hours. I am really impressed with the platform, and the exceptional support from the team.
+              - generic [ref=f82e1894]:
+                - paragraph [ref=f82e1896]: Sepy Bazzazi
+                - paragraph [ref=f82e1898]: Head of Marketing
+          - generic [ref=f82e1903]:
+            - generic [ref=f82e1909]:
+              - paragraph [ref=f82e1911]: Peec AI helps us identify what's being cited, adjust our strategy in real-time, and stay ahead of a rapidly evolving search landscape. For our team, the clarity and simplicity of the platform is invaluable when making strategic content decisions.
+              - generic [ref=f82e1916]:
+                - paragraph [ref=f82e1918]: Thomas Smeaton
+                - paragraph [ref=f82e1920]: SEO Manager
+            - generic [ref=f82e1926]:
+              - paragraph [ref=f82e1928]: As search marketers, our decisions should always be driven by data. Peec AI provides exactly the critical insights we need to stay competitive in the ever-evolving world of search.
+              - generic [ref=f82e1933]:
+                - paragraph [ref=f82e1935]: Artur Kosch
+                - paragraph [ref=f82e1937]: General Manager
+        - generic [ref=f82e1947]:
+          - heading "Find out what AI says about your brand" [level=3] [ref=f82e1949]
+          - generic [ref=f82e1950]:
+            - link [ref=f82e1954] [cursor=pointer]:
+              - /url: https://app.peec.ai/?comet_token_override=35058540853762385484637804622348241143951441802
+              - paragraph [ref=f82e1956]: Start free trial
+            - link [ref=f82e1960] [cursor=pointer]:
+              - /url: ./demo
+              - paragraph [ref=f82e1966]: Talk to Sales
+      - generic [ref=f82e1985]:
+        - generic [ref=f82e1988]:
+          - heading "FAQs" [level=2] [ref=f82e1990]
+          - paragraph [ref=f82e1992]: Get answers to the most common questions about AI search and Peec AI.
+        - generic [ref=f82e1996]:
+          - generic [ref=f82e1997]:
+            - button "How do I get started with Peec AI?" [ref=f82e1998] [cursor=pointer]
+            - generic: Peec AI walks you through setting up a workspace with your brand nameand domain, then suggests prompts matched to real customer searchintent. Within a few minutes, your dashboard shows your firstAI visibility scores - a breakdown per engine so you see where yourbrand already appears and where it doesn't.
+          - generic [ref=f82e2004]:
+            - button "Can I segment visibility by model, region, or audience?" [ref=f82e2005] [cursor=pointer]
+            - generic: "Yes: you can filter your AI visiblity data by model, country, and prompt tags - each prompt can carry tags for the personas or funnel stage. This lets you compare performance across any segment, for instance US vs UK traffic, awareness vs purchase-intent prompts, or even a specific model like ChatGPT vs Gemini."
+          - generic [ref=f82e2011]:
+            - button "How often is the data refreshed?" [ref=f82e2012] [cursor=pointer]
+            - generic: Peec AI executes each prompt once every 24 hours on every AI model you'veselected. This daily cadence gives you apples-to-apples trend dataacross dates, models, and regions.
+          - generic [ref=f82e2018]:
+            - button "What are brand visibility vs. source visibility metrics?" [ref=f82e2019] [cursor=pointer]
+            - generic: A brand mention happens when an AI answer directly names your brand.A source citation happens when your website or content is used togenerate an answer - even if your brand isn't named. Tracking bothtells you if AI trusts your content as a source, and whether it recommends your brand.
+          - generic [ref=f82e2025]:
+            - button "How do source citations work behind the scenes?" [ref=f82e2026] [cursor=pointer]
+            - generic: Peec AI tracks both “used” (your content informed the AI’s answer) and “cited” (your URL is explicitly mentioned). You can view source usage at domain or URL levels - complete with citation frequency.
+          - generic [ref=f82e2032]:
+            - button "How do I integrate Peec AI into my BI/reporting tools?" [ref=f82e2033] [cursor=pointer]
+            - generic: "Peec AI allows you to integrate your BI stack through three channels: the Google Looker Studio connector for drag-and-drop dashboards, the REST API for custom data pipelines, or the Model Context Protocol (MCP) to feed visibility data directly into AI agents such as Claude. All three stream live visibility, source tracking, and multi-project metrics in real time."
+    - generic [ref=f82e2041]:
+      - generic [ref=f82e2042]:
+        - generic [ref=f82e2043]:
+          - link [ref=f82e2044] [cursor=pointer]:
+            - /url: ./
+          - heading "AI search analytics for marketing teams" [level=4] [ref=f82e2050]
+        - generic [ref=f82e2051]:
+          - generic [ref=f82e2052]:
+            - paragraph [ref=f82e2054]: Company
+            - paragraph [ref=f82e2056]:
+              - link "Home" [ref=f82e2057] [cursor=pointer]:
+                - /url: ./
+            - paragraph [ref=f82e2059]:
+              - link "Careers" [ref=f82e2060] [cursor=pointer]:
+                - /url: ./careers#openroles
+            - paragraph [ref=f82e2062]:
+              - link "Entity Map" [ref=f82e2063] [cursor=pointer]:
+                - /url: ./entity-map
+            - paragraph [ref=f82e2065]:
+              - link "AI Instructions" [ref=f82e2066] [cursor=pointer]:
+                - /url: ./ai-instructions
+          - generic [ref=f82e2067]:
+            - paragraph [ref=f82e2069]: Product
+            - paragraph [ref=f82e2071]:
+              - link "Docs" [ref=f82e2072] [cursor=pointer]:
+                - /url: https://docs.peec.ai/intro-to-peec-ai
+            - paragraph [ref=f82e2074]:
+              - link "Blog" [ref=f82e2075] [cursor=pointer]:
+                - /url: ./blog
+            - paragraph [ref=f82e2077]:
+              - link "Pricing" [ref=f82e2078] [cursor=pointer]:
+                - /url: ./pricing
+            - paragraph [ref=f82e2080]:
+              - link "Changelog" [ref=f82e2081] [cursor=pointer]:
+                - /url: ./changelog
+          - generic [ref=f82e2082]:
+            - paragraph [ref=f82e2084]: Features
+            - paragraph [ref=f82e2086]:
+              - link "ChatGPT Visibility Tracker" [ref=f82e2087] [cursor=pointer]:
+                - /url: ./chat-gpt-visibility-tracker
+            - paragraph [ref=f82e2089]:
+              - link "Gemini Visibility Tracker" [ref=f82e2090] [cursor=pointer]:
+                - /url: ./gemini-visibility-tracker
+            - paragraph [ref=f82e2092]:
+              - link "AI Mode Visibility Tracker" [ref=f82e2093] [cursor=pointer]:
+                - /url: ./ai-mode-visibility-tracker
+            - paragraph [ref=f82e2095]:
+              - link "For Agencies" [ref=f82e2096] [cursor=pointer]:
+                - /url: ./for-agencies
+          - generic [ref=f82e2097]:
+            - paragraph [ref=f82e2099]: Partnership
+            - paragraph [ref=f82e2101]:
+              - link "Agencies" [ref=f82e2102] [cursor=pointer]:
+                - /url: ./partnerships/agencies
+            - paragraph [ref=f82e2104]:
+              - link "Creators" [ref=f82e2105] [cursor=pointer]:
+                - /url: ./partnerships/creators
+            - paragraph [ref=f82e2107]:
+              - link "Media" [ref=f82e2108] [cursor=pointer]:
+                - /url: ./partnerships/media
+          - generic [ref=f82e2109]:
+            - paragraph [ref=f82e2111]: Comparison
+            - paragraph [ref=f82e2113]:
+              - link "Peec vs Ahrefs" [ref=f82e2114] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-ai-vs-ahrefs-brand-radar
+            - paragraph [ref=f82e2116]:
+              - link "Peec vs Profound" [ref=f82e2117] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-vs-profound
+            - paragraph [ref=f82e2119]:
+              - link "Peec vs Semrush" [ref=f82e2120] [cursor=pointer]:
+                - /url: https://peec.ai/comparison/peec-vs-semrush
+          - generic [ref=f82e2121]:
+            - paragraph [ref=f82e2123]: Follow Us
+            - generic [ref=f82e2124]:
+              - paragraph [ref=f82e2128]:
+                - link "x.com" [ref=f82e2129] [cursor=pointer]:
+                  - /url: https://x.com/peec_ai
+              - paragraph [ref=f82e2133]:
+                - link "LinkedIn" [ref=f82e2134] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/peec-ai/
+              - paragraph [ref=f82e2139]:
+                - link "Youtube" [ref=f82e2140] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Peec-AI
+      - generic [ref=f82e2142]:
+        - paragraph [ref=f82e2145]: Peec AI is a top-rated AI search monitoring tool - 4.9/5 on G2 and regularly recommended on Reddit.
+        - generic [ref=f82e2146]:
+          - generic [ref=f82e2147]: © 2026 Peec AI. All rights reserved.
+          - generic [ref=f82e2149]:
+            - button "Cookie Trigger" [ref=f82e2151] [cursor=pointer]:
+              - generic [ref=f82e2152]: Cookie Settings
+            - paragraph [ref=f82e2154]:
+              - link "Privacy Policy" [ref=f82e2155] [cursor=pointer]:
+                - /url: ./legal/privacy-policy
+            - paragraph [ref=f82e2157]:
+              - link "Terms of Services" [ref=f82e2158] [cursor=pointer]:
+                - /url: ./legal/terms-of-use
+            - paragraph [ref=f82e2160]:
+              - link "Imprint" [ref=f82e2161] [cursor=pointer]:
+                - /url: ./legal/imprint
+  - iframe
+  - generic [ref=f82e2320]:
+    - paragraph [ref=f82e2321]: We use cookies to personalize content, run ads, and analyze traffic.
+    - button "Okay" [ref=f82e2323] [cursor=pointer]

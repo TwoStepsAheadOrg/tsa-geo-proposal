@@ -1,0 +1,407 @@
+- generic [active] [ref=f23e1]:
+  - banner [ref=f23e2]:
+    - generic [ref=f23e3]:
+      - generic [ref=f23e5]:
+        - generic [ref=f23e6] [cursor=pointer]:
+          - img [ref=f23e7]
+          - generic [ref=f23e8]: 위시켓
+        - generic [ref=f23e10] [cursor=pointer]:
+          - img [ref=f23e11]
+          - generic [ref=f23e12]: 요즘IT
+        - generic [ref=f23e14] [cursor=pointer]:
+          - img [ref=f23e15]
+          - generic [ref=f23e16]: AIDP - AX
+        - generic [ref=f23e18] [cursor=pointer]:
+          - img [ref=f23e19]
+          - generic [ref=f23e20]: Rise ERP
+      - generic [ref=f23e21]:
+        - link:
+          - /url: /
+        - generic [ref=f23e24]:
+          - link "프로젝트 찾기" [ref=f23e25] [cursor=pointer]:
+            - /url: /project/#clear
+            - generic [ref=f23e26]:
+              - text: 프로젝트 찾기
+              - img [ref=f23e28]
+          - link "파트너스 찾기" [ref=f23e29] [cursor=pointer]:
+            - /url: /partners/#clear
+            - generic [ref=f23e30]: 파트너스 찾기
+          - link "이용방법" [ref=f23e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+            - generic [ref=f23e32]:
+              - text: 이용방법
+              - img [ref=f23e34]
+          - link "포트폴리오" [ref=f23e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+            - generic [ref=f23e36]:
+              - text: 포트폴리오
+              - img [ref=f23e38]
+          - link "비즈니스 솔루션" [ref=f23e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+            - generic [ref=f23e41]:
+              - text: 비즈니스 솔루션
+              - generic [ref=f23e42]:
+                - img [ref=f23e43]
+                - img [ref=f23e44]
+        - generic [ref=f23e45]:
+          - link "내 프로필" [ref=f23e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - generic [ref=f23e47]: 내 프로필
+          - generic [ref=f23e50] [cursor=pointer]:
+            - text: 내 프로젝트 관리
+            - img [ref=f23e52]
+          - link [ref=f23e53] [cursor=pointer]:
+            - /url: /accounts/notifications/
+            - img [ref=f23e55]
+          - img "twostepsahead사진" [ref=f23e57] [cursor=pointer]
+      - generic [ref=f23e58]:
+        - generic [ref=f23e59]:
+          - generic [ref=f23e61]:
+            - link "프로젝트 찾기" [ref=f23e62] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f23e63] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f23e65]:
+            - link "이용방법" [ref=f23e66] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f23e67] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f23e68] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f23e69] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f23e70]:
+            - link "포트폴리오" [ref=f23e71] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f23e72] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f23e73]:
+            - link "솔루션 마켓" [ref=f23e74] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f23e75] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f23e76]:
+          - generic [ref=f23e77]: 프로필을 완성하고
+          - generic [ref=f23e78]:
+            - text: 더 많은 프로젝트를
+            - text: 수주받아보세요
+          - link "내 프로필 입력하기" [ref=f23e79] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+            - text: 내 프로필 입력하기
+            - img [ref=f23e80]
+          - img "광고 배너" [ref=f23e82]
+  - generic [ref=f23e83]:
+    - generic [ref=f23e87]:
+      - generic [ref=f23e88]:
+        - img [ref=f23e90] [cursor=pointer]
+        - generic [ref=f23e91]:
+          - text: twostepsahead
+          - link "신원 미인증" [ref=f23e93] [cursor=pointer]:
+            - /url: /accounts/settings/verify_identity
+            - generic [ref=f23e94]:
+              - img [ref=f23e95]
+              - text: 신원 미인증
+              - img [ref=f23e96]
+          - generic [ref=f23e98] [cursor=pointer]:
+            - img [ref=f23e99]
+            - text: 활동 가능
+            - img [ref=f23e100]
+          - link "내 프로필 보기":
+            - /url: /partners/p/twostepsahead/
+            - button "내 프로필 보기" [ref=f23e101] [cursor=pointer]:
+              - text: 내 프로필 보기
+              - img [ref=f23e102]
+        - generic [ref=f23e103]:
+          - generic [ref=f23e105] [cursor=pointer]:
+            - generic [ref=f23e106]:
+              - img [ref=f23e107]
+              - text: 개발
+            - img [ref=f23e108]
+          - generic [ref=f23e110] [cursor=pointer]:
+            - generic [ref=f23e111]:
+              - img [ref=f23e112]
+              - text: 법인 사업자
+            - img [ref=f23e113]
+          - link "주소 입력하기":
+            - /url: /accounts/settings/profile/
+            - generic [ref=f23e114] [cursor=pointer]:
+              - img [ref=f23e115]
+              - text: 주소 입력하기
+              - img [ref=f23e116]
+          - generic [ref=f23e118] [cursor=pointer]:
+            - generic [ref=f23e119]: 외주 선호
+            - img [ref=f23e120]
+          - link "위시켓 이력서 다운" [ref=f23e121] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/api/resume/
+            - text: 위시켓 이력서 다운
+            - img [ref=f23e122]
+          - paragraph
+      - generic [ref=f23e125]:
+        - img [ref=f23e126]
+        - generic [ref=f23e127]:
+          - text: 프로젝트에 지원하려면
+          - link "파트너 정보" [ref=f23e128] [cursor=pointer]:
+            - /url: /accounts/settings/profile/
+          - text: ","
+          - link "보유기술" [ref=f23e129] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/skill/update/
+          - text: 을(를) 등록해주세요. 외주 프로젝트는
+          - link "포트폴리오" [ref=f23e130] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/portfolio/update/
+          - text: 을(를) 함께 등록해주세요!
+    - text: · · · · ·
+    - generic [ref=f23e131]:
+      - generic [ref=f23e132]:
+        - link "프로필 메뉴 관리" [ref=f23e133] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/info/update/
+          - generic [ref=f23e134]:
+            - img [ref=f23e135]
+            - text: 프로필 메뉴 관리
+        - link "파트너 소개" [ref=f23e137] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/introduction/update/
+          - generic [ref=f23e138]: 파트너 소개
+        - link "보유기술" [ref=f23e139] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/skill/update/
+          - generic [ref=f23e140]: 보유기술
+        - link "회사 연혁" [ref=f23e141] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/company_history/update/
+          - generic [ref=f23e142]: 회사 연혁
+        - link "협력업체 및 기관" [ref=f23e143] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/cooperative_company/update/
+          - generic [ref=f23e144]: 협력업체 및 기관
+        - link "수상이력" [ref=f23e145] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/prize/update/
+          - generic [ref=f23e146]: 수상이력
+        - link "포트폴리오" [ref=f23e148] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/portfolio/update/
+          - generic [ref=f23e149]: 포트폴리오
+        - link "클라이언트의 평가" [ref=f23e151] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/evaluation/update/
+          - generic [ref=f23e152]: 클라이언트의 평가
+        - link "위시켓에서 진행한 프로젝트" [ref=f23e153] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/history/update/
+          - generic [ref=f23e154]: 위시켓에서 진행한 프로젝트
+        - link "레퍼런스 체크" [ref=f23e155] [cursor=pointer]:
+          - /url: /partners/p/twostepsahead/reference-check/update/
+          - generic [ref=f23e156]: 레퍼런스 체크
+      - generic [ref=f23e157]:
+        - generic [ref=f23e159]:
+          - text: 회사 연혁
+          - link "자주 묻는 질문" [ref=f23e160] [cursor=pointer]:
+            - /url: /faq/
+            - img [ref=f23e161]
+            - text: 자주 묻는 질문
+          - link "내 프로필에서 보기" [ref=f23e162] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/company_history/
+            - text: 내 프로필에서 보기
+            - img [ref=f23e163]
+        - generic [ref=f23e165]:
+          - link:
+            - /url: edit
+            - img [ref=f23e166] [cursor=pointer]
+          - generic [ref=f23e167]:
+            - generic [ref=f23e168]:
+              - generic [ref=f23e169]: 연월
+              - generic [ref=f23e170]: 상세내용
+            - generic [ref=f23e171]:
+              - generic [ref=f23e172]: 2026.07.
+              - generic [ref=f23e173]: 한국관광공사 제18회 초기관광벤처 선정 · 사업화 지원 협약(2026.07~11)
+            - generic [ref=f23e174]:
+              - generic [ref=f23e175]: 2026.07.
+              - generic [ref=f23e176]: 인스타툰·브랜드툰 제작 서비스 '툰에이전트' 정식 출시
+            - generic [ref=f23e177]:
+              - generic [ref=f23e178]: 2026.06.
+              - generic [ref=f23e179]: 창업기업 확인서 발급(서울지방중소벤처기업청) · 한국인공지능협회(KORAIA) 회원사 등록
+            - generic [ref=f23e180]:
+              - generic [ref=f23e181]: 2026.05.
+              - generic [ref=f23e182]: 누적 계약 2억 원 달성(설립 6개월차) · 글로벌 대기업 계열 AI 검색 검증 프로젝트 GEO 데이터 공급 계약
+            - generic [ref=f23e183]:
+              - generic [ref=f23e184]: 2026.05.
+              - generic [ref=f23e185]: 중소기업 확인서 발급(중소벤처기업부) · 인바운드 관광 AI 가시성 플랫폼 'K-Trip Voice' V1 출시
+            - generic [ref=f23e186]:
+              - generic [ref=f23e187]: 2025.12.
+              - generic [ref=f23e188]: 설립 첫해 매출 발생 및 영업이익 흑자 달성
+            - generic [ref=f23e189]:
+              - generic [ref=f23e190]: 2025.10.
+              - generic [ref=f23e191]: 법인 설립 (서울 강남구)
+          - paragraph
+  - contentinfo [ref=f23e192]:
+    - generic [ref=f23e193]:
+      - generic [ref=f23e194]:
+        - generic [ref=f23e195]:
+          - generic [ref=f23e196]: 서비스 전체보기
+          - link "위시켓" [ref=f23e197] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+            - img [ref=f23e198]
+            - text: 위시켓
+          - link "요즘IT" [ref=f23e199] [cursor=pointer]:
+            - /url: /magazine/
+            - img [ref=f23e200]
+            - text: 요즘IT
+          - link "AIDP - AX" [ref=f23e201] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+            - img [ref=f23e202]
+            - text: AIDP - AX
+          - link "Rise ERP" [ref=f23e203] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+            - img [ref=f23e204]
+            - text: Rise ERP
+        - generic [ref=f23e205]:
+          - link [ref=f23e206] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+            - img [ref=f23e207]
+          - link [ref=f23e208] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+            - img [ref=f23e209]
+          - link [ref=f23e210] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+            - img [ref=f23e211]
+      - generic [ref=f23e212]:
+        - generic [ref=f23e213]:
+          - paragraph [ref=f23e214]:
+            - img [ref=f23e215]
+            - text: 고객 문의
+          - link "02-6925-4849" [ref=f23e216] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f23e217]:
+            - generic [ref=f23e218]: 10:00-18:00
+            - generic [ref=f23e219]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f23e220] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f23e221]:
+          - paragraph [ref=f23e222]: 위시켓
+          - link "위시켓 소개" [ref=f23e223] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f23e224] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f23e225]:
+          - paragraph [ref=f23e226]: 이용방법
+          - link "클라이언트 이용방법" [ref=f23e227] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f23e228] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f23e229] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f23e230] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f23e231]:
+          - paragraph [ref=f23e232]: 고객센터
+          - link "클라이언트 고객센터" [ref=f23e233] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f23e234] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f23e235]:
+          - link "뉴스센터" [ref=f23e236] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f23e237] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f23e238] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f23e239] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f23e240]:
+        - link "이용약관" [ref=f23e241] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f23e243] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f23e244]:
+        - generic [ref=f23e245]:
+          - generic [ref=f23e246]: ㈜위시켓
+          - generic [ref=f23e248]: "대표이사 : 박우범"
+          - generic [ref=f23e250]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f23e251]:
+          - generic [ref=f23e252]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f23e254]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f23e256]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f23e257]: © 2013 Wishket Corp.
+  - generic:
+    - generic [ref=f23e258]:
+      - navigation [ref=f23e259]:
+        - generic [ref=f23e260]: 2026년 07월
+        - img [ref=f23e262] [cursor=pointer]
+      - generic [ref=f23e275]:
+        - generic [ref=f23e276]:
+          - generic [ref=f23e277]: 일
+          - generic [ref=f23e278]: 월
+          - generic [ref=f23e279]: 화
+          - generic [ref=f23e280]: 수
+          - generic [ref=f23e281]: 목
+          - generic [ref=f23e282]: 금
+          - generic [ref=f23e283]: 토
+        - generic [ref=f23e284]:
+          - generic [ref=f23e288]: "1"
+          - generic [ref=f23e289]: "2"
+          - generic [ref=f23e290]: "3"
+          - generic [ref=f23e291]: "4"
+          - generic [ref=f23e292]: "5"
+          - generic [ref=f23e293]: "6"
+          - generic [ref=f23e294]: "7"
+          - generic [ref=f23e295]: "8"
+          - generic [ref=f23e296]: "9"
+          - generic [ref=f23e297]: "10"
+          - generic [ref=f23e298]: "11"
+          - generic [ref=f23e299]: "12"
+          - generic [ref=f23e300]: "13"
+          - generic [ref=f23e301]: "14"
+          - generic [ref=f23e302]: "15"
+          - generic [ref=f23e303]: "16"
+          - generic [ref=f23e304]: "17"
+          - generic [ref=f23e305] [cursor=pointer]: "18"
+          - generic [ref=f23e306] [cursor=pointer]: "19"
+          - generic [ref=f23e307] [cursor=pointer]: "20"
+          - generic [ref=f23e308] [cursor=pointer]: "21"
+          - generic [ref=f23e309] [cursor=pointer]: "22"
+          - generic [ref=f23e310] [cursor=pointer]: "23"
+          - generic [ref=f23e311] [cursor=pointer]: "24"
+          - generic [ref=f23e312] [cursor=pointer]: "25"
+          - generic [ref=f23e313] [cursor=pointer]: "26"
+          - generic [ref=f23e314] [cursor=pointer]: "27"
+          - generic [ref=f23e315] [cursor=pointer]: "28"
+          - generic [ref=f23e316] [cursor=pointer]: "29"
+          - generic [ref=f23e317] [cursor=pointer]: "30"
+          - generic [ref=f23e318] [cursor=pointer]: "31"
+    - generic [ref=f23e320]:
+      - navigation [ref=f23e321]:
+        - generic [ref=f23e322]: 2026년 07월
+        - img [ref=f23e324] [cursor=pointer]
+      - generic [ref=f23e337]:
+        - generic [ref=f23e338]:
+          - generic [ref=f23e339]: 일
+          - generic [ref=f23e340]: 월
+          - generic [ref=f23e341]: 화
+          - generic [ref=f23e342]: 수
+          - generic [ref=f23e343]: 목
+          - generic [ref=f23e344]: 금
+          - generic [ref=f23e345]: 토
+        - generic [ref=f23e346]:
+          - generic [ref=f23e350]: "1"
+          - generic [ref=f23e351]: "2"
+          - generic [ref=f23e352]: "3"
+          - generic [ref=f23e353]: "4"
+          - generic [ref=f23e354]: "5"
+          - generic [ref=f23e355]: "6"
+          - generic [ref=f23e356]: "7"
+          - generic [ref=f23e357]: "8"
+          - generic [ref=f23e358]: "9"
+          - generic [ref=f23e359]: "10"
+          - generic [ref=f23e360]: "11"
+          - generic [ref=f23e361]: "12"
+          - generic [ref=f23e362]: "13"
+          - generic [ref=f23e363]: "14"
+          - generic [ref=f23e364]: "15"
+          - generic [ref=f23e365]: "16"
+          - generic [ref=f23e366]: "17"
+          - generic [ref=f23e367] [cursor=pointer]: "18"
+          - generic [ref=f23e368] [cursor=pointer]: "19"
+          - generic [ref=f23e369] [cursor=pointer]: "20"
+          - generic [ref=f23e370] [cursor=pointer]: "21"
+          - generic [ref=f23e371] [cursor=pointer]: "22"
+          - generic [ref=f23e372] [cursor=pointer]: "23"
+          - generic [ref=f23e373] [cursor=pointer]: "24"
+          - generic [ref=f23e374] [cursor=pointer]: "25"
+          - generic [ref=f23e375] [cursor=pointer]: "26"
+          - generic [ref=f23e376] [cursor=pointer]: "27"
+          - generic [ref=f23e377] [cursor=pointer]: "28"
+          - generic [ref=f23e378] [cursor=pointer]: "29"
+          - generic [ref=f23e379] [cursor=pointer]: "30"
+          - generic [ref=f23e380] [cursor=pointer]: "31"

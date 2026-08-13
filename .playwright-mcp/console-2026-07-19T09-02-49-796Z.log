@@ -1,0 +1,5 @@
+[    1365ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://property.pstatic.net/property-web/_next/static/chunks/0a9dv~ner7ngb.js:19
+[    1381ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://fin.land.naver.com/front-api/v1/user/recentView?size=10&userChannelType=PC&page=0:0
+[    1385ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://fin.land.naver.com/front-api/v1/user/auth/notificationArticle?type=non-complex-article&articleNumber=2633999641:0
+[    1386ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://fin.land.naver.com/front-api/v1/user/recommendArticleVR:0
+[    1391ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://fin.land.naver.com/front-api/v1/user/recentView:0

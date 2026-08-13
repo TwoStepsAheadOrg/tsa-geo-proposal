@@ -1,0 +1,188 @@
+- generic [ref=f7e1]:
+  - iframe [ref=f7e2]:
+    
+  - generic [ref=f7e3]:
+    - banner [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - link "Google Apps Script" [ref=f7e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=f7e11]
+          - generic [ref=f7e12]: Apps Script
+        - generic [ref=f7e13]:
+          - generic [ref=f7e16]:
+            - button "이름 변경하기" [ref=f7e18] [cursor=pointer]: 플루랭크 워룸 API
+            - generic [ref=f7e374]: cloud_done
+          - generic [ref=f7e26]:
+            - button "배포" [expanded] [ref=f7e31] [cursor=pointer]:
+              - generic [ref=f7e34]:
+                - text: 배포
+                - generic [ref=f7e35]: 
+            - button "지원" [ref=f7e37] [cursor=pointer]:
+              - generic [ref=f7e40]: help_outline
+        - generic [ref=f7e42]:
+          - button "Google 앱" [ref=f7e46] [cursor=pointer]:
+            - img [ref=f7e47]
+          - 'button "Google 계정: 김건희 (glenn.kim@twostepsahead.co.kr)" [ref=f7e52] [cursor=pointer]':
+            - img [ref=f7e54]
+    - generic [ref=f7e56]:
+      - navigation "Apps Script 프로젝트 페이지" [ref=f7e58]:
+        - link "개요" [ref=f7e59] [cursor=pointer]:
+          - generic [ref=f7e61]: info_outline
+          - generic [ref=f7e62]: 개요
+        - link "편집기" [ref=f7e63] [cursor=pointer]:
+          - generic [ref=f7e65]: code
+          - generic [ref=f7e66]: 편집기
+        - link "프로젝트 기록" [ref=f7e67] [cursor=pointer]:
+          - generic [ref=f7e69]: history
+          - generic [ref=f7e70]: 프로젝트 기록
+        - link "트리거" [ref=f7e71] [cursor=pointer]:
+          - generic [ref=f7e73]: alarm
+          - generic [ref=f7e74]: 트리거
+        - link "실행" [ref=f7e75] [cursor=pointer]:
+          - generic [ref=f7e77]: playlist_play
+          - generic [ref=f7e78]: 실행
+        - link "프로젝트 설정" [ref=f7e79] [cursor=pointer]:
+          - generic [ref=f7e81]: settings
+          - generic [ref=f7e82]: 프로젝트 설정
+      - generic [ref=f7e83]:
+        - heading "편집기" [level=1] [ref=f7e84]
+        - generic [ref=f7e85]:
+          - generic [ref=f7e87]:
+            - generic [ref=f7e88]:
+              - heading "파일" [level=2] [ref=f7e89]
+              - generic [ref=f7e91]:
+                - button "알파벳순으로 파일 정렬" [disabled] [ref=f7e93]:
+                  - generic [ref=f7e96]: sort_by_alpha
+                - button "파일 추가" [ref=f7e98] [cursor=pointer]:
+                  - generic [ref=f7e101]: add
+            - listbox "프로젝트 파일" [ref=f7e103]:
+              - option "Code.gs" [ref=f7e104] [cursor=pointer]:
+                - generic "Code.gs" [ref=f7e105]
+                - button "Code.gs에 대한 파일 작업 메뉴" [ref=f7e106]:
+                  - button "Code.gs에 대한 파일 작업 메뉴" [ref=f7e107]:
+                    - generic [ref=f7e110]: 
+            - generic [ref=f7e111]:
+              - heading "라이브러리" [level=2] [ref=f7e112]
+              - button "라이브러리 추가" [ref=f7e115] [cursor=pointer]:
+                - generic [ref=f7e118]: add
+            - generic [ref=f7e119]:
+              - heading "서비스" [level=2] [ref=f7e120]
+              - button "서비스 추가" [ref=f7e123] [cursor=pointer]:
+                - generic [ref=f7e126]: add
+          - separator "창 크기 조절" [ref=f7e127]
+          - generic [ref=f7e133]:
+            - region [ref=f7e134]:
+              - generic [ref=f7e135]:
+                - generic [ref=f7e136]:
+                  - generic [ref=f7e139]:
+                    - button "코드 수정 실행취소" [disabled]:
+                      - generic: undo
+                  - generic [ref=f7e142]:
+                    - button "코드 수정 재실행" [disabled]:
+                      - generic: redo
+                - generic [ref=f7e146]:
+                  - button "Drive에 프로젝트 저장" [disabled]:
+                    - img
+                - generic [ref=f7e147]:
+                  - button "선택한 기능 실행" [ref=f7e151]:
+                    - generic [ref=f7e154]: play_arrow
+                    - generic [ref=f7e155]: 실행
+                  - button "선택한 기능 디버그" [ref=f7e159]:
+                    - img [ref=f7e162]
+                    - generic [ref=f7e165]: 디버그
+                  - listbox "실행할 함수 선택" [ref=f7e168] [cursor=pointer]:
+                    - option "doGet" [selected] [ref=f7e169]
+                - button "실행 로그 패널 열기" [ref=f7e174]:
+                  - generic [ref=f7e177]: 실행 로그
+            - generic [ref=f7e179]:
+              - main [ref=f7e183]:
+                - generic [ref=f7e184]: .
+                - generic [ref=f7e186]:
+                  - iframe [ref=f7e187]:
+                    
+                  - code [ref=f7e189]:
+                    - generic [ref=f7e190]:
+                      - generic [ref=f7e193]:
+                        - generic [ref=f7e194]:
+                          - generic [ref=f7e196] [cursor=pointer]: 
+                          - generic [ref=f7e197]: "1"
+                        - generic [ref=f7e199]: "2"
+                        - generic [ref=f7e201]: "3"
+                        - generic [ref=f7e203]: "4"
+                        - generic [ref=f7e205]: "5"
+                        - generic [ref=f7e207]: "6"
+                        - generic [ref=f7e209]: "7"
+                        - generic [ref=f7e212]: "8"
+                        - generic [ref=f7e214]: "9"
+                        - generic [ref=f7e215]:
+                          - generic [ref=f7e216] [cursor=pointer]: 
+                          - generic [ref=f7e217]: "10"
+                        - generic [ref=f7e219]: "11"
+                        - generic [ref=f7e221]: "12"
+                        - generic [ref=f7e222]:
+                          - generic [ref=f7e223] [cursor=pointer]: 
+                          - generic [ref=f7e224]: "13"
+                        - generic [ref=f7e226]: "14"
+                        - generic [ref=f7e228]: "15"
+                        - generic [ref=f7e230]: "16"
+                        - generic [ref=f7e232]: "17"
+                        - generic [ref=f7e234]: "18"
+                        - generic [ref=f7e236]: "19"
+                        - generic [ref=f7e238]: "20"
+                        - generic [ref=f7e239]:
+                          - generic [ref=f7e240] [cursor=pointer]: 
+                          - generic [ref=f7e241]: "21"
+                        - generic [ref=f7e242]:
+                          - generic [ref=f7e243] [cursor=pointer]: 
+                          - generic [ref=f7e244]: "22"
+                        - generic [ref=f7e246]: "23"
+                        - generic [ref=f7e248]: "24"
+                        - generic [ref=f7e250]: "25"
+                        - generic [ref=f7e251]:
+                          - generic [ref=f7e252] [cursor=pointer]: 
+                          - generic [ref=f7e253]: "26"
+                        - generic [ref=f7e254]:
+                          - generic [ref=f7e255] [cursor=pointer]: 
+                          - generic [ref=f7e256]: "27"
+                        - generic [ref=f7e258]: "28"
+                      - generic [ref=f7e310]:
+                        - generic [ref=f7e312]: /**
+                        - generic [ref=f7e314]: "* 플루랭크 마케팅 워룸 — Apps Script 백엔드 (v3)"
+                        - generic [ref=f7e316]: "*/"
+                        - generic [ref=f7e318]: var ACCESS_KEY = 'wr-6f3f16580555';
+                        - generic [ref=f7e320]: var VER = 3;
+                        - generic [ref=f7e323]: var TASK_HEADERS = ['id','phase','order','title','goal','guide','channel','funnel','type','estMinutes',
+                        - generic [ref=f7e325]: "'successCriteria','icp','status','doneAt','memo'];"
+                        - generic [ref=f7e327]: var KPI_HEADERS = ['date','inquiries','consults','signups','payments','memo'];
+                        - generic [ref=f7e330]: "function sheet_(name, headers) {"
+                        - generic [ref=f7e332]: var ss = SpreadsheetApp.getActive();
+                        - generic [ref=f7e334]: var sh = ss.getSheetByName(name);
+                        - generic [ref=f7e336]: "if (!sh) {"
+                        - generic [ref=f7e338]: sh = ss.insertSheet(name);
+                        - generic [ref=f7e340]: sh.appendRow(headers);
+                        - generic [ref=f7e342]: sh.setFrozenRows(1);
+                        - generic [ref=f7e344]: "}"
+                        - generic [ref=f7e346]: return sh;
+                        - generic [ref=f7e348]: "}"
+                        - generic [ref=f7e351]: "function json_(obj) {"
+                        - generic [ref=f7e353]: return ContentService.createTextOutput(JSON.stringify(obj))
+                        - generic [ref=f7e355]: .setMimeType(ContentService.MimeType.JSON);
+                        - generic [ref=f7e357]: "}"
+                        - generic [ref=f7e360]: "function fmt_(v) {"
+                        - generic [ref=f7e362]: "if (v instanceof Date) {"
+                        - generic [ref=f7e364]: return Utilities.formatDate(v, SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'yyyy-MM-dd');
+                      - textbox "편집기 콘텐츠;접근성 옵션은 Alt+F1을 눌러여 합니다." [ref=f7e369]: /** * 플루랭크 마케팅 워룸 — Apps Script 백엔드 (v3) */ var ACCESS_KEY = 'wr-6f3f16580555'; var VER = 3; var TASK_HEADERS = ['id','phase','order','title','goal','guide','channel','funnel','type','estMinutes','successCriteria','icp','status','doneAt','memo']; var KPI_HEADERS = ['date','inquiries','consults','signups','payments','memo'];
+              - tooltip [ref=f7e370]: 실행 로그 닫기
+  - generic [ref=f7e371]:
+    - alert
+    - alert
+    - complementary
+    - complementary
+  - menu [active] [ref=f7e375]:
+    - generic [ref=f7e377]:
+      - menuitem "새 배포" [ref=f7e378] [cursor=pointer]:
+        - generic [ref=f7e380]: 새 배포
+      - menuitem "배포 관리 옵션" [ref=f7e381] [cursor=pointer]:
+        - generic [ref=f7e383]: 배포 관리
+      - menuitem "테스트 배포" [ref=f7e384] [cursor=pointer]:
+        - generic [ref=f7e386]: 테스트 배포

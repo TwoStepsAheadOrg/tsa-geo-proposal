@@ -1,0 +1,4 @@
+- generic [active]:
+  - status "로딩 중" [ref=f7e1]:
+    - img [ref=f7e2]
+  - alert [ref=f7e6]

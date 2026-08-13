@@ -1,0 +1,7 @@
+- generic [ref=e2]:
+  - generic [ref=e3]: PLURANK
+  - heading "마케팅 워룸" [level=1] [ref=e4]
+  - paragraph [ref=e5]: 액세스 키를 입력하세요. 한 번만 입력하면 이 기기에 저장됩니다.
+  - generic [ref=e6]:
+    - textbox "wr-··············" [active] [ref=e7]
+    - button "입장" [ref=e8] [cursor=pointer]

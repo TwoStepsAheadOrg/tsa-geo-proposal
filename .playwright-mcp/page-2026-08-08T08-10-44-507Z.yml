@@ -1,0 +1,382 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#skipToMain"
+    - generic [ref=e8]:
+      - navigation [ref=e9]:
+        - button "Navigation Menu" [ref=e10] [cursor=pointer]
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /capabilities/quantumblack
+          - img "QuantumBlack" [ref=e13]
+      - generic [ref=e16]:
+        - link "Artificial Intelligence" [ref=e17] [cursor=pointer]:
+          - /url: https://www.mckinsey.com/capabilities/quantumblack
+        - navigation [ref=e18]:
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Overview" [ref=e21] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients
+            - listitem [ref=e22]:
+              - link "Our Approach" [ref=e23] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/our-approach
+            - listitem [ref=e24]:
+              - link "Labs" [ref=e25] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/labs
+            - listitem [ref=e26]:
+              - link "Case Studies" [ref=e27] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/case-studies
+            - listitem [ref=e28]:
+              - link "Our Insights" [ref=e29] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/our-insights
+            - listitem [ref=e30]:
+              - link "Our People" [ref=e31] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/our-people
+            - listitem [ref=e32]:
+              - link "Contact Us" [ref=e33] [cursor=pointer]:
+                - /url: https://www.mckinsey.com/capabilities/quantumblack/contact-us
+      - menu [ref=e35]:
+        - menuitem "Sign In | Subscribe":
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Sign In" [ref=e38] [cursor=pointer]:
+                - /url: "#/auth-signin"
+              - text: "|"
+            - listitem [ref=e40]:
+              - link "Subscribe" [ref=e41] [cursor=pointer]:
+                - /url: /user-registration/newsletter
+        - menuitem [ref=e43]:
+          - link "Search icon, hit enter to activate" [ref=e44] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e45]: 
+    - main [ref=e46]:
+      - generic [ref=e49]:
+        - button "Pause the video" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+        - generic [ref=e61]:
+          - heading "Artificial Intelligence" [level=1] [ref=e62]
+          - generic [ref=e64]: Learn how we’re helping capture the opportunity of generative AI
+      - generic [ref=e68]:
+        - generic [ref=e69]: QuantumBlack, AI by McKinsey, helps harness the power of hybrid intelligence to create unimagined opportunities in a constantly changing world.
+        - generic [ref=e81]:
+          - paragraph [ref=e82]:
+            - text: Transform faster. Innovate smarter. Anticipate the future. At QuantumBlack, we unlock the power of artificial intelligence (AI) to help organizations reinvent themselves from the ground up—and
+            - link "accelerate sustainable and inclusive growth" [ref=e83] [cursor=pointer]:
+              - /url: /about-us/overview/sustainable-and-inclusive-growth
+            - text: .
+          - paragraph [ref=e84]:
+            - text: We do this by harnessing the foresight and precision of data and technology with the creativity and understanding of people. The result?
+            - link "Hybrid intelligence" [ref=e85] [cursor=pointer]:
+              - /url: /capabilities/quantumblack/our-approach
+            - text: ", a source of competitive advantage that transforms how companies think, operate, and disrupt."
+          - paragraph [ref=e86]: Our approach is relentlessly focused on real-world impact. QuantumBlack was born and proven in Formula 1, where teams live and breathe data. As the AI consulting arm of McKinsey, we blend powerful AI and cutting-edge solutions with deep strategic thinking and domain expertise to help our clients innovate and develop new opportunities.
+        - generic [ref=e89]:
+          - heading "Our approach" [level=2] [ref=e91]
+          - generic [ref=e94]:
+            - img "Smooth, flowing blue curves with light reflections against a dark background, creating a serene and futuristic abstract visual." [ref=e97]
+            - generic [ref=e99]:
+              - heading "Hybrid intelligence" [level=2] [ref=e100]
+              - generic [ref=e101]: When technology and people work together, we can see further—and deliver lasting impact that shapes our future.
+              - link "Learn more about our hybrid intelligence approach" [ref=e104] [cursor=pointer]:
+                - /url: /capabilities/quantumblack/our-approach
+                - text: Learn more about our hybrid intelligence approach
+                - generic [ref=e105]: 
+        - generic [ref=e110]:
+          - generic [ref=e112]:
+            - heading "QuantumBlack Labs" [level=2] [ref=e113]
+            - generic [ref=e114]: Our center of learning dedicated to driving innovation and experimentation in AI, QuantumBlack Labs is where technologists, designers, and product managers build cutting-edge tools and assets that reduce risk and accelerate impact at every stage of the AI transformation journey.
+            - link "Learn more about QuantumBlack Labs" [ref=e117] [cursor=pointer]:
+              - /url: /capabilities/quantumblack/labs
+              - text: Learn more about QuantumBlack Labs
+              - generic [ref=e118]: 
+          - img "QuantumBlack Labs" [ref=e121]
+        - generic [ref=e126]:
+          - link "Our ecosystem of tech alliances" [ref=e128] [cursor=pointer]:
+            - /url: /about-us/overview/alliances
+            - img "McKinsey Alliances - Bringing the best to our clients" [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e132]: General Info
+            - generic [ref=e133]:
+              - heading [level=2] [ref=e134]:
+                - link "Our ecosystem of tech alliances" [ref=e135] [cursor=pointer]:
+                  - /url: /about-us/overview/alliances
+              - generic [ref=e139]: To help our clients in a rapidly changing world, we must continuously innovate and extend our capabilities. From cloud and artificial intelligence, to sustainability, change acceleration and more, our open ecosystem allows us to serve as end-to-end impact partners for our clients.
+        - generic [ref=e143]:
+          - heading "Our offerings" [level=2] [ref=e145]
+          - generic [ref=e147]:
+            - generic [ref=e150]:
+              - heading "Artificial Intelligence" [level=5] [ref=e151]
+              - generic [ref=e152]: We partner with organizations to unleash new possibilities by putting the right people, processes, and technology in place to scale AI.
+            - generic [ref=e156]:
+              - heading "Data Transformation" [level=5] [ref=e157]
+              - generic [ref=e158]: We help organizations unlock the true value of data and build performance by making lasting improvements in technology, processes, and capabilities.
+              - link "Learn more about data transformation" [ref=e161] [cursor=pointer]:
+                - /url: /capabilities/mckinsey-technology/overview/data-delivery-transformation
+                - text: Learn more about data transformation
+                - generic [ref=e162]: 
+            - generic [ref=e165]:
+              - heading "Noble Intelligence" [level=5] [ref=e166]
+              - generic [ref=e167]: We help organizations across sectors apply AI and advanced analytics to create scalable solutions that deliver positive social impact.
+              - link "Learn more about Noble Intelligence" [ref=e170] [cursor=pointer]:
+                - /url: /capabilities/quantumblack/how-we-help-clients/noble-intelligence
+                - text: Learn more about Noble Intelligence
+                - generic [ref=e171]: 
+            - generic [ref=e174]:
+              - heading "Digital Twins" [level=5] [ref=e175]
+              - generic [ref=e176]: We help organizations to build virtual replicas of their assets, processes and people by simulating real situations, allowing them to make better decisions.
+              - link "Learn more about Digital Twins" [ref=e179] [cursor=pointer]:
+                - /url: /capabilities/quantumblack/how-we-help-clients/digital-twins
+                - text: Learn more about Digital Twins
+                - generic [ref=e180]: 
+        - generic [ref=e183]:
+          - heading "Examples of our impact" [level=2] [ref=e185]
+          - generic [ref=e188]:
+            - link "How Toshiba Tec and McKinsey are turning retail data into real-time decisions with NVIDIA" [ref=e190] [cursor=pointer]:
+              - /url: /industries/industrials/how-we-help-clients/how-toshiba-tec-and-mckinsey-are-turning-retail-data-into-real-time-decisions-with-nvidia
+              - img "How Toshiba Tec and McKinsey are turning retail data into real-time decisions with NVIDIA" [ref=e192]
+            - generic [ref=e193]:
+              - generic [ref=e194]: Case Study
+              - generic [ref=e195]:
+                - heading [level=2] [ref=e196]:
+                  - link "How Toshiba Tec and McKinsey are turning retail data into real-time decisions with NVIDIA" [ref=e197] [cursor=pointer]:
+                    - /url: /industries/industrials/how-we-help-clients/how-toshiba-tec-and-mckinsey-are-turning-retail-data-into-real-time-decisions-with-nvidia
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - time [ref=e203]: December 15, 2025
+                    - text: "-"
+                  - text: Partnering with McKinsey, Toshiba Tec leveraged NVIDIA’s GPU-accelerated, end to end suite to transform how retailers harness transaction data. The result? Faster, smarter insights at scale.
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - link "With gen AI, Merck and McKinsey transform clinical authoring" [ref=e210] [cursor=pointer]:
+              - /url: /about-us/new-at-mckinsey-blog/with-gen-ai-merck-and-mckinsey-transform-clinical-authoring
+              - img "Merck and McKinsey accelerate and improve clinical study documentation with gen AI" [ref=e212]
+            - generic [ref=e213]:
+              - generic [ref=e214]: Blog Post
+              - generic [ref=e215]:
+                - heading [level=5] [ref=e216]:
+                  - link "With gen AI, Merck and McKinsey transform clinical authoring" [ref=e217] [cursor=pointer]:
+                    - /url: /about-us/new-at-mckinsey-blog/with-gen-ai-merck-and-mckinsey-transform-clinical-authoring
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - time [ref=e223]: June 27, 2025
+                    - text: "-"
+                  - text: McKinsey has partnered with the pharmaceutical giant Merck to build a gen-AI application for authoring clinical-study documents.
+          - generic [ref=e224]:
+            - link "McKinsey helps pioneer an AI-native approach in dispute resolution" [ref=e226] [cursor=pointer]:
+              - /url: /about-us/new-at-mckinsey-blog/mckinsey-helps-pioneer-an-ai-native-approach-in-dispute-resolution
+              - img "marbles spiraling down circles" [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: Blog Post
+              - generic [ref=e231]:
+                - heading [level=5] [ref=e232]:
+                  - link "McKinsey helps pioneer an AI-native approach in dispute resolution" [ref=e233] [cursor=pointer]:
+                    - /url: /about-us/new-at-mckinsey-blog/mckinsey-helps-pioneer-an-ai-native-approach-in-dispute-resolution
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - time [ref=e239]: September 17, 2025
+                    - text: "-"
+                  - text: The American Arbitration Association–International Centre for Dispute Resolution (AAA-ICDR) announced the launch of its AI-native arbitrator, developed in collaboration with QuantumBlack, AI by McKinsey.
+          - generic [ref=e240]:
+            - link "McKinsey creates a new generation of NVIDIA-powered avatars" [ref=e242] [cursor=pointer]:
+              - /url: /about-us/new-at-mckinsey-blog/mckinsey-creates-a-new-generation-of-nvidia-powered-avatars
+              - img "McKinsey and NVIDIA create a new generation of avatars" [ref=e244]
+            - generic [ref=e245]:
+              - generic [ref=e246]: Blog Post
+              - generic [ref=e247]:
+                - heading [level=5] [ref=e248]:
+                  - link "McKinsey creates a new generation of NVIDIA-powered avatars" [ref=e249] [cursor=pointer]:
+                    - /url: /about-us/new-at-mckinsey-blog/mckinsey-creates-a-new-generation-of-nvidia-powered-avatars
+                - generic [ref=e253]:
+                  - generic [ref=e254]:
+                    - time [ref=e255]: March 19, 2025
+                    - text: "-"
+                  - text: Digital human avatars have enormous potential to provide a personalized level of interaction across industries.
+          - generic [ref=e256]:
+            - link "Empowering telecom employees with personalized AI-powered training and coaching tools" [ref=e258] [cursor=pointer]:
+              - /url: /industries/technology-media-and-telecommunications/how-we-help-clients/empowering-telecom-employees-with-personalized-ai-powered-training-and-coaching-tools
+              - img "A digital image showing a pair of 3D rendered headphones floating over a multicolored background" [ref=e260]
+            - generic [ref=e261]:
+              - generic [ref=e262]: Case Study
+              - generic [ref=e263]:
+                - heading [level=5] [ref=e264]:
+                  - link "Empowering telecom employees with personalized AI-powered training and coaching tools" [ref=e265] [cursor=pointer]:
+                    - /url: /industries/technology-media-and-telecommunications/how-we-help-clients/empowering-telecom-employees-with-personalized-ai-powered-training-and-coaching-tools
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - time [ref=e271]: April 21, 2025
+                    - text: "-"
+                  - text: Deutsche Telekom worked with McKinsey experts and QuantumBlack, AI by McKinsey, to build and launch a capability building engine to help upskill 8,000 agents working in the field and at call centers to better meet customer needs.
+        - generic [ref=e274]:
+          - heading "Our Leadership" [level=2] [ref=e276]
+          - generic [ref=e278]:
+            - generic [ref=e284]:
+              - heading [level=6] [ref=e285]:
+                - link "Dan Tinkoff" [ref=e286] [cursor=pointer]:
+                  - /url: /our-people/dan-tinkoff
+              - heading "Senior Partner, New Jersey" [level=6] [ref=e287]
+              - generic [ref=e289]: Global leader of QuantumBlack, AI by McKinsey; leverages in-depth industry knowledge and AI expertise to help life-science companies with strategy and business transformations
+              - generic [ref=e291]:
+                - link "Email" [ref=e292] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e293]: 
+                - link "LinkedIn" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/dan-tinkoff-b72b913/
+                  - generic [ref=e295]: 
+            - generic [ref=e301]:
+              - heading [level=6] [ref=e302]:
+                - link "Lieven Van der Veken" [ref=e303] [cursor=pointer]:
+                  - /url: /our-people/lieven-van-der-veken
+              - heading "Senior Partner, Lyon" [level=6] [ref=e304]
+              - generic [ref=e306]: Global leader of QuantumBlack, AI by McKinsey; draws on his extensive experience working around the world helping leading institutions in life sciences and beyond tackle challenges in strategy, growth, innovation, and change while leveraging the full power of data and analytics
+              - generic [ref=e308]:
+                - link "Email" [ref=e309] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e310]: 
+                - link "LinkedIn" [ref=e311] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/lieven-van-der-veken-379a9b
+                  - generic [ref=e312]: 
+          - link "See more people" [ref=e315] [cursor=pointer]:
+            - /url: /capabilities/quantumblack/our-people
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - heading "Our Insights" [level=2] [ref=e321]
+            - generic [ref=e323]: From machine learning operations and organizational change to ethical considerations and emerging use cases, our latest thinking on how organizations can most effectively and responsibly use AI to create business value.
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - 'link "The AI reckoning: How boards can evolve" [ref=e329] [cursor=pointer]':
+                - /url: /capabilities/mckinsey-technology/our-insights/the-ai-reckoning-how-boards-can-evolve
+                - img "Triangular prism refracting light beam" [ref=e331]
+              - generic [ref=e332]:
+                - generic [ref=e333]: Article
+                - generic [ref=e334]:
+                  - heading [level=5] [ref=e335]:
+                    - 'link "The AI reckoning: How boards can evolve" [ref=e336] [cursor=pointer]':
+                      - /url: /capabilities/mckinsey-technology/our-insights/the-ai-reckoning-how-boards-can-evolve
+                  - generic [ref=e340]:
+                    - generic [ref=e341]:
+                      - time [ref=e342]: December 4, 2025
+                      - text: "-"
+                    - text: How can boards best help guide companies through the competitive dynamics unleashed by AI?
+            - generic [ref=e343]:
+              - 'link "The state of AI in 2025: Agents, innovation, and transformation" [ref=e345] [cursor=pointer]':
+                - /url: /capabilities/quantumblack/our-insights/the-state-of-ai
+                - img "A network of vibrant threads, transitioning from blue to pink to golden yellow, sprouts over a lattice of crisscrossing branches and small white beads, all against a soft blue backdrop." [ref=e347]
+              - generic [ref=e348]:
+                - generic [ref=e349]: Survey
+                - generic [ref=e350]:
+                  - heading [level=5] [ref=e351]:
+                    - 'link "The state of AI in 2025: Agents, innovation, and transformation" [ref=e352] [cursor=pointer]':
+                      - /url: /capabilities/quantumblack/our-insights/the-state-of-ai
+                  - generic [ref=e356]:
+                    - generic [ref=e357]:
+                      - time [ref=e358]: November 5, 2025
+                      - text: "-"
+                    - text: Almost all survey respondents say their organizations are using AI, and many have begun to use AI agents. But most are still in the early stages of scaling AI and capturing enterprise-level value.
+            - generic [ref=e359]:
+              - 'link "The Big Rethink: An agenda for thriving in the agentic age" [ref=e361] [cursor=pointer]':
+                - /url: /capabilities/quantumblack/our-insights/the-big-rethink-an-agenda-for-thriving-in-the-agentic-age
+                - img "A futuristic digital representation of interconnected data cubes forming a human-like shape" [ref=e363]
+              - generic [ref=e364]:
+                - generic [ref=e365]: Article
+                - generic [ref=e366]:
+                  - heading [level=5] [ref=e367]:
+                    - 'link "The Big Rethink: An agenda for thriving in the agentic age" [ref=e368] [cursor=pointer]':
+                      - /url: /capabilities/quantumblack/our-insights/the-big-rethink-an-agenda-for-thriving-in-the-agentic-age
+                  - generic [ref=e372]:
+                    - generic [ref=e373]:
+                      - time [ref=e374]: October 14, 2025
+                      - text: "-"
+                    - text: CEOs need a new agenda to help them and their organizations navigate the key questions around AI, particularly agentic AI.
+            - generic [ref=e375]:
+              - 'link "The change agent: Goals, decisions, and implications for CEOs in the agentic age" [ref=e377] [cursor=pointer]':
+                - /url: /capabilities/quantumblack/our-insights/the-change-agent-goals-decisions-and-implications-for-ceos-in-the-agentic-age
+                - img "3D rendering of a brain with artificial intelligence machine learning language model projected onto it" [ref=e379]
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - text: Article
+                  - generic [ref=e382]: "- McKinsey Quarterly"
+                - generic [ref=e383]:
+                  - heading [level=5] [ref=e384]:
+                    - 'link "The change agent: Goals, decisions, and implications for CEOs in the agentic age" [ref=e385] [cursor=pointer]':
+                      - /url: /capabilities/quantumblack/our-insights/the-change-agent-goals-decisions-and-implications-for-ceos-in-the-agentic-age
+                  - generic [ref=e389]:
+                    - generic [ref=e390]:
+                      - time [ref=e391]: October 1, 2025
+                      - text: "-"
+                    - text: Companies are feeling agentic AI growing pains. Here’s what CEOs can do to move past them and position their companies to succeed.
+          - link "Read our insights" [ref=e394] [cursor=pointer]:
+            - /url: /capabilities/quantumblack/our-insights
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - heading "Featured Blogs" [level=2] [ref=e400]
+            - generic [ref=e402]: Read more about our AI-driven value-creation work on our Medium blog and the New at McKinsey blog.
+          - generic [ref=e405]:
+            - generic [ref=e406]:
+              - img "Framework-Centered Design" [ref=e409]
+              - generic [ref=e410]:
+                - generic [ref=e411]: QuantumBlack Medium blog post
+                - generic [ref=e412]:
+                  - heading "Evaluations for the agentic world" [level=5] [ref=e413]
+                  - generic [ref=e414]: Agentic AI brings new sources of uncertainty such as non-deterministic decision-making, multi-step actions across sensitive systems, tool failure modes, and hallucinations, which could all show up in workflows that matter. In regulated settings, questions like “How have you validated a non-deterministic system?” and “Can you guarantee that chained tools and multi-step logic will not do something surprising in a business-critical flow?” need to be answered. “We just tested it,” is not enough.
+                  - link "Link to external web site (Read post)" [ref=e417] [cursor=pointer]:
+                    - /url: https://medium.com/quantumblack/evaluations-for-the-agentic-world-c3c150f0dd5a
+                    - generic [ref=e418]: 
+                    - generic [ref=e419]: Read post
+            - generic [ref=e420]:
+              - 'link "A decade of innovation: Celebrating ten years of QuantumBlack, AI by McKinsey" [ref=e422] [cursor=pointer]':
+                - /url: /about-us/new-at-mckinsey-blog/a-decade-of-innovation-celebrating-ten-years-of-quantumblack-ai-by-mckinsey
+                - img "QuantumBlack, AI by McKinsey logo" [ref=e424]
+              - generic [ref=e425]:
+                - generic [ref=e426]: Blog Post
+                - generic [ref=e427]:
+                  - heading [level=5] [ref=e428]:
+                    - 'link "A decade of innovation: Celebrating ten years of QuantumBlack, AI by McKinsey" [ref=e429] [cursor=pointer]':
+                      - /url: /about-us/new-at-mckinsey-blog/a-decade-of-innovation-celebrating-ten-years-of-quantumblack-ai-by-mckinsey
+                  - generic [ref=e433]:
+                    - generic [ref=e434]:
+                      - time [ref=e435]: December 17, 2025
+                      - text: "-"
+                    - text: Since joining McKinsey in 2015, QuantumBlack has grown from a 45-person start-up to our firm’s global AI and engineering powerhouse—advancing open-source tools, pioneering AI agents, and transforming how organizations and the firm create value with technology at the center.
+        - generic [ref=e439]:
+          - heading "Connect with QuantumBlack" [level=2] [ref=e444]
+          - link "Contact us" [ref=e449] [cursor=pointer]:
+            - /url: /capabilities/quantumblack/contact-us
+          - generic [ref=e451]:
+            - heading [level=4]
+            - generic [ref=e453]:
+              - link " LinkedIn" [ref=e454] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/quantumblack/
+                - generic [ref=e455]: 
+                - generic [ref=e456]: LinkedIn
+              - link " Medium" [ref=e457] [cursor=pointer]:
+                - /url: https://quantumblack.medium.com/
+                - generic [ref=e458]: 
+                - generic [ref=e459]: Medium
+        - generic [ref=e462]:
+          - heading "Downloads and statements" [level=2] [ref=e464]
+          - generic [ref=e469]:
+            - heading "Modern Slavery Act" [level=3] [ref=e470]
+            - link " Modern Slavery Act Statement 2026" [ref=e472] [cursor=pointer]:
+              - /url: https://www.mckinsey.com/~/media/mckinsey/locations/europe%20and%20middle%20east/united%20kingdom/overview/modern-slavery-statement_may-2026.pdf
+              - generic [ref=e473]: 
+              - generic [ref=e474]: Modern Slavery Act Statement 2026
+    - contentinfo [ref=e478]
+    - log [ref=e479]
+  - generic:
+    - dialog [active] [ref=e481]:
+      - dialog "Privacy" [ref=e482]:
+        - generic [ref=e483]:
+          - generic [ref=e485]:
+            - text: McKinsey & Company, Inc. uses first- and third-party cookies to better understand how visitors use our site, to collect and analyze information on site performance and usage, and for cross-context behavioral advertising and targeted advertising purposes.
+            - link "Cookie Notice" [ref=e486] [cursor=pointer]:
+              - /url: https://www.mckinsey.com/cookie-policy
+            - text: Please see our
+            - link "Privacy Notice" [ref=e487] [cursor=pointer]:
+              - /url: https://www.mckinsey.com/privacy-policy
+            - text: for more information.
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - button "Accept All Cookies" [ref=e491] [cursor=pointer]
+              - button "Decline optional cookies" [ref=e492] [cursor=pointer]
+            - button "Manage my preferences, Opens the preference center dialog" [ref=e493] [cursor=pointer]: Manage my preferences
+    - text:   Back
+  - alert [ref=e494]

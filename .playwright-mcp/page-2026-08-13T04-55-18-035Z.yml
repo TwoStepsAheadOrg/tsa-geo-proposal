@@ -1,0 +1,34 @@
+- generic [active] [ref=f64e1]:
+  - banner [ref=f64e3]:
+    - generic [ref=f64e4]:
+      - link "Go to Ads Transparency Center home page." [ref=f64e8] [cursor=pointer]:
+        - /url: https://adstransparency.google.com/
+        - generic [ref=f64e10]: 광고 투명성 센터
+      - generic [ref=f64e12]:
+        - button "Google 앱" [ref=f64e16] [cursor=pointer]
+        - link "로그인" [ref=f64e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adstransparency.google.com/advertiser/AR09306294506582179841/creative/CR07325387170837954561?region%3Danywhere&followup=https://adstransparency.google.com/advertiser/AR09306294506582179841/creative/CR07325387170837954561?region%3Danywhere&ec=GAZAsQQ
+  - generic [ref=f64e24]:
+    - generic [ref=f64e25]:
+      - button "홈" [ref=f64e27] [cursor=pointer]
+      - button "FAQ" [ref=f64e32] [cursor=pointer]
+    - contentinfo [ref=f64e43]:
+      - generic [ref=f64e44]:
+        - button "개인 정보 보호" [ref=f64e46] [cursor=pointer]
+        - generic [ref=f64e47]:
+          - text: •
+          - button "약관" [ref=f64e48] [cursor=pointer]
+        - generic [ref=f64e49]:
+          - text: •
+          - button "Google Ads 정책" [ref=f64e50] [cursor=pointer]
+        - generic [ref=f64e51]:
+          - text: •
+          - link "FAQ" [ref=f64e52] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=f64e53]:
+        - generic [ref=f64e54]:
+          - text: •
+          - button "원칙" [ref=f64e55] [cursor=pointer]
+        - generic [ref=f64e56]:
+          - text: •
+          - button "Google Ads 블로그" [ref=f64e57] [cursor=pointer]

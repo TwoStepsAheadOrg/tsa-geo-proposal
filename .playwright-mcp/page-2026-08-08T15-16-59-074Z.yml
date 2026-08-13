@@ -1,0 +1,340 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - generic [ref=f15e5]:
+        - generic [ref=f15e6] [cursor=pointer]: 위시켓
+        - generic [ref=f15e10] [cursor=pointer]: 요즘IT
+        - generic [ref=f15e14] [cursor=pointer]: AIDP - AX
+        - generic [ref=f15e18] [cursor=pointer]: Rise ERP
+      - generic [ref=f15e21]:
+        - link:
+          - /url: /
+        - generic [ref=f15e24]:
+          - link [ref=f15e25] [cursor=pointer]:
+            - /url: /project/#clear
+          - link "파트너스 찾기" [ref=f15e29] [cursor=pointer]:
+            - /url: /partners/#clear
+          - link [ref=f15e31] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link [ref=f15e35] [cursor=pointer]:
+            - /url: /partners/wishket-portfolio/
+          - link [ref=f15e40] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+        - generic [ref=f15e45]:
+          - link "내 프로필" [ref=f15e46] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+          - generic [ref=f15e49]: 내 프로젝트 관리
+          - link [ref=f15e54] [cursor=pointer]:
+            - /url: /accounts/notifications/
+          - img "twostepsahead사진" [ref=f15e58] [cursor=pointer]
+      - generic [ref=f15e59]:
+        - generic [ref=f15e60]:
+          - generic [ref=f15e62]:
+            - link "프로젝트 찾기" [ref=f15e63] [cursor=pointer]:
+              - /url: /project/#clear
+            - link "유사사례 검색 AI" [ref=f15e64] [cursor=pointer]:
+              - /url: /project/similar-case-search/
+          - generic [ref=f15e66]:
+            - link "이용방법" [ref=f15e67] [cursor=pointer]:
+              - /url: /customer-support/client/use-guide
+            - link "파트너 등급" [ref=f15e68] [cursor=pointer]:
+              - /url: /customer-support/partner/grade/
+            - link "이용요금" [ref=f15e69] [cursor=pointer]:
+              - /url: /customer-support/price/
+            - link "고객센터" [ref=f15e70] [cursor=pointer]:
+              - /url: /customer-support/client/
+          - generic [ref=f15e71]:
+            - link "포트폴리오" [ref=f15e72] [cursor=pointer]:
+              - /url: /partners/wishket-portfolio/
+            - link "이용후기" [ref=f15e73] [cursor=pointer]:
+              - /url: /postscript/
+          - generic [ref=f15e74]:
+            - link "솔루션 마켓" [ref=f15e75] [cursor=pointer]:
+              - /url: /store/wishket-packages/
+            - link "스토어" [ref=f15e76] [cursor=pointer]:
+              - /url: /store/
+        - generic [ref=f15e77]:
+          - generic [ref=f15e78]: 프로필을 완성하고
+          - generic [ref=f15e79]: 더 많은 프로젝트를수주받아보세요
+          - link "내 프로필 입력하기" [ref=f15e80] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+          - img "광고 배너" [ref=f15e83]
+  - generic [ref=f15e86]:
+    - generic [ref=f15e87]:
+      - generic [ref=f15e88]:
+        - generic [ref=f15e89]:
+          - generic [ref=f15e90]: 플러스
+          - generic [ref=f15e92]:
+            - generic [ref=f15e93]: 한솔엠에스(Hansol MS) — 전기차 충전소 통합 관제·운영 SaaS 플랫폼 개발·운영
+            - button "URL 복사" [ref=f15e94] [cursor=pointer]
+          - generic [ref=f15e96]: 개발웹데이터 분석ㆍBI, Gen AI 서비스
+        - navigation [ref=f15e102]:
+          - list [ref=f15e103]:
+            - listitem [ref=f15e104]:
+              - generic [ref=f15e105] [cursor=pointer]: 배경
+            - listitem [ref=f15e106]:
+              - generic [ref=f15e107] [cursor=pointer]: 성과
+            - listitem [ref=f15e108]:
+              - generic [ref=f15e109] [cursor=pointer]: 핵심 기능
+            - listitem [ref=f15e110]:
+              - generic [ref=f15e111] [cursor=pointer]: 진행 단계
+            - listitem [ref=f15e112]:
+              - generic [ref=f15e113] [cursor=pointer]: 프로젝트 상세
+        - generic [ref=f15e116]:
+          - generic [ref=f15e117]:
+            - generic [ref=f15e118]: 프로젝트 배경
+            - generic [ref=f15e119]: 1) 문제점 (충전 사업자의 과제)- 제조사마다 관리 인터페이스가 달라 충전기 통합 관리·원격 제어가 어렵고, 상태를 실시간으로 파악하지 못해 현장 방문이 잦았습니다.- 결제(PG·VAN·RF)와 로밍 정산을 개별 연동·수작업으로 처리해 미수금·정산 부담이 컸습니다.- 환경부 규제(KECO 연동, OCPP 2.0.1 전환) 대응과 24시간 고객 응대 인력 확보가 부담이었습니다.2) 목표- 설치→운영→정산→유지보수 전 주기를 하나로 묶은 올인원 충전 관제·운영 플랫폼 구축.- 자체 구축(12~24개월·5억+) 없이 신규 사업자도 2주 내 운영을 시작하는 구독형 SaaS 제공.3) 주안점- 실운영 환경에서 검증된 플랫폼을 멀티테넌트 SaaS로 설계해 빠른 온보딩과 안정 운영을 동시에 확보.- OCPP 1.6J↔2.0.1 이중 운영으로 규제 변화에 대비하고, 로밍 정산을 완전 자동화.
+          - generic [ref=f15e120]:
+            - generic [ref=f15e121]: 프로젝트 성과
+            - generic [ref=f15e122]:
+              - generic [ref=f15e126]:
+                - generic [ref=f15e127]: 전국 충전소 실시간 관제 운영
+                - generic [ref=f15e128]: 전국 충전소·충전기를 SSE 기반으로 실시간 모니터링·원격 제어하는 관제 시스템을 구축·운영 중입니다.
+              - generic [ref=f15e132]:
+                - generic [ref=f15e133]: 도입 2주·초기비용 대폭 절감
+                - generic [ref=f15e134]: 자체 구축(개발 12~24개월·초기 5억+) 대비 도입을 2주로 단축하고 초기 비용을 구독형으로 대폭 절감했습니다.
+              - generic [ref=f15e138]:
+                - generic [ref=f15e139]: 로밍 정산 100% 자동화
+                - generic [ref=f15e140]: KECO/ME/서울시 로밍 결제·정산을 완전 자동화해 수작업 정산을 제거했습니다.
+          - generic [ref=f15e141]:
+            - generic [ref=f15e142]: 핵심 기능
+            - generic [ref=f15e143]:
+              - generic [ref=f15e144]:
+                - generic [ref=f15e147]: 실시간 충전 모니터링 & OCPP 원격 제어
+                - generic [ref=f15e148]: SSE 실시간 대시보드로 충전기 상태를 즉시 반영하고, 원격 시작/정지·리셋·펌웨어 OTA·일괄 작업을 OCPP 명령으로 수행합니다.
+              - generic [ref=f15e149]:
+                - generic [ref=f15e152]: 통합 결제 & 로밍 정산 자동화
+                - generic [ref=f15e153]: NicePay·RF·선불·포인트 결제와 KECO/ME/서울시 로밍을 연동하고 로밍 정산을 100% 자동화했습니다.
+              - generic [ref=f15e154]:
+                - generic [ref=f15e157]: 24시간 AI 고객 상담(Claude Tool Use)
+                - generic [ref=f15e158]: 충전 이력·충전기 상태·주변 충전소를 자동 조회해 답하는 24시간 AI 상담(SELECT 전용·Rate Limit)을 구현했습니다.
+              - generic [ref=f15e159]:
+                - generic [ref=f15e162]: 87개 화면 관리자 웹 + RBAC
+                - generic [ref=f15e163]: 회원·충전소·매출·정산·현장 등 20여 개 모듈 87개 화면을 역할 기반 접근제어(RBAC)로 제공합니다.
+          - generic [ref=f15e164]:
+            - generic [ref=f15e165]: 진행 단계
+            - generic [ref=f15e166]:
+              - generic [ref=f15e171]:
+                - generic [ref=f15e172]: 요구 분석·멀티테넌트 SaaS 아키텍처 설계
+                - generic [ref=f15e173]: "2026.03"
+                - generic [ref=f15e174]: 충전 사업 전 주기를 커버하는 멀티테넌트 SaaS 구조와 OCPP·결제·로밍 연동 방식을 설계했습니다.
+              - generic [ref=f15e179]:
+                - generic [ref=f15e180]: OCPP 게이트웨이·43개 서버 모듈 개발
+                - generic [ref=f15e181]: "2026.04"
+                - generic [ref=f15e182]: NestJS로 43개 서버 모듈과 WebSocket 기반 OCPP 게이트웨이(1.6J+2.0.1 이중)를 개발했습니다.
+              - generic [ref=f15e187]:
+                - generic [ref=f15e188]: 관리자 웹 87화면·모바일/현장 앱 개발
+                - generic [ref=f15e189]: "2026.05"
+                - generic [ref=f15e190]: React 19 관리자 웹 87개 화면과 React Native 모바일·현장 관리 앱을 개발했습니다.
+              - generic [ref=f15e194]:
+                - generic [ref=f15e195]: 결제·로밍 정산·AI 상담 연동
+                - generic [ref=f15e196]: "2026.06"
+                - generic [ref=f15e197]: NicePay 결제·로밍 정산 자동화와 Claude Tool Use 기반 24시간 AI 상담을 연동했습니다.
+          - generic [ref=f15e198]:
+            - generic [ref=f15e199]: 프로젝트 상세
+            - generic [ref=f15e200]: "1) 프로젝트 소개: 전기차 충전 사업자 한솔엠에스를 위해, 충전기 설치→운영→결제·정산→유지보수 전 주기를 하나로 묶은 전기차 충전소 통합 관제·운영 SaaS 플랫폼을 기획·개발·운영했습니다. 전국 충전소를 실시간 모니터링·원격 제어하는 관제 대시보드를 중심으로 회원·충전소·매출·정산·현장 업무까지 한 곳에서 운영합니다.2) 작업 범위: 서비스 기획부터 아키텍처 설계, 백엔드·프론트엔드·모바일 개발, OCPP 충전 프로토콜 연동, 결제·로밍 정산, AI 상담, 운영까지 전 과정 자체 수행.- 관리자 웹(React 19, 87개 화면·20여 개 운영 모듈) + 모바일 앱(React Native) + 현장 관리 앱(GPS·사진) + 24시간 AI 상담(Claude Tool Use)- API Gateway(NestJS, 43개 서버 모듈) · OCPP Gateway(WebSocket, 1.6J + 2.0.1 이중 운영) · MySQL Multi-AZ(멀티테넌트 격리)3) 핵심 기능- 실시간 충전 모니터링 & OCPP 원격 제어(SSE 실시간 갱신 — 원격 시작/정지·리셋·펌웨어 OTA·진단·일괄 작업)- 통합 결제 & 로밍 정산 자동화(NicePay·RF카드·선불·포인트, KECO/ME/서울시 로밍 100% 자동 정산, 비회원 QR 충전)- 회원·충전소·충전기·매출·오더·포인트·단가·계약·현장 업무를 아우르는 운영 관리 모듈 + 역할 기반 접근제어(RBAC)- Claude Tool Use 기반 24시간 AI 고객 상담 + 친환경 에너지 연계(태양광·ESS·V2G·VPP)4) 주안점·성과- 자체 구축(개발 12~24개월·초기 5억+) 대비 2주 내 운영 시작·초기 비용을 대폭 절감하는 구독형 SaaS로 제공- 환경부 의무화(OCPP 2.0.1) 대비 1.6↔2.0.1 이중 운영 및 ISO 15118 Plug&Charge 지원- 로밍 정산 완전 자동화로 수작업 제거, AI 상담으로 24시간 고객 응대 부담 절감"
+        - generic [ref=f15e206]:
+          - generic [ref=f15e207]:
+            - text: 파트너의 전체 포트폴리오
+            - generic [ref=f15e208]: 3/3
+          - generic [ref=f15e209]:
+            - link "플러스 어센트코리아 — 엔터프라이즈 GEO 데이터 공급 및 글로벌 대기업 계열 신제품 AI 검색 검증" [ref=f15e210] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305722
+              - generic [ref=f15e211]:
+                - generic [ref=f15e212]: 플러스
+                - generic [ref=f15e218]: 어센트코리아 — 엔터프라이즈 GEO 데이터 공급 및 글로벌 대기업 계열 신제품 AI 검색 검증
+            - link "플러스 한솔엠에스(Hansol MS) — 전기차 충전소 통합 관제·운영 SaaS 플랫폼 개발·운영" [ref=f15e219] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305721
+              - generic [ref=f15e220]:
+                - generic [ref=f15e221]: 플러스
+                - generic [ref=f15e227]: 한솔엠에스(Hansol MS) — 전기차 충전소 통합 관제·운영 SaaS 플랫폼 개발·운영
+            - link "플러스 툰에이전트(ToonAgent) — AI 기반 브랜드툰 생성·자동화 파이프라인 SaaS 구축 (그림체·캐릭터 일관성·숏폼 변환)" [ref=f15e228] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305720
+              - generic [ref=f15e229]:
+                - generic [ref=f15e230]: 플러스
+                - generic [ref=f15e236]: 툰에이전트(ToonAgent) — AI 기반 브랜드툰 생성·자동화 파이프라인 SaaS 구축 (그림체·캐릭터 일관성·숏폼 변환)
+            - link "플러스 레비타로(Levitaro) — AI 사주·타로 운세 & 캐릭터 대화 모바일 앱" [ref=f15e237] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305719
+              - generic [ref=f15e238]:
+                - generic [ref=f15e239]: 플러스
+                - generic [ref=f15e245]: 레비타로(Levitaro) — AI 사주·타로 운세 & 캐릭터 대화 모바일 앱
+            - paragraph
+        - generic [ref=f15e250]:
+          - generic [ref=f15e251]:
+            - text: 파트너의 유사한 포트폴리오
+            - generic [ref=f15e252]: 1/3
+          - generic [ref=f15e253]:
+            - link "플러스 더블유디자인호텔(W Design Hotel) — 오프라인 호텔의 디지털 전환·온라인 예약 시스템 개발 (야놀자 인수)" [ref=f15e254] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/306484
+              - generic [ref=f15e255]:
+                - generic [ref=f15e256]: 플러스
+                - generic [ref=f15e262]: 더블유디자인호텔(W Design Hotel) — 오프라인 호텔의 디지털 전환·온라인 예약 시스템 개발 (야놀자 인수)
+            - link "플러스 한인텔(HanIntel) — 해외 한국인 여행자용 글로벌 홈스테이 숙박 예약 플랫폼 개발·운영" [ref=f15e263] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/306466
+              - generic [ref=f15e264]:
+                - generic [ref=f15e265]: 플러스
+                - generic [ref=f15e271]: 한인텔(HanIntel) — 해외 한국인 여행자용 글로벌 홈스테이 숙박 예약 플랫폼 개발·운영
+            - link "플러스 토쿠야마 상사 — 일본 시장 한국식품 이커머스 쇼핑몰 구축 (Panga)" [ref=f15e272] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305734
+              - generic [ref=f15e273]:
+                - generic [ref=f15e274]: 플러스
+                - generic [ref=f15e280]: 토쿠야마 상사 — 일본 시장 한국식품 이커머스 쇼핑몰 구축 (Panga)
+            - link "플러스 Kozy.care(프랑스) — 유럽 웰니스 브랜드 AI 검색 가시성(GEO) PoC" [ref=f15e281] [cursor=pointer]:
+              - /url: /partners/p/twostepsahead/portfolio/305733
+              - generic [ref=f15e282]:
+                - generic [ref=f15e283]: 플러스
+                - generic [ref=f15e289]: Kozy.care(프랑스) — 유럽 웰니스 브랜드 AI 검색 가시성(GEO) PoC
+            - paragraph
+      - generic [ref=f15e293]:
+        - generic [ref=f15e296]:
+          - link "twostepsahead" [ref=f15e297] [cursor=pointer]:
+            - /url: /partners/p/twostepsahead/
+          - generic [ref=f15e299]: 개발 · 법인사업자
+        - generic [ref=f15e300]:
+          - generic [ref=f15e301]:
+            - generic [ref=f15e302]: 참여 기간
+            - generic [ref=f15e303]: 2026.03. ~ 2026.07.
+          - generic [ref=f15e304]:
+            - generic [ref=f15e305]: 참여율
+            - generic [ref=f15e309]: 100%
+          - generic [ref=f15e310]:
+            - generic [ref=f15e311]: 고객사
+            - generic [ref=f15e312]: 한솔엠에스 (전기차 충전 사업자)
+          - generic [ref=f15e313]:
+            - generic [ref=f15e314]: 역할
+            - generic [ref=f15e315]: GEO 전략·데이터 분석·실행 총괄
+          - generic [ref=f15e316]:
+            - generic [ref=f15e317]: 관련 기술
+            - generic [ref=f15e318]:
+              - generic [ref=f15e319]: AWS
+              - generic [ref=f15e320]: Python
+          - link [ref=f15e321] [cursor=pointer]:
+            - /url: https://www.plurank.com
+        - generic [ref=f15e324]:
+          - button "삭제" [ref=f15e325] [cursor=pointer]
+          - button "수정" [ref=f15e326] [cursor=pointer]
+    - paragraph
+  - contentinfo [ref=f15e327]:
+    - generic [ref=f15e328]:
+      - generic [ref=f15e329]:
+        - generic [ref=f15e330]:
+          - generic [ref=f15e331]: 서비스 전체보기
+          - link "위시켓" [ref=f15e332] [cursor=pointer]:
+            - /url: https://www.wishket.com/
+          - link "요즘IT" [ref=f15e334] [cursor=pointer]:
+            - /url: /magazine/
+          - link "AIDP - AX" [ref=f15e336] [cursor=pointer]:
+            - /url: https://ax.ai-delivery.work/
+          - link "Rise ERP" [ref=f15e338] [cursor=pointer]:
+            - /url: https://rise.ai-delivery.work/
+        - generic [ref=f15e340]:
+          - link [ref=f15e341] [cursor=pointer]:
+            - /url: https://www.facebook.com/wishket
+          - link [ref=f15e343] [cursor=pointer]:
+            - /url: https://blog.wishket.com/
+          - link [ref=f15e345] [cursor=pointer]:
+            - /url: https://blog.naver.com/wishket/
+      - generic [ref=f15e347]:
+        - generic [ref=f15e348]:
+          - paragraph [ref=f15e349]: 고객 문의
+          - link "02-6925-4849" [ref=f15e351] [cursor=pointer]:
+            - /url: tel:02-6925-4849
+          - generic [ref=f15e352]:
+            - generic [ref=f15e353]: 10:00-18:00
+            - generic [ref=f15e354]: 주말·공휴일 제외
+            - link "help@wishket.com" [ref=f15e355] [cursor=pointer]:
+              - /url: mailto:help@wishket.com
+        - generic [ref=f15e356]:
+          - paragraph [ref=f15e357]: 위시켓
+          - link "위시켓 소개" [ref=f15e358] [cursor=pointer]:
+            - /url: /company-intro/
+          - link "신뢰와 안전" [ref=f15e359] [cursor=pointer]:
+            - /url: /trust-safety/
+        - generic [ref=f15e360]:
+          - paragraph [ref=f15e361]: 이용방법
+          - link "클라이언트 이용방법" [ref=f15e362] [cursor=pointer]:
+            - /url: /customer-support/client/use-guide
+          - link "파트너스 이용방법" [ref=f15e363] [cursor=pointer]:
+            - /url: /customer-support/partner/use-guide
+          - link "파트너 등급" [ref=f15e364] [cursor=pointer]:
+            - /url: /customer-support/partner/grade/
+          - link "이용요금" [ref=f15e365] [cursor=pointer]:
+            - /url: /customer-support/price/
+        - generic [ref=f15e366]:
+          - paragraph [ref=f15e367]: 고객센터
+          - link "클라이언트 고객센터" [ref=f15e368] [cursor=pointer]:
+            - /url: /customer-support/client/
+          - link "파트너스 고객센터" [ref=f15e369] [cursor=pointer]:
+            - /url: /customer-support/partner/
+        - generic [ref=f15e370]:
+          - link "뉴스센터" [ref=f15e371] [cursor=pointer]:
+            - /url: /news-center/all/
+          - link "위시켓 스토어" [ref=f15e372] [cursor=pointer]:
+            - /url: /store/
+          - link "솔루션 마켓" [ref=f15e373] [cursor=pointer]:
+            - /url: /store/wishket-packages/
+          - link "통합빌링 서비스" [ref=f15e374] [cursor=pointer]:
+            - /url: /unity_bill/
+      - generic [ref=f15e375]:
+        - link "이용약관" [ref=f15e376] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/service
+        - link "개인정보 처리방침" [ref=f15e378] [cursor=pointer]:
+          - /url: https://auth.wishket.com/terms/privacy
+      - generic [ref=f15e379]:
+        - generic [ref=f15e380]:
+          - generic [ref=f15e381]: ㈜위시켓
+          - generic [ref=f15e383]: "대표이사 : 박우범"
+          - generic [ref=f15e385]: 서울특별시 강남구 테헤란로 211 한국고등교육재단빌딩 3층 ㈜위시켓
+        - generic [ref=f15e386]:
+          - generic [ref=f15e387]: "사업자등록번호 : 209-81-57303"
+          - generic [ref=f15e389]: "통신판매업신고 : 제2018-서울강남-02337 호"
+          - generic [ref=f15e391]: "직업정보제공사업 신고번호 : J1200020180019"
+        - generic [ref=f15e392]: © 2013 Wishket Corp.
+  - generic [ref=f15e393]:
+    - navigation [ref=f15e394]:
+      - generic [ref=f15e395]: 2026년 08월
+    - generic [ref=f15e410]:
+      - generic [ref=f15e411]:
+        - generic [ref=f15e412]: 일
+        - generic [ref=f15e413]: 월
+        - generic [ref=f15e414]: 화
+        - generic [ref=f15e415]: 수
+        - generic [ref=f15e416]: 목
+        - generic [ref=f15e417]: 금
+        - generic [ref=f15e418]: 토
+      - generic [ref=f15e419]:
+        - generic [ref=f15e426]: "1"
+        - generic [ref=f15e427]: "2"
+        - generic [ref=f15e428]: "3"
+        - generic [ref=f15e429]: "4"
+        - generic [ref=f15e430]: "5"
+        - generic [ref=f15e431]: "6"
+        - generic [ref=f15e432]: "7"
+        - generic [ref=f15e433]: "8"
+        - generic [ref=f15e434] [cursor=pointer]: "9"
+        - generic [ref=f15e435] [cursor=pointer]: "10"
+        - generic [ref=f15e436] [cursor=pointer]: "11"
+        - generic [ref=f15e437] [cursor=pointer]: "12"
+        - generic [ref=f15e438] [cursor=pointer]: "13"
+        - generic [ref=f15e439] [cursor=pointer]: "14"
+        - generic [ref=f15e440] [cursor=pointer]: "15"
+        - generic [ref=f15e441] [cursor=pointer]: "16"
+        - generic [ref=f15e442] [cursor=pointer]: "17"
+        - generic [ref=f15e443] [cursor=pointer]: "18"
+        - generic [ref=f15e444] [cursor=pointer]: "19"
+        - generic [ref=f15e445] [cursor=pointer]: "20"
+        - generic [ref=f15e446] [cursor=pointer]: "21"
+        - generic [ref=f15e447] [cursor=pointer]: "22"
+        - generic [ref=f15e448] [cursor=pointer]: "23"
+        - generic [ref=f15e449] [cursor=pointer]: "24"
+        - generic [ref=f15e450] [cursor=pointer]: "25"
+        - generic [ref=f15e451] [cursor=pointer]: "26"
+        - generic [ref=f15e452] [cursor=pointer]: "27"
+        - generic [ref=f15e453] [cursor=pointer]: "28"
+        - generic [ref=f15e454] [cursor=pointer]: "29"
+        - generic [ref=f15e455] [cursor=pointer]: "30"
+        - generic [ref=f15e456] [cursor=pointer]: "31"
+  - button "위시켓(wishket) 상담 버튼 , there are unread messages" [ref=f15e463]:
+    - generic [ref=f15e464] [cursor=pointer]:
+      - generic [ref=f15e465]: 위시켓(wishket) 상담 버튼
+      - status ", there are unread messages" [ref=f15e469]

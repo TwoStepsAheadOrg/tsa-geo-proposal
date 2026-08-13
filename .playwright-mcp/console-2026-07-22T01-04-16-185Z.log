@@ -1,0 +1,21 @@
+[     501ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://poomang.com/_next/static/chunks/pages/_app-b847d67cf7dc7140.js:30
+[     507ms] [LOG] weekTests [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://poomang.com/_next/static/chunks/pages/index-0c2f1504cc2988f3.js:0
+[     552ms] [LOG] weekTests [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://poomang.com/_next/static/chunks/pages/index-0c2f1504cc2988f3.js:0
+[     775ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://poomang.com/api/me:0
+[     779ms] [LOG] weekTests [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://poomang.com/_next/static/chunks/pages/index-0c2f1504cc2988f3.js:0
+[    1660ms] [WARNING] [Meta Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '
+               {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "너만의 우주, 심리테스트 플랫폼 푸망",
+              "url": "http://poomang.com/",
+              "sameAs": [
+              "https://www.instagram.com/poomang_official",
+              "https://twitter.com/poomangofficial",
+              ]
+              }
+              '. @ https://connect.facebook.net/en_US/fbevents.js:187
+[    2557ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://cksync.yahoo.co.jp/sspsync?ptr=12703&google_gid=CAESEBhUVwjGnKrLd2b9XhyDrdY&google_cver=1&google_push=AXcoOmSFYoeaFr2KaWNc0TZClcAtAQITa8moulH4oByv25RMdORiqrPfvuawO68d4_WP64A2vFQ1k6Qk1Ppu2IgwBrRB5p56d1FL4QA:0
+[    2564ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://poomang.com/:0
+[    2557ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://cksync.yahoo.co.jp/sspsync?ptr=12703&google_gid=CAESEBhUVwjGnKrLd2b9XhyDrdY&google_cver=1&google_push=AXcoOmSFYoeaFr2KaWNc0TZClcAtAQITa8moulH4oByv25RMdORiqrPfvuawO68d4_WP64A2vFQ1k6Qk1Ppu2IgwBrRB5p56d1FL4QA:0
+[    6821ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
