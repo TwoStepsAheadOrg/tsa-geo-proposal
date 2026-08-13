@@ -1,148 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- ============================================================
-       HOME (3개 언어 · 클린 URL = canonical, 200)
-       ============================================================ -->
-
-  <!-- 한국어 (정식 / canonical) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.plurank.com/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
   </url>
-
-  <!-- English -->
   <url>
-    <loc>https://www.plurank.com/en</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
-  </url>
-
-  <!-- 日本語 -->
-  <url>
-    <loc>https://www.plurank.com/ja</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/"/>
-  </url>
-
-  <!-- ============================================================
-       채용 (careers · 한국어 전용)
-       ============================================================ -->
-  <url>
-    <loc>https://www.plurank.com/hr</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.plurank.com/pricing</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- ============================================================
-       CONTENT SERVICES
-       ============================================================ -->
   <url>
-    <loc>https://www.plurank.com/content/insta-toon</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.plurank.com/en</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.plurank.com/content/youtube-shorts</loc>
-    <lastmod>2026-06-11</lastmod>
+    <loc>https://www.plurank.com/ja</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/chatgpt-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/naver-ai-briefing-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/perplexity-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/gemini-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/claude-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/tracker/google-ai-overview-tracker</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/blog</loc>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.plurank.com/hr</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.plurank.com/privacy</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- ============================================================
-       BLOG INDEX
-       ============================================================ -->
-
-  <url>
-    <loc>https://www.plurank.com/blog/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/"/>
-  </url>
-  <url>
-    <loc>https://www.plurank.com/blog/en</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/"/>
-  </url>
-  <url>
-    <loc>https://www.plurank.com/blog/ja</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/"/>
-  </url>
-
-  <!-- ============================================================
-       BLOG POSTS
-       ============================================================ -->
-
-  <!-- 해외 관광객은 같은 키워드도 다르게 검색합니다 -->
-  <url>
-    <loc>https://www.plurank.com/blog/global-tourists-search-differently/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/global-tourists-search-differently/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/global-tourists-search-differently/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
+    <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://www.plurank.com/blog/global-tourists-search-differently/en</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/global-tourists-search-differently/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/global-tourists-search-differently/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
-  </url>
-  <url>
-    <loc>https://www.plurank.com/blog/global-tourists-search-differently/ja</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.plurank.com/blog/global-tourists-search-differently/en"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.plurank.com/blog/global-tourists-search-differently/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.plurank.com/blog/global-tourists-search-differently/"/>
-  </url>
-
 </urlset>
