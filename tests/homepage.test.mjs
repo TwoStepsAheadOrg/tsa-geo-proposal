@@ -76,6 +76,17 @@ test('고객사는 기공개 실명만 노출한다', () => {
   }
 });
 
+test('본점 주소는 마포구 양화로 186이다 (소스 재빌드로 옛 주소가 되살아나지 않게)', () => {
+  for (const [name, doc] of Object.entries({ index: html, pricing, ...trackers })) {
+    assert.match(doc, /마포구 양화로 186/, `${name}: 새 주소 누락`);
+  }
+  for (const [name, doc] of Object.entries({ index: html, en, ja, pricing, ...trackers })) {
+    for (const old of ['압구정로', 'Apgujeong', '狎鴎亭']) {
+      assert.equal(doc.includes(old), false, `${name}: 옛 주소 잔존(${old})`);
+    }
+  }
+});
+
 test('법인 정보와 통신판매업신고가 푸터에 있다', () => {
   assert.match(html, /주식회사 투스텝스어헤드/);
   assert.match(html, /319-87-03770/);
@@ -108,16 +119,29 @@ test('언어별 canonical이 자기 URL이다', () => {
 });
 
 // ── 요금제 ──────────────────────────────────────────
-test('요금제 페이지에 4개 티어와 금액이 있다', () => {
-  for (const t of ['무료 진단', '스타터', '그로스', '엔터프라이즈']) {
+test('요금제 페이지에 모니터 티어와 금액이 있다', () => {
+  for (const t of ['무료 진단', '스타터', '그로스', '스케일', '엔터프라이즈']) {
     assert.match(pricing, new RegExp(t), `티어 누락: ${t}`);
   }
   assert.match(pricing, /49만원/);
   assert.match(pricing, /129만원/);
+  assert.match(pricing, /300만원/);
+});
+
+test('요금제 v3: GEO 패키지 3종과 단품표가 있다', () => {
+  for (const [name, price] of [['GEO 베이직', '149만원'], ['GEO 플러스', '349만원'], ['GEO 글로벌', '700만원~']]) {
+    assert.match(pricing, new RegExp(name), `패키지 누락: ${name}`);
+    assert.match(pricing, new RegExp(price), `금액 누락: ${price}`);
+  }
+  for (const unit of ['인블로그 콘텐츠', '네이버 블로그', 'GEO 사이트 구축', '커뮤니티 콘텐츠']) {
+    assert.match(pricing, new RegExp(unit), `단품 누락: ${unit}`);
+  }
+  // 스타터도 네이버를 본다(해외 툴 €8 애드온 출시 대응, 2026-09-29)
+  assert.match(pricing, /네이버 AI 브리핑 주 1회 측정/);
 });
 
 test('요금제 근거 문서의 내부 정보가 랜딩에 새지 않았다', () => {
-  for (const internal of ['내부 하한', '리셀 할인', '가격 책정 근거', '마진이 남지']) {
+  for (const internal of ['내부 하한', '리셀 할인', '가격 책정 근거', '마진이 남지', '450만', '워크스페이스 추가당']) {
     assert.equal(pricing.includes(internal), false, `내부 정보 노출: ${internal}`);
   }
 });
