@@ -136,6 +136,12 @@ test('요금제 v3: GEO 패키지 3종과 단품표가 있다', () => {
   for (const unit of ['인블로그 콘텐츠', '네이버 블로그', 'GEO 사이트 구축', '커뮤니티 콘텐츠']) {
     assert.match(pricing, new RegExp(unit), `단품 누락: ${unit}`);
   }
+  // 확산 단품은 20건 단위 벌크로만 판다
+  for (const bulk of ['100만원', '160만원', '350만원']) {
+    assert.match(pricing, new RegExp(bulk), `확산 20건 가격 누락: ${bulk}`);
+  }
+  assert.match(pricing, /20편 · 편당 5만원/);
+  assert.match(pricing, /20건 · 건당 8만원/);
   // 스타터도 네이버를 본다(해외 툴 €8 애드온 출시 대응, 2026-09-29)
   assert.match(pricing, /네이버 AI 브리핑 주 1회 측정/);
 });
