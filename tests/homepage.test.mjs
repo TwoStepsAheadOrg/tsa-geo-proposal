@@ -142,6 +142,11 @@ test('요금제 v3: GEO 패키지 3종과 단품표가 있다', () => {
   }
   assert.match(pricing, /20편 · 편당 5만원/);
   assert.match(pricing, /20건 · 건당 8만원/);
+  // 인블로그 단품도 20편 벌크
+  assert.match(pricing, /20편 · 편당 12만원/);
+  assert.match(pricing, /240만원/);
+  assert.match(pricing, /300만원/);
+  assert.equal(pricing.includes('최소 월 4편'), false, '인블로그 편당 판매 문구 잔존');
   // 스타터도 네이버를 본다(해외 툴 €8 애드온 출시 대응, 2026-09-29)
   assert.match(pricing, /네이버 AI 브리핑 주 1회 측정/);
 });
