@@ -9,7 +9,9 @@
     }
   ],
   "redirects": [
-    { "source": "/blog/", "destination": "/blog", "permanent": true }
+    { "source": "/blog/", "destination": "/blog", "permanent": true },
+    { "source": "/dashboard", "destination": "https://dashboard.plurank.com", "permanent": false },
+    { "source": "/login", "destination": "https://dashboard.plurank.com/login", "permanent": false }
   ],
   "rewrites": [
     { "source": "/blog", "destination": "/api/blog-index?lang=ko" },
