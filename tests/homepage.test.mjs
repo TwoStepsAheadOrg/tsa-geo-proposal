@@ -76,12 +76,12 @@ test('고객사는 기공개 실명만 노출한다', () => {
   }
 });
 
-test('본점 주소는 마포구 양화로 186이다 (소스 재빌드로 옛 주소가 되살아나지 않게)', () => {
+test('본점 주소는 마포구 월드컵북로 396이다 (소스 재빌드로 옛 주소가 되살아나지 않게)', () => {
   for (const [name, doc] of Object.entries({ index: html, pricing, ...trackers })) {
-    assert.match(doc, /마포구 양화로 186/, `${name}: 새 주소 누락`);
+    assert.match(doc, /마포구 월드컵북로 396/, `${name}: 새 주소 누락`);
   }
   for (const [name, doc] of Object.entries({ index: html, en, ja, pricing, ...trackers })) {
-    for (const old of ['압구정로', 'Apgujeong', '狎鴎亭']) {
+    for (const old of ['압구정로', 'Apgujeong', '狎鴎亭', '양화로 186', 'Yanghwa-ro', '楊花路']) {
       assert.equal(doc.includes(old), false, `${name}: 옛 주소 잔존(${old})`);
     }
   }
