@@ -48,6 +48,7 @@ export default async function handler(req, res) {
     source = '',
     type = 'diagnostic',
     name = '',
+    phone = '',
     persona = '',
     slot = '',
     service = '',
@@ -72,6 +73,18 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Invalid email format' });
   }
 
+  // The seven-day audit form requires contact details; other inquiry forms keep their contract.
+  if (type === 'diagnostic' && source === 'plurank-landing-hero-gate') {
+    if (typeof name !== 'string' || !name.trim() || name.trim().length > 100 ||
+        typeof phone !== 'string' || !phone.trim()) {
+      return res.status(400).json({ error: 'Missing or invalid contact details' });
+    }
+    const digits = phone.replace(/\D/g, '').length;
+    if (phone.length > 40 || !/^\+?[0-9\s().-]+$/.test(phone.trim()) || digits < 8 || digits > 15) {
+      return res.status(400).json({ error: 'Invalid phone format' });
+    }
+  }
+
   const webhookUrl = process.env.SLACK_WEBHOOK_URL;
   if (!webhookUrl) {
     return res.status(500).json({ error: 'Notification channel not configured' });
@@ -92,6 +105,7 @@ export default async function handler(req, res) {
   fields.push({ type: 'mrkdwn', text: `*회사명*\n${company}` });
   fields.push({ type: 'mrkdwn', text: `*이메일*\n${email}` });
   if (name)  fields.push({ type: 'mrkdwn', text: `*담당자*\n${name}` });
+  if (typeof phone === 'string' && phone.trim()) fields.push({ type: 'mrkdwn', text: `*연락처*\n${phone.trim()}` });
   if (url)   fields.push({ type: 'mrkdwn', text: `*URL / 도메인*\n${url}` });
   if (service) fields.push({ type: 'mrkdwn', text: `*관심 서비스*\n${service}` });
   if (request) fields.push({ type: 'mrkdwn', text: `*요청 자료*\n${request}` });
@@ -121,7 +135,10 @@ export default async function handler(req, res) {
       type: 'header',
       text: { type: 'plain_text', text: `${t.emoji} Plurank · ${t.title}`, emoji: true },
     },
-    { type: 'section', fields },
+    // Slack limits each section to ten fields, including attribution details.
+    ...Array.from({ length: Math.ceil(fields.length / 10) }, (_, i) => ({
+      type: 'section', fields: fields.slice(i * 10, (i + 1) * 10),
+    })),
   ];
 
   if (message) {
