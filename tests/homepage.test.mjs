@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
 import test from 'node:test';
 
 /**
@@ -209,10 +209,24 @@ test('ChatGPT 광고 페이지가 있고 홈 히어로에서 바로 간다', asy
   const gpt = await read('chatgpt-ads.html');
   assert.match(gpt, /<title>ChatGPT 퍼포먼스 광고 \| Plurank<\/title>/);
   assert.match(gpt, /rel="canonical" href="https:\/\/www\.plurank\.com\/chatgpt-ads"/);
-  for (const id of ['why', 'how', 'cases', 'honest', 'channels', 'gpt-contact', 'faq']) {
+  for (const id of ['where', 'why', 'how', 'cases', 'honest', 'channels', 'gpt-contact', 'faq']) {
     assert.match(gpt, new RegExp(`id="${id}"`), `누락된 섹션: ${id}`);
   }
   assert.match(gpt, /"@type": "FAQPage"/);
   assert.match(html, /class="pl-hero__ad" href="\/chatgpt-ads"/);
   assert.match(html, /href="\/chatgpt-ads">ChatGPT 광고 보기/);
+});
+
+test('ChatGPT 광고 페이지 v2: 설명 그림, 인포그래픽, 사례 로고', async () => {
+  const gpt = await read('chatgpt-ads.html');
+  for (const cls of ['pl-gpt-chat', 'pl-gpt-map', 'pl-gpt-steps', 'pl-gpt-roas']) {
+    assert.match(gpt, new RegExp(`class="[^"]*${cls}`), `누락된 그림: ${cls}`);
+  }
+  const logos = [...gpt.matchAll(/src="(\/logos\/cases\/[^"]+\.png)"/g)].map((m) => m[1]);
+  assert.ok(new Set(logos).size >= 8, `사례 로고 수: ${new Set(logos).size}`);
+  for (const src of new Set(logos)) {
+    const st = await stat(new URL(`..${src}`, import.meta.url));
+    assert.ok(st.size > 0, `로고 파일 없음: ${src}`);
+  }
+  assert.doesNotMatch(gpt, /싸서가 아니라|솔직하게/);
 });
