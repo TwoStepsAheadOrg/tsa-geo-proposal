@@ -203,3 +203,16 @@ test('홈은 순수 해시 앵커를 유지한다 (같은 페이지 스크롤)',
     assert.match(html, new RegExp(`href="${a}"`), `홈 앵커 누락: ${a}`);
   }
 });
+
+// ── ChatGPT 퍼포먼스 광고 (2026-11-25) ──────────────
+test('ChatGPT 광고 페이지가 있고 홈 히어로에서 바로 간다', async () => {
+  const gpt = await read('chatgpt-ads.html');
+  assert.match(gpt, /<title>ChatGPT 퍼포먼스 광고 \| Plurank<\/title>/);
+  assert.match(gpt, /rel="canonical" href="https:\/\/www\.plurank\.com\/chatgpt-ads"/);
+  for (const id of ['why', 'how', 'cases', 'honest', 'channels', 'gpt-contact', 'faq']) {
+    assert.match(gpt, new RegExp(`id="${id}"`), `누락된 섹션: ${id}`);
+  }
+  assert.match(gpt, /"@type": "FAQPage"/);
+  assert.match(html, /class="pl-hero__ad" href="\/chatgpt-ads"/);
+  assert.match(html, /href="\/chatgpt-ads">ChatGPT 광고 보기/);
+});

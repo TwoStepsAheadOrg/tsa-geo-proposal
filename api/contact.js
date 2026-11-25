@@ -13,6 +13,7 @@ const TYPE_LABELS = {
   'data-catalog':  { emoji: '📊', title: '데이터 카탈로그 문의' },
   'api-key':       { emoji: '🔑', title: 'API Key 요청' },
   'diagnostic':    { emoji: '🎯', title: '무료 진단 신청' },
+  'chatgpt-ads':   { emoji: '💬', title: 'ChatGPT 광고 상담 신청' },
   'toon-agent-consulting': { emoji: '🎨', title: 'Toon Agent 제작 상담' },
   'general':       { emoji: '✉️', title: '일반 문의' },
 };
