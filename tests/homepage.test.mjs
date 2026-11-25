@@ -230,3 +230,14 @@ test('ChatGPT 광고 페이지 v2: 설명 그림, 인포그래픽, 사례 로고
   }
   assert.doesNotMatch(gpt, /싸서가 아니라|솔직하게/);
 });
+
+test('ChatGPT 광고 페이지: 히어로 배경 선과 설명 영상', async () => {
+  const gpt = await read('chatgpt-ads.html');
+  assert.match(gpt, /class="pl-gpt-flow"/);
+  assert.match(gpt, /id="video"/);
+  assert.match(gpt, /poster="\/video\/gptads-explainer-poster\.jpg"/);
+  for (const f of ['video/gptads-explainer.mp4', 'video/gptads-explainer-poster.jpg']) {
+    const st = await stat(new URL(`../${f}`, import.meta.url));
+    assert.ok(st.size > 10_000 && st.size < 3_000_000, `${f} 크기 ${st.size}`);
+  }
+});
