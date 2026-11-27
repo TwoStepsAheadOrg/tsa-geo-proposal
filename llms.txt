@@ -83,6 +83,8 @@ A multi-signal AI model trained on 30M+ published-to-cited data records, capturi
 ## URLs
 
 - Main site: https://www.plurank.com
+- [병원 GEO 모니터링과 콘텐츠 개선](https://www.plurank.com/industries/hospital) covers Korean patient queries by location, specialty and branch.
+- [법무법인 GEO 모니터링과 콘텐츠 개선](https://www.plurank.com/industries/law-firm) covers Korean client queries by practice area and office location.
 - Korean: https://www.plurank.com/ko.html
 - English: https://www.plurank.com/en.html
 - Japanese: https://www.plurank.com/ja.html
